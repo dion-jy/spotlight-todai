@@ -27,7 +27,6 @@ The [`data/`](data/) folder holds per-conference markdown tables:
 - [`neurips-2025-oral.md`](data/neurips-2025-oral.md)
 - [`neurips-2025-spotlight.md`](data/neurips-2025-spotlight.md)
 - [`iclr-2026-oral.md`](data/iclr-2026-oral.md)
-- [`iclr-2026-spotlight.md`](data/iclr-2026-spotlight.md) — explains the absence of the track
 - [`icml-2026-oral.md`](data/icml-2026-oral.md) — note on the unpublished state
 - [`icml-2026-spotlight.md`](data/icml-2026-spotlight.md) — partial
 
