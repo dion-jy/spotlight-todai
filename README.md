@@ -15,7 +15,6 @@ Thousands of papers are accepted each year, but only the top 1-5% are designated
 | NeurIPS | 2025 | Oral | 77 | ✅ |
 | NeurIPS | 2025 | Spotlight | 689 | 🟡 raw (affiliation / summary to be enriched) |
 | ICLR | 2026 | Oral | 224 | ✅ (TLDR + affiliation) |
-| ICLR | 2026 | Spotlight | — | ICLR 2026 dropped the Spotlight track |
 | ICML | 2026 | Oral / Spotlight | — | Track not yet public (as of 2026-05); to be collected later |
 
 **~990 papers** total (as of 2026-05-14).
