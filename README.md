@@ -4,6 +4,8 @@
 
 For people who want to study AI deeply. Not a daily feed to skim — a backbone for **understanding frontier papers in depth**.
 
+**🔗 Browse online: [dion-jy.github.io/spotlight-todai](https://dion-jy.github.io/spotlight-todai)** — searchable, filterable table of all papers.
+
 ## Why only Oral & Spotlight?
 
 Thousands of papers are accepted each year, but only the top 1-5% are designated Oral or Spotlight. That layer has the highest signal-to-noise ratio. This archive collects only that layer.
@@ -15,9 +17,17 @@ Thousands of papers are accepted each year, but only the top 1-5% are designated
 | NeurIPS | 2025 | Oral | 77 | ✅ |
 | NeurIPS | 2025 | Spotlight | 689 | 🟡 raw (affiliation / summary to be enriched) |
 | ICLR | 2026 | Oral | 224 | ✅ (TLDR + affiliation) |
-| ICML | 2026 | Oral / Spotlight | — | Track not yet public (as of 2026-05); to be collected later |
+| ICML | 2026 | Oral | 168 | ✅ (title + author; affiliation/summary pending OpenReview proceedings) |
+| ICML | 2026 | Spotlight | 9 | 🟡 partial (track not yet fully public; from institutional press releases) |
 
-**~990 papers** total (as of 2026-05-14).
+**1167 papers** total.
+
+## Website
+
+A static, dependency-free site renders all papers in one searchable, filterable table:
+
+- **[dion-jy.github.io/spotlight-todai](https://dion-jy.github.io/spotlight-todai)** — search by title/author, filter by conference / track / year, dark mode.
+- Built from the `data/` markdown by [`build.py`](build.py) into [`data.json`](data.json).
 
 ## Data
 
@@ -26,7 +36,7 @@ The [`data/`](data/) folder holds per-conference markdown tables:
 - [`neurips-2025-oral.md`](data/neurips-2025-oral.md)
 - [`neurips-2025-spotlight.md`](data/neurips-2025-spotlight.md)
 - [`iclr-2026-oral.md`](data/iclr-2026-oral.md)
-- [`icml-2026-oral.md`](data/icml-2026-oral.md) — note on the unpublished state
+- [`icml-2026-oral.md`](data/icml-2026-oral.md)
 - [`icml-2026-spotlight.md`](data/icml-2026-spotlight.md) — partial
 
 Each paper: title / first author (affiliation) / OpenReview link / arXiv link / 1-2 line summary.

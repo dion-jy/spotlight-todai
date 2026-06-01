@@ -2,7 +2,7 @@
 
 **77 papers** (collected: 2026-05-14)
 
-| # | Title | First Author (Affiliation) | OpenReview | arXiv | Summary |
+| # | Title | First author (affiliation) | OpenReview | arXiv | Summary |
 |---|---|---|---|---|---|
 | 1 | Generalized Linear Mode Connectivity for Transformers | Alexander Theus (ETHZ - ETH Zurich) | [link](https://openreview.net/forum?id=KurYdcCbjv) |  | We propose a unified framework for model merging that leverages multiple symmetry classes to enable low- and zero-loss interpolation between independently trained Transformer models, including Vision Transformers and GPT-2. |
 | 2 | Deep Compositional Phase Diffusion for Long Motion Sequence Generation | Ho Yin Au (Hong Kong Baptist University) | [link](https://openreview.net/forum?id=jzPQRbGkAq) | [link](https://arxiv.org/abs/2510.14427) | The proposed Compositional Phase Diffusion framework consistently generates semantically aligned multi-clip motion with smooth transitions by using latent-phase diffusion modules (SPDM and TPDM) to preserve phase continuity and enable inbetweening. |
@@ -83,11 +83,11 @@
 | 77 | Mean Flows for One-step Generative Modeling | Zhengyang Geng (Carnegie Mellon University) | [link](https://openreview.net/forum?id=uWj4s7rMnR) |  | We propose a principled and effective framework for one-step generative modeling. We introduce the notion of average velocity to characterize flow fields, in contrast to instantaneous velocity modeled by Flow Matching methods. |
 
 ---
-## Source & Methodology
+## Sources + methodology
 - Primary source: OpenReview API (`https://api2.openreview.net/notes?content.venue=NeurIPS%202025%20oral`)
 - First-author affiliation: OpenReview profile API (`/profiles?id=<authorid>`) — history[0].institution.name
 - arXiv links: arXiv API title-search (`ti:"<title>"`). Left blank if no match (no fabrication).
-- Summary: OpenReview TLDR if available, otherwise first 1-2 sentences of the abstract
-- Collected: 2026-05-14
-- Cross-check: openreview.net venueid=NeurIPS.cc/2025/Conference venue distribution (oral 77, spotlight 689, poster ~5000+)
-- Gaps / caveats: papers not on arXiv have an empty arXiv cell. OpenReview rate limits (429) meant some affiliations were filled in on retry. Authors with empty profile history have no affiliation listed.
+- Summary: OpenReview TLDR preferred, else the first 1-2 sentences of the abstract
+- Collection date: 2026-05-14
+- Cross-check: venue distribution within openreview.net venueid=NeurIPS.cc/2025/Conference (oral 77, spotlight 689, poster ~5000+)
+- Gaps / uncertainties: papers not registered on arXiv have an empty arXiv cell. Due to OpenReview rate limiting (429), some affiliations were filled in only after retries. Authors with empty profile history have no affiliation.

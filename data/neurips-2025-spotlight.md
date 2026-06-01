@@ -2,7 +2,7 @@
 
 **689 papers** (collected: 2026-05-14, raw OpenReview metadata)
 
-| # | Title | First Author (Affiliation) | OpenReview | arXiv | Summary |
+| # | Title | First author (affiliation) | OpenReview | arXiv | Summary |
 |---|---|---|---|---|---|
 | 1 | MoCha: Towards Movie-Grade Talking Character Generation | Cong Wei | [link](https://openreview.net/forum?id=sMWNkIyM41) |  | Recent advancements in video generation have achieved impressive motion realism, yet they often overlook character-driven storytelling, a crucial task for automated film, animation generation |
 | 2 | WISA: World simulator assistant for physics-aware text-to-video generation | Jing Wang | [link](https://openreview.net/forum?id=l6TuKz5zvT) |  | Recent advances in text-to-video (T2V) generation, exemplified by models such as Sora and Kling, have demonstrated strong potential for constructing world simulators |
@@ -695,7 +695,7 @@
 | 689 | Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization | Chris Kolb | [link](https://openreview.net/forum?id=8OGTkEJrmb) |  | Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit |
 
 ---
-## Source & Methodology
+## Sources + methodology
 - Primary source: OpenReview API venueid=OpenReview.net/Archive content.venue=NeurIPS+2025+spotlight
-- Collected: 2026-05-14
-- Gaps / caveats: affiliation extraction incomplete (raw metadata pass). Summaries are first sentence of abstract only.
+- Collection date: 2026-05-14
+- Gaps / uncertainties: institution extraction left incomplete due to an interrupted agent run. Only part of the abstract is captured as a 1-line summary.

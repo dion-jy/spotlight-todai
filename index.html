@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpotlightTodAI</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --panel: #ffffff;
+    --text: #1a1d21;
+    --muted: #5b6471;
+    --border: #e3e6ea;
+    --hover: #f0f2f5;
+    --accent: #4f46e5;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --icml: #2563eb;   --icml-bg: #e7efff;
+    --iclr: #0891b2;   --iclr-bg: #e0f5fa;
+    --neurips: #7c3aed; --neurips-bg: #efe7fd;
+    --oral: #dc2626;   --oral-bg: #fde7e7;
+    --spot: #d97706;   --spot-bg: #fdf0db;
+  }
+  html[data-theme="dark"] {
+    --bg: #0e1116;
+    --panel: #171b22;
+    --text: #e6e9ef;
+    --muted: #9aa4b2;
+    --border: #2a2f3a;
+    --hover: #1d222b;
+    --accent: #818cf8;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+    --icml: #93c0ff;   --icml-bg: #16263f;
+    --iclr: #67d7ec;   --iclr-bg: #0e2f38;
+    --neurips: #c4a8fb; --neurips-bg: #2a1f44;
+    --oral: #fb8888;   --oral-bg: #3a1c1c;
+    --spot: #f3b65a;   --spot-bg: #3a2b10;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 24px 18px 80px; }
+
+  header.top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.4px; }
+  .subtitle { color: var(--muted); margin: 0; font-size: 15px; }
+  .count-line { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  .count-line b { color: var(--text); }
+
+  .theme-btn {
+    border: 1px solid var(--border); background: var(--panel); color: var(--text);
+    border-radius: 8px; padding: 8px 12px; cursor: pointer; font-size: 13px;
+    box-shadow: var(--shadow);
+  }
+  .theme-btn:hover { background: var(--hover); }
+
+  .controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 22px 0 16px; }
+  .search {
+    flex: 1 1 260px; min-width: 200px; padding: 10px 14px; font-size: 14px;
+    border: 1px solid var(--border); border-radius: 8px; background: var(--panel); color: var(--text);
+    box-shadow: var(--shadow);
+  }
+  .search:focus { outline: none; border-color: var(--accent); }
+  select {
+    padding: 9px 12px; font-size: 14px; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--panel); color: var(--text); cursor: pointer; box-shadow: var(--shadow);
+  }
+  .result-count { color: var(--muted); font-size: 13px; margin-left: auto; white-space: nowrap; }
+
+  .table-wrap { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead th {
+    text-align: left; padding: 11px 14px; color: var(--muted); font-weight: 600; font-size: 12px;
+    text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid var(--border);
+    background: var(--panel); position: sticky; top: 0; z-index: 1;
+  }
+  tbody td { padding: 11px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--hover); }
+  .col-id { color: var(--muted); width: 46px; font-variant-numeric: tabular-nums; }
+  .col-title { font-weight: 600; max-width: 540px; }
+  .col-author { color: var(--text); white-space: nowrap; }
+  .col-affil { color: var(--muted); }
+  .col-badges { white-space: nowrap; }
+
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.3px; margin-right: 4px;
+  }
+  .b-ICML { color: var(--icml); background: var(--icml-bg); }
+  .b-ICLR { color: var(--iclr); background: var(--iclr-bg); }
+  .b-NeurIPS { color: var(--neurips); background: var(--neurips-bg); }
+  .b-Oral { color: var(--oral); background: var(--oral-bg); }
+  .b-Spotlight { color: var(--spot); background: var(--spot-bg); }
+
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+  .more-row td { text-align: center; padding: 14px; }
+  .more-btn { border: 1px solid var(--border); background: var(--panel); color: var(--accent); border-radius: 8px; padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 600; }
+  .more-btn:hover { background: var(--hover); }
+
+  footer { margin-top: 40px; color: var(--muted); font-size: 12px; text-align: center; }
+
+  @media (max-width: 760px) {
+    .col-affil, thead th.h-affil { display: none; }
+    h1 { font-size: 23px; }
+    .col-title { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>SpotlightTodAI</h1>
+      <p class="subtitle">Oral &amp; Spotlight papers from top AI conferences</p>
+      <div class="count-line" id="countLine">Loading…</div>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
+  </header>
+
+  <section id="view-all">
+    <div class="controls">
+      <input class="search" id="search" type="search" placeholder="Search title or author…" autocomplete="off">
+      <select id="fConf">
+        <option value="">All conferences</option>
+        <option value="ICML">ICML</option>
+        <option value="ICLR">ICLR</option>
+        <option value="NeurIPS">NeurIPS</option>
+      </select>
+      <select id="fTrack">
+        <option value="">All tracks</option>
+        <option value="Oral">Oral</option>
+        <option value="Spotlight">Spotlight</option>
+      </select>
+      <select id="fYear">
+        <option value="">All years</option>
+      </select>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-id">#</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th class="h-affil">Affiliation</th>
+            <th>Venue</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    SpotlightTodAI · static site, no dependencies · data parsed from collections/*.md
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var PAGE = 60;          // rows rendered per page in the All Papers table
+  var papers = [];
+  var shown = PAGE;
+
+  // ---- data loading: prefer inlined window.PAPERS (file:// safe), fallback to fetch ----
+  function loadData(cb) {
+    if (Array.isArray(window.PAPERS) && window.PAPERS.length) {
+      cb(window.PAPERS);
+      return;
+    }
+    fetch("data.json")
+      .then(function (r) { return r.json(); })
+      .then(cb)
+      .catch(function () {
+        document.getElementById("countLine").textContent =
+          "Could not load data. Run build.py, then open via a local server or ensure data.js is present.";
+      });
+  }
+
+  // ---- helpers ----
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+  function primaryLink(p) {
+    if (p.links.detail) return p.links.detail;
+    if (p.links.openreview) return p.links.openreview;
+    if (p.links.arxiv) return p.links.arxiv;
+    return "";
+  }
+  function badge(cls, label) {
+    return '<span class="badge b-' + cls + '">' + label + '</span>';
+  }
+
+  // ---- All Papers ----
+  var els = {};
+  function cacheEls() {
+    els.search = document.getElementById("search");
+    els.fConf = document.getElementById("fConf");
+    els.fTrack = document.getElementById("fTrack");
+    els.fYear = document.getElementById("fYear");
+    els.tbody = document.getElementById("tbody");
+    els.resultCount = document.getElementById("resultCount");
+  }
+
+  function currentFilter() {
+    var q = els.search.value.trim().toLowerCase();
+    var conf = els.fConf.value, track = els.fTrack.value, year = els.fYear.value;
+    return papers.filter(function (p) {
+      if (conf && p.conference !== conf) return false;
+      if (track && p.track !== track) return false;
+      if (year && String(p.year) !== year) return false;
+      if (q) {
+        var hay = (p.title + " " + p.author + " " + p.affiliation).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  function rowHTML(p) {
+    var link = primaryLink(p);
+    var title = link
+      ? '<a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(p.title) + "</a>"
+      : esc(p.title);
+    var venue = badge(p.conference, p.conference) + badge(p.track, p.track) +
+      '<span style="color:var(--muted);font-size:12px;">' + p.year + "</span>";
+    return "<tr>" +
+      '<td class="col-id">' + p.id + "</td>" +
+      '<td class="col-title">' + title + "</td>" +
+      '<td class="col-author">' + esc(p.author) + "</td>" +
+      '<td class="col-affil">' + esc(p.affiliation) + "</td>" +
+      '<td class="col-badges">' + venue + "</td>" +
+      "</tr>";
+  }
+
+  function renderAll() {
+    var list = currentFilter();
+    els.resultCount.textContent = list.length + " of " + papers.length + " papers";
+    if (!list.length) {
+      els.tbody.innerHTML = '<tr><td colspan="5" class="empty">No papers match your filters.</td></tr>';
+      return;
+    }
+    var slice = list.slice(0, shown);
+    var html = slice.map(rowHTML).join("");
+    if (list.length > shown) {
+      var remaining = list.length - shown;
+      html += '<tr class="more-row"><td colspan="5">' +
+        '<button class="more-btn" id="moreBtn" type="button">Show more (' + remaining + " remaining)</button>" +
+        "</td></tr>";
+    }
+    els.tbody.innerHTML = html;
+    var mb = document.getElementById("moreBtn");
+    if (mb) mb.addEventListener("click", function () { shown += PAGE; renderAll(); });
+  }
+
+  function resetAndRender() { shown = PAGE; renderAll(); }
+
+  // ---- theme ----
+  function applyTheme(t) {
+    document.documentElement.setAttribute("data-theme", t);
+    document.getElementById("themeBtn").textContent = t === "dark" ? "Light mode" : "Dark mode";
+    try { localStorage.setItem("sta-theme", t); } catch (e) {}
+  }
+
+  // ---- init ----
+  function init(data) {
+    papers = data;
+    cacheEls();
+
+    // counts header
+    var byConf = {};
+    papers.forEach(function (p) { byConf[p.conference] = (byConf[p.conference] || 0) + 1; });
+    document.getElementById("countLine").innerHTML =
+      "<b>" + papers.length + "</b> papers · " +
+      "ICML " + (byConf.ICML || 0) + " · ICLR " + (byConf.ICLR || 0) + " · NeurIPS " + (byConf.NeurIPS || 0);
+
+    // year options
+    var years = {};
+    papers.forEach(function (p) { years[p.year] = true; });
+    Object.keys(years).sort().reverse().forEach(function (y) {
+      var o = document.createElement("option");
+      o.value = y; o.textContent = y;
+      els.fYear.appendChild(o);
+    });
+
+    // listeners
+    els.search.addEventListener("input", resetAndRender);
+    els.fConf.addEventListener("change", resetAndRender);
+    els.fTrack.addEventListener("change", resetAndRender);
+    els.fYear.addEventListener("change", resetAndRender);
+    document.getElementById("themeBtn").addEventListener("click", function () {
+      var cur = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(cur);
+    });
+
+    renderAll();
+  }
+
+  // theme from storage or system preference
+  var saved = null;
+  try { saved = localStorage.getItem("sta-theme"); } catch (e) {}
+  if (!saved) {
+    saved = (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  }
+  applyTheme(saved);
+
+  loadData(init);
+})();
+</script>
+</body>
+</html>

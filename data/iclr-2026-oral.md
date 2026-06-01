@@ -2,9 +2,9 @@
 
 **224 papers** (collected: 2026-05-14)
 
-> ICLR 2026 has no separate Spotlight category. Accept decisions are only `Oral` and `Poster` (source: OpenReview venue config `accept_decision_options`, and the `iclr.cc/virtual/2026/events/spotlight` page showing "0 Events"). This file lists all Orals.
+> ICLR 2026 has no separate Spotlight category. There are only two accept decisions, `Oral` and `Poster` (sources: `accept_decision_options` in the OpenReview venue config, and the "0 Events" state of the `iclr.cc/virtual/2026/events/spotlight` page). This file lists all Orals.
 
-| # | Title | First Author (Affiliation) | OpenReview | arXiv | Summary |
+| # | Title | First author (affiliation) | OpenReview | arXiv | 1-2 line summary |
 |---|---|---|---|---|---|
 | 1 | Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training | Pierre-Carl Langlais (Pleias) | [link](https://openreview.net/forum?id=0wSlFpMsGb) |  | We assemble and release the largest truly open multilingual dataset for LLM pre-training consisting of 2 trillion tokens |
 | 2 | Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training | Artyom Sorokin (Applied AI Institute) | [link](https://openreview.net/forum?id=MS9nWFY7LG) |  | Retrieval-Augmented Generation (RAG) methods enhance LLM performance by efficiently filtering relevant context for LLMs, reducing hallucinations and inference cost. However, most existing RAG methods focus on single-step retrieval, which is often insufficient for answering complex questions that require multi-step search. |
@@ -233,16 +233,16 @@
 
 ---
 
-## Source & Methodology
+## Sources + methodology
 
 - **Primary source:** OpenReview API v2 (`https://api2.openreview.net/notes?content.venue=ICLR%202026%20Oral`). Returns 224 notes — confirmed via offset paging that nothing exists past index 223.
-- **Spotlight absence confirmed:** OpenReview venue config (`accept_decision_options = ["Accept (Oral)", "Accept (Poster)", ...]`) has no Spotlight option, and `iclr.cc/virtual/2026/events/spotlight` shows "0 Events / No Events Available". ICLR 2026 therefore has Oral only.
-- **Cross-check:** `iclr.cc/virtual/2026/events/oral` exposes the Oral track separately (paper id format matches `/virtual/2026/oral/<id>`).
-- **First-author affiliation:** From OpenReview profile history (`api2.openreview.net/profiles?id=...`), prefer the institution.name of the current position (empty `end`), otherwise the first entry. Some profiles are blank because the user did not fill in history or due to API rate-limits (429).
-- **Summary:** Author-written `TLDR` if available, otherwise first 1-2 sentences of the abstract. Some entries are truncated at ~350 chars.
-- **arXiv:** OpenReview metadata has no arXiv id field, so arXiv links were not collected (spec: best-effort, blank if not found).
-- **Collected:** 2026-05-14
-- **Gaps / caveats:**
-  - First-author institution missing for 17 of 224 papers (OpenReview rate-limit or unfilled profile history). Re-collectable if needed.
-  - arXiv links uniformly absent (see above).
-  - The "Spotlight" track does not exist for ICLR 2026, so the separate file only contains an explanatory note.
+- **Confirming the absence of Spotlight:** the OpenReview venue config (`accept_decision_options = ["Accept (Oral)", "Accept (Poster)", ...]`) has no Spotlight option, and the `iclr.cc/virtual/2026/events/spotlight` page is in a "0 Events / No Events Available" state. Therefore ICLR 2026 has only Orals.
+- **Cross-check:** confirmed that the `iclr.cc/virtual/2026/events/oral` page exposes the Oral track separately (matching the paper id format `/virtual/2026/oral/<id>`).
+- **First-author affiliation:** from the OpenReview profile history (`api2.openreview.net/profiles?id=...`), preferring the institution.name of the current position whose `end` is empty, otherwise the first entry. Some profiles may be empty because the user did not fill in their history or due to API rate-limiting (429).
+- **Summary:** the author-written `TLDR` preferred, otherwise the first 1-2 sentences of the abstract. Some phrasing may be truncated by the length limit (~350 chars).
+- **arXiv:** OpenReview metadata has no arXiv id field, so this was not separately collected (instruction: best-effort, blank if absent).
+- **Collection date:** 2026-05-14
+- **Gaps / uncertainties:**
+  - First-author institution missing for 17 of 224 papers (OpenReview rate-limit or unfilled profile history). Can be re-collected if needed.
+  - arXiv links absent across the board (per the reason above).
+  - The "Spotlight" track does not exist for ICLR 2026, so its separate file contains only an empty-directory notice.
