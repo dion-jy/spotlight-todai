@@ -11,11 +11,15 @@ Each paper record:
     "year": int,
     "track": "Oral"|"Spotlight",
     "title": str,
-    "author": str,
+    "author": str,            # first author (single string, kept for back-compat)
+    "authors": [str],         # FULL author list when available, else [author]
     "affiliation": str,       # "" if unknown
     "links": {"openreview": str, "arxiv": str, "detail": str},  # "" if absent
     "summary": str,           # "" if absent
   }
+
+Full author lists are merged from authors.json (a sidecar enrichment file keyed
+by "<conference>|<year>|<track>|<id>") so the source markdown stays untouched.
 """
 
 import json
@@ -24,6 +28,7 @@ import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 COLLECTIONS = os.path.join(HERE, "data")
+AUTHORS_JSON = os.path.join(HERE, "authors.json")
 
 # (filename, conference, year, track)
 FILES = [
@@ -138,9 +143,23 @@ def parse_icml_oral(path):
     return rows
 
 
+def load_authors_map():
+    """Load the optional authors.json enrichment file.
+
+    Keys are "<conference>|<year>|<track>|<id>" -> [full author list].
+    Returns {} if the file is absent.
+    """
+    if not os.path.exists(AUTHORS_JSON):
+        return {}
+    with open(AUTHORS_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def main():
+    authors_map = load_authors_map()
     papers = []
     counts = {}
+    enriched = 0
     for fname, conf, year, track in FILES:
         path = os.path.join(COLLECTIONS, fname)
         if fname == "icml-2026-oral.md":
@@ -149,6 +168,14 @@ def main():
             rows = parse_standard(path)
 
         for r in rows:
+            mk = "%s|%d|%s|%d" % (conf, year, track, r["id"])
+            full = authors_map.get(mk)
+            if full:
+                authors = full
+                enriched += 1
+            else:
+                # fall back to the single first author (back-compat)
+                authors = [r["author"]] if r["author"] else []
             papers.append({
                 "id": r["id"],
                 "conference": conf,
@@ -156,6 +183,7 @@ def main():
                 "track": track,
                 "title": r["title"],
                 "author": r["author"],
+                "authors": authors,
                 "affiliation": r["affiliation"],
                 "links": r["links"],
                 "summary": r["summary"],
@@ -183,6 +211,9 @@ def main():
     print("Total papers: %d" % total)
     for k in sorted(counts):
         print("  %-22s %4d" % (k, counts[k]))
+    multi = sum(1 for p in papers if len(p.get("authors") or []) > 1)
+    print("Full-author records (from authors.json): %d" % enriched)
+    print("Records with >1 author: %d" % multi)
 
     expected = 224 + 168 + 9 + 77 + 689
     if total != expected:

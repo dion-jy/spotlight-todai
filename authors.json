@@ -1,0 +1,9300 @@
+{
+"ICML|2026|Oral|1": [
+"Samuele Marro",
+"Jialin Yu",
+"Emanuele La Malfa",
+"Oishi Deb",
+"Jiawei Li",
+"Yibo Yang",
+"Ebey Abraham",
+"Sunando Sengupta",
+"Eric Sommerlade",
+"Michael Wooldridge",
+"Phil Torr"
+],
+"ICML|2026|Oral|2": [
+"Kenshi Abe",
+"Mitsuki Sakamoto",
+"Kaito Ariu",
+"Atsushi Iwasaki"
+],
+"ICML|2026|Oral|3": [
+"Stella Biderman",
+"Mohammad Aflah Khan",
+"Fatemehsadat Mireshghallah",
+"Catherine Arnett",
+"Fazl Barez",
+"Naomi Saphra"
+],
+"ICML|2026|Oral|4": [
+"Arnav Shah",
+"Junzhe Li",
+"Parsa Idehpour",
+"Adibvafa Fallahpour",
+"Brandon Wang",
+"Sukjun Hwang",
+"BO WANG",
+"Patrick Hsu",
+"Hani Goodarzi",
+"Albert Gu"
+],
+"ICML|2026|Oral|5": [
+"Chufan Shi",
+"Cheng Yang",
+"Yaokang Wu",
+"Linghao Jin",
+"Bo Shui",
+"Taylor Berg-Kirkpatrick",
+"Xuezhe Ma"
+],
+"ICML|2026|Oral|6": [
+"Sagnik Mukherjee",
+"Lifan Yuan",
+"Pavan Jayasinha",
+"Dilek Hakkani-Tür",
+"Hao Peng"
+],
+"ICML|2026|Oral|7": [
+"Vasily Ilin",
+"Peter Sushko",
+"Ranjay Krishna"
+],
+"ICML|2026|Oral|8": [
+"Qingdong He",
+"Chaoyi Wang",
+"Peng TANG",
+"Yifan Yang",
+"Xiaobin Hu"
+],
+"ICML|2026|Oral|9": [
+"Ishaan Singh Chandok",
+"Core Francisco Park"
+],
+"ICML|2026|Oral|10": [
+"Srećko Ðurašinović",
+"Jean B Lasserre",
+"Victor Magron"
+],
+"ICML|2026|Oral|11": [
+"Kieran Didi",
+"Sarah Alamdari",
+"Alex Lu",
+"Bruce Wittmann",
+"Kadina Johnston",
+"Ava Amini",
+"Ali Madani",
+"Maya Czeneszew",
+"Christian Dallago",
+"Kevin Yang"
+],
+"ICML|2026|Oral|12": [
+"Ji Zeng",
+"Dayuan Fu",
+"Tiantian Mi",
+"Zhuang Yumin",
+"Yaxing Huang",
+"Xuefeng Li",
+"Lyumanshan Ye",
+"Muhang Xie",
+"Qishuo Hua",
+"Zhen Huang",
+"Mohan Jiang",
+"Hanning Wang",
+"Shijie Xia",
+"Yang Xiao",
+"Jie Sun",
+"Yunze Wu",
+"Pengfei Liu"
+],
+"ICML|2026|Oral|13": [
+"Metod Jazbec",
+"Theo X. Olausson",
+"Louis Béthune",
+"Pierre Ablin",
+"Michael Kirchhof",
+"Joao Monteiro",
+"Victor Guilherme Turrisi da Costa",
+"Jason Ramapuram",
+"Marco Cuturi"
+],
+"ICML|2026|Oral|14": [
+"Huayu Deng",
+"Jinghui Zhong",
+"Xiangming Zhu",
+"Yunbo Wang",
+"Xiaokang Yang"
+],
+"ICML|2026|Oral|15": [
+"Yanru Qu",
+"Cheng-Yen Hsieh",
+"Zaixiang Zheng",
+"Ge Liu",
+"Quanquan Gu"
+],
+"ICML|2026|Oral|16": [
+"Yanglin Feng",
+"Yang Qin",
+"Dezhong Peng",
+"Rui Wang",
+"Xiaomin Song",
+"Peng Hu"
+],
+"ICML|2026|Oral|17": [
+"Jea Kwon",
+"Dong-Kyum Kim",
+"Jiwon Kim",
+"Yonghyun Kim",
+"Woong Kook",
+"MEEYOUNG CHA"
+],
+"ICML|2026|Oral|18": [
+"Siqiao Mu",
+"Diego Klabjan"
+],
+"ICML|2026|Oral|19": [
+"Xindi Wu",
+"Despoina Paschalidou",
+"Jun Gao",
+"Antonio Torralba",
+"Laura Leal-Taixé",
+"Olga Russakovsky",
+"Sanja Fidler",
+"Jonathan Lorraine"
+],
+"ICML|2026|Oral|20": [
+"Zhongzhi Li",
+"Xuansheng Wu",
+"Yijiang Li",
+"Lijie Hu",
+"Ninghao Liu"
+],
+"ICML|2026|Oral|21": [
+"Lukasz Borchmann",
+"Jordy Van Landeghem",
+"Michał Turski",
+"Shreyansh Padarha",
+"Ryan Kearns",
+"Adam Mahdi",
+"Niels Rogge",
+"Clémentine Fourrier",
+"Siwei Han",
+"Huaxiu Yao",
+"Artemis Llabrés",
+"Yiming Xu",
+"Dimosthenis Karatzas",
+"Hao Zhang",
+"Anupam Datta"
+],
+"ICML|2026|Oral|22": [
+"Dexiong Chen",
+"Andrei Manolache",
+"Mathias Niepert",
+"Karsten Borgwardt"
+],
+"ICML|2026|Oral|23": [
+"Yichen Gong",
+"Zhuohan Cai",
+"Sunhao Dai",
+"Yuqi Zhou",
+"Zhangxuan Gu",
+"Changhua Meng",
+"Shuheng Shen"
+],
+"ICML|2026|Oral|24": [
+"Shaobo Wang",
+"Xuan Ouyang",
+"Tianyi Xu",
+"Yuzheng Hu",
+"Jialin Liu",
+"Guo Chen",
+"Tianyu Zhang",
+"Junhao Zheng",
+"Kexin Yang",
+"Xingzhang Ren",
+"Dayiheng Liu",
+"Linfeng Zhang"
+],
+"ICML|2026|Oral|25": [
+"Biagio La Rosa",
+"Leilani Gilpin"
+],
+"ICML|2026|Oral|26": [
+"Anders Bo Ipsen",
+"Stratis Skoulakis"
+],
+"ICML|2026|Oral|27": [
+"Jacob Bamberger",
+"Adam Gosztolai",
+"Pierre Vandergheynst",
+"Michael Bronstein",
+"Iolo Jones"
+],
+"ICML|2026|Oral|28": [
+"Mingde Yao",
+"Zhiyuan You",
+"King-Man Tam",
+"Menglu Wang",
+"Tianfan Xue"
+],
+"ICML|2026|Oral|29": [
+"Vansh Gupta",
+"Peter Nutter",
+"Samuel Stante",
+"Andreas Krause",
+"Florian Tramer",
+"Lukas Fluri",
+"Xin Chen",
+"Anna Hedström"
+],
+"ICML|2026|Oral|30": [
+"Nikita Borodin",
+"Maria Krylova",
+"Artem Zabolotnyi",
+"Dmitry Aspisov",
+"Egor Shikov",
+"Nikita Tyuplyaev",
+"Oleg Travkin",
+"Roman Alferov",
+"Dmitry Vinichenko"
+],
+"ICML|2026|Oral|31": [
+"Hao Zhang",
+"Yaru Niu",
+"Yikai Wang",
+"Ding Zhao",
+"Eric Tseng"
+],
+"ICML|2026|Oral|32": [
+"Friedrich Hastedt",
+"Dongda Zhang",
+"Antonio Del rio chanona"
+],
+"ICML|2026|Oral|33": [
+"Tian Xie",
+"Haoming Luo",
+"Haoyu Tang",
+"Hu Yiwen",
+"Jason Liu",
+"Qingnan Ren",
+"Yang Wang",
+"Xin Zhao",
+"Rui Yan",
+"Bing Su",
+"Chong Luo",
+"Baining Guo"
+],
+"ICML|2026|Oral|34": [
+"Feng Zhao",
+"Hong Zhang",
+"Yu Yang",
+"Ruilin Zhao",
+"Guandong Xu"
+],
+"ICML|2026|Oral|35": [
+"Stefan Huber",
+"Hannes Unger",
+"Georg Schäfer",
+"Jakob Rehrl"
+],
+"ICML|2026|Oral|36": [
+"Melody Guan",
+"Miles Wang",
+"Micah Carroll",
+"Zehao Dou",
+"Annie Wei",
+"Marcus Williams",
+"Benjamin Arnav",
+"Joost Huizinga",
+"Ian Kivlichan",
+"Amelia Glaese",
+"Jakub Pachocki",
+"Bowen Baker"
+],
+"ICML|2026|Oral|37": [
+"Usman A Khan",
+"Joseph Durham"
+],
+"ICML|2026|Oral|38": [
+"Hao Wei",
+"Björn List",
+"Nils Thuerey"
+],
+"ICML|2026|Oral|39": [
+"Naïm Es-sebbani",
+"Esteban Marquer",
+"Yakoub Salhi",
+"Zied Bouraoui"
+],
+"ICML|2026|Oral|40": [
+"Jiawei Gu",
+"Ziyue Qiao",
+"Xiao Luo"
+],
+"ICML|2026|Oral|41": [
+"Fahim Tajwar",
+"Guanning Zeng",
+"Yueer Zhou",
+"Yuda Song",
+"Daman Arora",
+"Yiding Jiang",
+"Jeff Schneider",
+"Russ Salakhutdinov",
+"Haiwen Feng",
+"Andrea Zanette"
+],
+"ICML|2026|Oral|42": [
+"Yoshihiro Maruyama"
+],
+"ICML|2026|Oral|43": [
+"Zander Blasingame",
+"Chen Liu"
+],
+"ICML|2026|Oral|44": [
+"Xinyi Hu",
+"Yuhao Shen",
+"Zhang Baolin",
+"Hengxin Zhang",
+"Jun Dai",
+"Shuang Ge",
+"Chen Lei",
+"Yue Li",
+"Mingcheng Wan"
+],
+"ICML|2026|Oral|45": [
+"Mohammad Taufeeque",
+"Stefan Heimersheim",
+"Adam Gleave",
+"Chris Cundy"
+],
+"ICML|2026|Oral|46": [
+"Sejun Park",
+"Yeachan Park",
+"Geonho Hwang"
+],
+"ICML|2026|Oral|47": [
+"Yinpei Dai",
+"Hongze Fu",
+"Jayjun Lee",
+"Yuejiang Liu",
+"Haoran Zhang",
+"Jianing Yang",
+"Chelsea Finn",
+"Nima Fazeli",
+"Joyce Chai"
+],
+"ICML|2026|Oral|48": [
+"Harin Lee",
+"Kevin Jamieson"
+],
+"ICML|2026|Oral|49": [
+"Liang Su",
+"Mingyang Zhang",
+"Yun Xiong",
+"Tengfei LIU",
+"Siwei Zhang",
+"Xi Chen",
+"Li Sun"
+],
+"ICML|2026|Oral|50": [
+"Maxime Meyer",
+"Mario Michelessa",
+"Caroline Chaux",
+"Vincent Tan"
+],
+"ICML|2026|Oral|51": [
+"Tao Wang",
+"Edgar Dobriban"
+],
+"ICML|2026|Oral|52": [
+"Kexin Zhang",
+"Weichen Qin",
+"Yue Teng",
+"Jiale Yu",
+"Yuanyuan Ma",
+"jinyu lin",
+"Liping Sun",
+"Jie Zheng",
+"Jingyi Yu"
+],
+"ICML|2026|Oral|53": [
+"Zihan (Zenus) Wang",
+"Chi Gui",
+"Xing Jin",
+"Qineng Wang",
+"Licheng Liu",
+"Kangrui Wang",
+"Shiqi Chen",
+"Linjie Li",
+"Zhengyuan Yang",
+"Pingyue Zhang",
+"Yiping Lu",
+"Jiajun Wu",
+"Li Fei-Fei",
+"Lijuan Wang",
+"Yejin Choi",
+"Manling Li"
+],
+"ICML|2026|Oral|54": [
+"Woojin Kim",
+"Sieun Hyeon",
+"Jusang Oh",
+"Jaeyoung Do"
+],
+"ICML|2026|Oral|55": [
+"Constantin Ruhdorfer",
+"Matteo Bortoletto",
+"Victor Oei",
+"Anna Penzkofer",
+"Andreas Bulling"
+],
+"ICML|2026|Oral|56": [
+"Thai Khanh Nguyen",
+"Ngoc Bich Uyen Vo",
+"Thieu Vo",
+"Tan Nguyen",
+"Cuong Pham"
+],
+"ICML|2026|Oral|57": [
+"Zhibin Duan",
+"Guowei Rong",
+"Zhuo Li",
+"Bo Chen",
+"Mingyuan Zhou",
+"Dandan Guo"
+],
+"ICML|2026|Oral|58": [
+"Shuchen Xue",
+"Tianyu Xie",
+"Tianyang Hu",
+"Zijin Feng",
+"Jiacheng Sun",
+"Kenji Kawaguchi",
+"Zhenguo Li",
+"Zhi-Ming Ma"
+],
+"ICML|2026|Oral|59": [
+"Alex Hernandez-Garcia",
+"Alexandra Volokhova",
+"Ezekiel Williams",
+"Dounia Shaaban Kabakibo",
+"Mélisande Teng"
+],
+"ICML|2026|Oral|60": [
+"WANG",
+"Qixin Xu",
+"Changpeng Wang",
+"Taofeng Xue",
+"Chong Peng",
+"Wenhu Chen",
+"Fangzhen Lin"
+],
+"ICML|2026|Oral|61": [
+"Joachim Baumann",
+"Jiaxin Pei",
+"Sanmi Koyejo",
+"Dirk Hovy"
+],
+"ICML|2026|Oral|62": [
+"Zhicheng Fang",
+"Jingjie Zheng",
+"Chenxu Fu",
+"Wei Xu"
+],
+"ICML|2026|Oral|63": [
+"Baptiste Ferrere",
+"Nicolas Bousquet",
+"Gamboa Fabrice",
+"Jean-Michel Loubes",
+"Joseph Muré"
+],
+"ICML|2026|Oral|64": [
+"Rahul Marchand",
+"Art Cathain",
+"Jerome Wynne",
+"Philippos Giavridis",
+"Sam Deverett",
+"John Wilkinson",
+"Jason Gwartz",
+"Harry Coppock"
+],
+"ICML|2026|Oral|65": [
+"Loucas Pillaud-Vivien",
+"Adrien Schertzer"
+],
+"ICML|2026|Oral|66": [
+"Qiyao Wei",
+"Samuel Holt",
+"Jing Yang",
+"Markus Wulfmeier",
+"Mihaela van der Schaar"
+],
+"ICML|2026|Oral|67": [
+"Rui Chen",
+"Dongdong Li",
+"Yan Fan",
+"Yan Liu",
+"Yangliu Kuai",
+"Pengfei Zhu"
+],
+"ICML|2026|Oral|68": [
+"Songwei Liu",
+"Chao Zeng",
+"Chenqian Yan",
+"Xurui Peng",
+"WANG",
+"Fangmin Chen",
+"Xing Mei"
+],
+"ICML|2026|Oral|69": [
+"Adam Karvonen",
+"James Chua",
+"Clément Dumas",
+"Kit Fraser-Taliente",
+"Subhash Kantamneni",
+"Julian Minder",
+"Euan Ong",
+"Arnab Sen Sharma",
+"Daniel Wen",
+"Owain Evans",
+"Samuel Marks"
+],
+"ICML|2026|Oral|70": [
+"Rulin Shao",
+"Akari Asai",
+"Shannon Shen",
+"Hamish Ivison",
+"Varsha Kishore",
+"Jingming Zhuo",
+"Xinran Zhao",
+"Molly Park",
+"Samuel Finlayson",
+"David Sontag",
+"Tyler Murray",
+"Sewon Min",
+"Pradeep Dasigi",
+"Luca Soldaini",
+"Faeze Brahman",
+"Scott Yih",
+"Sherry Wu",
+"Luke Zettlemoyer",
+"Yoon Kim",
+"Hannaneh Hajishirzi",
+"Pang Wei Koh"
+],
+"ICML|2026|Oral|71": [
+"Tom Labiausse",
+"Romain Fabre",
+"Yannick Estève",
+"Alexandre Défossez",
+"Neil Zeghidour"
+],
+"ICML|2026|Oral|72": [
+"Rachael Hwee Ling Sim",
+"Jue Fan",
+"Xiao Tian",
+"Xinyi Xu",
+"Patrick Jaillet",
+"Bryan Kian Hsiang Low"
+],
+"ICML|2026|Oral|73": [
+"Nico Daheim",
+"Thomas Moellenhoff",
+"James Ming Liang Ang",
+"Mohammad Emtiyaz Khan"
+],
+"ICML|2026|Oral|74": [
+"Haotian Wu",
+"Di You",
+"Pier Luigi Dragotti",
+"Deniz Gunduz"
+],
+"ICML|2026|Oral|75": [
+"Addison J. Wu",
+"Ryan Liu",
+"Xuechunzi Bai",
+"Thomas Griffiths"
+],
+"ICML|2026|Oral|76": [
+"Khashayar Gatmiry",
+"Sitan Chen",
+"Adil Salim"
+],
+"ICML|2026|Oral|77": [
+"Yanchen Yin",
+"Dongqi Han",
+"Linghui Li"
+],
+"ICML|2026|Oral|78": [
+"Zanlin Ni",
+"Shenzhi Wang",
+"Yang Yue",
+"Tianyu Yu",
+"Weilin Zhao",
+"Yeguo Hua",
+"Tianyi Chen",
+"Jun Song",
+"YuCheng",
+"Bo Zheng",
+"Gao Huang"
+],
+"ICML|2026|Oral|79": [
+"Ander Artola Velasco",
+"Stratis Tsirtsis",
+"Nastaran Okati",
+"Manuel Gomez-Rodriguez"
+],
+"ICML|2026|Oral|80": [
+"Jianhui Chen",
+"Yuzhang Luo",
+"Liangming Pan"
+],
+"ICML|2026|Oral|81": [
+"Minh-Tung Luu",
+"Hwanhee Kim",
+"Younghwan Lee",
+"Chang Yoo"
+],
+"ICML|2026|Oral|82": [
+"Hongwei Ren",
+"Fei Ma",
+"Xiaopeng LIN",
+"Yuetong Fang",
+"Hongxiang Huang",
+"Yue Zhou",
+"Yulong Huang",
+"Haotian FU",
+"Ziyi Yang",
+"Youxin Jiang",
+"Xiangqian Wu",
+"Bojun Cheng"
+],
+"ICML|2026|Oral|83": [
+"Jiajun Chen",
+"Jin Tian",
+"Chris Quinn"
+],
+"ICML|2026|Oral|84": [
+"Jiacheng Hou",
+"Yining Sun",
+"Ruochong Jin",
+"Haochen Han",
+"Fangming Liu",
+"Victor Chan",
+"Alex Jinpeng Wang"
+],
+"ICML|2026|Oral|85": [
+"Zheng Li",
+"Feng Xie",
+"Shenglan Nie",
+"Xichen Guo",
+"Ruxin Wang",
+"Hao Zhang"
+],
+"ICML|2026|Oral|86": [
+"Shiyu Wang",
+"Yuchen Fang",
+"Juntong Ni",
+"Ziyi Zhang",
+"Baichuan Mo",
+"Xinyue Zhong",
+"Chengxin Wang",
+"Zhou Ye",
+"Yang Xiang"
+],
+"ICML|2026|Oral|87": [
+"Shigeng Wang",
+"Chao Li",
+"Yangyuxuan Kang",
+"Jiawei Fan",
+"Anbang Yao"
+],
+"ICML|2026|Oral|88": [
+"Jianqiao Zeng",
+"Ruocheng Wang",
+"Yanzhi Liu",
+"Hao Xiong",
+"Junchi Yan"
+],
+"ICML|2026|Oral|89": [
+"Wenxuan Zhou",
+"Shujian Zhang",
+"brice magdalou",
+"John Lambert",
+"Ehsan Amid",
+"Richard Nock",
+"Andrew Hard"
+],
+"ICML|2026|Oral|90": [
+"Sarah Ball",
+"Phil Hackemann"
+],
+"ICML|2026|Oral|91": [
+"Bing Hu",
+"Zaijing Li",
+"Rui Shao",
+"Junda Chen",
+"April Hua Liu",
+"Wei-Shi Zheng",
+"Liqiang Nie"
+],
+"ICML|2026|Oral|92": [
+"Rui Xu",
+"Yi Chen",
+"Jiujiu Chen",
+"Sihong Xie"
+],
+"ICML|2026|Oral|93": [
+"Lehui Li",
+"Yuyao Wang",
+"Jisheng Yan",
+"Wei Zhang",
+"Jinliang Deng",
+"Haoliang Sun",
+"Zhongyi Han",
+"Yongshun Gong"
+],
+"ICML|2026|Oral|94": [
+"Fan Chen",
+"Sinho Chewi",
+"Constantinos Daskalakis",
+"Alexander Rakhlin"
+],
+"ICML|2026|Oral|95": [
+"Yihan Lin",
+"Haoyang Li",
+"Yang Li",
+"Haitao Shen",
+"Yihan Zhao",
+"Chao Shao",
+"Jing Zhang"
+],
+"ICML|2026|Oral|96": [
+"Zeju Qiu",
+"Lixin LIU",
+"Adrian Weller",
+"Han Shi",
+"Weiyang Liu"
+],
+"ICML|2026|Oral|97": [
+"Emre Kavak",
+"Tom Nuno Wolf",
+"Christian Wachinger"
+],
+"ICML|2026|Oral|98": [
+"Chang Yu",
+"Yuxuan Luo",
+"Yixuan Du",
+"Yuqing Zhou",
+"Siyuan Li",
+"Jingbo Zhou",
+"jiawei jiang",
+"Zhen Lei",
+"Stan Z Li"
+],
+"ICML|2026|Oral|99": [
+"Huihan Liu",
+"Changyeon Kim",
+"Bo Liu",
+"Minghuan Liu",
+"Yuke Zhu"
+],
+"ICML|2026|Oral|100": [
+"Chuan Liu",
+"Yijie Chen",
+"Ruibing Song",
+"Wenhao Huang",
+"Chunshu Wu",
+"Deqian Kong",
+"Ying Nian Wu",
+"Kaiyuan Yang",
+"Ang Li",
+"Tony Geng"
+],
+"ICML|2026|Oral|101": [
+"G M Shahariar",
+"Erfan Shayegani",
+"Ali Nazari",
+"Nael Abu-Ghazaleh"
+],
+"ICML|2026|Oral|102": [
+"Mehryar Mohri"
+],
+"ICML|2026|Oral|103": [
+"Wei Yuan",
+"Guanyang Wang"
+],
+"ICML|2026|Oral|104": [
+"Shengxian Ding",
+"Haonan Gao",
+"Pangpang Liu",
+"Xinyuan Tian",
+"Yize Zhao"
+],
+"ICML|2026|Oral|105": [
+"Janghwan Lee",
+"Sihwa Lee",
+"Jinseok Kim",
+"Yongjik Kim",
+"Jieun Lim",
+"Jinwook Oh",
+"Jungwook Choi"
+],
+"ICML|2026|Oral|106": [
+"Tiago Silva",
+"Esmeralda S. Whitammer",
+"Salem Lahlou"
+],
+"ICML|2026|Oral|107": [
+"Mingyue Xu",
+"Gal Vardi",
+"Itay Safran"
+],
+"ICML|2026|Oral|108": [
+"Thomas Savary",
+"François Rozet",
+"Gilles Louppe"
+],
+"ICML|2026|Oral|109": [
+"Shichao Fan",
+"Kun Wu",
+"Zhengping Che",
+"Xinhua Wang",
+"Di Wu",
+"Fei Liao",
+"Ning Liu",
+"Yixue Zhang",
+"Zhen Zhao",
+"Zhiyuan Xu",
+"Meng Li",
+"Qingjie Liu",
+"Shanghang Zhang",
+"Min Wan",
+"Jian Tang"
+],
+"ICML|2026|Oral|110": [
+"Ziyue Li",
+"Yang Li",
+"Tianyi Zhou"
+],
+"ICML|2026|Oral|111": [
+"Jie Qiao",
+"Zihuai Zeng",
+"Ruichu Cai",
+"Zhengming Chen",
+"Zhifeng Hao"
+],
+"ICML|2026|Oral|112": [
+"Peter Chen",
+"Xiaopeng Li",
+"Xi Chen",
+"Tianyi Lin"
+],
+"ICML|2026|Oral|113": [
+"Muquan Li",
+"Yingyi Ma",
+"Yihong Huang",
+"Hang Gou",
+"KE QIN",
+"Ming Li",
+"Yuan-Fang Li",
+"Tao He"
+],
+"ICML|2026|Oral|114": [
+"Sobhan Lotfi",
+"Ava Iranmanesh",
+"Lachin Naghashyar",
+"Ali Shirali",
+"Fateme Haredasht",
+"Sanmi Koyejo",
+"Phil Torr",
+"Yong Suk Lee",
+"Fazl Barez",
+"Joel Lehman",
+"Peter Norvig",
+"Arvind Narayanan"
+],
+"ICML|2026|Oral|115": [
+"Jiahong Liu",
+"Ram Samarth B B",
+"Xinyu Fu",
+"Menglin Yang",
+"Weixi Zhang",
+"ZHITAO YING",
+"Irwin King"
+],
+"ICML|2026|Oral|116": [
+"Arnas Uselis",
+"Andrea Dittadi",
+"Seong Joon Oh"
+],
+"ICML|2026|Oral|117": [
+"Shaoxiong Zhan",
+"Yanlin Lai",
+"Zheng Liu",
+"Zijian Lin",
+"Lin Hai",
+"Xiaodong Cai",
+"Shen Li",
+"Wen Huang",
+"Hai-Tao Zheng"
+],
+"ICML|2026|Oral|118": [
+"Emmy Liu",
+"Graham Neubig",
+"Chenyan Xiong"
+],
+"ICML|2026|Oral|119": [
+"Feiyang Wu",
+"Ye Zhao",
+"Anqi Wu"
+],
+"ICML|2026|Oral|120": [
+"Long (Tony) Lian",
+"Sida Wang",
+"Felix Juefei-Xu",
+"Tsu-Jui Fu",
+"Xiuyu Li",
+"Adam Yala",
+"Trevor Darrell",
+"Alane Suhr",
+"Yuandong Tian",
+"Xi Lin"
+],
+"ICML|2026|Oral|121": [
+"Zilin Du",
+"Junqi Zhao",
+"Albert Boyang Li"
+],
+"ICML|2026|Oral|122": [
+"Raj Ghugare",
+"Michał Bortkiewicz",
+"Alicja Ziarko",
+"Benjamin Eysenbach"
+],
+"ICML|2026|Oral|123": [
+"Rustem Islamov",
+"Michael Crawshaw",
+"Jeremy Cohen",
+"Robert Gower"
+],
+"ICML|2026|Oral|124": [
+"Zhenhao Chen",
+"Yongqiang Chen",
+"Chenxi Liu",
+"Junchi Yu",
+"Xiangchen Song",
+"Zijian Li",
+"Jialin Li",
+"Phil Torr",
+"Bo Han",
+"Kun Zhang"
+],
+"ICML|2026|Oral|125": [
+"Junyi Yan",
+"KE LIANG",
+"Hao Yu",
+"Meng Liu",
+"Hao Tan",
+"Tianrui Liu",
+"Jun-Jie Huang",
+"Xinwang Liu"
+],
+"ICML|2026|Oral|126": [
+"Jiaqi Liu",
+"Kaiwen Xiong",
+"Peng Xia",
+"Yiyang Zhou",
+"Haonian Ji",
+"Lu Feng",
+"Siwei Han",
+"Mingyu Ding",
+"Huaxiu Yao"
+],
+"ICML|2026|Oral|127": [
+"Shihao Wang",
+"Xueru Zhang"
+],
+"ICML|2026|Oral|128": [
+"Gül Sena Altıntaş",
+"Malikeh Ehghaghi",
+"Brian Lester",
+"Fengyuan Liu",
+"Wanru Zhao",
+"Marco Ciccone",
+"Colin Raffel"
+],
+"ICML|2026|Oral|129": [
+"Hoang Anh Just",
+"Myeongseob Ko",
+"Ruoxi Jia"
+],
+"ICML|2026|Oral|130": [
+"Tuan Dam"
+],
+"ICML|2026|Oral|131": [
+"Haoran Zhang",
+"Yafu Li",
+"Zhi Wang",
+"Zhilin Wang",
+"Shunkai Zhang",
+"Xiaoye Qu",
+"Yu Cheng"
+],
+"ICML|2026|Oral|132": [
+"Lingyuan Meng",
+"KE LIANG",
+"Hao Li",
+"Meng Liu",
+"Weijia Shi",
+"Miaomiao Li",
+"Yang Gao",
+"Xinwang Liu"
+],
+"ICML|2026|Oral|133": [
+"Yuanyuan Gao",
+"Hao Li",
+"Yifei Liu",
+"Xinhao Ji",
+"Yuning Gong",
+"Yuanjun Liao",
+"Fangfu Liu",
+"Manyuan Zhang",
+"Yuchen Yang",
+"Dan Xu",
+"Xue Yang",
+"Huaxi Huang",
+"Hongjie Zhang",
+"Ziwei Liu",
+"Xiao Sun",
+"Dingwen Zhang",
+"Zhihang Zhong"
+],
+"ICML|2026|Oral|134": [
+"Qingyuan Xu",
+"Ruiwei Jiang"
+],
+"ICML|2026|Oral|135": [
+"Ruiting Zhao",
+"Ming Li",
+"Lixin Cui",
+"Lu Bai",
+"Feilong Cao",
+"Ke Lv",
+"Pietro Lió"
+],
+"ICML|2026|Oral|136": [
+"Sijie Zhao",
+"Feng Liu",
+"Xueliang Zhang",
+"Hao Chen",
+"Tao Han",
+"JUNCHAO GONG",
+"Ran Tao",
+"Pengfeng Xiao",
+"Xinyu Gu",
+"LEI BAI"
+],
+"ICML|2026|Oral|137": [
+"jing wu",
+"Jianhua Wu",
+"Jiayi Guan",
+"Jiahong Chen",
+"Jinghui Lu",
+"Hangjun Ye",
+"Bingzhao Gao",
+"Long Chen"
+],
+"ICML|2026|Oral|138": [
+"Jeong Woon Lee",
+"Kyoleen Kwak",
+"Daeho Kim",
+"Hyoseok Hwang"
+],
+"ICML|2026|Oral|139": [
+"Jake McAllister Dorman",
+"Edward Gillman",
+"Dominic C Rose",
+"Jamie Mair",
+"Juan Garrahan"
+],
+"ICML|2026|Oral|140": [
+"Aiwei Liu",
+"Minghua He",
+"Shaoxun Zeng",
+"Sijun Zhang",
+"Linhao Zhang",
+"Chuhan Wu",
+"Wei Jia",
+"Yuan Liu",
+"Zhou Xiao",
+"Jie Zhou"
+],
+"ICML|2026|Oral|141": [
+"Binxu Wang",
+"Jacob A Zavatone-Veth",
+"Cengiz Pehlevan"
+],
+"ICML|2026|Oral|142": [
+"John Cooper",
+"Mingchen Ma",
+"Ilias Diakonikolas",
+"Frederic Sala"
+],
+"ICML|2026|Oral|143": [
+"Victor Barres",
+"Honghua Dong",
+"Soham Ray",
+"Xujie Si",
+"Karthik Narasimhan"
+],
+"ICML|2026|Oral|144": [
+"Kaiqi Chen",
+"Yang Qin",
+"Changhao He",
+"Xi Peng",
+"Peng Hu"
+],
+"ICML|2026|Oral|145": [
+"Anton Lydike",
+"Jun Bi",
+"Jackson Woodruff"
+],
+"ICML|2026|Oral|146": [
+"José Ramón Enríquez",
+"Jiaxin Pei",
+"Alex Pentland"
+],
+"ICML|2026|Oral|147": [
+"Qiwei Li",
+"Wells Lucas Santo",
+"Sarita Schoenebeck",
+"Eric Gilbert"
+],
+"ICML|2026|Oral|148": [
+"Bhaskar Ray Chaudhury",
+"Jugal Garg",
+"Eklavya Sharma",
+"Jiaxin Song"
+],
+"ICML|2026|Oral|149": [
+"Felix X.-F. Ye",
+"Xingjie Li",
+"An Yu",
+"Ming-Ching Chang",
+"LINSONG CHU",
+"Davis Wertheimer"
+],
+"ICML|2026|Oral|150": [
+"Melissa Pan",
+"Negar Arabzadeh",
+"Riccardo Cogo",
+"Yuxuan Zhu",
+"Alexander Xiong",
+"Lakshya A Agrawal",
+"Huanzhi Mao",
+"Emma Shen",
+"Sid Pallerla",
+"Liana Patel",
+"Shu Liu",
+"Tianneng Shi",
+"Xiaoyuan Liu",
+"Jared Davis",
+"Emmanuele Lacavalla",
+"Alessandro Basile",
+"Shuyi Yang",
+"Paul Castro",
+"Daniel Kang",
+"Koushik Sen",
+"Dawn Song",
+"Joseph E Gonzalez",
+"Ion Stoica",
+"Matei Zaharia",
+"Marquita Ellis"
+],
+"ICML|2026|Oral|151": [
+"Doojin Baek",
+"Gyubin Lee",
+"Junyeob Baek",
+"Hosung Lee",
+"Sungjin Ahn"
+],
+"ICML|2026|Oral|152": [
+"John Morris",
+"Chawin Sitawarin",
+"Narine Kokhlikyan",
+"Chuan Guo",
+"Edward Suh",
+"Alexander Rush",
+"Kamalika Chaudhuri",
+"Saeed Mahloujifar"
+],
+"ICML|2026|Oral|153": [
+"Adrian Goldwaser",
+"Michael Munn",
+"Xavi Gonzalvo",
+"Benoit Dherin"
+],
+"ICML|2026|Oral|154": [
+"Shixi Qin",
+"zhiyong yang",
+"Shilong Bao",
+"Zitai Wang",
+"Qianqian Xu",
+"Qingming Huang"
+],
+"ICML|2026|Oral|155": [
+"Zheng-An Chen",
+"Pengxiao Lin",
+"Zhi-Qin John Xu",
+"Tao Luo"
+],
+"ICML|2026|Oral|156": [
+"Rajat Vadiraj Dwaraknath",
+"Sungyoon Kim",
+"Mert Pilanci"
+],
+"ICML|2026|Oral|157": [
+"Philip Jordan",
+"Maryam Kamgarpour"
+],
+"ICML|2026|Oral|158": [
+"Xianzhen Luo",
+"Jingyuan Zhang",
+"Shiqi Zhou",
+"JinYang Huang",
+"Chuan Xiao",
+"Qingfu Zhu",
+"Zhiyuan Ma",
+"YUE XING",
+"Yang Yue",
+"WencongZeng",
+"Wanxiang Che"
+],
+"ICML|2026|Oral|159": [
+"Yuhao Sun",
+"Lingyun Yu",
+"Hao-Xiang Xu",
+"Fengyuan Miao",
+"Zhuoer Xu",
+"Hongtao Xie"
+],
+"ICML|2026|Oral|160": [
+"Hanlin Zhang",
+"Jikai Jin",
+"Vasilis Syrgkanis",
+"Sham Kakade"
+],
+"ICML|2026|Oral|161": [
+"Etienne Casanova",
+"Rafal Kocielnik",
+"R. Michael Alvarez"
+],
+"ICML|2026|Oral|162": [
+"Wenxiang Diao",
+"Lei Wang",
+"Andrew Busch",
+"Jun Zhou",
+"Yongsheng Gao"
+],
+"ICML|2026|Oral|163": [
+"Liangze Jiang",
+"Zachary Shinnick",
+"Anton Hengel",
+"Hemanth Saratchandran",
+"Damien Teney"
+],
+"ICML|2026|Oral|164": [
+"Wenbo Pan",
+"Zhichao Liu",
+"Xianlong Wang",
+"Yu Haining",
+"Xiaohua Jia"
+],
+"ICML|2026|Oral|165": [
+"Solveig Wittig",
+"Antonis Vasileiou",
+"Robert R. Nerem",
+"Timo Stoll",
+"Floris Geerts",
+"Yusu Wang",
+"Christopher Morris"
+],
+"ICML|2026|Oral|166": [
+"Omar Abbadi",
+"Rida Laraki",
+"Panayotis Mertikopoulos"
+],
+"ICML|2026|Oral|167": [
+"Shijun Li",
+"Hilaf Hasson",
+"Joydeep Ghosh"
+],
+"ICML|2026|Oral|168": [
+"Anselm Paulus",
+"Andreas René Geist",
+"Vit Musil",
+"Sebastian Hoffmann",
+"Georg Martius"
+],
+"NeurIPS|2025|Oral|1": [
+"Alexander Theus",
+"Alessandro Cabodi",
+"Sotiris Anagnostidis",
+"Antonio Orvieto",
+"Sidak Pal Singh",
+"Valentina Boeva"
+],
+"NeurIPS|2025|Oral|2": [
+"Ho Yin Au",
+"Jie Chen",
+"Junkun Jiang",
+"Jingyu Xiang"
+],
+"NeurIPS|2025|Oral|3": [
+"Burouj Armgaan",
+"Eshan Jain",
+"Harsh Pandey",
+"Mahesh Chandran",
+"Sayan Ranu"
+],
+"NeurIPS|2025|Oral|4": [
+"Xingliang Wang",
+"Zemin Liu",
+"Junxiao Han",
+"Shuiguang Deng"
+],
+"NeurIPS|2025|Oral|5": [
+"Steve Hanneke"
+],
+"NeurIPS|2025|Oral|6": [
+"Morris Yau",
+"Ekin Akyürek",
+"Jiayuan Mao",
+"Joshua B. Tenenbaum",
+"Stefanie Jegelka",
+"Jacob Andreas"
+],
+"NeurIPS|2025|Oral|7": [
+"Zachary Chase",
+"Steve Hanneke",
+"Shay Moran",
+"Jonathan Shafer"
+],
+"NeurIPS|2025|Oral|8": [
+"Yonatan Ashlag",
+"Uri Koren",
+"Mirco Mutti",
+"Esther Derman",
+"Pierre-Luc Bacon",
+"Shie Mannor"
+],
+"NeurIPS|2025|Oral|9": [
+"Quentin Bertrand",
+"Anne Gagneux",
+"Mathurin Massias",
+"Rémi Emonet"
+],
+"NeurIPS|2025|Oral|10": [
+"Tony Bonnaire",
+"Raphaël Urfin",
+"Giulio Biroli",
+"Marc Mezard"
+],
+"NeurIPS|2025|Oral|11": [
+"Guan-Horng Liu",
+"Jaemoo Choi",
+"Yongxin Chen",
+"Benjamin Kurt Miller",
+"Ricky T. Q. Chen"
+],
+"NeurIPS|2025|Oral|12": [
+"Felix Chalumeau",
+"Daniel Rajaonarivonivelomanantsoa",
+"Ruan John de Kock",
+"Juan Claude Formanek",
+"Sasha Abramowitz",
+"Omayma Mahjoub",
+"Wiem Khlifi",
+"Simon Verster Du Toit",
+"Louay Ben Nessir",
+"Refiloe Shabe",
+"Arnol Manuel Fokam",
+"Siddarth Singh",
+"Ulrich Armel Mbou Sob",
+"Arnu Pretorius"
+],
+"NeurIPS|2025|Oral|13": [
+"Maxwell Fishelson",
+"Noah Golowich",
+"Mehryar Mohri",
+"Jon Schneider"
+],
+"NeurIPS|2025|Oral|14": [
+"Antonio Orvieto",
+"Robert M. Gower"
+],
+"NeurIPS|2025|Oral|15": [
+"Siyu Chen",
+"Theodor Misiakiewicz",
+"Ilias Zadik",
+"Peiyuan Zhang"
+],
+"NeurIPS|2025|Oral|16": [
+"Yuxuan Zhou",
+"Heng Li",
+"Zhi-Qi Cheng",
+"Xudong Yan",
+"Yifei Dong",
+"Mario Fritz",
+"Margret Keuper"
+],
+"NeurIPS|2025|Oral|17": [
+"Jianyu Zhang",
+"Leon Bottou"
+],
+"NeurIPS|2025|Oral|18": [
+"Nicolas Zucchet",
+"Francesco D'Angelo",
+"Andrew Kyle Lampinen",
+"Stephanie C.Y. Chan"
+],
+"NeurIPS|2025|Oral|19": [
+"Linfeng Tang",
+"Yeda Wang",
+"Zhanchuan Cai",
+"Junjun Jiang",
+"Jiayi Ma"
+],
+"NeurIPS|2025|Oral|20": [
+"Konstantin Usevich",
+"Ricardo Augusto Borsoi",
+"Clara Dérand",
+"Marianne Clausel"
+],
+"NeurIPS|2025|Oral|21": [
+"Jiayi Yuan",
+"Hao Li",
+"Xinheng Ding",
+"Wenya Xie",
+"Yu-Jhe Li",
+"Wentian Zhao",
+"Kun Wan",
+"Jing Shi",
+"Xia Hu",
+"Zirui Liu"
+],
+"NeurIPS|2025|Oral|22": [
+"Ruiqi Wang",
+"Dezhong Zhao",
+"Ziqin Yuan",
+"Tianyu Shao",
+"Guohua Chen",
+"Dominic Kao",
+"Sungeun Hong",
+"Byung-Cheol Min"
+],
+"NeurIPS|2025|Oral|23": [
+"David Chanin",
+"James Wilken-Smith",
+"Tomáš Dulka",
+"Hardik Bhatnagar",
+"Satvik Golechha",
+"Joseph Isaac Bloom"
+],
+"NeurIPS|2025|Oral|24": [
+"Zhenting Qi",
+"Fan Nie",
+"Alexandre Alahi",
+"James Zou",
+"Himabindu Lakkaraju",
+"Yilun Du",
+"Eric P. Xing",
+"Sham M. Kakade",
+"Hanlin Zhang"
+],
+"NeurIPS|2025|Oral|25": [
+"Zhaoxian Wu",
+"Quan Xiao",
+"Tayfun Gokmen",
+"Omobayode Fagbohungbe",
+"Tianyi Chen"
+],
+"NeurIPS|2025|Oral|26": [
+"Peter Blohm",
+"Florian Chen",
+"Aristides Gionis",
+"Stefan Neumann"
+],
+"NeurIPS|2025|Oral|27": [
+"Matthew Thomas Jackson",
+"Uljad Berdica",
+"Jarek Luca Liesen",
+"Shimon Whiteson",
+"Jakob Nicolaus Foerster"
+],
+"NeurIPS|2025|Oral|28": [
+"Phuc Tran",
+"Van Vu",
+"Nisheeth K. Vishnoi"
+],
+"NeurIPS|2025|Oral|29": [
+"Shogo Iwazaki"
+],
+"NeurIPS|2025|Oral|30": [
+"Vaggelis Dorovatas",
+"Georgios Paraskevopoulos",
+"Alexandros Potamianos"
+],
+"NeurIPS|2025|Oral|31": [
+"Yake Wei",
+"Yu Miao",
+"Dongzhan Zhou",
+"Di Hu"
+],
+"NeurIPS|2025|Oral|32": [
+"Hongcan Guo",
+"Haolang Lu",
+"Guoshun Nan",
+"Bolun Chu",
+"Jialin Zhuang",
+"Yuan Yang",
+"Wenhao Che",
+"Xinye Cao",
+"Sicong Leng",
+"Qimei Cui",
+"Xudong Jiang"
+],
+"NeurIPS|2025|Oral|33": [
+"Zheng-An Chen",
+"Tao Luo"
+],
+"NeurIPS|2025|Oral|34": [
+"Shen Nie",
+"Fengqi Zhu",
+"Zebin You",
+"Xiaolu Zhang",
+"Jingyang Ou",
+"Jun Hu",
+"JUN ZHOU",
+"Yankai Lin",
+"Ji-Rong Wen",
+"Chongxuan Li"
+],
+"NeurIPS|2025|Oral|35": [
+"Wenbin An",
+"Jiahao Nie",
+"Feng Tian",
+"Haonan Lin",
+"mingxiang cai",
+"Yaqiang Wu",
+"QianYing Wang",
+"Xiaoqin Zhang",
+"Shijian Lu"
+],
+"NeurIPS|2025|Oral|36": [
+"Yanglin Feng",
+"Yongxiang Li",
+"Yuan Sun",
+"Yang Qin",
+"Dezhong Peng",
+"Peng Hu"
+],
+"NeurIPS|2025|Oral|37": [
+"Wei Wang",
+"Haifeng Xia",
+"Chao Huang",
+"Zhengming Ding",
+"Cong Wang",
+"Haojie Li",
+"Xiaochun Cao"
+],
+"NeurIPS|2025|Oral|38": [
+"Zhongnan Cai",
+"Yingying Wang",
+"Hui Zheng",
+"Panwang Pan",
+"ZiXu Lin",
+"Ge Meng",
+"Chenxin Li",
+"Chunming He",
+"Jiaxin Xie",
+"Yunlong Lin",
+"Junbin Lu",
+"Yue Huang",
+"Xinghao Ding"
+],
+"NeurIPS|2025|Oral|39": [
+"Andrea Montanari",
+"Pierfrancesco Urbani"
+],
+"NeurIPS|2025|Oral|40": [
+"Kevin Wang",
+"Ishaan Javali",
+"Michał Bortkiewicz",
+"Tomasz Trzcinski",
+"Benjamin Eysenbach"
+],
+"NeurIPS|2025|Oral|41": [
+"Moritz Leo Grillo",
+"Christoph Hertrich",
+"Georg Loho"
+],
+"NeurIPS|2025|Oral|42": [
+"Milad Sefidgaran",
+"Kimia Nadjahi",
+"Abdellatif Zaidi"
+],
+"NeurIPS|2025|Oral|43": [
+"Yuzheng Hu",
+"Fan Wu",
+"Haotian Ye",
+"David Forsyth",
+"James Zou",
+"Nan Jiang",
+"Jiaqi W. Ma",
+"Han Zhao"
+],
+"NeurIPS|2025|Oral|44": [
+"Valentin Schmutz",
+"Ali Haydaroğlu",
+"Shuqi Wang",
+"Yixiao Feng",
+"Matteo Carandini",
+"Kenneth D. Harris"
+],
+"NeurIPS|2025|Oral|45": [
+"Korneel Van den Berghe",
+"Stein Stroobants",
+"Vijay Janapa Reddi",
+"Guido De Croon"
+],
+"NeurIPS|2025|Oral|46": [
+"Zhuang Qi",
+"Ying-Peng Tang",
+"Lei Meng",
+"Han Yu",
+"Xiaoxiao Li",
+"Xiangxu Meng"
+],
+"NeurIPS|2025|Oral|47": [
+"Trinity Chung",
+"Yuchen Shen",
+"Nathan Kong",
+"Aran Nayebi"
+],
+"NeurIPS|2025|Oral|48": [
+"Zedong Liu",
+"Shenggan Cheng",
+"Guangming Tan",
+"Yang You",
+"Dingwen Tao"
+],
+"NeurIPS|2025|Oral|49": [
+"Steffen Schotthöfer",
+"H. Lexie Yang",
+"Stefan Schnake"
+],
+"NeurIPS|2025|Oral|50": [
+"Wei Dai",
+"Peilin Chen",
+"Chanakya Ekbote",
+"Paul Pu Liang"
+],
+"NeurIPS|2025|Oral|51": [
+"Zihan Qiu",
+"Zekun Wang",
+"Bo Zheng",
+"Zeyu Huang",
+"Kaiyue Wen",
+"Songlin Yang",
+"Rui Men",
+"Le Yu",
+"Fei Huang",
+"Suozhi Huang",
+"Dayiheng Liu",
+"Jingren Zhou",
+"Junyang Lin"
+],
+"NeurIPS|2025|Oral|52": [
+"Guillaume Pourcel",
+"Maxence Ernoult"
+],
+"NeurIPS|2025|Oral|53": [
+"Qiusheng Huang",
+"Yuan Niu",
+"Xiaohui Zhong",
+"AnboyuGuo",
+"Lei Chen",
+"dianjun zhang",
+"Xuefeng Zhang",
+"Hao Li"
+],
+"NeurIPS|2025|Oral|54": [
+"Yizhou Liu",
+"Ziming Liu",
+"Jeff Gore"
+],
+"NeurIPS|2025|Oral|55": [
+"Tom Burgert",
+"Oliver Stoll",
+"Paolo Rota",
+"Begüm Demir"
+],
+"NeurIPS|2025|Oral|56": [
+"Viet-Hoang Tran",
+"Van-Hoan Trinh",
+"Khanh Vinh Bui",
+"Tan Minh Nguyen"
+],
+"NeurIPS|2025|Oral|57": [
+"Zhenhao Zhang",
+"Ye Shi",
+"Lingxiao Yang",
+"Suting Ni",
+"Qi Ye",
+"Jingya Wang"
+],
+"NeurIPS|2025|Oral|58": [
+"Ge Wu",
+"Shen Zhang",
+"Ruijing Shi",
+"Shanghua Gao",
+"Zhenyuan Chen",
+"Lei Wang",
+"Zhaowei Chen",
+"Hongcheng Gao",
+"Yao Tang",
+"jian Yang",
+"Ming-Ming Cheng",
+"Xiang Li"
+],
+"NeurIPS|2025|Oral|59": [
+"Zihan Wang",
+"Seungjun Lee",
+"Gim Hee Lee"
+],
+"NeurIPS|2025|Oral|60": [
+"Andrei Manolache",
+"Luiz F. O. Chamon",
+"Mathias Niepert"
+],
+"NeurIPS|2025|Oral|61": [
+"Yuan Zang",
+"Zitian Tang",
+"Junho Cho",
+"Jaewook Yoo",
+"Chen Sun"
+],
+"NeurIPS|2025|Oral|62": [
+"Yang Yue",
+"Zhiqi Chen",
+"Rui Lu",
+"Andrew Zhao",
+"Zhaokai Wang",
+"Yang Yue",
+"Shiji Song",
+"Gao Huang"
+],
+"NeurIPS|2025|Oral|63": [
+"Shiguang Wu",
+"Yaqing Wang",
+"Yatao Bian",
+"Quanming Yao"
+],
+"NeurIPS|2025|Oral|64": [
+"Jang-Hyun Kim",
+"Jinuk Kim",
+"Sangwoo Kwon",
+"Jae W. Lee",
+"Sangdoo Yun",
+"Hyun Oh Song"
+],
+"NeurIPS|2025|Oral|65": [
+"Zelin Peng",
+"Zhengqin Xu",
+"Qingyang Liu",
+"Xiaokang Yang",
+"Wei Shen"
+],
+"NeurIPS|2025|Oral|66": [
+"Mingfei Chen",
+"Zijun Cui",
+"Xiulong Liu",
+"Jinlin Xiang",
+"Caleb Zheng",
+"Jingyuan Li",
+"Eli Shlizerman"
+],
+"NeurIPS|2025|Oral|67": [
+"Giuseppe Bruno",
+"Federico Pasqualotto",
+"Andrea Agazzi"
+],
+"NeurIPS|2025|Oral|68": [
+"Keshigeyan Chandrasegaran",
+"Michael Poli",
+"Daniel Y Fu",
+"Dongjun Kim",
+"Lea M. Hadzic",
+"Manling Li",
+"Agrim Gupta",
+"Stefano Massaroli",
+"Azalia Mirhoseini",
+"Juan Carlos Niebles",
+"Stefano Ermon",
+"Li Fei-Fei"
+],
+"NeurIPS|2025|Oral|69": [
+"Thomas Pethick",
+"Wanyun Xie",
+"Mete Erdogan",
+"Kimon Antonakopoulos",
+"Tony Silveti-Falls",
+"Volkan Cevher"
+],
+"NeurIPS|2025|Oral|70": [
+"Qing-Yuan Jiang",
+"Longfei Huang",
+"Yang Yang"
+],
+"NeurIPS|2025|Oral|71": [
+"Tonglong Wei",
+"Yan Lin",
+"Zeyu Zhou",
+"Haomin Wen",
+"Jilin Hu",
+"Shengnan Guo",
+"Youfang Lin",
+"Gao Cong",
+"Huaiyu Wan"
+],
+"NeurIPS|2025|Oral|72": [
+"Yuezhou Ma",
+"Haixu Wu",
+"Hang Zhou",
+"Huikun Weng",
+"Jianmin Wang",
+"Mingsheng Long"
+],
+"NeurIPS|2025|Oral|73": [
+"Jinlai Liu",
+"Jian Han",
+"Bin Yan",
+"Wuhui",
+"Fengda Zhu",
+"Xing Wang",
+"Yi Jiang",
+"BINGYUE PENG",
+"Zehuan Yuan"
+],
+"NeurIPS|2025|Oral|74": [
+"Dorian Baudry",
+"Emmeran Johnson",
+"Simon Vary",
+"Ciara Pike-Burke",
+"Patrick Rebeschini"
+],
+"NeurIPS|2025|Oral|75": [
+"Daniel Bolya",
+"Po-Yao Huang",
+"Peize Sun",
+"Jang Hyun Cho",
+"Andrea Madotto",
+"Chen Wei",
+"Tengyu Ma",
+"Jiale Zhi",
+"Jathushan Rajasegaran",
+"Hanoona Abdul Rasheed",
+"Junke Wang",
+"Marco Monteiro",
+"Hu Xu",
+"Shiyu Dong",
+"Nikhila Ravi",
+"Shang-Wen Li",
+"Piotr Dollar",
+"Christoph Feichtenhofer"
+],
+"NeurIPS|2025|Oral|76": [
+"Yuanpeng Tu",
+"Hao Luo",
+"Xi Chen",
+"Xiang Bai",
+"Fan Wang",
+"Hengshuang Zhao"
+],
+"NeurIPS|2025|Oral|77": [
+"Zhengyang Geng",
+"Mingyang Deng",
+"Xingjian Bai",
+"J Zico Kolter",
+"Kaiming He"
+],
+"NeurIPS|2025|Spotlight|1": [
+"Cong Wei",
+"Bo Sun",
+"Haoyu Ma",
+"Ji Hou",
+"Felix Juefei-Xu",
+"Zecheng He",
+"Xiaoliang Dai",
+"Luxin Zhang",
+"Kunpeng Li",
+"Tingbo Hou",
+"Animesh Sinha",
+"Peter Vajda",
+"Wenhu Chen"
+],
+"NeurIPS|2025|Spotlight|2": [
+"Jing Wang",
+"Ao Ma",
+"Ke Cao",
+"Jun Zheng",
+"Jiasong Feng",
+"Zhanjie Zhang",
+"Wanyuan Pang",
+"Xiaodan Liang"
+],
+"NeurIPS|2025|Spotlight|3": [
+"Dhruva Kashyap",
+"Chaitanya Murti",
+"Pranav K Nayak",
+"Tanay Narshana",
+"Chiranjib Bhattacharyya"
+],
+"NeurIPS|2025|Spotlight|4": [
+"Miranda Anna Christ",
+"Adrián Csiszárik",
+"Gergely Becsó",
+"Dániel Varga"
+],
+"NeurIPS|2025|Spotlight|5": [
+"Seo Hyun Kim",
+"Sunwoo Hong",
+"Hojung Jung",
+"Youngrok Park",
+"Se-Young Yun"
+],
+"NeurIPS|2025|Spotlight|6": [
+"Yu Zhou",
+"Xingyu Wu",
+"Jibin Wu",
+"Liang Feng",
+"KC Tan"
+],
+"NeurIPS|2025|Spotlight|7": [
+"Aleksandar Terzic",
+"Nicolas Menet",
+"Michael Hersche",
+"Thomas Hofmann",
+"Abbas Rahimi"
+],
+"NeurIPS|2025|Spotlight|8": [
+"Chaofan Lin",
+"Jiaming Tang",
+"Shuo Yang",
+"Hanshuo Wang",
+"Tian Tang",
+"Boyu Tian",
+"Ion Stoica",
+"Song Han",
+"Mingyu Gao"
+],
+"NeurIPS|2025|Spotlight|9": [
+"UZAIR AKBAR",
+"Niki Kilbertus",
+"Hao Shen",
+"Krikamol Muandet",
+"Bo Dai"
+],
+"NeurIPS|2025|Spotlight|10": [
+"Zhe Zhao",
+"HaiBin Wen",
+"Xianfu Liu",
+"Rui Mao",
+"Pengkun Wang",
+"Liheng Yu",
+"Linjiang Chen",
+"Bo An",
+"Qingfu Zhang",
+"Yang Wang"
+],
+"NeurIPS|2025|Spotlight|11": [
+"Xinyuan Wang",
+"Bowen Wang",
+"Dunjie Lu",
+"Junlin Yang",
+"Tianbao Xie",
+"Junli Wang",
+"Jiaqi Deng",
+"Xiaole Guo",
+"Yiheng Xu",
+"Chen Henry Wu",
+"Zhennan Shen",
+"Zhuokai Li",
+"Ryan Li",
+"Xiaochuan Li",
+"Junda Chen",
+"Zheng Boyuan",
+"LI PEIHANG",
+"Fangyu Lei",
+"Ruisheng Cao",
+"Yeqiao Fu",
+"Dongchan Shin",
+"Martin Shin",
+"Hu Jiarui",
+"Yuyan Wang",
+"Jixuan Chen",
+"Yuxiao Ye",
+"Danyang Zhang",
+"Yipu Wang",
+"Heng Wang",
+"Diyi Yang",
+"Victor Zhong",
+"Y.Charles",
+"Zhilin Yang",
+"Tao Yu"
+],
+"NeurIPS|2025|Spotlight|12": [
+"Ehsan Sharifian",
+"Saber Salehkaleybar",
+"Negar Kiyavash"
+],
+"NeurIPS|2025|Spotlight|13": [
+"Alexander Bodard",
+"Panagiotis Patrinos"
+],
+"NeurIPS|2025|Spotlight|14": [
+"Zekai Zhao",
+"Qi Liu",
+"Kun Zhou",
+"Zihan Liu",
+"Yifei Shao",
+"Zhiting Hu",
+"Biwei Huang"
+],
+"NeurIPS|2025|Spotlight|15": [
+"Sherman Khoo",
+"Yakun Wang",
+"Song Liu",
+"Mark Beaumont"
+],
+"NeurIPS|2025|Spotlight|16": [
+"Haoran Sun",
+"Fei Xiong",
+"Yuanzhe Hu",
+"Liang Wang"
+],
+"NeurIPS|2025|Spotlight|17": [
+"Julie Mordacq",
+"David Loiseaux",
+"Vicky Kalogeiton",
+"Steve Oudot"
+],
+"NeurIPS|2025|Spotlight|18": [
+"Heasung Kim",
+"Taekyun Lee",
+"Hyeji Kim",
+"Gustavo De Veciana"
+],
+"NeurIPS|2025|Spotlight|19": [
+"Ran Xu",
+"Yuchen Zhuang",
+"Zihan Dong",
+"Ruiyu Wang",
+"Yue Yu",
+"Joyce C. Ho",
+"Linjun Zhang",
+"Haoyu Wang",
+"Wenqi Shi",
+"Carl Yang"
+],
+"NeurIPS|2025|Spotlight|20": [
+"Qingwen Zhang",
+"Xiaomeng Zhu",
+"Yushan Zhang",
+"Yixi Cai",
+"Olov Andersson",
+"Patric Jensfelt"
+],
+"NeurIPS|2025|Spotlight|21": [
+"Hyungjoo Chae",
+"Sunghwan Kim",
+"Junhee Cho",
+"Seungone Kim",
+"Seungjun Moon",
+"Gyeom Hwangbo",
+"Dongha Lim",
+"Minjin Kim",
+"Yeonjun Hwang",
+"Minju Gwak",
+"Dongwook Choi",
+"Minseok Kang",
+"Gwanhoon Im",
+"ByeongUng Cho",
+"Hyojun Kim",
+"Jun Hee Han",
+"Taeyoon Kwon",
+"Minju Kim",
+"Beong-woo Kwak",
+"Dongjin Kang",
+"Jinyoung Yeo"
+],
+"NeurIPS|2025|Spotlight|22": [
+"Jiaran Ye",
+"Zijun Yao",
+"Zhidian Huang",
+"Liangming Pan",
+"Jinxin Liu",
+"Yushi Bai",
+"Amy Xin",
+"Liu Weichuan",
+"Xiaoyin Che",
+"Lei Hou",
+"Juanzi Li"
+],
+"NeurIPS|2025|Spotlight|23": [
+"Tobias Wegel",
+"Geelon So",
+"Junhyung Park",
+"Fanny Yang"
+],
+"NeurIPS|2025|Spotlight|24": [
+"Jian Yao",
+"Ran Cheng",
+"Xingyu Wu",
+"Jibin Wu",
+"KC Tan"
+],
+"NeurIPS|2025|Spotlight|25": [
+"Sajad Movahedi",
+"Felix Sarnthein",
+"Nicola Muca Cirone",
+"Antonio Orvieto"
+],
+"NeurIPS|2025|Spotlight|26": [
+"Veronica Lachi",
+"Francesco Ferrini",
+"Antonio Longa",
+"Bruno Lepri",
+"Andrea Passerini",
+"Manfred Jaeger"
+],
+"NeurIPS|2025|Spotlight|27": [
+"Chuanchao Zang",
+"Xiangtao Meng",
+"Wenyu Chen",
+"Tianshuo Cong",
+"Zha Yaxing",
+"Dong Qi",
+"Zheng Li",
+"Shanqing Guo"
+],
+"NeurIPS|2025|Spotlight|28": [
+"Nuowei Liu",
+"Jiahao Kuang",
+"Yanting Liu",
+"Tao Ji",
+"Changzhi Sun",
+"Man Lan",
+"Yuanbin Wu"
+],
+"NeurIPS|2025|Spotlight|29": [
+"Sanghyun Ahn",
+"Wonje Choi",
+"Junyong Lee",
+"Jinwoo Park",
+"Honguk Woo"
+],
+"NeurIPS|2025|Spotlight|30": [
+"Jiabin Tang",
+"Lianghao Xia",
+"Zhonghang Li",
+"Chao Huang"
+],
+"NeurIPS|2025|Spotlight|31": [
+"Renzhao Liang",
+"Sizhe Xu",
+"Chenggang Xie",
+"Jingru Chen",
+"Feiyang Ren",
+"Shu Yang",
+"Takahiro Yabe"
+],
+"NeurIPS|2025|Spotlight|32": [
+"Kefei Zhu",
+"Fengshuo Bai",
+"YuanHao Xiang",
+"Yishuai Cai",
+"Xinglin Chen",
+"Ruochong Li",
+"Xingtao Wang",
+"Hao Dong",
+"Yaodong Yang",
+"Xiaopeng Fan",
+"Yuanpei Chen"
+],
+"NeurIPS|2025|Spotlight|33": [
+"Zhangyun Wang",
+"Ni Ding",
+"Aniket Mahanti"
+],
+"NeurIPS|2025|Spotlight|34": [
+"Daniel Mingyi Israel",
+"Guy Van den Broeck",
+"Aditya Grover"
+],
+"NeurIPS|2025|Spotlight|35": [
+"Rakshit Trivedi",
+"Kartik Sharma",
+"David C. Parkes"
+],
+"NeurIPS|2025|Spotlight|36": [
+"Sota Moriyama",
+"Katsumi Inoue"
+],
+"NeurIPS|2025|Spotlight|37": [
+"Christian Walder",
+"Deep Tejas Karkhanis"
+],
+"NeurIPS|2025|Spotlight|38": [
+"Zehao Wang",
+"Lin Yang",
+"Jie Wang",
+"Kehan Wang",
+"Hanzhu Chen",
+"Bin Wang",
+"Jianye HAO",
+"Defu Lian",
+"Bin Li",
+"Enhong Chen"
+],
+"NeurIPS|2025|Spotlight|39": [
+"Hugo Negrel",
+"Florentin Coeurdoux",
+"Michael Samuel Albergo",
+"Eric Vanden-Eijnden"
+],
+"NeurIPS|2025|Spotlight|40": [
+"Jin Wang",
+"Yao Lai",
+"Aoxue Li",
+"Shifeng Zhang",
+"Jiacheng Sun",
+"Ning Kang",
+"Chengyue Wu",
+"Zhenguo Li",
+"Ping Luo"
+],
+"NeurIPS|2025|Spotlight|41": [
+"Yasar Utku Alcalar",
+"Merve Gulle",
+"Mehmet Akcakaya"
+],
+"NeurIPS|2025|Spotlight|42": [
+"Danny Driess",
+"Jost Tobias Springenberg",
+"brian ichter",
+"LILI YU",
+"Adrian Li-Bell",
+"Karl Pertsch",
+"Allen Z. Ren",
+"Homer Walke",
+"Quan Vuong",
+"Lucy Xiaoyang Shi",
+"Sergey Levine"
+],
+"NeurIPS|2025|Spotlight|43": [
+"Yang Chen",
+"Yirun Zhou",
+"WEIZHONG ZHANG",
+"Cheng Jin"
+],
+"NeurIPS|2025|Spotlight|44": [
+"Jiatong Shi",
+"Yifan Cheng",
+"Bo-Hao Su",
+"Hye-jin Shim",
+"Jinchuan Tian",
+"Samuele Cornell",
+"Yiwen Zhao",
+"Siddhant Arora",
+"Shinji Watanabe"
+],
+"NeurIPS|2025|Spotlight|45": [
+"Yikang Li",
+"Yeqing Qiu",
+"Yuxuan Chen",
+"Lingshen He",
+"Lexiang Hu",
+"Zhouchen Lin"
+],
+"NeurIPS|2025|Spotlight|46": [
+"Jiecheng Lu",
+"Xu Han",
+"Yan Sun",
+"Viresh Pati",
+"Yubin Kim",
+"Siddhartha Somani",
+"Shihao Yang"
+],
+"NeurIPS|2025|Spotlight|47": [
+"Aloni Cohen"
+],
+"NeurIPS|2025|Spotlight|48": [
+"Seunghyeok Shin",
+"Dabin Kim",
+"Hongki Lim"
+],
+"NeurIPS|2025|Spotlight|49": [
+"Ryotaro Kawata",
+"Yujin Song",
+"Alberto Bietti",
+"Naoki Nishikawa",
+"Taiji Suzuki",
+"Samuel Vaiter",
+"Denny Wu"
+],
+"NeurIPS|2025|Spotlight|50": [
+"George Tsoukalas",
+"Rahul Saha",
+"Amitayush Thakur",
+"Sabrina Reguyal",
+"Swarat Chaudhuri"
+],
+"NeurIPS|2025|Spotlight|51": [
+"Xiaowei Zhu",
+"Yubing Ren",
+"Fang Fang",
+"Qingfeng Tan",
+"Shi Wang",
+"Yanan Cao"
+],
+"NeurIPS|2025|Spotlight|52": [
+"David Heineman",
+"Valentin Hofmann",
+"Ian Magnusson",
+"Yuling Gu",
+"Noah A. Smith",
+"Hannaneh Hajishirzi",
+"Kyle Lo",
+"Jesse Dodge"
+],
+"NeurIPS|2025|Spotlight|53": [
+"Idan Attias",
+"Steve Hanneke",
+"Arvind Ramaswami"
+],
+"NeurIPS|2025|Spotlight|54": [
+"Alex Lewandowski",
+"Aditya A. Ramesh",
+"Edan Meyer",
+"Dale Schuurmans",
+"Marlos C. Machado"
+],
+"NeurIPS|2025|Spotlight|55": [
+"Chen Liu",
+"Wenfang Yao",
+"Kejing Yin",
+"William K. Cheung",
+"Jing Qin"
+],
+"NeurIPS|2025|Spotlight|56": [
+"Zheng He",
+"Roman Pogodin",
+"Yazhe Li",
+"Namrata Deka",
+"Arthur Gretton",
+"Danica J. Sutherland"
+],
+"NeurIPS|2025|Spotlight|57": [
+"Berk Tinaz",
+"Zalan Fabian",
+"Mahdi Soltanolkotabi"
+],
+"NeurIPS|2025|Spotlight|58": [
+"Mingqi Wu",
+"Qiang Sun",
+"Archer Y. Yang"
+],
+"NeurIPS|2025|Spotlight|59": [
+"Sean McGrath",
+"Debarghya Mukherjee",
+"Rajarshi Mukherjee",
+"Zixiao Wang"
+],
+"NeurIPS|2025|Spotlight|60": [
+"Fengxiang Wang",
+"Mingshuo Chen",
+"Yueying Li",
+"Di Wang",
+"Haotian Wang",
+"Zonghao Guo",
+"Zefan Wang",
+"Shan Boqi",
+"Long Lan",
+"Yulin Wang",
+"Hongzhen Wang",
+"Wenjing Yang",
+"Bo Du",
+"Jing Zhang"
+],
+"NeurIPS|2025|Spotlight|61": [
+"Shixuan Liu",
+"Yue He",
+"Haotian Wang",
+"Wenjing Yang",
+"Yunfei Wang",
+"Peng Cui",
+"Zhong Liu"
+],
+"NeurIPS|2025|Spotlight|62": [
+"Chenxi Ji",
+"Yangge Li",
+"Xiangru Zhong",
+"Huan Zhang",
+"Sayan Mitra"
+],
+"NeurIPS|2025|Spotlight|63": [
+"Hadi Khalaf",
+"Claudio Mayrink Verdun",
+"Alex Oesterling",
+"Himabindu Lakkaraju",
+"Flavio Calmon"
+],
+"NeurIPS|2025|Spotlight|64": [
+"Xilin Xia",
+"Jie Wang",
+"Wanbo Zhang",
+"Zhihai Wang",
+"Mingxuan Yuan",
+"Jianye HAO",
+"Feng Wu"
+],
+"NeurIPS|2025|Spotlight|65": [
+"Manh Cuong Dao",
+"The Hung Tran",
+"Phi Le Nguyen",
+"Thao Nguyen Truong",
+"Trong Nghia Hoang"
+],
+"NeurIPS|2025|Spotlight|66": [
+"George Rapakoulias",
+"Ali Reza Pedram",
+"Fengjiao Liu",
+"Lingjiong Zhu",
+"Panagiotis Tsiotras"
+],
+"NeurIPS|2025|Spotlight|67": [
+"Enzhi Zhang",
+"Peng Chen",
+"Rui Zhong",
+"Du Wu",
+"Jun Igarashi",
+"Isaac Lyngaas",
+"Xiao Wang",
+"Masaharu Munetomo",
+"Mohamed Wahib"
+],
+"NeurIPS|2025|Spotlight|68": [
+"Landon Butler",
+"Abhineet Agarwal",
+"Justin Singh Kang",
+"Yigit Efe Erginbas",
+"Bin Yu",
+"Kannan Ramchandran"
+],
+"NeurIPS|2025|Spotlight|69": [
+"Woojun Kim",
+"Katia P. Sycara"
+],
+"NeurIPS|2025|Spotlight|70": [
+"Shiting Xiao",
+"Rishabh Kabra",
+"Yuhang Li",
+"Donghyun Lee",
+"Joao Carreira",
+"Priyadarshini Panda"
+],
+"NeurIPS|2025|Spotlight|71": [
+"Brian Siyuan Zheng",
+"Alisa Liu",
+"Orevaoghene Ahia",
+"Jonathan Hayase",
+"Yejin Choi",
+"Noah A. Smith"
+],
+"NeurIPS|2025|Spotlight|72": [
+"Ni Zhang",
+"Zhiguang Cao"
+],
+"NeurIPS|2025|Spotlight|73": [
+"Harshita Chopra",
+"Chirag Shah"
+],
+"NeurIPS|2025|Spotlight|74": [
+"Stefan Stojanov",
+"David Wendt",
+"Seungwoo Kim",
+"Rahul Mysore Venkatesh",
+"Kevin Feigelis",
+"Klemen Kotar",
+"Khai Loong Aw",
+"Jiajun Wu",
+"Daniel LK Yamins"
+],
+"NeurIPS|2025|Spotlight|75": [
+"Tianxing Wu",
+"Shutong Zhu",
+"Jingting Wang",
+"Ning Xu",
+"Guilin Qi",
+"Haofen Wang"
+],
+"NeurIPS|2025|Spotlight|76": [
+"Ye Tian",
+"Angela McCarthy",
+"Gabriel Gomide",
+"Nancy Liddle",
+"Jedrzej Golebka",
+"Royce Chen",
+"Jeff Liebmann",
+"Kaveri A. Thakoor"
+],
+"NeurIPS|2025|Spotlight|77": [
+"Masahiro Kaneko",
+"Timothy Baldwin"
+],
+"NeurIPS|2025|Spotlight|78": [
+"Adam Joseph Eisen",
+"Mitchell Ostrow",
+"Sarthak Chandra",
+"Leo Kozachkov",
+"Earl K Miller",
+"Ila R Fiete"
+],
+"NeurIPS|2025|Spotlight|79": [
+"Evan Markou",
+"Thalaiyasingam Ajanthan",
+"Stephen Gould"
+],
+"NeurIPS|2025|Spotlight|80": [
+"Sílvia Casacuberta",
+"Varun Kanade"
+],
+"NeurIPS|2025|Spotlight|81": [
+"Ilias Diakonikolas",
+"Giannis Iakovidis",
+"Daniel Kane",
+"Lisheng Ren"
+],
+"NeurIPS|2025|Spotlight|82": [
+"Alexander Koujianos Goldberg",
+"Giulia Fanti",
+"Nihar B Shah"
+],
+"NeurIPS|2025|Spotlight|83": [
+"A Erdem Sağtekin",
+"Colin Bredenberg",
+"Cristina Savin"
+],
+"NeurIPS|2025|Spotlight|84": [
+"Longquan Dai",
+"Xiaolu Wei",
+"He Wang",
+"Shaomeng Wang",
+"Jinhui Tang"
+],
+"NeurIPS|2025|Spotlight|85": [
+"Qiaobo Li",
+"Zhijie Chen",
+"Arindam Banerjee"
+],
+"NeurIPS|2025|Spotlight|86": [
+"Hugues Van Assel",
+"Mark Ibrahim",
+"Tommaso Biancalani",
+"Aviv Regev",
+"Randall Balestriero"
+],
+"NeurIPS|2025|Spotlight|87": [
+"Vaggos Chatziafratis",
+"Ishani Karmarkar",
+"Yingxi Li",
+"Ellen Vitercik"
+],
+"NeurIPS|2025|Spotlight|88": [
+"Runa Eschenhagen",
+"Aaron Defazio",
+"Tsung-Hsien Lee",
+"Richard E. Turner",
+"Hao-Jun Michael Shi"
+],
+"NeurIPS|2025|Spotlight|89": [
+"Ilias Diakonikolas",
+"Jingyi Gao",
+"Daniel Kane",
+"Sihan Liu",
+"Christopher Ye"
+],
+"NeurIPS|2025|Spotlight|90": [
+"Ruizhe Zheng",
+"Lingyan Mao",
+"DINGDING HAN",
+"Tian Luo",
+"Yi Wang",
+"Jing Ding",
+"Yuguo Yu"
+],
+"NeurIPS|2025|Spotlight|91": [
+"Hao Liang",
+"Shuqing Shi",
+"Yudi Zhang",
+"Biwei Huang",
+"Yali Du"
+],
+"NeurIPS|2025|Spotlight|92": [
+"Daniel Ovalle",
+"Lorenz T. Biegler",
+"Ignacio E Grossmann",
+"Carl D Laird",
+"Mateo Dulce Rubio"
+],
+"NeurIPS|2025|Spotlight|93": [
+"Abhay Sheshadri",
+"John Hughes",
+"Julian Michael",
+"Alex Troy Mallen",
+"Arun Jose",
+"Fabien Roger"
+],
+"NeurIPS|2025|Spotlight|94": [
+"Abhinav Chakraborty",
+"Arnab Auddy",
+"T. Tony Cai"
+],
+"NeurIPS|2025|Spotlight|95": [
+"Feng Jiang",
+"Mangal Prakash",
+"Hehuan Ma",
+"Jianyuan Deng",
+"Yuzhi Guo",
+"Amina Mollaysa",
+"Tommaso Mansi",
+"Rui Liao",
+"Junzhou Huang"
+],
+"NeurIPS|2025|Spotlight|96": [
+"Joshua Ashkinaze",
+"Hua Shen",
+"Sai Avula",
+"Eric Gilbert",
+"Ceren Budak"
+],
+"NeurIPS|2025|Spotlight|97": [
+"Ali Hariri",
+"Alvaro Arroyo",
+"Alessio Gravina",
+"Moshe Eliasof",
+"Carola-Bibiane Schönlieb",
+"Davide Bacciu",
+"Xiaowen Dong",
+"Kamyar Azizzadenesheli",
+"Pierre Vandergheynst"
+],
+"NeurIPS|2025|Spotlight|98": [
+"Lorenzo Baldassari",
+"Josselin Garnier",
+"Knut Solna",
+"Maarten V. de Hoop"
+],
+"NeurIPS|2025|Spotlight|99": [
+"Alan Chen",
+"Jack Merullo",
+"Alessandro Stolfo",
+"Ellie Pavlick"
+],
+"NeurIPS|2025|Spotlight|100": [
+"Navita Goyal",
+"Hal Daumé III",
+"Alexandre Drouin",
+"Dhanya Sridhar"
+],
+"NeurIPS|2025|Spotlight|101": [
+"Giannis Daras",
+"Jeffrey Ouyang-Zhang",
+"Krithika Ravishankar",
+"Constantinos Costis Daskalakis",
+"Adam Klivans",
+"Daniel Jesus Diaz"
+],
+"NeurIPS|2025|Spotlight|102": [
+"Marco Pacini",
+"Gabriele Santin",
+"Bruno Lepri",
+"Shubhendu Trivedi"
+],
+"NeurIPS|2025|Spotlight|103": [
+"Dionysis Arvanitakis",
+"Vaidehi Srinivas",
+"Aravindan Vijayaraghavan"
+],
+"NeurIPS|2025|Spotlight|104": [
+"Vijay Viswanathan",
+"Yanchao Sun",
+"Xiang Kong",
+"Meng Cao",
+"Graham Neubig",
+"Tongshuang Wu"
+],
+"NeurIPS|2025|Spotlight|105": [
+"Rohith Kuditipudi",
+"Jing Huang",
+"Sally Zhu",
+"Diyi Yang",
+"Christopher Potts",
+"Percy Liang"
+],
+"NeurIPS|2025|Spotlight|106": [
+"Florian Redhardt",
+"Yassir Akram",
+"Simon Schug"
+],
+"NeurIPS|2025|Spotlight|107": [
+"Jaehun Jung",
+"Seungju Han",
+"Ximing Lu",
+"Skyler Hallinan",
+"David Acuna",
+"Shrimai Prabhumoye",
+"Mostofa Patwary",
+"Mohammad Shoeybi",
+"Bryan Catanzaro",
+"Yejin Choi"
+],
+"NeurIPS|2025|Spotlight|108": [
+"Saleh Momeni",
+"Changnan Xiao",
+"Bing Liu"
+],
+"NeurIPS|2025|Spotlight|109": [
+"Riccardo De Santi",
+"Marin Vlastelica",
+"Ya-Ping Hsieh",
+"Zebang Shen",
+"Niao He",
+"Andreas Krause"
+],
+"NeurIPS|2025|Spotlight|110": [
+"Niklas Kemper",
+"Tom Wollschläger",
+"Stephan Günnemann"
+],
+"NeurIPS|2025|Spotlight|111": [
+"Giannis Daras",
+"Adrian Rodriguez-Munoz",
+"Adam Klivans",
+"Antonio Torralba",
+"Constantinos Costis Daskalakis"
+],
+"NeurIPS|2025|Spotlight|112": [
+"Brandon M Wood",
+"Misko Dzamba",
+"Xiang Fu",
+"Meng Gao",
+"Muhammed Shuaibi",
+"Luis Barroso-Luque",
+"Kareem Abdelmaqsoud",
+"Vahe Gharakhanyan",
+"John R. Kitchin",
+"Daniel S. Levine",
+"Kyle Michel",
+"Anuroop Sriram",
+"Taco Cohen",
+"Abhishek Das",
+"Sushree Jagriti Sahoo",
+"Ammar Rizvi",
+"Zachary Ward Ulissi",
+"C. Lawrence Zitnick"
+],
+"NeurIPS|2025|Spotlight|113": [
+"Dylan Zhang",
+"Qirun Dai",
+"Hao Peng"
+],
+"NeurIPS|2025|Spotlight|114": [
+"Suzan Ece Ada",
+"Georg Martius",
+"Emre Ugur",
+"Erhan Oztop"
+],
+"NeurIPS|2025|Spotlight|115": [
+"Yingyu Lin",
+"Erchi Wang",
+"Yian Ma",
+"Yu-Xiang Wang"
+],
+"NeurIPS|2025|Spotlight|116": [
+"Denis Blessing",
+"Julius Berner",
+"Lorenz Richter",
+"Carles Domingo-Enrich",
+"Yuanqi Du",
+"Arash Vahdat",
+"Gerhard Neumann"
+],
+"NeurIPS|2025|Spotlight|117": [
+"Amit Keinan",
+"Moshe Shenfeld",
+"Katrina Ligett"
+],
+"NeurIPS|2025|Spotlight|118": [
+"Ezgi Korkmaz"
+],
+"NeurIPS|2025|Spotlight|119": [
+"Jipeng Li",
+"Yanning Shen"
+],
+"NeurIPS|2025|Spotlight|120": [
+"Sukanya Patra",
+"Souhaib Ben Taieb"
+],
+"NeurIPS|2025|Spotlight|121": [
+"Ali Gorji",
+"Andisheh Amrollahi",
+"Andreas Krause"
+],
+"NeurIPS|2025|Spotlight|122": [
+"Jannis Born",
+"Filip Skogh",
+"Kahn Rhrissorrakrai",
+"Filippo Utro",
+"Nico Wagner",
+"Aleksandros Sobczyk"
+],
+"NeurIPS|2025|Spotlight|123": [
+"Lisa Alazraki",
+"Yi-Chern Tan",
+"Jon Ander Campos",
+"Maximilian Mozes",
+"Marek Rei",
+"Max Bartolo"
+],
+"NeurIPS|2025|Spotlight|124": [
+"Mark Kozdoba",
+"Binyamin Perets",
+"Shie Mannor"
+],
+"NeurIPS|2025|Spotlight|125": [
+"Hugo Ninou",
+"Jonathan Kadmon",
+"N Alex Cayco Gajic"
+],
+"NeurIPS|2025|Spotlight|126": [
+"Bohdan Turbal",
+"Iryna Voitsitska",
+"Lesia Semenova"
+],
+"NeurIPS|2025|Spotlight|127": [
+"Lorenzo Basile",
+"Valentino Maiorca",
+"Diego Doimo",
+"Francesco Locatello",
+"Alberto Cazzaniga"
+],
+"NeurIPS|2025|Spotlight|128": [
+"Kaibo Wang",
+"Jianda Mao",
+"Tong Wu",
+"Yang Xiang"
+],
+"NeurIPS|2025|Spotlight|129": [
+"Timo Löhr",
+"Paul Hofman",
+"Felix Mohr",
+"Eyke Hüllermeier"
+],
+"NeurIPS|2025|Spotlight|130": [
+"Adam Klivans",
+"Konstantinos Stavropoulos",
+"Kevin Tian",
+"Arsen Vasilyan"
+],
+"NeurIPS|2025|Spotlight|131": [
+"Albert Matveev",
+"Sanmitra Ghosh",
+"Aamal Hussain",
+"James-Michael Leahy",
+"Michalis Michaelides"
+],
+"NeurIPS|2025|Spotlight|132": [
+"Javier E. Santos",
+"Agnese Marcato",
+"Roman Colman",
+"Nicholas Lubbers",
+"Yen Ting Lin"
+],
+"NeurIPS|2025|Spotlight|133": [
+"Francis Rhys Ward",
+"Teun van der Weij",
+"Hanna Gábor",
+"Sam Martin",
+"Raja Mehta Moreno",
+"Harel Lidar",
+"Louis Makower",
+"Thomas Jodrell",
+"Lauren Robson"
+],
+"NeurIPS|2025|Spotlight|134": [
+"Binxu Wang",
+"Cengiz Pehlevan"
+],
+"NeurIPS|2025|Spotlight|135": [
+"Shuhan Zhang",
+"Zhi Wang",
+"Rui Gao",
+"Shuang Li"
+],
+"NeurIPS|2025|Spotlight|136": [
+"Kyriakos Lotidis",
+"Panayotis Mertikopoulos",
+"Nicholas Bambos",
+"Jose Blanchet"
+],
+"NeurIPS|2025|Spotlight|137": [
+"Jose Blanchet",
+"Yassine Hamoudi",
+"Mario Szegedy",
+"Guanyang Wang"
+],
+"NeurIPS|2025|Spotlight|138": [
+"Chenxiao Fan",
+"Chongming Gao",
+"Wentao Shi",
+"Yaxin Gong",
+"Zhao Zihao",
+"Fuli Feng"
+],
+"NeurIPS|2025|Spotlight|139": [
+"Jonas Geiping",
+"Sean Michael McLeish",
+"Neel Jain",
+"John Kirchenbauer",
+"Siddharth Singh",
+"Brian R. Bartoldson",
+"Bhavya Kailkhura",
+"Abhinav Bhatele",
+"Tom Goldstein"
+],
+"NeurIPS|2025|Spotlight|140": [
+"Tobias Würth",
+"Niklas Freymuth",
+"Gerhard Neumann",
+"Luise Kärger"
+],
+"NeurIPS|2025|Spotlight|141": [
+"Raghuveer Thirukovalluru",
+"Rui Meng",
+"Ye Liu",
+"Karthikeyan K",
+"Mingyi Su",
+"Ping Nie",
+"Semih Yavuz",
+"Yingbo Zhou",
+"Wenhu Chen",
+"Bhuwan Dhingra"
+],
+"NeurIPS|2025|Spotlight|142": [
+"Konstantin Makarychev",
+"Ilias Papanikolaou",
+"Liren Shan"
+],
+"NeurIPS|2025|Spotlight|143": [
+"Mantas Mazeika",
+"Xuwang Yin",
+"Rishub Tamirisa",
+"Jaehyuk Lim",
+"Bruce W. Lee",
+"Richard Ren",
+"Long Phan",
+"Norman Mu",
+"Oliver Zhang",
+"Dan Hendrycks"
+],
+"NeurIPS|2025|Spotlight|144": [
+"Florence Regol",
+"Joseph Cotnareanu",
+"Theodore Glavas",
+"Mark Coates"
+],
+"NeurIPS|2025|Spotlight|145": [
+"Jintao Zhang",
+"Jia wei",
+"Haoxu Wang",
+"Pengle Zhang",
+"Xiaoming Xu",
+"Haofeng Huang",
+"Kai Jiang",
+"Jianfei Chen",
+"Jun Zhu"
+],
+"NeurIPS|2025|Spotlight|146": [
+"Alireza Bakhtiari",
+"Alex Ayoub",
+"Samuel McLaughlin Robertson",
+"David Janz",
+"Csaba Szepesvari"
+],
+"NeurIPS|2025|Spotlight|147": [
+"Zachary Charles",
+"Gabriel Teston",
+"Lucio M. Dery",
+"J Keith Rush",
+"Nova Fallen",
+"Zachary Garrett",
+"Arthur Szlam",
+"Arthur Douillard"
+],
+"NeurIPS|2025|Spotlight|148": [
+"Filippo Bigi",
+"Sanggyu Chong",
+"Agustinus Kristiadi",
+"Michele Ceriotti"
+],
+"NeurIPS|2025|Spotlight|149": [
+"Yuxuan Yang",
+"Dalin Zhang",
+"Yuxuan Liang",
+"Hua Lu",
+"Gang Chen",
+"Huan Li"
+],
+"NeurIPS|2025|Spotlight|150": [
+"Boce Hu",
+"Dian Wang",
+"David Klee",
+"Heng Tian",
+"Xupeng Zhu",
+"Haojie Huang",
+"Robert Platt",
+"Robin Walters"
+],
+"NeurIPS|2025|Spotlight|151": [
+"Houyi Li",
+"Wenzhen Zheng",
+"Qiufeng Wang",
+"Zhenyu Ding",
+"Haoying Wang",
+"Zili Wang",
+"Shijie Xuyang",
+"Ning Ding",
+"Shuigeng Zhou",
+"Xiangyu Zhang",
+"Daxin Jiang"
+],
+"NeurIPS|2025|Spotlight|152": [
+"Sangwoo Park",
+"Matteo Zecchin",
+"Osvaldo Simeone"
+],
+"NeurIPS|2025|Spotlight|153": [
+"David Bruns-Smith",
+"Zhongming Xie",
+"Avi Feller"
+],
+"NeurIPS|2025|Spotlight|154": [
+"Zechen Wu",
+"Amy Greenwald",
+"Ronald Parr"
+],
+"NeurIPS|2025|Spotlight|155": [
+"Alexandru Oarga",
+"Yilun Du"
+],
+"NeurIPS|2025|Spotlight|156": [
+"Annie Marsden",
+"Elad Hazan"
+],
+"NeurIPS|2025|Spotlight|157": [
+"Jiangjie Chen",
+"Qianyu He",
+"Siyu Yuan",
+"Aili Chen",
+"Zhicheng Cai",
+"Weinan Dai",
+"Hongli Yu",
+"Jiaze Chen",
+"Xuefeng Li",
+"Qiying Yu",
+"Hao Zhou",
+"Mingxuan Wang"
+],
+"NeurIPS|2025|Spotlight|158": [
+"Felix Chalumeau",
+"Refiloe Shabe",
+"Noah De Nicola",
+"Arnu Pretorius",
+"Thomas D Barrett",
+"Nathan Grinsztajn"
+],
+"NeurIPS|2025|Spotlight|159": [
+"Yu Li",
+"Jin Jiang",
+"Jianhua Zhu",
+"Shuai Peng",
+"Baole Wei",
+"Yuxuan Zhou",
+"Liangcai Gao"
+],
+"NeurIPS|2025|Spotlight|160": [
+"Hantao Yu",
+"Josh Alman"
+],
+"NeurIPS|2025|Spotlight|161": [
+"Heeseung Yun",
+"Joonil Na",
+"Jaeyeon Kim",
+"Calvin Murdock",
+"Gunhee Kim"
+],
+"NeurIPS|2025|Spotlight|162": [
+"Benjamin Cookson",
+"Nisarg Shah",
+"Ziqi Yu"
+],
+"NeurIPS|2025|Spotlight|163": [
+"Ruihan Yang",
+"Yikai Zhang",
+"Aili Chen",
+"Xintao Wang",
+"Jiangjie Chen",
+"Siyu Yuan",
+"Deqing Yang",
+"Yanghua Xiao"
+],
+"NeurIPS|2025|Spotlight|164": [
+"Bao Nguyen",
+"Hieu Trung Nguyen",
+"Ruifeng She",
+"Xiaojin Fu",
+"Viet Anh Nguyen"
+],
+"NeurIPS|2025|Spotlight|165": [
+"Weixiang Zhao",
+"Jiahe Guo",
+"Yang Deng",
+"Tongtong Wu",
+"Wenxuan Zhang",
+"Yulin Hu",
+"Xingyu Sui",
+"Yanyan Zhao",
+"Wanxiang Che",
+"Bing Qin",
+"Tat-Seng Chua",
+"Ting Liu"
+],
+"NeurIPS|2025|Spotlight|166": [
+"Bohao Liao",
+"Wei Zhai",
+"Zengyu Wan",
+"Zhixin Cheng",
+"Wenfei Yang",
+"Yang Cao",
+"Tianzhu Zhang",
+"Zheng-Jun Zha"
+],
+"NeurIPS|2025|Spotlight|167": [
+"Mehran Shakerinava",
+"Siamak Ravanbakhsh",
+"Adam Oberman"
+],
+"NeurIPS|2025|Spotlight|168": [
+"Shiva Sreeram",
+"Alaa Maalouf",
+"Pratyusha Sharma",
+"Daniela Rus"
+],
+"NeurIPS|2025|Spotlight|169": [
+"Tim Genewein",
+"Li Kevin Wenliang",
+"Jordi Grau-Moya",
+"Anian Ruoss",
+"Laurent Orseau",
+"Marcus Hutter"
+],
+"NeurIPS|2025|Spotlight|170": [
+"Mete Erdogan",
+"Cengiz Pehlevan",
+"Alper Tunga Erdogan"
+],
+"NeurIPS|2025|Spotlight|171": [
+"Mingze Wang",
+"Weinan E"
+],
+"NeurIPS|2025|Spotlight|172": [
+"Parjanya Prajakta Prashant",
+"Kaustubh Ponkshe",
+"Babak Salimi"
+],
+"NeurIPS|2025|Spotlight|173": [
+"Ekaterina Kochetkova",
+"Kshiteej Sheth",
+"Insu Han",
+"Amir Zandieh",
+"Michael Kapralov"
+],
+"NeurIPS|2025|Spotlight|174": [
+"Rohit Jayanti",
+"Swayam Agrawal",
+"Vansh Garg",
+"Siddharth Tourani",
+"Muhammad Haris Khan",
+"Sourav Garg",
+"Madhava Krishna"
+],
+"NeurIPS|2025|Spotlight|175": [
+"Satvik Golechha",
+"Adrià Garriga-Alonso"
+],
+"NeurIPS|2025|Spotlight|176": [
+"Zhining Zhang",
+"Chuanyang Jin",
+"Mung Yao Jia",
+"Shunchi Zhang",
+"Tianmin Shu"
+],
+"NeurIPS|2025|Spotlight|177": [
+"Qishuai Wen",
+"Zhiyuan Huang",
+"Chun-Guang Li"
+],
+"NeurIPS|2025|Spotlight|178": [
+"Rikuto Kotoge",
+"Zheng Chen",
+"Tasuku Kimura",
+"Yasuko Matsubara",
+"Takufumi Yanagisawa",
+"Haruhiko Kishima",
+"Yasushi Sakurai"
+],
+"NeurIPS|2025|Spotlight|179": [
+"Arnab Bhattacharyya",
+"Davin Choo",
+"Philips George John",
+"Themis Gouleakis"
+],
+"NeurIPS|2025|Spotlight|180": [
+"Yu Shang",
+"Xin Zhang",
+"Yinzhou Tang",
+"Lei Jin",
+"Chen Gao",
+"Wei Wu",
+"Yong Li"
+],
+"NeurIPS|2025|Spotlight|181": [
+"Jinguo Luo",
+"Weihong Ren",
+"Quanlong Zheng",
+"Yanhao Zhang",
+"Zhenlong Yuan",
+"Zhiyong Wang",
+"Haonan Lu",
+"Honghai LIU"
+],
+"NeurIPS|2025|Spotlight|182": [
+"Siye Wu",
+"Jian Xie",
+"Yikai Zhang",
+"Aili Chen",
+"Kai Zhang",
+"Yu Su",
+"Yanghua Xiao"
+],
+"NeurIPS|2025|Spotlight|183": [
+"Andrea Della Vecchia",
+"Arnaud Mavakala Watusadisi",
+"Ernesto De Vito",
+"Lorenzo Rosasco"
+],
+"NeurIPS|2025|Spotlight|184": [
+"Jialong Chen",
+"Tong Wang",
+"Bowen Deng",
+"Luonan Chen",
+"Zibin Zheng",
+"Chuan Chen"
+],
+"NeurIPS|2025|Spotlight|185": [
+"Joséphine Raugel",
+"Jérémy Rapin",
+"Stéphane d'Ascoli",
+"Valentin Wyart",
+"Jean-Remi King"
+],
+"NeurIPS|2025|Spotlight|186": [
+"Yanggan Gu",
+"Yuanyi Wang",
+"Zhaoyi Yan",
+"Yiming Zhang",
+"Qi Zhou",
+"Fei Wu",
+"Hongxia Yang"
+],
+"NeurIPS|2025|Spotlight|187": [
+"Lingwei Dang",
+"Ruizhi Shao",
+"Hongwen Zhang",
+"Wei MIN",
+"Yebin Liu",
+"Qingyao Wu"
+],
+"NeurIPS|2025|Spotlight|188": [
+"Rafael Bischof",
+"Michal Piovarci",
+"Michael Anton Kraus",
+"Siddhartha Mishra",
+"Bernd Bickel"
+],
+"NeurIPS|2025|Spotlight|189": [
+"Junda Zhu",
+"Jun Ai",
+"Yujun Li",
+"Yichun Yin",
+"Yasheng Wang",
+"Lifeng Shang",
+"Qun Liu"
+],
+"NeurIPS|2025|Spotlight|190": [
+"Xixian Yong",
+"Xiao Zhou",
+"Yingying Zhang",
+"Jinlin Li",
+"Yefeng Zheng",
+"Xian Wu"
+],
+"NeurIPS|2025|Spotlight|191": [
+"Menglin Yang",
+"Ram Samarth B B",
+"Aosong Feng",
+"Bo Xiong",
+"Jiahong Liu",
+"Irwin King",
+"Rex Ying"
+],
+"NeurIPS|2025|Spotlight|192": [
+"Yuxin Chang",
+"Alex James Boyd",
+"Cao Xiao",
+"Taha Kass-Hout",
+"Parminder Bhatia",
+"Padhraic Smyth",
+"Andrew Warrington"
+],
+"NeurIPS|2025|Spotlight|193": [
+"Ningning CHEN",
+"Weicai Ye",
+"Ying Jiang"
+],
+"NeurIPS|2025|Spotlight|194": [
+"Michael Gastpar",
+"Ido Nachum",
+"Jonathan Shafer",
+"Thomas Weinberger"
+],
+"NeurIPS|2025|Spotlight|195": [
+"Hyunsu Kim",
+"Jonggeon Park",
+"Joan Bruna",
+"Hongseok Yang",
+"Juho Lee"
+],
+"NeurIPS|2025|Spotlight|196": [
+"Seohong Park",
+"Kevin Frans",
+"Deepinder Mann",
+"Benjamin Eysenbach",
+"Aviral Kumar",
+"Sergey Levine"
+],
+"NeurIPS|2025|Spotlight|197": [
+"In-Jae Lee",
+"Mungyeom Kim",
+"Kwonyoung Ryu",
+"Pierre Musacchio",
+"Jaesik Park"
+],
+"NeurIPS|2025|Spotlight|198": [
+"Hsi-Ling Chen",
+"Chun-Shien Lu",
+"Pau-Choo Chung"
+],
+"NeurIPS|2025|Spotlight|199": [
+"Akhiad Bercovich",
+"Mohammed Dabbah",
+"Omri Puny",
+"Ido Galil",
+"Amnon Geifman",
+"Yonatan Geifman",
+"Izhak Golan",
+"Ehud Dov Karpas",
+"Itay Levy",
+"Zach Moshe",
+"Najeeb Nabwani",
+"Tomer Ronen",
+"Itamar Schen",
+"Ido Shahaf",
+"Oren Tropp",
+"Ran Zilberstein",
+"Ran El-Yaniv"
+],
+"NeurIPS|2025|Spotlight|200": [
+"Minki Kang",
+"Jongwon Jeong",
+"Seanie Lee",
+"Jaewoong Cho",
+"Sung Ju Hwang"
+],
+"NeurIPS|2025|Spotlight|201": [
+"Jun Zhao",
+"Yongzhuo Yang",
+"Xiang Hu",
+"Jingqi Tong",
+"Yi Lu",
+"Wei Wu",
+"Tao Gui",
+"Qi Zhang",
+"Xuanjing Huang"
+],
+"NeurIPS|2025|Spotlight|202": [
+"Qiangqiang Mao",
+"Jiayang Ren",
+"Yixiu Wang",
+"Chenxuanyin Zou",
+"Jingjing Zheng",
+"Yankai Cao"
+],
+"NeurIPS|2025|Spotlight|203": [
+"Borong Zhang",
+"Yuhao Zhang",
+"Jiaming Ji",
+"Yingshan Lei",
+"Josef Dai",
+"Yuanpei Chen",
+"Yaodong Yang"
+],
+"NeurIPS|2025|Spotlight|204": [
+"Namkyeong Lee",
+"Yunhak Oh",
+"Heewoong Noh",
+"Gyoung S. Na",
+"Minkai Xu",
+"Hanchen",
+"Tianfan Fu",
+"Chanyoung Park"
+],
+"NeurIPS|2025|Spotlight|205": [
+"Haipeng Luo",
+"Spandan Senapati",
+"Vatsal Sharan"
+],
+"NeurIPS|2025|Spotlight|206": [
+"Dian Meng",
+"Zhiguang Cao",
+"Jie Gao",
+"Yaoxin Wu",
+"Yaqing Hou"
+],
+"NeurIPS|2025|Spotlight|207": [
+"Haipeng Luo",
+"Spandan Senapati",
+"Vatsal Sharan"
+],
+"NeurIPS|2025|Spotlight|208": [
+"Dongjie Yang",
+"Chengqiang Lu",
+"Qimeng Wang",
+"Xinbei Ma",
+"Yan Gao",
+"Yao Hu",
+"hai zhao"
+],
+"NeurIPS|2025|Spotlight|209": [
+"Yihao Li",
+"Saeed Salehi",
+"Lyle Ungar",
+"Konrad Kording"
+],
+"NeurIPS|2025|Spotlight|210": [
+"Zhiqin Zhang",
+"Yining Ma",
+"Zhiguang Cao",
+"Hoong Chuin Lau"
+],
+"NeurIPS|2025|Spotlight|211": [
+"Sungee Hong",
+"Jiayi Wang",
+"Zhengling Qi",
+"Raymond K. W. Wong"
+],
+"NeurIPS|2025|Spotlight|212": [
+"Yuheng Zhang",
+"Dian Yu",
+"Tao Ge",
+"Linfeng Song",
+"Zhichen Zeng",
+"Haitao Mi",
+"Nan Jiang",
+"Dong Yu"
+],
+"NeurIPS|2025|Spotlight|213": [
+"Tara Akhound-Sadegh",
+"Jungyoon Lee",
+"Joey Bose",
+"Valentin De Bortoli",
+"Arnaud Doucet",
+"Michael M. Bronstein",
+"Dominique Beaini",
+"Siamak Ravanbakhsh",
+"Kirill Neklyudov",
+"Alexander Tong"
+],
+"NeurIPS|2025|Spotlight|214": [
+"Jaesik Yoon",
+"Hyeonseo Cho",
+"Sungjin Ahn"
+],
+"NeurIPS|2025|Spotlight|215": [
+"Jaesik Yoon",
+"Hyeonseo Cho",
+"Yoshua Bengio",
+"Sungjin Ahn"
+],
+"NeurIPS|2025|Spotlight|216": [
+"Ali Zafari",
+"Xi Chen",
+"Shirin Jalali"
+],
+"NeurIPS|2025|Spotlight|217": [
+"Yuheng Zhao",
+"Yu-Hu Yan",
+"Kfir Yehuda Levy",
+"Peng Zhao"
+],
+"NeurIPS|2025|Spotlight|218": [
+"Arnav Kumar Jain",
+"Vibhakar Mohta",
+"Subin Kim",
+"Atiksh Bhardwaj",
+"Juntao Ren",
+"Yunhai Feng",
+"Sanjiban Choudhury",
+"Gokul Swamy"
+],
+"NeurIPS|2025|Spotlight|219": [
+"Payal Mohapatra",
+"Yueyuan Sui",
+"Akash Pandey",
+"Stephen Xia",
+"Qi Zhu"
+],
+"NeurIPS|2025|Spotlight|220": [
+"Xingyu Chen",
+"Shihao Ma",
+"Runsheng Lin",
+"Jiecong Lin",
+"BO WANG"
+],
+"NeurIPS|2025|Spotlight|221": [
+"Zhiyuan Fan",
+"Arnab Maiti",
+"Lillian J. Ratliff",
+"Kevin Jamieson",
+"Gabriele Farina"
+],
+"NeurIPS|2025|Spotlight|222": [
+"Yi Zhang",
+"Elynn Chen",
+"Yujun Yan"
+],
+"NeurIPS|2025|Spotlight|223": [
+"Hossein Adeli",
+"Minni Sun",
+"Nikolaus Kriegeskorte"
+],
+"NeurIPS|2025|Spotlight|224": [
+"Yeongbin Seo",
+"Dongha Lee",
+"Jaehyung Kim",
+"Jinyoung Yeo"
+],
+"NeurIPS|2025|Spotlight|225": [
+"Enzhe Lu",
+"Zhejun Jiang",
+"Jingyuan Liu",
+"Yulun Du",
+"Tao Jiang",
+"Chao Hong",
+"Shaowei Liu",
+"Weiran He",
+"Enming Yuan",
+"Yuzhi Wang",
+"Zhiqi Huang",
+"Huan Yuan",
+"Suting Xu",
+"Xinran Xu",
+"Guokun Lai",
+"Yanru Chen",
+"Huabin Zheng",
+"Junjie Yan",
+"Jianlin Su",
+"Yuxin Wu",
+"Yutao Zhang",
+"Zhilin Yang",
+"Xinyu Zhou",
+"Mingxing Zhang",
+"Jiezhong Qiu"
+],
+"NeurIPS|2025|Spotlight|226": [
+"Diego de Oliveira Hitzges",
+"Suman Ghosh",
+"Guillermo Gallego"
+],
+"NeurIPS|2025|Spotlight|227": [
+"Xinran Wang",
+"Jin Du",
+"Azal Ahmad Khan",
+"Qi Le",
+"Enmao Diao",
+"Jiawei Zhou",
+"Jie Ding",
+"Ali Anwar"
+],
+"NeurIPS|2025|Spotlight|228": [
+"Zecheng Wang",
+"Chunshan Li",
+"Yupeng Zhang",
+"Han Liu",
+"Bingning Wang",
+"Dianhui Chu",
+"Dianbo Sui"
+],
+"NeurIPS|2025|Spotlight|229": [
+"Cong Wei",
+"Bo Sun",
+"Haoyu Ma",
+"Ji Hou",
+"Felix Juefei-Xu",
+"Zecheng He",
+"Xiaoliang Dai",
+"Luxin Zhang",
+"Kunpeng Li",
+"Tingbo Hou",
+"Animesh Sinha",
+"Peter Vajda",
+"Wenhu Chen"
+],
+"NeurIPS|2025|Spotlight|230": [
+"Tongtong Liang",
+"Dan Qiao",
+"Yu-Xiang Wang",
+"Rahul Parhi"
+],
+"NeurIPS|2025|Spotlight|231": [
+"Diana Cai",
+"Robert M. Gower",
+"David Blei",
+"Lawrence K. Saul"
+],
+"NeurIPS|2025|Spotlight|232": [
+"Xiang Li",
+"Chendi Wang",
+"Buxin Su",
+"Qi Long",
+"Weijie J Su"
+],
+"NeurIPS|2025|Spotlight|233": [
+"Minseok Jeong",
+"Giup Seo",
+"Euiseok Hwang"
+],
+"NeurIPS|2025|Spotlight|234": [
+"Siavash Ameli",
+"Chris van der Heide",
+"Liam Hodgkinson",
+"Michael W. Mahoney"
+],
+"NeurIPS|2025|Spotlight|235": [
+"Chen Chen",
+"Pengsheng Guo",
+"Liangchen Song",
+"Jiasen Lu",
+"Rui Qian",
+"Tsu-Jui Fu",
+"Xinze Wang",
+"Wei Liu",
+"Yinfei Yang",
+"Alex Schwing"
+],
+"NeurIPS|2025|Spotlight|236": [
+"Stefano Zampini",
+"Jacob K Christopher",
+"Luca Oneto",
+"Davide Anguita",
+"Ferdinando Fioretto"
+],
+"NeurIPS|2025|Spotlight|237": [
+"Soumita Hait",
+"Ping Li",
+"Haipeng Luo",
+"Mengxiao Zhang"
+],
+"NeurIPS|2025|Spotlight|238": [
+"Feiran Wang",
+"Jiachen Tao",
+"Junyi Wu",
+"Haoxuan Wang",
+"Bin Duan",
+"Kai Wang",
+"Zongxin Yang",
+"Yan Yan"
+],
+"NeurIPS|2025|Spotlight|239": [
+"Bruce W. Lee",
+"Addie Foote",
+"Alex Infanger",
+"Leni Shor",
+"Harish K Kamath",
+"Jacob Goldman-Wetzler",
+"Bryce Woodworth",
+"Alex Cloud",
+"Alexander Matt Turner"
+],
+"NeurIPS|2025|Spotlight|240": [
+"Xiaokang Ye",
+"Jiawei Ren",
+"Yan Zhuang",
+"Xuhong He",
+"Yiming Liang",
+"Yiqing Yang",
+"Mrinaal Dogra",
+"Xianrui Zhong",
+"Eric Liu",
+"Kevin Benavente",
+"Rajiv Mandya Nagaraju",
+"Dhruv Vivek Sharma",
+"Ziqiao Ma",
+"Tianmin Shu",
+"Zhiting Hu",
+"Lianhui Qin"
+],
+"NeurIPS|2025|Spotlight|241": [
+"Haoyu Li",
+"Xiangru Zhong",
+"Bin Hu",
+"Huan Zhang"
+],
+"NeurIPS|2025|Spotlight|242": [
+"Ioannis Anagnostides",
+"Ioannis Panageas",
+"Tuomas Sandholm",
+"Jingming Yan"
+],
+"NeurIPS|2025|Spotlight|243": [
+"Sasha Voitovych",
+"Mahdi Haghifam",
+"Idan Attias",
+"Gintare Karolina Dziugaite",
+"Roi Livni",
+"Daniel M. Roy"
+],
+"NeurIPS|2025|Spotlight|244": [
+"Zhengxuan Wu",
+"Qinan Yu",
+"Aryaman Arora",
+"Christopher D Manning",
+"Christopher Potts"
+],
+"NeurIPS|2025|Spotlight|245": [
+"Weijia Shi",
+"Akshita Bhagia",
+"Kevin Farhat",
+"Niklas Muennighoff",
+"Jacob Morrison",
+"Evan Pete Walsh",
+"Dustin Schwenk",
+"Shayne Longpre",
+"Jake Poznanski",
+"Allyson Ettinger",
+"Daogao Liu",
+"Margaret Li",
+"Mike Lewis",
+"Wen-tau Yih",
+"Dirk Groeneveld",
+"Luca Soldaini",
+"Kyle Lo",
+"Noah A. Smith",
+"Luke Zettlemoyer",
+"Pang Wei Koh",
+"Hannaneh Hajishirzi",
+"Ali Farhadi",
+"Sewon Min"
+],
+"NeurIPS|2025|Spotlight|246": [
+"Yihua Zhang",
+"Changsheng Wang",
+"Yiwei Chen",
+"Chongyu Fan",
+"Jinghan Jia",
+"Sijia Liu"
+],
+"NeurIPS|2025|Spotlight|247": [
+"Weiwei Sun",
+"Haokun Liu",
+"Nikhil Kandpal",
+"Colin Raffel",
+"Yiming Yang"
+],
+"NeurIPS|2025|Spotlight|248": [
+"Thomas Ressler-Antal",
+"Frank Fundel",
+"Malek Ben Alaya",
+"Stefan Andreas Baumann",
+"Felix Krause",
+"Ming Gui",
+"Björn Ommer"
+],
+"NeurIPS|2025|Spotlight|249": [
+"Samuel Li",
+"Pujith Kachana",
+"Prajwal Chidananda",
+"Saurabh Nair",
+"Yasutaka Furukawa",
+"Matthew Brown"
+],
+"NeurIPS|2025|Spotlight|250": [
+"Shaohan Li",
+"Yunpeng Shi",
+"Gilad Lerman"
+],
+"NeurIPS|2025|Spotlight|251": [
+"Benjamin Hoover",
+"Zhaoyang Shi",
+"Krishna Balasubramanian",
+"Dmitry Krotov",
+"Parikshit Ram"
+],
+"NeurIPS|2025|Spotlight|252": [
+"Matthew Macfarlane",
+"Clément Bonnet"
+],
+"NeurIPS|2025|Spotlight|253": [
+"Haowei Wang",
+"Jingyi Wang",
+"Zhongxiang Dai",
+"Nai-Yuan Chiang",
+"Szu Hui Ng",
+"Cosmin G. Petra"
+],
+"NeurIPS|2025|Spotlight|254": [
+"Awni Altabaa",
+"Omar Montasser",
+"John Lafferty"
+],
+"NeurIPS|2025|Spotlight|255": [
+"Daniel D. Richman",
+"Jessica Karaguesian",
+"Carl-Mikael Suomivuori",
+"Ron O. Dror"
+],
+"NeurIPS|2025|Spotlight|256": [
+"Yutong Wang",
+"Haiyu Wang",
+"Sai Qian Zhang"
+],
+"NeurIPS|2025|Spotlight|257": [
+"Zihan Weng",
+"Lucas Gomez",
+"Taylor Whittington Webb",
+"Pouya Bashivan"
+],
+"NeurIPS|2025|Spotlight|258": [
+"Sridhar Mahadevan"
+],
+"NeurIPS|2025|Spotlight|259": [
+"Pengrun Huang",
+"Chhavi Yadav",
+"Kamalika Chaudhuri",
+"Ruihan Wu"
+],
+"NeurIPS|2025|Spotlight|260": [
+"Itamar Harel",
+"Yonathan Wolanowsky",
+"Gal Vardi",
+"Nathan Srebro",
+"Daniel Soudry"
+],
+"NeurIPS|2025|Spotlight|261": [
+"Chantal Shaib",
+"Vinith Menon Suriyakumar",
+"Byron C Wallace",
+"Marzyeh Ghassemi"
+],
+"NeurIPS|2025|Spotlight|262": [
+"Elfarouk Harb",
+"Yousef Yassin",
+"Chandra Chekuri"
+],
+"NeurIPS|2025|Spotlight|263": [
+"Travis Dick",
+"Haim Kaplan",
+"Alex Kulesza",
+"Uri Stemmer",
+"Ziteng Sun",
+"Ananda Theertha Suresh"
+],
+"NeurIPS|2025|Spotlight|264": [
+"Gergely Csáji",
+"Alexander Gundert",
+"Jörg Rothe",
+"Ildikó Schlotter"
+],
+"NeurIPS|2025|Spotlight|265": [
+"Hoang Pham",
+"The-Anh Ta",
+"Tom Jacobs",
+"Rebekka Burkholz",
+"Long Tran-Thanh"
+],
+"NeurIPS|2025|Spotlight|266": [
+"Amirhesam Abedsoltan",
+"Siyuan Ma",
+"Parthe Pandit",
+"Mikhail Belkin"
+],
+"NeurIPS|2025|Spotlight|267": [
+"Siyan Zhao",
+"Devaansh Gupta",
+"Qinqing Zheng",
+"Aditya Grover"
+],
+"NeurIPS|2025|Spotlight|268": [
+"Qiujiang Jin",
+"Aryan Mokhtari"
+],
+"NeurIPS|2025|Spotlight|269": [
+"Ziyang Cai",
+"Nayoung Lee",
+"Avi Schwarzschild",
+"Samet Oymak",
+"Dimitris Papailiopoulos"
+],
+"NeurIPS|2025|Spotlight|270": [
+"Eric Lei",
+"Hamed Hassani",
+"Shirin Saeedi Bidokhti"
+],
+"NeurIPS|2025|Spotlight|271": [
+"Longwei Wang",
+"Ifrat Ikhtear Uddin",
+"KC Santosh",
+"Chaowei Zhang",
+"Xiao Qin",
+"Yang Zhou"
+],
+"NeurIPS|2025|Spotlight|272": [
+"Alexander Lobashev",
+"Maria Larchenko",
+"Dmitry Guskov"
+],
+"NeurIPS|2025|Spotlight|273": [
+"Badih Ghazi",
+"Pritish Kamath",
+"Alexander Knop",
+"Ravi Kumar",
+"Pasin Manurangsi",
+"Chiyuan Zhang"
+],
+"NeurIPS|2025|Spotlight|274": [
+"Guan Zhe Hong",
+"Nishanth Dikkala",
+"Enming Luo",
+"Cyrus Rashtchian",
+"Xin Wang",
+"Rina Panigrahy"
+],
+"NeurIPS|2025|Spotlight|275": [
+"Yufan Li",
+"Pragya Sur"
+],
+"NeurIPS|2025|Spotlight|276": [
+"Shay Moran",
+"Elizaveta Nesterova"
+],
+"NeurIPS|2025|Spotlight|277": [
+"Hao Kang",
+"Qingru Zhang",
+"Han Cai",
+"Weiyuan Xu",
+"Tushar Krishna",
+"Yilun Du",
+"Tsachy Weissman"
+],
+"NeurIPS|2025|Spotlight|278": [
+"Jiaoda Li",
+"Ryan Cotterell"
+],
+"NeurIPS|2025|Spotlight|279": [
+"Bruno Kacper Mlodozeniec",
+"Isaac Reid",
+"Samuel Power",
+"David Krueger",
+"Murat A Erdogdu",
+"Richard E. Turner",
+"Roger Baker Grosse"
+],
+"NeurIPS|2025|Spotlight|280": [
+"Gleb Rodionov",
+"Roman Garipov",
+"Alina Shutova",
+"George Yakushev",
+"Erik Schultheis",
+"Vage Egiazarian",
+"Anton Sinitsin",
+"Denis Kuznedelev",
+"Dan Alistarh"
+],
+"NeurIPS|2025|Spotlight|281": [
+"Abdelrahman Eldesokey",
+"Aleksandar Cvejić",
+"Bernard Ghanem",
+"Peter Wonka"
+],
+"NeurIPS|2025|Spotlight|282": [
+"Denis Sutter",
+"Julian Minder",
+"Thomas Hofmann",
+"Tiago Pimentel"
+],
+"NeurIPS|2025|Spotlight|283": [
+"Tao Wang",
+"Mengyu Li",
+"Geduo Zeng",
+"Cheng Meng",
+"Qiong Zhang"
+],
+"NeurIPS|2025|Spotlight|284": [
+"Shahrzad Haddadan",
+"Sara Ahmadian"
+],
+"NeurIPS|2025|Spotlight|285": [
+"Jiaxi Hu",
+"Yongqi Pan",
+"Jusen Du",
+"Disen Lan",
+"Xiaqiang Tang",
+"Qingsong Wen",
+"Yuxuan Liang",
+"Weigao Sun"
+],
+"NeurIPS|2025|Spotlight|286": [
+"Diankun Wu",
+"Fangfu Liu",
+"Yi-Hsin Hung",
+"Yueqi Duan"
+],
+"NeurIPS|2025|Spotlight|287": [
+"Claudia Cuttano",
+"Gabriele Trivigno",
+"Giuseppe Averta",
+"Carlo Masone"
+],
+"NeurIPS|2025|Spotlight|288": [
+"Reza Shirkavand",
+"Shangqian Gao",
+"Peiran Yu",
+"Heng Huang"
+],
+"NeurIPS|2025|Spotlight|289": [
+"Xiaotian Zhang",
+"Yue Shang",
+"Entao Yang",
+"Ge Zhang"
+],
+"NeurIPS|2025|Spotlight|290": [
+"Liting Lin",
+"Heng Fan",
+"Zhipeng Zhang",
+"Yuqing Huang",
+"Yaowei Wang",
+"Yong Xu",
+"Haibin Ling"
+],
+"NeurIPS|2025|Spotlight|291": [
+"Emmeran Johnson",
+"David Martínez-Rubio",
+"Ciara Pike-Burke",
+"Patrick Rebeschini"
+],
+"NeurIPS|2025|Spotlight|292": [
+"Zhengkai Lin",
+"Zhihang Fu",
+"Ze Chen",
+"Chao Chen",
+"Liang Xie",
+"Wenxiao Wang",
+"Deng Cai",
+"Zheng Wang",
+"Jieping Ye"
+],
+"NeurIPS|2025|Spotlight|293": [
+"Xiangyuan Peng",
+"Xingsi Dong",
+"Si Wu"
+],
+"NeurIPS|2025|Spotlight|294": [
+"Xiong Zhang",
+"Zhenli He",
+"Changlong Fu",
+"Cheng Xie"
+],
+"NeurIPS|2025|Spotlight|295": [
+"Lin Guo",
+"Xiaoqing Luo",
+"Wei Xie",
+"Zhancheng Zhang",
+"Hui Li",
+"Rui Wang",
+"Zhenhua Feng",
+"Xiaoning Song"
+],
+"NeurIPS|2025|Spotlight|296": [
+"Ziru Wang",
+"Mengmeng Wang",
+"Guang Dai",
+"Yongliu Long",
+"Jingdong Wang"
+],
+"NeurIPS|2025|Spotlight|297": [
+"Zekun Qi",
+"Wenyao Zhang",
+"Yufei Ding",
+"Runpei Dong",
+"XinQiang Yu",
+"Jingwen Li",
+"Lingyun Xu",
+"Baoyu Li",
+"Xialin He",
+"Guofan Fan",
+"Jiazhao Zhang",
+"Jiawei He",
+"Jiayuan Gu",
+"Xin Jin",
+"Kaisheng Ma",
+"Zhizheng Zhang",
+"He Wang",
+"Li Yi"
+],
+"NeurIPS|2025|Spotlight|298": [
+"Honglin Liu",
+"Chao Sun",
+"Peng Hu",
+"Yunfan Li",
+"Xi Peng"
+],
+"NeurIPS|2025|Spotlight|299": [
+"Hieu M. Vu",
+"Tan Minh Nguyen"
+],
+"NeurIPS|2025|Spotlight|300": [
+"Chenyang Ma",
+"Kai Lu",
+"Ruta Desai",
+"Xavier Puig",
+"Andrew Markham",
+"Niki Trigoni"
+],
+"NeurIPS|2025|Spotlight|301": [
+"Ya-Wei Eileen Lin",
+"Ronald R. Coifman",
+"Gal Mishne",
+"Ronen Talmon"
+],
+"NeurIPS|2025|Spotlight|302": [
+"Yonggang Zhang",
+"Jun Nie",
+"Xinmei Tian",
+"Mingming Gong",
+"Kun Zhang",
+"Bo Han"
+],
+"NeurIPS|2025|Spotlight|303": [
+"Bogdan Chornomaz",
+"Yonatan Koren",
+"Shay Moran",
+"Tom Waknine"
+],
+"NeurIPS|2025|Spotlight|304": [
+"Rui Xu",
+"Dakuan Lu",
+"Zicheng Zhao",
+"Xiaoyu Tan",
+"Xintao Wang",
+"Siyu Yuan",
+"Jiangjie Chen",
+"Xu Yinghui"
+],
+"NeurIPS|2025|Spotlight|305": [
+"Yuzhou Cao",
+"Han Bao",
+"Lei Feng",
+"Bo An"
+],
+"NeurIPS|2025|Spotlight|306": [
+"Jingjing Jiang",
+"Chongjie Si",
+"Jun Luo",
+"Hanwang Zhang",
+"Chao Ma"
+],
+"NeurIPS|2025|Spotlight|307": [
+"Benjamin Walker",
+"Lingyi Yang",
+"Nicola Muca Cirone",
+"Cristopher Salvi",
+"Terry Lyons"
+],
+"NeurIPS|2025|Spotlight|308": [
+"Xiaoqian Shen",
+"Wenxuan Zhang",
+"Jun Chen",
+"Mohamed Elhoseiny"
+],
+"NeurIPS|2025|Spotlight|309": [
+"Moshe Shenfeld",
+"Vitaly Feldman"
+],
+"NeurIPS|2025|Spotlight|310": [
+"Ming Tang",
+"Yuxuan Zhou",
+"Chao Huang"
+],
+"NeurIPS|2025|Spotlight|311": [
+"Cong Wang",
+"Zexuan Deng",
+"Zhiwei Jiang",
+"Yafeng Yin",
+"Fei Shen",
+"Zifeng Cheng",
+"Shiping Ge",
+"Shiwei Gan",
+"Qing Gu"
+],
+"NeurIPS|2025|Spotlight|312": [
+"Chunlong Xie",
+"Kangjie Chen",
+"Shangwei Guo",
+"Shudong Zhang",
+"Tianwei Zhang",
+"Tao Xiang"
+],
+"NeurIPS|2025|Spotlight|313": [
+"Elif Arslan",
+"Jacobus G. M. van der Linden",
+"Serge Hoogendoorn",
+"Marco Rinaldi",
+"Emir Demirović"
+],
+"NeurIPS|2025|Spotlight|314": [
+"Bo Guo",
+"Sijia Wen",
+"Ziwei Wang",
+"Yifan Zhao"
+],
+"NeurIPS|2025|Spotlight|315": [
+"Chao Su",
+"Likang Peng",
+"Yuan Sun",
+"Dezhong Peng",
+"Xi Peng",
+"Xu Wang"
+],
+"NeurIPS|2025|Spotlight|316": [
+"Paul Liautaud",
+"Pierre Gaillard",
+"Olivier Wintenberger"
+],
+"NeurIPS|2025|Spotlight|317": [
+"Jigang Fan",
+"QuanLin Wu",
+"Shengjie Luo",
+"Liwei Wang"
+],
+"NeurIPS|2025|Spotlight|318": [
+"Zhe Li",
+"Xiang Bai",
+"Jieyu Zhang",
+"Zhuangzhe Wu",
+"Che Xu",
+"Ying Li",
+"Chengkai Hou",
+"Shanghang Zhang"
+],
+"NeurIPS|2025|Spotlight|319": [
+"jingxiao zhang",
+"Shifei Ding",
+"Jian Zhang",
+"Lili Guo",
+"Xuan Li"
+],
+"NeurIPS|2025|Spotlight|320": [
+"Gunshi Gupta",
+"Karmesh Yadav",
+"Zsolt Kira",
+"Yarin Gal",
+"Rahaf Aljundi"
+],
+"NeurIPS|2025|Spotlight|321": [
+"Tianyi Chen",
+"Pengxiao Lin",
+"Zhiwei Wang",
+"Zhi-Qin John Xu"
+],
+"NeurIPS|2025|Spotlight|322": [
+"Boyuan Cao",
+"Jiaxin Ye",
+"Yujie Wei",
+"Hongming Shan"
+],
+"NeurIPS|2025|Spotlight|323": [
+"Zhixuan Pan",
+"Shaowen Wang",
+"Liao Pengfei",
+"Jian Li"
+],
+"NeurIPS|2025|Spotlight|324": [
+"Marius Aasan",
+"Martine Hjelkrem-Tan",
+"Nico Catalano",
+"Changkyu Choi",
+"Adín Ramírez Rivera"
+],
+"NeurIPS|2025|Spotlight|325": [
+"Yunfan Li",
+"Eric Liu",
+"Lin Yang"
+],
+"NeurIPS|2025|Spotlight|326": [
+"Yung-Sung Chuang",
+"Yang Li",
+"Dong Wang",
+"Ching-Feng Yeh",
+"Kehan Lyu",
+"Ramya Raghavendra",
+"James R. Glass",
+"LIFEI HUANG",
+"Jason E Weston",
+"Luke Zettlemoyer",
+"Xinlei Chen",
+"Zhuang Liu",
+"Saining Xie",
+"Wen-tau Yih",
+"Shang-Wen Li",
+"Hu Xu"
+],
+"NeurIPS|2025|Spotlight|327": [
+"Daehee Lee",
+"Dongsu Lee",
+"TaeYoon Kwack",
+"Wonje Choi",
+"Honguk Woo"
+],
+"NeurIPS|2025|Spotlight|328": [
+"Sounak Banerjee",
+"Daphne Cornelisse",
+"Deepak Edakkattil Gopinath",
+"Emily Sumner",
+"Jonathan DeCastro",
+"Guy Rosman",
+"Eugene Vinitsky",
+"Mark K Ho"
+],
+"NeurIPS|2025|Spotlight|329": [
+"Tam Le",
+"Truyen Nguyen",
+"Hideitsu Hino",
+"Kenji Fukumizu"
+],
+"NeurIPS|2025|Spotlight|330": [
+"Wenxuan Shi",
+"Haochen Tan",
+"Chuqiao Kuang",
+"Xiaoguang Li",
+"Hanting Chen",
+"Xiaozhe Ren",
+"Yasheng Wang",
+"Lu Hou",
+"Lifeng Shang"
+],
+"NeurIPS|2025|Spotlight|331": [
+"Yumeng He",
+"Yunbo Wang"
+],
+"NeurIPS|2025|Spotlight|332": [
+"Yunan Lu",
+"Xixi Zhang",
+"Yaojin Lin",
+"Weiwei Li",
+"Lei Yang",
+"Xiuyi Jia"
+],
+"NeurIPS|2025|Spotlight|333": [
+"Pu Yang",
+"Yunzhen Feng",
+"Ziyuan Chen",
+"Yuhang Wu",
+"Zhuoyuan Li"
+],
+"NeurIPS|2025|Spotlight|334": [
+"Wenyi Xiao",
+"Leilei Gan"
+],
+"NeurIPS|2025|Spotlight|335": [
+"Seouh-won Yi",
+"Min-hwan Oh"
+],
+"NeurIPS|2025|Spotlight|336": [
+"Jiayuan Ye",
+"Vitaly Feldman",
+"Kunal Talwar"
+],
+"NeurIPS|2025|Spotlight|337": [
+"Lingyi Wang",
+"Rashed Shelim",
+"Walid Saad",
+"Naren Ramakrishnan"
+],
+"NeurIPS|2025|Spotlight|338": [
+"Zhi Wen Soi",
+"Chaoyi Zhu",
+"Fouad Abiad",
+"Aditya Shankar",
+"Jeroen M. Galjaard",
+"Huijuan Wang",
+"Lydia Y. Chen"
+],
+"NeurIPS|2025|Spotlight|339": [
+"Hao Tang",
+"Chen-Wei Xie",
+"Haiyang Wang",
+"Xiaoyi Bao",
+"Tingyu Weng",
+"Pandeng Li",
+"Yun Zheng",
+"Liwei Wang"
+],
+"NeurIPS|2025|Spotlight|340": [
+"Ziyi Wu",
+"Anil Kag",
+"Ivan Skorokhodov",
+"Willi Menapace",
+"Ashkan Mirzaei",
+"Igor Gilitschenski",
+"Sergey Tulyakov",
+"Aliaksandr Siarohin"
+],
+"NeurIPS|2025|Spotlight|341": [
+"Yingying Fan",
+"Yuxuan Han",
+"Jinchi Lv",
+"Xiaocong XU",
+"Zhengyuan Zhou"
+],
+"NeurIPS|2025|Spotlight|342": [
+"Liangjian Wen",
+"Qun Dai",
+"Jianzhuang Liu",
+"Jiangtao Zheng",
+"Yong Dai",
+"Dongkai Wang",
+"zhao kang",
+"Jun Wang",
+"Zenglin Xu",
+"Jiang Duan"
+],
+"NeurIPS|2025|Spotlight|343": [
+"Yiqi Jiang",
+"Kaiwen Sheng",
+"Yujia Gao",
+"E. Kelly Buchanan",
+"Yu Shikano",
+"Seung Je Woo",
+"Yixiu Zhao",
+"Tony Hyun Kim",
+"Fatih Dinc",
+"Scott Linderman",
+"Mark Schnitzer"
+],
+"NeurIPS|2025|Spotlight|344": [
+"Gaole Dai",
+"Chenghao Zhou",
+"Yu Zhou",
+"Rongyu Zhang",
+"Yuan Zhang",
+"Chengkai Hou",
+"Tiejun Huang",
+"Jianxu Chen",
+"Shanghang Zhang"
+],
+"NeurIPS|2025|Spotlight|345": [
+"Jing Wang",
+"Ao Ma",
+"Ke Cao",
+"Jun Zheng",
+"Jiasong Feng",
+"Zhanjie Zhang",
+"Wanyuan Pang",
+"Xiaodan Liang"
+],
+"NeurIPS|2025|Spotlight|346": [
+"Dravyansh Sharma",
+"Alec Sun"
+],
+"NeurIPS|2025|Spotlight|347": [
+"Jiajun Shi",
+"Jian Yang",
+"Jiaheng Liu",
+"Xingyuan Bu",
+"Jiangjie Chen",
+"Junting Zhou",
+"Kaijing Ma",
+"Zhoufutu Wen",
+"Bingli Wang",
+"Yancheng He",
+"Liang Song",
+"Hualei Zhu",
+"Shilong Li",
+"Xingjian Wang",
+"Wei Zhang",
+"Ruibin Yuan",
+"Yifan Yao",
+"Wenjun Yang",
+"Yunli Wang",
+"Siyuan Fang",
+"Siyu Yuan",
+"Qianyu He",
+"Xiangru Tang",
+"Yingshui Tan",
+"Wangchunshu Zhou",
+"Zhaoxiang Zhang",
+"Zhoujun Li",
+"Wenhao Huang",
+"Ge Zhang"
+],
+"NeurIPS|2025|Spotlight|348": [
+"Feiyang Fu",
+"Tongxian Guo",
+"Zhaoqiang Liu"
+],
+"NeurIPS|2025|Spotlight|349": [
+"John Leland",
+"YooJung Choi"
+],
+"NeurIPS|2025|Spotlight|350": [
+"Zongle Huang",
+"Lei Zhu",
+"ZongYuan Zhan",
+"Ting Hu",
+"Weikai Mao",
+"Xianzhi Yu",
+"Yongpan Liu",
+"Tianyu Zhang"
+],
+"NeurIPS|2025|Spotlight|351": [
+"Xiyao Wang",
+"Zhengyuan Yang",
+"Chao Feng",
+"Hongjin Lu",
+"Linjie Li",
+"Chung-Ching Lin",
+"Kevin Lin",
+"Furong Huang",
+"Lijuan Wang"
+],
+"NeurIPS|2025|Spotlight|352": [
+"Han Xu",
+"Yuyang Li",
+"Yunfei Deng",
+"Jiayi Ma",
+"Guangcan Liu"
+],
+"NeurIPS|2025|Spotlight|353": [
+"Haowei Zhu",
+"Tianxiang Pan",
+"Rui Qin",
+"Jun-Hai Yong",
+"Bin Wang"
+],
+"NeurIPS|2025|Spotlight|354": [
+"Chinmay Talegaonkar",
+"Nikhil Gandudi Suresh",
+"Zachary Novack",
+"Yash Belhe",
+"Priyanka Nagasamudra",
+"Nicholas Antipa"
+],
+"NeurIPS|2025|Spotlight|355": [
+"Ansel Blume",
+"Jeonghwan Kim",
+"Hyeonjeong Ha",
+"Elen Chatikyan",
+"Xiaomeng Jin",
+"Khanh Duy Nguyen",
+"Nanyun Peng",
+"Kai-Wei Chang",
+"Derek Hoiem",
+"Heng Ji"
+],
+"NeurIPS|2025|Spotlight|356": [
+"Lingkai Kong",
+"Haichuan Wang",
+"Tonghan Wang",
+"GUOJUN XIONG",
+"Milind Tambe"
+],
+"NeurIPS|2025|Spotlight|357": [
+"Tim G. Zhou",
+"Evan Shelhamer",
+"Geoff Pleiss"
+],
+"NeurIPS|2025|Spotlight|358": [
+"Jane Lange",
+"Arsen Vasilyan"
+],
+"NeurIPS|2025|Spotlight|359": [
+"Chen Fan",
+"Mark Schmidt",
+"Christos Thrampoulidis"
+],
+"NeurIPS|2025|Spotlight|360": [
+"Tobias Schnabel",
+"Kiran Tomlinson",
+"Adith Swaminathan",
+"Jennifer Neville"
+],
+"NeurIPS|2025|Spotlight|361": [
+"Eitan Levin",
+"Yuxin Ma",
+"Mateo Diaz Diaz",
+"Soledad Villar"
+],
+"NeurIPS|2025|Spotlight|362": [
+"Vivek Ramanujan",
+"Kushal Tirumala",
+"Armen Aghajanyan",
+"Luke Zettlemoyer",
+"Ali Farhadi"
+],
+"NeurIPS|2025|Spotlight|363": [
+"Nikita Araslanov",
+"Anna Ribic",
+"Daniel Cremers"
+],
+"NeurIPS|2025|Spotlight|364": [
+"Alex Damian",
+"Jason D. Lee",
+"Joan Bruna"
+],
+"NeurIPS|2025|Spotlight|365": [
+"Lucas Maystre",
+"Gabriel Barello",
+"Tudor Berariu",
+"Aleix Cambray",
+"Rares Dolga",
+"Alvaro Ortega Gonzalez",
+"Andrei Cristian Nica",
+"David Barber"
+],
+"NeurIPS|2025|Spotlight|366": [
+"Jonas Kulhanek",
+"Marie-Julie Rakotosaona",
+"Fabian Manhardt",
+"Christina Tsalicoglou",
+"Michael Niemeyer",
+"Torsten Sattler",
+"Songyou Peng",
+"Federico Tombari"
+],
+"NeurIPS|2025|Spotlight|367": [
+"Deep Patel",
+"Emmanouil-Vasileios Vlatakis-Gkaragkounis"
+],
+"NeurIPS|2025|Spotlight|368": [
+"Zhe Tao",
+"Aditya V. Thakur"
+],
+"NeurIPS|2025|Spotlight|369": [
+"Sreyan Ghosh",
+"Arushi Goel",
+"Jaehyeon Kim",
+"Sonal Kumar",
+"Zhifeng Kong",
+"Sang-gil Lee",
+"Chao-Han Huck Yang",
+"Ramani Duraiswami",
+"Dinesh Manocha",
+"Rafael Valle",
+"Bryan Catanzaro"
+],
+"NeurIPS|2025|Spotlight|370": [
+"Fang Li",
+"Hao Zhang",
+"Narendra Ahuja"
+],
+"NeurIPS|2025|Spotlight|371": [
+"Sungje Park",
+"Stephen Tu"
+],
+"NeurIPS|2025|Spotlight|372": [
+"Jingyang Lin",
+"Jialian Wu",
+"Ximeng Sun",
+"Ze Wang",
+"Jiang Liu",
+"Yusheng Su",
+"Xiaodong Yu",
+"Hao Chen",
+"Jiebo Luo",
+"Zicheng Liu",
+"Emad Barsoum"
+],
+"NeurIPS|2025|Spotlight|373": [
+"Akhil Premkumar"
+],
+"NeurIPS|2025|Spotlight|374": [
+"Artem Lukoianov",
+"Chenyang Yuan",
+"Justin Solomon",
+"Vincent Sitzmann"
+],
+"NeurIPS|2025|Spotlight|375": [
+"Mattes Mollenhauer",
+"Nicole Mücke",
+"Dimitri Meunier",
+"Arthur Gretton"
+],
+"NeurIPS|2025|Spotlight|376": [
+"Till Freihaut",
+"Giorgia Ramponi"
+],
+"NeurIPS|2025|Spotlight|377": [
+"Can Yaras",
+"Alec S Xu",
+"Pierre Abillama",
+"Changwoo Lee",
+"Laura Balzano"
+],
+"NeurIPS|2025|Spotlight|378": [
+"Sahar Abdelnabi",
+"Ahmed Salem"
+],
+"NeurIPS|2025|Spotlight|379": [
+"Ann Huang",
+"Satpreet Harcharan Singh",
+"Flavio Martinelli",
+"Kanaka Rajan"
+],
+"NeurIPS|2025|Spotlight|380": [
+"Chenbei Lu",
+"Zaiwei Chen",
+"Tongxin Li",
+"Chenye Wu",
+"Adam Wierman"
+],
+"NeurIPS|2025|Spotlight|381": [
+"Edan Toledo",
+"Karen Hambardzumyan",
+"Martin Josifoski",
+"RISHI HAZRA",
+"Nicolas Baldwin",
+"Alexis Audran-Reiss",
+"Michael Kuchnik",
+"Despoina Magka",
+"Minqi Jiang",
+"Alisia Maria Lupidi",
+"Andrei Lupu",
+"Roberta Raileanu",
+"Tatiana Shavrina",
+"Kelvin Niu",
+"Jean-Christophe Gagnon-Audet",
+"Michael Shvartsman",
+"Shagun Sodhani",
+"Alexander H Miller",
+"Abhishek Charnalia",
+"Derek Dunfield",
+"Carole-Jean Wu",
+"Pontus Stenetorp",
+"Nicola Cancedda",
+"Jakob Nicolaus Foerster",
+"Yoram Bachrach"
+],
+"NeurIPS|2025|Spotlight|382": [
+"Muralikrishnna Guruswamy Sethuraman",
+"Faramarz Fekri"
+],
+"NeurIPS|2025|Spotlight|383": [
+"Jonas Elsborg",
+"Luca Thiede",
+"Alan Aspuru-Guzik",
+"Tejs Vegge",
+"Arghya Bhowmik"
+],
+"NeurIPS|2025|Spotlight|384": [
+"Hai Duong",
+"David Shriver",
+"ThanhVu Nguyen",
+"Matthew B. Dwyer"
+],
+"NeurIPS|2025|Spotlight|385": [
+"Alexander Chervov",
+"Kirill Khoruzhii",
+"Nikita Bukhal",
+"Jalal Naghiyev",
+"Vladislav Zamkovoy",
+"Ivan Koltsov",
+"Lyudmila Cheldieva",
+"Arsenii Sychev",
+"Arsenii Lenin",
+"Mark Obozov",
+"Egor Urvanov",
+"Alexey M. Romanov"
+],
+"NeurIPS|2025|Spotlight|386": [
+"Armand Kassaï Koupaï",
+"Lise Le Boudec",
+"Louis Serrano",
+"Patrick Gallinari"
+],
+"NeurIPS|2025|Spotlight|387": [
+"William Merrill",
+"Shane Arora",
+"Dirk Groeneveld",
+"Hannaneh Hajishirzi"
+],
+"NeurIPS|2025|Spotlight|388": [
+"Bastien Dubail",
+"Stefan Stojanovic",
+"Alexandre Proutiere"
+],
+"NeurIPS|2025|Spotlight|389": [
+"Ferdinand Genans",
+"Antoine Godichon-Baggioni",
+"François-Xavier Vialard",
+"Olivier Wintenberger"
+],
+"NeurIPS|2025|Spotlight|390": [
+"Tomas Soucek",
+"Sylvestre-Alvise Rebuffi",
+"Pierre Fernandez",
+"Nikola Jovanović",
+"Hady Elsahar",
+"Valeriu Lacatusu",
+"Tuan A. Tran",
+"Alexandre Mourachko"
+],
+"NeurIPS|2025|Spotlight|391": [
+"Lucas Morisset",
+"Adrien Hardy",
+"Alain Oliviero Durmus"
+],
+"NeurIPS|2025|Spotlight|392": [
+"Thomas Decker",
+"Volker Tresp",
+"Florian Buettner"
+],
+"NeurIPS|2025|Spotlight|393": [
+"Marco Spinaci",
+"Marek Polewczyk",
+"Maximilian Schambach",
+"Sam Thelin"
+],
+"NeurIPS|2025|Spotlight|394": [
+"Mojtaba Kolahdouzi",
+"Hatice Gunes",
+"Ali Etemad"
+],
+"NeurIPS|2025|Spotlight|395": [
+"Xun Deng",
+"Han Zhong",
+"Rui Ai",
+"Fuli Feng",
+"Zheng Wang",
+"Xiangnan He"
+],
+"NeurIPS|2025|Spotlight|396": [
+"Roger Creus Castanyer",
+"Johan Obando-Ceron",
+"Lu Li",
+"Pierre-Luc Bacon",
+"Glen Berseth",
+"Aaron Courville",
+"Pablo Samuel Castro"
+],
+"NeurIPS|2025|Spotlight|397": [
+"Thomas Walton",
+"Darin Tsui",
+"Aryan Musharaf",
+"Amirali Aghazadeh"
+],
+"NeurIPS|2025|Spotlight|398": [
+"Jinwoo Park",
+"Seunggeun Cho",
+"Dongsu Han"
+],
+"NeurIPS|2025|Spotlight|399": [
+"Simone Carnemolla",
+"Matteo Pennisi",
+"Sarinda Samarasinghe",
+"Giovanni Bellitto",
+"Simone Palazzo",
+"Daniela Giordano",
+"Mubarak Shah",
+"Concetto Spampinato"
+],
+"NeurIPS|2025|Spotlight|400": [
+"Chanakya Ekbote",
+"Ashok Vardhan Makkuva",
+"Marco Bondaschi",
+"Nived Rajaraman",
+"Michael Gastpar",
+"Jason D. Lee",
+"Paul Pu Liang"
+],
+"NeurIPS|2025|Spotlight|401": [
+"Nika Haghtalab",
+"Omar Montasser",
+"Mingda Qiao"
+],
+"NeurIPS|2025|Spotlight|402": [
+"Tianrun Zhao",
+"Xiaojie Mao",
+"Yong Liang"
+],
+"NeurIPS|2025|Spotlight|403": [
+"Guowei Wang",
+"Fan Lyu",
+"Changxing Ding"
+],
+"NeurIPS|2025|Spotlight|404": [
+"Yatong Chen",
+"Safwan Hossain",
+"Yiling Chen"
+],
+"NeurIPS|2025|Spotlight|405": [
+"Zhonglin Xie",
+"Yiman Fong",
+"Haoran Yuan",
+"Zaiwen Wen"
+],
+"NeurIPS|2025|Spotlight|406": [
+"Kasper Green Larsen",
+"Natascha Schalburg"
+],
+"NeurIPS|2025|Spotlight|407": [
+"Tianrui Wang",
+"Haoyu Wang",
+"Meng Ge",
+"Cheng Gong",
+"Chunyu Qiang",
+"Ziyang Ma",
+"Zikang Huang",
+"Guanrou Yang",
+"Xiaobao Wang",
+"EngSiong Chng",
+"Xie Chen",
+"Longbiao Wang",
+"Jianwu Dang"
+],
+"NeurIPS|2025|Spotlight|408": [
+"Yuanhang Yang",
+"Chaozheng Wang",
+"Jing Li"
+],
+"NeurIPS|2025|Spotlight|409": [
+"Ning Gao",
+"Xiuhui Zhang",
+"Xingyu Jiang",
+"Mukang You",
+"Mohan Zhang",
+"Yue Deng"
+],
+"NeurIPS|2025|Spotlight|410": [
+"Yeonjoon Jung",
+"Daehyun Ahn",
+"Hyungjun Kim",
+"Taesu Kim",
+"Eunhyeok Park"
+],
+"NeurIPS|2025|Spotlight|411": [
+"Ziyad Sheebaelhamd",
+"Michael Tschannen",
+"Michael Muehlebach",
+"Claire Vernade"
+],
+"NeurIPS|2025|Spotlight|412": [
+"Qianyue Hao",
+"Yiwen Song",
+"Qingmin Liao",
+"Jian Yuan",
+"Yong Li"
+],
+"NeurIPS|2025|Spotlight|413": [
+"Paul Brunzema",
+"Sebastian Trimpe"
+],
+"NeurIPS|2025|Spotlight|414": [
+"Álvaro Parafita",
+"Tomas Garriga",
+"Axel Brando",
+"Francisco J. Cazorla"
+],
+"NeurIPS|2025|Spotlight|415": [
+"Oren Neumann",
+"Claudius Gros"
+],
+"NeurIPS|2025|Spotlight|416": [
+"He Chen",
+"Jiajin Li",
+"Anthony Man-Cho So"
+],
+"NeurIPS|2025|Spotlight|417": [
+"Yatin Dandi",
+"Luca Pesce",
+"Lenka Zdeborova",
+"Florent Krzakala"
+],
+"NeurIPS|2025|Spotlight|418": [
+"Yue Wang",
+"Qiuzhi Liu",
+"Jiahao Xu",
+"Tian Liang",
+"Xingyu Chen",
+"Zhiwei He",
+"Linfeng Song",
+"Dian Yu",
+"Juntao Li",
+"Zhuosheng Zhang",
+"Rui Wang",
+"Zhaopeng Tu",
+"Haitao Mi",
+"Dong Yu"
+],
+"NeurIPS|2025|Spotlight|419": [
+"Hao Yuan",
+"Wenli Ouyang",
+"Changwen Zhang",
+"Congrui Li",
+"Yong Sun"
+],
+"NeurIPS|2025|Spotlight|420": [
+"Jiani Huang",
+"Amish Sethi",
+"Matthew Kuo",
+"Mayank Keoliya",
+"Neelay Velingker",
+"JungHo Jung",
+"Ser-Nam Lim",
+"Ziyang Li",
+"Mayur Naik"
+],
+"NeurIPS|2025|Spotlight|421": [
+"Orin Levy",
+"Liad Erez",
+"Alon Cohen",
+"Yishay Mansour"
+],
+"NeurIPS|2025|Spotlight|422": [
+"Junyu Zhang",
+"Lizhong Ding",
+"MinghongZhang",
+"Ye Yuan",
+"Xingcan Li",
+"Pengqi Li",
+"Tihang Xi",
+"Guoren Wang",
+"Changsheng Li"
+],
+"NeurIPS|2025|Spotlight|423": [
+"Wanlong Liu",
+"Junxiao Xu",
+"Fei Yu",
+"Yukang Lin",
+"Ke Ji",
+"Wenyu Chen",
+"Lifeng Shang",
+"Yasheng Wang",
+"Yan Xu",
+"Benyou Wang"
+],
+"NeurIPS|2025|Spotlight|424": [
+"Hongjoon Ahn",
+"Heewoong Choi",
+"Jisu Han",
+"Taesup Moon"
+],
+"NeurIPS|2025|Spotlight|425": [
+"Binghui Li",
+"Fengling Chen",
+"Zixun Huang",
+"Lean Wang",
+"Lei Wu"
+],
+"NeurIPS|2025|Spotlight|426": [
+"Kang Yang",
+"Gaofeng Dong",
+"Sijie Ji",
+"Wan Du",
+"Mani Srivastava"
+],
+"NeurIPS|2025|Spotlight|427": [
+"Soham Bonnerjee",
+"Sayar Karmakar",
+"Wei Biao Wu"
+],
+"NeurIPS|2025|Spotlight|428": [
+"Jiacai Liu",
+"Chaojie Wang",
+"Chris Yuhao Liu",
+"Liang Zeng",
+"Rui Yan",
+"Yiwen Sun",
+"Yang Liu"
+],
+"NeurIPS|2025|Spotlight|429": [
+"Da Chang",
+"Ganzhao Yuan"
+],
+"NeurIPS|2025|Spotlight|430": [
+"Qinglun Li",
+"Yingqi Liu",
+"Miao Zhang",
+"Xiaochun Cao",
+"Quanjun Yin",
+"Li Shen"
+],
+"NeurIPS|2025|Spotlight|431": [
+"Haowen Cui",
+"Shuo Chen",
+"Jun Li",
+"Jian Yang"
+],
+"NeurIPS|2025|Spotlight|432": [
+"Zehan Wang",
+"Ziang Zhang",
+"Jiayang Xu",
+"Jialei Wang",
+"Tianyu Pang",
+"Chao Du",
+"Hengshuang Zhao",
+"Zhou Zhao"
+],
+"NeurIPS|2025|Spotlight|433": [
+"Jiaming Zhuo",
+"Ziyi Ma",
+"Yintong Lu",
+"Yuwei Liu",
+"Kun Fu",
+"Di Jin",
+"Chuan Wang",
+"Wenning Wu",
+"Zhen Wang",
+"Xiaochun Cao",
+"Liang Yang"
+],
+"NeurIPS|2025|Spotlight|434": [
+"Zhanyi Sun",
+"Shuran Song"
+],
+"NeurIPS|2025|Spotlight|435": [
+"Tyler A. Chang",
+"Ben Bergen"
+],
+"NeurIPS|2025|Spotlight|436": [
+"Shixiang Liu"
+],
+"NeurIPS|2025|Spotlight|437": [
+"Luke Nicholas Darlow",
+"Ciaran Regan",
+"Sebastian Risi",
+"Jeffrey Seely",
+"Llion Jones"
+],
+"NeurIPS|2025|Spotlight|438": [
+"Zi Liang",
+"Qingqing Ye",
+"Xuan Liu",
+"Yanyun Wang",
+"Jianliang Xu",
+"Haibo Hu"
+],
+"NeurIPS|2025|Spotlight|439": [
+"Chengqi Li",
+"Zhihao Shi",
+"Yangdi Lu",
+"Wenbo He",
+"Xiangyu Xu"
+],
+"NeurIPS|2025|Spotlight|440": [
+"Lvmin Zhang",
+"Shengqu Cai",
+"Muyang Li",
+"Gordon Wetzstein",
+"Maneesh Agrawala"
+],
+"NeurIPS|2025|Spotlight|441": [
+"Tianyu Chen",
+"Vansh Bansal",
+"James G. Scott"
+],
+"NeurIPS|2025|Spotlight|442": [
+"Haoyuan Cai",
+"Zhenghao Peng",
+"Bolei Zhou"
+],
+"NeurIPS|2025|Spotlight|443": [
+"Felix Draxler",
+"Yang Meng",
+"Kai Nelson",
+"Lukas Laskowski",
+"Yibo Yang",
+"Theofanis Karaletsos",
+"Stephan Mandt"
+],
+"NeurIPS|2025|Spotlight|444": [
+"Jiapeng Tang",
+"Matthew Jacob Levine",
+"Dor Verbin",
+"Stephan J. Garbin",
+"Matthias Nießner",
+"Ricardo Martin Brualla",
+"Pratul P. Srinivasan",
+"Philipp Henzler"
+],
+"NeurIPS|2025|Spotlight|445": [
+"Qiang Fu",
+"Andre Wibisono"
+],
+"NeurIPS|2025|Spotlight|446": [
+"Eray Can Elumar",
+"Cem Tekin",
+"Osman Yagan"
+],
+"NeurIPS|2025|Spotlight|447": [
+"Aadyot Bhatnagar",
+"Sarthak Jain",
+"Joel Beazer",
+"Samuel C. Curran",
+"Alexander M. Hoffnagle",
+"Kyle Shan Ching",
+"Michael Martyn",
+"Stephen Nayfach",
+"Jeffrey A. Ruffolo",
+"Ali Madani"
+],
+"NeurIPS|2025|Spotlight|448": [
+"Jiatao Gu",
+"Tianrong Chen",
+"David Berthelot",
+"Huangjie Zheng",
+"Yuyang Wang",
+"Ruixiang ZHANG",
+"Laurent Dinh",
+"Miguel Ángel Bautista",
+"Joshua M. Susskind",
+"Shuangfei Zhai"
+],
+"NeurIPS|2025|Spotlight|449": [
+"T. Anderson Keller"
+],
+"NeurIPS|2025|Spotlight|450": [
+"Xiangqi Wang",
+"Yue Huang",
+"Yanbo Wang",
+"Xiaonan Luo",
+"Kehan Guo",
+"Yujun Zhou",
+"Xiangliang Zhang"
+],
+"NeurIPS|2025|Spotlight|451": [
+"Huiyang Shao",
+"Xin Xia",
+"Yuxi Ren",
+"XING WANG",
+"Xuefeng Xiao"
+],
+"NeurIPS|2025|Spotlight|452": [
+"Chen YAN",
+"Weina Wang",
+"Lei Ying"
+],
+"NeurIPS|2025|Spotlight|453": [
+"Moritz Haas",
+"Sebastian Bordt",
+"Ulrike von Luxburg",
+"Leena Chennuru Vankadara"
+],
+"NeurIPS|2025|Spotlight|454": [
+"Andrew Liu",
+"Axel Elaldi",
+"Nicholas T Franklin",
+"Nathan Russell",
+"Gurinder S. Atwal",
+"Yih-En Andrew Ban",
+"Olivia Viessmann"
+],
+"NeurIPS|2025|Spotlight|455": [
+"Yi Zhao",
+"Yajuan Peng",
+"Nguyen Cam-Tu",
+"Zuchao Li",
+"Wang Xiaoliang",
+"hai zhao",
+"Xiaoming Fu"
+],
+"NeurIPS|2025|Spotlight|456": [
+"Jan Hagnberger",
+"Daniel Musekamp",
+"Mathias Niepert"
+],
+"NeurIPS|2025|Spotlight|457": [
+"Weiqing He",
+"Xiang Li",
+"Tianqi Shang",
+"Li Shen",
+"Weijie J Su",
+"Qi Long"
+],
+"NeurIPS|2025|Spotlight|458": [
+"Konstantinos Kontras",
+"Thomas Strypsteen",
+"Christos Chatzichristos",
+"Paul Pu Liang",
+"Matthew B. Blaschko",
+"Maarten De Vos"
+],
+"NeurIPS|2025|Spotlight|459": [
+"Shuai Wang",
+"Malu Zhang",
+"Jingya Wang",
+"Dehao Zhang",
+"Yimeng Shan",
+"Jieyuan Zhang",
+"Yichen Xiao",
+"Honglin Cao",
+"Haonan Zhang",
+"Zeyu Ma",
+"Yang Yang",
+"Haizhou Li"
+],
+"NeurIPS|2025|Spotlight|460": [
+"Xi Zhang",
+"Yanyi Li",
+"Yisi Luo",
+"Qi Xie",
+"Deyu Meng"
+],
+"NeurIPS|2025|Spotlight|461": [
+"Yichen Liu",
+"Yan Lin",
+"Shengnan Guo",
+"Zeyu Zhou",
+"Youfang Lin",
+"Huaiyu Wan"
+],
+"NeurIPS|2025|Spotlight|462": [
+"Yifan Zhang",
+"Yifeng Liu",
+"Huizhuo Yuan",
+"Zhen Qin",
+"Yang Yuan",
+"Quanquan Gu",
+"Andrew C Yao"
+],
+"NeurIPS|2025|Spotlight|463": [
+"Sheng Wang",
+"Pengan CHEN",
+"Jingqi Zhou",
+"Qintong Li",
+"Jingwei Dong",
+"Jiahui Gao",
+"Boyang XUE",
+"Jiyue Jiang",
+"Lingpeng Kong",
+"Chuan Wu"
+],
+"NeurIPS|2025|Spotlight|464": [
+"Alejandro Almodóvar",
+"Adrián Javaloy",
+"Juan Parras",
+"Santiago Zazo",
+"Isabel Valera"
+],
+"NeurIPS|2025|Spotlight|465": [
+"Yeichan Kim",
+"Ilmun Kim",
+"Seyoung Park"
+],
+"NeurIPS|2025|Spotlight|466": [
+"Hangting Ye",
+"Jinmeng Li",
+"He Zhao",
+"Dandan Guo",
+"Yi Chang"
+],
+"NeurIPS|2025|Spotlight|467": [
+"J Rosser",
+"Jakob Nicolaus Foerster"
+],
+"NeurIPS|2025|Spotlight|468": [
+"Manchao Bao",
+"Shengjiang Fang",
+"Tao Yue",
+"Xuemei Hu"
+],
+"NeurIPS|2025|Spotlight|469": [
+"Pucheng Dang",
+"Di Huang",
+"Dong Li",
+"Kang Chen",
+"Yuanbo Wen",
+"Qi Guo",
+"Xing Hu"
+],
+"NeurIPS|2025|Spotlight|470": [
+"Brian Chmiel",
+"Maxim Fishman",
+"Ron Banner",
+"Daniel Soudry"
+],
+"NeurIPS|2025|Spotlight|471": [
+"Yichen Li",
+"Yijing Shan",
+"YI LIU",
+"Haozhao Wang",
+"Cheng Wang",
+"wangshi.ww",
+"Yi Wang",
+"Ruixuan Li"
+],
+"NeurIPS|2025|Spotlight|472": [
+"Haozhe Wang",
+"Chao Qu",
+"Zuming Huang",
+"Wei Chu",
+"Fangzhen Lin",
+"Wenhu Chen"
+],
+"NeurIPS|2025|Spotlight|473": [
+"Snir Hordan",
+"Maya Bechler-Speicher",
+"Gur Lifshitz",
+"Nadav Dym"
+],
+"NeurIPS|2025|Spotlight|474": [
+"Junliang Ye",
+"Zhengyi Wang",
+"Ruowen Zhao",
+"Shenghao Xie",
+"Jun Zhu"
+],
+"NeurIPS|2025|Spotlight|475": [
+"Yonatan Slutzky",
+"Yotam Alexander",
+"Noam Razin",
+"Nadav Cohen"
+],
+"NeurIPS|2025|Spotlight|476": [
+"Xinyu Yang",
+"Yuwei An",
+"Hongyi Liu",
+"Tianqi Chen",
+"Beidi Chen"
+],
+"NeurIPS|2025|Spotlight|477": [
+"Qiwei Wang",
+"Wu Shaoxun",
+"Yujiao Shi"
+],
+"NeurIPS|2025|Spotlight|478": [
+"Zhange Zhang",
+"Zhicheng Geng",
+"Yuqing Ma",
+"Tianbo Wang",
+"Kai Lv",
+"Xianglong Liu"
+],
+"NeurIPS|2025|Spotlight|479": [
+"Zipeng Yan",
+"Yinjie Chen",
+"Chong Zhou",
+"Bo Dai",
+"Andrew Luo"
+],
+"NeurIPS|2025|Spotlight|480": [
+"Naga Sai Abhiram kusumba",
+"Maitreya Patel",
+"Kyle Min",
+"Changhoon Kim",
+"Chitta Baral",
+"Yezhou Yang"
+],
+"NeurIPS|2025|Spotlight|481": [
+"Yunfeng Liao",
+"Yangxin Wu",
+"Xiucheng Li"
+],
+"NeurIPS|2025|Spotlight|482": [
+"Zhen Xu",
+"Zhengqin Li",
+"Zhao Dong",
+"Xiaowei Zhou",
+"Richard Newcombe",
+"Zhaoyang Lv"
+],
+"NeurIPS|2025|Spotlight|483": [
+"Yinjie Wang",
+"Ling Yang",
+"Ye Tian",
+"Ke Shen",
+"Mengdi Wang"
+],
+"NeurIPS|2025|Spotlight|484": [
+"Ben Adcock",
+"Nick Huang"
+],
+"NeurIPS|2025|Spotlight|485": [
+"Marco Bertolini",
+"Tuan Le",
+"Djork-Arné Clevert"
+],
+"NeurIPS|2025|Spotlight|486": [
+"Yancheng Zhang",
+"Guangyu Sun",
+"Chen Chen"
+],
+"NeurIPS|2025|Spotlight|487": [
+"Shristi Das Biswas",
+"Arani Roy",
+"Kaushik Roy"
+],
+"NeurIPS|2025|Spotlight|488": [
+"XiangCheng Zhang",
+"Yige Hong",
+"Weina Wang"
+],
+"NeurIPS|2025|Spotlight|489": [
+"Jingqiu Ding",
+"Yiding Hua",
+"Lucas Slot",
+"David Steurer"
+],
+"NeurIPS|2025|Spotlight|490": [
+"Yuxin Ma",
+"Dmitriy Kunisky"
+],
+"NeurIPS|2025|Spotlight|491": [
+"Bryan Sangwoo Kim",
+"Jeongsol Kim",
+"Jong Chul Ye"
+],
+"NeurIPS|2025|Spotlight|492": [
+"Yibo Zhao",
+"Yang Zhao",
+"Hongru Du",
+"Hao Frank Yang"
+],
+"NeurIPS|2025|Spotlight|493": [
+"Valeria Ruscio",
+"Umberto Nanni",
+"Fabrizio Silvestri"
+],
+"NeurIPS|2025|Spotlight|494": [
+"Yuxing Lu",
+"Wei Wu",
+"Xukai Zhao",
+"Rui Peng",
+"Jinzhuo Wang"
+],
+"NeurIPS|2025|Spotlight|495": [
+"Xuanming Zhang",
+"Yuxuan Chen",
+"Samuel Yeh",
+"Sharon Li"
+],
+"NeurIPS|2025|Spotlight|496": [
+"Xingyu Zhu",
+"Beier Zhu",
+"Shuo Wang",
+"Kesen Zhao",
+"Hanwang Zhang"
+],
+"NeurIPS|2025|Spotlight|497": [
+"Mincheol Park",
+"Heeji Won",
+"Won Woo Ro",
+"Suhyun Kim"
+],
+"NeurIPS|2025|Spotlight|498": [
+"Shaocong Ma",
+"Heng Huang"
+],
+"NeurIPS|2025|Spotlight|499": [
+"Teodora Reu",
+"Sixtine Dromigny",
+"Michael M. Bronstein",
+"Francisco Vargas"
+],
+"NeurIPS|2025|Spotlight|500": [
+"Runjian Chen",
+"Hyoungseob Park",
+"Bo Zhang",
+"Wenqi Shao",
+"Ping Luo",
+"Alex Wong"
+],
+"NeurIPS|2025|Spotlight|501": [
+"Theodoros Kouzelis",
+"Efstathios Karypidis",
+"Ioannis Kakogeorgiou",
+"Spyros Gidaris",
+"Nikos Komodakis"
+],
+"NeurIPS|2025|Spotlight|502": [
+"Jitai Hao",
+"Qiang Huang",
+"Hao Liu",
+"Xinyan Xiao",
+"Zhaochun Ren",
+"Jun Yu"
+],
+"NeurIPS|2025|Spotlight|503": [
+"Ruimeng Liu",
+"Xin Zou",
+"Chang Tang",
+"Xiao Zheng",
+"Xingchen Hu",
+"Kun Sun",
+"Xinwang Liu"
+],
+"NeurIPS|2025|Spotlight|504": [
+"Zhongao Zhou",
+"Bin Yang",
+"Wenke Huang",
+"Jun Chen",
+"Mang Ye"
+],
+"NeurIPS|2025|Spotlight|505": [
+"Haibo Tong",
+"Zhaoyang Wang",
+"Zhaorun Chen",
+"Haonian Ji",
+"Shi Qiu",
+"Siwei Han",
+"Kexin Geng",
+"Zhongkai Xue",
+"Yiyang Zhou",
+"Peng Xia",
+"Mingyu Ding",
+"Rafael Rafailov",
+"Chelsea Finn",
+"Huaxiu Yao"
+],
+"NeurIPS|2025|Spotlight|506": [
+"Chenghao Liu",
+"Enming Liang",
+"Minghua Chen"
+],
+"NeurIPS|2025|Spotlight|507": [
+"Yuichi Inoue",
+"Kou Misaki",
+"Yuki Imajuku",
+"So Kuroki",
+"Taishi Nakamura",
+"Takuya Akiba"
+],
+"NeurIPS|2025|Spotlight|508": [
+"Huacan Wang",
+"Ziyi Ni",
+"Shuo Zhang",
+"Shuo Lu",
+"Sen Hu",
+"Ziyang He",
+"Chen Hu",
+"Jiaye Lin",
+"Yifu Guo",
+"Yuntao Du",
+"Pin Lyu"
+],
+"NeurIPS|2025|Spotlight|509": [
+"Jiaxin Wang",
+"Wenxuan Tu",
+"Jieren Cheng"
+],
+"NeurIPS|2025|Spotlight|510": [
+"Yuan Qiu",
+"Ke Yi"
+],
+"NeurIPS|2025|Spotlight|511": [
+"Jinwoo Lim",
+"Suhyun Kim",
+"Soo-Mook Moon"
+],
+"NeurIPS|2025|Spotlight|512": [
+"Gabriele Oliaro",
+"Zhihao Jia",
+"Daniel F Campos",
+"Aurick Qiao"
+],
+"NeurIPS|2025|Spotlight|513": [
+"Weizhi Fei",
+"Xueyan Niu",
+"XIE GUOQING",
+"Yingqing Liu",
+"Bo Bai",
+"Wei Han"
+],
+"NeurIPS|2025|Spotlight|514": [
+"Kai He",
+"Ruofan Liang",
+"Jacob Munkberg",
+"Jon Hasselgren",
+"Nandita Vijaykumar",
+"Alexander Keller",
+"Sanja Fidler",
+"Igor Gilitschenski",
+"Zan Gojcic",
+"Zian Wang"
+],
+"NeurIPS|2025|Spotlight|515": [
+"Xiaomin Li",
+"Zhou Yu",
+"Zhiwei Zhang",
+"Xupeng Chen",
+"Ziji Zhang",
+"Yingying Zhuang",
+"Narayanan Sadagopan",
+"Anurag Beniwal"
+],
+"NeurIPS|2025|Spotlight|516": [
+"Julian Asilis",
+"Mikael Møller Høgsgaard",
+"Grigoris Velegkas"
+],
+"NeurIPS|2025|Spotlight|517": [
+"Haibo Wu",
+"Marina I. Knight",
+"Keiland W. Cooper",
+"Norbert J. Fortin",
+"Hernando Ombao"
+],
+"NeurIPS|2025|Spotlight|518": [
+"Junyan Cheng",
+"Peter Clark",
+"Kyle Richardson"
+],
+"NeurIPS|2025|Spotlight|519": [
+"David Abel",
+"Michael Bowling",
+"Andre Barreto",
+"Will Dabney",
+"Shi Dong",
+"Steven Stenberg Hansen",
+"Anna Harutyunyan",
+"Khimya Khetarpal",
+"Clare Lyle",
+"Razvan Pascanu",
+"Georgios Piliouras",
+"Doina Precup",
+"Jonathan Richens",
+"Mark Rowland",
+"Tom Schaul",
+"Satinder Singh"
+],
+"NeurIPS|2025|Spotlight|520": [
+"Zeman Li",
+"Yuan Deng",
+"Peilin Zhong",
+"Meisam Razaviyayn",
+"Vahab Mirrokni"
+],
+"NeurIPS|2025|Spotlight|521": [
+"Ethan Mendes",
+"Alan Ritter"
+],
+"NeurIPS|2025|Spotlight|522": [
+"Jun Wang",
+"Zhenglai Li",
+"Chang Tang",
+"Suyuan Liu",
+"Hao Yu",
+"Chuan Tang",
+"Miaomiao Li",
+"Xinwang Liu"
+],
+"NeurIPS|2025|Spotlight|523": [
+"Kira Goldner",
+"Taylor Lundy"
+],
+"NeurIPS|2025|Spotlight|524": [
+"Steeve Laquitaine",
+"Simone Azeglio",
+"Carlo Paris",
+"Ulisse Ferrari",
+"Matthew Chalk"
+],
+"NeurIPS|2025|Spotlight|525": [
+"Han Bao",
+"Shinsaku Sakaue",
+"Yuki Takezawa"
+],
+"NeurIPS|2025|Spotlight|526": [
+"Toshinori Kitamura",
+"Arnob Ghosh",
+"Tadashi Kozuno",
+"Wataru Kumagai",
+"Kazumi Kasaura",
+"Kenta Hoshino",
+"Yohei Hosoe",
+"Yutaka Matsuo"
+],
+"NeurIPS|2025|Spotlight|527": [
+"Yuda Song",
+"Dhruv Rohatgi",
+"Aarti Singh",
+"Drew Bagnell"
+],
+"NeurIPS|2025|Spotlight|528": [
+"Hao-Yuan He",
+"Ming Li"
+],
+"NeurIPS|2025|Spotlight|529": [
+"Jinyu Cai",
+"Yuan Xie",
+"Glynnis Lim",
+"Yifang Yin",
+"Roger Zimmermann",
+"See-Kiong Ng"
+],
+"NeurIPS|2025|Spotlight|530": [
+"Zijian Feng",
+"Hanzhang Zhou",
+"Zixiao Zhu",
+"Tianjiao Li",
+"Chua Jia Jim Deryl",
+"Mak Lee Onn",
+"Gee Wah Ng",
+"Kezhi Mao"
+],
+"NeurIPS|2025|Spotlight|531": [
+"Xiaowen Cai",
+"Daizong Liu",
+"Xiaoye Qu",
+"Xiang Fang",
+"Jianfeng Dong",
+"Keke Tang",
+"Pan Zhou",
+"Lichao Sun",
+"Wei Hu"
+],
+"NeurIPS|2025|Spotlight|532": [
+"Shuai Liu",
+"Quanmin Liang",
+"Zefeng Li",
+"Boyang Li",
+"Kai Huang"
+],
+"NeurIPS|2025|Spotlight|533": [
+"Qi Xu",
+"Dongxu Wei",
+"Lingzhe Zhao",
+"Wenpu Li",
+"Zhangchi Huang",
+"Shunping Ji",
+"Peidong Liu"
+],
+"NeurIPS|2025|Spotlight|534": [
+"Guancheng Wan",
+"Xiaoran Shang",
+"Yuxin Wu",
+"Guibin Zhang",
+"Jinhe Bi",
+"Liangtao Zheng",
+"Xin Lin",
+"Yue Liu",
+"Yanbiao Ma",
+"Wenke Huang",
+"Bo Du"
+],
+"NeurIPS|2025|Spotlight|535": [
+"Wentao Lu",
+"Dong Nie",
+"Pengcheng Xue",
+"Zheng Cui",
+"Piji Li",
+"Daoqiang Zhang",
+"Xuyun Wen"
+],
+"NeurIPS|2025|Spotlight|536": [
+"Yiming Wang",
+"Pei Zhang",
+"Siyuan Huang",
+"Baosong Yang",
+"Zhuosheng Zhang",
+"Fei Huang",
+"Rui Wang"
+],
+"NeurIPS|2025|Spotlight|537": [
+"Wasu Top Piriyakulkij",
+"Yichao Liang",
+"Hao Tang",
+"Adrian Weller",
+"Marta Kryven",
+"Kevin Ellis"
+],
+"NeurIPS|2025|Spotlight|538": [
+"Kaiyang Li",
+"Shaobo Han",
+"Qing Su",
+"Wei Li",
+"Zhipeng Cai",
+"Shihao Ji"
+],
+"NeurIPS|2025|Spotlight|539": [
+"Hanyin Wang",
+"Zhenbang Wu",
+"Gururaj J. Kolar",
+"Hariprasad Reddy Korsapati",
+"Brian Bartlett",
+"Bryan Hull",
+"Jimeng Sun"
+],
+"NeurIPS|2025|Spotlight|540": [
+"Yaozhong Shi",
+"Zachary E Ross",
+"Domniki Asimaki",
+"Kamyar Azizzadenesheli"
+],
+"NeurIPS|2025|Spotlight|541": [
+"L. Elisa Celis",
+"Lingxiao Huang",
+"Milind Sohoni",
+"Nisheeth K. Vishnoi"
+],
+"NeurIPS|2025|Spotlight|542": [
+"Lianghe Shi",
+"Meng Wu",
+"Huijie Zhang",
+"Zekai Zhang",
+"Molei Tao",
+"Qing Qu"
+],
+"NeurIPS|2025|Spotlight|543": [
+"Yuezhou Hu",
+"Jiaxin Guo",
+"Xinyu Feng",
+"Tuo Zhao"
+],
+"NeurIPS|2025|Spotlight|544": [
+"Gilad Yehudai",
+"Clayton Sanford",
+"Maya Bechler-Speicher",
+"Orr Fischer",
+"Ran Gilad-Bachrach",
+"Amir Globerson"
+],
+"NeurIPS|2025|Spotlight|545": [
+"Deheng Yuan",
+"Tao Guo",
+"Zhongyi Huang"
+],
+"NeurIPS|2025|Spotlight|546": [
+"Ruben Härle",
+"Felix Friedrich",
+"Manuel Brack",
+"Björn Deiseroth",
+"Stephan Waeldchen",
+"Patrick Schramowski",
+"Kristian Kersting"
+],
+"NeurIPS|2025|Spotlight|547": [
+"Laurence Davies",
+"Dan MacKinlay",
+"Rafael Oliveira",
+"Scott A Sisson"
+],
+"NeurIPS|2025|Spotlight|548": [
+"Joshua Engels",
+"David D. Baek",
+"Subhash Kantamneni",
+"Max Tegmark"
+],
+"NeurIPS|2025|Spotlight|549": [
+"Hongxu Chen",
+"Ke Wei",
+"Haishan Ye",
+"Luo Luo"
+],
+"NeurIPS|2025|Spotlight|550": [
+"Wei Chen",
+"Yuxuan Liang"
+],
+"NeurIPS|2025|Spotlight|551": [
+"Akide Liu",
+"Zeyu Zhang",
+"Zhexin Li",
+"Xuehai Bai",
+"Yuanjie Xing",
+"Yizeng Han",
+"Jiasheng Tang",
+"Jichao Wu",
+"Mingyang Yang",
+"Weihua Chen",
+"Jiahao He",
+"Yuanyu He",
+"Fan Wang",
+"Gholamreza Haffari",
+"Bohan Zhuang"
+],
+"NeurIPS|2025|Spotlight|552": [
+"Jongseo Lee",
+"Wooil Lee",
+"Gyeong-Moon Park",
+"Seong Tae Kim",
+"Jinwoo Choi"
+],
+"NeurIPS|2025|Spotlight|553": [
+"Shuhai Zhang",
+"ZiHao Lian",
+"Jiahao Yang",
+"Daiyuan Li",
+"Guoxuan Pang",
+"Feng Liu",
+"Bo Han",
+"Shutao Li",
+"Mingkui Tan"
+],
+"NeurIPS|2025|Spotlight|554": [
+"Jiayi Luo",
+"Qingyun Sun",
+"Beining Yang",
+"Haonan Yuan",
+"Xingcheng Fu",
+"Yanbiao Ma",
+"Jianxin Li",
+"Philip S. Yu"
+],
+"NeurIPS|2025|Spotlight|555": [
+"Vahid Balazadeh",
+"Hamidreza Kamkari",
+"Valentin Thomas",
+"Junwei Ma",
+"Bingru Li",
+"Jesse C. Cresswell",
+"Rahul Krishnan"
+],
+"NeurIPS|2025|Spotlight|556": [
+"Seongsu Kim",
+"Nayoung Kim",
+"Dongwoo Kim",
+"Sungsoo Ahn"
+],
+"NeurIPS|2025|Spotlight|557": [
+"Shuyang Xu",
+"Zhiyang Dou",
+"Mingyi Shi",
+"Liang Pan",
+"Leo Ho",
+"Jingbo Wang",
+"Yuan Liu",
+"Cheng Lin",
+"Yuexin Ma",
+"Wenping Wang",
+"Taku Komura"
+],
+"NeurIPS|2025|Spotlight|558": [
+"Andrew Zhao",
+"Yiran Wu",
+"Yang Yue",
+"Tong Wu",
+"Quentin Xu",
+"Yang Yue",
+"Matthieu Lin",
+"Shenzhi Wang",
+"Qingyun Wu",
+"Zilong Zheng",
+"Gao Huang"
+],
+"NeurIPS|2025|Spotlight|559": [
+"Masanari Kimura"
+],
+"NeurIPS|2025|Spotlight|560": [
+"Nicholas Jiang",
+"Amil Dravid",
+"Alexei A Efros",
+"Yossi Gandelsman"
+],
+"NeurIPS|2025|Spotlight|561": [
+"Zhao-Heng Yin",
+"Sherry Yang",
+"Pieter Abbeel"
+],
+"NeurIPS|2025|Spotlight|562": [
+"Shuo Yang",
+"Haocheng Xi",
+"Yilong Zhao",
+"Muyang Li",
+"Jintao Zhang",
+"Han Cai",
+"Yujun Lin",
+"Xiuyu Li",
+"Chenfeng Xu",
+"Kelly Peng",
+"Jianfei Chen",
+"Song Han",
+"Kurt Keutzer",
+"Ion Stoica"
+],
+"NeurIPS|2025|Spotlight|563": [
+"Olawale Elijah Salaudeen",
+"Haoran Zhang",
+"Kumail Alhamoud",
+"Sara Beery",
+"Marzyeh Ghassemi"
+],
+"NeurIPS|2025|Spotlight|564": [
+"Emile Timothy Anand",
+"Ishani Karmarkar",
+"Guannan Qu"
+],
+"NeurIPS|2025|Spotlight|565": [
+"Xiaoshan Wu",
+"Yifei Yu",
+"Xiaoyang Lyu",
+"Yi-Hua Huang",
+"Bo Wang",
+"Baoheng Zhang",
+"Zhongrui Wang",
+"XIAOJUAN QI"
+],
+"NeurIPS|2025|Spotlight|566": [
+"Shufan Li",
+"Konstantinos Kallidromitis",
+"Hritik Bansal",
+"Akash Gokul",
+"Yusuke Kato",
+"Kazuki Kozuka",
+"Jason Kuen",
+"Zhe Lin",
+"Kai-Wei Chang",
+"Aditya Grover"
+],
+"NeurIPS|2025|Spotlight|567": [
+"Quanjiang Li",
+"Tianxiang Xu",
+"Tingjin Luo",
+"Yan Zhong",
+"Yang Li",
+"Yiyun Zhou",
+"Chenping Hou"
+],
+"NeurIPS|2025|Spotlight|568": [
+"Anshul Nasery",
+"Jonathan Hayase",
+"Creston Brooks",
+"Peiyao Sheng",
+"Himanshu Tyagi",
+"Pramod Viswanath",
+"Sewoong Oh"
+],
+"NeurIPS|2025|Spotlight|569": [
+"Junchi Yu",
+"Yujie Liu",
+"Jindong Gu",
+"Philip Torr",
+"Dongzhan Zhou"
+],
+"NeurIPS|2025|Spotlight|570": [
+"Abel Jansma"
+],
+"NeurIPS|2025|Spotlight|571": [
+"Fudong Lin",
+"Xu Yuan"
+],
+"NeurIPS|2025|Spotlight|572": [
+"Shuqing Luo",
+"Ye Han",
+"Pingzhi Li",
+"Jiayin Qin",
+"Jie Peng",
+"Yang Katie Zhao",
+"Yu Cao",
+"Tianlong Chen"
+],
+"NeurIPS|2025|Spotlight|573": [
+"Xinran Gu",
+"Kaifeng Lyu",
+"Jiazheng Li",
+"Jingzhao Zhang"
+],
+"NeurIPS|2025|Spotlight|574": [
+"Wenda Li",
+"Huijie Zhang",
+"Qing Qu"
+],
+"NeurIPS|2025|Spotlight|575": [
+"Runze Yan",
+"Xun Shen",
+"Akifumi Wachi",
+"Sebastien Gros",
+"Anni Zhao",
+"Xiao Hu"
+],
+"NeurIPS|2025|Spotlight|576": [
+"Awa Khouna",
+"Julien Ferry",
+"Thibaut Vidal"
+],
+"NeurIPS|2025|Spotlight|577": [
+"Ruida Hu",
+"Chao Peng",
+"XinchenWang",
+"Junjielong Xu",
+"Cuiyun Gao"
+],
+"NeurIPS|2025|Spotlight|578": [
+"Ming Hu",
+"Zhengdi Yu",
+"Feilong Tang",
+"Kaiwen Chen",
+"Yulong Li",
+"Imran Razzak",
+"Junjun He",
+"Tolga Birdal",
+"Kaijing Zhou",
+"Zongyuan Ge"
+],
+"NeurIPS|2025|Spotlight|579": [
+"Brian Bernhard Moser",
+"Federico Raue",
+"Sebastian Palacio",
+"Stanislav Frolov",
+"Andreas Dengel"
+],
+"NeurIPS|2025|Spotlight|580": [
+"Ling Xing",
+"Alex Jinpeng Wang",
+"Rui Yan",
+"Xiangbo Shu",
+"Jinhui Tang"
+],
+"NeurIPS|2025|Spotlight|581": [
+"Chaoyou Fu",
+"Haojia Lin",
+"Xiong Wang",
+"YiFan Zhang",
+"Yunhang Shen",
+"Xiaoyu Liu",
+"Haoyu Cao",
+"Zuwei Long",
+"Heting Gao",
+"Ke Li",
+"Long MA",
+"Xiawu Zheng",
+"Rongrong Ji",
+"Xing Sun",
+"Caifeng Shan",
+"Ran He"
+],
+"NeurIPS|2025|Spotlight|582": [
+"Jia-Hua Lee",
+"Bor-Jiun Lin",
+"Wei-Fang Sun",
+"Chun-Yi Lee"
+],
+"NeurIPS|2025|Spotlight|583": [
+"Chuofan Ma",
+"Yi Jiang",
+"Junfeng Wu",
+"Jihan Yang",
+"Xin Yu",
+"Zehuan Yuan",
+"BINGYUE PENG",
+"XIAOJUAN QI"
+],
+"NeurIPS|2025|Spotlight|584": [
+"Azadeh Motamedi",
+"Jae-Mo Kang",
+"Il-Min Kim"
+],
+"NeurIPS|2025|Spotlight|585": [
+"Insu Lee",
+"Wooje Park",
+"Jaeyun Jang",
+"Minyoung Noh",
+"Kyuhong Shim",
+"Byonghyo Shim"
+],
+"NeurIPS|2025|Spotlight|586": [
+"Haoxiang You",
+"Yilang Liu",
+"Ian Abraham"
+],
+"NeurIPS|2025|Spotlight|587": [
+"Licheng Liu",
+"Mingda Qiao"
+],
+"NeurIPS|2025|Spotlight|588": [
+"Yunhao Luo",
+"Utkarsh Aashu Mishra",
+"Yilun Du",
+"Danfei Xu"
+],
+"NeurIPS|2025|Spotlight|589": [
+"Shmuel Berman",
+"Jia Deng"
+],
+"NeurIPS|2025|Spotlight|590": [
+"Chen Junren",
+"Rui Chen",
+"Wang-wei",
+"Junlong Cheng",
+"Gang Liang",
+"zhanglei-scu",
+"Liangyin Chen"
+],
+"NeurIPS|2025|Spotlight|591": [
+"Siru Zhong",
+"Junjie Qiu",
+"Yangyu Wu",
+"Xingchen Zou",
+"Zhongwen Rao",
+"Bin Yang",
+"Chenjuan Guo",
+"Hao Xu",
+"Yuxuan Liang"
+],
+"NeurIPS|2025|Spotlight|592": [
+"Qinsi Wang",
+"Jinghan Ke",
+"Hancheng Ye",
+"Yueqian Lin",
+"Yuzhe Fu",
+"Jianyi Zhang",
+"Kurt Keutzer",
+"Chenfeng Xu",
+"Yiran Chen"
+],
+"NeurIPS|2025|Spotlight|593": [
+"Timo Stoll",
+"Luis Müller",
+"Christopher Morris"
+],
+"NeurIPS|2025|Spotlight|594": [
+"Chendi Qian",
+"Christopher Morris"
+],
+"NeurIPS|2025|Spotlight|595": [
+"Ruoxin Chen",
+"Junwei Xi",
+"Zhiyuan Yan",
+"Ke-Yue Zhang",
+"Shuang Wu",
+"Jingyi Xie",
+"Xu Chen",
+"Lei Xu",
+"Isabel Guan",
+"Taiping Yao",
+"Shouhong Ding"
+],
+"NeurIPS|2025|Spotlight|596": [
+"Yuchen Zhou",
+"Jiamin Wu",
+"Zichen Ren",
+"Zhouheng Yao",
+"Weiheng Lu",
+"Kunyu Peng",
+"Qihao Zheng",
+"Chunfeng Song",
+"Wanli Ouyang",
+"Chao Gou"
+],
+"NeurIPS|2025|Spotlight|597": [
+"John Luoyu Zhou",
+"Jonathan Kao"
+],
+"NeurIPS|2025|Spotlight|598": [
+"Kunyu Peng",
+"Junchao Huang",
+"Xiangsheng Huang",
+"Di Wen",
+"Junwei Zheng",
+"Yufan Chen",
+"Kailun Yang",
+"Jiamin Wu",
+"Chongqing Hao",
+"Rainer Stiefelhagen"
+],
+"NeurIPS|2025|Spotlight|599": [
+"Benjamin Schiffer",
+"Mark Sellke"
+],
+"NeurIPS|2025|Spotlight|600": [
+"Zixin Zhu",
+"Haoxiang Li",
+"Xuelu Feng",
+"He Wu",
+"Chunming Qiao",
+"Junsong Yuan"
+],
+"NeurIPS|2025|Spotlight|601": [
+"Zicheng Zhang",
+"Haoran Li",
+"Yifeng Zhang",
+"Guoqiang Gong",
+"Jiaxing Wang",
+"Junxing Hu",
+"pengzhang liu",
+"Qixia Jiang"
+],
+"NeurIPS|2025|Spotlight|602": [
+"Jiachen Lu",
+"Hailan Shanbhag",
+"Haitham Al Hassanieh"
+],
+"NeurIPS|2025|Spotlight|603": [
+"Haoyu Zhang",
+"Meng Liu",
+"Zaijing Li",
+"Haokun Wen",
+"Weili Guan",
+"Yaowei Wang",
+"Liqiang Nie"
+],
+"NeurIPS|2025|Spotlight|604": [
+"Huanyu Liu",
+"Ge Li",
+"Jia Li",
+"Hao Zhu",
+"Kechi Zhang",
+"Yihong Dong"
+],
+"NeurIPS|2025|Spotlight|605": [
+"Kai Liu",
+"Jungang Li",
+"Yuchong Sun",
+"Shengqiong Wu",
+"jianzhang gao",
+"Daoan Zhang",
+"Wei Zhang",
+"Sheng Jin",
+"Sicheng Yu",
+"Geng Zhan",
+"Jiayi Ji",
+"Fan Zhou",
+"Liang Zheng",
+"Shuicheng YAN",
+"Hao Fei",
+"Tat-Seng Chua"
+],
+"NeurIPS|2025|Spotlight|606": [
+"Damien Ferbach",
+"Katie Everett",
+"Gauthier Gidel",
+"Elliot Paquette",
+"Courtney Paquette"
+],
+"NeurIPS|2025|Spotlight|607": [
+"Yuxuan Wang",
+"Ming Yang",
+"Ziluo Ding",
+"Yu Zhang",
+"Weishuai Zeng",
+"Xinrun Xu",
+"Haobin Jiang",
+"Zongqing Lu"
+],
+"NeurIPS|2025|Spotlight|608": [
+"Yusuf Dalva",
+"Hidir Yesiltepe",
+"Pinar Yanardag"
+],
+"NeurIPS|2025|Spotlight|609": [
+"Jiahe Li",
+"Jiawei Zhang",
+"Youmin Zhang",
+"Xiao Bai",
+"Jin Zheng",
+"Xiaohan Yu",
+"Lin Gu"
+],
+"NeurIPS|2025|Spotlight|610": [
+"Jiaru Zou",
+"Yikun Ban",
+"Zihao Li",
+"Yunzhe Qi",
+"Ruizhong Qiu",
+"Ling Yang",
+"Jingrui He"
+],
+"NeurIPS|2025|Spotlight|611": [
+"Jianle Sun",
+"Chaoqi Liang",
+"Ran Wei",
+"Peng Zheng",
+"LEI BAI",
+"Wanli Ouyang",
+"Hongliang Yan",
+"Peng Ye"
+],
+"NeurIPS|2025|Spotlight|612": [
+"Ali Farajzadeh",
+"Danyal Saeed",
+"Syed M Abbas",
+"Rushit N. Shah",
+"Aadirupa Saha",
+"Brian D Ziebart"
+],
+"NeurIPS|2025|Spotlight|613": [
+"Jacob Lin",
+"Edward Gryspeerdt",
+"Ronald Clark"
+],
+"NeurIPS|2025|Spotlight|614": [
+"Zhengqing Wang",
+"Yuefan Wu",
+"Jiacheng Chen",
+"Fuyang Zhang",
+"Yasutaka Furukawa"
+],
+"NeurIPS|2025|Spotlight|615": [
+"Yixiu Mao",
+"Yun Qu",
+"Cheems Wang",
+"Xiangyang Ji"
+],
+"NeurIPS|2025|Spotlight|616": [
+"Ming Li",
+"Jike Zhong",
+"Shitian Zhao",
+"Yuxiang Lai",
+"Haoquan Zhang",
+"Wang Bill Zhu",
+"Kaipeng Zhang"
+],
+"NeurIPS|2025|Spotlight|617": [
+"Yuran Wang",
+"Ruihai Wu",
+"Yue Chen",
+"Jiarui Wang",
+"Jiaqi Liang",
+"Ziyu Zhu",
+"Haoran Geng",
+"Jitendra Malik",
+"Pieter Abbeel",
+"Hao Dong"
+],
+"NeurIPS|2025|Spotlight|618": [
+"Hossein Goli",
+"Michael Gimelfarb",
+"Nathan Samuel de Lara",
+"Haruki Nishimura",
+"Masha Itkina",
+"Florian Shkurti"
+],
+"NeurIPS|2025|Spotlight|619": [
+"Jan Philipp Schneider",
+"Pratik Singh Bisht",
+"Ilya Chugunov",
+"Andreas Kolb",
+"Michael Moeller",
+"Felix Heide"
+],
+"NeurIPS|2025|Spotlight|620": [
+"Huanlin Gao",
+"Ping Chen",
+"Fuyuan Shi",
+"Chao Tan",
+"Zhaoxiang Liu",
+"Fang Zhao",
+"Kai Wang",
+"Shiguo Lian"
+],
+"NeurIPS|2025|Spotlight|621": [
+"Junhao Dong",
+"Cong Zhang",
+"Xinghua Qu",
+"Zejun MA",
+"Piotr Koniusz",
+"Yew-Soon Ong"
+],
+"NeurIPS|2025|Spotlight|622": [
+"Yujia Zheng",
+"Zhuokai Zhao",
+"Zijian Li",
+"Yaqi Xie",
+"Mingze Gao",
+"Lizhu Zhang",
+"Kun Zhang"
+],
+"NeurIPS|2025|Spotlight|623": [
+"Zhongchen Zhao",
+"Chaodong Xiao",
+"Hui LIN",
+"Qi Xie",
+"Lei Zhang",
+"Deyu Meng"
+],
+"NeurIPS|2025|Spotlight|624": [
+"Tonglong Wei",
+"Yan Lin",
+"Youfang Lin",
+"Shengnan Guo",
+"Jilin Hu",
+"Haitao Yuan",
+"Gao Cong",
+"Huaiyu Wan"
+],
+"NeurIPS|2025|Spotlight|625": [
+"Boyan Gao",
+"Xin Wang",
+"Yibo Yang",
+"David A. Clifton"
+],
+"NeurIPS|2025|Spotlight|626": [
+"Hongjin Qian",
+"Zheng Liu"
+],
+"NeurIPS|2025|Spotlight|627": [
+"Yuyang Li",
+"Wenxin Du",
+"Chang Yu",
+"Puhao Li",
+"Zihang Zhao",
+"Tengyu Liu",
+"Chenfanfu Jiang",
+"Yixin Zhu",
+"Siyuan Huang"
+],
+"NeurIPS|2025|Spotlight|628": [
+"Changze Lv",
+"Yansen Wang",
+"Dongqi Han",
+"Yifei Shen",
+"Xiaoqing Zheng",
+"Xuanjing Huang",
+"Dongsheng Li"
+],
+"NeurIPS|2025|Spotlight|629": [
+"Fanxu Meng",
+"Pingzhi Tang",
+"Zengwei Yao",
+"Xing Sun",
+"Muhan Zhang"
+],
+"NeurIPS|2025|Spotlight|630": [
+"Xiang Li",
+"Rongrong Wang",
+"Qing Qu"
+],
+"NeurIPS|2025|Spotlight|631": [
+"Ziang Cao",
+"Zhaoxi Chen",
+"Liang Pan",
+"Ziwei Liu"
+],
+"NeurIPS|2025|Spotlight|632": [
+"Guanlin Wu",
+"Boyan Su",
+"Yang Zhao",
+"Pu Wang",
+"Yichen Lin",
+"Hao Frank Yang"
+],
+"NeurIPS|2025|Spotlight|633": [
+"Xiangyu Zeng",
+"Kefan Qiu",
+"Qingyu Zhang",
+"Xinhao Li",
+"Jing Wang",
+"Jiaxin Li",
+"Ziang Yan",
+"Kun Tian",
+"Meng Tian",
+"Xinhai Zhao",
+"Yi Wang",
+"Limin Wang"
+],
+"NeurIPS|2025|Spotlight|634": [
+"Ziqi Zhou",
+"Yifan Hu",
+"Yufei Song",
+"Zijing Li",
+"Shengshan Hu",
+"Leo Yu Zhang",
+"Dezhong Yao",
+"Long Zheng",
+"Hai Jin"
+],
+"NeurIPS|2025|Spotlight|635": [
+"Xinyan Liang",
+"ShuaiLi",
+"Qian Guo",
+"Yuhua Qian",
+"Bingbing Jiang",
+"Tingjin Luo",
+"Liang Du"
+],
+"NeurIPS|2025|Spotlight|636": [
+"Qingyang Zhang",
+"Haitao Wu",
+"Changqing Zhang",
+"Peilin Zhao",
+"Yatao Bian"
+],
+"NeurIPS|2025|Spotlight|637": [
+"Yingying Feng",
+"Jie Li",
+"Jie Hu",
+"Yukang Zhang",
+"Lei Tan",
+"Jiayi Ji"
+],
+"NeurIPS|2025|Spotlight|638": [
+"Fanhu Zeng",
+"Haiyang Guo",
+"Fei Zhu",
+"Li Shen",
+"Hao Tang"
+],
+"NeurIPS|2025|Spotlight|639": [
+"Hao Zhang",
+"Chun-Han Yao",
+"Simon Donné",
+"Narendra Ahuja",
+"Varun Jampani"
+],
+"NeurIPS|2025|Spotlight|640": [
+"Mark He Huang",
+"Lin Geng Foo",
+"Christian Theobalt",
+"Ying Sun",
+"De Wen Soh"
+],
+"NeurIPS|2025|Spotlight|641": [
+"TAO SUN",
+"Liyuan Zhu",
+"Shengyu Huang",
+"Shuran Song",
+"Iro Armeni"
+],
+"NeurIPS|2025|Spotlight|642": [
+"Xiang Li",
+"Zirui Wang",
+"Zixuan Huang",
+"James Matthew Rehg"
+],
+"NeurIPS|2025|Spotlight|643": [
+"Zhenyuan Qin",
+"Xincheng Shuai",
+"Henghui Ding"
+],
+"NeurIPS|2025|Spotlight|644": [
+"Zhizhong Li",
+"Sina Sajadmanesh",
+"Jingtao Li",
+"Lingjuan Lyu"
+],
+"NeurIPS|2025|Spotlight|645": [
+"Ziyad Benomar",
+"Romain Cosson",
+"Alexander Lindermayr",
+"Jens Schlöter"
+],
+"NeurIPS|2025|Spotlight|646": [
+"Xiaohui Gao",
+"Haoran Yang",
+"Yue Cheng",
+"Mengfei Zuo",
+"Yiheng Liu",
+"Peiyang Li",
+"Xintao Hu"
+],
+"NeurIPS|2025|Spotlight|647": [
+"Jian Liu",
+"Jing Xu",
+"Song Guo",
+"Jing Li",
+"Guojingfeng",
+"Jiaao Yu",
+"Haohan Weng",
+"Biwen Lei",
+"Xianghui Yang",
+"Zhuo Chen",
+"Fangqi Zhu",
+"Tao Han",
+"Chunchao Guo"
+],
+"NeurIPS|2025|Spotlight|648": [
+"Tianhe Wu",
+"Jian Zou",
+"Jie Liang",
+"Lei Zhang",
+"Kede Ma"
+],
+"NeurIPS|2025|Spotlight|649": [
+"Yi Dong",
+"Yuxi Wang",
+"Xianhui Lin",
+"Wenqi Ouyang",
+"Zhiqi Shen",
+"Peiran Ren",
+"Ruoxi Fan",
+"Rynson W. H. Lau"
+],
+"NeurIPS|2025|Spotlight|650": [
+"Guibin Zhang",
+"Muxin Fu",
+"Kun Wang",
+"Guancheng Wan",
+"Miao Yu",
+"Shuicheng YAN"
+],
+"NeurIPS|2025|Spotlight|651": [
+"Shuang Zeng",
+"Xinyuan Chang",
+"Mengwei Xie",
+"Xinran Liu",
+"Yifan Bai",
+"Zheng Pan",
+"Mu Xu",
+"Xing Wei"
+],
+"NeurIPS|2025|Spotlight|652": [
+"Yunyang Li",
+"Lin Huang",
+"Zhihao Ding",
+"Xinran Wei",
+"Chu Wang",
+"Han Yang",
+"Zun Wang",
+"Chang Liu",
+"Yu Shi",
+"Peiran Jin",
+"Tao Qin",
+"Mark Gerstein",
+"Jia Zhang"
+],
+"NeurIPS|2025|Spotlight|653": [
+"Zixuan Hu",
+"Li Shen",
+"Zhenyi Wang",
+"Yongxian Wei",
+"Dacheng Tao"
+],
+"NeurIPS|2025|Spotlight|654": [
+"Yu Guo",
+"Shengfeng He",
+"Yuxu Lu",
+"Haonan An",
+"Yihang Tao",
+"Huilin Zhu",
+"Jingxian Liu",
+"Yuguang Fang"
+],
+"NeurIPS|2025|Spotlight|655": [
+"Haonan Dong",
+"Wenhao Zhu",
+"Guojie Song",
+"Liang Wang"
+],
+"NeurIPS|2025|Spotlight|656": [
+"Chaoyue Song",
+"Xiu Li",
+"Fan Yang",
+"Zhongcong Xu",
+"Jiacheng Wei",
+"Fayao Liu",
+"Jiashi Feng",
+"Guosheng Lin",
+"Jianfeng Zhang"
+],
+"NeurIPS|2025|Spotlight|657": [
+"Lingdong Kong",
+"Dongyue Lu",
+"Alan Liang",
+"Rong Li",
+"Yuhao Dong",
+"Tianshuai Hu",
+"Lai Xing Ng",
+"Wei Tsang Ooi",
+"Benoit R Cottereau"
+],
+"NeurIPS|2025|Spotlight|658": [
+"Chenxi Xie",
+"Minghan Li",
+"Shuai Li",
+"Yuhui Wu",
+"Qiaosi Yi",
+"Lei Zhang"
+],
+"NeurIPS|2025|Spotlight|659": [
+"Thibaut Loiseau",
+"Guillaume Bourmaud",
+"Vincent Lepetit"
+],
+"NeurIPS|2025|Spotlight|660": [
+"Yuang Ai",
+"Qihang Fan",
+"Xuefeng Hu",
+"Zhenheng Yang",
+"Ran He",
+"Huaibo Huang"
+],
+"NeurIPS|2025|Spotlight|661": [
+"Xingjian Wu",
+"Xiangfei Qiu",
+"Hanyin Cheng",
+"Zhengyu Li",
+"Jilin Hu",
+"Chenjuan Guo",
+"Bin Yang"
+],
+"NeurIPS|2025|Spotlight|662": [
+"Haonan Wang",
+"Hanyu Zhou",
+"Haoyue Liu",
+"Luxin Yan"
+],
+"NeurIPS|2025|Spotlight|663": [
+"Ziqiao Peng",
+"Jiwen Liu",
+"Haoxian Zhang",
+"Xiaoqiang Liu",
+"Songlin Tang",
+"Pengfei Wan",
+"Di ZHANG",
+"Hongyan Liu",
+"Jun He"
+],
+"NeurIPS|2025|Spotlight|664": [
+"Jinkun Hao",
+"Naifu Liang",
+"Zhen Luo",
+"Xudong XU",
+"Weipeng Zhong",
+"Ran Yi",
+"Yichen Jin",
+"Zhaoyang Lyu",
+"Feng Zheng",
+"Lizhuang Ma",
+"Jiangmiao Pang"
+],
+"NeurIPS|2025|Spotlight|665": [
+"Xun Huang",
+"Zhengqi Li",
+"Guande He",
+"Mingyuan Zhou",
+"Eli Shechtman"
+],
+"NeurIPS|2025|Spotlight|666": [
+"Canyu Zhao",
+"Yanlong Sun",
+"Mingyu Liu",
+"Huanyi Zheng",
+"Muzhi Zhu",
+"Zhiyue Zhao",
+"Hao Chen",
+"Tong He",
+"Chunhua Shen"
+],
+"NeurIPS|2025|Spotlight|667": [
+"Avrajit Ghosh",
+"Bai Cong",
+"Rio Yokota",
+"Saiprasad Ravishankar",
+"Rongrong Wang",
+"Molei Tao",
+"Mohammad Emtiyaz Khan",
+"Thomas Möllenhoff"
+],
+"NeurIPS|2025|Spotlight|668": [
+"Yanhao Jia",
+"Ji Xie",
+"S Jivaganesh",
+"Li Hao",
+"Xu Wu",
+"Mengmi Zhang"
+],
+"NeurIPS|2025|Spotlight|669": [
+"Daolang Huang",
+"Xinyi Wen",
+"Ayush Bharti",
+"Samuel Kaski",
+"Luigi Acerbi"
+],
+"NeurIPS|2025|Spotlight|670": [
+"Xiaochen Shang",
+"Luo Pengwei",
+"Xinning Wang",
+"Jiayue Zhao",
+"Huilin Ge",
+"Bo Dong",
+"Xin Yang"
+],
+"NeurIPS|2025|Spotlight|671": [
+"Huanming Shen",
+"Baizhou Huang",
+"Xiaojun Wan"
+],
+"NeurIPS|2025|Spotlight|672": [
+"Huanjin Yao",
+"Jiaxing Huang",
+"Wenhao Wu",
+"Jingyi Zhang",
+"Yibo Wang",
+"Shunyu Liu",
+"Yingjie Wang",
+"YuXin Song",
+"Haocheng Feng",
+"Li Shen",
+"Dacheng Tao"
+],
+"NeurIPS|2025|Spotlight|673": [
+"Mengdi Liu",
+"Xiaoxue Cheng",
+"Zhangyang Gao",
+"Hong Chang",
+"Cheng Tan",
+"Shiguang Shan",
+"Xilin Chen"
+],
+"NeurIPS|2025|Spotlight|674": [
+"Yichao Cai",
+"Yuhang Liu",
+"Erdun Gao",
+"Tianjiao Jiang",
+"Zhen Zhang",
+"Anton van den Hengel",
+"Javen Qinfeng Shi"
+],
+"NeurIPS|2025|Spotlight|675": [
+"Zixiang Zhao",
+"Haowen Bai",
+"Bingxin Ke",
+"Yukun Cui",
+"Lilun Deng",
+"Yulun Zhang",
+"Kai Zhang",
+"Konrad Schindler"
+],
+"NeurIPS|2025|Spotlight|676": [
+"Shuze Chen",
+"Tianyi Peng"
+],
+"NeurIPS|2025|Spotlight|677": [
+"Haiming Zhang",
+"Yiyao Zhu",
+"Wending Zhou",
+"Xu Yan",
+"Yingjie CAI",
+"Bingbing Liu",
+"Shuguang Cui",
+"Zhen Li"
+],
+"NeurIPS|2025|Spotlight|678": [
+"Jang Hyun Cho",
+"Andrea Madotto",
+"Effrosyni Mavroudi",
+"Triantafyllos Afouras",
+"Tushar Nagarajan",
+"Muhammad Maaz",
+"Yale Song",
+"Tengyu Ma",
+"Shuming Hu",
+"Suyog Jain",
+"Miguel Martin",
+"Huiyu Wang",
+"Hanoona Abdul Rasheed",
+"Peize Sun",
+"Po-Yao Huang",
+"Daniel Bolya",
+"Nikhila Ravi",
+"Shashank Jain",
+"Tammy Stark",
+"Seungwhan Moon",
+"Babak Damavandi",
+"Vivian Lee",
+"Andrew Westbury",
+"Salman Khan",
+"Philipp Kraehenbuehl",
+"Piotr Dollar",
+"Lorenzo Torresani",
+"Kristen Grauman",
+"Christoph Feichtenhofer"
+],
+"NeurIPS|2025|Spotlight|679": [
+"Hyeong Kyu Choi",
+"Jerry Zhu",
+"Sharon Li"
+],
+"NeurIPS|2025|Spotlight|680": [
+"Wuyang Li",
+"Zhu Yu",
+"Alexandre Alahi"
+],
+"NeurIPS|2025|Spotlight|681": [
+"Kodai Kawamura",
+"Yuta Goto",
+"Rintaro Yanagi",
+"Hirokatsu Kataoka",
+"Go Irie"
+],
+"NeurIPS|2025|Spotlight|682": [
+"Jianyang Gu",
+"Samuel Stevens",
+"Elizabeth G Campolongo",
+"Matthew J Thompson",
+"Net Zhang",
+"Jiaman Wu",
+"Andrei Kopanev",
+"Zheda Mai",
+"Alexander E. White",
+"James Balhoff",
+"Wasila Dahdul",
+"Daniel Rubenstein",
+"Hilmar Lapp",
+"Tanya Berger-Wolf",
+"Wei-Lun Chao",
+"Yu Su"
+],
+"NeurIPS|2025|Spotlight|683": [
+"Enjun Du",
+"Xunkai Li",
+"Tian Jin",
+"Zhihan Zhang",
+"Rong-Hua Li",
+"Guoren Wang"
+],
+"NeurIPS|2025|Spotlight|684": [
+"Weiqi Li",
+"Xuanyu Zhang",
+"Shijie Zhao",
+"Yabin ZHANG",
+"Junlin Li",
+"Li zhang",
+"Jian Zhang"
+],
+"NeurIPS|2025|Spotlight|685": [
+"Noam Razin",
+"Zixuan Wang",
+"Hubert Strauss",
+"Stanley Wei",
+"Jason D. Lee",
+"Sanjeev Arora"
+],
+"NeurIPS|2025|Spotlight|686": [
+"TaeHoon Yoon",
+"Yunhong Min",
+"Kyeongmin Yeo",
+"Minhyuk Sung"
+],
+"NeurIPS|2025|Spotlight|687": [
+"Jake Robertson",
+"Arik Reuter",
+"Siyuan Guo",
+"Noah Hollmann",
+"Frank Hutter",
+"Bernhard Schölkopf"
+],
+"NeurIPS|2025|Spotlight|688": [
+"Jiazhi Yang",
+"Kashyap Chitta",
+"Shenyuan Gao",
+"Long Chen",
+"Yuqian Shao",
+"Xiaosong Jia",
+"Hongyang Li",
+"Andreas Geiger",
+"Xiangyu Yue",
+"Li Chen"
+],
+"NeurIPS|2025|Spotlight|689": [
+"Chris Kolb",
+"Laetitia Frost",
+"Bernd Bischl",
+"David Rügamer"
+],
+"ICLR|2026|Oral|1": [
+"Pierre-Carl Langlais",
+"Pavel Chizhov",
+"Catherine Arnett",
+"Carlos Rosas Hinostroza",
+"Mattia Nee",
+"Eliot Krzysztof Jones",
+"Irène Girard",
+"David Mach",
+"Anastasia Stasenko",
+"Ivan P. Yamshchikov"
+],
+"ICLR|2026|Oral|2": [
+"Artyom Sorokin",
+"Nazar Buzun",
+"Aleksandr Anokhin",
+"Egor KONSTANTINOVICH VEDERNIKOV",
+"Petr Anokhin",
+"Mikhail Burtsev",
+"Evgeny Burnaev"
+],
+"ICLR|2026|Oral|3": [
+"Marco P Abrate",
+"Laurenz Muessig",
+"Joshua P Bassett",
+"Hui Min Tan",
+"Francesca Cacucci",
+"Thomas Joseph Wills",
+"Caswell Barry"
+],
+"ICLR|2026|Oral|4": [
+"Isaac Han",
+"Sangyeon Park",
+"Seungwon Oh",
+"Donghu Kim",
+"Hojoon Lee",
+"KyungJoong Kim"
+],
+"ICLR|2026|Oral|5": [
+"Kartik Nair",
+"Indradyumna Roy",
+"Soumen Chakrabarti",
+"Anirban Dasgupta",
+"Abir De"
+],
+"ICLR|2026|Oral|6": [
+"Zhiyu Mou",
+"Yiqin Lv",
+"Miao Xu",
+"Cheems Wang",
+"Yixiu Mao",
+"Jinghao Chen",
+"Qichen Ye",
+"Chao Li",
+"Rongquan Bai",
+"Chuan Yu",
+"Jian Xu",
+"Bo Zheng"
+],
+"ICLR|2026|Oral|7": [
+"Aditya Gopalan",
+"Sayak Ray Chowdhury",
+"Debangshu Banerjee"
+],
+"ICLR|2026|Oral|8": [
+"Chunyang Li",
+"Yilun Zheng",
+"Xinting Huang",
+"Tianqing Fang",
+"Jiahao Xu",
+"Lihui Chen",
+"Yangqiu Song",
+"Han Hu"
+],
+"ICLR|2026|Oral|9": [
+"Geon-Hyeong Kim",
+"Yu Jin Kim",
+"Byoungjip Kim",
+"Honglak Lee",
+"Kyunghoon Bae",
+"Youngsoo Jang",
+"Moontae Lee"
+],
+"ICLR|2026|Oral|10": [
+"Ran Xu",
+"Yuchen Zhuang",
+"Yishan Zhong",
+"Yue Yu",
+"Zifeng Wang",
+"Xiangru Tang",
+"Hang Wu",
+"May Dongmei Wang",
+"Peifeng Ruan",
+"Donghan Yang",
+"Tao Wang",
+"Guanghua Xiao",
+"Xin Liu",
+"Carl Yang",
+"Yang Xie",
+"Wenqi Shi"
+],
+"ICLR|2026|Oral|11": [
+"Thomas Rupf",
+"Marco Bagatella",
+"Marin Vlastelica",
+"Andreas Krause"
+],
+"ICLR|2026|Oral|12": [
+"Yahan Li",
+"Jifan Yao",
+"John Bosco S. Bunyi",
+"Adam C Frank",
+"Angel Hsing-Chi Hwang",
+"Ruishan Liu"
+],
+"ICLR|2026|Oral|13": [
+"Jonathan Bragg",
+"Mike D'Arcy",
+"Nishant Balepur",
+"Dan Bareket",
+"Bhavana Dalvi Mishra",
+"Sergey Feldman",
+"Dany Haddad",
+"Jena D. Hwang",
+"Peter Jansen",
+"Varsha Kishore",
+"Bodhisattwa Prasad Majumder",
+"Aakanksha Naik",
+"Sigal Rahamimov",
+"Kyle Richardson",
+"Amanpreet Singh",
+"Harshit Surana",
+"Aryeh Tiktinsky",
+"Rosni Vasu",
+"Guy Wiener",
+"Chloe Anastasiades",
+"Stefanus Candra",
+"Jason Dunkelberger",
+"Daniel Emery",
+"Rob Evans",
+"Malachi Hamada",
+"Regan Huff",
+"Rodney Kinney",
+"Matt Latzke",
+"Jaron Lochner",
+"Ruben Lozano-Aguilera",
+"Ngoc-Uyen Nguyen",
+"Smita Rao",
+"Amber Tanaka",
+"Brooke Vlahos",
+"Peter Clark",
+"Doug Downey",
+"Yoav Goldberg",
+"Ashish Sabharwal",
+"Daniel S Weld"
+],
+"ICLR|2026|Oral|14": [
+"Sina Alemohammad",
+"Zhangyang Wang",
+"Richard Baraniuk"
+],
+"ICLR|2026|Oral|15": [
+"Utkarsh Aashu Mishra",
+"David He",
+"Yongxin Chen",
+"Danfei Xu"
+],
+"ICLR|2026|Oral|16": [
+"Rim Assouel",
+"Declan Iain Campbell",
+"Yoshua Bengio",
+"Taylor Whittington Webb"
+],
+"ICLR|2026|Oral|17": [
+"Satchel Grant",
+"Simon Jerome Han",
+"Alexa R. Tartaglini",
+"Christopher Potts"
+],
+"ICLR|2026|Oral|18": [
+"Nam Nguyen",
+"Thinh Nguyen",
+"Bella Bose"
+],
+"ICLR|2026|Oral|19": [
+"Mason Long Wang",
+"Cheng-Zhi Anna Huang"
+],
+"ICLR|2026|Oral|20": [
+"Peter Holderrieth",
+"Uriel Singer",
+"Tommi Jaakkola",
+"Ricky T. Q. Chen",
+"Yaron Lipman",
+"Brian Karrer"
+],
+"ICLR|2026|Oral|21": [
+"Yen-Ju Lu",
+"Yashesh Gaur",
+"Wei Zhou",
+"Benjamin Muller",
+"Jesus Villalba",
+"Najim Dehak",
+"Luke Zettlemoyer",
+"Gargi Ghosh",
+"Mike Lewis",
+"Srini Iyer",
+"Duc Le"
+],
+"ICLR|2026|Oral|22": [
+"Siyuan Wang",
+"Gaokai Zhang",
+"Li Lyna Zhang",
+"Ning Shang",
+"Fan Yang",
+"Dongyao Chen",
+"Mao Yang"
+],
+"ICLR|2026|Oral|23": [
+"Naimeng Ye",
+"Arnav Ahuja",
+"Georgios Liargkovas",
+"Yunan Lu",
+"Kostis Kaffes",
+"Tianyi Peng"
+],
+"ICLR|2026|Oral|24": [
+"Aaradhya Pandey",
+"Arnab Auddy",
+"Haolin Zou",
+"Arian Maleki",
+"Sanjeev Kulkarni"
+],
+"ICLR|2026|Oral|25": [
+"Zeyi Liao",
+"Jaylen Jones",
+"Linxi Jiang",
+"Yuting Ning",
+"Eric Fosler-Lussier",
+"Yu Su",
+"Zhiqiang Lin",
+"Huan Sun"
+],
+"ICLR|2026|Oral|26": [
+"Tommaso Mencattini",
+"Riccardo Cadei",
+"Francesco Locatello"
+],
+"ICLR|2026|Oral|27": [
+"Matthew Finlayson",
+"Xiang Ren",
+"Swabha Swayamdipta"
+],
+"ICLR|2026|Oral|28": [
+"Konwoo Kim",
+"Suhas Kotha",
+"Percy Liang",
+"Tatsunori Hashimoto"
+],
+"ICLR|2026|Oral|29": [
+"Lakshya A Agrawal",
+"Shangyin Tan",
+"Dilara Soylu",
+"Noah Ziems",
+"Rishi Khare",
+"Krista Opsahl-Ong",
+"Arnav Singhvi",
+"Herumb Shandilya",
+"Michael J Ryan",
+"Meng Jiang",
+"Christopher Potts",
+"Koushik Sen",
+"Alex Dimakis",
+"Ion Stoica",
+"Dan Klein",
+"Matei Zaharia",
+"Omar Khattab"
+],
+"ICLR|2026|Oral|30": [
+"Runyan Tan",
+"Shuang Wu",
+"Phillip Howard"
+],
+"ICLR|2026|Oral|31": [
+"Jonathn Chang",
+"Leonhard Piff",
+"Suvadip Sana",
+"Jasmine Xinze Li",
+"Lionel Levine"
+],
+"ICLR|2026|Oral|32": [
+"Hideaki Kim",
+"Tomoharu Iwata"
+],
+"ICLR|2026|Oral|33": [
+"Jinchuan Tian",
+"Sang-gil Lee",
+"Zhifeng Kong",
+"Sreyan Ghosh",
+"Arushi Goel",
+"Chao-Han Huck Yang",
+"Wenliang Dai",
+"Zihan Liu",
+"Hanrong Ye",
+"Shinji Watanabe",
+"Mohammad Shoeybi",
+"Bryan Catanzaro",
+"Rafael Valle",
+"Wei Ping"
+],
+"ICLR|2026|Oral|34": [
+"Yueqi Song",
+"Ketan Ramaneti",
+"Zaid Sheikh",
+"Ziru Chen",
+"Boyu Gou",
+"Tianbao Xie",
+"Yiheng Xu",
+"Danyang Zhang",
+"Apurva Gandhi",
+"Fan Yang",
+"Joseph Liu",
+"Tianyue Ou",
+"Zhihao Yuan",
+"Frank F. Xu",
+"Shuyan Zhou",
+"Xingyao Wang",
+"Xiang Yue",
+"Tao Yu",
+"Huan Sun",
+"Yu Su",
+"Graham Neubig"
+],
+"ICLR|2026|Oral|35": [
+"Karen Ullrich",
+"Jingtong Su",
+"Claudia Shi",
+"Arjun Subramonian",
+"Amir Bar",
+"Ivan Evtimov",
+"Nikolaos Tsilivis",
+"Randall Balestriero",
+"Julia Kempe",
+"Mark Ibrahim"
+],
+"ICLR|2026|Oral|36": [
+"Brandon Livio Annesi",
+"Dario Bocchi",
+"Chiara Cammarota"
+],
+"ICLR|2026|Oral|37": [
+"Hongjian Jiang",
+"Michael Hahn",
+"Georg Zetzsche",
+"Anthony Widjaja Lin"
+],
+"ICLR|2026|Oral|38": [
+"Raghu Arghal",
+"Kevin He",
+"Shirin Saeedi Bidokhti",
+"Saswati Sarkar"
+],
+"ICLR|2026|Oral|39": [
+"Zachary Izzo",
+"Eshaan Nichani",
+"Jason D. Lee"
+],
+"ICLR|2026|Oral|40": [
+"Zhiheng Xi",
+"Jixuan Huang",
+"Chenyang Liao",
+"Baodai Huang",
+"Jiaqi Liu",
+"Honglin Guo",
+"yajie yang",
+"Rui Zheng",
+"Junjie Ye",
+"Jiazheng Zhang",
+"Wenxiang Chen",
+"Wei He",
+"Yiwen Ding",
+"Guanyu Li",
+"Zehui Chen",
+"Zhengyin Du",
+"Xuesong Yao",
+"Yufei Xu",
+"Jiecao Chen",
+"Tao Gui",
+"Zuxuan Wu",
+"Qi Zhang",
+"Xuanjing Huang",
+"Yu-Gang Jiang"
+],
+"ICLR|2026|Oral|41": [
+"Thibaud Gloaguen",
+"Robin Staab",
+"Nikola Jovanović",
+"Martin Vechev"
+],
+"ICLR|2026|Oral|42": [
+"Thibaud Gloaguen",
+"Mark Vero",
+"Robin Staab",
+"Martin Vechev"
+],
+"ICLR|2026|Oral|43": [
+"Nikita Maksimovich Kornilov",
+"David Li",
+"Tikhon Mavrin",
+"Aleksei Leonov",
+"Nikita Gushchin",
+"Evgeny Burnaev",
+"Iaroslav Sergeevich Koshelev",
+"Alexander Korotin"
+],
+"ICLR|2026|Oral|44": [
+"Houyi Li",
+"Ka Man Lo",
+"Shijie Xuyang",
+"Ziqi Wang",
+"Wenzhen Zheng",
+"Haocheng Zhang",
+"Zhao Li",
+"Shuigeng Zhou",
+"Xiangyu Zhang",
+"Daxin Jiang"
+],
+"ICLR|2026|Oral|45": [
+"Jatan Shrestha",
+"Santeri Heiskanen",
+"Kari Hepola",
+"Severi Rissanen",
+"Pekka Jääskeläinen",
+"Joni Pajarinen"
+],
+"ICLR|2026|Oral|46": [
+"Fan Chen",
+"Audrey Huang",
+"Noah Golowich",
+"Sadhika Malladi",
+"Adam Block",
+"Jordan T. Ash",
+"Akshay Krishnamurthy",
+"Dylan J Foster"
+],
+"ICLR|2026|Oral|47": [
+"Pascal Bergsträßer",
+"Ryan Cotterell",
+"Anthony Widjaja Lin"
+],
+"ICLR|2026|Oral|48": [
+"Yang Hu",
+"Jieren Tan",
+"Changliang Zou",
+"Yajie Bao",
+"Haojie Ren"
+],
+"ICLR|2026|Oral|49": [
+"Mohamed Malhou",
+"Ludovic Perret",
+"Kristin E. Lauter"
+],
+"ICLR|2026|Oral|50": [
+"Florian Fervers",
+"Sebastian Bullinger",
+"Christoph Bodensteiner",
+"Michael Arens"
+],
+"ICLR|2026|Oral|51": [
+"Chinmay Datar",
+"Taniya Kapoor",
+"Abhishek Chandra",
+"Qing Sun",
+"Erik Lien Bolager",
+"Iryna Burak",
+"Anna Veselovska",
+"Massimo Fornasier",
+"Felix Dietrich"
+],
+"ICLR|2026|Oral|52": [
+"Guhao Feng",
+"Shengjie Luo",
+"Kai Hua",
+"Ge Zhang",
+"Wenhao Huang",
+"Di He",
+"Tianle Cai"
+],
+"ICLR|2026|Oral|53": [
+"Zhehao Huang",
+"Yuhang Liu",
+"Baijiong Lin",
+"Yixin Lou",
+"Zhengbao He",
+"Hanling Tian",
+"Tao Li",
+"Xiaolin Huang"
+],
+"ICLR|2026|Oral|54": [
+"Eran Malach",
+"Omid Saremi",
+"Sinead Williamson",
+"Arwen Bradley",
+"Aryo Lotfi",
+"Emmanuel Abbe",
+"Joshua M. Susskind",
+"Etai Littwin"
+],
+"ICLR|2026|Oral|55": [
+"Lei Wang",
+"Yu Cheng",
+"Yining Shi",
+"Zhiwen Mo",
+"Zhengju Tang",
+"Wenhao Xie",
+"Tong Wu",
+"Lingxiao Ma",
+"Yuqing Xia",
+"Jilong Xue",
+"Fan Yang",
+"Zhi Yang"
+],
+"ICLR|2026|Oral|56": [
+"Marco Fumero",
+"Luca Moschella",
+"Emanuele Rodolà",
+"Francesco Locatello"
+],
+"ICLR|2026|Oral|57": [
+"Riccardo Poiani",
+"Martino Bernasconi",
+"Andrea Celli"
+],
+"ICLR|2026|Oral|58": [
+"Aideen Fay",
+"Inés García-Redondo",
+"Qiquan Wang",
+"Haim Dubossarsky",
+"Anthea Monod"
+],
+"ICLR|2026|Oral|59": [
+"Harry Amad",
+"Mihaela van der Schaar"
+],
+"ICLR|2026|Oral|60": [
+"Haijier Chen",
+"Bo Xu",
+"Shoujian zhang",
+"Haoze Liu",
+"Jiaxuan Lin",
+"Jingrong Wang"
+],
+"ICLR|2026|Oral|61": [
+"Marco Bondaschi",
+"Nived Rajaraman",
+"Xiuying Wei",
+"Razvan Pascanu",
+"Caglar Gulcehre",
+"Michael Gastpar",
+"Ashok Vardhan Makkuva"
+],
+"ICLR|2026|Oral|62": [
+"Wenyi Wang",
+"Piotr Piękos",
+"Li Nanbo",
+"Firas Laakom",
+"Yimeng Chen",
+"Mateusz Ostaszewski",
+"Mingchen Zhuge",
+"Jürgen Schmidhuber"
+],
+"ICLR|2026|Oral|63": [
+"Romain Froger",
+"Pierre Andrews",
+"Matteo Bettini",
+"Amar Budhiraja",
+"Ricardo Silveira Cabral",
+"Virginie Do",
+"Emilien Garreau",
+"Jean-Baptiste Gaya",
+"Hugo Laurençon",
+"Maxime Lecanu",
+"Kunal Malkan",
+"Dheeraj Mekala",
+"Pierre Menard",
+"Gerard Moreno-Torres Bertran",
+"Ulyana Piterbarg",
+"Mikhail Plekhanov",
+"Mathieu Rita",
+"Andrey Rusakov",
+"Vladislav Vorotilov",
+"Mengjue Wang",
+"Ian Yu",
+"Amine Benhalloum",
+"Grégoire Mialon",
+"Thomas Scialom"
+],
+"ICLR|2026|Oral|64": [
+"Guillaume Braun",
+"Bruno Loureiro",
+"Minh Ha Quang",
+"Masaaki Imaizumi"
+],
+"ICLR|2026|Oral|65": [
+"Zhenxing Xu",
+"Yizhe Zhang",
+"Weidong Bao",
+"Hao Wang",
+"Ming Chen",
+"Haoran Ye",
+"Wenzheng Jiang",
+"Hui Yan",
+"Ji Wang"
+],
+"ICLR|2026|Oral|66": [
+"Nina Vesseron",
+"Elsa Cazelles",
+"Alice Le Brigant",
+"Klein"
+],
+"ICLR|2026|Oral|67": [
+"Bryon Tjanaka",
+"Henry Chen",
+"Matthew Christopher Fontaine",
+"Stefanos Nikolaidis"
+],
+"ICLR|2026|Oral|68": [
+"Guoqi Yu",
+"Juncheng Wang",
+"Chen Yang",
+"Jing Qin",
+"Angelica I Aviles-Rivero",
+"Shujun Wang"
+],
+"ICLR|2026|Oral|69": [
+"Haiquan Qiu",
+"Quanming Yao"
+],
+"ICLR|2026|Oral|70": [
+"Yuxuan Zhou",
+"Fei Huang",
+"Heng Li",
+"Fengyi Wu",
+"Tianyu Wang",
+"jianwei zhang",
+"Junyang Lin",
+"Zhi-Qi Cheng"
+],
+"ICLR|2026|Oral|71": [
+"Zhuofeng Li",
+"Haoxiang Zhang",
+"Seungju Han",
+"Sheng Liu",
+"Jianwen Xie",
+"Yu Zhang",
+"Yejin Choi",
+"James Zou",
+"Pan Lu"
+],
+"ICLR|2026|Oral|72": [
+"Rajiv Movva",
+"Smitha Milli",
+"Sewon Min",
+"Emma Pierson"
+],
+"ICLR|2026|Oral|73": [
+"Gyuhyeon Seo",
+"Jungwoo Yang",
+"Junseong Pyo",
+"Nalim Kim",
+"Jonggeun Lee",
+"Yohan Jo"
+],
+"ICLR|2026|Oral|74": [
+"Aayush Karan",
+"Yilun Du"
+],
+"ICLR|2026|Oral|75": [
+"Wenbin Ouyang",
+"Sirui Li",
+"Yining Ma",
+"Cathy Wu"
+],
+"ICLR|2026|Oral|76": [
+"Changli Tang",
+"Qinfan Xiao",
+"Ke Mei",
+"Tianyi Wang",
+"Fengyun Rao",
+"Chao Zhang"
+],
+"ICLR|2026|Oral|77": [
+"Carl Edwards",
+"Chi Han",
+"Gawon Lee",
+"Thao Nguyen",
+"Sara Szymkuć",
+"Chetan Kumar Prasad",
+"Bowen Jin",
+"Jiawei Han",
+"Ying Diao",
+"Ge Liu",
+"Hao Peng",
+"Bartosz Andrzej Grzybowski",
+"Martin D. Burke",
+"Heng Ji"
+],
+"ICLR|2026|Oral|78": [
+"Zheng Huang",
+"Enpei Zhang",
+"Weikang Qiu",
+"Yinghao Cai",
+"Carl Yang",
+"Elynn Chen",
+"Xiang Zhang",
+"Rex Ying",
+"Dawei Zhou",
+"Yujun Yan"
+],
+"ICLR|2026|Oral|79": [
+"Usha Bhalla",
+"Alex Oesterling",
+"Claudio Mayrink Verdun",
+"Himabindu Lakkaraju",
+"Flavio Calmon"
+],
+"ICLR|2026|Oral|80": [
+"Zhiliang Peng",
+"Jianwei Yu",
+"Wenhui Wang",
+"Yaoyao Chang",
+"Yutao Sun",
+"Li Dong",
+"Yi Zhu",
+"Weijiang Xu",
+"Hangbo Bao",
+"Zehua Wang",
+"Shaohan Huang",
+"Yan Xia",
+"Furu Wei"
+],
+"ICLR|2026|Oral|81": [
+"Jing Yao",
+"Shitong Duan",
+"Xiaoyuan Yi",
+"Dongkuan Xu",
+"Peng Zhang",
+"Tun Lu",
+"Ning Gu",
+"Zhicheng Dou",
+"Xing Xie"
+],
+"ICLR|2026|Oral|82": [
+"Zhuoran Jin",
+"Hongbang Yuan",
+"Kejian Zhu",
+"Jiachun Li",
+"Pengfei Cao",
+"Yubo Chen",
+"Kang Liu",
+"Jun Zhao"
+],
+"ICLR|2026|Oral|83": [
+"Xiaoxiao Hu",
+"Jiaqi Jin",
+"Sheng Li",
+"Wanli Peng",
+"Xinpeng Zhang",
+"Zhenxing Qian"
+],
+"ICLR|2026|Oral|84": [
+"Jialiang Zhang",
+"Haoran Geng",
+"Yang You",
+"Congyue Deng",
+"Pieter Abbeel",
+"Jitendra Malik",
+"Leonidas Guibas"
+],
+"ICLR|2026|Oral|85": [
+"Zhun Wang",
+"Tianneng Shi",
+"Jingxuan He",
+"Matthew Cai",
+"Jialin Zhang",
+"Dawn Song"
+],
+"ICLR|2026|Oral|86": [
+"Alexi Gladstone",
+"Ganesh Nanduru",
+"Md Mofijul Islam",
+"Peixuan Han",
+"Hyeonjeong Ha",
+"Aman Chadha",
+"Yilun Du",
+"Heng Ji",
+"Jundong Li",
+"Tariq Iqbal"
+],
+"ICLR|2026|Oral|87": [
+"Rahul Krishna Thomas",
+"Arka Pal"
+],
+"ICLR|2026|Oral|88": [
+"Danyal Rehman",
+"Tara Akhound-Sadegh",
+"Artem Gazizov",
+"Yoshua Bengio",
+"Alexander Tong"
+],
+"ICLR|2026|Oral|89": [
+"Gregory Yauney",
+"Shahzaib Saqib Warraich",
+"Swabha Swayamdipta"
+],
+"ICLR|2026|Oral|90": [
+"Wayne Chi",
+"Valerie Chen",
+"Ryan Shar",
+"Aditya Mittal",
+"Jenny Liang",
+"Wei-Lin Chiang",
+"Anastasios Nikolas Angelopoulos",
+"Ion Stoica",
+"Graham Neubig",
+"Ameet Talwalkar",
+"Chris Donahue"
+],
+"ICLR|2026|Oral|91": [
+"Mingyang Liu",
+"Yongshan Chen",
+"Zhiyuan Fan",
+"Gabriele Farina",
+"Asuman E. Ozdaglar",
+"Kaiqing Zhang"
+],
+"ICLR|2026|Oral|92": [
+"Xuying Ning",
+"Dongqi Fu",
+"Tianxin Wei",
+"Mengting Ai",
+"Jiaru Zou",
+"Ting-Wei Li",
+"Hanghang Tong",
+"Yada Zhu",
+"Hendrik Hamann",
+"Jingrui He"
+],
+"ICLR|2026|Oral|93": [
+"Thomas Mitchel",
+"Hyunwoo Ryu",
+"Vincent Sitzmann"
+],
+"ICLR|2026|Oral|94": [
+"Fengyu Cai",
+"Tong Chen",
+"Xinran Zhao",
+"Sihao Chen",
+"Hongming Zhang",
+"Tongshuang Wu",
+"Iryna Gurevych",
+"Heinz Koeppl"
+],
+"ICLR|2026|Oral|95": [
+"Philippe Laban",
+"Hiroaki Hayashi",
+"Yingbo Zhou",
+"Jennifer Neville"
+],
+"ICLR|2026|Oral|96": [
+"Christoph Minixhofer",
+"Ondrej Klejch",
+"Peter Bell"
+],
+"ICLR|2026|Oral|97": [
+"Aakash Lahoti",
+"Kevin Li",
+"Berlin Chen",
+"Caitlin Wang",
+"Aviv Bick",
+"J Zico Kolter",
+"Tri Dao",
+"Albert Gu"
+],
+"ICLR|2026|Oral|98": [
+"Xinpeng Wang",
+"Nitish Joshi",
+"Barbara Plank",
+"Rico Angell",
+"He He"
+],
+"ICLR|2026|Oral|99": [
+"Songyao Jin",
+"Biwei Huang"
+],
+"ICLR|2026|Oral|100": [
+"Guojian Zhan",
+"Letian Tao",
+"Pengcheng Wang",
+"Yixiao Wang",
+"Yuxin Chen",
+"Yiheng Li",
+"Hongyang Li",
+"Masayoshi Tomizuka",
+"Shengbo Eben Li"
+],
+"ICLR|2026|Oral|101": [
+"Kyu Beom Han",
+"Jaeyoon Kim",
+"Woo Jae Kim",
+"Jinhwan Seo",
+"Sung-eui Yoon"
+],
+"ICLR|2026|Oral|102": [
+"Johnny Wei",
+"Ameya Godbole",
+"Mohammad Aflah Khan",
+"Ryan Yixiang Wang",
+"Xiaoyuan Zhu",
+"James Flemings",
+"Nitya Kashyap",
+"Krishna P. Gummadi",
+"Willie Neiswanger",
+"Robin Jia"
+],
+"ICLR|2026|Oral|103": [
+"Vinod Raman",
+"Travis Dick",
+"Matthew Joseph"
+],
+"ICLR|2026|Oral|104": [
+"Shifeng Xie",
+"Vasilii Feofanov",
+"Jianfeng Zhang",
+"Themis Palpanas",
+"Ievgen Redko"
+],
+"ICLR|2026|Oral|105": [
+"Xiaowen Jiang",
+"Anton Rodomanov",
+"Sebastian U Stich"
+],
+"ICLR|2026|Oral|106": [
+"Zheng Zhao",
+"Yeskendir Koishekenov",
+"Xianjun Yang",
+"Naila Murray",
+"Nicola Cancedda"
+],
+"ICLR|2026|Oral|107": [
+"Kairong Luo",
+"Zhenbo Sun",
+"Haodong Wen",
+"Xinyu Shi",
+"Jiarui Cui",
+"Chenyi Dang",
+"Kaifeng Lyu",
+"Wenguang Chen"
+],
+"ICLR|2026|Oral|108": [
+"Kejing Lu",
+"Chuan Xiao",
+"Yoshiharu Ishikawa"
+],
+"ICLR|2026|Oral|109": [
+"Madhav Kanda",
+"Shubham Ugare",
+"Sasa Misailovic"
+],
+"ICLR|2026|Oral|110": [
+"Kieran Didi",
+"Zuobai Zhang",
+"Guoqing Zhou",
+"Danny Reidenbach",
+"Zhonglin Cao",
+"Sooyoung Cha",
+"Tomas Geffner",
+"Christian Dallago",
+"Jian Tang",
+"Michael M. Bronstein",
+"Martin Steinegger",
+"Emine Kucukbenli",
+"Arash Vahdat",
+"Karsten Kreis"
+],
+"ICLR|2026|Oral|111": [
+"Yidan Xu",
+"Yixin Wang",
+"XuanLong Nguyen"
+],
+"ICLR|2026|Oral|112": [
+"Weiduo Liao",
+"Fei Han",
+"Hisao Ishibuchi",
+"Qingfu Zhang",
+"Ying Wei"
+],
+"ICLR|2026|Oral|113": [
+"Ritik Raina",
+"Abe Leite",
+"Alexandros Graikos",
+"Seoyoung Ahn",
+"Dimitris Samaras",
+"Greg Zelinsky"
+],
+"ICLR|2026|Oral|114": [
+"Le-Trung Nguyen",
+"Enzo Tartaglione",
+"Van-Tam Nguyen"
+],
+"ICLR|2026|Oral|115": [
+"Haobin Li",
+"Yijie Lin",
+"Peng Hu",
+"Mouxing Yang",
+"Xi Peng"
+],
+"ICLR|2026|Oral|116": [
+"Panagiotis D. Grontas",
+"Antonio Terpin",
+"Efe C. Balta",
+"Raffaello D'Andrea",
+"John Lygeros"
+],
+"ICLR|2026|Oral|117": [
+"Federico Danieli",
+"Pau Rodriguez",
+"Miguel Sarabia",
+"Xavier Suau",
+"Luca Zappella"
+],
+"ICLR|2026|Oral|118": [
+"Seul Lee",
+"Karsten Kreis",
+"Srimukh Prasad Veccham",
+"Meng Liu",
+"Danny Reidenbach",
+"Saee Gopal Paliwal",
+"Weili Nie",
+"Arash Vahdat"
+],
+"ICLR|2026|Oral|119": [
+"Tongtian Zhu",
+"Tianyu Zhang",
+"Mingze Wang",
+"Zhanpeng Zhou",
+"Can Wang"
+],
+"ICLR|2026|Oral|120": [
+"Yi Xu",
+"Chengzu Li",
+"Han Zhou",
+"Xingchen Wan",
+"Caiqi Zhang",
+"Anna Korhonen",
+"Ivan Vulić"
+],
+"ICLR|2026|Oral|121": [
+"Taishi Nakamura",
+"Satoki Ishikawa",
+"Masaki Kawamura",
+"Takumi Okamoto",
+"Daisuke Nohara",
+"Jun Suzuki",
+"Rio Yokota"
+],
+"ICLR|2026|Oral|122": [
+"Chengyang Ying",
+"Huayu Chen",
+"Xinning Zhou",
+"Zhongkai Hao",
+"Hang Su",
+"Jun Zhu"
+],
+"ICLR|2026|Oral|123": [
+"Zhe Zhang",
+"Yuanning Feng",
+"Yuxuan Song",
+"Keyue Qiu",
+"Hao Zhou",
+"Wei-Ying Ma"
+],
+"ICLR|2026|Oral|124": [
+"Zijian Zhao",
+"Sen Li"
+],
+"ICLR|2026|Oral|125": [
+"Roy Betser",
+"Eyal Gofer",
+"Meir Yossef Levi",
+"Guy Gilboa"
+],
+"ICLR|2026|Oral|126": [
+"Ang Lv",
+"Jin Ma",
+"Yiyuan Ma",
+"Siyuan Qiao"
+],
+"ICLR|2026|Oral|127": [
+"Pinyi Zhang",
+"Ting-En Lin",
+"Yuchuan Wu",
+"Jingyang Chen",
+"Zongqi Wang",
+"Hua Yang",
+"Xu Ze",
+"Fei Huang",
+"Yongbin Li",
+"Kai Zhang"
+],
+"ICLR|2026|Oral|128": [
+"Wei Zhuo",
+"Siqiang Luo"
+],
+"ICLR|2026|Oral|129": [
+"Sanghyun Jo",
+"Ziseok Lee",
+"Wooyeol Lee",
+"Jonghyun Choi",
+"Jaesik Park",
+"Kyungsu Kim"
+],
+"ICLR|2026|Oral|130": [
+"Leonardo Defilippis",
+"Yizhou Xu",
+"Julius Girardin",
+"Vittorio Erba",
+"Emanuele Troiani",
+"Lenka Zdeborová",
+"Bruno Loureiro",
+"Florent Krzakala"
+],
+"ICLR|2026|Oral|131": [
+"Hongli Yu",
+"Tinghong Chen",
+"Jiangtao Feng",
+"Jiangjie Chen",
+"Weinan Dai",
+"Qiying Yu",
+"Ya-Qin Zhang",
+"Wei-Ying Ma",
+"Jingjing Liu",
+"Mingxuan Wang",
+"Hao Zhou"
+],
+"ICLR|2026|Oral|132": [
+"Marco Bagatella",
+"Matteo Pirotta",
+"Ahmed Touati",
+"Alessandro Lazaric",
+"Andrea Tirinzoni"
+],
+"ICLR|2026|Oral|133": [
+"Chunrui Han",
+"Guopeng Li",
+"Jingwei Wu",
+"Quan Sun",
+"Yan Cai",
+"Yuang Peng",
+"Zheng Ge",
+"Deyu Zhou",
+"Haomiao Tang",
+"Hongyu Zhou",
+"Kenkun Liu",
+"Shu-Tao Xia",
+"Binxing Jiao",
+"Daxin Jiang",
+"Xiangyu Zhang",
+"Yibo Zhu"
+],
+"ICLR|2026|Oral|134": [
+"Emre Adabag",
+"Marcus Greiff",
+"John Subosits",
+"Thomas Jonathan Lew"
+],
+"ICLR|2026|Oral|135": [
+"Fred Zhangzhi Peng",
+"Zachary Bezemek",
+"Jarrid Rector-Brooks",
+"Shuibai Zhang",
+"Michael M. Bronstein",
+"Anru Zhang",
+"Alexander Tong",
+"Joey Bose"
+],
+"ICLR|2026|Oral|136": [
+"Yingjie Ma",
+"Bijal Bharadva",
+"Xin Zhang",
+"Joann Qiongna Chen"
+],
+"ICLR|2026|Oral|137": [
+"Zilin Xiao",
+"Qi Ma",
+"Mengting Gu",
+"Chun-cheng Jason Chen",
+"Xintao Chen",
+"Vicente Ordonez",
+"Vijai Mohan"
+],
+"ICLR|2026|Oral|138": [
+"Zongrui Li",
+"Xinhua Ma",
+"Minghui Hu",
+"Yunqing Zhao",
+"Yingchen Yu",
+"Qian Zheng",
+"Chang Liu",
+"Xudong Jiang",
+"Song Bai"
+],
+"ICLR|2026|Oral|139": [
+"Gabriel Grand",
+"Valerio Pepe",
+"Joshua B. Tenenbaum",
+"Jacob Andreas"
+],
+"ICLR|2026|Oral|140": [
+"Jingzhe Shi",
+"Qinwei Ma",
+"Hongyi Liu",
+"Hang Zhao",
+"Jenq-Neng Hwang",
+"Lei Li"
+],
+"ICLR|2026|Oral|141": [
+"Tal Daniel",
+"Carl Qi",
+"Dan Haramati",
+"Amir Zadeh",
+"Chuan Li",
+"Aviv Tamar",
+"Deepak Pathak",
+"David Held"
+],
+"ICLR|2026|Oral|142": [
+"Zhaomin Wu",
+"Mingzhe Du",
+"See-Kiong Ng",
+"Bingsheng He"
+],
+"ICLR|2026|Oral|143": [
+"Zhaomin Wu",
+"Haodong Zhao",
+"Ziyang Wang",
+"Jizhou Guo",
+"Qian Wang",
+"Bingsheng He"
+],
+"ICLR|2026|Oral|144": [
+"Xinchen Zhang",
+"Xiaoying Zhang",
+"Youbin Wu",
+"Yanbin Cao",
+"Renrui Zhang",
+"Ruihang Chu",
+"Ling Yang",
+"Yujiu Yang",
+"Guang Shi"
+],
+"ICLR|2026|Oral|145": [
+"Jing Gu",
+"Xian Liu",
+"Yu Zeng",
+"Ashwin Nagarajan",
+"Fangrui Zhu",
+"Daniel Hong",
+"Yue Fan",
+"Qianqi Yan",
+"Kaiwen Zhou",
+"Ming-Yu Liu",
+"Xin Eric Wang"
+],
+"ICLR|2026|Oral|146": [
+"Jiahan Zhang",
+"Muqing Jiang",
+"Nanru Dai",
+"TaiMing Lu",
+"Arda Uzunoglu",
+"Shunchi Zhang",
+"Yana Wei",
+"Jiahao Wang",
+"Vishal M. Patel",
+"Paul Pu Liang",
+"Daniel Khashabi",
+"Cheng Peng",
+"Rama Chellappa",
+"Tianmin Shu",
+"Alan Yuille",
+"Yilun Du",
+"Jieneng Chen"
+],
+"ICLR|2026|Oral|147": [
+"Laiguo Yin",
+"Yixin Zhang",
+"YUQING SUN",
+"Lizhen Cui"
+],
+"ICLR|2026|Oral|148": [
+"Kaiwen Zheng",
+"Huayu Chen",
+"Haotian Ye",
+"Haoxiang Wang",
+"Qinsheng Zhang",
+"Kai Jiang",
+"Hang Su",
+"Stefano Ermon",
+"Jun Zhu",
+"Ming-Yu Liu"
+],
+"ICLR|2026|Oral|149": [
+"Rafal Karczewski",
+"Markus Heinonen",
+"Alison Pouplin",
+"Søren Hauberg",
+"Vikas K Garg"
+],
+"ICLR|2026|Oral|150": [
+"Deyu Zou",
+"Yongqiang Chen",
+"Jianxiang Wang",
+"Garry YANG",
+"Mufei Li",
+"Qing Da",
+"James Cheng",
+"Pan Li",
+"Yu Gong"
+],
+"ICLR|2026|Oral|151": [
+"Xiaoyuan Cheng",
+"Wenxuan Yuan",
+"Yiming Yang",
+"Yuanzhao Zhang",
+"Sibo Cheng",
+"Yi He",
+"Zhuo Sun"
+],
+"ICLR|2026|Oral|152": [
+"Noah Golowich",
+"Allen Liu",
+"Abhishek Shetty"
+],
+"ICLR|2026|Oral|153": [
+"Nan Huo",
+"Xiaohan Xu",
+"Jinyang Li",
+"Per Jacobsson",
+"Shipei Lin",
+"Bowen Qin",
+"Binyuan Hui",
+"Xiaolong Li",
+"Ge Qu",
+"Shuzheng Si",
+"Linheng Han",
+"Edward Alexander",
+"Xintong Zhu",
+"Rui Qin",
+"Ruihan Yu",
+"Yiyao Jin",
+"Feige Zhou",
+"Weihao Zhong",
+"Yun Chen",
+"Hongyu Liu",
+"Chenhao Ma",
+"Fatma Ozcan",
+"Yannis Papakonstantinou",
+"Reynold Cheng"
+],
+"ICLR|2026|Oral|154": [
+"Xuan Ju",
+"Tianyu Wang",
+"Yuqian Zhou",
+"He Zhang",
+"Qing Liu",
+"Nanxuan Zhao",
+"Zhifei Zhang",
+"Yijun Li",
+"Yuanhao Cai",
+"Shaoteng Liu",
+"Daniil Pakhomov",
+"Zhe Lin",
+"Soo Ye Kim",
+"Qiang Xu"
+],
+"ICLR|2026|Oral|155": [
+"Fnu Devvrit",
+"Lovish Madaan",
+"Rishabh Tiwari",
+"Rachit Bansal",
+"Sai Surya Duvvuri",
+"Manzil Zaheer",
+"Inderjit S Dhillon",
+"David Brandfonbrener",
+"Rishabh Agarwal"
+],
+"ICLR|2026|Oral|156": [
+"Justin Deschenaux",
+"Lan Tran",
+"Caglar Gulcehre"
+],
+"ICLR|2026|Oral|157": [
+"Shawn Im",
+"Changdae Oh",
+"Zhen Fang",
+"Sharon Li"
+],
+"ICLR|2026|Oral|158": [
+"Anej Svete",
+"Ashish Sabharwal"
+],
+"ICLR|2026|Oral|159": [
+"Shibo Hong",
+"Jiahao Ying",
+"Haiyuan Liang",
+"Mengdi Zhang",
+"Jun Kuang",
+"Jiazheng Zhang",
+"Yixin Cao"
+],
+"ICLR|2026|Oral|160": [
+"Yixian Xu",
+"Yusong Wang",
+"Shengjie Luo",
+"Kaiyuan Gao",
+"Tianyu He",
+"Di He",
+"Chang Liu"
+],
+"ICLR|2026|Oral|161": [
+"Wendong XU",
+"Jing Xiong",
+"Chenyang Zhao",
+"Qiujiang Chen",
+"Haoran Wang",
+"Hui Shen",
+"Zhongwei Wan",
+"Jianbo Dai",
+"Taiqiang Wu",
+"He Xiao",
+"Chaofan Tao",
+"Zhuoqing Mao",
+"Ying Sheng",
+"Zhijiang Guo",
+"Hongxia Yang",
+"Bei Yu",
+"Lingpeng Kong",
+"Quanquan Gu",
+"Ngai Wong"
+],
+"ICLR|2026|Oral|162": [
+"Thomas Wimmer",
+"Prune Truong",
+"Marie-Julie Rakotosaona",
+"Michael Oechsle",
+"Federico Tombari",
+"Bernt Schiele",
+"Jan Eric Lenssen"
+],
+"ICLR|2026|Oral|163": [
+"Parham Rezaei",
+"Filip Kovačević",
+"Francesco Locatello",
+"Marco Mondelli"
+],
+"ICLR|2026|Oral|164": [
+"Chao Wang",
+"Licheng Jiao",
+"Lingling Li",
+"Jiaxuan Zhao",
+"Guanchun Wang",
+"Fang Liu",
+"Shuyuan Yang"
+],
+"ICLR|2026|Oral|165": [
+"Ning Yang",
+"Hai Lin",
+"Yibo Liu",
+"Baoliang Tian",
+"Guoqing Liu",
+"Haijun Zhang"
+],
+"ICLR|2026|Oral|166": [
+"Zeeshan Hayder",
+"Ali Cheraghian",
+"Lars Petersson",
+"Mehrtash Harandi",
+"Richard Hartley"
+],
+"ICLR|2026|Oral|167": [
+"Haoyue Dai",
+"Immanuel Albrecht",
+"Peter Spirtes",
+"Kun Zhang"
+],
+"ICLR|2026|Oral|168": [
+"Neil Kale",
+"Chen Bo Calvin Zhang",
+"Kevin Zhu",
+"Ankit Aich",
+"Paula Rodriguez",
+"Christina Q Knight",
+"Zifan Wang"
+],
+"ICLR|2026|Oral|169": [
+"Fang Wu",
+"Xu Huang",
+"Weihao Xuan",
+"Zhiwei Zhang",
+"Yijia Xiao",
+"Guancheng Wan",
+"Xiaomin Li",
+"Bing Hu",
+"Peng Xia",
+"Jure Leskovec",
+"Yejin Choi"
+],
+"ICLR|2026|Oral|170": [
+"Li Sun",
+"Zhenhao Huang",
+"Silei Chen",
+"Lanxu Yang",
+"Junda Ye",
+"Sen Su",
+"Philip S. Yu"
+],
+"ICLR|2026|Oral|171": [
+"Philipp Becker",
+"Niklas Freymuth",
+"Serge Thilges",
+"Fabian Otto",
+"Gerhard Neumann"
+],
+"ICLR|2026|Oral|172": [
+"Ziyang Fan",
+"Keyu Chen",
+"Ruilong Xing",
+"Yulin Li",
+"Li Jiang",
+"Zhuotao Tian"
+],
+"ICLR|2026|Oral|173": [
+"Changxin Tian",
+"jiapeng wang",
+"Qian Zhao",
+"Kunlong Chen",
+"Jia Liu",
+"Ziqi Liu",
+"Jiaxin Mao",
+"Xin Zhao",
+"Zhiqiang Zhang",
+"JUN ZHOU"
+],
+"ICLR|2026|Oral|174": [
+"Qingyuan Tian",
+"Wenhong Zhu",
+"Xiaoran Liu",
+"Xiaofeng Wang",
+"Rui Wang"
+],
+"ICLR|2026|Oral|175": [
+"Etash Kumar Guha",
+"Ryan Marten",
+"Sedrick Keh",
+"Negin Raoof",
+"Georgios Smyrnis",
+"Hritik Bansal",
+"Marianna Nezhurina",
+"Jean Mercat",
+"Trung Vu",
+"Zayne Rea Sprague",
+"Ashima Suvarna",
+"Benjamin Feuer",
+"Leon Liangyu Chen",
+"Zaid Khan",
+"Eric Frankel",
+"Sachin Grover",
+"Caroline Choi",
+"Niklas Muennighoff",
+"Shiye Su",
+"Wanjia Zhao",
+"John Yang",
+"Shreyas Pimpalgaonkar",
+"Kartik sharma",
+"Charlie Cheng-Jie Ji",
+"Yichuan Deng",
+"Sarah M Pratt",
+"Vivek Ramanujan",
+"Jon Saad-Falcon",
+"Stutee Acharya",
+"Jeffrey Li",
+"Achal Dave",
+"Alon Albalak",
+"Kushal Arora",
+"Blake Wulfe",
+"Chinmay Hegde",
+"Greg Durrett",
+"Sewoong Oh",
+"Mohit Bansal",
+"Saadia Gabriel",
+"Aditya Grover",
+"Kai-Wei Chang",
+"Vaishaal Shankar",
+"Aaron Gokaslan",
+"Mike A Merrill",
+"Tatsunori Hashimoto",
+"Yejin Choi",
+"Jenia Jitsev",
+"Reinhard Heckel",
+"Maheswaran Sathiamoorthy",
+"Alex Dimakis",
+"Ludwig Schmidt"
+],
+"ICLR|2026|Oral|176": [
+"Hyojun Go",
+"Dominik Narnhofer",
+"Goutam Bhat",
+"Prune Truong",
+"Federico Tombari",
+"Konrad Schindler"
+],
+"ICLR|2026|Oral|177": [
+"Rohit Jena",
+"Vedant Zope",
+"Pratik Chaudhari",
+"James Gee"
+],
+"ICLR|2026|Oral|178": [
+"Guangnian Wan",
+"Xinyin Ma",
+"Gongfan Fang",
+"Xinchao Wang"
+],
+"ICLR|2026|Oral|179": [
+"Pratyaksh Sharma",
+"Alexandra Maria Proca",
+"Lucas Prieto",
+"Pedro A. M. Mediano"
+],
+"ICLR|2026|Oral|180": [
+"Haotian Ye",
+"Qiyuan He",
+"Jiaqi Han",
+"Puheng Li",
+"Jiaojiao Fan",
+"Zekun Hao",
+"Fitsum Reda",
+"Yogesh Balaji",
+"Huayu Chen",
+"Sheng Liu",
+"Angela Yao",
+"James Zou",
+"Stefano Ermon",
+"Haoxiang Wang",
+"Ming-Yu Liu"
+],
+"ICLR|2026|Oral|181": [
+"Ben Finkelshtein",
+"Silviu Cucerzan",
+"Sujay Kumar Jauhar",
+"Ryen W White"
+],
+"ICLR|2026|Oral|182": [
+"Zhiyu Pan",
+"Yizheng Wu",
+"Jiashen Hua",
+"Junyi Feng",
+"Shaotian Yan",
+"Bing Deng",
+"Zhiguo Cao",
+"Jieping Ye"
+],
+"ICLR|2026|Oral|183": [
+"Mingyu Kim",
+"Young-Heon Kim",
+"Mijung Park"
+],
+"ICLR|2026|Oral|184": [
+"Haotong Lin",
+"Sili Chen",
+"Jun Hao Liew",
+"Donny Y. Chen",
+"Zhenyu Li",
+"Yang Zhao",
+"Sida Peng",
+"Hengkai Guo",
+"Xiaowei Zhou",
+"Guang Shi",
+"Jiashi Feng",
+"Bingyi Kang"
+],
+"ICLR|2026|Oral|185": [
+"Zhengbo Wang",
+"Jian Liang",
+"Ran He",
+"Zilei Wang",
+"Tieniu Tan"
+],
+"ICLR|2026|Oral|186": [
+"Thomas Zhu",
+"Joshua Clune",
+"Jeremy Avigad",
+"Albert Q. Jiang",
+"Sean Welleck"
+],
+"ICLR|2026|Oral|187": [
+"Zhipeng Cai",
+"Ching-Feng Yeh",
+"Hu Xu",
+"Zhuang Liu",
+"Gregory P. Meyer",
+"Xinjie Lei",
+"Changsheng Zhao",
+"Shang-Wen Li",
+"Vikas Chandra",
+"Yangyang Shi"
+],
+"ICLR|2026|Oral|188": [
+"Xiaofeng Zhang",
+"Yuanchao Zhu",
+"Chaochen Gu",
+"Xiaosong Yuan",
+"Qiyan Zhao",
+"Jiawei Cao",
+"Feilong Tang",
+"Sinan Fan",
+"Yaomin Shen",
+"Chen Shen",
+"Hao Tang"
+],
+"ICLR|2026|Oral|189": [
+"Shuyang Jiang",
+"Yusheng Liao",
+"Ya Zhang",
+"Yanfeng Wang",
+"Yu Wang"
+],
+"ICLR|2026|Oral|190": [
+"Gongjie Zhang",
+"Wenhao Li",
+"Quanhao Qian",
+"Jiuniu Wang",
+"Deli Zhao",
+"Shijian Lu",
+"Ran Xu"
+],
+"ICLR|2026|Oral|191": [
+"Noah Amsel",
+"David Persson",
+"Christopher Musco",
+"Robert M. Gower"
+],
+"ICLR|2026|Oral|192": [
+"Blake B. Gaines",
+"Jinbo Bi"
+],
+"ICLR|2026|Oral|193": [
+"Akshat Ramachandran",
+"Marina Neseem",
+"Charbel Sakr",
+"Rangharajan Venkatesan",
+"Brucek Khailany",
+"Tushar Krishna"
+],
+"ICLR|2026|Oral|194": [
+"Yi-Ge Zhang",
+"Jingyi Cui",
+"Qiran Li",
+"Yisen Wang"
+],
+"ICLR|2026|Oral|195": [
+"Shikang Zheng",
+"Guantao Chen",
+"Qinming Zhou",
+"Yuqi Lin",
+"Lixuan He",
+"Chang Zou",
+"Peiliang Cai",
+"Jiacheng Liu",
+"Linfeng Zhang"
+],
+"ICLR|2026|Oral|196": [
+"Joonghyuk Shin",
+"Zhengqi Li",
+"Richard Zhang",
+"Jun-Yan Zhu",
+"Jaesik Park",
+"Eli Shechtman",
+"Xun Huang"
+],
+"ICLR|2026|Oral|197": [
+"Chenqi Li",
+"Yu Liu",
+"Timothy Denison",
+"Tingting Zhu"
+],
+"ICLR|2026|Oral|198": [
+"Wei Ju",
+"Siyu Yi",
+"Kangjie Zheng",
+"Yifan Wang",
+"Ziyue Qiao",
+"Li Shen",
+"Yongdao Zhou",
+"Xiaochun Cao",
+"Jiancheng Lv"
+],
+"ICLR|2026|Oral|199": [
+"Yihan Wang",
+"Jia Deng"
+],
+"ICLR|2026|Oral|200": [
+"Xinyang Li",
+"Tengfei Wang",
+"Zixiao Gu",
+"Shengchuan Zhang",
+"Chunchao Guo",
+"Liujuan Cao"
+],
+"ICLR|2026|Oral|201": [
+"Xiangjian Jiang",
+"Nikola Simidjievski",
+"Mateja Jamnik"
+],
+"ICLR|2026|Oral|202": [
+"Haochen Zhou",
+"Guofeng Ding",
+"Mouxing Yang",
+"Peng Hu",
+"Yijie Lin",
+"Xi Peng"
+],
+"ICLR|2026|Oral|203": [
+"Jianwen Jiang",
+"Weihong Zeng",
+"Zerong Zheng",
+"Jiaqi Yang",
+"Chao Liang",
+"Wang Liao",
+"Han Liang",
+"Weifeng Chen",
+"XING WANG",
+"Yuan Zhang",
+"Mingyuan Gao"
+],
+"ICLR|2026|Oral|204": [
+"Pengxiang Li",
+"Yefan Zhou",
+"Dilxat Muhtar",
+"Lu Yin",
+"Shilin Yan",
+"Li Shen",
+"Yi Liang",
+"Soroush Vosoughi",
+"Shiwei Liu"
+],
+"ICLR|2026|Oral|205": [
+"Xiangjun Tang",
+"Biao Zhang",
+"Peter Wonka"
+],
+"ICLR|2026|Oral|206": [
+"Dingdong WANG",
+"Shujie LIU",
+"Tianhua Zhang",
+"Youjun Chen",
+"Jinyu Li",
+"Helen M. Meng"
+],
+"ICLR|2026|Oral|207": [
+"Yaoyu Wang",
+"Hankun Dai",
+"Zhidong Yang",
+"Junmin Xiao",
+"Guangming Tan"
+],
+"ICLR|2026|Oral|208": [
+"Yuhao Wu",
+"Yushi Bai",
+"Zhiqiang Hu",
+"Roy Ka-Wei Lee",
+"Juanzi Li"
+],
+"ICLR|2026|Oral|209": [
+"Peiyan Hu",
+"Haodong Feng",
+"Hongyuan Liu",
+"Tongtong Yan",
+"Wenhao Deng",
+"Tianrun Gao",
+"Rong Zheng",
+"Haoren Zheng",
+"Chenglei Yu",
+"Chuanrui Wang",
+"Kaiwen Li",
+"Zhi-Ming Ma",
+"Dezhi Zhou",
+"Xingcai Lu",
+"Dixia Fan",
+"Tailin Wu"
+],
+"ICLR|2026|Oral|210": [
+"Feng Hong",
+"Jiangchao Yao",
+"Yifei Shen",
+"Dongsheng Li",
+"Ya Zhang",
+"Yanfeng Wang"
+],
+"ICLR|2026|Oral|211": [
+"Junsong Chen",
+"Yuyang Zhao",
+"Jincheng YU",
+"Ruihang Chu",
+"Junyu Chen",
+"Shuai Yang",
+"Xianbang Wang",
+"Yicheng Pan",
+"Daquan Zhou",
+"Huan Ling",
+"Haozhe Liu",
+"Hongwei Yi",
+"Hao Zhang",
+"Muyang Li",
+"Yukang Chen",
+"Han Cai",
+"Sanja Fidler",
+"Ping Luo",
+"Song Han",
+"Enze Xie"
+],
+"ICLR|2026|Oral|212": [
+"Wuyang Li",
+"Wentao Pan",
+"Po-Chien Luan",
+"Yang Gao",
+"Alexandre Alahi"
+],
+"ICLR|2026|Oral|213": [
+"Zhao Yang",
+"Yi Duan",
+"Jiwei Zhu",
+"Ying Ba",
+"Chuan Cao",
+"Bing Su"
+],
+"ICLR|2026|Oral|214": [
+"Yuanchen Ju",
+"Yongyuan Liang",
+"Yen-Jen Wang",
+"Gireesh Nandiraju",
+"Yuanliang Ju",
+"Seungjae Lee",
+"Qiao Gu",
+"Elvis Hsieh",
+"Furong Huang",
+"Koushil Sreenath"
+],
+"ICLR|2026|Oral|215": [
+"Junlin Han",
+"Shengbang Tong",
+"David Fan",
+"Yufan Ren",
+"Koustuv Sinha",
+"Philip Torr",
+"Filippos Kokkinos"
+],
+"ICLR|2026|Oral|216": [
+"Bartłomiej Marek",
+"Lorenzo Rossi",
+"Vincent Hanke",
+"Xun Wang",
+"Michael Backes",
+"Franziska Boenisch",
+"Adam Dziedzic"
+],
+"ICLR|2026|Oral|217": [
+"Zhaoyang Liu",
+"JingJing Xie",
+"Zichen Ding",
+"Zehao Li",
+"Bowen Yang",
+"Zhenyu Wu",
+"Xuehui Wang",
+"Qiushi Sun",
+"Shi Liu",
+"Weiyun Wang",
+"Shenglong Ye",
+"Qingyun Li",
+"Zeyue Tian",
+"Gen Luo",
+"Xiangyu Yue",
+"Biqing Qi",
+"Kai Chen",
+"Bowen Zhou",
+"Yu Qiao",
+"Qifeng Chen",
+"Wenhai Wang"
+],
+"ICLR|2026|Oral|218": [
+"Guanhua Zhang",
+"Ricardo Dominguez-Olmedo",
+"Moritz Hardt"
+],
+"ICLR|2026|Oral|219": [
+"Guanjun Wang",
+"Binwu Wang",
+"Jiaming Ma",
+"Zhengyang Zhou",
+"Pengkun Wang",
+"Xu Wang",
+"Yang Wang"
+],
+"ICLR|2026|Oral|220": [
+"Hao Tan",
+"jun lan",
+"Zichang Tan",
+"Senyuan Shi",
+"Ajian Liu",
+"Chuanbiao Song",
+"Huijia Zhu",
+"Weiqiang Wang",
+"Jun Wan",
+"Zhen Lei"
+],
+"ICLR|2026|Oral|221": [
+"Seonggyun Lee",
+"Sungjun Lim",
+"Seojin Park",
+"Soeun Cheon",
+"Kyungwoo Song"
+],
+"ICLR|2026|Oral|222": [
+"Zhuoyang Zhang",
+"Luke J. Huang",
+"Chengyue Wu",
+"Shang Yang",
+"Kelly Peng",
+"Yao Lu",
+"Song Han"
+],
+"ICLR|2026|Oral|223": [
+"Shijie Zhao",
+"Xuanyu Zhang",
+"Weiqi Li",
+"Junlin Li",
+"Li zhang",
+"Tianfan Xue",
+"Jian Zhang"
+],
+"ICLR|2026|Oral|224": [
+"Tao Ren",
+"Zishi Zhang",
+"Jinyang Jiang",
+"Zehao Li",
+"Shentao Qin",
+"Yi Zheng",
+"Guanghao Li",
+"Qianyou Sun",
+"Yan Li",
+"Jiafeng Liang",
+"Xinping Li",
+"Yijie Peng"
+]
+}
