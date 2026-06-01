@@ -29,6 +29,11 @@ import re
 HERE = os.path.dirname(os.path.abspath(__file__))
 COLLECTIONS = os.path.join(HERE, "data")
 AUTHORS_JSON = os.path.join(HERE, "authors.json")
+INDEX_HTML = os.path.join(HERE, "index.html")
+SITEMAP_XML = os.path.join(HERE, "sitemap.xml")
+ROBOTS_TXT = os.path.join(HERE, "robots.txt")
+
+SITE_URL = "https://dion-jy.github.io/spotlight-todai/"
 
 # (filename, conference, year, track)
 FILES = [
@@ -155,6 +160,144 @@ def load_authors_map():
         return json.load(f)
 
 
+# --------------------------------------------------------------------------- #
+# Static HTML rendering. These mirror the row-building helpers in index.html's
+# JavaScript (esc / primaryLink / badge / authorsCell / rowHTML) so the rows
+# baked into index.html are byte-for-byte the same markup the client JS would
+# produce. This makes all 1167 papers (titles, authors, links) visible to
+# search-engine crawlers WITHOUT JavaScript, while the JS still re-renders the
+# same table for interactive search / filter / pagination.
+# --------------------------------------------------------------------------- #
+
+def esc(s):
+    """HTML-escape mirroring the JS esc(): & < > and double quotes."""
+    if s is None:
+        s = ""
+    return (
+        str(s)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
+def primary_link(p):
+    links = p.get("links") or {}
+    return links.get("detail") or links.get("openreview") or links.get("arxiv") or ""
+
+
+def badge(cls, label):
+    return '<span class="badge b-' + cls + '">' + esc(label) + "</span>"
+
+
+def authors_cell(p):
+    authors = p.get("authors") or []
+    if not authors:
+        authors = [p["author"]] if p.get("author") else []
+    if not authors:
+        return ""
+    if len(authors) == 1:
+        return esc(authors[0])
+    collapsed = (
+        esc(authors[0])
+        + ' <span class="authors-meta">et al.</span> '
+        + '<button class="authors-toggle" type="button" data-act="expand">('
+        + str(len(authors))
+        + ")</button>"
+    )
+    full = (
+        '<span class="authors-full">'
+        + esc(", ".join(authors))
+        + "</span> "
+        + '<button class="authors-toggle" type="button" data-act="collapse">(hide)</button>'
+    )
+    return (
+        '<span class="authors-collapsed">' + collapsed + "</span>"
+        + '<span class="authors-expanded" style="display:none;">' + full + "</span>"
+    )
+
+
+def row_html(p):
+    link = primary_link(p)
+    if link:
+        title = (
+            '<a href="' + esc(link) + '" target="_blank" rel="noopener">'
+            + esc(p["title"]) + "</a>"
+        )
+    else:
+        title = esc(p["title"])
+    venue = (
+        badge(p["conference"], p["conference"])
+        + badge(p["track"], p["track"])
+        + '<span style="color:var(--muted);font-size:12px;">' + str(p["year"]) + "</span>"
+    )
+    return (
+        "<tr>"
+        + '<td class="col-id">' + str(p["id"]) + "</td>"
+        + '<td class="col-title">' + title + "</td>"
+        + '<td class="col-author">' + authors_cell(p) + "</td>"
+        + '<td class="col-affil">' + esc(p["affiliation"]) + "</td>"
+        + '<td class="col-badges">' + venue + "</td>"
+        + "</tr>"
+    )
+
+
+def replace_marked(text, start_marker, end_marker, payload):
+    """Replace whatever sits between start_marker and end_marker (inclusive of
+    the markers, which are re-emitted) so the operation is idempotent."""
+    pattern = re.compile(
+        re.escape(start_marker) + r".*?" + re.escape(end_marker),
+        re.DOTALL,
+    )
+    replacement = start_marker + payload + end_marker
+    # Use a function as the replacement so backslashes / group refs in the
+    # payload (e.g. inside titles or URLs) are inserted literally.
+    new_text, n = pattern.subn(lambda _m: replacement, text)
+    if n == 0:
+        raise RuntimeError("markers not found: %s / %s" % (start_marker, end_marker))
+    return new_text
+
+
+def write_index_html(papers):
+    """Inject the static <tbody> rows into index.html between the
+    STATIC_ROWS markers. Re-running is idempotent."""
+    with open(INDEX_HTML, encoding="utf-8") as f:
+        tmpl = f.read()
+    rows = "\n" + "\n".join(row_html(p) for p in papers) + "\n"
+    out = replace_marked(tmpl, "<!-- STATIC_ROWS_START -->", "<!-- STATIC_ROWS_END -->", rows)
+    with open(INDEX_HTML, "w", encoding="utf-8") as f:
+        f.write(out)
+    return out.count("<tr>")
+
+
+def write_sitemap():
+    today = "2026-06-01"
+    body = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        "  <url>\n"
+        "    <loc>" + SITE_URL + "</loc>\n"
+        "    <lastmod>" + today + "</lastmod>\n"
+        "    <changefreq>weekly</changefreq>\n"
+        "    <priority>1.0</priority>\n"
+        "  </url>\n"
+        "</urlset>\n"
+    )
+    with open(SITEMAP_XML, "w", encoding="utf-8") as f:
+        f.write(body)
+
+
+def write_robots():
+    body = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Sitemap: " + SITE_URL + "sitemap.xml\n"
+    )
+    with open(ROBOTS_TXT, "w", encoding="utf-8") as f:
+        f.write(body)
+
+
 def main():
     authors_map = load_authors_map()
     papers = []
@@ -204,10 +347,22 @@ def main():
         json.dump(papers, f, ensure_ascii=False)
         f.write(";\n")
 
+    # Bake all rows into index.html as static HTML (SEO: crawlers see every
+    # title/author/link with JS disabled). The client JS re-renders the same
+    # markup for interactive search/filter/pagination.
+    static_tr = write_index_html(papers)
+
+    # SEO sidecar files
+    write_sitemap()
+    write_robots()
+
     # Report
     total = len(papers)
     print("Wrote %s" % out_json)
     print("Wrote %s" % out_js)
+    print("Wrote %s (static <tr> count incl. header: %d)" % (INDEX_HTML, static_tr))
+    print("Wrote %s" % SITEMAP_XML)
+    print("Wrote %s" % ROBOTS_TXT)
     print("Total papers: %d" % total)
     for k in sorted(counts):
         print("  %-22s %4d" % (k, counts[k]))

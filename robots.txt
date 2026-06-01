@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dion-jy.github.io/spotlight-todai/sitemap.xml
