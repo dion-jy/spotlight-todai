@@ -1377,6 +1377,7 @@
 
   <footer>
     SpotlightTodAI · static site, no dependencies · data parsed from collections/*.md
+    <br><span id="visit-count" hidden>👁 <span id="visit-num">…</span> visits</span>
   </footer>
 </div>
 
@@ -1563,6 +1564,23 @@
   applyTheme(saved);
 
   loadData(init);
+})();
+</script>
+<!-- visitor counter (no account; CountAPI). Counts page loads, not unique visitors. Degrades silently if service is down. -->
+<script>
+(function () {
+  try {
+    fetch("https://api.countapi.xyz/hit/spotlight-todai.dion-jy.github.io/visits")
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (d && typeof d.value === "number") {
+          var n = document.getElementById("visit-num");
+          var box = document.getElementById("visit-count");
+          if (n && box) { n.textContent = d.value.toLocaleString(); box.hidden = false; }
+        }
+      })
+      .catch(function () {});
+  } catch (e) {}
 })();
 </script>
 </body>
