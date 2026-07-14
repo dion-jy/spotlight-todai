@@ -29,6 +29,20 @@ A static, dependency-free site renders all papers in one searchable, filterable 
 - **[dion-jy.github.io/spotlight-todai](https://dion-jy.github.io/spotlight-todai)** — search by title/author, filter by conference / track / year, dark mode.
 - Built from the `data/` markdown by [`build.py`](build.py) into [`data.json`](data.json).
 
+## API (for agents)
+
+A serverless, read-only JSON API is served straight off GitHub Pages — no auth,
+no rate limits. Base: **`https://dion-jy.github.io/spotlight-todai/api`**
+
+- [`api/papers.json`](https://dion-jy.github.io/spotlight-todai/api/papers.json) — full archive, stable schema (`uid` = `<conf>-<year>-<track>-<id>`).
+- [`api/daily.json`](https://dion-jy.github.io/spotlight-todai/api/daily.json) — deterministic "paper of the day" + candidates, refreshed each morning (KST) by a GitHub Actions cron.
+- [`api/venues.json`](https://dion-jy.github.io/spotlight-todai/api/venues.json) — conference/year/track counts.
+- [`api/topics.json`](https://dion-jy.github.io/spotlight-todai/api/topics.json) — curated keyword → paper-uid index.
+
+Docs: [`api/README.md`](api/README.md) · agent discovery: [`llms.txt`](llms.txt) ·
+tool interface: a 3-tool MCP server (`search_papers` / `daily_feed` / `recommend`) in [`mcp/`](mcp/).
+All files are generated deterministically from `data.json` by [`build_api.py`](build_api.py).
+
 ## Data
 
 The [`data/`](data/) folder holds per-conference markdown tables:

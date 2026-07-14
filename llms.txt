@@ -1,0 +1,29 @@
+# SpotlightTodAI
+
+> A curated archive of Oral & Spotlight papers (the top ~1-5% of accepted
+> papers) from NeurIPS / ICLR / ICML. 1167 papers. Serverless static JSON API —
+> just GET a URL, no auth, no rate limits.
+
+Base URL for the API: https://dion-jy.github.io/spotlight-todai/api
+
+## API
+
+- [papers.json](https://dion-jy.github.io/spotlight-todai/api/papers.json): Full archive. Each paper has a stable `uid` (`<conf>-<year>-<track>-<id>`), conference, year, track, title, authors, affiliation, summary, links{openreview,arxiv,detail}.
+- [daily.json](https://dion-jy.github.io/spotlight-todai/api/daily.json): Deterministic "paper of the day" + upcoming candidates. Reproducible from the date (KST); rotates through the whole archive without repeats. Refreshed each morning by a GitHub Actions cron.
+- [venues.json](https://dion-jy.github.io/spotlight-todai/api/venues.json): Conference/year/track catalogue with counts.
+- [topics.json](https://dion-jy.github.io/spotlight-todai/api/topics.json): Curated keyword -> paper-uid inverted index (substring match over title+summary).
+
+Every file carries a `schema_version` (currently 1). Join across files on `uid`.
+
+## Docs
+
+- [API README](https://dion-jy.github.io/spotlight-todai/api/README.md): Full endpoint docs, schemas, and curl examples.
+
+## Tools
+
+- [MCP server](https://github.com/dion-jy/spotlight-todai/tree/main/mcp): 3 tools — search_papers, daily_feed, recommend — wrapping the JSON API. Stdlib-only fetch, minimal deps.
+
+## Optional
+
+- [Website](https://dion-jy.github.io/spotlight-todai): Human-facing searchable/filterable table of all papers.
+- [Source repo](https://github.com/dion-jy/spotlight-todai): data.json + build scripts.

@@ -1,0 +1,3 @@
+# Only dependency: the MCP Python SDK. The core logic (spotlight_api.py) is
+# stdlib-only, so smoke_test.py needs nothing from here.
+mcp>=1.2.0

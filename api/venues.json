@@ -1,0 +1,49 @@
+{
+ "schema_version": 1,
+ "total": 1167,
+ "conferences": [
+  "ICLR",
+  "ICML",
+  "NeurIPS"
+ ],
+ "years": [
+  2025,
+  2026
+ ],
+ "tracks": [
+  "Oral",
+  "Spotlight"
+ ],
+ "venues": [
+  {
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "count": 224
+  },
+  {
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "count": 168
+  },
+  {
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Spotlight",
+   "count": 9
+  },
+  {
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "count": 77
+  },
+  {
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "count": 689
+  }
+ ]
+}

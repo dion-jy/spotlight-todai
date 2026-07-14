@@ -1,0 +1,127 @@
+{
+ "schema_version": 1,
+ "date": "2026-07-14",
+ "timezone": "Asia/Seoul",
+ "rotation": {
+  "day_index": 194,
+  "position": 194,
+  "cycle_length_days": 1167,
+  "epoch": "2026-01-01",
+  "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
+ },
+ "paper": {
+  "uid": "neurips-2025-spotlight-138",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Fine-grained List-wise Alignment for Generative Medication Recommendation",
+  "authors": [
+   "Chenxiao Fan",
+   "Chongming Gao",
+   "Wentao Shi",
+   "Yaxin Gong",
+   "Zhao Zihao",
+   "Fuli Feng"
+  ],
+  "affiliation": "",
+  "summary": "Accurate and safe medication recommendations are critical for effective clinical decision-making, especially in multimorbidity cases",
+  "links": {
+   "openreview": "https://openreview.net/forum?id=Quo3XadYcZ",
+   "arxiv": "",
+   "detail": ""
+  }
+ },
+ "candidates": [
+  {
+   "uid": "neurips-2025-oral-32",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "Advancing Expert Specialization for Better MoE",
+   "authors": [
+    "Hongcan Guo",
+    "Haolang Lu",
+    "Guoshun Nan",
+    "Bolun Chu",
+    "Jialin Zhuang",
+    "Yuan Yang",
+    "Wenhao Che",
+    "Xinye Cao",
+    "Sicong Leng",
+    "Qimei Cui",
+    "Xudong Jiang"
+   ],
+   "affiliation": "ByteDance Inc.",
+   "summary": "Our proposed orthogonality and variance losses improve performance in downstream fine-tuning of Mixture-of-Experts models by enhancing expert specificity, addressing expert homogenization caused by load balancing, while maintaining load balance.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=iydmH9boLb",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-43",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs)",
+   "authors": [
+    "Nikita Maksimovich Kornilov",
+    "David Li",
+    "Tikhon Mavrin",
+    "Aleksei Leonov",
+    "Nikita Gushchin",
+    "Evgeny Burnaev",
+    "Iaroslav Sergeevich Koshelev",
+    "Alexander Korotin"
+   ],
+   "affiliation": "Applied AI Institute",
+   "summary": "While achieving exceptional generative quality, modern diffusion, flow, and other matching models suffer from slow inference, as they require many steps of iterative generation. Recent distillation methods address this problem by training efficient one-step generators under the guidance of a pre-trained teacher model.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=8NuN5UzXLC",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-658",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "DNAEdit: Direct Noise Alignment for Text-Guided Rectified Flow Editing",
+   "authors": [
+    "Chenxi Xie",
+    "Minghan Li",
+    "Shuai Li",
+    "Yuhui Wu",
+    "Qiaosi Yi",
+    "Lei Zhang"
+   ],
+   "affiliation": "",
+   "summary": "Leveraging the powerful generation capability of large-scale pretrained text-to-image models, training-free methods have demonstrated impressive image editing results",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=JxBA9OJExP",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-69",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention",
+   "authors": [
+    "Haiquan Qiu",
+    "Quanming Yao"
+   ],
+   "affiliation": "Tsinghua University, Tsinghua University",
+   "summary": "For the first time, we mechanistically explain why low-precision training with flash attention fails, identifying a vicious cycle of rounding errors and proposing a simple, effective fix.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=0jHyEKHDyx",
+    "arxiv": "",
+    "detail": ""
+   }
+  }
+ ]
+}
