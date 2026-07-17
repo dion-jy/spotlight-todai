@@ -11,6 +11,7 @@ Data source resolution (SPOTLIGHT_API_BASE env var):
   * a local dir path -> read <dir>/papers.json etc. (offline / CI)
 """
 
+import datetime
 import json
 import os
 import re
@@ -18,7 +19,47 @@ import urllib.request
 
 DEFAULT_BASE = "https://dion-jy.github.io/spotlight-todai/api"
 
+# Daily-rotation constants — MUST match build_api.py (the source of truth that
+# generates the static api/daily.json). Kept here so daily_feed() can compute
+# today's pick locally when the static file is stale (e.g. the daily cron isn't
+# registered), making the tool correct for "today" regardless of the cron.
+ROTATION_EPOCH = datetime.date(2026, 1, 1)
+DAILY_CANDIDATE_COUNT = 4
+
 _CACHE = {}
+
+
+def _stable_hash(s):
+    """FNV-1a + splitmix64 finalizer. Byte-identical to build_api.stable_hash."""
+    mask = 0xFFFFFFFFFFFFFFFF
+    h = 0xCBF29CE484222325
+    for b in s.encode("utf-8"):
+        h ^= b
+        h = (h * 0x100000001B3) & mask
+    z = h
+    z = ((z ^ (z >> 30)) * 0xBF58476D1CE4E5B9) & mask
+    z = ((z ^ (z >> 27)) * 0x94D049BB133111EB) & mask
+    z = z ^ (z >> 31)
+    return z
+
+
+def _kst_today():
+    return (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).date()
+
+
+def _compute_daily(the_date):
+    """Deterministic 'paper of the day' from papers.json — mirrors build_api."""
+    order = sorted(_all_papers(), key=lambda p: _stable_hash(p["uid"]))
+    n = len(order)
+    day_index = (the_date - ROTATION_EPOCH).days
+    pos = day_index % n
+    return {
+        "date": the_date.isoformat(),
+        "timezone": "Asia/Seoul",
+        "paper": order[pos],
+        "candidates": [order[(pos + 1 + i) % n] for i in range(DAILY_CANDIDATE_COUNT)],
+        "source": "computed",
+    }
 
 
 def _base():
@@ -98,11 +139,28 @@ def search_papers(query="", conference=None, year=None, track=None, limit=20):
 
 
 def daily_feed():
-    """Return today's deterministically-chosen paper + upcoming candidates."""
-    d = _load("daily.json")
+    """Return today's deterministically-chosen paper + upcoming candidates.
+
+    Prefers the static api/daily.json when it's already dated today (KST);
+    otherwise computes today's pick locally from papers.json using the same
+    deterministic rotation. This keeps the tool correct for "today" even if the
+    daily-refresh cron hasn't run.
+    """
+    today = _kst_today()
+    d = None
+    try:
+        static = _load("daily.json")
+        if static.get("date") == today.isoformat():
+            d = dict(static)
+            d["source"] = "static"
+    except Exception:
+        pass
+    if d is None:
+        d = _compute_daily(today)
     return {
         "date": d["date"],
         "timezone": d.get("timezone"),
+        "source": d.get("source"),
         "paper": _compact(d["paper"]),
         "candidates": [_compact(c) for c in d.get("candidates", [])],
     }
