@@ -1,0 +1,43 @@
+name: Daily paper feed
+
+# Regenerates api/daily.json once a day and commits it if it changed.
+# Everything is deterministic (see build_api.py), so on a normal day the only
+# file that differs is api/daily.json.
+
+on:
+  schedule:
+    # 07:00 KST == 22:00 UTC the previous day. GitHub cron is always UTC.
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerate daily.json (KST date)
+        run: python build_api.py --daily-only
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- api/daily.json; then
+            echo "No change in api/daily.json — nothing to commit."
+          else
+            git add api/daily.json
+            git commit -m "chore(api): daily feed $(TZ=Asia/Seoul date +%F)"
+            git push
+          fi
