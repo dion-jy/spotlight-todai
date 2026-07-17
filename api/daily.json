@@ -1,55 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-07-17",
+ "date": "2026-07-18",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 197,
-  "position": 197,
+  "day_index": 198,
+  "position": 198,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-658",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "DNAEdit: Direct Noise Alignment for Text-Guided Rectified Flow Editing",
+  "uid": "iclr-2026-oral-69",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention",
   "authors": [
-   "Chenxi Xie",
-   "Minghan Li",
-   "Shuai Li",
-   "Yuhui Wu",
-   "Qiaosi Yi",
-   "Lei Zhang"
+   "Haiquan Qiu",
+   "Quanming Yao"
   ],
-  "affiliation": "",
-  "summary": "Leveraging the powerful generation capability of large-scale pretrained text-to-image models, training-free methods have demonstrated impressive image editing results",
+  "affiliation": "Tsinghua University, Tsinghua University",
+  "summary": "For the first time, we mechanistically explain why low-precision training with flash attention fails, identifying a vicious cycle of rounding errors and proposing a simple, effective fix.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=JxBA9OJExP",
+   "openreview": "https://openreview.net/forum?id=0jHyEKHDyx",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-69",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention",
-   "authors": [
-    "Haiquan Qiu",
-    "Quanming Yao"
-   ],
-   "affiliation": "Tsinghua University, Tsinghua University",
-   "summary": "For the first time, we mechanistically explain why low-precision training with flash attention fails, identifying a vicious cycle of rounding errors and proposing a simple, effective fix.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=0jHyEKHDyx",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-176",
    "conference": "NeurIPS",
@@ -114,6 +92,29 @@
    "summary": "Recent advances in large language models (LLMs) have enabled the automatic generation of executable code for task planning and control in embodied agents such as robots, demonstrating the potential of",
    "links": {
     "openreview": "https://openreview.net/forum?id=VaC4sa96EI",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-162",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "AnyUp: Universal Feature Upsampling",
+   "authors": [
+    "Thomas Wimmer",
+    "Prune Truong",
+    "Marie-Julie Rakotosaona",
+    "Michael Oechsle",
+    "Federico Tombari",
+    "Bernt Schiele",
+    "Jan Eric Lenssen"
+   ],
+   "affiliation": "Max-Planck Institute",
+   "summary": "A universal feature upsampling model that can be used to upsample any feature from any to any resolution and generalizes to features unseen during training.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=Y9UAgPehqo",
     "arxiv": "",
     "detail": ""
    }
