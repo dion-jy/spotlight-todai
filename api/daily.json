@@ -1,54 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-07-18",
+ "date": "2026-07-19",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 198,
-  "position": 198,
+  "day_index": 199,
+  "position": 199,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-69",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention",
+  "uid": "neurips-2025-spotlight-176",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling",
   "authors": [
-   "Haiquan Qiu",
-   "Quanming Yao"
+   "Zhining Zhang",
+   "Chuanyang Jin",
+   "Mung Yao Jia",
+   "Shunchi Zhang",
+   "Tianmin Shu"
   ],
-  "affiliation": "Tsinghua University, Tsinghua University",
-  "summary": "For the first time, we mechanistically explain why low-precision training with flash attention fails, identifying a vicious cycle of rounding errors and proposing a simple, effective fix.",
+  "affiliation": "",
+  "summary": "Theory of Mind (ToM), the ability to understand people's minds based on their behavior, is key to developing socially intelligent agents",
   "links": {
-   "openreview": "https://openreview.net/forum?id=0jHyEKHDyx",
+   "openreview": "https://openreview.net/forum?id=oeZZusZheP",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-176",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling",
-   "authors": [
-    "Zhining Zhang",
-    "Chuanyang Jin",
-    "Mung Yao Jia",
-    "Shunchi Zhang",
-    "Tianmin Shu"
-   ],
-   "affiliation": "",
-   "summary": "Theory of Mind (ToM), the ability to understand people's minds based on their behavior, is key to developing socially intelligent agents",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=oeZZusZheP",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-235",
    "conference": "NeurIPS",
@@ -115,6 +97,25 @@
    "summary": "A universal feature upsampling model that can be used to upsample any feature from any to any resolution and generalizes to features unseen during training.",
    "links": {
     "openreview": "https://openreview.net/forum?id=Y9UAgPehqo",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-226",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "DERD-Net: Learning Depth from Event-based Ray Densities",
+   "authors": [
+    "Diego de Oliveira Hitzges",
+    "Suman Ghosh",
+    "Guillermo Gallego"
+   ],
+   "affiliation": "",
+   "summary": "Event cameras offer a promising avenue for multi-view stereo depth estimation and Simultaneous Localization And Mapping (SLAM) due to their ability to detect blur-free 3D edges at high-speed and over",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=0KnZasL9nA",
     "arxiv": "",
     "detail": ""
    }
