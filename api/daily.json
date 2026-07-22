@@ -1,57 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-07-22",
+ "date": "2026-07-23",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 202,
-  "position": 202,
+  "day_index": 203,
+  "position": 203,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-162",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "AnyUp: Universal Feature Upsampling",
+  "uid": "neurips-2025-spotlight-226",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "DERD-Net: Learning Depth from Event-based Ray Densities",
   "authors": [
-   "Thomas Wimmer",
-   "Prune Truong",
-   "Marie-Julie Rakotosaona",
-   "Michael Oechsle",
-   "Federico Tombari",
-   "Bernt Schiele",
-   "Jan Eric Lenssen"
+   "Diego de Oliveira Hitzges",
+   "Suman Ghosh",
+   "Guillermo Gallego"
   ],
-  "affiliation": "Max-Planck Institute",
-  "summary": "A universal feature upsampling model that can be used to upsample any feature from any to any resolution and generalizes to features unseen during training.",
+  "affiliation": "",
+  "summary": "Event cameras offer a promising avenue for multi-view stereo depth estimation and Simultaneous Localization And Mapping (SLAM) due to their ability to detect blur-free 3D edges at high-speed and over",
   "links": {
-   "openreview": "https://openreview.net/forum?id=Y9UAgPehqo",
+   "openreview": "https://openreview.net/forum?id=0KnZasL9nA",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-226",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "DERD-Net: Learning Depth from Event-based Ray Densities",
-   "authors": [
-    "Diego de Oliveira Hitzges",
-    "Suman Ghosh",
-    "Guillermo Gallego"
-   ],
-   "affiliation": "",
-   "summary": "Event cameras offer a promising avenue for multi-view stereo depth estimation and Simultaneous Localization And Mapping (SLAM) due to their ability to detect blur-free 3D edges at high-speed and over",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=0KnZasL9nA",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-293",
    "conference": "NeurIPS",
@@ -109,6 +86,31 @@
    "summary": "Towards intelligent image editing, object removal should eliminate both the target object and its causal visual artifacts, such as shadows and reflections",
    "links": {
     "openreview": "https://openreview.net/forum?id=RnfyqrkOxD",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-65",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms",
+   "authors": [
+    "Zhenxing Xu",
+    "Yizhe Zhang",
+    "Weidong Bao",
+    "Hao Wang",
+    "Ming Chen",
+    "Haoran Ye",
+    "Wenzheng Jiang",
+    "Hui Yan",
+    "Ji Wang"
+   ],
+   "affiliation": "National University of Defense Technology",
+   "summary": "Dynamically configuring algorithm hyperparameters is a fundamental challenge in computational intelligence. While learning-based methods offer automation, they suffer from prohibitive sample complexity and poor generalization.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=hit3hGBheP",
     "arxiv": "",
     "detail": ""
    }
