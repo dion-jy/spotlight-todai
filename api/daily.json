@@ -1,53 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-07-23",
+ "date": "2026-07-24",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 203,
-  "position": 203,
+  "day_index": 204,
+  "position": 204,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-226",
+  "uid": "neurips-2025-spotlight-293",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "DERD-Net: Learning Depth from Event-based Ray Densities",
+  "title": "Vector Quantization in the Brain: Grid-like Codes in World Models",
   "authors": [
-   "Diego de Oliveira Hitzges",
-   "Suman Ghosh",
-   "Guillermo Gallego"
+   "Xiangyuan Peng",
+   "Xingsi Dong",
+   "Si Wu"
   ],
   "affiliation": "",
-  "summary": "Event cameras offer a promising avenue for multi-view stereo depth estimation and Simultaneous Localization And Mapping (SLAM) due to their ability to detect blur-free 3D edges at high-speed and over",
+  "summary": "We propose Grid-like Code Quantization (GCQ), a brain-inspired method for compressing observation-action sequences into discrete representations using grid-like patterns in attractor dynamics",
   "links": {
-   "openreview": "https://openreview.net/forum?id=0KnZasL9nA",
+   "openreview": "https://openreview.net/forum?id=M44RvNMZs4",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-293",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Vector Quantization in the Brain: Grid-like Codes in World Models",
-   "authors": [
-    "Xiangyuan Peng",
-    "Xingsi Dong",
-    "Si Wu"
-   ],
-   "affiliation": "",
-   "summary": "We propose Grid-like Code Quantization (GCQ), a brain-inspired method for compressing observation-action sequences into discrete representations using grid-like patterns in attractor dynamics",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=M44RvNMZs4",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-147",
    "conference": "ICML",
@@ -111,6 +92,25 @@
    "summary": "Dynamically configuring algorithm hyperparameters is a fundamental challenge in computational intelligence. While learning-based methods offer automation, they suffer from prohibitive sample complexity and poor generalization.",
    "links": {
     "openreview": "https://openreview.net/forum?id=hit3hGBheP",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-272",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Color Conditional Generation with Sliced Wasserstein Guidance",
+   "authors": [
+    "Alexander Lobashev",
+    "Maria Larchenko",
+    "Dmitry Guskov"
+   ],
+   "affiliation": "",
+   "summary": "We propose SW-Guidance, a training-free approach for image generation conditioned on the color distribution of a reference image",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=r1Bx58M6It",
     "arxiv": "",
     "detail": ""
    }
