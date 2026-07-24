@@ -1,54 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-07-24",
+ "date": "2026-07-25",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 204,
-  "position": 204,
+  "day_index": 205,
+  "position": 205,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-293",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Vector Quantization in the Brain: Grid-like Codes in World Models",
+  "uid": "icml-2026-oral-147",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Position: AI/ML Deepfake Research is Misaligned with AI Generated Non-Consensual Intimate Imagery (AIG-NCII)",
   "authors": [
-   "Xiangyuan Peng",
-   "Xingsi Dong",
-   "Si Wu"
+   "Qiwei Li",
+   "Wells Lucas Santo",
+   "Sarita Schoenebeck",
+   "Eric Gilbert"
   ],
   "affiliation": "",
-  "summary": "We propose Grid-like Code Quantization (GCQ), a brain-inspired method for compressing observation-action sequences into discrete representations using grid-like patterns in attractor dynamics",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=M44RvNMZs4",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71187"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-147",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Position: AI/ML Deepfake Research is Misaligned with AI Generated Non-Consensual Intimate Imagery (AIG-NCII)",
-   "authors": [
-    "Qiwei Li",
-    "Wells Lucas Santo",
-    "Sarita Schoenebeck",
-    "Eric Gilbert"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71187"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-600",
    "conference": "NeurIPS",
@@ -111,6 +92,26 @@
    "summary": "We propose SW-Guidance, a training-free approach for image generation conditioned on the color distribution of a reference image",
    "links": {
     "openreview": "https://openreview.net/forum?id=r1Bx58M6It",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-615",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning",
+   "authors": [
+    "Yixiu Mao",
+    "Yun Qu",
+    "Cheems Wang",
+    "Xiangyang Ji"
+   ],
+   "affiliation": "",
+   "summary": "Offline reinforcement learning (RL) suffers from extrapolation errors induced by out-of-distribution (OOD) actions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=qgi5TfBXBw",
     "arxiv": "",
     "detail": ""
    }
