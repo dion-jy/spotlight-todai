@@ -1,57 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-07-25",
+ "date": "2026-07-26",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 205,
-  "position": 205,
+  "day_index": 206,
+  "position": 206,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-147",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Position: AI/ML Deepfake Research is Misaligned with AI Generated Non-Consensual Intimate Imagery (AIG-NCII)",
+  "uid": "neurips-2025-spotlight-600",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "GeoRemover: Removing Objects and Their Causal Visual Artifacts",
   "authors": [
-   "Qiwei Li",
-   "Wells Lucas Santo",
-   "Sarita Schoenebeck",
-   "Eric Gilbert"
+   "Zixin Zhu",
+   "Haoxiang Li",
+   "Xuelu Feng",
+   "He Wu",
+   "Chunming Qiao",
+   "Junsong Yuan"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "Towards intelligent image editing, object removal should eliminate both the target object and its causal visual artifacts, such as shadows and reflections",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=RnfyqrkOxD",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71187"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-600",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "GeoRemover: Removing Objects and Their Causal Visual Artifacts",
-   "authors": [
-    "Zixin Zhu",
-    "Haoxiang Li",
-    "Xuelu Feng",
-    "He Wu",
-    "Chunming Qiao",
-    "Junsong Yuan"
-   ],
-   "affiliation": "",
-   "summary": "Towards intelligent image editing, object removal should eliminate both the target object and its causal visual artifacts, such as shadows and reflections",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=RnfyqrkOxD",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-65",
    "conference": "ICLR",
@@ -112,6 +92,24 @@
    "summary": "Offline reinforcement learning (RL) suffers from extrapolation errors induced by out-of-distribution (OOD) actions",
    "links": {
     "openreview": "https://openreview.net/forum?id=qgi5TfBXBw",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-498",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "On the Optimal Construction of Unbiased Gradient Estimators for Zeroth-Order Optimization",
+   "authors": [
+    "Shaocong Ma",
+    "Heng Huang"
+   ],
+   "affiliation": "",
+   "summary": "Zeroth-order optimization (ZOO) is an important framework for stochastic optimization when gradients are unavailable or expensive to compute",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=rVT1GK60Nt",
     "arxiv": "",
     "detail": ""
    }
