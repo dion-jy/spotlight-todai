@@ -1,62 +1,40 @@
 {
  "schema_version": 1,
- "date": "2026-07-26",
+ "date": "2026-07-27",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 206,
-  "position": 206,
+  "day_index": 207,
+  "position": 207,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-600",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "GeoRemover: Removing Objects and Their Causal Visual Artifacts",
+  "uid": "iclr-2026-oral-65",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms",
   "authors": [
-   "Zixin Zhu",
-   "Haoxiang Li",
-   "Xuelu Feng",
-   "He Wu",
-   "Chunming Qiao",
-   "Junsong Yuan"
+   "Zhenxing Xu",
+   "Yizhe Zhang",
+   "Weidong Bao",
+   "Hao Wang",
+   "Ming Chen",
+   "Haoran Ye",
+   "Wenzheng Jiang",
+   "Hui Yan",
+   "Ji Wang"
   ],
-  "affiliation": "",
-  "summary": "Towards intelligent image editing, object removal should eliminate both the target object and its causal visual artifacts, such as shadows and reflections",
+  "affiliation": "National University of Defense Technology",
+  "summary": "Dynamically configuring algorithm hyperparameters is a fundamental challenge in computational intelligence. While learning-based methods offer automation, they suffer from prohibitive sample complexity and poor generalization.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=RnfyqrkOxD",
+   "openreview": "https://openreview.net/forum?id=hit3hGBheP",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-65",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms",
-   "authors": [
-    "Zhenxing Xu",
-    "Yizhe Zhang",
-    "Weidong Bao",
-    "Hao Wang",
-    "Ming Chen",
-    "Haoran Ye",
-    "Wenzheng Jiang",
-    "Hui Yan",
-    "Ji Wang"
-   ],
-   "affiliation": "National University of Defense Technology",
-   "summary": "Dynamically configuring algorithm hyperparameters is a fundamental challenge in computational intelligence. While learning-based methods offer automation, they suffer from prohibitive sample complexity and poor generalization.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=hit3hGBheP",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-272",
    "conference": "NeurIPS",
@@ -110,6 +88,27 @@
    "summary": "Zeroth-order optimization (ZOO) is an important framework for stochastic optimization when gradients are unavailable or expensive to compute",
    "links": {
     "openreview": "https://openreview.net/forum?id=rVT1GK60Nt",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-27",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "A Clean Slate for Offline Reinforcement Learning",
+   "authors": [
+    "Matthew Thomas Jackson",
+    "Uljad Berdica",
+    "Jarek Luca Liesen",
+    "Shimon Whiteson",
+    "Jakob Nicolaus Foerster"
+   ],
+   "affiliation": "Google DeepMind",
+   "summary": "We propose a principled taxonomy, evaluation procedure, and unified algorithm space for offline RL.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=8P3QNSckMp",
     "arxiv": "",
     "detail": ""
    }
