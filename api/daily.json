@@ -1,59 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-07-27",
+ "date": "2026-07-28",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 207,
-  "position": 207,
+  "day_index": 208,
+  "position": 208,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-65",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms",
+  "uid": "neurips-2025-spotlight-272",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Color Conditional Generation with Sliced Wasserstein Guidance",
   "authors": [
-   "Zhenxing Xu",
-   "Yizhe Zhang",
-   "Weidong Bao",
-   "Hao Wang",
-   "Ming Chen",
-   "Haoran Ye",
-   "Wenzheng Jiang",
-   "Hui Yan",
-   "Ji Wang"
+   "Alexander Lobashev",
+   "Maria Larchenko",
+   "Dmitry Guskov"
   ],
-  "affiliation": "National University of Defense Technology",
-  "summary": "Dynamically configuring algorithm hyperparameters is a fundamental challenge in computational intelligence. While learning-based methods offer automation, they suffer from prohibitive sample complexity and poor generalization.",
+  "affiliation": "",
+  "summary": "We propose SW-Guidance, a training-free approach for image generation conditioned on the color distribution of a reference image",
   "links": {
-   "openreview": "https://openreview.net/forum?id=hit3hGBheP",
+   "openreview": "https://openreview.net/forum?id=r1Bx58M6It",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-272",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Color Conditional Generation with Sliced Wasserstein Guidance",
-   "authors": [
-    "Alexander Lobashev",
-    "Maria Larchenko",
-    "Dmitry Guskov"
-   ],
-   "affiliation": "",
-   "summary": "We propose SW-Guidance, a training-free approach for image generation conditioned on the color distribution of a reference image",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=r1Bx58M6It",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-615",
    "conference": "NeurIPS",
@@ -109,6 +84,28 @@
    "summary": "We propose a principled taxonomy, evaluation procedure, and unified algorithm space for offline RL.",
    "links": {
     "openreview": "https://openreview.net/forum?id=8P3QNSckMp",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-23",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Speculative Actions: A Lossless Framework for Faster AI Agents",
+   "authors": [
+    "Naimeng Ye",
+    "Arnav Ahuja",
+    "Georgios Liargkovas",
+    "Yunan Lu",
+    "Kostis Kaffes",
+    "Tianyi Peng"
+   ],
+   "affiliation": "Columbia University",
+   "summary": "We introduce speculative actions—a lossless framework that predicts likely actions using faster models, enabling multiple API calls to be executed in parallel and thus yields substantial acceleration.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=P0GOk5wslg",
     "arxiv": "",
     "detail": ""
    }
