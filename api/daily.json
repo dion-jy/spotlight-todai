@@ -1,54 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-07-28",
+ "date": "2026-07-29",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 208,
-  "position": 208,
+  "day_index": 209,
+  "position": 209,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-272",
+  "uid": "neurips-2025-spotlight-615",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Color Conditional Generation with Sliced Wasserstein Guidance",
+  "title": "Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning",
   "authors": [
-   "Alexander Lobashev",
-   "Maria Larchenko",
-   "Dmitry Guskov"
+   "Yixiu Mao",
+   "Yun Qu",
+   "Cheems Wang",
+   "Xiangyang Ji"
   ],
   "affiliation": "",
-  "summary": "We propose SW-Guidance, a training-free approach for image generation conditioned on the color distribution of a reference image",
+  "summary": "Offline reinforcement learning (RL) suffers from extrapolation errors induced by out-of-distribution (OOD) actions",
   "links": {
-   "openreview": "https://openreview.net/forum?id=r1Bx58M6It",
+   "openreview": "https://openreview.net/forum?id=qgi5TfBXBw",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-615",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning",
-   "authors": [
-    "Yixiu Mao",
-    "Yun Qu",
-    "Cheems Wang",
-    "Xiangyang Ji"
-   ],
-   "affiliation": "",
-   "summary": "Offline reinforcement learning (RL) suffers from extrapolation errors induced by out-of-distribution (OOD) actions",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=qgi5TfBXBw",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-498",
    "conference": "NeurIPS",
@@ -106,6 +87,28 @@
    "summary": "We introduce speculative actions—a lossless framework that predicts likely actions using faster models, enabling multiple API calls to be executed in parallel and thus yields substantial acceleration.",
    "links": {
     "openreview": "https://openreview.net/forum?id=P0GOk5wslg",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-619",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Neural Atlas Graphs for Dynamic Scene Decomposition and Editing",
+   "authors": [
+    "Jan Philipp Schneider",
+    "Pratik Singh Bisht",
+    "Ilya Chugunov",
+    "Andreas Kolb",
+    "Michael Moeller",
+    "Felix Heide"
+   ],
+   "affiliation": "",
+   "summary": "Learning editable high-resolution scene representations for dynamic scenes is an open problem with applications across the domains from autonomous driving to creative editing - the most successful app",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=pkuVonMwhT",
     "arxiv": "",
     "detail": ""
    }
