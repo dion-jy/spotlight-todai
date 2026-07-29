@@ -1,53 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-07-29",
+ "date": "2026-07-30",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 209,
-  "position": 209,
+  "day_index": 210,
+  "position": 210,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-615",
+  "uid": "neurips-2025-spotlight-498",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning",
+  "title": "On the Optimal Construction of Unbiased Gradient Estimators for Zeroth-Order Optimization",
   "authors": [
-   "Yixiu Mao",
-   "Yun Qu",
-   "Cheems Wang",
-   "Xiangyang Ji"
+   "Shaocong Ma",
+   "Heng Huang"
   ],
   "affiliation": "",
-  "summary": "Offline reinforcement learning (RL) suffers from extrapolation errors induced by out-of-distribution (OOD) actions",
+  "summary": "Zeroth-order optimization (ZOO) is an important framework for stochastic optimization when gradients are unavailable or expensive to compute",
   "links": {
-   "openreview": "https://openreview.net/forum?id=qgi5TfBXBw",
+   "openreview": "https://openreview.net/forum?id=rVT1GK60Nt",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-498",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "On the Optimal Construction of Unbiased Gradient Estimators for Zeroth-Order Optimization",
-   "authors": [
-    "Shaocong Ma",
-    "Heng Huang"
-   ],
-   "affiliation": "",
-   "summary": "Zeroth-order optimization (ZOO) is an important framework for stochastic optimization when gradients are unavailable or expensive to compute",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=rVT1GK60Nt",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-27",
    "conference": "NeurIPS",
@@ -111,6 +91,25 @@
     "openreview": "https://openreview.net/forum?id=pkuVonMwhT",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-80",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units",
+   "authors": [
+    "Jianhui Chen",
+    "Yuzhang Luo",
+    "Liangming Pan"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71094"
    }
   }
  ]
