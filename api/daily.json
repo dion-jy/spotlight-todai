@@ -1,54 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-07-30",
+ "date": "2026-07-31",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 210,
-  "position": 210,
+  "day_index": 211,
+  "position": 211,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-498",
+  "uid": "neurips-2025-oral-27",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Spotlight",
-  "title": "On the Optimal Construction of Unbiased Gradient Estimators for Zeroth-Order Optimization",
+  "track": "Oral",
+  "title": "A Clean Slate for Offline Reinforcement Learning",
   "authors": [
-   "Shaocong Ma",
-   "Heng Huang"
+   "Matthew Thomas Jackson",
+   "Uljad Berdica",
+   "Jarek Luca Liesen",
+   "Shimon Whiteson",
+   "Jakob Nicolaus Foerster"
   ],
-  "affiliation": "",
-  "summary": "Zeroth-order optimization (ZOO) is an important framework for stochastic optimization when gradients are unavailable or expensive to compute",
+  "affiliation": "Google DeepMind",
+  "summary": "We propose a principled taxonomy, evaluation procedure, and unified algorithm space for offline RL.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=rVT1GK60Nt",
+   "openreview": "https://openreview.net/forum?id=8P3QNSckMp",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-27",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "A Clean Slate for Offline Reinforcement Learning",
-   "authors": [
-    "Matthew Thomas Jackson",
-    "Uljad Berdica",
-    "Jarek Luca Liesen",
-    "Shimon Whiteson",
-    "Jakob Nicolaus Foerster"
-   ],
-   "affiliation": "Google DeepMind",
-   "summary": "We propose a principled taxonomy, evaluation procedure, and unified algorithm space for offline RL.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=8P3QNSckMp",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-23",
    "conference": "ICLR",
@@ -110,6 +92,29 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71094"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-535",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling",
+   "authors": [
+    "Wentao Lu",
+    "Dong Nie",
+    "Pengcheng Xue",
+    "Zheng Cui",
+    "Piji Li",
+    "Daoqiang Zhang",
+    "Xuyun Wen"
+   ],
+   "affiliation": "",
+   "summary": "Decoding natural language text from non-invasive brain signals, such as functional magnetic resonance imaging (fMRI), remains a central challenge in brain-computer interface research",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=REIo9ZLSYo",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
