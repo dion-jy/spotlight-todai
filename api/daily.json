@@ -1,59 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-08-01",
+ "date": "2026-08-02",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 212,
-  "position": 212,
+  "day_index": 213,
+  "position": 213,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-23",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Speculative Actions: A Lossless Framework for Faster AI Agents",
+  "uid": "neurips-2025-spotlight-619",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Neural Atlas Graphs for Dynamic Scene Decomposition and Editing",
   "authors": [
-   "Naimeng Ye",
-   "Arnav Ahuja",
-   "Georgios Liargkovas",
-   "Yunan Lu",
-   "Kostis Kaffes",
-   "Tianyi Peng"
+   "Jan Philipp Schneider",
+   "Pratik Singh Bisht",
+   "Ilya Chugunov",
+   "Andreas Kolb",
+   "Michael Moeller",
+   "Felix Heide"
   ],
-  "affiliation": "Columbia University",
-  "summary": "We introduce speculative actions—a lossless framework that predicts likely actions using faster models, enabling multiple API calls to be executed in parallel and thus yields substantial acceleration.",
+  "affiliation": "",
+  "summary": "Learning editable high-resolution scene representations for dynamic scenes is an open problem with applications across the domains from autonomous driving to creative editing - the most successful app",
   "links": {
-   "openreview": "https://openreview.net/forum?id=P0GOk5wslg",
+   "openreview": "https://openreview.net/forum?id=pkuVonMwhT",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-619",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Neural Atlas Graphs for Dynamic Scene Decomposition and Editing",
-   "authors": [
-    "Jan Philipp Schneider",
-    "Pratik Singh Bisht",
-    "Ilya Chugunov",
-    "Andreas Kolb",
-    "Michael Moeller",
-    "Felix Heide"
-   ],
-   "affiliation": "",
-   "summary": "Learning editable high-resolution scene representations for dynamic scenes is an open problem with applications across the domains from autonomous driving to creative editing - the most successful app",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=pkuVonMwhT",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-80",
    "conference": "ICML",
@@ -115,6 +93,30 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71091"
+   }
+  },
+  {
+   "uid": "icml-2026-oral-132",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "PhenoBrain: Phenotype-Conditioned Long-Range Communication for Multi-Modal Brain Network Analysis",
+   "authors": [
+    "Lingyuan Meng",
+    "KE LIANG",
+    "Hao Li",
+    "Meng Liu",
+    "Weijia Shi",
+    "Miaomiao Li",
+    "Yang Gao",
+    "Xinwang Liu"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71161"
    }
   }
  ]
