@@ -1,56 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-08-02",
+ "date": "2026-08-03",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 213,
-  "position": 213,
+  "day_index": 214,
+  "position": 214,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-619",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Neural Atlas Graphs for Dynamic Scene Decomposition and Editing",
+  "uid": "icml-2026-oral-80",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units",
   "authors": [
-   "Jan Philipp Schneider",
-   "Pratik Singh Bisht",
-   "Ilya Chugunov",
-   "Andreas Kolb",
-   "Michael Moeller",
-   "Felix Heide"
+   "Jianhui Chen",
+   "Yuzhang Luo",
+   "Liangming Pan"
   ],
   "affiliation": "",
-  "summary": "Learning editable high-resolution scene representations for dynamic scenes is an open problem with applications across the domains from autonomous driving to creative editing - the most successful app",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=pkuVonMwhT",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71094"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-80",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units",
-   "authors": [
-    "Jianhui Chen",
-    "Yuzhang Luo",
-    "Liangming Pan"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71094"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-535",
    "conference": "NeurIPS",
@@ -117,6 +95,32 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71161"
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-78",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI",
+   "authors": [
+    "Zheng Huang",
+    "Enpei Zhang",
+    "Weikang Qiu",
+    "Yinghao Cai",
+    "Carl Yang",
+    "Elynn Chen",
+    "Xiang Zhang",
+    "Rex Ying",
+    "Dawei Zhou",
+    "Yujun Yan"
+   ],
+   "affiliation": "",
+   "summary": "We present PRISM, a framework to decode visual stimuli from fMRI with language model alignment",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=88ZLp7xYxw",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
