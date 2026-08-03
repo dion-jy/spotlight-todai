@@ -1,57 +1,38 @@
 {
  "schema_version": 1,
- "date": "2026-08-03",
+ "date": "2026-08-04",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 214,
-  "position": 214,
+  "day_index": 215,
+  "position": 215,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-80",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units",
+  "uid": "neurips-2025-spotlight-535",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling",
   "authors": [
-   "Jianhui Chen",
-   "Yuzhang Luo",
-   "Liangming Pan"
+   "Wentao Lu",
+   "Dong Nie",
+   "Pengcheng Xue",
+   "Zheng Cui",
+   "Piji Li",
+   "Daoqiang Zhang",
+   "Xuyun Wen"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "Decoding natural language text from non-invasive brain signals, such as functional magnetic resonance imaging (fMRI), remains a central challenge in brain-computer interface research",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=REIo9ZLSYo",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71094"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-535",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling",
-   "authors": [
-    "Wentao Lu",
-    "Dong Nie",
-    "Pengcheng Xue",
-    "Zheng Cui",
-    "Piji Li",
-    "Daoqiang Zhang",
-    "Xuyun Wen"
-   ],
-   "affiliation": "",
-   "summary": "Decoding natural language text from non-invasive brain signals, such as functional magnetic resonance imaging (fMRI), remains a central challenge in brain-computer interface research",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=REIo9ZLSYo",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-59",
    "conference": "ICML",
@@ -119,6 +100,31 @@
    "summary": "We present PRISM, a framework to decode visual stimuli from fMRI with language model alignment",
    "links": {
     "openreview": "https://openreview.net/forum?id=88ZLp7xYxw",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-204",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Diffusion Language Model Knows the Answer Before It Decodes",
+   "authors": [
+    "Pengxiang Li",
+    "Yefan Zhou",
+    "Dilxat Muhtar",
+    "Lu Yin",
+    "Shilin Yan",
+    "Li Shen",
+    "Yi Liang",
+    "Soroush Vosoughi",
+    "Shiwei Liu"
+   ],
+   "affiliation": "Hong Kong Polytechnic University",
+   "summary": "Diffusion language models (DLMs) have recently emerged as an alternative to autoregressive approaches, offering parallel sequence generation and flexible token orders. However, their inference remains slower than that of autoregressive models, primarily due to the cost of bidirectional attention and the large number of refinement steps required...",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=g88nt4ieTG",
     "arxiv": "",
     "detail": ""
    }
