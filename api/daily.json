@@ -1,59 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-08-04",
+ "date": "2026-08-05",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 215,
-  "position": 215,
+  "day_index": 216,
+  "position": 216,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-535",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling",
+  "uid": "icml-2026-oral-59",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Position: Irresponsible AI: big tech’s influence on AI research and associated impacts",
   "authors": [
-   "Wentao Lu",
-   "Dong Nie",
-   "Pengcheng Xue",
-   "Zheng Cui",
-   "Piji Li",
-   "Daoqiang Zhang",
-   "Xuyun Wen"
+   "Alex Hernandez-Garcia",
+   "Alexandra Volokhova",
+   "Ezekiel Williams",
+   "Dounia Shaaban Kabakibo",
+   "Mélisande Teng"
   ],
   "affiliation": "",
-  "summary": "Decoding natural language text from non-invasive brain signals, such as functional magnetic resonance imaging (fMRI), remains a central challenge in brain-computer interface research",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=REIo9ZLSYo",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71091"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-59",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Position: Irresponsible AI: big tech’s influence on AI research and associated impacts",
-   "authors": [
-    "Alex Hernandez-Garcia",
-    "Alexandra Volokhova",
-    "Ezekiel Williams",
-    "Dounia Shaaban Kabakibo",
-    "Mélisande Teng"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71091"
-   }
-  },
   {
    "uid": "icml-2026-oral-132",
    "conference": "ICML",
@@ -127,6 +104,28 @@
     "openreview": "https://openreview.net/forum?id=g88nt4ieTG",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-72",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Incentivizing Truthfulness and Collaborative Fairness in Bayesian Learning",
+   "authors": [
+    "Rachael Hwee Ling Sim",
+    "Jue Fan",
+    "Xiao Tian",
+    "Xinyi Xu",
+    "Patrick Jaillet",
+    "Bryan Kian Hsiang Low"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71101"
    }
   }
  ]
