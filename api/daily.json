@@ -1,60 +1,39 @@
 {
  "schema_version": 1,
- "date": "2026-08-05",
+ "date": "2026-08-06",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 216,
-  "position": 216,
+  "day_index": 217,
+  "position": 217,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-59",
+  "uid": "icml-2026-oral-132",
   "conference": "ICML",
   "year": 2026,
   "track": "Oral",
-  "title": "Position: Irresponsible AI: big tech’s influence on AI research and associated impacts",
+  "title": "PhenoBrain: Phenotype-Conditioned Long-Range Communication for Multi-Modal Brain Network Analysis",
   "authors": [
-   "Alex Hernandez-Garcia",
-   "Alexandra Volokhova",
-   "Ezekiel Williams",
-   "Dounia Shaaban Kabakibo",
-   "Mélisande Teng"
+   "Lingyuan Meng",
+   "KE LIANG",
+   "Hao Li",
+   "Meng Liu",
+   "Weijia Shi",
+   "Miaomiao Li",
+   "Yang Gao",
+   "Xinwang Liu"
   ],
   "affiliation": "",
   "summary": "",
   "links": {
    "openreview": "",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71091"
+   "detail": "https://icml.cc/virtual/2026/oral/71161"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-132",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "PhenoBrain: Phenotype-Conditioned Long-Range Communication for Multi-Modal Brain Network Analysis",
-   "authors": [
-    "Lingyuan Meng",
-    "KE LIANG",
-    "Hao Li",
-    "Meng Liu",
-    "Weijia Shi",
-    "Miaomiao Li",
-    "Yang Gao",
-    "Xinwang Liu"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71161"
-   }
-  },
   {
    "uid": "iclr-2026-oral-78",
    "conference": "ICLR",
@@ -126,6 +105,27 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71101"
+   }
+  },
+  {
+   "uid": "icml-2026-oral-31",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization",
+   "authors": [
+    "Hao Zhang",
+    "Yaru Niu",
+    "Yikai Wang",
+    "Ding Zhao",
+    "Eric Tseng"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71075"
    }
   }
  ]
