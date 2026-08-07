@@ -1,65 +1,41 @@
 {
  "schema_version": 1,
- "date": "2026-08-06",
+ "date": "2026-08-07",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 217,
-  "position": 217,
+  "day_index": 218,
+  "position": 218,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-132",
-  "conference": "ICML",
+  "uid": "iclr-2026-oral-78",
+  "conference": "ICLR",
   "year": 2026,
   "track": "Oral",
-  "title": "PhenoBrain: Phenotype-Conditioned Long-Range Communication for Multi-Modal Brain Network Analysis",
+  "title": "Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI",
   "authors": [
-   "Lingyuan Meng",
-   "KE LIANG",
-   "Hao Li",
-   "Meng Liu",
-   "Weijia Shi",
-   "Miaomiao Li",
-   "Yang Gao",
-   "Xinwang Liu"
+   "Zheng Huang",
+   "Enpei Zhang",
+   "Weikang Qiu",
+   "Yinghao Cai",
+   "Carl Yang",
+   "Elynn Chen",
+   "Xiang Zhang",
+   "Rex Ying",
+   "Dawei Zhou",
+   "Yujun Yan"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "We present PRISM, a framework to decode visual stimuli from fMRI with language model alignment",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=88ZLp7xYxw",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71161"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-78",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI",
-   "authors": [
-    "Zheng Huang",
-    "Enpei Zhang",
-    "Weikang Qiu",
-    "Yinghao Cai",
-    "Carl Yang",
-    "Elynn Chen",
-    "Xiang Zhang",
-    "Rex Ying",
-    "Dawei Zhou",
-    "Yujun Yan"
-   ],
-   "affiliation": "",
-   "summary": "We present PRISM, a framework to decode visual stimuli from fMRI with language model alignment",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=88ZLp7xYxw",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-204",
    "conference": "ICLR",
@@ -126,6 +102,26 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71075"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-421",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Regret Bounds for Adversarial Contextual Bandits with General Function Approximation and Delayed Feedback",
+   "authors": [
+    "Orin Levy",
+    "Liad Erez",
+    "Alon Cohen",
+    "Yishay Mansour"
+   ],
+   "affiliation": "",
+   "summary": "We present regret minimization algorithms for the contextual multi-armed bandit (CMAB) problem over $K$ actions in the presence of delayed feedback, a scenario where loss observations arrive with dela",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=McPNQEDEZE",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
