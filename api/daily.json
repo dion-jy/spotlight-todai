@@ -1,62 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-08-08",
+ "date": "2026-08-09",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 219,
-  "position": 219,
+  "day_index": 220,
+  "position": 220,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-204",
-  "conference": "ICLR",
+  "uid": "icml-2026-oral-72",
+  "conference": "ICML",
   "year": 2026,
   "track": "Oral",
-  "title": "Diffusion Language Model Knows the Answer Before It Decodes",
+  "title": "Incentivizing Truthfulness and Collaborative Fairness in Bayesian Learning",
   "authors": [
-   "Pengxiang Li",
-   "Yefan Zhou",
-   "Dilxat Muhtar",
-   "Lu Yin",
-   "Shilin Yan",
-   "Li Shen",
-   "Yi Liang",
-   "Soroush Vosoughi",
-   "Shiwei Liu"
+   "Rachael Hwee Ling Sim",
+   "Jue Fan",
+   "Xiao Tian",
+   "Xinyi Xu",
+   "Patrick Jaillet",
+   "Bryan Kian Hsiang Low"
   ],
-  "affiliation": "Hong Kong Polytechnic University",
-  "summary": "Diffusion language models (DLMs) have recently emerged as an alternative to autoregressive approaches, offering parallel sequence generation and flexible token orders. However, their inference remains slower than that of autoregressive models, primarily due to the cost of bidirectional attention and the large number of refinement steps required...",
+  "affiliation": "",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=g88nt4ieTG",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71101"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-72",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Incentivizing Truthfulness and Collaborative Fairness in Bayesian Learning",
-   "authors": [
-    "Rachael Hwee Ling Sim",
-    "Jue Fan",
-    "Xiao Tian",
-    "Xinyi Xu",
-    "Patrick Jaillet",
-    "Bryan Kian Hsiang Low"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71101"
-   }
-  },
   {
    "uid": "icml-2026-oral-31",
    "conference": "ICML",
@@ -116,6 +91,25 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71150"
+   }
+  },
+  {
+   "uid": "icml-2026-oral-107",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "To Grok Grokking: Provable Grokking in Ridge Regression",
+   "authors": [
+    "Mingyue Xu",
+    "Gal Vardi",
+    "Itay Safran"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71134"
    }
   }
  ]
