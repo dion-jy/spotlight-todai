@@ -1,54 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-08-12",
+ "date": "2026-08-13",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 223,
-  "position": 223,
+  "day_index": 224,
+  "position": 224,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-138",
+  "uid": "icml-2026-oral-107",
   "conference": "ICML",
   "year": 2026,
   "track": "Oral",
-  "title": "Stabilizing the Q-Gradient Field for Policy Smoothness in Actor-Critic Methods",
+  "title": "To Grok Grokking: Provable Grokking in Ridge Regression",
   "authors": [
-   "Jeong Woon Lee",
-   "Kyoleen Kwak",
-   "Daeho Kim",
-   "Hyoseok Hwang"
+   "Mingyue Xu",
+   "Gal Vardi",
+   "Itay Safran"
   ],
   "affiliation": "",
   "summary": "",
   "links": {
    "openreview": "",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71150"
+   "detail": "https://icml.cc/virtual/2026/oral/71134"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-107",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "To Grok Grokking: Provable Grokking in Ridge Regression",
-   "authors": [
-    "Mingyue Xu",
-    "Gal Vardi",
-    "Itay Safran"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71134"
-   }
-  },
   {
    "uid": "icml-2026-oral-160",
    "conference": "ICML",
@@ -109,6 +89,25 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71090"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-108",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "AnaCP: Toward Upper-Bound Continual Learning via Analytic Contrastive Projection",
+   "authors": [
+    "Saleh Momeni",
+    "Changnan Xiao",
+    "Bing Liu"
+   ],
+   "affiliation": "",
+   "summary": "This paper studies the problem of class-incremental learning (CIL), a core setting within continual learning where a model learns a sequence of tasks, each containing a distinct set of classes",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=qQbvLU34F1",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
