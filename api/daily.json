@@ -1,54 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-13",
+ "date": "2026-08-14",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 224,
-  "position": 224,
+  "day_index": 225,
+  "position": 225,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-107",
+  "uid": "icml-2026-oral-160",
   "conference": "ICML",
   "year": 2026,
   "track": "Oral",
-  "title": "To Grok Grokking: Provable Grokking in Ridge Regression",
+  "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
   "authors": [
-   "Mingyue Xu",
-   "Gal Vardi",
-   "Itay Safran"
+   "Hanlin Zhang",
+   "Jikai Jin",
+   "Vasilis Syrgkanis",
+   "Sham Kakade"
   ],
   "affiliation": "",
   "summary": "",
   "links": {
    "openreview": "",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71134"
+   "detail": "https://icml.cc/virtual/2026/oral/71169"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-160",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
-   "authors": [
-    "Hanlin Zhang",
-    "Jikai Jin",
-    "Vasilis Syrgkanis",
-    "Sham Kakade"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71169"
-   }
-  },
   {
    "uid": "iclr-2026-oral-165",
    "conference": "ICLR",
@@ -106,6 +87,24 @@
    "summary": "This paper studies the problem of class-incremental learning (CIL), a core setting within continual learning where a model learns a sequence of tasks, each containing a distinct set of classes",
    "links": {
     "openreview": "https://openreview.net/forum?id=qQbvLU34F1",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-484",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "How many measurements are enough? Bayesian recovery in inverse problems with general distributions",
+   "authors": [
+    "Ben Adcock",
+    "Nick Huang"
+   ],
+   "affiliation": "",
+   "summary": "We study the sample complexity of Bayesian recovery for solving inverse problems with general prior, forward operator and noise distributions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=IIiRwgkZcm",
     "arxiv": "",
     "detail": ""
    }
