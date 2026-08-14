@@ -1,57 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-08-14",
+ "date": "2026-08-15",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 225,
-  "position": 225,
+  "day_index": 226,
+  "position": 226,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-160",
-  "conference": "ICML",
+  "uid": "iclr-2026-oral-165",
+  "conference": "ICLR",
   "year": 2026,
   "track": "Oral",
-  "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
+  "title": "Token-Importance Guided Direct Preference Optimization",
   "authors": [
-   "Hanlin Zhang",
-   "Jikai Jin",
-   "Vasilis Syrgkanis",
-   "Sham Kakade"
+   "Ning Yang",
+   "Hai Lin",
+   "Yibo Liu",
+   "Baoliang Tian",
+   "Guoqing Liu",
+   "Haijun Zhang"
   ],
-  "affiliation": "",
-  "summary": "",
+  "affiliation": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences",
+  "summary": "We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human preferences by using a hybrid weighting mechanism to identify key tokens and a triplet loss to guide the optimization process.",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=cMEnMVvMw9",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71169"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-165",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Token-Importance Guided Direct Preference Optimization",
-   "authors": [
-    "Ning Yang",
-    "Hai Lin",
-    "Yibo Liu",
-    "Baoliang Tian",
-    "Guoqing Liu",
-    "Haijun Zhang"
-   ],
-   "affiliation": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences",
-   "summary": "We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human preferences by using a hybrid weighting mechanism to identify key tokens and a triplet loss to guide the optimization process.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=cMEnMVvMw9",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-81",
    "conference": "ICML",
@@ -107,6 +87,30 @@
     "openreview": "https://openreview.net/forum?id=IIiRwgkZcm",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-125",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
+   "authors": [
+    "Junyi Yan",
+    "KE LIANG",
+    "Hao Yu",
+    "Meng Liu",
+    "Hao Tan",
+    "Tianrui Liu",
+    "Jun-Jie Huang",
+    "Xinwang Liu"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71160"
    }
   }
  ]
