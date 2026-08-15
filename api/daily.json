@@ -1,57 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-15",
+ "date": "2026-08-16",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 226,
-  "position": 226,
+  "day_index": 227,
+  "position": 227,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-165",
-  "conference": "ICLR",
+  "uid": "icml-2026-oral-81",
+  "conference": "ICML",
   "year": 2026,
   "track": "Oral",
-  "title": "Token-Importance Guided Direct Preference Optimization",
+  "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
   "authors": [
-   "Ning Yang",
-   "Hai Lin",
-   "Yibo Liu",
-   "Baoliang Tian",
-   "Guoqing Liu",
-   "Haijun Zhang"
+   "Minh-Tung Luu",
+   "Hwanhee Kim",
+   "Younghwan Lee",
+   "Chang Yoo"
   ],
-  "affiliation": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences",
-  "summary": "We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human preferences by using a hybrid weighting mechanism to identify key tokens and a triplet loss to guide the optimization process.",
+  "affiliation": "",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=cMEnMVvMw9",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71090"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-81",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
-   "authors": [
-    "Minh-Tung Luu",
-    "Hwanhee Kim",
-    "Younghwan Lee",
-    "Chang Yoo"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71090"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-108",
    "conference": "NeurIPS",
@@ -111,6 +89,27 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71160"
+   }
+  },
+  {
+   "uid": "icml-2026-oral-88",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "CoEvol-NO: State and Coordinate Co-Evolution with an Error-Driven Predictor-Corrector Paradigm for Neural Operator Transformer",
+   "authors": [
+    "Jianqiao Zeng",
+    "Ruocheng Wang",
+    "Yanzhi Liu",
+    "Hao Xiong",
+    "Junchi Yan"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71127"
    }
   }
  ]
