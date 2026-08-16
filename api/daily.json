@@ -1,54 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-08-16",
+ "date": "2026-08-17",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 227,
-  "position": 227,
+  "day_index": 228,
+  "position": 228,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-81",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
+  "uid": "neurips-2025-spotlight-108",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "AnaCP: Toward Upper-Bound Continual Learning via Analytic Contrastive Projection",
   "authors": [
-   "Minh-Tung Luu",
-   "Hwanhee Kim",
-   "Younghwan Lee",
-   "Chang Yoo"
+   "Saleh Momeni",
+   "Changnan Xiao",
+   "Bing Liu"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "This paper studies the problem of class-incremental learning (CIL), a core setting within continual learning where a model learns a sequence of tasks, each containing a distinct set of classes",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=qQbvLU34F1",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71090"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-108",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "AnaCP: Toward Upper-Bound Continual Learning via Analytic Contrastive Projection",
-   "authors": [
-    "Saleh Momeni",
-    "Changnan Xiao",
-    "Bing Liu"
-   ],
-   "affiliation": "",
-   "summary": "This paper studies the problem of class-incremental learning (CIL), a core setting within continual learning where a model learns a sequence of tasks, each containing a distinct set of classes",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=qQbvLU34F1",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-484",
    "conference": "NeurIPS",
@@ -110,6 +90,31 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71127"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-553",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Physics-Driven Spatiotemporal Modeling for AI-Generated Video Detection",
+   "authors": [
+    "Shuhai Zhang",
+    "ZiHao Lian",
+    "Jiahao Yang",
+    "Daiyuan Li",
+    "Guoxuan Pang",
+    "Feng Liu",
+    "Bo Han",
+    "Shutao Li",
+    "Mingkui Tan"
+   ],
+   "affiliation": "",
+   "summary": "AI-generated videos have achieved near-perfect visual realism (e",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=HiBoJLCyEo",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
