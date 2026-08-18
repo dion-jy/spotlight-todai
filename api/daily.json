@@ -1,57 +1,39 @@
 {
  "schema_version": 1,
- "date": "2026-08-18",
+ "date": "2026-08-19",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 229,
-  "position": 229,
+  "day_index": 230,
+  "position": 230,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-484",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "How many measurements are enough? Bayesian recovery in inverse problems with general distributions",
+  "uid": "icml-2026-oral-125",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
   "authors": [
-   "Ben Adcock",
-   "Nick Huang"
+   "Junyi Yan",
+   "KE LIANG",
+   "Hao Yu",
+   "Meng Liu",
+   "Hao Tan",
+   "Tianrui Liu",
+   "Jun-Jie Huang",
+   "Xinwang Liu"
   ],
   "affiliation": "",
-  "summary": "We study the sample complexity of Bayesian recovery for solving inverse problems with general prior, forward operator and noise distributions",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=IIiRwgkZcm",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71160"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-125",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
-   "authors": [
-    "Junyi Yan",
-    "KE LIANG",
-    "Hao Yu",
-    "Meng Liu",
-    "Hao Tan",
-    "Tianrui Liu",
-    "Jun-Jie Huang",
-    "Xinwang Liu"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71160"
-   }
-  },
   {
    "uid": "icml-2026-oral-88",
    "conference": "ICML",
@@ -120,6 +102,30 @@
    "summary": "Data diversity is crucial for training a strong language model",
    "links": {
     "openreview": "https://openreview.net/forum?id=R0dC7Xzwbk",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-163",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "ARIA: Training Language Agents with Intention-driven Reward Aggregation",
+   "authors": [
+    "Ruihan Yang",
+    "Yikai Zhang",
+    "Aili Chen",
+    "Xintao Wang",
+    "Jiangjie Chen",
+    "Siyu Yuan",
+    "Deqing Yang",
+    "Yanghua Xiao"
+   ],
+   "affiliation": "",
+   "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
     "arxiv": "",
     "detail": ""
    }
