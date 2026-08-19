@@ -1,60 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-08-19",
+ "date": "2026-08-20",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 230,
-  "position": 230,
+  "day_index": 231,
+  "position": 231,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-125",
+  "uid": "icml-2026-oral-88",
   "conference": "ICML",
   "year": 2026,
   "track": "Oral",
-  "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
+  "title": "CoEvol-NO: State and Coordinate Co-Evolution with an Error-Driven Predictor-Corrector Paradigm for Neural Operator Transformer",
   "authors": [
-   "Junyi Yan",
-   "KE LIANG",
-   "Hao Yu",
-   "Meng Liu",
-   "Hao Tan",
-   "Tianrui Liu",
-   "Jun-Jie Huang",
-   "Xinwang Liu"
+   "Jianqiao Zeng",
+   "Ruocheng Wang",
+   "Yanzhi Liu",
+   "Hao Xiong",
+   "Junchi Yan"
   ],
   "affiliation": "",
   "summary": "",
   "links": {
    "openreview": "",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71160"
+   "detail": "https://icml.cc/virtual/2026/oral/71127"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-88",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "CoEvol-NO: State and Coordinate Co-Evolution with an Error-Driven Predictor-Corrector Paradigm for Neural Operator Transformer",
-   "authors": [
-    "Jianqiao Zeng",
-    "Ruocheng Wang",
-    "Yanzhi Liu",
-    "Hao Xiong",
-    "Junchi Yan"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71127"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-553",
    "conference": "NeurIPS",
@@ -126,6 +102,29 @@
    "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
    "links": {
     "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-215",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
+   "authors": [
+    "Junlin Han",
+    "Shengbang Tong",
+    "David Fan",
+    "Yufan Ren",
+    "Koustuv Sinha",
+    "Philip Torr",
+    "Filippos Kokkinos"
+   ],
+   "affiliation": "University of Oxford",
+   "summary": "Explore and understand the visual priors within LLMs and thus build better MLLMs.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=pfw176o1YJ",
     "arxiv": "",
     "detail": ""
    }
