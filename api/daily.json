@@ -1,61 +1,40 @@
 {
  "schema_version": 1,
- "date": "2026-08-20",
+ "date": "2026-08-21",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 231,
-  "position": 231,
+  "day_index": 232,
+  "position": 232,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-88",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "CoEvol-NO: State and Coordinate Co-Evolution with an Error-Driven Predictor-Corrector Paradigm for Neural Operator Transformer",
+  "uid": "neurips-2025-spotlight-553",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Physics-Driven Spatiotemporal Modeling for AI-Generated Video Detection",
   "authors": [
-   "Jianqiao Zeng",
-   "Ruocheng Wang",
-   "Yanzhi Liu",
-   "Hao Xiong",
-   "Junchi Yan"
+   "Shuhai Zhang",
+   "ZiHao Lian",
+   "Jiahao Yang",
+   "Daiyuan Li",
+   "Guoxuan Pang",
+   "Feng Liu",
+   "Bo Han",
+   "Shutao Li",
+   "Mingkui Tan"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "AI-generated videos have achieved near-perfect visual realism (e",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=HiBoJLCyEo",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71127"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-553",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Physics-Driven Spatiotemporal Modeling for AI-Generated Video Detection",
-   "authors": [
-    "Shuhai Zhang",
-    "ZiHao Lian",
-    "Jiahao Yang",
-    "Daiyuan Li",
-    "Guoxuan Pang",
-    "Feng Liu",
-    "Bo Han",
-    "Shutao Li",
-    "Mingkui Tan"
-   ],
-   "affiliation": "",
-   "summary": "AI-generated videos have achieved near-perfect visual realism (e",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=HiBoJLCyEo",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-107",
    "conference": "NeurIPS",
@@ -125,6 +104,26 @@
    "summary": "Explore and understand the visual priors within LLMs and thus build better MLLMs.",
    "links": {
     "openreview": "https://openreview.net/forum?id=pfw176o1YJ",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-47",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain",
+   "authors": [
+    "Trinity Chung",
+    "Yuchen Shen",
+    "Nathan Kong",
+    "Aran Nayebi"
+   ],
+   "affiliation": "",
+   "summary": "Task-optimized convolutional recurrent neural networks trained on realistic tactile inputs align with rodent somatosensory data, suggesting brain tactile processing uses temporally-precise representations shaped by categorization-driven optimization.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=m7MD0sa8Re",
     "arxiv": "",
     "detail": ""
    }
