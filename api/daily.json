@@ -1,65 +1,39 @@
 {
  "schema_version": 1,
- "date": "2026-08-22",
+ "date": "2026-08-23",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 233,
-  "position": 233,
+  "day_index": 234,
+  "position": 234,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-107",
+  "uid": "neurips-2025-spotlight-163",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Prismatic Synthesis: Gradient-based Data Diversification Boosts Generalization in LLM Reasoning",
+  "title": "ARIA: Training Language Agents with Intention-driven Reward Aggregation",
   "authors": [
-   "Jaehun Jung",
-   "Seungju Han",
-   "Ximing Lu",
-   "Skyler Hallinan",
-   "David Acuna",
-   "Shrimai Prabhumoye",
-   "Mostofa Patwary",
-   "Mohammad Shoeybi",
-   "Bryan Catanzaro",
-   "Yejin Choi"
+   "Ruihan Yang",
+   "Yikai Zhang",
+   "Aili Chen",
+   "Xintao Wang",
+   "Jiangjie Chen",
+   "Siyu Yuan",
+   "Deqing Yang",
+   "Yanghua Xiao"
   ],
   "affiliation": "",
-  "summary": "Data diversity is crucial for training a strong language model",
+  "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
   "links": {
-   "openreview": "https://openreview.net/forum?id=R0dC7Xzwbk",
+   "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-163",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "ARIA: Training Language Agents with Intention-driven Reward Aggregation",
-   "authors": [
-    "Ruihan Yang",
-    "Yikai Zhang",
-    "Aili Chen",
-    "Xintao Wang",
-    "Jiangjie Chen",
-    "Siyu Yuan",
-    "Deqing Yang",
-    "Yanghua Xiao"
-   ],
-   "affiliation": "",
-   "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-215",
    "conference": "ICLR",
@@ -119,6 +93,26 @@
    "summary": "Recent work has shown that the generalization ability of image diffusion models arises from the locality properties of the trained neural network",
    "links": {
     "openreview": "https://openreview.net/forum?id=skunuOdavO",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-191",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm",
+   "authors": [
+    "Noah Amsel",
+    "David Persson",
+    "Christopher Musco",
+    "Robert M. Gower"
+   ],
+   "affiliation": "NYU, New York University",
+   "summary": "We introduce a GPU-friendly algorithm for computing the polar decomposition of a matrix to low accuracy that is optimal in its class. This improves Muon.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=yRtgZ1K8hO",
     "arxiv": "",
     "detail": ""
    }
