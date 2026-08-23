@@ -1,62 +1,38 @@
 {
  "schema_version": 1,
- "date": "2026-08-23",
+ "date": "2026-08-24",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 234,
-  "position": 234,
+  "day_index": 235,
+  "position": 235,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-163",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "ARIA: Training Language Agents with Intention-driven Reward Aggregation",
+  "uid": "iclr-2026-oral-215",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
   "authors": [
-   "Ruihan Yang",
-   "Yikai Zhang",
-   "Aili Chen",
-   "Xintao Wang",
-   "Jiangjie Chen",
-   "Siyu Yuan",
-   "Deqing Yang",
-   "Yanghua Xiao"
+   "Junlin Han",
+   "Shengbang Tong",
+   "David Fan",
+   "Yufan Ren",
+   "Koustuv Sinha",
+   "Philip Torr",
+   "Filippos Kokkinos"
   ],
-  "affiliation": "",
-  "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
+  "affiliation": "University of Oxford",
+  "summary": "Explore and understand the visual priors within LLMs and thus build better MLLMs.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
+   "openreview": "https://openreview.net/forum?id=pfw176o1YJ",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-215",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
-   "authors": [
-    "Junlin Han",
-    "Shengbang Tong",
-    "David Fan",
-    "Yufan Ren",
-    "Koustuv Sinha",
-    "Philip Torr",
-    "Filippos Kokkinos"
-   ],
-   "affiliation": "University of Oxford",
-   "summary": "Explore and understand the visual priors within LLMs and thus build better MLLMs.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=pfw176o1YJ",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-47",
    "conference": "NeurIPS",
@@ -113,6 +89,25 @@
    "summary": "We introduce a GPU-friendly algorithm for computing the polar decomposition of a matrix to low accuracy that is optimal in its class. This improves Muon.",
    "links": {
     "openreview": "https://openreview.net/forum?id=yRtgZ1K8hO",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-198",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "SGCD: Stain-Guided CycleDiffusion for Unsupervised Domain Adaptation of Histopathology Image Classification",
+   "authors": [
+    "Hsi-Ling Chen",
+    "Chun-Shien Lu",
+    "Pau-Choo Chung"
+   ],
+   "affiliation": "",
+   "summary": "The effectiveness of domain translation in addressing image-based problems of Unsupervised Domain Adaptation (UDA) depends on the quality of the translated images and the preservation of crucial discr",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=z2SGaPIhLT",
     "arxiv": "",
     "detail": ""
    }
