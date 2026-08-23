@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Tara Akhound-Sadegh, Jungyoon Lee et al. — Sampling efficiently from a target unnormalized probability density remains a core…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, diffusion, efficient">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-progressive-inference-time-annealing-of-diffusion-models-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Progressive Inference-Time Annealing of Diffusion Models for… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Tara Akhound-Sadegh, Jungyoon Lee et al. — Sampling efficiently from a target unnormalized probability density remains a core…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-progressive-inference-time-annealing-of-diffusion-models-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Progressive Inference-Time Annealing of Diffusion Models for… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Tara Akhound-Sadegh, Jungyoon Lee et al. — Sampling efficiently from a target unnormalized probability density remains a core…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-progressive-inference-time-annealing-of-diffusion-models-for/#article",
+   "headline": "Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities",
+   "name": "Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-progressive-inference-time-annealing-of-diffusion-models-for/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Tara Akhound-Sadegh"
+    },
+    {
+     "@type": "Person",
+     "name": "Jungyoon Lee"
+    },
+    {
+     "@type": "Person",
+     "name": "Joey Bose"
+    },
+    {
+     "@type": "Person",
+     "name": "Valentin De Bortoli"
+    },
+    {
+     "@type": "Person",
+     "name": "Arnaud Doucet"
+    },
+    {
+     "@type": "Person",
+     "name": "Michael M. Bronstein"
+    },
+    {
+     "@type": "Person",
+     "name": "Dominique Beaini"
+    },
+    {
+     "@type": "Person",
+     "name": "Siamak Ravanbakhsh"
+    },
+    {
+     "@type": "Person",
+     "name": "Kirill Neklyudov"
+    },
+    {
+     "@type": "Person",
+     "name": "Alexander Tong"
+    }
+   ],
+   "description": "Sampling efficiently from a target unnormalized probability density remains a core challenge, with relevance across countless high-impact scientific applications…",
+   "keywords": [
+    "diffusion",
+    "efficient"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=vf2GHcxzMV"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-progressive-inference-time-annealing-of-diffusion-models-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Tara Akhound-Sadegh, Jungyoon Lee, Joey Bose, Valentin De Bortoli, Arnaud Doucet, Michael M. Bronstein, Dominique Beaini, Siamak Ravanbakhsh, Kirill Neklyudov, Alexander Tong</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Sampling efficiently from a target unnormalized probability density remains a core challenge, with relevance across countless high-impact scientific applications…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=vf2GHcxzMV" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=vf2GHcxzMV" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">diffusion</span>
+<span class="chip">efficient</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-lemica-lexicographic-minimax-path-caching-for-efficient/">LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-dico-revitalizing-convnets-for-scalable-and-efficient/">DiCo: Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/">GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-universal-inverse-distillation-for-matching-models-with-real/">Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs)</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-dcfold-efficient-protein-structure-generation-with-single/">DCFold: Efficient Protein Structure Generation with Single Forward Pass</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-on-the-reasoning-abilities-of-masked-diffusion-language/">On the Reasoning Abilities of Masked Diffusion Language Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

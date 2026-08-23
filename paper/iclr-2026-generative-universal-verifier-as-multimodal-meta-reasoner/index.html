@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generative Universal Verifier as Multimodal Meta-Reasoner — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Xinchen Zhang, Xiaoying Zhang et al. — We introduce *Generative Universal Verifier*, a novel concept and plugin designed for…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, vision-language, language model, multimodal, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Generative Universal Verifier as Multimodal Meta-Reasoner | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Xinchen Zhang, Xiaoying Zhang et al. — We introduce *Generative Universal Verifier*, a novel concept and plugin designed for…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generative Universal Verifier as Multimodal Meta-Reasoner | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Xinchen Zhang, Xiaoying Zhang et al. — We introduce *Generative Universal Verifier*, a novel concept and plugin designed for…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/#article",
+   "headline": "Generative Universal Verifier as Multimodal Meta-Reasoner",
+   "name": "Generative Universal Verifier as Multimodal Meta-Reasoner",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Xinchen Zhang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "ByteDance Seed"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaoying Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Youbin Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yanbin Cao"
+    },
+    {
+     "@type": "Person",
+     "name": "Renrui Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ruihang Chu"
+    },
+    {
+     "@type": "Person",
+     "name": "Ling Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yujiu Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Guang Shi"
+    }
+   ],
+   "description": "We introduce *Generative Universal Verifier*, a novel concept and plugin designed for next-generation multimodal reasoning in vision-language models and unified multimodal models, providing the fundamental capability of reflection and refinement on visual outcomes during the reasoning and generation process. This work makes three main contributi...",
+   "keywords": [
+    "vision-language",
+    "language model",
+    "multimodal",
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=DM0Y0oL33T"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Generative Universal Verifier as Multimodal Meta-Reasoner",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Generative Universal Verifier as Multimodal Meta-Reasoner</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Xinchen Zhang, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, Ling Yang, Yujiu Yang, Guang Shi</dd>
+<dt>Affiliation</dt><dd>ByteDance Seed</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We introduce *Generative Universal Verifier*, a novel concept and plugin designed for next-generation multimodal reasoning in vision-language models and unified multimodal models, providing the fundamental capability of reflection and refinement on visual outcomes during the reasoning and generation process. This work makes three main contributi...</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=DM0Y0oL33T" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=DM0Y0oL33T" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">vision-language</span>
+<span class="chip">language model</span>
+<span class="chip">multimodal</span>
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../neurips-2025-lavida-a-large-diffusion-language-model-for-multimodal/">LaViDa: A Large Diffusion Language Model for Multimodal Understanding</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-visual-planning-let-s-think-only-with-images/">Visual Planning: Let's Think Only with Images</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-emotionthinker-prosody-aware-reinforcement-learning-for/">EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-3viewsense-spatial-and-mental-perspective-reasoning-from/">3ViewSense: Spatial and Mental Perspective Reasoning from Orthographic Views in Vision-Language Models</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

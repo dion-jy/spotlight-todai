@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Huanjin Yao, Jiaxing Huang et al. — In this work, we aim to develop an MLLM that understands and solves questions by learning to…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, reasoning, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mulberry-empowering-mllm-with-o1-like-reasoning-and/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Huanjin Yao, Jiaxing Huang et al. — In this work, we aim to develop an MLLM that understands and solves questions by learning to…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mulberry-empowering-mllm-with-o1-like-reasoning-and/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Huanjin Yao, Jiaxing Huang et al. — In this work, we aim to develop an MLLM that understands and solves questions by learning to…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mulberry-empowering-mllm-with-o1-like-reasoning-and/#article",
+   "headline": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
+   "name": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mulberry-empowering-mllm-with-o1-like-reasoning-and/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Huanjin Yao"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiaxing Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenhao Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jingyi Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yibo Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Shunyu Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yingjie Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "YuXin Song"
+    },
+    {
+     "@type": "Person",
+     "name": "Haocheng Feng"
+    },
+    {
+     "@type": "Person",
+     "name": "Li Shen"
+    },
+    {
+     "@type": "Person",
+     "name": "Dacheng Tao"
+    }
+   ],
+   "description": "In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer…",
+   "keywords": [
+    "reasoning",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=lwOV2ACEK9"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mulberry-empowering-mllm-with-o1-like-reasoning-and/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Huanjin Yao, Jiaxing Huang, Wenhao Wu, Jingyi Zhang, Yibo Wang, Shunyu Liu, Yingjie Wang, YuXin Song, Haocheng Feng, Li Shen, Dacheng Tao</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=lwOV2ACEK9" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=lwOV2ACEK9" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reasoning</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-does-reinforcement-learning-really-incentivize-reasoning/">Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-savvy-spatial-awareness-via-audio-visual-llms-through-seeing/">SAVVY: Spatial Awareness via Audio-Visual LLMs through Seeing and Hearing</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-acesearcher-bootstrapping-reasoning-and-search-for-llms-via/">AceSearcher: Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-how-do-transformers-learn-implicit-reasoning/">How do Transformers Learn Implicit Reasoning?</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-diversity-aware-policy-optimization-for-large-language-model/">Diversity-Aware Policy Optimization for Large Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

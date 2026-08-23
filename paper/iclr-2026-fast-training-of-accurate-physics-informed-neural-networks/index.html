@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fast training of accurate physics-informed neural networks without gradient descent — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Chinmay Datar, Taniya Kapoor et al. — Our approach - Frozen-PINNs addresses longstanding training and accuracy bottlenecks of…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, causality, physics, causal">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-training-of-accurate-physics-informed-neural-networks/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fast training of accurate physics-informed neural networks without gradient… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Chinmay Datar, Taniya Kapoor et al. — Our approach - Frozen-PINNs addresses longstanding training and accuracy bottlenecks of…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-training-of-accurate-physics-informed-neural-networks/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fast training of accurate physics-informed neural networks without gradient… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Chinmay Datar, Taniya Kapoor et al. — Our approach - Frozen-PINNs addresses longstanding training and accuracy bottlenecks of…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-training-of-accurate-physics-informed-neural-networks/#article",
+   "headline": "Fast training of accurate physics-informed neural networks without gradient descent",
+   "name": "Fast training of accurate physics-informed neural networks without gradient descent",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-training-of-accurate-physics-informed-neural-networks/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Chinmay Datar",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Technische Universität München"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Taniya Kapoor"
+    },
+    {
+     "@type": "Person",
+     "name": "Abhishek Chandra"
+    },
+    {
+     "@type": "Person",
+     "name": "Qing Sun"
+    },
+    {
+     "@type": "Person",
+     "name": "Erik Lien Bolager"
+    },
+    {
+     "@type": "Person",
+     "name": "Iryna Burak"
+    },
+    {
+     "@type": "Person",
+     "name": "Anna Veselovska"
+    },
+    {
+     "@type": "Person",
+     "name": "Massimo Fornasier"
+    },
+    {
+     "@type": "Person",
+     "name": "Felix Dietrich"
+    }
+   ],
+   "description": "Our approach - Frozen-PINNs addresses longstanding training and accuracy bottlenecks of Physics-Informed Neural Networks (PINNs) and makes PINNs highly realize high-precision, temporal causality, and extremely fast training.",
+   "keywords": [
+    "causality",
+    "physics",
+    "causal"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=3VdSuh3sie"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Fast training of accurate physics-informed neural networks without gradient descent",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-training-of-accurate-physics-informed-neural-networks/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Fast training of accurate physics-informed neural networks without gradient descent</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Chinmay Datar, Taniya Kapoor, Abhishek Chandra, Qing Sun, Erik Lien Bolager, Iryna Burak, Anna Veselovska, Massimo Fornasier, Felix Dietrich</dd>
+<dt>Affiliation</dt><dd>Technische Universität München</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Our approach - Frozen-PINNs addresses longstanding training and accuracy bottlenecks of Physics-Informed Neural Networks (PINNs) and makes PINNs highly realize high-precision, temporal causality, and extremely fast training.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=3VdSuh3sie" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=3VdSuh3sie" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">causality</span>
+<span class="chip">physics</span>
+<span class="chip">causal</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../neurips-2025-causality-meets-locality-provably-generalizable-and-scalable/">Causality Meets Locality: Provably Generalizable and Scalable Policy Learning for Networked Systems</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-decomposing-interventional-causality-into-synergistic/">Decomposing Interventional Causality into Synergistic, Redundant, and Unique Components</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-addressing-divergent-representations-from-causal/">Addressing divergent representations from causal interventions on neural networks</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-exploratory-causal-inference-in-saence/">Exploratory Causal Inference in SAEnce</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-causal-structure-learning-in-hawkes-processes-with-complex/">Causal Structure Learning in Hawkes Processes with Complex Latent Confounder Networks</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-phyworldbench-a-comprehensive-evaluation-of-physical-realism/">$PhyWorldBench$: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

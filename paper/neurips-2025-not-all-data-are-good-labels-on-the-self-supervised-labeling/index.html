@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not All Data are Good Labels: On the Self-supervised Labeling for Time Series Forecasting — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Yuxuan Yang, Dalin Zhang et al. — Time Series Forecasting (TSF) is a crucial task in various domains, yet existing TSF models rely…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, self-supervised, time series">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-not-all-data-are-good-labels-on-the-self-supervised-labeling/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Not All Data are Good Labels: On the Self-supervised Labeling for… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Yuxuan Yang, Dalin Zhang et al. — Time Series Forecasting (TSF) is a crucial task in various domains, yet existing TSF models rely…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-not-all-data-are-good-labels-on-the-self-supervised-labeling/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Not All Data are Good Labels: On the Self-supervised Labeling for… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Yuxuan Yang, Dalin Zhang et al. — Time Series Forecasting (TSF) is a crucial task in various domains, yet existing TSF models rely…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-not-all-data-are-good-labels-on-the-self-supervised-labeling/#article",
+   "headline": "Not All Data are Good Labels: On the Self-supervised Labeling for Time Series Forecasting",
+   "name": "Not All Data are Good Labels: On the Self-supervised Labeling for Time Series Forecasting",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-not-all-data-are-good-labels-on-the-self-supervised-labeling/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yuxuan Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Dalin Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuxuan Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Hua Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Gang Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Huan Li"
+    }
+   ],
+   "description": "Time Series Forecasting (TSF) is a crucial task in various domains, yet existing TSF models rely heavily on high-quality data and insufficiently exploit all available data…",
+   "keywords": [
+    "self-supervised",
+    "time series"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=kQokjfoGjk"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Not All Data are Good Labels: On the Self-supervised Labeling for Time Series Forecasting",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-not-all-data-are-good-labels-on-the-self-supervised-labeling/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Not All Data are Good Labels: On the Self-supervised Labeling for Time Series Forecasting</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yuxuan Yang, Dalin Zhang, Yuxuan Liang, Hua Lu, Gang Chen, Huan Li</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Time Series Forecasting (TSF) is a crucial task in various domains, yet existing TSF models rely heavily on high-quality data and insufficiently exploit all available data…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=kQokjfoGjk" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=kQokjfoGjk" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">self-supervised</span>
+<span class="chip">time series</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-1000-layer-networks-for-self-supervised-rl-scaling-depth-can/">1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-qoq-med-building-multimodal-clinical-foundation-models-with/">QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-t-regs-minimum-spanning-tree-regularization-for-self/">T-REGS: Minimum Spanning Tree Regularization for Self-Supervised Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-abstain-mask-retain-core-time-series-prediction-by-adaptive/">Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss with Representation Consistency</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-self-supervised-learning-of-motion-concepts-by-optimizing/">Self-Supervised Learning of Motion Concepts by Optimizing Counterfactuals</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-maestro-adaptive-sparse-attention-and-robust-learning-for/">MAESTRO : Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

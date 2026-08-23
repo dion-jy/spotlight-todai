@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Head Pursuit: Probing Attention Specialization in Multimodal Transformers — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Lorenzo Basile, Valentino Maiorca et al. — Language and vision-language models have shown impressive performance across a wide…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, vision-language, language model, transformer, multimodal, attention">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Head Pursuit: Probing Attention Specialization in Multimodal… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Lorenzo Basile, Valentino Maiorca et al. — Language and vision-language models have shown impressive performance across a wide…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Head Pursuit: Probing Attention Specialization in Multimodal… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Lorenzo Basile, Valentino Maiorca et al. — Language and vision-language models have shown impressive performance across a wide…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/#article",
+   "headline": "Head Pursuit: Probing Attention Specialization in Multimodal Transformers",
+   "name": "Head Pursuit: Probing Attention Specialization in Multimodal Transformers",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Lorenzo Basile"
+    },
+    {
+     "@type": "Person",
+     "name": "Valentino Maiorca"
+    },
+    {
+     "@type": "Person",
+     "name": "Diego Doimo"
+    },
+    {
+     "@type": "Person",
+     "name": "Francesco Locatello"
+    },
+    {
+     "@type": "Person",
+     "name": "Alberto Cazzaniga"
+    }
+   ],
+   "description": "Language and vision-language models have shown impressive performance across a wide range of tasks, but their internal mechanisms remain only partly understood…",
+   "keywords": [
+    "vision-language",
+    "language model",
+    "transformer",
+    "multimodal",
+    "attention"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=WQ9rnkaUWm"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Head Pursuit: Probing Attention Specialization in Multimodal Transformers",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Head Pursuit: Probing Attention Specialization in Multimodal Transformers</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Lorenzo Basile, Valentino Maiorca, Diego Doimo, Francesco Locatello, Alberto Cazzaniga</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Language and vision-language models have shown impressive performance across a wide range of tasks, but their internal mechanisms remain only partly understood…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=WQ9rnkaUWm" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=WQ9rnkaUWm" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">vision-language</span>
+<span class="chip">language model</span>
+<span class="chip">transformer</span>
+<span class="chip">multimodal</span>
+<span class="chip">attention</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/">Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-towards-building-model-prompt-transferable-attackers-against/">Towards Building Model/Prompt-Transferable Attackers against Large Vision-Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-lavida-a-large-diffusion-language-model-for-multimodal/">LaViDa: A Large Diffusion Language Model for Multimodal Understanding</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/">Generative Universal Verifier as Multimodal Meta-Reasoner</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/">Instilling an Active Mind in Avatars via Cognitive Simulation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-learning-linear-attention-in-polynomial-time/">Learning Linear Attention in Polynomial Time</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

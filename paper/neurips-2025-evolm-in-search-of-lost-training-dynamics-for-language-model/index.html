@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Zhenting Qi, Fan Nie et al. — Modern language model (LM) training has been divided into multiple stages, making it difficult for…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, language model, pre-training, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-evolm-in-search-of-lost-training-dynamics-for-language-model/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Zhenting Qi, Fan Nie et al. — Modern language model (LM) training has been divided into multiple stages, making it difficult for…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-evolm-in-search-of-lost-training-dynamics-for-language-model/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Zhenting Qi, Fan Nie et al. — Modern language model (LM) training has been divided into multiple stages, making it difficult for…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-evolm-in-search-of-lost-training-dynamics-for-language-model/#article",
+   "headline": "EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning",
+   "name": "EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-evolm-in-search-of-lost-training-dynamics-for-language-model/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhenting Qi",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Harvard University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Fan Nie"
+    },
+    {
+     "@type": "Person",
+     "name": "Alexandre Alahi"
+    },
+    {
+     "@type": "Person",
+     "name": "James Zou"
+    },
+    {
+     "@type": "Person",
+     "name": "Himabindu Lakkaraju"
+    },
+    {
+     "@type": "Person",
+     "name": "Yilun Du"
+    },
+    {
+     "@type": "Person",
+     "name": "Eric P. Xing"
+    },
+    {
+     "@type": "Person",
+     "name": "Sham M. Kakade"
+    },
+    {
+     "@type": "Person",
+     "name": "Hanlin Zhang"
+    }
+   ],
+   "description": "Modern language model (LM) training has been divided into multiple stages, making it difficult for downstream developers to evaluate the impact of design choices made at each stage. We present EvoLM, a model suite that enables systematic and transparent analysis of LMs' training dynamics across pre-training, continued pre-training, supervised fine-…",
+   "keywords": [
+    "language model",
+    "pre-training",
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=B6bE2GC71a"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-evolm-in-search-of-lost-training-dynamics-for-language-model/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhenting Qi, Fan Nie, Alexandre Alahi, James Zou, Himabindu Lakkaraju, Yilun Du, Eric P. Xing, Sham M. Kakade, Hanlin Zhang</dd>
+<dt>Affiliation</dt><dd>Harvard University</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Modern language model (LM) training has been divided into multiple stages, making it difficult for downstream developers to evaluate the impact of design choices made at each stage. We present EvoLM, a model suite that enables systematic and transparent analysis of LMs' training dynamics across pre-training, continued pre-training, supervised fine-…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=B6bE2GC71a" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=B6bE2GC71a" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">language model</span>
+<span class="chip">pre-training</span>
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-from-condensation-to-rank-collapse-a-two-stage-analysis-of/">From Condensation to Rank Collapse: A Two-Stage Analysis of Transformer Training Dynamics</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-how-do-transformers-learn-implicit-reasoning/">How do Transformers Learn Implicit Reasoning?</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-diversity-aware-policy-optimization-for-large-language-model/">Diversity-Aware Policy Optimization for Large Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-ai-researcher-autonomous-scientific-innovation/">AI-Researcher: Autonomous Scientific Innovation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-logictree-improving-complex-reasoning-of-llms-via/">LogicTree: Improving Complex Reasoning of LLMs via Instantiated Multi-step Synthetic Logical Data</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

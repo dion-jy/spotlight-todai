@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wider or Deeper?  Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Yuichi Inoue, Kou Misaki et al. — Recent advances demonstrate that increasing inference-time computation can significantly boost…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, large language model, language model, reasoning, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-wider-or-deeper-scaling-llm-inference-time-compute-with/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Yuichi Inoue, Kou Misaki et al. — Recent advances demonstrate that increasing inference-time computation can significantly boost…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-wider-or-deeper-scaling-llm-inference-time-compute-with/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Yuichi Inoue, Kou Misaki et al. — Recent advances demonstrate that increasing inference-time computation can significantly boost…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-wider-or-deeper-scaling-llm-inference-time-compute-with/#article",
+   "headline": "Wider or Deeper?  Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search",
+   "name": "Wider or Deeper?  Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-wider-or-deeper-scaling-llm-inference-time-compute-with/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yuichi Inoue"
+    },
+    {
+     "@type": "Person",
+     "name": "Kou Misaki"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuki Imajuku"
+    },
+    {
+     "@type": "Person",
+     "name": "So Kuroki"
+    },
+    {
+     "@type": "Person",
+     "name": "Taishi Nakamura"
+    },
+    {
+     "@type": "Person",
+     "name": "Takuya Akiba"
+    }
+   ],
+   "description": "Recent advances demonstrate that increasing inference-time computation can significantly boost the reasoning capabilities of large language models (LLMs)",
+   "keywords": [
+    "large language model",
+    "language model",
+    "reasoning",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=jAsr5GHt3P"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Wider or Deeper?  Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-wider-or-deeper-scaling-llm-inference-time-compute-with/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Wider or Deeper?  Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yuichi Inoue, Kou Misaki, Yuki Imajuku, So Kuroki, Taishi Nakamura, Takuya Akiba</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Recent advances demonstrate that increasing inference-time computation can significantly boost the reasoning capabilities of large language models (LLMs)</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=jAsr5GHt3P" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=jAsr5GHt3P" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">reasoning</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-how-do-transformers-learn-implicit-reasoning/">How do Transformers Learn Implicit Reasoning?</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-diversity-aware-policy-optimization-for-large-language-model/">Diversity-Aware Policy Optimization for Large Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-ai-researcher-autonomous-scientific-innovation/">AI-Researcher: Autonomous Scientific Innovation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-logictree-improving-complex-reasoning-of-llms-via/">LogicTree: Improving Complex Reasoning of LLMs via Instantiated Multi-step Synthetic Logical Data</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-enigmata-scaling-logical-reasoning-in-large-language-models/">Enigmata:  Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

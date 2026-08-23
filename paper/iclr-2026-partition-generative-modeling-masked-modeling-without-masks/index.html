@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Partition Generative Modeling: Masked Modeling Without Masks — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Justin Deschenaux, Lan Tran et al. — We show that it is possible to train masked generative models without using MASK tokens, resulting in…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, generative model">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-partition-generative-modeling-masked-modeling-without-masks/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Partition Generative Modeling: Masked Modeling Without Masks | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Justin Deschenaux, Lan Tran et al. — We show that it is possible to train masked generative models without using MASK tokens, resulting in…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-partition-generative-modeling-masked-modeling-without-masks/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Partition Generative Modeling: Masked Modeling Without Masks | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Justin Deschenaux, Lan Tran et al. — We show that it is possible to train masked generative models without using MASK tokens, resulting in…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-partition-generative-modeling-masked-modeling-without-masks/#article",
+   "headline": "Partition Generative Modeling: Masked Modeling Without Masks",
+   "name": "Partition Generative Modeling: Masked Modeling Without Masks",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-partition-generative-modeling-masked-modeling-without-masks/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Justin Deschenaux",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "EPFL - EPF Lausanne"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Lan Tran"
+    },
+    {
+     "@type": "Person",
+     "name": "Caglar Gulcehre"
+    }
+   ],
+   "description": "We show that it is possible to train masked generative models without using MASK tokens, resulting in efficiency gains at inference.",
+   "keywords": [
+    "generative model"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=vEh1ceS154"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Partition Generative Modeling: Masked Modeling Without Masks",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-partition-generative-modeling-masked-modeling-without-masks/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Partition Generative Modeling: Masked Modeling Without Masks</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Justin Deschenaux, Lan Tran, Caglar Gulcehre</dd>
+<dt>Affiliation</dt><dd>EPFL - EPF Lausanne</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We show that it is possible to train masked generative models without using MASK tokens, resulting in efficiency gains at inference.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=vEh1ceS154" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=vEh1ceS154" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">generative model</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-neon-negative-extrapolation-from-self-training-improves/">Neon: Negative Extrapolation From Self-Training Improves Image Generation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-structured-flow-autoencoders-learning-structured/">Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-exploring-synthesizable-chemical-space-with-iterative/">Exploring Synthesizable Chemical Space with Iterative Pathway Refinements</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-text-to-3d-by-stitching-a-multi-view-reconstruction-network/">Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-flashworld-high-quality-3d-scene-generation-within-seconds/">FlashWorld: High-quality 3D Scene Generation within Seconds</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-generative-human-geometry-distribution/">Generative Human Geometry Distribution</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

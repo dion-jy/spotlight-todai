@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Zhen Xu, Zhengqin Li et al. — We propose 4DGT, a 4D Gaussian-based Transformer model for dynamic scene reconstruction, trained…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, transformer, video">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-4dgt-learning-a-4d-gaussian-transformer-using-real-world/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Zhen Xu, Zhengqin Li et al. — We propose 4DGT, a 4D Gaussian-based Transformer model for dynamic scene reconstruction, trained…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-4dgt-learning-a-4d-gaussian-transformer-using-real-world/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Zhen Xu, Zhengqin Li et al. — We propose 4DGT, a 4D Gaussian-based Transformer model for dynamic scene reconstruction, trained…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-4dgt-learning-a-4d-gaussian-transformer-using-real-world/#article",
+   "headline": "4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos",
+   "name": "4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-4dgt-learning-a-4d-gaussian-transformer-using-real-world/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhen Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhengqin Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhao Dong"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaowei Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Richard Newcombe"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhaoyang Lv"
+    }
+   ],
+   "description": "We propose 4DGT, a 4D Gaussian-based Transformer model for dynamic scene reconstruction, trained entirely on real-world monocular posed videos…",
+   "keywords": [
+    "transformer",
+    "video"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=qMRFNxioPC"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-4dgt-learning-a-4d-gaussian-transformer-using-real-world/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhen Xu, Zhengqin Li, Zhao Dong, Xiaowei Zhou, Richard Newcombe, Zhaoyang Lv</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We propose 4DGT, a 4D Gaussian-based Transformer model for dynamic scene reconstruction, trained entirely on real-world monocular posed videos…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=qMRFNxioPC" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=qMRFNxioPC" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">transformer</span>
+<span class="chip">video</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-sparse-videogen2-accelerate-video-generation-with-sparse/">Sparse VideoGen2: Accelerate Video Generation with  Sparse Attention via Semantic-Aware Permutation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-omnisync-towards-universal-lip-synchronization-via-diffusion/">OmniSync: Towards Universal Lip Synchronization via Diffusion Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-let-features-decide-their-own-solvers-hybrid-feature-caching/">Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/">Instilling an Active Mind in Avatars via Cognitive Simulation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-sana-video-efficient-video-generation-with-block-linear/">SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-generalized-linear-mode-connectivity-for-transformers/">Generalized Linear Mode Connectivity for Transformers</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

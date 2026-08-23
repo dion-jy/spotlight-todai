@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vision Transformers Don't Need Trained Registers — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Nicholas Jiang, Amil Dravid et al. — We investigate the mechanism underlying a previously identified phenomenon in Vision…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, transformer, attention">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-vision-transformers-don-t-need-trained-registers/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vision Transformers Don't Need Trained Registers | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Nicholas Jiang, Amil Dravid et al. — We investigate the mechanism underlying a previously identified phenomenon in Vision…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-vision-transformers-don-t-need-trained-registers/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vision Transformers Don't Need Trained Registers | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Nicholas Jiang, Amil Dravid et al. — We investigate the mechanism underlying a previously identified phenomenon in Vision…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-vision-transformers-don-t-need-trained-registers/#article",
+   "headline": "Vision Transformers Don't Need Trained Registers",
+   "name": "Vision Transformers Don't Need Trained Registers",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-vision-transformers-don-t-need-trained-registers/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Nicholas Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Amil Dravid"
+    },
+    {
+     "@type": "Person",
+     "name": "Alexei A Efros"
+    },
+    {
+     "@type": "Person",
+     "name": "Yossi Gandelsman"
+    }
+   ],
+   "description": "We investigate the mechanism underlying a previously identified phenomenon in Vision Transformers -- the emergence of high-norm tokens that lead to noisy attention maps (Darcet et al…",
+   "keywords": [
+    "transformer",
+    "attention"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=bA02DmQN5d"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Vision Transformers Don't Need Trained Registers",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-vision-transformers-don-t-need-trained-registers/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Vision Transformers Don't Need Trained Registers</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Nicholas Jiang, Amil Dravid, Alexei A Efros, Yossi Gandelsman</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We investigate the mechanism underlying a previously identified phenomenon in Vision Transformers -- the emergence of high-norm tokens that lead to noisy attention maps (Darcet et al…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=bA02DmQN5d" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=bA02DmQN5d" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">transformer</span>
+<span class="chip">attention</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-learning-linear-attention-in-polynomial-time/">Learning Linear Attention in Polynomial Time</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-fixed-point-rnns-interpolating-from-diagonal-to-dense/">Fixed-Point RNNs: Interpolating from Diagonal to Dense</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-zeros-zero-sum-linear-attention-for-efficient-transformers/">ZeroS: Zero‑Sum Linear Attention for Efficient Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-quantum-doubly-stochastic-transformers/">Quantum Doubly Stochastic Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/">Head Pursuit: Probing Attention Specialization in Multimodal Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-two-heads-are-better-than-one-simulating-large-transformers/">Two Heads are Better than One: Simulating Large Transformers with Small Ones</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

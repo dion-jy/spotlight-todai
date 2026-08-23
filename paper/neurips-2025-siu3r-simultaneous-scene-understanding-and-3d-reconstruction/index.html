@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Qi Xu, Dongxu Wei et al. — Simultaneous understanding and 3D reconstruction plays an important role in developing end-to-end…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, alignment, 3d">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-siu3r-simultaneous-scene-understanding-and-3d-reconstruction/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Qi Xu, Dongxu Wei et al. — Simultaneous understanding and 3D reconstruction plays an important role in developing end-to-end…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-siu3r-simultaneous-scene-understanding-and-3d-reconstruction/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Qi Xu, Dongxu Wei et al. — Simultaneous understanding and 3D reconstruction plays an important role in developing end-to-end…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-siu3r-simultaneous-scene-understanding-and-3d-reconstruction/#article",
+   "headline": "SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment",
+   "name": "SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-siu3r-simultaneous-scene-understanding-and-3d-reconstruction/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Qi Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Dongxu Wei"
+    },
+    {
+     "@type": "Person",
+     "name": "Lingzhe Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenpu Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhangchi Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Shunping Ji"
+    },
+    {
+     "@type": "Person",
+     "name": "Peidong Liu"
+    }
+   ],
+   "description": "Simultaneous understanding and 3D reconstruction plays an important role in developing end-to-end embodied intelligent systems…",
+   "keywords": [
+    "alignment",
+    "3d"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=GtImvTta8x"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-siu3r-simultaneous-scene-understanding-and-3d-reconstruction/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Qi Xu, Dongxu Wei, Lingzhe Zhao, Wenpu Li, Zhangchi Huang, Shunping Ji, Peidong Liu</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Simultaneous understanding and 3D reconstruction plays an important role in developing end-to-end embodied intelligent systems…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=GtImvTta8x" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=GtImvTta8x" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">alignment</span>
+<span class="chip">3d</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-text-to-3d-by-stitching-a-multi-view-reconstruction-network/">Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-interactive-cross-modal-learning-for-text-3d-scene-retrieval/">Interactive Cross-modal Learning for Text-3D Scene Retrieval</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-openhoi-open-world-hand-object-interaction-synthesis-with/">OpenHOI: Open-World Hand-Object Interaction Synthesis with Multimodal Large Language Model</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-representation-entanglement-for-generation-training/">Representation Entanglement for Generation: Training Diffusion Transformers Is Much Easier Than You Think</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-dynam3d-dynamic-layered-3d-tokens-empower-vlm-for-vision-and/">Dynam3D: Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-hyperet-efficient-training-in-hyperbolic-space-for-multi/">HyperET: Efficient Training in Hyperbolic Space for Multi-modal Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

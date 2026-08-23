@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SparseMVC: Probing Cross-view Sparsity Variations for Multi-view Clustering — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Ruimeng Liu, Xin Zou et al. — Existing multi-view clustering methods employ various strategies to address data-level sparsity and…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, sparsity">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-sparsemvc-probing-cross-view-sparsity-variations-for-multi/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SparseMVC: Probing Cross-view Sparsity Variations for Multi-view… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Ruimeng Liu, Xin Zou et al. — Existing multi-view clustering methods employ various strategies to address data-level sparsity and…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-sparsemvc-probing-cross-view-sparsity-variations-for-multi/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SparseMVC: Probing Cross-view Sparsity Variations for Multi-view… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Ruimeng Liu, Xin Zou et al. — Existing multi-view clustering methods employ various strategies to address data-level sparsity and…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-sparsemvc-probing-cross-view-sparsity-variations-for-multi/#article",
+   "headline": "SparseMVC: Probing Cross-view Sparsity Variations for Multi-view Clustering",
+   "name": "SparseMVC: Probing Cross-view Sparsity Variations for Multi-view Clustering",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-sparsemvc-probing-cross-view-sparsity-variations-for-multi/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Ruimeng Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Xin Zou"
+    },
+    {
+     "@type": "Person",
+     "name": "Chang Tang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiao Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Xingchen Hu"
+    },
+    {
+     "@type": "Person",
+     "name": "Kun Sun"
+    },
+    {
+     "@type": "Person",
+     "name": "Xinwang Liu"
+    }
+   ],
+   "description": "Existing multi-view clustering methods employ various strategies to address data-level sparsity and view-level dynamic fusion…",
+   "keywords": [
+    "sparsity"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=cvJvk6oYfC"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "SparseMVC: Probing Cross-view Sparsity Variations for Multi-view Clustering",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-sparsemvc-probing-cross-view-sparsity-variations-for-multi/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>SparseMVC: Probing Cross-view Sparsity Variations for Multi-view Clustering</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Ruimeng Liu, Xin Zou, Chang Tang, Xiao Zheng, Xingchen Hu, Kun Sun, Xinwang Liu</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Existing multi-view clustering methods employ various strategies to address data-level sparsity and view-level dynamic fusion…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=cvJvk6oYfC" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=cvJvk6oYfC" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">sparsity</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-gated-attention-for-large-language-models-non-linearity/">Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-twilight-adaptive-attention-sparsity-with-hierarchical-top-p/">Twilight: Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-path-enhanced-contrastive-learning-for-recommendation/">Path-Enhanced Contrastive Learning for Recommendation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fpsattention-training-aware-fp8-and-sparsity-co-design-for/">FPSAttention: Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-mozart-modularized-and-efficient-moe-training-on-3-5d-wafer/">Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-differentiable-sparsity-via-d-gating-simple-and-versatile/">Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

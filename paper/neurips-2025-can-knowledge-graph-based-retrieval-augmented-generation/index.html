@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need? — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Junchi Yu, Yujie Liu et al. — Retrieval-Augmented Generation (RAG) based on knowledge graphs (KGs) enhances large language models…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, large language model, language model, retrieval, graph, llm, rag">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-can-knowledge-graph-based-retrieval-augmented-generation/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Can Knowledge-Graph-based Retrieval Augmented Generation Really… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Junchi Yu, Yujie Liu et al. — Retrieval-Augmented Generation (RAG) based on knowledge graphs (KGs) enhances large language models…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-can-knowledge-graph-based-retrieval-augmented-generation/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Can Knowledge-Graph-based Retrieval Augmented Generation Really… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Junchi Yu, Yujie Liu et al. — Retrieval-Augmented Generation (RAG) based on knowledge graphs (KGs) enhances large language models…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-can-knowledge-graph-based-retrieval-augmented-generation/#article",
+   "headline": "Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?",
+   "name": "Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-can-knowledge-graph-based-retrieval-augmented-generation/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Junchi Yu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yujie Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jindong Gu"
+    },
+    {
+     "@type": "Person",
+     "name": "Philip Torr"
+    },
+    {
+     "@type": "Person",
+     "name": "Dongzhan Zhou"
+    }
+   ],
+   "description": "Retrieval-Augmented Generation (RAG) based on knowledge graphs (KGs) enhances large language models (LLMs) by providing structured and interpretable external knowledge…",
+   "keywords": [
+    "large language model",
+    "language model",
+    "retrieval",
+    "graph",
+    "llm",
+    "rag"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=po0eyoYFUa"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-can-knowledge-graph-based-retrieval-augmented-generation/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Junchi Yu, Yujie Liu, Jindong Gu, Philip Torr, Dongzhan Zhou</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Retrieval-Augmented Generation (RAG) based on knowledge graphs (KGs) enhances large language models (LLMs) by providing structured and interpretable external knowledge…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=po0eyoYFUa" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=po0eyoYFUa" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">retrieval</span>
+<span class="chip">graph</span>
+<span class="chip">llm</span>
+<span class="chip">rag</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-understanding-parametric-and-contextual-knowledge/">Understanding Parametric and Contextual Knowledge Reconciliation within Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-scent-of-knowledge-optimizing-search-enhanced-reasoning-with/">Scent of Knowledge: Optimizing Search-Enhanced Reasoning with Information Foraging</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/">Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-twilight-adaptive-attention-sparsity-with-hierarchical-top-p/">Twilight: Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-distilling-llm-agent-into-small-models-with-retrieval-and/">Distilling LLM Agent into Small Models with Retrieval and Code Tools</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

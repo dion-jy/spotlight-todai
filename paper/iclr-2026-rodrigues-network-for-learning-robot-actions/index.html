@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rodrigues Network for Learning Robot Actions — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Jialiang Zhang, Haoran Geng et al. — We design a new neural network, the Rodrigues Network (RodriNet), that addresses the kinematic…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rodrigues-network-for-learning-robot-actions/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Rodrigues Network for Learning Robot Actions | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Jialiang Zhang, Haoran Geng et al. — We design a new neural network, the Rodrigues Network (RodriNet), that addresses the kinematic…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rodrigues-network-for-learning-robot-actions/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rodrigues Network for Learning Robot Actions | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Jialiang Zhang, Haoran Geng et al. — We design a new neural network, the Rodrigues Network (RodriNet), that addresses the kinematic…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rodrigues-network-for-learning-robot-actions/#article",
+   "headline": "Rodrigues Network for Learning Robot Actions",
+   "name": "Rodrigues Network for Learning Robot Actions",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rodrigues-network-for-learning-robot-actions/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jialiang Zhang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Peking University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Haoran Geng"
+    },
+    {
+     "@type": "Person",
+     "name": "Yang You"
+    },
+    {
+     "@type": "Person",
+     "name": "Congyue Deng"
+    },
+    {
+     "@type": "Person",
+     "name": "Pieter Abbeel"
+    },
+    {
+     "@type": "Person",
+     "name": "Jitendra Malik"
+    },
+    {
+     "@type": "Person",
+     "name": "Leonidas Guibas"
+    }
+   ],
+   "description": "We design a new neural network, the Rodrigues Network (RodriNet), that addresses the kinematic structural priors in articulated robot action learning.",
+   "sameAs": [
+    "https://openreview.net/forum?id=IZHk6BXBST"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Rodrigues Network for Learning Robot Actions",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rodrigues-network-for-learning-robot-actions/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Rodrigues Network for Learning Robot Actions</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jialiang Zhang, Haoran Geng, Yang You, Congyue Deng, Pieter Abbeel, Jitendra Malik, Leonidas Guibas</dd>
+<dt>Affiliation</dt><dd>Peking University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We design a new neural network, the Rodrigues Network (RodriNet), that addresses the kinematic structural priors in articulated robot action learning.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=IZHk6BXBST" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=IZHk6BXBST" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-spherical-watermark-encryption-free-lossless-watermarking/">Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-cybergym-evaluating-ai-agents-real-world-cybersecurity/">CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-omni-reward-towards-generalist-omni-modal-reward-modeling/">Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-energy-based-transformers-are-scalable-learners-and-thinkers/">Energy-Based Transformers are Scalable Learners and Thinkers</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-adaem-an-adaptively-and-automated-extensible-measurement-of/">AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-global-resolution-optimal-multi-draft-speculative-sampling/">Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Optimization</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

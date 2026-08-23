@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Zachary Charles, Gabriel Teston et al. — As we scale to more massive machine learning models, the frequent synchronization demands…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, language model, scaling law, efficient">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-communication-efficient-language-model-training-scales/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Communication-Efficient Language Model Training Scales Reliably and… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Zachary Charles, Gabriel Teston et al. — As we scale to more massive machine learning models, the frequent synchronization demands…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-communication-efficient-language-model-training-scales/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Communication-Efficient Language Model Training Scales Reliably and… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Zachary Charles, Gabriel Teston et al. — As we scale to more massive machine learning models, the frequent synchronization demands…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-communication-efficient-language-model-training-scales/#article",
+   "headline": "Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo",
+   "name": "Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-communication-efficient-language-model-training-scales/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zachary Charles"
+    },
+    {
+     "@type": "Person",
+     "name": "Gabriel Teston"
+    },
+    {
+     "@type": "Person",
+     "name": "Lucio M. Dery"
+    },
+    {
+     "@type": "Person",
+     "name": "J Keith Rush"
+    },
+    {
+     "@type": "Person",
+     "name": "Nova Fallen"
+    },
+    {
+     "@type": "Person",
+     "name": "Zachary Garrett"
+    },
+    {
+     "@type": "Person",
+     "name": "Arthur Szlam"
+    },
+    {
+     "@type": "Person",
+     "name": "Arthur Douillard"
+    }
+   ],
+   "description": "As we scale to more massive machine learning models, the frequent synchronization demands inherent in data-parallel approaches create significant slowdowns, posing a critical challenge to further scal…",
+   "keywords": [
+    "language model",
+    "scaling law",
+    "efficient"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=X4SCxcgb3O"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-communication-efficient-language-model-training-scales/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zachary Charles, Gabriel Teston, Lucio M. Dery, J Keith Rush, Nova Fallen, Zachary Garrett, Arthur Szlam, Arthur Douillard</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>As we scale to more massive machine learning models, the frequent synchronization demands inherent in data-parallel approaches create significant slowdowns, posing a critical challenge to further scal…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=X4SCxcgb3O" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=X4SCxcgb3O" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">language model</span>
+<span class="chip">scaling law</span>
+<span class="chip">efficient</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-elasticmm-efficient-multimodal-llms-serving-with-elastic/">ElasticMM: Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-hyperet-efficient-training-in-hyperbolic-space-for-multi/">HyperET: Efficient Training in Hyperbolic Space for Multi-modal Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-proxyspex-inference-efficient-interpretability-via-sparse/">ProxySPEX: Inference-Efficient Interpretability via Sparse Feature Interactions in LLMs</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-predictable-scale-part-ii-farseer-a-refined-scaling-law-in/">Predictable Scale (Part II) --- Farseer: A Refined Scaling Law in LLMs</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-ridgelora-matrix-ridge-enhanced-low-rank-adaptation-of-large/">RidgeLoRA: Matrix Ridge Enhanced Low-Rank Adaptation of Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

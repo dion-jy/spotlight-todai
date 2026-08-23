@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Tongtian Zhu, Tianyu Zhang et al. — We discover and theoretically explain why and when a single global parameter merging in decentralized…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, federated learning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-on-the-surprising-effectiveness-of-a-single-global-merging/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="On The Surprising Effectiveness of a Single Global Merging in Decentralized… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Tongtian Zhu, Tianyu Zhang et al. — We discover and theoretically explain why and when a single global parameter merging in decentralized…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-on-the-surprising-effectiveness-of-a-single-global-merging/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="On The Surprising Effectiveness of a Single Global Merging in Decentralized… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Tongtian Zhu, Tianyu Zhang et al. — We discover and theoretically explain why and when a single global parameter merging in decentralized…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-on-the-surprising-effectiveness-of-a-single-global-merging/#article",
+   "headline": "On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning",
+   "name": "On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-on-the-surprising-effectiveness-of-a-single-global-merging/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Tongtian Zhu",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Zhejiang University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Tianyu Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Mingze Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhanpeng Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Can Wang"
+    }
+   ],
+   "description": "We discover and theoretically explain why and when a single global parameter merging in decentralized learning can recover the performance of federated learning, even in highly heterogeneous and communication-constrained environments.",
+   "keywords": [
+    "federated learning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=zrFnwRHuQo"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-on-the-surprising-effectiveness-of-a-single-global-merging/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Tongtian Zhu, Tianyu Zhang, Mingze Wang, Zhanpeng Zhou, Can Wang</dd>
+<dt>Affiliation</dt><dd>Zhejiang University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We discover and theoretically explain why and when a single global parameter merging in decentralized learning can recover the performance of federated learning, even in highly heterogeneous and communication-constrained environments.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=zrFnwRHuQo" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=zrFnwRHuQo" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">federated learning</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../icml-2026-flatland-personalized-graph-federated-learning-via-tailored/">FlatLand: Personalized Graph Federated Learning via Tailored Lorentz Space</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-sketched-gaussian-mechanism-for-private-federated-learning/">Sketched Gaussian Mechanism for Private Federated Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-mitigating-the-privacy-utility-trade-off-in-decentralized/">Mitigating the Privacy–Utility Trade-off in Decentralized Federated Learning via f-Differential Privacy</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-sharp-gaussian-approximations-for-decentralized-federated/">Sharp Gaussian approximations for Decentralized Federated Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-normfit-a-lightweight-solution-for-few-shot-federated/">NormFit: A Lightweight Solution for Few-Shot Federated Learning with Non-IID Data</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-exploring-synthesizable-chemical-space-with-iterative/">Exploring Synthesizable Chemical Space with Iterative Pathway Refinements</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

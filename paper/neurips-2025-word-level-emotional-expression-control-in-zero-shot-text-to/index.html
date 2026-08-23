@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Tianrui Wang, Haoyu Wang et al. — While emotional text-to-speech (TTS) has made significant progress, most existing research…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, zero-shot, control, speech">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-word-level-emotional-expression-control-in-zero-shot-text-to/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Tianrui Wang, Haoyu Wang et al. — While emotional text-to-speech (TTS) has made significant progress, most existing research…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-word-level-emotional-expression-control-in-zero-shot-text-to/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Tianrui Wang, Haoyu Wang et al. — While emotional text-to-speech (TTS) has made significant progress, most existing research…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-word-level-emotional-expression-control-in-zero-shot-text-to/#article",
+   "headline": "Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis",
+   "name": "Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-word-level-emotional-expression-control-in-zero-shot-text-to/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Tianrui Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Haoyu Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Meng Ge"
+    },
+    {
+     "@type": "Person",
+     "name": "Cheng Gong"
+    },
+    {
+     "@type": "Person",
+     "name": "Chunyu Qiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziyang Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Zikang Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Guanrou Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaobao Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "EngSiong Chng"
+    },
+    {
+     "@type": "Person",
+     "name": "Xie Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Longbiao Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jianwu Dang"
+    }
+   ],
+   "description": "While emotional text-to-speech (TTS) has made significant progress, most existing research remains limited to utterance-level emotional expression and fails to support word-level control…",
+   "keywords": [
+    "zero-shot",
+    "control",
+    "speech"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=SYcggdxX6W"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-word-level-emotional-expression-control-in-zero-shot-text-to/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Tianrui Wang, Haoyu Wang, Meng Ge, Cheng Gong, Chunyu Qiang, Ziyang Ma, Zikang Huang, Guanrou Yang, Xiaobao Wang, EngSiong Chng, Xie Chen, Longbiao Wang, Jianwu Dang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>While emotional text-to-speech (TTS) has made significant progress, most existing research remains limited to utterance-level emotional expression and fails to support word-level control…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=SYcggdxX6W" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=SYcggdxX6W" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">zero-shot</span>
+<span class="chip">control</span>
+<span class="chip">speech</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-controlfusion-a-controllable-image-fusion-network-with/">ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/">Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-imagenet-trained-cnns-are-not-biased-towards-texture/">ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-perception-encoder-the-best-visual-embeddings-are-not-at-the/">Perception Encoder: The best visual embeddings are not at the output of the network</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-towards-reliable-code-as-policies-a-neuro-symbolic-framework/">Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

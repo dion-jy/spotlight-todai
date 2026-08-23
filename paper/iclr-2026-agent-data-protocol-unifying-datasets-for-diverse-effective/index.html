@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Yueqi Song, Ketan Ramaneti et al. — We propose Agent Data Protocol (ADP), a lightweight &quot;interlingua&quot; schema that standardizes…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, fine-tuning, dataset, agent, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-agent-data-protocol-unifying-datasets-for-diverse-effective/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Yueqi Song, Ketan Ramaneti et al. — We propose Agent Data Protocol (ADP), a lightweight &quot;interlingua&quot; schema that standardizes…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-agent-data-protocol-unifying-datasets-for-diverse-effective/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Yueqi Song, Ketan Ramaneti et al. — We propose Agent Data Protocol (ADP), a lightweight &quot;interlingua&quot; schema that standardizes…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-agent-data-protocol-unifying-datasets-for-diverse-effective/#article",
+   "headline": "Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents",
+   "name": "Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-agent-data-protocol-unifying-datasets-for-diverse-effective/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yueqi Song",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Carnegie Mellon University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Ketan Ramaneti"
+    },
+    {
+     "@type": "Person",
+     "name": "Zaid Sheikh"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziru Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Boyu Gou"
+    },
+    {
+     "@type": "Person",
+     "name": "Tianbao Xie"
+    },
+    {
+     "@type": "Person",
+     "name": "Yiheng Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Danyang Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Apurva Gandhi"
+    },
+    {
+     "@type": "Person",
+     "name": "Fan Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Joseph Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Tianyue Ou"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhihao Yuan"
+    },
+    {
+     "@type": "Person",
+     "name": "Frank F. Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Shuyan Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Xingyao Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiang Yue"
+    },
+    {
+     "@type": "Person",
+     "name": "Tao Yu"
+    },
+    {
+     "@type": "Person",
+     "name": "Huan Sun"
+    },
+    {
+     "@type": "Person",
+     "name": "Yu Su"
+    },
+    {
+     "@type": "Person",
+     "name": "Graham Neubig"
+    }
+   ],
+   "description": "We propose Agent Data Protocol (ADP), a lightweight \"interlingua\" schema that standardizes heterogeneous agent trajectories so datasets can plug into multiple agent SFT pipelines without per-dataset engineering.",
+   "keywords": [
+    "fine-tuning",
+    "dataset",
+    "agent",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=tG6301ORHd"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-agent-data-protocol-unifying-datasets-for-diverse-effective/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yueqi Song, Ketan Ramaneti, Zaid Sheikh, Ziru Chen, Boyu Gou, Tianbao Xie, Yiheng Xu, Danyang Zhang, Apurva Gandhi, Fan Yang, Joseph Liu, Tianyue Ou, Zhihao Yuan, Frank F. Xu, Shuyan Zhou, Xingyao Wang, Xiang Yue, Tao Yu, Huan Sun, Yu Su, Graham Neubig</dd>
+<dt>Affiliation</dt><dd>Carnegie Mellon University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We propose Agent Data Protocol (ADP), a lightweight &quot;interlingua&quot; schema that standardizes heterogeneous agent trajectories so datasets can plug into multiple agent SFT pipelines without per-dataset engineering.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=tG6301ORHd" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=tG6301ORHd" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">fine-tuning</span>
+<span class="chip">dataset</span>
+<span class="chip">agent</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-common-corpus-the-largest-collection-of-ethical-data-for-llm/">Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-medagentgym-a-scalable-agentic-training-environment-for-code/">MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-agentgym-rl-an-open-source-framework-to-train-llm-agents-for/">AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/">Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/">SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

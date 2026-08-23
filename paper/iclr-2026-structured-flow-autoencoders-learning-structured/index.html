@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Yidan Xu, Yixin Wang et al. — A framework that composes any probabilistic graphical model with flow matching, jointly learning structured…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, generative model, flow matching, graph">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-structured-flow-autoencoders-learning-structured/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Structured Flow Autoencoders: Learning Structured Probabilistic… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Yidan Xu, Yixin Wang et al. — A framework that composes any probabilistic graphical model with flow matching, jointly learning structured…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-structured-flow-autoencoders-learning-structured/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Structured Flow Autoencoders: Learning Structured Probabilistic… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Yidan Xu, Yixin Wang et al. — A framework that composes any probabilistic graphical model with flow matching, jointly learning structured…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-structured-flow-autoencoders-learning-structured/#article",
+   "headline": "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
+   "name": "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-structured-flow-autoencoders-learning-structured/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yidan Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yixin Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "XuanLong Nguyen"
+    }
+   ],
+   "description": "A framework that composes any probabilistic graphical model with flow matching, jointly learning structured latent representations and high-fidelity generative models through a single objective.",
+   "keywords": [
+    "generative model",
+    "flow matching",
+    "graph"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=KYdfvF2SZN"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-structured-flow-autoencoders-learning-structured/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yidan Xu, Yixin Wang, XuanLong Nguyen</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>A framework that composes any probabilistic graphical model with flow matching, jointly learning structured latent representations and high-fidelity generative models through a single objective.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=KYdfvF2SZN" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=KYdfvF2SZN" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">generative model</span>
+<span class="chip">flow matching</span>
+<span class="chip">graph</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../neurips-2025-mean-flows-for-one-step-generative-modeling/">Mean Flows for One-step Generative Modeling</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-car-flow-condition-aware-reparameterization-aligns-source/">CAR-Flow: Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-exchangeability-of-gnn-representations-with-applications-to/">Exchangeability of GNN Representations with Applications to Graph Retrieval</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-neon-negative-extrapolation-from-self-training-improves/">Neon: Negative Extrapolation From Self-Training Improves Image Generation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/">GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-falcon-few-step-accurate-likelihoods-for-continuous-flows/">FALCON: Few-step Accurate Likelihoods for Continuous Flows</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

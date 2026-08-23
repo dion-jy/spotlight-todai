@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Zhehao Huang, Yuhang Liu et al. — Large reasoning models (LRMs) excel at a long chain of reasoning but often fail to faithfully follow…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rain-merging-a-gradient-free-method-to-enhance-instruction/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Zhehao Huang, Yuhang Liu et al. — Large reasoning models (LRMs) excel at a long chain of reasoning but often fail to faithfully follow…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rain-merging-a-gradient-free-method-to-enhance-instruction/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Zhehao Huang, Yuhang Liu et al. — Large reasoning models (LRMs) excel at a long chain of reasoning but often fail to faithfully follow…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rain-merging-a-gradient-free-method-to-enhance-instruction/#article",
+   "headline": "RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format",
+   "name": "RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rain-merging-a-gradient-free-method-to-enhance-instruction/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhehao Huang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Shanghai Jiaotong University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yuhang Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Baijiong Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Yixin Lou"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhengbao He"
+    },
+    {
+     "@type": "Person",
+     "name": "Hanling Tian"
+    },
+    {
+     "@type": "Person",
+     "name": "Tao Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaolin Huang"
+    }
+   ],
+   "description": "Large reasoning models (LRMs) excel at a long chain of reasoning but often fail to faithfully follow instructions regarding output format, constraints, or specific requirements. We investigate whether this gap can be closed by integrating an instruction-tuned model (ITM) into an LRM.",
+   "keywords": [
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=PO2iULmu5e"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-rain-merging-a-gradient-free-method-to-enhance-instruction/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhehao Huang, Yuhang Liu, Baijiong Lin, Yixin Lou, Zhengbao He, Hanling Tian, Tao Li, Xiaolin Huang</dd>
+<dt>Affiliation</dt><dd>Shanghai Jiaotong University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Large reasoning models (LRMs) excel at a long chain of reasoning but often fail to faithfully follow instructions regarding output format, constraints, or specific requirements. We investigate whether this gap can be closed by integrating an instruction-tuned model (ITM) into an LRM.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=PO2iULmu5e" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=PO2iULmu5e" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-medagentgym-a-scalable-agentic-training-environment-for-code/">MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-loongrl-reinforcement-learning-for-advanced-reasoning-over/">LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-ualm-unified-audio-language-model-for-understanding/">UALM: Unified Audio Language Model for Understanding, Generation and Reasoning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/">Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-reasoning-with-sampling-your-base-model-is-smarter-than-you/">Reasoning with Sampling: Your Base Model is Smarter Than You Think</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

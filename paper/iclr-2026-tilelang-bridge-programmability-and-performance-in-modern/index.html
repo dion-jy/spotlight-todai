@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TileLang: Bridge Programmability and Performance in Modern Neural Kernels — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Lei Wang, Yu Cheng et al. — We introduce TileLang, a controllable programming system for fused neural kernels.">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, control, kernel">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-tilelang-bridge-programmability-and-performance-in-modern/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TileLang: Bridge Programmability and Performance in Modern Neural Kernels | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Lei Wang, Yu Cheng et al. — We introduce TileLang, a controllable programming system for fused neural kernels.">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-tilelang-bridge-programmability-and-performance-in-modern/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TileLang: Bridge Programmability and Performance in Modern Neural Kernels | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Lei Wang, Yu Cheng et al. — We introduce TileLang, a controllable programming system for fused neural kernels.">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-tilelang-bridge-programmability-and-performance-in-modern/#article",
+   "headline": "TileLang: Bridge Programmability and Performance in Modern Neural Kernels",
+   "name": "TileLang: Bridge Programmability and Performance in Modern Neural Kernels",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-tilelang-bridge-programmability-and-performance-in-modern/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Lei Wang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Peking University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yu Cheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Yining Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiwen Mo"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhengju Tang"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenhao Xie"
+    },
+    {
+     "@type": "Person",
+     "name": "Tong Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Lingxiao Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuqing Xia"
+    },
+    {
+     "@type": "Person",
+     "name": "Jilong Xue"
+    },
+    {
+     "@type": "Person",
+     "name": "Fan Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhi Yang"
+    }
+   ],
+   "description": "We introduce TileLang, a controllable programming system for fused neural kernels.",
+   "keywords": [
+    "control",
+    "kernel"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Jb1WkNSfUB"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "TileLang: Bridge Programmability and Performance in Modern Neural Kernels",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-tilelang-bridge-programmability-and-performance-in-modern/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>TileLang: Bridge Programmability and Performance in Modern Neural Kernels</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Lei Wang, Yu Cheng, Yining Shi, Zhiwen Mo, Zhengju Tang, Wenhao Xie, Tong Wu, Lingxiao Ma, Yuqing Xia, Jilong Xue, Fan Yang, Zhi Yang</dd>
+<dt>Affiliation</dt><dd>Peking University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We introduce TileLang, a controllable programming system for fused neural kernels.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Jb1WkNSfUB" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Jb1WkNSfUB" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">control</span>
+<span class="chip">kernel</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-latent-fourier-transform/">Latent Fourier Transform</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-redteamcua-realistic-adversarial-testing-of-computer-use/">RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-a-representer-theorem-for-hawkes-processes-via-penalized/">A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/">Steering the Herd: A Framework for LLM-based Control of Social Learning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-conformal-robustness-control-a-new-strategy-for-robust/">Conformal Robustness Control: A New Strategy for Robust Decision</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-probabilistic-kernel-function-for-fast-angle-testing/">Probabilistic Kernel Function for Fast Angle Testing</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

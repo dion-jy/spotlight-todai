@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steering the Herd: A Framework for LLM-based Control of Social Learning — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Raghu Arghal, Kevin He et al. — We introduce, analyze, and simulate (via LLMs) a model of controlled social learning to study how…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, control, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Steering the Herd: A Framework for LLM-based Control of Social Learning | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Raghu Arghal, Kevin He et al. — We introduce, analyze, and simulate (via LLMs) a model of controlled social learning to study how…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Steering the Herd: A Framework for LLM-based Control of Social Learning | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Raghu Arghal, Kevin He et al. — We introduce, analyze, and simulate (via LLMs) a model of controlled social learning to study how…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/#article",
+   "headline": "Steering the Herd: A Framework for LLM-based Control of Social Learning",
+   "name": "Steering the Herd: A Framework for LLM-based Control of Social Learning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Raghu Arghal",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "University of Pennsylvania, University of Pennsylvania"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Kevin He"
+    },
+    {
+     "@type": "Person",
+     "name": "Shirin Saeedi Bidokhti"
+    },
+    {
+     "@type": "Person",
+     "name": "Saswati Sarkar"
+    }
+   ],
+   "description": "We introduce, analyze, and simulate (via LLMs) a model of controlled social learning to study how algorithms can influence social beliefs, decisions, and welfare via information design.",
+   "keywords": [
+    "control",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=RtS4UqSmNt"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Steering the Herd: A Framework for LLM-based Control of Social Learning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Steering the Herd: A Framework for LLM-based Control of Social Learning</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Raghu Arghal, Kevin He, Shirin Saeedi Bidokhti, Saswati Sarkar</dd>
+<dt>Affiliation</dt><dd>University of Pennsylvania, University of Pennsylvania</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We introduce, analyze, and simulate (via LLMs) a model of controlled social learning to study how algorithms can influence social beliefs, decisions, and welfare via information design.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=RtS4UqSmNt" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=RtS4UqSmNt" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">control</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../icml-2026-controlled-llm-training-on-spectral-sphere/">Controlled LLM Training on Spectral Sphere</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-towards-reliable-code-as-policies-a-neuro-symbolic-framework/">Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-measuring-and-guiding-monosemanticity/">Measuring and Guiding Monosemanticity</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-common-corpus-the-largest-collection-of-ethical-data-for-llm/">Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-q-rag-long-context-multi-step-retrieval-via-value-based/">Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

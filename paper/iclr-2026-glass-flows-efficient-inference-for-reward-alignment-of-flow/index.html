@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Peter Holderrieth, Uriel Singer et al. — We improve inference-time reward alignment of flow matching and diffusion models by proposing a…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, flow matching, exploration, alignment, diffusion, efficient">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Peter Holderrieth, Uriel Singer et al. — We improve inference-time reward alignment of flow matching and diffusion models by proposing a…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Peter Holderrieth, Uriel Singer et al. — We improve inference-time reward alignment of flow matching and diffusion models by proposing a…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/#article",
+   "headline": "GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models",
+   "name": "GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Peter Holderrieth",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "MIT"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Uriel Singer"
+    },
+    {
+     "@type": "Person",
+     "name": "Tommi Jaakkola"
+    },
+    {
+     "@type": "Person",
+     "name": "Ricky T. Q. Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Yaron Lipman"
+    },
+    {
+     "@type": "Person",
+     "name": "Brian Karrer"
+    }
+   ],
+   "description": "We improve inference-time reward alignment of flow matching and diffusion models by proposing a novel sampling paradigm that enables more efficient exploration.",
+   "keywords": [
+    "flow matching",
+    "exploration",
+    "alignment",
+    "diffusion",
+    "efficient"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=vH7OAPZ2dR"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Peter Holderrieth, Uriel Singer, Tommi Jaakkola, Ricky T. Q. Chen, Yaron Lipman, Brian Karrer</dd>
+<dt>Affiliation</dt><dd>MIT</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We improve inference-time reward alignment of flow matching and diffusion models by proposing a novel sampling paradigm that enables more efficient exploration.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=vH7OAPZ2dR" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=vH7OAPZ2dR" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">flow matching</span>
+<span class="chip">exploration</span>
+<span class="chip">alignment</span>
+<span class="chip">diffusion</span>
+<span class="chip">efficient</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-sana-video-efficient-video-generation-with-block-linear/">SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-universal-inverse-distillation-for-matching-models-with-real/">Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs)</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-refinestat-efficient-exploration-for-probabilistic-program/">RefineStat: Efficient Exploration for Probabilistic Program Synthesis</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-exploratory-diffusion-model-for-unsupervised-reinforcement/">Exploratory Diffusion Model for Unsupervised Reinforcement Learning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-dcfold-efficient-protein-structure-generation-with-single/">DCFold: Efficient Protein Structure Generation with Single Forward Pass</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-on-the-reasoning-abilities-of-masked-diffusion-language/">On the Reasoning Abilities of Masked Diffusion Language Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

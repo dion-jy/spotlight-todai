@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Huanyu Liu, Ge Li et al. — How to design reinforcement learning (RL) tasks that effectively unleash the reasoning capability of…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, reinforcement learning, large language model, language model, reasoning, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-saturn-sat-based-reinforcement-learning-to-unleash-llms/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Huanyu Liu, Ge Li et al. — How to design reinforcement learning (RL) tasks that effectively unleash the reasoning capability of…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-saturn-sat-based-reinforcement-learning-to-unleash-llms/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Huanyu Liu, Ge Li et al. — How to design reinforcement learning (RL) tasks that effectively unleash the reasoning capability of…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-saturn-sat-based-reinforcement-learning-to-unleash-llms/#article",
+   "headline": "SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning",
+   "name": "SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-saturn-sat-based-reinforcement-learning-to-unleash-llms/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Huanyu Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Ge Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Jia Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Hao Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Kechi Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yihong Dong"
+    }
+   ],
+   "description": "How to design reinforcement learning (RL) tasks that effectively unleash the reasoning capability of large language models (LLMs) remains an open question…",
+   "keywords": [
+    "reinforcement learning",
+    "large language model",
+    "language model",
+    "reasoning",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Sct4sajCi6"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-saturn-sat-based-reinforcement-learning-to-unleash-llms/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Huanyu Liu, Ge Li, Jia Li, Hao Zhu, Kechi Zhang, Yihong Dong</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>How to design reinforcement learning (RL) tasks that effectively unleash the reasoning capability of large language models (LLMs) remains an open question…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Sct4sajCi6" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Sct4sajCi6" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">reasoning</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-enigmata-scaling-logical-reasoning-in-large-language-models/">Enigmata:  Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-vpo-reasoning-preferences-optimization-based-on-mathcal-v/">VPO: Reasoning Preferences Optimization Based on $\mathcal{V}$-Usable Information</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-d1-scaling-reasoning-in-diffusion-large-language-models-via/">d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-deepdiver-adaptive-web-search-intensity-scaling-via/">DeepDiver: Adaptive Web-Search Intensity Scaling via Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-dapo-improving-multi-step-reasoning-abilities-of-large/">DAPO : Improving Multi-Step Reasoning Abilities of Large Language Models with Direct Advantage-Based Policy Optimization</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

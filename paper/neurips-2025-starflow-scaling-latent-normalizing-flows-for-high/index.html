@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STARFlow: Scaling Latent Normalizing Flows for High-resolution Image Synthesis — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Jiatao Gu, Tianrong Chen et al. — We present STARFlow, a scalable generative model based on normalizing flows that achieves strong…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, generative model">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-starflow-scaling-latent-normalizing-flows-for-high/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="STARFlow: Scaling Latent Normalizing Flows for High-resolution Image… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Jiatao Gu, Tianrong Chen et al. — We present STARFlow, a scalable generative model based on normalizing flows that achieves strong…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-starflow-scaling-latent-normalizing-flows-for-high/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="STARFlow: Scaling Latent Normalizing Flows for High-resolution Image… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Jiatao Gu, Tianrong Chen et al. — We present STARFlow, a scalable generative model based on normalizing flows that achieves strong…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-starflow-scaling-latent-normalizing-flows-for-high/#article",
+   "headline": "STARFlow: Scaling Latent Normalizing Flows for High-resolution Image Synthesis",
+   "name": "STARFlow: Scaling Latent Normalizing Flows for High-resolution Image Synthesis",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-starflow-scaling-latent-normalizing-flows-for-high/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jiatao Gu"
+    },
+    {
+     "@type": "Person",
+     "name": "Tianrong Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "David Berthelot"
+    },
+    {
+     "@type": "Person",
+     "name": "Huangjie Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuyang Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ruixiang ZHANG"
+    },
+    {
+     "@type": "Person",
+     "name": "Laurent Dinh"
+    },
+    {
+     "@type": "Person",
+     "name": "Miguel Ángel Bautista"
+    },
+    {
+     "@type": "Person",
+     "name": "Joshua M. Susskind"
+    },
+    {
+     "@type": "Person",
+     "name": "Shuangfei Zhai"
+    }
+   ],
+   "description": "We present STARFlow, a scalable generative model based on normalizing flows that achieves strong performance on high-resolution image synthesis…",
+   "keywords": [
+    "generative model"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=3YguS2rxdk"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "STARFlow: Scaling Latent Normalizing Flows for High-resolution Image Synthesis",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-starflow-scaling-latent-normalizing-flows-for-high/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>STARFlow: Scaling Latent Normalizing Flows for High-resolution Image Synthesis</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jiatao Gu, Tianrong Chen, David Berthelot, Huangjie Zheng, Yuyang Wang, Ruixiang ZHANG, Laurent Dinh, Miguel Ángel Bautista, Joshua M. Susskind, Shuangfei Zhai</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We present STARFlow, a scalable generative model based on normalizing flows that achieves strong performance on high-resolution image synthesis…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=3YguS2rxdk" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=3YguS2rxdk" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">generative model</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-mean-flows-for-one-step-generative-modeling/">Mean Flows for One-step Generative Modeling</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-blameless-users-in-a-clean-room-defining-copyright/">Blameless Users in a Clean Room: Defining Copyright Protection for Generative Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-preconditioned-langevin-dynamics-with-score-based-generative/">Preconditioned Langevin Dynamics with Score-based Generative Models for Infinite-Dimensional Linear Bayesian Inverse Problems</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-flow-density-control-generative-optimization-beyond-entropy/">Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-car-flow-condition-aware-reparameterization-aligns-source/">CAR-Flow: Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-transferable-black-box-one-shot-forging-of-watermarks-via/">Transferable Black-Box One-Shot Forging of Watermarks via Image Preference Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

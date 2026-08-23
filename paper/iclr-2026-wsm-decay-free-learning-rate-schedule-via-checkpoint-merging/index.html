@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Changxin Tian, jiapeng wang et al. — Recent advances in learning rate~(LR) scheduling have demonstrated the effectiveness of decay-free…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, pre-training, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-wsm-decay-free-learning-rate-schedule-via-checkpoint-merging/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Changxin Tian, jiapeng wang et al. — Recent advances in learning rate~(LR) scheduling have demonstrated the effectiveness of decay-free…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-wsm-decay-free-learning-rate-schedule-via-checkpoint-merging/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Changxin Tian, jiapeng wang et al. — Recent advances in learning rate~(LR) scheduling have demonstrated the effectiveness of decay-free…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-wsm-decay-free-learning-rate-schedule-via-checkpoint-merging/#article",
+   "headline": "WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training",
+   "name": "WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-wsm-decay-free-learning-rate-schedule-via-checkpoint-merging/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Changxin Tian",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Ant Group"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "jiapeng wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Qian Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Kunlong Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Jia Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziqi Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiaxin Mao"
+    },
+    {
+     "@type": "Person",
+     "name": "Xin Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiqiang Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "JUN ZHOU"
+    }
+   ],
+   "description": "Recent advances in learning rate~(LR) scheduling have demonstrated the effectiveness of decay-free approaches that eliminate the traditional decay phase while maintaining competitive performance. Model merging techniques have emerged as particularly promising solutions in this domain.",
+   "keywords": [
+    "pre-training",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=HhThhjKyfw"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-wsm-decay-free-learning-rate-schedule-via-checkpoint-merging/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Changxin Tian, jiapeng wang, Qian Zhao, Kunlong Chen, Jia Liu, Ziqi Liu, Jiaxin Mao, Xin Zhao, Zhiqiang Zhang, JUN ZHOU</dd>
+<dt>Affiliation</dt><dd>Ant Group</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Recent advances in learning rate~(LR) scheduling have demonstrated the effectiveness of decay-free approaches that eliminate the traditional decay phase while maintaining competitive performance. Model merging techniques have emerged as particularly promising solutions in this domain.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=HhThhjKyfw" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=HhThhjKyfw" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">pre-training</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-common-corpus-the-largest-collection-of-ethical-data-for-llm/">Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-latent-speech-text-transformer/">Latent Speech-Text Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-learning-to-see-before-seeing-demystifying-llm-visual-priors/">Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-on-the-limits-of-llm-adaptability-impact-of-llm-pre-training/">On the Limits of LLM Adaptability: Impact of LLM Pre-Training on Annotation Task Performance</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../iclr-2026-q-rag-long-context-multi-step-retrieval-via-value-based/">Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-webdevjudge-evaluating-m-llms-as-critiques-for-web/">WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

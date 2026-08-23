@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pan-LUT: Efficient Pan-sharpening via Learnable Look-Up Tables — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Zhongnan Cai, Yingying Wang et al. — Recently, deep learning-based pan-sharpening algorithms have achieved notable advancements over…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, efficient">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-pan-lut-efficient-pan-sharpening-via-learnable-look-up/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pan-LUT: Efficient Pan-sharpening via Learnable Look-Up Tables | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Zhongnan Cai, Yingying Wang et al. — Recently, deep learning-based pan-sharpening algorithms have achieved notable advancements over…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-pan-lut-efficient-pan-sharpening-via-learnable-look-up/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pan-LUT: Efficient Pan-sharpening via Learnable Look-Up Tables | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Zhongnan Cai, Yingying Wang et al. — Recently, deep learning-based pan-sharpening algorithms have achieved notable advancements over…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-pan-lut-efficient-pan-sharpening-via-learnable-look-up/#article",
+   "headline": "Pan-LUT: Efficient Pan-sharpening via Learnable Look-Up Tables",
+   "name": "Pan-LUT: Efficient Pan-sharpening via Learnable Look-Up Tables",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-pan-lut-efficient-pan-sharpening-via-learnable-look-up/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhongnan Cai",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Xiamen University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yingying Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Hui Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Panwang Pan"
+    },
+    {
+     "@type": "Person",
+     "name": "ZiXu Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Ge Meng"
+    },
+    {
+     "@type": "Person",
+     "name": "Chenxin Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Chunming He"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiaxin Xie"
+    },
+    {
+     "@type": "Person",
+     "name": "Yunlong Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Junbin Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yue Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xinghao Ding"
+    }
+   ],
+   "description": "Recently, deep learning-based pan-sharpening algorithms have achieved notable advancements over traditional methods. However, deep learning-based methods incur substantial computational overhead during inference, especially with large images.",
+   "keywords": [
+    "efficient"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=OzdAnGHEPx",
+    "https://arxiv.org/abs/2503.23793"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Pan-LUT: Efficient Pan-sharpening via Learnable Look-Up Tables",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-pan-lut-efficient-pan-sharpening-via-learnable-look-up/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>Pan-LUT: Efficient Pan-sharpening via Learnable Look-Up Tables</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhongnan Cai, Yingying Wang, Hui Zheng, Panwang Pan, ZiXu Lin, Ge Meng, Chenxin Li, Chunming He, Jiaxin Xie, Yunlong Lin, Junbin Lu, Yue Huang, Xinghao Ding</dd>
+<dt>Affiliation</dt><dd>Xiamen University</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Recently, deep learning-based pan-sharpening algorithms have achieved notable advancements over traditional methods. However, deep learning-based methods incur substantial computational overhead during inference, especially with large images.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=OzdAnGHEPx" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=OzdAnGHEPx" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+<li><a href="https://arxiv.org/abs/2503.23793" target="_blank" rel="noopener nofollow">arXiv</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">efficient</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-moka-multimodal-low-rank-adaptation-for-mllms/">MokA: Multimodal Low-Rank Adaptation for MLLMs</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/">Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-elasticmm-efficient-multimodal-llms-serving-with-elastic/">ElasticMM: Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-hyperet-efficient-training-in-hyperbolic-space-for-multi/">HyperET: Efficient Training in Hyperbolic Space for Multi-modal Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-structured-sparse-transition-matrices-to-enable-state/">Structured Sparse Transition Matrices to Enable State Tracking in State-Space Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

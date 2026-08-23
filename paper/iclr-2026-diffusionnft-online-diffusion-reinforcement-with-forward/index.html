@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DiffusionNFT: Online Diffusion Reinforcement with Forward Process — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Kaiwen Zheng, Huayu Chen et al. — We propose a new online reinforcement learning (RL) algorithm for diffusion and flow models based on…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, reinforcement learning, diffusion">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-diffusionnft-online-diffusion-reinforcement-with-forward/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DiffusionNFT: Online Diffusion Reinforcement with Forward Process | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Kaiwen Zheng, Huayu Chen et al. — We propose a new online reinforcement learning (RL) algorithm for diffusion and flow models based on…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-diffusionnft-online-diffusion-reinforcement-with-forward/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DiffusionNFT: Online Diffusion Reinforcement with Forward Process | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Kaiwen Zheng, Huayu Chen et al. — We propose a new online reinforcement learning (RL) algorithm for diffusion and flow models based on…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-diffusionnft-online-diffusion-reinforcement-with-forward/#article",
+   "headline": "DiffusionNFT: Online Diffusion Reinforcement with Forward Process",
+   "name": "DiffusionNFT: Online Diffusion Reinforcement with Forward Process",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-diffusionnft-online-diffusion-reinforcement-with-forward/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Kaiwen Zheng",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Tsinghua University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Huayu Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Haotian Ye"
+    },
+    {
+     "@type": "Person",
+     "name": "Haoxiang Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Qinsheng Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Kai Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Hang Su"
+    },
+    {
+     "@type": "Person",
+     "name": "Stefano Ermon"
+    },
+    {
+     "@type": "Person",
+     "name": "Jun Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Ming-Yu Liu"
+    }
+   ],
+   "description": "We propose a new online reinforcement learning (RL) algorithm for diffusion and flow models based on forward process.",
+   "keywords": [
+    "reinforcement learning",
+    "diffusion"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=VJZ477R89F"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "DiffusionNFT: Online Diffusion Reinforcement with Forward Process",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-diffusionnft-online-diffusion-reinforcement-with-forward/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>DiffusionNFT: Online Diffusion Reinforcement with Forward Process</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Kaiwen Zheng, Huayu Chen, Haotian Ye, Haoxiang Wang, Qinsheng Zhang, Kai Jiang, Hang Su, Stefano Ermon, Jun Zhu, Ming-Yu Liu</dd>
+<dt>Affiliation</dt><dd>Tsinghua University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We propose a new online reinforcement learning (RL) algorithm for diffusion and flow models based on forward process.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=VJZ477R89F" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=VJZ477R89F" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+<span class="chip">diffusion</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-exploratory-diffusion-model-for-unsupervised-reinforcement/">Exploratory Diffusion Model for Unsupervised Reinforcement Learning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-d1-scaling-reasoning-in-diffusion-large-language-models-via/">d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-edeline-enhancing-memory-in-diffusion-based-world-models-via/">EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-enhancing-generative-auto-bidding-with-offline-reward/">Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/">Compositional Diffusion with Guided search for Long-Horizon Planning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-latent-fourier-transform/">Latent Fourier Transform</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

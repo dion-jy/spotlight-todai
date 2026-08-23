@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Pu Yang, Yunzhen Feng et al. — Modern foundation models often undergo iterative ``bootstrapping'' in their post-training phase: a…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-spend-wisely-maximizing-post-training-gains-in-iterative/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Pu Yang, Yunzhen Feng et al. — Modern foundation models often undergo iterative ``bootstrapping'' in their post-training phase: a…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-spend-wisely-maximizing-post-training-gains-in-iterative/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Pu Yang, Yunzhen Feng et al. — Modern foundation models often undergo iterative ``bootstrapping'' in their post-training phase: a…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-spend-wisely-maximizing-post-training-gains-in-iterative/#article",
+   "headline": "Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping",
+   "name": "Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-spend-wisely-maximizing-post-training-gains-in-iterative/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Pu Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yunzhen Feng"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziyuan Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuhang Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhuoyuan Li"
+    }
+   ],
+   "description": "Modern foundation models often undergo iterative ``bootstrapping'' in their post-training phase: a model generates synthetic data, an external verifier filters out low-quality samples, and the high-qu…",
+   "sameAs": [
+    "https://openreview.net/forum?id=aqpHTPC63N"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-spend-wisely-maximizing-post-training-gains-in-iterative/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Pu Yang, Yunzhen Feng, Ziyuan Chen, Yuhang Wu, Zhuoyuan Li</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Modern foundation models often undergo iterative ``bootstrapping'' in their post-training phase: a model generates synthetic data, an external verifier filters out low-quality samples, and the high-qu…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=aqpHTPC63N" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=aqpHTPC63N" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-towards-a-pairwise-ranking-model-with-orderliness-and/">Towards a Pairwise Ranking Model with Orderliness and Monotonicity for Label Enhancement</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fast-slow-thinking-grpo-for-large-vision-language-model/">Fast-Slow Thinking GRPO for Large Vision-Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-metags-a-meta-learned-gaussian-phong-model-for-out-of/">MetaGS: A Meta-Learned Gaussian-Phong Model for Out-of-Distribution 3D Scene Relighting</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-exploration-via-feature-perturbation-in-contextual-bandits/">Exploration via Feature Perturbation in Contextual Bandits</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-deepdiver-adaptive-web-search-intensity-scaling-via/">DeepDiver: Adaptive Web-Search Intensity Scaling via Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-instance-optimality-for-private-kl-distribution-estimation/">Instance-Optimality for Private KL Distribution Estimation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

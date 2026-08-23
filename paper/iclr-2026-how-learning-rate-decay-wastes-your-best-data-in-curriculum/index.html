@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Kairong Luo, Zhenbo Sun et al. — Use model weight average to enhance curriculum learning in LLM pretraining.">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, pretraining, llm, rag">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-how-learning-rate-decay-wastes-your-best-data-in-curriculum/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Kairong Luo, Zhenbo Sun et al. — Use model weight average to enhance curriculum learning in LLM pretraining.">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-how-learning-rate-decay-wastes-your-best-data-in-curriculum/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Kairong Luo, Zhenbo Sun et al. — Use model weight average to enhance curriculum learning in LLM pretraining.">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-how-learning-rate-decay-wastes-your-best-data-in-curriculum/#article",
+   "headline": "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining",
+   "name": "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-how-learning-rate-decay-wastes-your-best-data-in-curriculum/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Kairong Luo",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Tsinghua University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Zhenbo Sun"
+    },
+    {
+     "@type": "Person",
+     "name": "Haodong Wen"
+    },
+    {
+     "@type": "Person",
+     "name": "Xinyu Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiarui Cui"
+    },
+    {
+     "@type": "Person",
+     "name": "Chenyi Dang"
+    },
+    {
+     "@type": "Person",
+     "name": "Kaifeng Lyu"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenguang Chen"
+    }
+   ],
+   "description": "Use model weight average to enhance curriculum learning in LLM pretraining.",
+   "keywords": [
+    "pretraining",
+    "llm",
+    "rag"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=T5wkZJqzkz"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-how-learning-rate-decay-wastes-your-best-data-in-curriculum/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Kairong Luo, Zhenbo Sun, Haodong Wen, Xinyu Shi, Jiarui Cui, Chenyi Dang, Kaifeng Lyu, Wenguang Chen</dd>
+<dt>Affiliation</dt><dd>Tsinghua University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Use model weight average to enhance curriculum learning in LLM pretraining.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=T5wkZJqzkz" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=T5wkZJqzkz" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">pretraining</span>
+<span class="chip">llm</span>
+<span class="chip">rag</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-q-rag-long-context-multi-step-retrieval-via-value-based/">Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-benchmarking-empirical-privacy-protection-for-adaptations-of/">Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-gnnxemplar-exemplars-to-explanations-natural-language-rules/">GnnXemplar: Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-twilight-adaptive-attention-sparsity-with-hierarchical-top-p/">Twilight: Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-understanding-parametric-and-contextual-knowledge/">Understanding Parametric and Contextual Knowledge Reconciliation within Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

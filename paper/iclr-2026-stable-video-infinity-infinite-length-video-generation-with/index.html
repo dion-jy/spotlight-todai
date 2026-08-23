@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stable Video Infinity: Infinite-Length Video Generation with Error Recycling — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Wuyang Li, Wentao Pan et al. — We propose **Stable Video Infinity (SVI)** that can generate non-looping, ultra-long videos with stable…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, control, video">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-stable-video-infinity-infinite-length-video-generation-with/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Stable Video Infinity: Infinite-Length Video Generation with Error Recycling | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Wuyang Li, Wentao Pan et al. — We propose **Stable Video Infinity (SVI)** that can generate non-looping, ultra-long videos with stable…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-stable-video-infinity-infinite-length-video-generation-with/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stable Video Infinity: Infinite-Length Video Generation with Error Recycling | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Wuyang Li, Wentao Pan et al. — We propose **Stable Video Infinity (SVI)** that can generate non-looping, ultra-long videos with stable…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-stable-video-infinity-infinite-length-video-generation-with/#article",
+   "headline": "Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
+   "name": "Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-stable-video-infinity-infinite-length-video-generation-with/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Wuyang Li",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "EPFL - EPF Lausanne"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Wentao Pan"
+    },
+    {
+     "@type": "Person",
+     "name": "Po-Chien Luan"
+    },
+    {
+     "@type": "Person",
+     "name": "Yang Gao"
+    },
+    {
+     "@type": "Person",
+     "name": "Alexandre Alahi"
+    }
+   ],
+   "description": "We propose **Stable Video Infinity (SVI)** that can generate non-looping, ultra-long videos with stable visual quality, while supporting per-clip prompt control and multi-modal conditioning. While existing long-video methods attempt to _**mitigate accumulated errors**_ via handcrafted anti-drifting (e.g., modified noise scheduler, frame anchorin...",
+   "keywords": [
+    "control",
+    "video"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=X96Ei9n34a"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-stable-video-infinity-infinite-length-video-generation-with/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Stable Video Infinity: Infinite-Length Video Generation with Error Recycling</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Wuyang Li, Wentao Pan, Po-Chien Luan, Yang Gao, Alexandre Alahi</dd>
+<dt>Affiliation</dt><dd>EPFL - EPF Lausanne</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We propose **Stable Video Infinity (SVI)** that can generate non-looping, ultra-long videos with stable visual quality, while supporting per-clip prompt control and multi-modal conditioning. While existing long-video methods attempt to _**mitigate accumulated errors**_ via handcrafted anti-drifting (e.g., modified noise scheduler, frame anchorin...</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=X96Ei9n34a" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=X96Ei9n34a" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">control</span>
+<span class="chip">video</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-motionstream-real-time-video-generation-with-interactive/">MotionStream: Real-Time Video Generation with Interactive Motion Controls</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-object-centric-3d-motion-field-for-robot-learning-from-human/">Object-centric 3D Motion Field for Robot Learning from Human Videos</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/">Compositional Diffusion with Guided search for Long-Horizon Planning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-latent-fourier-transform/">Latent Fourier Transform</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-redteamcua-realistic-adversarial-testing-of-computer-use/">RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/">Steering the Herd: A Framework for LLM-based Control of Social Learning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

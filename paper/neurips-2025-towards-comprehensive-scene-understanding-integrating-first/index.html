@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Insu Lee, Wooje Park et al. — Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, vision-language, language model">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-towards-comprehensive-scene-understanding-integrating-first/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Towards Comprehensive Scene Understanding: Integrating First and… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Insu Lee, Wooje Park et al. — Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-towards-comprehensive-scene-understanding-integrating-first/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Towards Comprehensive Scene Understanding: Integrating First and… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Insu Lee, Wooje Park et al. — Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-towards-comprehensive-scene-understanding-integrating-first/#article",
+   "headline": "Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs",
+   "name": "Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-towards-comprehensive-scene-understanding-integrating-first/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Insu Lee"
+    },
+    {
+     "@type": "Person",
+     "name": "Wooje Park"
+    },
+    {
+     "@type": "Person",
+     "name": "Jaeyun Jang"
+    },
+    {
+     "@type": "Person",
+     "name": "Minyoung Noh"
+    },
+    {
+     "@type": "Person",
+     "name": "Kyuhong Shim"
+    },
+    {
+     "@type": "Person",
+     "name": "Byonghyo Shim"
+    }
+   ],
+   "description": "Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as virtual and augmented reality, where a first-person (egocentric) view captured by head-mounted camera…",
+   "keywords": [
+    "vision-language",
+    "language model"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=m5wrqqcWbN"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-towards-comprehensive-scene-understanding-integrating-first/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Insu Lee, Wooje Park, Jaeyun Jang, Minyoung Noh, Kyuhong Shim, Byonghyo Shim</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as virtual and augmented reality, where a first-person (egocentric) view captured by head-mounted camera…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=m5wrqqcWbN" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=m5wrqqcWbN" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">vision-language</span>
+<span class="chip">language model</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-opencua-open-foundations-for-computer-use-agents/">OpenCUA: Open Foundations for Computer-Use Agents</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-learning-robust-vision-language-models-from-natural-latent/">Learning Robust Vision-Language Models from Natural Latent Spaces</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/">Head Pursuit: Probing Attention Specialization in Multimodal Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-uni-mumer-unified-multi-task-fine-tuning-of-vision-language/">Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-qsvd-efficient-low-rank-approximation-for-unified-query-key/">QSVD: Efficient Low-rank Approximation for Unified Query-Key-Value Weight Compression in Low-Precision Vision-Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-caption-this-reason-that-vlms-caught-in-the-middle/">Caption This, Reason That: VLMs Caught in the Middle</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

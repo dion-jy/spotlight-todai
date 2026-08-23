@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESCA: Contextualizing Embodied Agents via Scene-Graph Generation — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Jiani Huang, Amish Sethi et al. — Multi-modal large language models (MLLMs) are making rapid progress toward general-purpose…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, large language model, language model, agent, graph, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-esca-contextualizing-embodied-agents-via-scene-graph/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ESCA: Contextualizing Embodied Agents via Scene-Graph Generation | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Jiani Huang, Amish Sethi et al. — Multi-modal large language models (MLLMs) are making rapid progress toward general-purpose…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-esca-contextualizing-embodied-agents-via-scene-graph/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESCA: Contextualizing Embodied Agents via Scene-Graph Generation | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Jiani Huang, Amish Sethi et al. — Multi-modal large language models (MLLMs) are making rapid progress toward general-purpose…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-esca-contextualizing-embodied-agents-via-scene-graph/#article",
+   "headline": "ESCA: Contextualizing Embodied Agents via Scene-Graph Generation",
+   "name": "ESCA: Contextualizing Embodied Agents via Scene-Graph Generation",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-esca-contextualizing-embodied-agents-via-scene-graph/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jiani Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Amish Sethi"
+    },
+    {
+     "@type": "Person",
+     "name": "Matthew Kuo"
+    },
+    {
+     "@type": "Person",
+     "name": "Mayank Keoliya"
+    },
+    {
+     "@type": "Person",
+     "name": "Neelay Velingker"
+    },
+    {
+     "@type": "Person",
+     "name": "JungHo Jung"
+    },
+    {
+     "@type": "Person",
+     "name": "Ser-Nam Lim"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziyang Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Mayur Naik"
+    }
+   ],
+   "description": "Multi-modal large language models (MLLMs) are making rapid progress toward general-purpose embodied agents…",
+   "keywords": [
+    "large language model",
+    "language model",
+    "agent",
+    "graph",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=cjjPn1EIwq"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "ESCA: Contextualizing Embodied Agents via Scene-Graph Generation",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-esca-contextualizing-embodied-agents-via-scene-graph/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>ESCA: Contextualizing Embodied Agents via Scene-Graph Generation</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jiani Huang, Amish Sethi, Matthew Kuo, Mayank Keoliya, Neelay Velingker, JungHo Jung, Ser-Nam Lim, Ziyang Li, Mayur Naik</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Multi-modal large language models (MLLMs) are making rapid progress toward general-purpose embodied agents…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=cjjPn1EIwq" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=cjjPn1EIwq" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">agent</span>
+<span class="chip">graph</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-towards-reliable-code-as-policies-a-neuro-symbolic-framework/">Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-ai-researcher-autonomous-scientific-innovation/">AI-Researcher: Autonomous Scientific Innovation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-aria-training-language-agents-with-intention-driven-reward/">ARIA: Training Language Agents with Intention-driven Reward Aggregation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-distilling-llm-agent-into-small-models-with-retrieval-and/">Distilling LLM Agent into Small Models with Retrieval and Code Tools</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-win-fast-or-lose-slow-balancing-speed-and-accuracy-in/">Win Fast or Lose Slow: Balancing Speed and Accuracy in Latency-Sensitive Decisions of LLMs</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-agentbreeder-mitigating-the-ai-safety-risks-of-multi-agent/">AgentBreeder: Mitigating the AI Safety Risks of Multi-Agent Scaffolds via Self-Improvement</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

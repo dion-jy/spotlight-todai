@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Snapshot of Influence: A Local Data Attribution Framework for Online Reinforcement Learning — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Yuzheng Hu, Fan Wu et al. — We propose the first framework of data attribution for online RL.">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, reinforcement learning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-a-snapshot-of-influence-a-local-data-attribution-framework/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A Snapshot of Influence: A Local Data Attribution Framework for Online… | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Yuzheng Hu, Fan Wu et al. — We propose the first framework of data attribution for online RL.">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-a-snapshot-of-influence-a-local-data-attribution-framework/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A Snapshot of Influence: A Local Data Attribution Framework for Online… | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Yuzheng Hu, Fan Wu et al. — We propose the first framework of data attribution for online RL.">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-a-snapshot-of-influence-a-local-data-attribution-framework/#article",
+   "headline": "A Snapshot of Influence: A Local Data Attribution Framework for Online Reinforcement Learning",
+   "name": "A Snapshot of Influence: A Local Data Attribution Framework for Online Reinforcement Learning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-a-snapshot-of-influence-a-local-data-attribution-framework/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yuzheng Hu",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "University of Illinois at Urbana-Champaign"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Fan Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Haotian Ye"
+    },
+    {
+     "@type": "Person",
+     "name": "David Forsyth"
+    },
+    {
+     "@type": "Person",
+     "name": "James Zou"
+    },
+    {
+     "@type": "Person",
+     "name": "Nan Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiaqi W. Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Han Zhao"
+    }
+   ],
+   "description": "We propose the first framework of data attribution for online RL.",
+   "keywords": [
+    "reinforcement learning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=sYK4yPDuT1"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "A Snapshot of Influence: A Local Data Attribution Framework for Online Reinforcement Learning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-a-snapshot-of-influence-a-local-data-attribution-framework/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>A Snapshot of Influence: A Local Data Attribution Framework for Online Reinforcement Learning</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yuzheng Hu, Fan Wu, Haotian Ye, David Forsyth, James Zou, Nan Jiang, Jiaqi W. Ma, Han Zhao</dd>
+<dt>Affiliation</dt><dd>University of Illinois at Urbana-Champaign</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We propose the first framework of data attribution for online RL.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=sYK4yPDuT1" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=sYK4yPDuT1" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-state-entropy-regularization-for-robust-reinforcement/">State Entropy Regularization for Robust Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-breaking-the-performance-ceiling-in-reinforcement-learning/">Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-primt-preference-based-reinforcement-learning-with/">PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-a-clean-slate-for-offline-reinforcement-learning/">A Clean Slate for Offline Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/">Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-does-reinforcement-learning-really-incentivize-reasoning/">Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

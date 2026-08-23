@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Yi-Ge Zhang, Jingyi Cui et al. — We introduce a similarity-based theoretical framework that shows how difficult boundary examples impair…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, generalization, contrastive">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-difficult-examples-hurt-unsupervised-contrastive-learning-a/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Yi-Ge Zhang, Jingyi Cui et al. — We introduce a similarity-based theoretical framework that shows how difficult boundary examples impair…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-difficult-examples-hurt-unsupervised-contrastive-learning-a/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Yi-Ge Zhang, Jingyi Cui et al. — We introduce a similarity-based theoretical framework that shows how difficult boundary examples impair…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-difficult-examples-hurt-unsupervised-contrastive-learning-a/#article",
+   "headline": "Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective",
+   "name": "Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-difficult-examples-hurt-unsupervised-contrastive-learning-a/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yi-Ge Zhang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Peking University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Jingyi Cui"
+    },
+    {
+     "@type": "Person",
+     "name": "Qiran Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Yisen Wang"
+    }
+   ],
+   "description": "We introduce a similarity-based theoretical framework that shows how difficult boundary examples impair generalization in unsupervised contrastive learning, and we design mechanisms that address this issue and boost downstream accuracy.",
+   "keywords": [
+    "generalization",
+    "contrastive"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=5LMdnUdAoy"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-difficult-examples-hurt-unsupervised-contrastive-learning-a/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yi-Ge Zhang, Jingyi Cui, Qiran Li, Yisen Wang</dd>
+<dt>Affiliation</dt><dd>Peking University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We introduce a similarity-based theoretical framework that shows how difficult boundary examples impair generalization in unsupervised contrastive learning, and we design mechanisms that address this issue and boost downstream accuracy.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=5LMdnUdAoy" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=5LMdnUdAoy" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">generalization</span>
+<span class="chip">contrastive</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-quantitative-bounds-for-length-generalization-in/">Quantitative Bounds for Length Generalization in Transformers</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/">To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-autoep-llms-driven-automation-of-hyperparameter-evolution/">AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-infonce-induces-gaussian-distribution/">InfoNCE Induces Gaussian Distribution</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-scaling-laws-and-spectra-of-shallow-neural-networks-in-the/">Scaling Laws and Spectra of Shallow Neural Networks in the Feature Learning Regime</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-frabench-and-ufeval-unified-fine-grained-evaluation-with/">FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

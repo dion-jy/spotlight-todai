@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Yu Guo, Shengfeng He et al. — Maritime object detection is essential for navigation safety, surveillance, and autonomous…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, object detection, safety">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-neptune-x-active-x-to-maritime-generation-for-universal/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Neptune-X: Active X-to-Maritime Generation for Universal Maritime… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Yu Guo, Shengfeng He et al. — Maritime object detection is essential for navigation safety, surveillance, and autonomous…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-neptune-x-active-x-to-maritime-generation-for-universal/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Neptune-X: Active X-to-Maritime Generation for Universal Maritime… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Yu Guo, Shengfeng He et al. — Maritime object detection is essential for navigation safety, surveillance, and autonomous…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-neptune-x-active-x-to-maritime-generation-for-universal/#article",
+   "headline": "Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection",
+   "name": "Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-neptune-x-active-x-to-maritime-generation-for-universal/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yu Guo"
+    },
+    {
+     "@type": "Person",
+     "name": "Shengfeng He"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuxu Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Haonan An"
+    },
+    {
+     "@type": "Person",
+     "name": "Yihang Tao"
+    },
+    {
+     "@type": "Person",
+     "name": "Huilin Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jingxian Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuguang Fang"
+    }
+   ],
+   "description": "Maritime object detection is essential for navigation safety, surveillance, and autonomous operations, yet constrained by two key challenges: the scarcity of annotated maritime data and poor generaliz…",
+   "keywords": [
+    "object detection",
+    "safety"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=oIpRvQkrH9"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-neptune-x-active-x-to-maritime-generation-for-universal/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Neptune-X: Active X-to-Maritime Generation for Universal Maritime Object Detection</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yu Guo, Shengfeng He, Yuxu Lu, Haonan An, Yihang Tao, Huilin Zhu, Jingxian Liu, Yuguang Fang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Maritime object detection is essential for navigation safety, surveillance, and autonomous operations, yet constrained by two key challenges: the scarcity of annotated maritime data and poor generaliz…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=oIpRvQkrH9" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=oIpRvQkrH9" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">object detection</span>
+<span class="chip">safety</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-generating-informative-samples-for-risk-averse-fine-tuning/">Generating Informative Samples for Risk-Averse Fine-Tuning of Downstream Tasks</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-bits-leaked-per-query-information-theoretic-bounds-for/">Bits Leaked per Query: Information-Theoretic Bounds for Adversarial Attacks on LLMs</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-openbox-annotate-any-bounding-boxes-in-3d/">OpenBox: Annotate Any Bounding Boxes in 3D</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-safevla-towards-safety-alignment-of-vision-language-action/">SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-recon-region-controllable-data-augmentation-with/">ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-provable-gradient-editing-of-deep-neural-networks/">Provable Gradient Editing of Deep Neural Networks</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

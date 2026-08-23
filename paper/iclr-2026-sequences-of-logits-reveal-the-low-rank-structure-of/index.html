@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sequences of Logits Reveal the Low Rank Structure of Language Models — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Noah Golowich, Allen Liu et al. — We exploit the low-rank structure of the logit matrices of LLMs to draw new empirical and theoretical…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, language model, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-sequences-of-logits-reveal-the-low-rank-structure-of/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sequences of Logits Reveal the Low Rank Structure of Language Models | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Noah Golowich, Allen Liu et al. — We exploit the low-rank structure of the logit matrices of LLMs to draw new empirical and theoretical…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-sequences-of-logits-reveal-the-low-rank-structure-of/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sequences of Logits Reveal the Low Rank Structure of Language Models | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Noah Golowich, Allen Liu et al. — We exploit the low-rank structure of the logit matrices of LLMs to draw new empirical and theoretical…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-sequences-of-logits-reveal-the-low-rank-structure-of/#article",
+   "headline": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+   "name": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-sequences-of-logits-reveal-the-low-rank-structure-of/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Noah Golowich",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Microsoft"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Allen Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Abhishek Shetty"
+    }
+   ],
+   "description": "We exploit the low-rank structure of the logit matrices of LLMs to draw new empirical and theoretical conclusions.",
+   "keywords": [
+    "language model",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=gdZ6J5hZzF"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-sequences-of-logits-reveal-the-low-rank-structure-of/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Sequences of Logits Reveal the Low Rank Structure of Language Models</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Noah Golowich, Allen Liu, Abhishek Shetty</dd>
+<dt>Affiliation</dt><dd>Microsoft</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We exploit the low-rank structure of the logit matrices of LLMs to draw new empirical and theoretical conclusions.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=gdZ6J5hZzF" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=gdZ6J5hZzF" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">language model</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-mixture-of-experts-can-surpass-dense-llms-under-strictly/">Mixture-of-Experts Can Surpass Dense LLMs Under Strictly Equal Resource</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-in-place-test-time-training/">In-Place Test-Time Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-visual-planning-let-s-think-only-with-images/">Visual Planning: Let's Think Only with Images</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-intrinsic-entropy-of-context-length-scaling-in-llms/">Intrinsic Entropy of Context Length Scaling in LLMs</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

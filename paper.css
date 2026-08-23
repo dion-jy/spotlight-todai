@@ -1,0 +1,86 @@
+/* paper.css — shared by every /paper/<slug>/ page.
+   Palette and type scale mirror index.html so the detail pages do not read as
+   a different site. Kept dependency-free and small (one cacheable request). */
+:root {
+  --bg: #f7f8fa; --panel: #ffffff; --text: #1a1d21; --muted: #5b6471;
+  --border: #e3e6ea; --accent: #4f46e5;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --ICML: #2563eb; --ICML-bg: #e7efff;
+  --ICLR: #0891b2; --ICLR-bg: #e0f5fa;
+  --NeurIPS: #7c3aed; --NeurIPS-bg: #efe7fd;
+  --Oral: #dc2626; --Oral-bg: #fde7e7;
+  --Spotlight: #d97706; --Spotlight-bg: #fdf0db;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1116; --panel: #171b22; --text: #e6e9ef; --muted: #9aa4b2;
+    --border: #2a2f3a; --accent: #818cf8;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+    --ICML: #93c0ff; --ICML-bg: #16263f;
+    --ICLR: #67d7ec; --ICLR-bg: #0e2f38;
+    --NeurIPS: #c4a8fb; --NeurIPS-bg: #2a1f44;
+    --Oral: #fb8888; --Oral-bg: #3a1c1c;
+    --Spotlight: #f3b65a; --Spotlight-bg: #3a2b10;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text); line-height: 1.55;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 24px 18px 72px; }
+.crumbs { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+.crumbs span { margin: 0 6px; }
+h1 { font-size: 27px; line-height: 1.25; letter-spacing: -0.4px; margin: 0 0 12px; }
+h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.6px;
+     color: var(--muted); margin: 30px 0 10px; }
+.badges { margin: 0 0 20px; }
+.badge { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 9px;
+         border-radius: 999px; margin-right: 6px; }
+.year { color: var(--muted); font-size: 13px; }
+.b-ICML { color: var(--ICML); background: var(--ICML-bg); }
+.b-ICLR { color: var(--ICLR); background: var(--ICLR-bg); }
+.b-NeurIPS { color: var(--NeurIPS); background: var(--NeurIPS-bg); }
+.b-Oral { color: var(--Oral); background: var(--Oral-bg); }
+.b-Spotlight { color: var(--Spotlight); background: var(--Spotlight-bg); }
+dl.meta { display: grid; grid-template-columns: 116px 1fr; gap: 8px 16px;
+          margin: 0; padding: 16px 18px; background: var(--panel);
+          border: 1px solid var(--border); border-radius: 10px;
+          box-shadow: var(--shadow); font-size: 14px; }
+dl.meta dt { color: var(--muted); font-size: 13px; }
+dl.meta dd { margin: 0; }
+blockquote { margin: 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--border);
+             color: var(--text); font-size: 15px; }
+blockquote p { margin: 0; }
+.attrib { color: var(--muted); font-size: 12.5px; margin: 8px 0 0; }
+.sources ul, .related ul { list-style: none; padding: 0; margin: 0; }
+.sources li { margin: 0 0 6px; }
+.related li { padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 14.5px; }
+.related li:last-child { border-bottom: 0; }
+.rel-venue { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.chips { margin: 0; }
+.chip { display: inline-block; font-size: 12px; color: var(--muted);
+        border: 1px solid var(--border); background: var(--panel);
+        border-radius: 999px; padding: 2px 10px; margin: 0 6px 6px 0; }
+.back { margin-top: 36px; font-size: 14px; }
+.wrap.wide { max-width: 900px; }
+.lede { color: var(--muted); font-size: 15px; margin: 0 0 4px; }
+.lede b { color: var(--text); }
+.venue-nav h2 { margin-bottom: 8px; }
+a.chip { color: var(--muted); }
+a.chip:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+a.chip .n { opacity: .6; margin-left: 4px; }
+ol.venue-list { padding-left: 28px; margin: 0; }
+ol.venue-list li { padding: 7px 0; border-bottom: 1px solid var(--border); font-size: 14.5px; }
+ol.venue-list li:last-child { border-bottom: 0; }
+ol.venue-list li::marker { color: var(--muted); font-size: 12px; }
+.who { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+@media (max-width: 560px) {
+  h1 { font-size: 23px; }
+  dl.meta { grid-template-columns: 1fr; gap: 2px 0; }
+  dl.meta dd { margin-bottom: 8px; }
+}

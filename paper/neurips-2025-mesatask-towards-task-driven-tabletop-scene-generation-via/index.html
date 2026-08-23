@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Jinkun Hao, Naifu Liang et al. — The ability of robots to interpret human instructions and execute manipulation tasks necessitates…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, reasoning, 3d">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mesatask-towards-task-driven-tabletop-scene-generation-via/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Jinkun Hao, Naifu Liang et al. — The ability of robots to interpret human instructions and execute manipulation tasks necessitates…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mesatask-towards-task-driven-tabletop-scene-generation-via/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Jinkun Hao, Naifu Liang et al. — The ability of robots to interpret human instructions and execute manipulation tasks necessitates…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mesatask-towards-task-driven-tabletop-scene-generation-via/#article",
+   "headline": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+   "name": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mesatask-towards-task-driven-tabletop-scene-generation-via/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jinkun Hao"
+    },
+    {
+     "@type": "Person",
+     "name": "Naifu Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhen Luo"
+    },
+    {
+     "@type": "Person",
+     "name": "Xudong XU"
+    },
+    {
+     "@type": "Person",
+     "name": "Weipeng Zhong"
+    },
+    {
+     "@type": "Person",
+     "name": "Ran Yi"
+    },
+    {
+     "@type": "Person",
+     "name": "Yichen Jin"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhaoyang Lyu"
+    },
+    {
+     "@type": "Person",
+     "name": "Feng Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Lizhuang Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiangmiao Pang"
+    }
+   ],
+   "description": "The ability of robots to interpret human instructions and execute manipulation tasks necessitates the availability of task-relevant tabletop scenes for training…",
+   "keywords": [
+    "reasoning",
+    "3d"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=U88JlpY0vR"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mesatask-towards-task-driven-tabletop-scene-generation-via/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jinkun Hao, Naifu Liang, Zhen Luo, Xudong XU, Weipeng Zhong, Ran Yi, Yichen Jin, Zhaoyang Lyu, Feng Zheng, Lizhuang Ma, Jiangmiao Pang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>The ability of robots to interpret human instructions and execute manipulation tasks necessitates the availability of task-relevant tabletop scenes for training…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=U88JlpY0vR" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=U88JlpY0vR" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reasoning</span>
+<span class="chip">3d</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-savvy-spatial-awareness-via-audio-visual-llms-through-seeing/">SAVVY: Spatial Awareness via Audio-Visual LLMs through Seeing and Hearing</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-rag4gfm-bridging-knowledge-gaps-in-graph-foundation-models/">RAG4GFM: Bridging Knowledge Gaps in Graph Foundation Models through Graph Retrieval Augmented Generation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-evolm-in-search-of-lost-training-dynamics-for-language-model/">EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-from-condensation-to-rank-collapse-a-two-stage-analysis-of/">From Condensation to Rank Collapse: A Two-Stage Analysis of Transformer Training Dynamics</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-interactive-cross-modal-learning-for-text-3d-scene-retrieval/">Interactive Cross-modal Learning for Text-3D Scene Retrieval</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Akshat Ramachandran, Marina Neseem et al. — The long-output context generation of large reasoning models enables extended chain of thought…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, efficient, reasoning, memory">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-thinkv-thought-adaptive-kv-cache-compression-for-efficient/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Akshat Ramachandran, Marina Neseem et al. — The long-output context generation of large reasoning models enables extended chain of thought…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-thinkv-thought-adaptive-kv-cache-compression-for-efficient/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Akshat Ramachandran, Marina Neseem et al. — The long-output context generation of large reasoning models enables extended chain of thought…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-thinkv-thought-adaptive-kv-cache-compression-for-efficient/#article",
+   "headline": "ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models",
+   "name": "ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-thinkv-thought-adaptive-kv-cache-compression-for-efficient/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Akshat Ramachandran",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Georgia Institute of Technology"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Marina Neseem"
+    },
+    {
+     "@type": "Person",
+     "name": "Charbel Sakr"
+    },
+    {
+     "@type": "Person",
+     "name": "Rangharajan Venkatesan"
+    },
+    {
+     "@type": "Person",
+     "name": "Brucek Khailany"
+    },
+    {
+     "@type": "Person",
+     "name": "Tushar Krishna"
+    }
+   ],
+   "description": "The long-output context generation of large reasoning models enables extended chain of thought (CoT) but also drives rapid growth of the key–value (KV) cache, quickly overwhelming GPU memory. To address this challenge, we propose ThinKV, a thought-adaptive KV cache compression framework.",
+   "keywords": [
+    "efficient",
+    "reasoning",
+    "memory"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=M3CeHnZKNC"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-thinkv-thought-adaptive-kv-cache-compression-for-efficient/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Akshat Ramachandran, Marina Neseem, Charbel Sakr, Rangharajan Venkatesan, Brucek Khailany, Tushar Krishna</dd>
+<dt>Affiliation</dt><dd>Georgia Institute of Technology</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>The long-output context generation of large reasoning models enables extended chain of thought (CoT) but also drives rapid growth of the key–value (KV) cache, quickly overwhelming GPU memory. To address this challenge, we propose ThinKV, a thought-adaptive KV cache compression framework.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=M3CeHnZKNC" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=M3CeHnZKNC" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">efficient</span>
+<span class="chip">reasoning</span>
+<span class="chip">memory</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-on-the-reasoning-abilities-of-masked-diffusion-language/">On the Reasoning Abilities of Masked Diffusion Language Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-locality-aware-parallel-decoding-for-efficient/">Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-poet-x-memory-efficient-llm-training-by-scaling-orthogonal/">POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-threadweaver-adaptive-threading-for-efficient-parallel/">ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-towards-long-horizon-interpretability-efficient-and-faithful/">Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

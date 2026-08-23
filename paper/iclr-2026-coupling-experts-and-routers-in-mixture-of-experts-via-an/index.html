@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Ang Lv, Jin Ma et al. — Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-coupling-experts-and-routers-in-mixture-of-experts-via-an/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Ang Lv, Jin Ma et al. — Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-coupling-experts-and-routers-in-mixture-of-experts-via-an/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Ang Lv, Jin Ma et al. — Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-coupling-experts-and-routers-in-mixture-of-experts-via-an/#article",
+   "headline": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+   "name": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-coupling-experts-and-routers-in-mixture-of-experts-via-an/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Ang Lv",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Renmin University of China"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Jin Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Yiyuan Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Siyuan Qiao"
+    }
+   ],
+   "description": "Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the experts' capabilities, which ultimately limits model performance. To address this, we propose expert-router coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the router's decisions with expert capabilities.",
+   "sameAs": [
+    "https://openreview.net/forum?id=MpeyjgWbKt"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-coupling-experts-and-routers-in-mixture-of-experts-via-an/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Ang Lv, Jin Ma, Yiyuan Ma, Siyuan Qiao</dd>
+<dt>Affiliation</dt><dd>Renmin University of China</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the experts' capabilities, which ultimately limits model performance. To address this, we propose expert-router coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the router's decisions with expert capabilities.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=MpeyjgWbKt" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=MpeyjgWbKt" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-infonce-induces-gaussian-distribution/">InfoNCE Induces Gaussian Distribution</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-p-genrm-personalized-generative-reward-model-with-test-time/">P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-triple-bert-do-we-really-need-marl-for-order-dispatch-on/">Triple-BERT: Do We Really Need MARL for Order Dispatch on Ride-Sharing Platforms?</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-modality-free-graph-in-context-alignment/">Modality-free Graph In-context Alignment</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-dcfold-efficient-protein-structure-generation-with-single/">DCFold: Efficient Protein Structure Generation with Single Forward Pass</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-trace-your-diffusion-model-is-secretly-an-instance-edge/">TRACE: Your Diffusion Model is Secretly an Instance Edge Detector</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

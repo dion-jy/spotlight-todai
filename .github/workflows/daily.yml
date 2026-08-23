@@ -1,8 +1,12 @@
 name: Daily paper feed
 
-# Regenerates api/daily.json once a day and commits it if it changed.
-# Everything is deterministic (see build_api.py), so on a normal day the only
-# file that differs is api/daily.json.
+# Regenerates api/daily.json once a day, rebuilds the derived site (paper pages,
+# venue hubs, sitemap) and commits whatever actually changed.
+#
+# Every generator is deterministic — no build timestamps, and each sitemap
+# <lastmod> is the date that page's own file last changed in git rather than
+# "today" — so on a normal day the only file that differs is api/daily.json and
+# everything else produces an empty diff.
 
 on:
   schedule:
@@ -21,7 +25,11 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      # Full history: build.py derives sitemap <lastmod> from the last commit
+      # that touched data/, which a depth-1 checkout cannot answer.
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -30,14 +38,36 @@ jobs:
       - name: Regenerate daily.json (KST date)
         run: python build_api.py --daily-only
 
+      # Order matters: build_sitemap.py stats the generated pages, so it can
+      # only run once build_pages.py has written them.
+      - name: Rebuild site, API, paper pages and sitemap
+        run: |
+          python build.py                 # data.json/data.js, index.html rows, robots
+          python build_api.py             # api/*.json
+          python build_pages.py --clean   # paper/<slug>/ + venue/<slug>/
+          python build_sitemap.py         # sitemap.xml with per-page lastmod
+
       - name: Commit if changed
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- api/daily.json; then
-            echo "No change in api/daily.json — nothing to commit."
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No changes — nothing to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git add api/daily.json
-            git commit -m "chore(api): daily feed $(TZ=Asia/Seoul date +%F)"
+            git add -A
+            git commit -m "chore: daily refresh $(TZ=Asia/Seoul date +%F)"
+            echo "before=$(git rev-parse HEAD~1)" >> "$GITHUB_OUTPUT"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Bing / Yandex / Naver only. Google ignores IndexNow, but ChatGPT and
+      # Perplexity lean on the Bing index, so this is the cheap AI-search path.
+      # Only the URLs that actually changed are submitted — blasting all 1168
+      # every day is exactly the abuse IndexNow rate-limits.
+      - name: Ping IndexNow with changed URLs
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        run: python indexnow.py --changed "${{ steps.commit.outputs.before }}" --submit

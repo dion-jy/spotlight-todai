@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Korneel Van den Berghe, Stein Stroobants et al. — We improve training of spiking neural networks for energy-efficient robotic control by…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, reinforcement learning, efficient, control">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Adaptive Surrogate Gradients for Sequential Reinforcement Learning in… | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Korneel Van den Berghe, Stein Stroobants et al. — We improve training of spiking neural networks for energy-efficient robotic control by…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Adaptive Surrogate Gradients for Sequential Reinforcement Learning in… | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Korneel Van den Berghe, Stein Stroobants et al. — We improve training of spiking neural networks for energy-efficient robotic control by…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/#article",
+   "headline": "Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks",
+   "name": "Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Korneel Van den Berghe",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Delft University of Technology"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Stein Stroobants"
+    },
+    {
+     "@type": "Person",
+     "name": "Vijay Janapa Reddi"
+    },
+    {
+     "@type": "Person",
+     "name": "Guido De Croon"
+    }
+   ],
+   "description": "We improve training of spiking neural networks for energy-efficient robotic control by analyzing surrogate gradient slopes and introducing a privileged policy-guided method, achieving a 2.1× performance boost and strong real-world results.",
+   "keywords": [
+    "reinforcement learning",
+    "efficient",
+    "control"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=oGmROC4e4W"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Korneel Van den Berghe, Stein Stroobants, Vijay Janapa Reddi, Guido De Croon</dd>
+<dt>Affiliation</dt><dd>Delft University of Technology</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We improve training of spiking neural networks for energy-efficient robotic control by analyzing surrogate gradient slopes and introducing a privileged policy-guided method, achieving a 2.1× performance boost and strong real-world results.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=oGmROC4e4W" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=oGmROC4e4W" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+<span class="chip">efficient</span>
+<span class="chip">control</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-counteractive-rl-rethinking-core-principles-for-efficient/">Counteractive RL: Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-improving-bilinear-rnn-with-closed-loop-control/">Improving Bilinear RNN with Closed-loop Control</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-memo-training-memory-efficient-embodied-agents-with/">Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-rf-agent-automated-reward-function-design-via-language-agent/">RF-Agent: Automated Reward Function Design via Language Agent Tree Search</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-provably-efficient-rl-under-episode-wise-safety-in/">Provably Efficient RL under Episode-Wise Safety in Constrained MDPs with Linear Function Approximation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

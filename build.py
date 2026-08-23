@@ -26,14 +26,17 @@ import json
 import os
 import re
 
+from slugs import make_uid, slug_map
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 COLLECTIONS = os.path.join(HERE, "data")
 AUTHORS_JSON = os.path.join(HERE, "authors.json")
 INDEX_HTML = os.path.join(HERE, "index.html")
-SITEMAP_XML = os.path.join(HERE, "sitemap.xml")
 ROBOTS_TXT = os.path.join(HERE, "robots.txt")
 
 SITE_URL = "https://dion-jy.github.io/spotlight-todai/"
+PAGES_DIR = os.path.join(HERE, "paper")
+VENUE_DIR = os.path.join(HERE, "venue")
 
 # (filename, conference, year, track)
 FILES = [
@@ -219,14 +222,23 @@ def authors_cell(p):
 
 
 def row_html(p):
+    """One table row.
+
+    The title links to the paper's OWN page, not straight out to OpenReview.
+    That is the whole point of the SEO work: 1162 internal destinations instead
+    of one page whose every link leaves the site. The external source is still
+    one click away via the small ↗ so the old shortcut is not lost, but it is
+    rel="nofollow" — we do not want to hand our entire link equity to
+    openreview.net 1162 times over.
+    """
+    title = ('<a href="paper/' + esc(p["slug"]) + '/">' + esc(p["title"]) + "</a>")
     link = primary_link(p)
     if link:
-        title = (
-            '<a href="' + esc(link) + '" target="_blank" rel="noopener">'
-            + esc(p["title"]) + "</a>"
+        title += (
+            ' <a class="src-link" href="' + esc(link) + '" target="_blank"'
+            ' rel="noopener nofollow" title="Open the original"'
+            ' aria-label="Open the original">↗</a>'
         )
-    else:
-        title = esc(p["title"])
     venue = (
         badge(p["conference"], p["conference"])
         + badge(p["track"], p["track"])
@@ -271,23 +283,6 @@ def write_index_html(papers):
     return out.count("<tr>")
 
 
-def write_sitemap():
-    today = "2026-06-01"
-    body = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        "  <url>\n"
-        "    <loc>" + SITE_URL + "</loc>\n"
-        "    <lastmod>" + today + "</lastmod>\n"
-        "    <changefreq>weekly</changefreq>\n"
-        "    <priority>1.0</priority>\n"
-        "  </url>\n"
-        "</urlset>\n"
-    )
-    with open(SITEMAP_XML, "w", encoding="utf-8") as f:
-        f.write(body)
-
-
 def write_robots():
     body = (
         "User-agent: *\n"
@@ -321,6 +316,7 @@ def main():
                 authors = [r["author"]] if r["author"] else []
             papers.append({
                 "id": r["id"],
+                "uid": make_uid(conf, year, track, r["id"]),
                 "conference": conf,
                 "year": year,
                 "track": track,
@@ -334,6 +330,12 @@ def main():
 
         key = "%s %d %s" % (conf, year, track)
         counts[key] = len(rows)
+
+    # Every record learns where its page lives. Duplicate records resolve to
+    # the same slug, so both of their table rows link to the one canonical page.
+    slugs, unique = slug_map(papers)
+    for p in papers:
+        p["slug"] = slugs[p["uid"]]
 
     # Write data.json
     out_json = os.path.join(HERE, "data.json")
@@ -352,8 +354,9 @@ def main():
     # markup for interactive search/filter/pagination.
     static_tr = write_index_html(papers)
 
-    # SEO sidecar files
-    write_sitemap()
+    # SEO sidecar files. sitemap.xml is NOT written here: its <lastmod> is
+    # per-page and derived from the generated files, which do not exist until
+    # build_pages.py has run. build_sitemap.py closes the pipeline.
     write_robots()
 
     # Report
@@ -361,7 +364,6 @@ def main():
     print("Wrote %s" % out_json)
     print("Wrote %s" % out_js)
     print("Wrote %s (static <tr> count incl. header: %d)" % (INDEX_HTML, static_tr))
-    print("Wrote %s" % SITEMAP_XML)
     print("Wrote %s" % ROBOTS_TXT)
     print("Total papers: %d" % total)
     for k in sorted(counts):
@@ -369,6 +371,13 @@ def main():
     multi = sum(1 for p in papers if len(p.get("authors") or []) > 1)
     print("Full-author records (from authors.json): %d" % enriched)
     print("Records with >1 author: %d" % multi)
+    print("Unique paper pages: %d (%d duplicate records merged)"
+          % (len(unique), len(papers) - len(unique)))
+    missing = {p["slug"] for p in papers
+               if not os.path.isdir(os.path.join(PAGES_DIR, p["slug"]))}
+    if missing:
+        print("NOTE: %d linked page(s) not built yet — run build_pages.py"
+              % len(missing))
 
     expected = 224 + 168 + 9 + 77 + 689
     if total != expected:

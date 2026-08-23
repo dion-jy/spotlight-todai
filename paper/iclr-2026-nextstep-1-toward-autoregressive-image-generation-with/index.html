@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Chunrui Han, Guopeng Li et al. — Prevailing autoregressive (AR) models for text-to-image generation either rely on heavy…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, image generation, text-to-image, quantization, diffusion">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-nextstep-1-toward-autoregressive-image-generation-with/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Chunrui Han, Guopeng Li et al. — Prevailing autoregressive (AR) models for text-to-image generation either rely on heavy…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-nextstep-1-toward-autoregressive-image-generation-with/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Chunrui Han, Guopeng Li et al. — Prevailing autoregressive (AR) models for text-to-image generation either rely on heavy…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-nextstep-1-toward-autoregressive-image-generation-with/#article",
+   "headline": "NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale",
+   "name": "NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-nextstep-1-toward-autoregressive-image-generation-with/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Chunrui Han",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Stepfun"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Guopeng Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Jingwei Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Quan Sun"
+    },
+    {
+     "@type": "Person",
+     "name": "Yan Cai"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuang Peng"
+    },
+    {
+     "@type": "Person",
+     "name": "Zheng Ge"
+    },
+    {
+     "@type": "Person",
+     "name": "Deyu Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Haomiao Tang"
+    },
+    {
+     "@type": "Person",
+     "name": "Hongyu Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Kenkun Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Shu-Tao Xia"
+    },
+    {
+     "@type": "Person",
+     "name": "Binxing Jiao"
+    },
+    {
+     "@type": "Person",
+     "name": "Daxin Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiangyu Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yibo Zhu"
+    }
+   ],
+   "description": "Prevailing autoregressive (AR) models for text-to-image generation either rely on heavy, computationally-intensive diffusion models to process continuous image tokens, or employ vector quantization (VQ) to obtain discrete tokens with quantization loss. In this paper, we push the autoregressive paradigm forward with NextStep-1, a 14B autoregressi...",
+   "keywords": [
+    "image generation",
+    "text-to-image",
+    "quantization",
+    "diffusion"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Ndnwg9oOQO"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-nextstep-1-toward-autoregressive-image-generation-with/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Chunrui Han, Guopeng Li, Jingwei Wu, Quan Sun, Yan Cai, Yuang Peng, Zheng Ge, Deyu Zhou, Haomiao Tang, Hongyu Zhou, Kenkun Liu, Shu-Tao Xia, Binxing Jiao, Daxin Jiang, Xiangyu Zhang, Yibo Zhu</dd>
+<dt>Affiliation</dt><dd>Stepfun</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Prevailing autoregressive (AR) models for text-to-image generation either rely on heavy, computationally-intensive diffusion models to process continuous image tokens, or employ vector quantization (VQ) to obtain discrete tokens with quantization loss. In this paper, we push the autoregressive paradigm forward with NextStep-1, a 14B autoregressi...</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Ndnwg9oOQO" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Ndnwg9oOQO" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">image generation</span>
+<span class="chip">text-to-image</span>
+<span class="chip">quantization</span>
+<span class="chip">diffusion</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../neurips-2025-emergence-and-evolution-of-interpretable-concepts-in/">Emergence and Evolution of Interpretable Concepts in Diffusion Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-spherical-watermark-encryption-free-lossless-watermarking/">Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-improving-diffusion-models-for-class-imbalanced-training/">Improving Diffusion Models for Class-imbalanced Training Data via Capacity Manipulation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-aligning-text-to-image-diffusion-models-to-human-preference/">Aligning Text-to-Image Diffusion Models to Human Preference by Classification</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-towards-a-golden-classifier-free-guidance-path-via-foresight/">Towards a Golden Classifier-Free Guidance Path via Foresight Fixed Point Iterations</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-repldm-reprogramming-pretrained-latent-diffusion-models-for/">RepLDM: Reprogramming Pretrained Latent Diffusion Models for High-Quality, High-Efficiency, High-Resolution Image Generation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

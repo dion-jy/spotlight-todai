@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mitigating Instability in High Residual Adaptive Sampling for PINNs via Langevin Dynamics — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Minseok Jeong, Giup Seo et al. — Recently, physics-informed neural networks (PINNs) have gained attention in the scientific…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, attention, physics">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mitigating-instability-in-high-residual-adaptive-sampling/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mitigating Instability in High Residual Adaptive Sampling for PINNs… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Minseok Jeong, Giup Seo et al. — Recently, physics-informed neural networks (PINNs) have gained attention in the scientific…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mitigating-instability-in-high-residual-adaptive-sampling/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mitigating Instability in High Residual Adaptive Sampling for PINNs… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Minseok Jeong, Giup Seo et al. — Recently, physics-informed neural networks (PINNs) have gained attention in the scientific…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mitigating-instability-in-high-residual-adaptive-sampling/#article",
+   "headline": "Mitigating Instability in High Residual Adaptive Sampling for PINNs via Langevin Dynamics",
+   "name": "Mitigating Instability in High Residual Adaptive Sampling for PINNs via Langevin Dynamics",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mitigating-instability-in-high-residual-adaptive-sampling/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Minseok Jeong"
+    },
+    {
+     "@type": "Person",
+     "name": "Giup Seo"
+    },
+    {
+     "@type": "Person",
+     "name": "Euiseok Hwang"
+    }
+   ],
+   "description": "Recently, physics-informed neural networks (PINNs) have gained attention in the scientific community for their potential to solve partial differential equations (PDEs)",
+   "keywords": [
+    "attention",
+    "physics"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=hq2CkcEY7h"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Mitigating Instability in High Residual Adaptive Sampling for PINNs via Langevin Dynamics",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-mitigating-instability-in-high-residual-adaptive-sampling/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Mitigating Instability in High Residual Adaptive Sampling for PINNs via Langevin Dynamics</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Minseok Jeong, Giup Seo, Euiseok Hwang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Recently, physics-informed neural networks (PINNs) have gained attention in the scientific community for their potential to solve partial differential equations (PDEs)</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=hq2CkcEY7h" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=hq2CkcEY7h" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">attention</span>
+<span class="chip">physics</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-learning-linear-attention-in-polynomial-time/">Learning Linear Attention in Polynomial Time</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-the-emergence-of-sparse-attention-impact-of-data/">The emergence of sparse attention: impact of data distribution and benefits of repetition</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/">Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-gated-attention-for-large-language-models-non-linearity/">Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-physense-sensor-placement-optimization-for-accurate-physics/">PhySense: Sensor Placement Optimization for Accurate Physics Sensing</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-wisa-world-simulator-assistant-for-physics-aware-text-to/">WISA: World simulator assistant for physics-aware text-to-video generation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

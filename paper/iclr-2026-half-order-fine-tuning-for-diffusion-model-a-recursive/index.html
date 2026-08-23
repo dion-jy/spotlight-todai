@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Tao Ren, Zishi Zhang et al. — The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, pre-training, fine-tuning, diffusion">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-half-order-fine-tuning-for-diffusion-model-a-recursive/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Tao Ren, Zishi Zhang et al. — The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-half-order-fine-tuning-for-diffusion-model-a-recursive/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Tao Ren, Zishi Zhang et al. — The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-half-order-fine-tuning-for-diffusion-model-a-recursive/#article",
+   "headline": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+   "name": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-half-order-fine-tuning-for-diffusion-model-a-recursive/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Tao Ren",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Peking University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Zishi Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jinyang Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zehao Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Shentao Qin"
+    },
+    {
+     "@type": "Person",
+     "name": "Yi Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Guanghao Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Qianyou Sun"
+    },
+    {
+     "@type": "Person",
+     "name": "Yan Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiafeng Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xinping Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Yijie Peng"
+    }
+   ],
+   "description": "The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain structure, has emerged as a powerful framework for visual generation. After pre-training on enormous data, the model needs to be properly aligned to meet requirements for downstream applications.",
+   "keywords": [
+    "pre-training",
+    "fine-tuning",
+    "diffusion"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=AZ6lqcvHLX"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-half-order-fine-tuning-for-diffusion-model-a-recursive/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Tao Ren, Zishi Zhang, Jinyang Jiang, Zehao Li, Shentao Qin, Yi Zheng, Guanghao Li, Qianyou Sun, Yan Li, Jiafeng Liang, Xinping Li, Yijie Peng</dd>
+<dt>Affiliation</dt><dd>Peking University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain structure, has emerged as a powerful framework for visual generation. After pre-training on enormous data, the model needs to be properly aligned to meet requirements for downstream applications.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=AZ6lqcvHLX" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=AZ6lqcvHLX" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">pre-training</span>
+<span class="chip">fine-tuning</span>
+<span class="chip">diffusion</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-exploratory-diffusion-model-for-unsupervised-reinforcement/">Exploratory Diffusion Model for Unsupervised Reinforcement Learning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-flow-density-control-generative-optimization-beyond-entropy/">Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fast-and-fluent-diffusion-language-models-via-convolutional/">Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-common-corpus-the-largest-collection-of-ethical-data-for-llm/">Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-neon-negative-extrapolation-from-self-training-improves/">Neon: Negative Extrapolation From Self-Training Improves Image Generation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/">Compositional Diffusion with Guided search for Long-Horizon Planning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

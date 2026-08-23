@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Jiayi Yuan, Hao Li et al. — This paper demonstrates that low precision causes non-reproducible LLM inference across different setups…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, memory, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-understanding-and-mitigating-numerical-sources-of/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Understanding and Mitigating Numerical Sources of Nondeterminism in LLM… | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Jiayi Yuan, Hao Li et al. — This paper demonstrates that low precision causes non-reproducible LLM inference across different setups…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-understanding-and-mitigating-numerical-sources-of/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Understanding and Mitigating Numerical Sources of Nondeterminism in LLM… | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Jiayi Yuan, Hao Li et al. — This paper demonstrates that low precision causes non-reproducible LLM inference across different setups…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-understanding-and-mitigating-numerical-sources-of/#article",
+   "headline": "Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference",
+   "name": "Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-understanding-and-mitigating-numerical-sources-of/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jiayi Yuan",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Rice University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Hao Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Xinheng Ding"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenya Xie"
+    },
+    {
+     "@type": "Person",
+     "name": "Yu-Jhe Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Wentian Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Kun Wan"
+    },
+    {
+     "@type": "Person",
+     "name": "Jing Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Xia Hu"
+    },
+    {
+     "@type": "Person",
+     "name": "Zirui Liu"
+    }
+   ],
+   "description": "This paper demonstrates that low precision causes non-reproducible LLM inference across different setups, proposing a hybrid-precision method, LayerCast, that computes in FP32 to achieve determinism while saving memory.",
+   "keywords": [
+    "memory",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Q3qAsZAEZw",
+    "https://arxiv.org/abs/2506.09501"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-understanding-and-mitigating-numerical-sources-of/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jiayi Yuan, Hao Li, Xinheng Ding, Wenya Xie, Yu-Jhe Li, Wentian Zhao, Kun Wan, Jing Shi, Xia Hu, Zirui Liu</dd>
+<dt>Affiliation</dt><dd>Rice University</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>This paper demonstrates that low precision causes non-reproducible LLM inference across different setups, proposing a hybrid-precision method, LayerCast, that computes in FP32 to achieve determinism while saving memory.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Q3qAsZAEZw" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Q3qAsZAEZw" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+<li><a href="https://arxiv.org/abs/2506.09501" target="_blank" rel="noopener nofollow">arXiv</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">memory</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-streaming-attention-approximation-via-discrepancy-theory/">Streaming Attention Approximation via Discrepancy Theory</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-streamforest-efficient-online-video-understanding-with/">StreamForest: Efficient Online Video Understanding with Persistent Event Memory</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-g-memory-tracing-hierarchical-memory-for-multi-agent-systems/">G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-memagent-reshaping-long-context-llm-with-multi-conv-rl-based/">MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-poet-x-memory-efficient-llm-training-by-scaling-orthogonal/">POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-gnnxemplar-exemplars-to-explanations-natural-language-rules/">GnnXemplar: Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

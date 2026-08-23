@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions — ICML 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="ICML 2026 Spotlight · Bruce Shao — An analysis method that traces and interprets the internal pathways shared by LLM decode-time decisions.">
+<meta name="keywords" content="ICML, ICML 2026, Spotlight paper, AI research paper, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/icml-2026-decodeshare-tracing-the-shared-pathways-of-llm-decode-time/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions | ICML 2026 Spotlight">
+<meta property="og:description" content="ICML 2026 Spotlight · Bruce Shao — An analysis method that traces and interprets the internal pathways shared by LLM decode-time decisions.">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/icml-2026-decodeshare-tracing-the-shared-pathways-of-llm-decode-time/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions | ICML 2026 Spotlight">
+<meta name="twitter:description" content="ICML 2026 Spotlight · Bruce Shao — An analysis method that traces and interprets the internal pathways shared by LLM decode-time decisions.">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/icml-2026-decodeshare-tracing-the-shared-pathways-of-llm-decode-time/#article",
+   "headline": "DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions",
+   "name": "DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/icml-2026-decodeshare-tracing-the-shared-pathways-of-llm-decode-time/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICML 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Bruce Shao",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Wake Forest U"
+     }
+    }
+   ],
+   "description": "An analysis method that traces and interprets the internal pathways shared by LLM decode-time decisions.",
+   "keywords": [
+    "llm"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICML 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/icml-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/icml-2026-decodeshare-tracing-the-shared-pathways-of-llm-decode-time/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/icml-2026-spotlight/">ICML 2026 Spotlight</a></nav>
+<article>
+<h1>DecodeShare: Tracing the Shared Pathways of LLM Decode-Time Decisions</h1>
+<p class="badges"><span class="badge b-ICML">ICML</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Bruce Shao</dd>
+<dt>Affiliation</dt><dd>Wake Forest U</dd>
+<dt>Venue</dt><dd>ICML 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>An analysis method that traces and interprets the internal pathways shared by LLM decode-time decisions.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract.</p></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICML papers</h2><ul>
+<li><a href="../icml-2026-do-we-need-adam-surprisingly-strong-and-sparse-reinforcement/">Do We Need Adam? Surprisingly Strong and Sparse Reinforcement Learning with SGD in LLMs</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-less-is-enough-synthesizing-diverse-data-in-feature-space-of/">Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-diffract-spectral-view-of-llm-domain-adaptation/">Diffract: Spectral View of LLM Domain Adaptation</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-controlled-llm-training-on-spectral-sphere/">Controlled LLM Training on Spectral Sphere</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-understanding-reasoning-collapse-in-llm-agent-reinforcement/">Understanding Reasoning Collapse in LLM Agent Reinforcement Learning</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-quantifying-frontier-llm-capabilities-for-container-sandbox/">Quantifying Frontier LLM Capabilities for Container Sandbox Escape</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/icml-2026-spotlight/">← All ICML 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

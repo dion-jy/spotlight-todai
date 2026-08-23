@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instilling an Active Mind in Avatars via Cognitive Simulation — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Jianwen Jiang, Weihong Zeng et al. — This paper introduces a novel framework that uses a Large Language Model (LLM) for semantic guidance…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, large language model, language model, transformer, multimodal, diffusion, video">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Instilling an Active Mind in Avatars via Cognitive Simulation | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Jianwen Jiang, Weihong Zeng et al. — This paper introduces a novel framework that uses a Large Language Model (LLM) for semantic guidance…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Instilling an Active Mind in Avatars via Cognitive Simulation | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Jianwen Jiang, Weihong Zeng et al. — This paper introduces a novel framework that uses a Large Language Model (LLM) for semantic guidance…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/#article",
+   "headline": "Instilling an Active Mind in Avatars via Cognitive Simulation",
+   "name": "Instilling an Active Mind in Avatars via Cognitive Simulation",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jianwen Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Weihong Zeng"
+    },
+    {
+     "@type": "Person",
+     "name": "Zerong Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiaqi Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Chao Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Wang Liao"
+    },
+    {
+     "@type": "Person",
+     "name": "Han Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Weifeng Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "XING WANG"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuan Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Mingyuan Gao"
+    }
+   ],
+   "description": "This paper introduces a novel framework that uses a Large Language Model (LLM) for semantic guidance and a Multimodal Diffusion Transformer (DiT) for fusion to generate expressive, context-aware video avatars, demonstrating competitive performance…",
+   "keywords": [
+    "large language model",
+    "language model",
+    "transformer",
+    "multimodal",
+    "diffusion",
+    "video",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=80JylHgQn1"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Instilling an Active Mind in Avatars via Cognitive Simulation",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Instilling an Active Mind in Avatars via Cognitive Simulation</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jianwen Jiang, Weihong Zeng, Zerong Zheng, Jiaqi Yang, Chao Liang, Wang Liao, Han Liang, Weifeng Chen, XING WANG, Yuan Zhang, Mingyuan Gao</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>This paper introduces a novel framework that uses a Large Language Model (LLM) for semantic guidance and a Multimodal Diffusion Transformer (DiT) for fusion to generate expressive, context-aware video avatars, demonstrating competitive performance…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=80JylHgQn1" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=80JylHgQn1" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">transformer</span>
+<span class="chip">multimodal</span>
+<span class="chip">diffusion</span>
+<span class="chip">video</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-elasticmm-efficient-multimodal-llms-serving-with-elastic/">ElasticMM: Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-javisgpt-a-unified-multi-modal-llm-for-sounding-video/">JavisGPT: A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-streamforest-efficient-online-video-understanding-with/">StreamForest: Efficient Online Video Understanding with Persistent Event Memory</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-visual-planning-let-s-think-only-with-images/">Visual Planning: Let's Think Only with Images</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided Subspace Partitioning — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Sheng Wang, Pengan CHEN et al. — Model customization necessitates high-quality and diverse datasets, but acquiring such data…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, dataset">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-treesynth-synthesizing-diverse-data-from-scratch-via-tree/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Sheng Wang, Pengan CHEN et al. — Model customization necessitates high-quality and diverse datasets, but acquiring such data…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-treesynth-synthesizing-diverse-data-from-scratch-via-tree/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Sheng Wang, Pengan CHEN et al. — Model customization necessitates high-quality and diverse datasets, but acquiring such data…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-treesynth-synthesizing-diverse-data-from-scratch-via-tree/#article",
+   "headline": "TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided Subspace Partitioning",
+   "name": "TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided Subspace Partitioning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-treesynth-synthesizing-diverse-data-from-scratch-via-tree/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Sheng Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Pengan CHEN"
+    },
+    {
+     "@type": "Person",
+     "name": "Jingqi Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Qintong Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Jingwei Dong"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiahui Gao"
+    },
+    {
+     "@type": "Person",
+     "name": "Boyang XUE"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiyue Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Lingpeng Kong"
+    },
+    {
+     "@type": "Person",
+     "name": "Chuan Wu"
+    }
+   ],
+   "description": "Model customization necessitates high-quality and diverse datasets, but acquiring such data remains time-consuming and labor-intensive…",
+   "keywords": [
+    "dataset"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=wmweEDugTZ"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided Subspace Partitioning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-treesynth-synthesizing-diverse-data-from-scratch-via-tree/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided Subspace Partitioning</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Sheng Wang, Pengan CHEN, Jingqi Zhou, Qintong Li, Jingwei Dong, Jiahui Gao, Boyang XUE, Jiyue Jiang, Lingpeng Kong, Chuan Wu</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Model customization necessitates high-quality and diverse datasets, but acquiring such data remains time-consuming and labor-intensive…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=wmweEDugTZ" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=wmweEDugTZ" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">dataset</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-memory-mosaics-at-scale/">Memory Mosaics at scale</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-deciphering-the-extremes-a-novel-approach-for-pathological/">Deciphering the Extremes: A Novel Approach for Pathological Long-tailed Recognition in Scientific Discovery</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-dexflywheel-a-scalable-and-self-improving-data-generation/">DexFlyWheel: A Scalable and Self-improving Data Generation Framework for Dexterous Manipulation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-forecasting-in-offline-reinforcement-learning-for-non/">Forecasting in Offline Reinforcement Learning for Non-stationary Environments</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-an-evidence-based-post-hoc-adjustment-framework-for-anomaly/">An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-flexolmo-open-language-models-for-flexible-data-use/">FlexOLMo: Open Language Models for Flexible Data Use</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

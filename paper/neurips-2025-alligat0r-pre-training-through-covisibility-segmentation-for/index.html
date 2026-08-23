@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Thibaut Loiseau, Guillaume Bourmaud et al. — Pre-training techniques have greatly advanced computer vision, with CroCo’s cross-view…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, computer vision, pre-training, segmentation, 3d">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-alligat0r-pre-training-through-covisibility-segmentation-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Alligat0R: Pre-Training through Covisibility Segmentation for… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Thibaut Loiseau, Guillaume Bourmaud et al. — Pre-training techniques have greatly advanced computer vision, with CroCo’s cross-view…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-alligat0r-pre-training-through-covisibility-segmentation-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alligat0R: Pre-Training through Covisibility Segmentation for… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Thibaut Loiseau, Guillaume Bourmaud et al. — Pre-training techniques have greatly advanced computer vision, with CroCo’s cross-view…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-alligat0r-pre-training-through-covisibility-segmentation-for/#article",
+   "headline": "Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression",
+   "name": "Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-alligat0r-pre-training-through-covisibility-segmentation-for/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Thibaut Loiseau"
+    },
+    {
+     "@type": "Person",
+     "name": "Guillaume Bourmaud"
+    },
+    {
+     "@type": "Person",
+     "name": "Vincent Lepetit"
+    }
+   ],
+   "description": "Pre-training techniques have greatly advanced computer vision, with CroCo’s cross-view completion approach yielding impressive results in tasks like 3D reconstruction and pose regression…",
+   "keywords": [
+    "computer vision",
+    "pre-training",
+    "segmentation",
+    "3d"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=yHJRI6rzaA"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-alligat0r-pre-training-through-covisibility-segmentation-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Alligat0R: Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Thibaut Loiseau, Guillaume Bourmaud, Vincent Lepetit</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Pre-training techniques have greatly advanced computer vision, with CroCo’s cross-view completion approach yielding impressive results in tasks like 3D reconstruction and pose regression…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=yHJRI6rzaA" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=yHJRI6rzaA" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">computer vision</span>
+<span class="chip">pre-training</span>
+<span class="chip">segmentation</span>
+<span class="chip">3d</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-complete-structure-guided-point-cloud-completion-via-cluster/">Complete Structure Guided Point Cloud Completion via Cluster- and Instance-Level Contrastive Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-adaptive-3d-reconstruction-via-diffusion-priors-and-forward/">Adaptive 3D Reconstruction via Diffusion Priors and Forward Curvature-Matching Likelihood Updates</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-3d-interaction-geometric-pre-training-for-molecular/">3D Interaction Geometric Pre-training for Molecular Relational Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-optfm-a-scalable-multi-view-graph-transformer-for/">OPTFM: A Scalable Multi-View Graph Transformer for Hierarchical Pre-Training in Combinatorial Optimization</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-eggs-exchangeable-2d-3d-gaussian-splatting-for-geometry/">EGGS: Exchangeable 2D/3D Gaussian Splatting for Geometry-Appearance Balanced Novel View Synthesis</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-cue3d-quantifying-the-role-of-image-cues-in-single-image-3d/">Cue3D: Quantifying the Role of Image Cues in Single-Image 3D Generation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

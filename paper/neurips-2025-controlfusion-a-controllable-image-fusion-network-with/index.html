@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Linfeng Tang, Yeda Wang et al. — Current image fusion methods struggle with real-world composite degradations and lack the flexibility…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, control">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-controlfusion-a-controllable-image-fusion-network-with/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ControlFusion: A Controllable Image Fusion Network with Language-Vision… | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Linfeng Tang, Yeda Wang et al. — Current image fusion methods struggle with real-world composite degradations and lack the flexibility…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-controlfusion-a-controllable-image-fusion-network-with/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ControlFusion: A Controllable Image Fusion Network with Language-Vision… | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Linfeng Tang, Yeda Wang et al. — Current image fusion methods struggle with real-world composite degradations and lack the flexibility…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-controlfusion-a-controllable-image-fusion-network-with/#article",
+   "headline": "ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts",
+   "name": "ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-controlfusion-a-controllable-image-fusion-network-with/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Linfeng Tang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Wuhan University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yeda Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhanchuan Cai"
+    },
+    {
+     "@type": "Person",
+     "name": "Junjun Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiayi Ma"
+    }
+   ],
+   "description": "Current image fusion methods struggle with real-world composite degradations and lack the flexibility to accommodate user-specific needs. To address this, we propose ControlFusion, a controllable fusion network guided by language-vision prompts that adaptively mitigates composite degradations.",
+   "keywords": [
+    "control"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=aLhA7AYLLR",
+    "https://arxiv.org/abs/2503.23356"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-controlfusion-a-controllable-image-fusion-network-with/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Linfeng Tang, Yeda Wang, Zhanchuan Cai, Junjun Jiang, Jiayi Ma</dd>
+<dt>Affiliation</dt><dd>Wuhan University</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Current image fusion methods struggle with real-world composite degradations and lack the flexibility to accommodate user-specific needs. To address this, we propose ControlFusion, a controllable fusion network guided by language-vision prompts that adaptively mitigates composite degradations.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=aLhA7AYLLR" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=aLhA7AYLLR" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+<li><a href="https://arxiv.org/abs/2503.23356" target="_blank" rel="noopener nofollow">arXiv</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">control</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-adaptive-surrogate-gradients-for-sequential-reinforcement/">Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-imagenet-trained-cnns-are-not-biased-towards-texture/">ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-towards-reliable-code-as-policies-a-neuro-symbolic-framework/">Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-knowledge-insulating-vision-language-action-models-train/">Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-characterizing-control-between-interacting-subsystems-with/">Characterizing control between interacting subsystems with deep Jacobian estimation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

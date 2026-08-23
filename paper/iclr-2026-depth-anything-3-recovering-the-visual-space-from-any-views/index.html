@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Depth Anything 3: Recovering the Visual Space from Any Views — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Haotong Lin, Sili Chen et al. — Depth Anything 3 uses a single vanilla DINOv2 transformer to take arbitrary input views and outputs…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, transformer">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-depth-anything-3-recovering-the-visual-space-from-any-views/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Depth Anything 3: Recovering the Visual Space from Any Views | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Haotong Lin, Sili Chen et al. — Depth Anything 3 uses a single vanilla DINOv2 transformer to take arbitrary input views and outputs…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-depth-anything-3-recovering-the-visual-space-from-any-views/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Depth Anything 3: Recovering the Visual Space from Any Views | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Haotong Lin, Sili Chen et al. — Depth Anything 3 uses a single vanilla DINOv2 transformer to take arbitrary input views and outputs…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-depth-anything-3-recovering-the-visual-space-from-any-views/#article",
+   "headline": "Depth Anything 3: Recovering the Visual Space from Any Views",
+   "name": "Depth Anything 3: Recovering the Visual Space from Any Views",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-depth-anything-3-recovering-the-visual-space-from-any-views/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Haotong Lin",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Zhejiang University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Sili Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Jun Hao Liew"
+    },
+    {
+     "@type": "Person",
+     "name": "Donny Y. Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhenyu Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Yang Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Sida Peng"
+    },
+    {
+     "@type": "Person",
+     "name": "Hengkai Guo"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaowei Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Guang Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiashi Feng"
+    },
+    {
+     "@type": "Person",
+     "name": "Bingyi Kang"
+    }
+   ],
+   "description": "Depth Anything 3 uses a single vanilla DINOv2 transformer to take arbitrary input views and outputs consistent depth and ray maps, delivering leading pose, geometry, and visual rendering performance.",
+   "keywords": [
+    "transformer"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=yirunib8l8"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Depth Anything 3: Recovering the Visual Space from Any Views",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-depth-anything-3-recovering-the-visual-space-from-any-views/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Depth Anything 3: Recovering the Visual Space from Any Views</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Haotong Lin, Sili Chen, Jun Hao Liew, Donny Y. Chen, Zhenyu Li, Yang Zhao, Sida Peng, Hengkai Guo, Xiaowei Zhou, Guang Shi, Jiashi Feng, Bingyi Kang</dd>
+<dt>Affiliation</dt><dd>Zhejiang University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Depth Anything 3 uses a single vanilla DINOv2 transformer to take arbitrary input views and outputs consistent depth and ray maps, delivering leading pose, geometry, and visual rendering performance.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=yirunib8l8" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=yirunib8l8" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">transformer</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-latent-speech-text-transformer/">Latent Speech-Text Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-softmax-transformers-are-turing-complete/">Softmax Transformers are Turing-Complete</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-quantitative-bounds-for-length-generalization-in/">Quantitative Bounds for Length Generalization in Transformers</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-transformers-are-inherently-succinct/">Transformers are Inherently Succinct</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-hatsolver-learning-grobner-bases-with-hierarchical-attention/">HATSolver: Learning Gröbner Bases with Hierarchical Attention Transformers</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/">To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Representation Entanglement for Generation: Training Diffusion Transformers Is Much Easier Than You Think — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Ge Wu, Shen Zhang et al. — REPA and its variants effectively mitigate training challenges in diffusion models by incorporating external…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, transformer, alignment, diffusion">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-representation-entanglement-for-generation-training/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Representation Entanglement for Generation: Training Diffusion… | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Ge Wu, Shen Zhang et al. — REPA and its variants effectively mitigate training challenges in diffusion models by incorporating external…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-representation-entanglement-for-generation-training/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Representation Entanglement for Generation: Training Diffusion… | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Ge Wu, Shen Zhang et al. — REPA and its variants effectively mitigate training challenges in diffusion models by incorporating external…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-representation-entanglement-for-generation-training/#article",
+   "headline": "Representation Entanglement for Generation: Training Diffusion Transformers Is Much Easier Than You Think",
+   "name": "Representation Entanglement for Generation: Training Diffusion Transformers Is Much Easier Than You Think",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-representation-entanglement-for-generation-training/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Ge Wu",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Nankai University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Shen Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ruijing Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Shanghua Gao"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhenyuan Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Lei Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhaowei Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Hongcheng Gao"
+    },
+    {
+     "@type": "Person",
+     "name": "Yao Tang"
+    },
+    {
+     "@type": "Person",
+     "name": "jian Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ming-Ming Cheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiang Li"
+    }
+   ],
+   "description": "REPA and its variants effectively mitigate training challenges in diffusion models by incorporating external visual representations from pretrained models, through alignment between the noisy hidden projections of denoising networks and foundational clean image representations. We argue that the external alignment, which is absent during the entire…",
+   "keywords": [
+    "transformer",
+    "alignment",
+    "diffusion"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=koEALFNBj1"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Representation Entanglement for Generation: Training Diffusion Transformers Is Much Easier Than You Think",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-representation-entanglement-for-generation-training/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>Representation Entanglement for Generation: Training Diffusion Transformers Is Much Easier Than You Think</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Ge Wu, Shen Zhang, Ruijing Shi, Shanghua Gao, Zhenyuan Chen, Lei Wang, Zhaowei Chen, Hongcheng Gao, Yao Tang, jian Yang, Ming-Ming Cheng, Xiang Li</dd>
+<dt>Affiliation</dt><dd>Nankai University</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>REPA and its variants effectively mitigate training challenges in diffusion models by incorporating external visual representations from pretrained models, through alignment between the noisy hidden projections of denoising networks and foundational clean image representations. We argue that the external alignment, which is absent during the entire…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=koEALFNBj1" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=koEALFNBj1" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">transformer</span>
+<span class="chip">alignment</span>
+<span class="chip">diffusion</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-sana-video-efficient-video-generation-with-block-linear/">SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-exploring-diffusion-transformer-designs-via-grafting/">Exploring Diffusion Transformer Designs via Grafting</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-labridge-text-image-latent-alignment-framework-via-mean/">LABridge: Text–Image Latent Alignment Framework via Mean-Conditioned OU Process</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-sparse-videogen2-accelerate-video-generation-with-sparse/">Sparse VideoGen2: Accelerate Video Generation with  Sparse Attention via Semantic-Aware Permutation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-dico-revitalizing-convnets-for-scalable-and-efficient/">DiCo: Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-omnisync-towards-universal-lip-synchronization-via-diffusion/">OmniSync: Towards Universal Lip Synchronization via Diffusion Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

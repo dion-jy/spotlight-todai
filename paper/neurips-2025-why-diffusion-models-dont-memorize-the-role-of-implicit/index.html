@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Tony Bonnaire, Raphaël Urfin et al. — Implicit dynamical regularization during training gives diffusion models a generalization window…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, generalization, diffusion">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-diffusion-models-dont-memorize-the-role-of-implicit/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical… | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Tony Bonnaire, Raphaël Urfin et al. — Implicit dynamical regularization during training gives diffusion models a generalization window…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-diffusion-models-dont-memorize-the-role-of-implicit/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical… | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Tony Bonnaire, Raphaël Urfin et al. — Implicit dynamical regularization during training gives diffusion models a generalization window…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-diffusion-models-dont-memorize-the-role-of-implicit/#article",
+   "headline": "Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training",
+   "name": "Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-diffusion-models-dont-memorize-the-role-of-implicit/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Tony Bonnaire",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Université Paris-Saclay"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Raphaël Urfin"
+    },
+    {
+     "@type": "Person",
+     "name": "Giulio Biroli"
+    },
+    {
+     "@type": "Person",
+     "name": "Marc Mezard"
+    }
+   ],
+   "description": "Implicit dynamical regularization during training gives diffusion models a generalization window that widens with the training set size, so stopping within this window prevents memorization.",
+   "keywords": [
+    "generalization",
+    "diffusion"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=BSZqpqgqM0",
+    "https://arxiv.org/abs/2505.17638"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-diffusion-models-dont-memorize-the-role-of-implicit/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Tony Bonnaire, Raphaël Urfin, Giulio Biroli, Marc Mezard</dd>
+<dt>Affiliation</dt><dd>Université Paris-Saclay</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Implicit dynamical regularization during training gives diffusion models a generalization window that widens with the training set size, so stopping within this window prevents memorization.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=BSZqpqgqM0" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=BSZqpqgqM0" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+<li><a href="https://arxiv.org/abs/2505.17638" target="_blank" rel="noopener nofollow">arXiv</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">generalization</span>
+<span class="chip">diffusion</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-diffusion-based-hierarchical-graph-neural-networks-for/">Diffusion-Based Hierarchical Graph Neural Networks for Simulating Nonlinear Solid Mechanics</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-locality-in-image-diffusion-models-emerges-from-data/">Locality in Image Diffusion Models Emerges from Data Statistics</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-a-closer-look-at-model-collapse-from-a-generalization-to/">A Closer Look at Model Collapse: From a Generalization-to-Memorization Perspective</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-deep-compositional-phase-diffusion-for-long-motion-sequence/">Deep Compositional Phase Diffusion for Long Motion Sequence Generation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-on-the-closed-form-of-flow-matching-generalization-does-not/">On the Closed-Form of Flow Matching: Generalization Does Not Arise from Target Stochasticity</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-adjoint-schrodinger-bridge-sampler/">Adjoint Schrödinger Bridge Sampler</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Lingkai Kong, Haichuan Wang et al. — Incorporating pre-collected offline data can substantially improve the sample efficiency of…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, reinforcement learning, flow matching">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-composite-flow-matching-for-reinforcement-learning-with/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Composite Flow Matching for Reinforcement Learning with… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Lingkai Kong, Haichuan Wang et al. — Incorporating pre-collected offline data can substantially improve the sample efficiency of…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-composite-flow-matching-for-reinforcement-learning-with/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Composite Flow Matching for Reinforcement Learning with… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Lingkai Kong, Haichuan Wang et al. — Incorporating pre-collected offline data can substantially improve the sample efficiency of…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-composite-flow-matching-for-reinforcement-learning-with/#article",
+   "headline": "Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data",
+   "name": "Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-composite-flow-matching-for-reinforcement-learning-with/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Lingkai Kong"
+    },
+    {
+     "@type": "Person",
+     "name": "Haichuan Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Tonghan Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "GUOJUN XIONG"
+    },
+    {
+     "@type": "Person",
+     "name": "Milind Tambe"
+    }
+   ],
+   "description": "Incorporating pre-collected offline data can substantially improve the sample efficiency of reinforcement learning (RL), but its benefits can break down when the transition dynamics in the offline dat…",
+   "keywords": [
+    "reinforcement learning",
+    "flow matching"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=7cPDOBWTbM"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-composite-flow-matching-for-reinforcement-learning-with/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Lingkai Kong, Haichuan Wang, Tonghan Wang, GUOJUN XIONG, Milind Tambe</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Incorporating pre-collected offline data can substantially improve the sample efficiency of reinforcement learning (RL), but its benefits can break down when the transition dynamics in the offline dat…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=7cPDOBWTbM" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=7cPDOBWTbM" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+<span class="chip">flow matching</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-state-entropy-regularization-for-robust-reinforcement/">State Entropy Regularization for Robust Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-on-the-closed-form-of-flow-matching-generalization-does-not/">On the Closed-Form of Flow Matching: Generalization Does Not Arise from Target Stochasticity</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-breaking-the-performance-ceiling-in-reinforcement-learning/">Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-primt-preference-based-reinforcement-learning-with/">PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-a-clean-slate-for-offline-reinforcement-learning/">A Clean Slate for Offline Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-a-snapshot-of-influence-a-local-data-attribution-framework/">A Snapshot of Influence: A Local Data Attribution Framework for Online Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

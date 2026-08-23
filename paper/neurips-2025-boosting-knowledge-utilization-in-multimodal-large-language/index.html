@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation — NeurIPS 2025 Oral | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Oral · Wenbin An, Jiahao Nie et al. — Despite their recent progress, Multimodal Large Language Models (MLLMs) often struggle in…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Oral paper, AI research paper, large language model, language model, multimodal, attention, retrieval, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Boosting Knowledge Utilization in Multimodal Large Language Models via… | NeurIPS 2025 Oral">
+<meta property="og:description" content="NeurIPS 2025 Oral · Wenbin An, Jiahao Nie et al. — Despite their recent progress, Multimodal Large Language Models (MLLMs) often struggle in…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Boosting Knowledge Utilization in Multimodal Large Language Models via… | NeurIPS 2025 Oral">
+<meta name="twitter:description" content="NeurIPS 2025 Oral · Wenbin An, Jiahao Nie et al. — Despite their recent progress, Multimodal Large Language Models (MLLMs) often struggle in…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/#article",
+   "headline": "Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation",
+   "name": "Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Wenbin An",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Xi'an Jiaotong University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Jiahao Nie"
+    },
+    {
+     "@type": "Person",
+     "name": "Feng Tian"
+    },
+    {
+     "@type": "Person",
+     "name": "Haonan Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "mingxiang cai"
+    },
+    {
+     "@type": "Person",
+     "name": "Yaqiang Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "QianYing Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaoqin Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Shijian Lu"
+    }
+   ],
+   "description": "Despite their recent progress, Multimodal Large Language Models (MLLMs) often struggle in knowledge-intensive tasks due to the limited and outdated parametric knowledge acquired during training. Multimodal Retrieval Augmented Generation addresses this issue by retrieving contextual knowledge from external databases, thereby enhancing MLLMs with exp…",
+   "keywords": [
+    "large language model",
+    "language model",
+    "multimodal",
+    "attention",
+    "retrieval",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=qYkhCah8OZ"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-oral/">NeurIPS 2025 Oral</a></nav>
+<article>
+<h1>Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Wenbin An, Jiahao Nie, Feng Tian, Haonan Lin, mingxiang cai, Yaqiang Wu, QianYing Wang, Xiaoqin Zhang, Shijian Lu</dd>
+<dt>Affiliation</dt><dd>Xi'an Jiaotong University</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Despite their recent progress, Multimodal Large Language Models (MLLMs) often struggle in knowledge-intensive tasks due to the limited and outdated parametric knowledge acquired during training. Multimodal Retrieval Augmented Generation addresses this issue by retrieving contextual knowledge from external databases, thereby enhancing MLLMs with exp…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=qYkhCah8OZ" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=qYkhCah8OZ" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">multimodal</span>
+<span class="chip">attention</span>
+<span class="chip">retrieval</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-meta-clip-2-a-worldwide-scaling-recipe/">Meta CLIP 2: A Worldwide Scaling Recipe</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-elasticmm-efficient-multimodal-llms-serving-with-elastic/">ElasticMM: Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-twilight-adaptive-attention-sparsity-with-hierarchical-top-p/">Twilight: Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fudoki-discrete-flow-based-unified-understanding-and/">FUDOKI: Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-streaming-attention-approximation-via-discrepancy-theory/">Streaming Attention Approximation via Discrepancy Theory</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-oral/">← All NeurIPS 2025 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models — ICML 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models — Oral paper at ICML 2026 by Long (Tony) Lian, Sida Wang, Felix…">
+<meta name="keywords" content="ICML, ICML 2026, Oral paper, AI research paper, language model, efficient, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/icml-2026-threadweaver-adaptive-threading-for-efficient-parallel/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in… | ICML 2026 Oral">
+<meta property="og:description" content="ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models — Oral paper at ICML 2026 by Long (Tony) Lian, Sida Wang, Felix…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/icml-2026-threadweaver-adaptive-threading-for-efficient-parallel/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in… | ICML 2026 Oral">
+<meta name="twitter:description" content="ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models — Oral paper at ICML 2026 by Long (Tony) Lian, Sida Wang, Felix…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/icml-2026-threadweaver-adaptive-threading-for-efficient-parallel/#article",
+   "headline": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+   "name": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/icml-2026-threadweaver-adaptive-threading-for-efficient-parallel/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICML 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Long (Tony) Lian"
+    },
+    {
+     "@type": "Person",
+     "name": "Sida Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Felix Juefei-Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Tsu-Jui Fu"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiuyu Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Adam Yala"
+    },
+    {
+     "@type": "Person",
+     "name": "Trevor Darrell"
+    },
+    {
+     "@type": "Person",
+     "name": "Alane Suhr"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuandong Tian"
+    },
+    {
+     "@type": "Person",
+     "name": "Xi Lin"
+    }
+   ],
+   "keywords": [
+    "language model",
+    "efficient",
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://icml.cc/virtual/2026/oral/71140"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICML 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/icml-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/icml-2026-threadweaver-adaptive-threading-for-efficient-parallel/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/icml-2026-oral/">ICML 2026 Oral</a></nav>
+<article>
+<h1>ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models</h1>
+<p class="badges"><span class="badge b-ICML">ICML</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Long (Tony) Lian, Sida Wang, Felix Juefei-Xu, Tsu-Jui Fu, Xiuyu Li, Adam Yala, Trevor Darrell, Alane Suhr, Yuandong Tian, Xi Lin</dd>
+<dt>Venue</dt><dd>ICML 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://icml.cc/virtual/2026/oral/71140" target="_blank" rel="noopener nofollow">ICML site</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">language model</span>
+<span class="chip">efficient</span>
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related ICML papers</h2><ul>
+<li><a href="../iclr-2026-on-the-reasoning-abilities-of-masked-diffusion-language/">On the Reasoning Abilities of Masked Diffusion Language Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../icml-2026-opus-towards-efficient-and-principled-data-selection-in/">OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-don-t-force-the-fit-bounded-log-likelihood-loss-for-enhanced/">Don't Force the Fit: Bounded Log-Likelihood Loss for Enhanced Reasoning in Large Language Models</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-3viewsense-spatial-and-mental-perspective-reasoning-from/">3ViewSense: Spatial and Mental Perspective Reasoning from Orthographic Views in Vision-Language Models</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-towards-long-horizon-interpretability-efficient-and-faithful/">Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/icml-2026-oral/">← All ICML 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

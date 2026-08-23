@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LaViDa: A Large Diffusion Language Model for Multimodal Understanding — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Shufan Li, Konstantinos Kallidromitis et al. — Modern Vision-Language Models (VLMs) can solve a wide range of tasks requiring…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, vision-language, language model, multimodal, diffusion, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-lavida-a-large-diffusion-language-model-for-multimodal/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LaViDa: A Large Diffusion Language Model for Multimodal Understanding | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Shufan Li, Konstantinos Kallidromitis et al. — Modern Vision-Language Models (VLMs) can solve a wide range of tasks requiring…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-lavida-a-large-diffusion-language-model-for-multimodal/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LaViDa: A Large Diffusion Language Model for Multimodal Understanding | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Shufan Li, Konstantinos Kallidromitis et al. — Modern Vision-Language Models (VLMs) can solve a wide range of tasks requiring…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-lavida-a-large-diffusion-language-model-for-multimodal/#article",
+   "headline": "LaViDa: A Large Diffusion Language Model for Multimodal Understanding",
+   "name": "LaViDa: A Large Diffusion Language Model for Multimodal Understanding",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-lavida-a-large-diffusion-language-model-for-multimodal/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Shufan Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Konstantinos Kallidromitis"
+    },
+    {
+     "@type": "Person",
+     "name": "Hritik Bansal"
+    },
+    {
+     "@type": "Person",
+     "name": "Akash Gokul"
+    },
+    {
+     "@type": "Person",
+     "name": "Yusuke Kato"
+    },
+    {
+     "@type": "Person",
+     "name": "Kazuki Kozuka"
+    },
+    {
+     "@type": "Person",
+     "name": "Jason Kuen"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhe Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Kai-Wei Chang"
+    },
+    {
+     "@type": "Person",
+     "name": "Aditya Grover"
+    }
+   ],
+   "description": "Modern Vision-Language Models (VLMs) can solve a wide range of tasks requiring visual reasoning…",
+   "keywords": [
+    "vision-language",
+    "language model",
+    "multimodal",
+    "diffusion",
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=6WnBITpnzD"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "LaViDa: A Large Diffusion Language Model for Multimodal Understanding",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-lavida-a-large-diffusion-language-model-for-multimodal/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>LaViDa: A Large Diffusion Language Model for Multimodal Understanding</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Shufan Li, Konstantinos Kallidromitis, Hritik Bansal, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Jason Kuen, Zhe Lin, Kai-Wei Chang, Aditya Grover</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Modern Vision-Language Models (VLMs) can solve a wide range of tasks requiring visual reasoning…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=6WnBITpnzD" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=6WnBITpnzD" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">vision-language</span>
+<span class="chip">language model</span>
+<span class="chip">multimodal</span>
+<span class="chip">diffusion</span>
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/">Generative Universal Verifier as Multimodal Meta-Reasoner</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/">Head Pursuit: Probing Attention Specialization in Multimodal Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-d1-scaling-reasoning-in-diffusion-large-language-models-via/">d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fast-slow-thinking-grpo-for-large-vision-language-model/">Fast-Slow Thinking GRPO for Large Vision-Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-towards-building-model-prompt-transferable-attackers-against/">Towards Building Model/Prompt-Transferable Attackers against Large Vision-Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

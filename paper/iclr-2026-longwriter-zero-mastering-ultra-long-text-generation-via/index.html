@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Yuhao Wu, Yushi Bai et al. — Ultra-long generation by large language models (LLMs) is a widely demanded scenario, yet it remains a…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, reinforcement learning, large language model, language model, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-longwriter-zero-mastering-ultra-long-text-generation-via/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Yuhao Wu, Yushi Bai et al. — Ultra-long generation by large language models (LLMs) is a widely demanded scenario, yet it remains a…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-longwriter-zero-mastering-ultra-long-text-generation-via/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Yuhao Wu, Yushi Bai et al. — Ultra-long generation by large language models (LLMs) is a widely demanded scenario, yet it remains a…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-longwriter-zero-mastering-ultra-long-text-generation-via/#article",
+   "headline": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+   "name": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-longwriter-zero-mastering-ultra-long-text-generation-via/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yuhao Wu",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Singapore University of Technology and Design"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yushi Bai"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiqiang Hu"
+    },
+    {
+     "@type": "Person",
+     "name": "Roy Ka-Wei Lee"
+    },
+    {
+     "@type": "Person",
+     "name": "Juanzi Li"
+    }
+   ],
+   "description": "Ultra-long generation by large language models (LLMs) is a widely demanded scenario, yet it remains a significant challenge due to their maximum generation length limit and overall quality degradation as sequence length increases. Previous approaches, exemplified by LongWriter, typically rely on ''teaching'', which involves supervised fine-tunin...",
+   "keywords": [
+    "reinforcement learning",
+    "large language model",
+    "language model",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=JWx4DI2N8k"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-longwriter-zero-mastering-ultra-long-text-generation-via/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yuhao Wu, Yushi Bai, Zhiqiang Hu, Roy Ka-Wei Lee, Juanzi Li</dd>
+<dt>Affiliation</dt><dd>Singapore University of Technology and Design</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Ultra-long generation by large language models (LLMs) is a widely demanded scenario, yet it remains a significant challenge due to their maximum generation length limit and overall quality degradation as sequence length increases. Previous approaches, exemplified by LongWriter, typically rely on ''teaching'', which involves supervised fine-tunin...</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=JWx4DI2N8k" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=JWx4DI2N8k" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-reducing-belief-deviation-in-reinforcement-learning-for/">Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-emotionthinker-prosody-aware-reinforcement-learning-for/">EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-reverse-engineering-human-preferences-with-reinforcement/">Reverse Engineering Human Preferences with Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-enigmata-scaling-logical-reasoning-in-large-language-models/">Enigmata:  Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-improving-llm-general-preference-alignment-via-optimistic/">Improving LLM General Preference Alignment via Optimistic Online Mirror Descent</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

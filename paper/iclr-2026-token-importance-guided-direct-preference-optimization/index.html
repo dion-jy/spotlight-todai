@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token-Importance Guided Direct Preference Optimization — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Ning Yang, Hai Lin et al. — We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, preference optimization, optimization, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-token-importance-guided-direct-preference-optimization/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Token-Importance Guided Direct Preference Optimization | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Ning Yang, Hai Lin et al. — We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-token-importance-guided-direct-preference-optimization/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Token-Importance Guided Direct Preference Optimization | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Ning Yang, Hai Lin et al. — We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-token-importance-guided-direct-preference-optimization/#article",
+   "headline": "Token-Importance Guided Direct Preference Optimization",
+   "name": "Token-Importance Guided Direct Preference Optimization",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-token-importance-guided-direct-preference-optimization/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Ning Yang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Hai Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Yibo Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Baoliang Tian"
+    },
+    {
+     "@type": "Person",
+     "name": "Guoqing Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Haijun Zhang"
+    }
+   ],
+   "description": "We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human preferences by using a hybrid weighting mechanism to identify key tokens and a triplet loss to guide the optimization process.",
+   "keywords": [
+    "preference optimization",
+    "optimization",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=cMEnMVvMw9"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Token-Importance Guided Direct Preference Optimization",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-token-importance-guided-direct-preference-optimization/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Token-Importance Guided Direct Preference Optimization</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Ning Yang, Hai Lin, Yibo Liu, Baoliang Tian, Guoqing Liu, Haijun Zhang</dd>
+<dt>Affiliation</dt><dd>Institute of automation, Chinese academy of science, Chinese Academy of Sciences</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human preferences by using a hybrid weighting mechanism to identify key tokens and a triplet loss to guide the optimization process.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=cMEnMVvMw9" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=cMEnMVvMw9" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">preference optimization</span>
+<span class="chip">optimization</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../neurips-2025-infifpo-implicit-model-fusion-via-preference-optimization-in/">InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-vpo-reasoning-preferences-optimization-based-on-mathcal-v/">VPO: Reasoning Preferences Optimization Based on $\mathcal{V}$-Usable Information</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-less-is-more-improving-llm-alignment-via-preference-data/">Less is More: Improving LLM Alignment via Preference Data Selection</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-safedpo-a-simple-approach-to-direct-preference-optimization/">SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-multiplayer-nash-preference-optimization/">Multiplayer Nash Preference Optimization</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-semi-supervised-preference-optimization-with-limited/">Semi-Supervised Preference Optimization with Limited Feedback</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

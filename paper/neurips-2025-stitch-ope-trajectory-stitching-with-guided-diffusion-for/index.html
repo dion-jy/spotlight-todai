@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Hossein Goli, Michael Gimelfarb et al. — Off-policy evaluation (OPE) estimates the performance of a target policy using offline…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, evaluation, diffusion, robotics">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stitch-ope-trajectory-stitching-with-guided-diffusion-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="STITCH-OPE: Trajectory Stitching with Guided Diffusion for… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Hossein Goli, Michael Gimelfarb et al. — Off-policy evaluation (OPE) estimates the performance of a target policy using offline…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stitch-ope-trajectory-stitching-with-guided-diffusion-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="STITCH-OPE: Trajectory Stitching with Guided Diffusion for… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Hossein Goli, Michael Gimelfarb et al. — Off-policy evaluation (OPE) estimates the performance of a target policy using offline…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stitch-ope-trajectory-stitching-with-guided-diffusion-for/#article",
+   "headline": "STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation",
+   "name": "STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stitch-ope-trajectory-stitching-with-guided-diffusion-for/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Hossein Goli"
+    },
+    {
+     "@type": "Person",
+     "name": "Michael Gimelfarb"
+    },
+    {
+     "@type": "Person",
+     "name": "Nathan Samuel de Lara"
+    },
+    {
+     "@type": "Person",
+     "name": "Haruki Nishimura"
+    },
+    {
+     "@type": "Person",
+     "name": "Masha Itkina"
+    },
+    {
+     "@type": "Person",
+     "name": "Florian Shkurti"
+    }
+   ],
+   "description": "Off-policy evaluation (OPE) estimates the performance of a target policy using offline data collected from a behavior policy, and is crucial in domains such as robotics or healthcare where direct inte…",
+   "keywords": [
+    "evaluation",
+    "diffusion",
+    "robotics"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=AghtKxDf7f"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stitch-ope-trajectory-stitching-with-guided-diffusion-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Hossein Goli, Michael Gimelfarb, Nathan Samuel de Lara, Haruki Nishimura, Masha Itkina, Florian Shkurti</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Off-policy evaluation (OPE) estimates the performance of a target policy using offline data collected from a behavior policy, and is crucial in domains such as robotics or healthcare where direct inte…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=AghtKxDf7f" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=AghtKxDf7f" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">evaluation</span>
+<span class="chip">diffusion</span>
+<span class="chip">robotics</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-deep-compositional-phase-diffusion-for-long-motion-sequence/">Deep Compositional Phase Diffusion for Long Motion Sequence Generation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-why-diffusion-models-dont-memorize-the-role-of-implicit/">Why Diffusion Models Don’t Memorize:  The Role of Implicit Dynamical Regularization in Training</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-adjoint-schrodinger-bridge-sampler/">Adjoint Schrödinger Bridge Sampler</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-a-clean-slate-for-offline-reinforcement-learning/">A Clean Slate for Offline Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-large-language-diffusion-models/">Large Language Diffusion Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-representation-entanglement-for-generation-training/">Representation Entanglement for Generation: Training Diffusion Transformers Is Much Easier Than You Think</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

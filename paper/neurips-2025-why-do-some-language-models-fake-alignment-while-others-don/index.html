@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why Do Some Language Models Fake Alignment While Others Don't? — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Abhay Sheshadri, John Hughes et al. — *Alignment Faking in Large Language Models* presented a demonstration of Claude 3 Opus and…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, large language model, language model, alignment">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-do-some-language-models-fake-alignment-while-others-don/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why Do Some Language Models Fake Alignment While Others Don't? | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Abhay Sheshadri, John Hughes et al. — *Alignment Faking in Large Language Models* presented a demonstration of Claude 3 Opus and…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-do-some-language-models-fake-alignment-while-others-don/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Do Some Language Models Fake Alignment While Others Don't? | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Abhay Sheshadri, John Hughes et al. — *Alignment Faking in Large Language Models* presented a demonstration of Claude 3 Opus and…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-do-some-language-models-fake-alignment-while-others-don/#article",
+   "headline": "Why Do Some Language Models Fake Alignment While Others Don't?",
+   "name": "Why Do Some Language Models Fake Alignment While Others Don't?",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-do-some-language-models-fake-alignment-while-others-don/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Abhay Sheshadri"
+    },
+    {
+     "@type": "Person",
+     "name": "John Hughes"
+    },
+    {
+     "@type": "Person",
+     "name": "Julian Michael"
+    },
+    {
+     "@type": "Person",
+     "name": "Alex Troy Mallen"
+    },
+    {
+     "@type": "Person",
+     "name": "Arun Jose"
+    },
+    {
+     "@type": "Person",
+     "name": "Fabien Roger"
+    }
+   ],
+   "description": "*Alignment Faking in Large Language Models* presented a demonstration of Claude 3 Opus and Claude 3…",
+   "keywords": [
+    "large language model",
+    "language model",
+    "alignment"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=1Imp4KZyjA"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Why Do Some Language Models Fake Alignment While Others Don't?",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-why-do-some-language-models-fake-alignment-while-others-don/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Why Do Some Language Models Fake Alignment While Others Don't?</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Abhay Sheshadri, John Hughes, Julian Michael, Alex Troy Mallen, Arun Jose, Fabien Roger</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>*Alignment Faking in Large Language Models* presented a demonstration of Claude 3 Opus and Claude 3…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=1Imp4KZyjA" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=1Imp4KZyjA" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">alignment</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-hyperet-efficient-training-in-hyperbolic-space-for-multi/">HyperET: Efficient Training in Hyperbolic Space for Multi-modal Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-improving-llm-general-preference-alignment-via-optimistic/">Improving LLM General Preference Alignment via Optimistic Online Mirror Descent</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-beyond-expectations-quantile-guided-alignment-for-risk/">Beyond Expectations: Quantile-Guided Alignment for Risk-Calibrated Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-vpo-reasoning-preferences-optimization-based-on-mathcal-v/">VPO: Reasoning Preferences Optimization Based on $\mathcal{V}$-Usable Information</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-less-is-more-improving-llm-alignment-via-preference-data/">Less is More: Improving LLM Alignment via Preference Data Selection</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-mgup-a-momentum-gradient-alignment-update-policy-for/">MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

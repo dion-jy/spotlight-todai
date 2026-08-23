@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why DPO is a Misspecified Estimator and How to Fix It — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Aditya Gopalan, Sayak Ray Chowdhury et al. — DPO is not sound by design and can fail due to misspecification, we fix it with careful…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-why-dpo-is-a-misspecified-estimator-and-how-to-fix-it/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why DPO is a Misspecified Estimator and How to Fix It | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Aditya Gopalan, Sayak Ray Chowdhury et al. — DPO is not sound by design and can fail due to misspecification, we fix it with careful…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-why-dpo-is-a-misspecified-estimator-and-how-to-fix-it/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why DPO is a Misspecified Estimator and How to Fix It | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Aditya Gopalan, Sayak Ray Chowdhury et al. — DPO is not sound by design and can fail due to misspecification, we fix it with careful…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-why-dpo-is-a-misspecified-estimator-and-how-to-fix-it/#article",
+   "headline": "Why DPO is a Misspecified Estimator and How to Fix It",
+   "name": "Why DPO is a Misspecified Estimator and How to Fix It",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-why-dpo-is-a-misspecified-estimator-and-how-to-fix-it/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Aditya Gopalan",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Indian Institute of Science"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Sayak Ray Chowdhury"
+    },
+    {
+     "@type": "Person",
+     "name": "Debangshu Banerjee"
+    }
+   ],
+   "description": "DPO is not sound by design and can fail due to misspecification, we fix it with careful analysis.",
+   "sameAs": [
+    "https://openreview.net/forum?id=btEiAfnLsX"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Why DPO is a Misspecified Estimator and How to Fix It",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-why-dpo-is-a-misspecified-estimator-and-how-to-fix-it/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Why DPO is a Misspecified Estimator and How to Fix It</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Aditya Gopalan, Sayak Ray Chowdhury, Debangshu Banerjee</dd>
+<dt>Affiliation</dt><dd>Indian Institute of Science</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>DPO is not sound by design and can fail due to misspecification, we fix it with careful analysis.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=btEiAfnLsX" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=btEiAfnLsX" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-enhancing-generative-auto-bidding-with-offline-reward/">Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-webdevjudge-evaluating-m-llms-as-critiques-for-web/">WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-exchangeability-of-gnn-representations-with-applications-to/">Exchangeability of GNN Representations with Applications to Graph Retrieval</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-safedpo-a-simple-approach-to-direct-preference-optimization/">SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-fire-frobenius-isometry-reinitialization-for-balancing-the/">FIRE: Frobenius-Isometry Reinitialization for Balancing the Stability–Plasticity Tradeoff</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-medagentgym-a-scalable-agentic-training-environment-for-code/">MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

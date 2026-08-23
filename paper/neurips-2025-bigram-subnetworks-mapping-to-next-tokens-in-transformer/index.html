@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Tyler A. Chang, Ben Bergen — In Transformer language models, activation vectors transform from current token embeddings to next…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, language model, transformer">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-bigram-subnetworks-mapping-to-next-tokens-in-transformer/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bigram Subnetworks: Mapping to Next Tokens in Transformer Language… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Tyler A. Chang, Ben Bergen — In Transformer language models, activation vectors transform from current token embeddings to next…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-bigram-subnetworks-mapping-to-next-tokens-in-transformer/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bigram Subnetworks: Mapping to Next Tokens in Transformer Language… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Tyler A. Chang, Ben Bergen — In Transformer language models, activation vectors transform from current token embeddings to next…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-bigram-subnetworks-mapping-to-next-tokens-in-transformer/#article",
+   "headline": "Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models",
+   "name": "Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-bigram-subnetworks-mapping-to-next-tokens-in-transformer/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Tyler A. Chang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ben Bergen"
+    }
+   ],
+   "description": "In Transformer language models, activation vectors transform from current token embeddings to next token predictions as they pass through the model…",
+   "keywords": [
+    "language model",
+    "transformer"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=0TD3eO46gk"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-bigram-subnetworks-mapping-to-next-tokens-in-transformer/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Bigram Subnetworks: Mapping to Next Tokens in Transformer Language Models</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Tyler A. Chang, Ben Bergen</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>In Transformer language models, activation vectors transform from current token embeddings to next token predictions as they pass through the model…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=0TD3eO46gk" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=0TD3eO46gk" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">language model</span>
+<span class="chip">transformer</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-from-condensation-to-rank-collapse-a-two-stage-analysis-of/">From Condensation to Rank Collapse: A Two-Stage Analysis of Transformer Training Dynamics</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-how-do-transformers-learn-implicit-reasoning/">How do Transformers Learn Implicit Reasoning?</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-head-pursuit-probing-attention-specialization-in-multimodal/">Head Pursuit: Probing Attention Specialization in Multimodal Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-extrapolation-by-association-length-generalization-transfer/">Extrapolation by Association: Length Generalization Transfer In Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-characterizing-the-expressivity-of-fixed-precision/">Characterizing the Expressivity of Fixed-Precision Transformer Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-lost-in-transmission-when-and-why-llms-fail-to-reason/">Lost in Transmission: When and Why LLMs Fail to Reason Globally</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

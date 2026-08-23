@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Zhiyu Pan, Yizheng Wu et al. — Reasoning has emerged as a key capability of large language models. In linguistic tasks, this capability can…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, large language model, language model, fine-tuning, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-through-the-lens-of-contrast-self-improving-visual-reasoning/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Zhiyu Pan, Yizheng Wu et al. — Reasoning has emerged as a key capability of large language models. In linguistic tasks, this capability can…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-through-the-lens-of-contrast-self-improving-visual-reasoning/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Zhiyu Pan, Yizheng Wu et al. — Reasoning has emerged as a key capability of large language models. In linguistic tasks, this capability can…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-through-the-lens-of-contrast-self-improving-visual-reasoning/#article",
+   "headline": "Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs",
+   "name": "Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-through-the-lens-of-contrast-self-improving-visual-reasoning/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhiyu Pan",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Alibaba Group"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yizheng Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiashen Hua"
+    },
+    {
+     "@type": "Person",
+     "name": "Junyi Feng"
+    },
+    {
+     "@type": "Person",
+     "name": "Shaotian Yan"
+    },
+    {
+     "@type": "Person",
+     "name": "Bing Deng"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiguo Cao"
+    },
+    {
+     "@type": "Person",
+     "name": "Jieping Ye"
+    }
+   ],
+   "description": "Reasoning has emerged as a key capability of large language models. In linguistic tasks, this capability can be enhanced by self-improving techniques that refine reasoning paths for subsequent fine-tuning.",
+   "keywords": [
+    "large language model",
+    "language model",
+    "fine-tuning",
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=ZymCPON45y"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-through-the-lens-of-contrast-self-improving-visual-reasoning/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Through the Lens of Contrast: Self-Improving Visual Reasoning in VLMs</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhiyu Pan, Yizheng Wu, Jiashen Hua, Junyi Feng, Shaotian Yan, Bing Deng, Zhiguo Cao, Jieping Ye</dd>
+<dt>Affiliation</dt><dd>Alibaba Group</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Reasoning has emerged as a key capability of large language models. In linguistic tasks, this capability can be enhanced by self-improving techniques that refine reasoning paths for subsequent fine-tuning.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=ZymCPON45y" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=ZymCPON45y" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">fine-tuning</span>
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-right-question-is-already-half-the-answer-fully-unsupervised/">Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-loongrl-reinforcement-learning-for-advanced-reasoning-over/">LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-visual-planning-let-s-think-only-with-images/">Visual Planning: Let's Think Only with Images</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

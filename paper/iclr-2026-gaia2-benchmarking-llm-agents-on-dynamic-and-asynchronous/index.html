@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Romain Froger, Pierre Andrews et al. — Gaia2 evaluates LLM agents in asynchronous, dynamic environments with action-level verification…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, robustness, benchmark, reasoning, agent, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Romain Froger, Pierre Andrews et al. — Gaia2 evaluates LLM agents in asynchronous, dynamic environments with action-level verification…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Romain Froger, Pierre Andrews et al. — Gaia2 evaluates LLM agents in asynchronous, dynamic environments with action-level verification…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/#article",
+   "headline": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+   "name": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Romain Froger",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Facebook"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Pierre Andrews"
+    },
+    {
+     "@type": "Person",
+     "name": "Matteo Bettini"
+    },
+    {
+     "@type": "Person",
+     "name": "Amar Budhiraja"
+    },
+    {
+     "@type": "Person",
+     "name": "Ricardo Silveira Cabral"
+    },
+    {
+     "@type": "Person",
+     "name": "Virginie Do"
+    },
+    {
+     "@type": "Person",
+     "name": "Emilien Garreau"
+    },
+    {
+     "@type": "Person",
+     "name": "Jean-Baptiste Gaya"
+    },
+    {
+     "@type": "Person",
+     "name": "Hugo Laurençon"
+    },
+    {
+     "@type": "Person",
+     "name": "Maxime Lecanu"
+    },
+    {
+     "@type": "Person",
+     "name": "Kunal Malkan"
+    },
+    {
+     "@type": "Person",
+     "name": "Dheeraj Mekala"
+    },
+    {
+     "@type": "Person",
+     "name": "Pierre Menard"
+    },
+    {
+     "@type": "Person",
+     "name": "Gerard Moreno-Torres Bertran"
+    },
+    {
+     "@type": "Person",
+     "name": "Ulyana Piterbarg"
+    },
+    {
+     "@type": "Person",
+     "name": "Mikhail Plekhanov"
+    },
+    {
+     "@type": "Person",
+     "name": "Mathieu Rita"
+    },
+    {
+     "@type": "Person",
+     "name": "Andrey Rusakov"
+    },
+    {
+     "@type": "Person",
+     "name": "Vladislav Vorotilov"
+    },
+    {
+     "@type": "Person",
+     "name": "Mengjue Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ian Yu"
+    },
+    {
+     "@type": "Person",
+     "name": "Amine Benhalloum"
+    },
+    {
+     "@type": "Person",
+     "name": "Grégoire Mialon"
+    },
+    {
+     "@type": "Person",
+     "name": "Thomas Scialom"
+    }
+   ],
+   "description": "Gaia2 evaluates LLM agents in asynchronous, dynamic environments with action-level verification, revealing fundamental trade-offs between reasoning, speed, and robustness.",
+   "keywords": [
+    "robustness",
+    "benchmark",
+    "reasoning",
+    "agent",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=9gw03JpKK4"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Romain Froger, Pierre Andrews, Matteo Bettini, Amar Budhiraja, Ricardo Silveira Cabral, Virginie Do, Emilien Garreau, Jean-Baptiste Gaya, Hugo Laurençon, Maxime Lecanu, Kunal Malkan, Dheeraj Mekala, Pierre Menard, Gerard Moreno-Torres Bertran, Ulyana Piterbarg, Mikhail Plekhanov, Mathieu Rita, Andrey Rusakov, Vladislav Vorotilov, Mengjue Wang, Ian Yu, Amine Benhalloum, Grégoire Mialon, Thomas Scialom</dd>
+<dt>Affiliation</dt><dd>Facebook</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Gaia2 evaluates LLM agents in asynchronous, dynamic environments with action-level verification, revealing fundamental trade-offs between reasoning, speed, and robustness.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=9gw03JpKK4" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=9gw03JpKK4" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">robustness</span>
+<span class="chip">benchmark</span>
+<span class="chip">reasoning</span>
+<span class="chip">agent</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-medagentgym-a-scalable-agentic-training-environment-for-code/">MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/">SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-reducing-belief-deviation-in-reinforcement-learning-for/">Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-understanding-reasoning-collapse-in-llm-agent-reinforcement/">Understanding Reasoning Collapse in LLM Agent Reinforcement Learning</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-causalgame-benchmarking-causal-thinking-of-llm-agents-in/">CausalGame: Benchmarking Causal Thinking of LLM Agents in Games</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

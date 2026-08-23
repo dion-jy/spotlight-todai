@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Zhiyu Mou, Yiqin Lv et al. — Auto-bidding is a critical tool for advertisers to improve advertising performance. Recent progress has…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, offline reinforcement learning, reinforcement learning, evaluation">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-enhancing-generative-auto-bidding-with-offline-reward/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Zhiyu Mou, Yiqin Lv et al. — Auto-bidding is a critical tool for advertisers to improve advertising performance. Recent progress has…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-enhancing-generative-auto-bidding-with-offline-reward/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Zhiyu Mou, Yiqin Lv et al. — Auto-bidding is a critical tool for advertisers to improve advertising performance. Recent progress has…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-enhancing-generative-auto-bidding-with-offline-reward/#article",
+   "headline": "Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search",
+   "name": "Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-enhancing-generative-auto-bidding-with-offline-reward/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhiyu Mou",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Alibaba Group"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yiqin Lv"
+    },
+    {
+     "@type": "Person",
+     "name": "Miao Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Cheems Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yixiu Mao"
+    },
+    {
+     "@type": "Person",
+     "name": "Jinghao Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Qichen Ye"
+    },
+    {
+     "@type": "Person",
+     "name": "Chao Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Rongquan Bai"
+    },
+    {
+     "@type": "Person",
+     "name": "Chuan Yu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jian Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Bo Zheng"
+    }
+   ],
+   "description": "Auto-bidding is a critical tool for advertisers to improve advertising performance. Recent progress has demonstrated that AI-Generated Bidding (AIGB), which learns a conditional generative planner from offline data, achieves superior performance compared to typical offline reinforcement learning (RL)-based auto-bidding methods.",
+   "keywords": [
+    "offline reinforcement learning",
+    "reinforcement learning",
+    "evaluation"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=kMuQBgPIdg"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-enhancing-generative-auto-bidding-with-offline-reward/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Enhancing Generative Auto-bidding with Offline Reward Evaluation and Policy Search</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhiyu Mou, Yiqin Lv, Miao Xu, Cheems Wang, Yixiu Mao, Jinghao Chen, Qichen Ye, Chao Li, Rongquan Bai, Chuan Yu, Jian Xu, Bo Zheng</dd>
+<dt>Affiliation</dt><dd>Alibaba Group</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Auto-bidding is a critical tool for advertisers to improve advertising performance. Recent progress has demonstrated that AI-Generated Bidding (AIGB), which learns a conditional generative planner from offline data, achieves superior performance compared to typical offline reinforcement learning (RL)-based auto-bidding methods.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=kMuQBgPIdg" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=kMuQBgPIdg" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">offline reinforcement learning</span>
+<span class="chip">reinforcement learning</span>
+<span class="chip">evaluation</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../neurips-2025-a-clean-slate-for-offline-reinforcement-learning/">A Clean Slate for Offline Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-forecasting-in-offline-reinforcement-learning-for-non/">Forecasting in Offline Reinforcement Learning for Non-stationary Environments</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-a-unifying-view-of-linear-function-approximation-in-off/">A Unifying View of Linear Function Approximation in Off-Policy RL Through Matrix Splitting and Preconditioning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-horizon-reduction-makes-rl-scalable/">Horizon Reduction Makes RL Scalable</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-a-principled-path-to-fitted-distributional-evaluation/">A Principled Path to Fitted Distributional Evaluation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-offline-guarded-safe-reinforcement-learning-for-medical/">Offline Guarded Safe Reinforcement Learning for Medical Treatment Optimization Strategies</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Gyuhyeon Seo, Jungwoo Yang et al. — We introduce $\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, benchmark, agent, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Gyuhyeon Seo, Jungwoo Yang et al. — We introduce $\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Gyuhyeon Seo, Jungwoo Yang et al. — We introduce $\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/#article",
+   "headline": "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents",
+   "name": "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Gyuhyeon Seo",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Seoul National University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Jungwoo Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Junseong Pyo"
+    },
+    {
+     "@type": "Person",
+     "name": "Nalim Kim"
+    },
+    {
+     "@type": "Person",
+     "name": "Jonggeun Lee"
+    },
+    {
+     "@type": "Person",
+     "name": "Yohan Jo"
+    }
+   ],
+   "description": "We introduce $\\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes for LLM-based smart home agents. Existing smart home benchmarks treat the home as a static system, neither simulating how device operations affect environmental variables over time nor supporting workflow scheduling of device commands.",
+   "keywords": [
+    "benchmark",
+    "agent",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=LCS1WsGvha"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Gyuhyeon Seo, Jungwoo Yang, Junseong Pyo, Nalim Kim, Jonggeun Lee, Yohan Jo</dd>
+<dt>Affiliation</dt><dd>Seoul National University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We introduce $\textbf{SimuHome}$, a high-fidelity smart home simulator and a benchmark of 600 episodes for LLM-based smart home agents. Existing smart home benchmarks treat the home as a static system, neither simulating how device operations affect environmental variables over time nor supporting workflow scheduling of device commands.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=LCS1WsGvha" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=LCS1WsGvha" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">benchmark</span>
+<span class="chip">agent</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/">Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-causalgame-benchmarking-causal-thinking-of-llm-agents-in/">CausalGame: Benchmarking Causal Thinking of LLM Agents in Games</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../iclr-2026-webdevjudge-evaluating-m-llms-as-critiques-for-web/">WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-medagentgym-a-scalable-agentic-training-environment-for-code/">MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-astabench-rigorous-benchmarking-of-ai-agents-with-a/">AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

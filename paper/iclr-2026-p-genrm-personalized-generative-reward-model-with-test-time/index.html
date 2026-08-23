@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Pinyi Zhang, Ting-En Lin et al. — The first personalized generative reward model with test-time user-based scaling for preference alignment">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, alignment">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-p-genrm-personalized-generative-reward-model-with-test-time/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="P-GenRM: Personalized Generative Reward Model with Test-time User-based… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Pinyi Zhang, Ting-En Lin et al. — The first personalized generative reward model with test-time user-based scaling for preference alignment">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-p-genrm-personalized-generative-reward-model-with-test-time/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="P-GenRM: Personalized Generative Reward Model with Test-time User-based… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Pinyi Zhang, Ting-En Lin et al. — The first personalized generative reward model with test-time user-based scaling for preference alignment">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-p-genrm-personalized-generative-reward-model-with-test-time/#article",
+   "headline": "P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling",
+   "name": "P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-p-genrm-personalized-generative-reward-model-with-test-time/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Pinyi Zhang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "East China Normal University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Ting-En Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuchuan Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jingyang Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Zongqi Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Hua Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xu Ze"
+    },
+    {
+     "@type": "Person",
+     "name": "Fei Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yongbin Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Kai Zhang"
+    }
+   ],
+   "description": "The first personalized generative reward model with test-time user-based scaling for preference alignment…",
+   "keywords": [
+    "alignment"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=hXNApWLBZG"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-p-genrm-personalized-generative-reward-model-with-test-time/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Pinyi Zhang, Ting-En Lin, Yuchuan Wu, Jingyang Chen, Zongqi Wang, Hua Yang, Xu Ze, Fei Huang, Yongbin Li, Kai Zhang</dd>
+<dt>Affiliation</dt><dd>East China Normal University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>The first personalized generative reward model with test-time user-based scaling for preference alignment…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=hXNApWLBZG" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=hXNApWLBZG" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">alignment</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-safedpo-a-simple-approach-to-direct-preference-optimization/">SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-glass-flows-efficient-inference-for-reward-alignment-of-flow/">GLASS Flows: Efficient Inference for Reward Alignment of Flow and Diffusion Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-eigenbench-a-comparative-behavioral-measure-of-value/">EigenBench: A Comparative Behavioral Measure of Value Alignment</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-seeing-through-the-brain-new-insights-from-decoding-visual/">Seeing Through the Brain: New Insights from Decoding Visual Stimuli with fMRI</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-learning-with-dual-level-noisy-correspondence-for-multi/">Learning with Dual-level Noisy Correspondence for Multi-modal Entity Alignment</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-modality-free-graph-in-context-alignment/">Modality-free Graph In-context Alignment</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

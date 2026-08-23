@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Rohit Jena, Vedant Zope et al. — we propose non-GEMM CUDA kernels and distributed primitives to scale multimodal image registration to…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, multimodal, kernel">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-a-scalable-distributed-framework-for-multimodal-gigavoxel/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Rohit Jena, Vedant Zope et al. — we propose non-GEMM CUDA kernels and distributed primitives to scale multimodal image registration to…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-a-scalable-distributed-framework-for-multimodal-gigavoxel/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Rohit Jena, Vedant Zope et al. — we propose non-GEMM CUDA kernels and distributed primitives to scale multimodal image registration to…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-a-scalable-distributed-framework-for-multimodal-gigavoxel/#article",
+   "headline": "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration",
+   "name": "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-a-scalable-distributed-framework-for-multimodal-gigavoxel/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Rohit Jena",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "University of Pennsylvania"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Vedant Zope"
+    },
+    {
+     "@type": "Person",
+     "name": "Pratik Chaudhari"
+    },
+    {
+     "@type": "Person",
+     "name": "James Gee"
+    }
+   ],
+   "description": "we propose non-GEMM CUDA kernels and distributed primitives to scale multimodal image registration to arbitrary image sizes…",
+   "keywords": [
+    "multimodal",
+    "kernel"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=8dLexnao2h"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-a-scalable-distributed-framework-for-multimodal-gigavoxel/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Rohit Jena, Vedant Zope, Pratik Chaudhari, James Gee</dd>
+<dt>Affiliation</dt><dd>University of Pennsylvania</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>we propose non-GEMM CUDA kernels and distributed primitives to scale multimodal image registration to arbitrary image sizes…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=8dLexnao2h" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=8dLexnao2h" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">multimodal</span>
+<span class="chip">kernel</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-a-representer-theorem-for-hawkes-processes-via-penalized/">A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-tilelang-bridge-programmability-and-performance-in-modern/">TileLang: Bridge Programmability and Performance in Modern Neural Kernels</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-wave-learning-unified-versatile-audio-visual-embeddings-with/">WAVE: Learning Unified &amp; Versatile Audio-Visual Embeddings with Multimodal LLM</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-probabilistic-kernel-function-for-fast-angle-testing/">Probabilistic Kernel Function for Fast Angle Testing</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

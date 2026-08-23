@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Shibo Hong, Jiahao Ying et al. — Evaluating open-ended outputs of Multimodal Large Language Models has become a bottleneck as model…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, large language model, generalization, language model, evaluation, multimodal, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-frabench-and-ufeval-unified-fine-grained-evaluation-with/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Shibo Hong, Jiahao Ying et al. — Evaluating open-ended outputs of Multimodal Large Language Models has become a bottleneck as model…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-frabench-and-ufeval-unified-fine-grained-evaluation-with/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Shibo Hong, Jiahao Ying et al. — Evaluating open-ended outputs of Multimodal Large Language Models has become a bottleneck as model…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-frabench-and-ufeval-unified-fine-grained-evaluation-with/#article",
+   "headline": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization",
+   "name": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-frabench-and-ufeval-unified-fine-grained-evaluation-with/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Shibo Hong",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Fudan University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Jiahao Ying"
+    },
+    {
+     "@type": "Person",
+     "name": "Haiyuan Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Mengdi Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jun Kuang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiazheng Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yixin Cao"
+    }
+   ],
+   "description": "Evaluating open-ended outputs of Multimodal Large Language Models has become a bottleneck as model capabilities, task diversity, and modality rapidly expand. Existing ``MLLM-as-a-Judge'' evaluators, though promising, remain constrained to specific tasks and aspects (i.e., specific evaluation criteria such as fluency for text and image quality fo...",
+   "keywords": [
+    "large language model",
+    "generalization",
+    "language model",
+    "evaluation",
+    "multimodal",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=7WdY3Cojy9"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-frabench-and-ufeval-unified-fine-grained-evaluation-with/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Shibo Hong, Jiahao Ying, Haiyuan Liang, Mengdi Zhang, Jun Kuang, Jiazheng Zhang, Yixin Cao</dd>
+<dt>Affiliation</dt><dd>Fudan University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Evaluating open-ended outputs of Multimodal Large Language Models has become a bottleneck as model capabilities, task diversity, and modality rapidly expand. Existing ``MLLM-as-a-Judge'' evaluators, though promising, remain constrained to specific tasks and aspects (i.e., specific evaluation criteria such as fluency for text and image quality fo...</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=7WdY3Cojy9" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=7WdY3Cojy9" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">generalization</span>
+<span class="chip">language model</span>
+<span class="chip">evaluation</span>
+<span class="chip">multimodal</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-visual-planning-let-s-think-only-with-images/">Visual Planning: Let's Think Only with Images</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-bird-interact-re-imagining-text-to-sql-evaluation-via-lens/">BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-swingarena-adversarial-programming-arena-for-long-context/">SWINGARENA: Adversarial Programming Arena for Long-context GitHub Issue Solving</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/">Instilling an Active Mind in Avatars via Cognitive Simulation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

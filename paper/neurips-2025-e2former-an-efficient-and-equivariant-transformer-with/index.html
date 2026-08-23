@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Yunyang Li, Lin Huang et al. — Equivariant Graph Neural Networks (EGNNs) have demonstrated significant success in modeling…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, graph neural network, transformer, efficient, biology, graph">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-e2former-an-efficient-and-equivariant-transformer-with/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="E2Former: An Efficient and Equivariant Transformer with… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Yunyang Li, Lin Huang et al. — Equivariant Graph Neural Networks (EGNNs) have demonstrated significant success in modeling…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-e2former-an-efficient-and-equivariant-transformer-with/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="E2Former: An Efficient and Equivariant Transformer with… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Yunyang Li, Lin Huang et al. — Equivariant Graph Neural Networks (EGNNs) have demonstrated significant success in modeling…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-e2former-an-efficient-and-equivariant-transformer-with/#article",
+   "headline": "E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products",
+   "name": "E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-e2former-an-efficient-and-equivariant-transformer-with/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yunyang Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Lin Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhihao Ding"
+    },
+    {
+     "@type": "Person",
+     "name": "Xinran Wei"
+    },
+    {
+     "@type": "Person",
+     "name": "Chu Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Han Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zun Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Chang Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yu Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Peiran Jin"
+    },
+    {
+     "@type": "Person",
+     "name": "Tao Qin"
+    },
+    {
+     "@type": "Person",
+     "name": "Mark Gerstein"
+    },
+    {
+     "@type": "Person",
+     "name": "Jia Zhang"
+    }
+   ],
+   "description": "Equivariant Graph Neural Networks (EGNNs) have demonstrated significant success in modeling microscale systems, including those in chemistry, biology and materials science…",
+   "keywords": [
+    "graph neural network",
+    "transformer",
+    "efficient",
+    "biology",
+    "graph"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=ls5L4IMEwt"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-e2former-an-efficient-and-equivariant-transformer-with/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yunyang Li, Lin Huang, Zhihao Ding, Xinran Wei, Chu Wang, Han Yang, Zun Wang, Chang Liu, Yu Shi, Peiran Jin, Tao Qin, Mark Gerstein, Jia Zhang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Equivariant Graph Neural Networks (EGNNs) have demonstrated significant success in modeling microscale systems, including those in chemistry, biology and materials science…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=ls5L4IMEwt" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=ls5L4IMEwt" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">graph neural network</span>
+<span class="chip">transformer</span>
+<span class="chip">efficient</span>
+<span class="chip">biology</span>
+<span class="chip">graph</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-a-closer-look-at-graph-transformers-cross-aggregation-and/">A Closer Look at Graph Transformers: Cross-Aggregation and Beyond</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-bridging-theory-and-practice-in-link-representation-with/">Bridging Theory and Practice in Link Representation with Graph Neural Networks</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-zeros-zero-sum-linear-attention-for-efficient-transformers/">ZeroS: Zero‑Sum Linear Attention for Efficient Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-diffusion-based-hierarchical-graph-neural-networks-for/">Diffusion-Based Hierarchical Graph Neural Networks for Simulating Nonlinear Solid Mechanics</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-l2dgcn-learnable-enhancement-and-label-selection-dynamic/">L2DGCN: Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-an-efficient-orlicz-sobolev-approach-for-transporting/">An Efficient Orlicz-Sobolev Approach for Transporting Unbalanced Measures on a Graph</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

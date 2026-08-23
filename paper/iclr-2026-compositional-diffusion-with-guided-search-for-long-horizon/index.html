@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compositional Diffusion with Guided search for Long-Horizon Planning — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Utkarsh Aashu Mishra, David He et al. — We integrate search into compositional diffusion to scale short-horizon models into long-horizon…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, diffusion, planning, video">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Compositional Diffusion with Guided search for Long-Horizon Planning | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Utkarsh Aashu Mishra, David He et al. — We integrate search into compositional diffusion to scale short-horizon models into long-horizon…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Compositional Diffusion with Guided search for Long-Horizon Planning | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Utkarsh Aashu Mishra, David He et al. — We integrate search into compositional diffusion to scale short-horizon models into long-horizon…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/#article",
+   "headline": "Compositional Diffusion with Guided search for Long-Horizon Planning",
+   "name": "Compositional Diffusion with Guided search for Long-Horizon Planning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Utkarsh Aashu Mishra",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Georgia Institute of Technology"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "David He"
+    },
+    {
+     "@type": "Person",
+     "name": "Yongxin Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Danfei Xu"
+    }
+   ],
+   "description": "We integrate search into compositional diffusion to scale short-horizon models into long-horizon plans, supporting motion planning, panoramic image synthesis, and long-video generation.",
+   "keywords": [
+    "diffusion",
+    "planning",
+    "video"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=b8avf4F2hn"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Compositional Diffusion with Guided search for Long-Horizon Planning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compositional-diffusion-with-guided-search-for-long-horizon/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Compositional Diffusion with Guided search for Long-Horizon Planning</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Utkarsh Aashu Mishra, David He, Yongxin Chen, Danfei Xu</dd>
+<dt>Affiliation</dt><dd>Georgia Institute of Technology</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We integrate search into compositional diffusion to scale short-horizon models into long-horizon plans, supporting motion planning, panoramic image synthesis, and long-video generation.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=b8avf4F2hn" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=b8avf4F2hn" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">diffusion</span>
+<span class="chip">planning</span>
+<span class="chip">video</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-let-features-decide-their-own-solvers-hybrid-feature-caching/">Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/">Instilling an Active Mind in Avatars via Cognitive Simulation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-sana-video-efficient-video-generation-with-block-linear/">SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-svimo-synchronized-diffusion-for-video-and-motion-generation/">SViMo: Synchronized Diffusion for Video and Motion Generation in Hand-object Interaction Scenarios</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-compositional-monte-carlo-tree-diffusion-for-extendable/">Compositional Monte Carlo Tree Diffusion for Extendable Planning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fast-monte-carlo-tree-diffusion-100-speedup-via-parallel-and/">Fast Monte Carlo Tree Diffusion: 100× Speedup via Parallel and Sparse Planning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

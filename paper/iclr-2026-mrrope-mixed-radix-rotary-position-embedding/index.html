@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MrRoPE: Mixed-radix Rotary Position Embedding — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Qingyuan Tian, Wenhong Zhu et al. — We present a unified theory MrRoPE linking major RoPE-extension methods to radix conversion. Based on…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, theory">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-mrrope-mixed-radix-rotary-position-embedding/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MrRoPE: Mixed-radix Rotary Position Embedding | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Qingyuan Tian, Wenhong Zhu et al. — We present a unified theory MrRoPE linking major RoPE-extension methods to radix conversion. Based on…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-mrrope-mixed-radix-rotary-position-embedding/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MrRoPE: Mixed-radix Rotary Position Embedding | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Qingyuan Tian, Wenhong Zhu et al. — We present a unified theory MrRoPE linking major RoPE-extension methods to radix conversion. Based on…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-mrrope-mixed-radix-rotary-position-embedding/#article",
+   "headline": "MrRoPE: Mixed-radix Rotary Position Embedding",
+   "name": "MrRoPE: Mixed-radix Rotary Position Embedding",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-mrrope-mixed-radix-rotary-position-embedding/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Qingyuan Tian",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Shanghai Jiaotong University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Wenhong Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaoran Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaofeng Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Rui Wang"
+    }
+   ],
+   "description": "We present a unified theory MrRoPE linking major RoPE-extension methods to radix conversion. Based on this, we propose MrRoPE-Pro, a training-free context window extension method..",
+   "keywords": [
+    "theory"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=1J63FJYJKg"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "MrRoPE: Mixed-radix Rotary Position Embedding",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-mrrope-mixed-radix-rotary-position-embedding/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>MrRoPE: Mixed-radix Rotary Position Embedding</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Qingyuan Tian, Wenhong Zhu, Xiaoran Liu, Xiaofeng Wang, Rui Wang</dd>
+<dt>Affiliation</dt><dd>Shanghai Jiaotong University</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We present a unified theory MrRoPE linking major RoPE-extension methods to radix conversion. Based on this, we propose MrRoPE-Pro, a training-free context window extension method..</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=1J63FJYJKg" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=1J63FJYJKg" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">theory</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-p-less-sampling-a-robust-hyperparameter-free-approach-for/">p-less Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-the-coverage-principle-how-pre-training-enables-post/">The Coverage Principle: How Pre-Training Enables Post-Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-transformers-are-inherently-succinct/">Transformers are Inherently Succinct</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-information-shapes-koopman-representation/">Information Shapes Koopman Representation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-infotok-adaptive-discrete-video-tokenizer-via-information/">InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-dpo-unchained-your-training-algorithm-is-secretly/">DPO Unchained: Your Training Algorithm is Secretly Disentangled in Human Choice Theory (and Its Loss' Convexity is Dispensable)</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

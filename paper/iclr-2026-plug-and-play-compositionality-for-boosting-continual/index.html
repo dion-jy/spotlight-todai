@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plug-and-Play Compositionality for Boosting Continual Learning with Foundation Models — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Weiduo Liao, Fei Han et al. — We introduce CompSLOT, a universal concept learning method to continual learning with foundation models…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, continual learning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-plug-and-play-compositionality-for-boosting-continual/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Plug-and-Play Compositionality for Boosting Continual Learning with… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Weiduo Liao, Fei Han et al. — We introduce CompSLOT, a universal concept learning method to continual learning with foundation models…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-plug-and-play-compositionality-for-boosting-continual/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Plug-and-Play Compositionality for Boosting Continual Learning with… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Weiduo Liao, Fei Han et al. — We introduce CompSLOT, a universal concept learning method to continual learning with foundation models…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-plug-and-play-compositionality-for-boosting-continual/#article",
+   "headline": "Plug-and-Play Compositionality for Boosting Continual Learning with Foundation Models",
+   "name": "Plug-and-Play Compositionality for Boosting Continual Learning with Foundation Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-plug-and-play-compositionality-for-boosting-continual/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Weiduo Liao",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "City University of Hong Kong"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Fei Han"
+    },
+    {
+     "@type": "Person",
+     "name": "Hisao Ishibuchi"
+    },
+    {
+     "@type": "Person",
+     "name": "Qingfu Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ying Wei"
+    }
+   ],
+   "description": "We introduce CompSLOT, a universal concept learning method to continual learning with foundation models system to establish a concept-level understanding of class prediction for alternative continual learners.",
+   "keywords": [
+    "continual learning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=22hBwIf7OC"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Plug-and-Play Compositionality for Boosting Continual Learning with Foundation Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-plug-and-play-compositionality-for-boosting-continual/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Plug-and-Play Compositionality for Boosting Continual Learning with Foundation Models</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Weiduo Liao, Fei Han, Hisao Ishibuchi, Qingfu Zhang, Ying Wei</dd>
+<dt>Affiliation</dt><dd>City University of Hong Kong</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We introduce CompSLOT, a universal concept learning method to continual learning with foundation models system to establish a concept-level understanding of class prediction for alternative continual learners.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=22hBwIf7OC" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=22hBwIf7OC" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">continual learning</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../icml-2026-pretrained-vision-language-action-models-are-surprisingly/">Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-the-world-is-bigger-a-computationally-embedded-perspective/">The World Is Bigger! A Computationally-Embedded Perspective on the Big World Hypothesis</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-anacp-toward-upper-bound-continual-learning-via-analytic/">AnaCP: Toward Upper-Bound Continual Learning via Analytic Contrastive Projection</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-online-functional-tensor-decomposition-via-continual/">Online Functional Tensor Decomposition via Continual Learning for Streaming Data Completion</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-structured-flow-autoencoders-learning-structured/">Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-generating-metamers-of-human-scene-understanding/">Generating metamers of human scene understanding</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

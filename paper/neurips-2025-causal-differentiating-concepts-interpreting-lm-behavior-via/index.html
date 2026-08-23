@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Causal Differentiating Concepts:  Interpreting LM Behavior via Causal Representation Learning — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Navita Goyal, Hal Daumé III et al. — Language model activations entangle concepts that mediate their behavior, making it difficult…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, representation learning, language model, robustness, causal">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-causal-differentiating-concepts-interpreting-lm-behavior-via/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Causal Differentiating Concepts: Interpreting LM Behavior via Causal… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Navita Goyal, Hal Daumé III et al. — Language model activations entangle concepts that mediate their behavior, making it difficult…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-causal-differentiating-concepts-interpreting-lm-behavior-via/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Causal Differentiating Concepts: Interpreting LM Behavior via Causal… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Navita Goyal, Hal Daumé III et al. — Language model activations entangle concepts that mediate their behavior, making it difficult…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-causal-differentiating-concepts-interpreting-lm-behavior-via/#article",
+   "headline": "Causal Differentiating Concepts:  Interpreting LM Behavior via Causal Representation Learning",
+   "name": "Causal Differentiating Concepts:  Interpreting LM Behavior via Causal Representation Learning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-causal-differentiating-concepts-interpreting-lm-behavior-via/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Navita Goyal"
+    },
+    {
+     "@type": "Person",
+     "name": "Hal Daumé III"
+    },
+    {
+     "@type": "Person",
+     "name": "Alexandre Drouin"
+    },
+    {
+     "@type": "Person",
+     "name": "Dhanya Sridhar"
+    }
+   ],
+   "description": "Language model activations entangle concepts that mediate their behavior, making it difficult to interpret these factors, which has implications for generalizability and robustness…",
+   "keywords": [
+    "representation learning",
+    "language model",
+    "robustness",
+    "causal"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Zf6Oj5x9sE"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Causal Differentiating Concepts:  Interpreting LM Behavior via Causal Representation Learning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-causal-differentiating-concepts-interpreting-lm-behavior-via/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Causal Differentiating Concepts:  Interpreting LM Behavior via Causal Representation Learning</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Navita Goyal, Hal Daumé III, Alexandre Drouin, Dhanya Sridhar</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Language model activations entangle concepts that mediate their behavior, making it difficult to interpret these factors, which has implications for generalizability and robustness…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Zf6Oj5x9sE" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Zf6Oj5x9sE" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">representation learning</span>
+<span class="chip">language model</span>
+<span class="chip">robustness</span>
+<span class="chip">causal</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-enhancing-clip-robustness-via-cross-modality-alignment/">Enhancing CLIP Robustness via Cross-Modality Alignment</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-robust-superalignment-weak-to-strong-robustness/">Robust SuperAlignment: Weak-to-Strong Robustness Generalization for Vision-Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../icml-2026-wedlm-reconciling-diffusion-language-models-with-standard/">WeDLM: Reconciling Diffusion Language Models with Standard Causal Attention for Fast Inference</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-memory-mosaics-at-scale/">Memory Mosaics at scale</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-a-is-for-absorption-studying-feature-splitting-and/">A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-evolm-in-search-of-lost-training-dynamics-for-language-model/">EvoLM: In Search of Lost Training Dynamics for Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

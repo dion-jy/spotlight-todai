@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Jiajun Shi, Jian Yang et al. — Recent advancements in large language models (LLMs) underscore the need for more comprehensive…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, large language model, language model, evaluation, reasoning, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-korgym-a-dynamic-game-platform-for-llm-reasoning-evaluation/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Jiajun Shi, Jian Yang et al. — Recent advancements in large language models (LLMs) underscore the need for more comprehensive…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-korgym-a-dynamic-game-platform-for-llm-reasoning-evaluation/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Jiajun Shi, Jian Yang et al. — Recent advancements in large language models (LLMs) underscore the need for more comprehensive…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-korgym-a-dynamic-game-platform-for-llm-reasoning-evaluation/#article",
+   "headline": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+   "name": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-korgym-a-dynamic-game-platform-for-llm-reasoning-evaluation/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jiajun Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Jian Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiaheng Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Xingyuan Bu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiangjie Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Junting Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Kaijing Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhoufutu Wen"
+    },
+    {
+     "@type": "Person",
+     "name": "Bingli Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yancheng He"
+    },
+    {
+     "@type": "Person",
+     "name": "Liang Song"
+    },
+    {
+     "@type": "Person",
+     "name": "Hualei Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Shilong Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Xingjian Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Wei Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ruibin Yuan"
+    },
+    {
+     "@type": "Person",
+     "name": "Yifan Yao"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenjun Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yunli Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Siyuan Fang"
+    },
+    {
+     "@type": "Person",
+     "name": "Siyu Yuan"
+    },
+    {
+     "@type": "Person",
+     "name": "Qianyu He"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiangru Tang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yingshui Tan"
+    },
+    {
+     "@type": "Person",
+     "name": "Wangchunshu Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhaoxiang Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhoujun Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenhao Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ge Zhang"
+    }
+   ],
+   "description": "Recent advancements in large language models (LLMs) underscore the need for more comprehensive evaluation methods to accurately assess their reasoning capabilities…",
+   "keywords": [
+    "large language model",
+    "language model",
+    "evaluation",
+    "reasoning",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=uAeqQePu4c"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-korgym-a-dynamic-game-platform-for-llm-reasoning-evaluation/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jiajun Shi, Jian Yang, Jiaheng Liu, Xingyuan Bu, Jiangjie Chen, Junting Zhou, Kaijing Ma, Zhoufutu Wen, Bingli Wang, Yancheng He, Liang Song, Hualei Zhu, Shilong Li, Xingjian Wang, Wei Zhang, Ruibin Yuan, Yifan Yao, Wenjun Yang, Yunli Wang, Siyuan Fang, Siyu Yuan, Qianyu He, Xiangru Tang, Yingshui Tan, Wangchunshu Zhou, Zhaoxiang Zhang, Zhoujun Li, Wenhao Huang, Ge Zhang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Recent advancements in large language models (LLMs) underscore the need for more comprehensive evaluation methods to accurately assess their reasoning capabilities…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=uAeqQePu4c" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=uAeqQePu4c" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">evaluation</span>
+<span class="chip">reasoning</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-how-do-transformers-learn-implicit-reasoning/">How do Transformers Learn Implicit Reasoning?</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-diversity-aware-policy-optimization-for-large-language-model/">Diversity-Aware Policy Optimization for Large Language Model Reasoning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-ai-researcher-autonomous-scientific-innovation/">AI-Researcher: Autonomous Scientific Innovation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-logictree-improving-complex-reasoning-of-llms-via/">LogicTree: Improving Complex Reasoning of LLMs via Instantiated Multi-step Synthetic Logical Data</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-deep-value-benchmark-measuring-whether-models-generalize/">Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>In-the-Flow Agentic System Optimization for Effective Planning and Tool Use — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Zhuofeng Li, Haoxiang Zhang et al. — We introduce AgentFlow, a trainable agentic system, and Flow-GRPO, an on-policy RL algorithm that…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, optimization, planning, agent">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-in-the-flow-agentic-system-optimization-for-effective/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Zhuofeng Li, Haoxiang Zhang et al. — We introduce AgentFlow, a trainable agentic system, and Flow-GRPO, an on-policy RL algorithm that…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-in-the-flow-agentic-system-optimization-for-effective/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Zhuofeng Li, Haoxiang Zhang et al. — We introduce AgentFlow, a trainable agentic system, and Flow-GRPO, an on-policy RL algorithm that…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-in-the-flow-agentic-system-optimization-for-effective/#article",
+   "headline": "In-the-Flow Agentic System Optimization for Effective Planning and Tool Use",
+   "name": "In-the-Flow Agentic System Optimization for Effective Planning and Tool Use",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-in-the-flow-agentic-system-optimization-for-effective/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhuofeng Li",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Texas A&M University - College Station"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Haoxiang Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Seungju Han"
+    },
+    {
+     "@type": "Person",
+     "name": "Sheng Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jianwen Xie"
+    },
+    {
+     "@type": "Person",
+     "name": "Yu Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yejin Choi"
+    },
+    {
+     "@type": "Person",
+     "name": "James Zou"
+    },
+    {
+     "@type": "Person",
+     "name": "Pan Lu"
+    }
+   ],
+   "description": "We introduce AgentFlow, a trainable agentic system, and Flow-GRPO, an on-policy RL algorithm that optimizes the planner \"in-the-flow\" by broadcasting a final outcome reward to all steps, enabling effective long-horizon planning and tool use.",
+   "keywords": [
+    "optimization",
+    "planning",
+    "agent"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Mf5AleTUVK"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "In-the-Flow Agentic System Optimization for Effective Planning and Tool Use",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-in-the-flow-agentic-system-optimization-for-effective/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>In-the-Flow Agentic System Optimization for Effective Planning and Tool Use</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhuofeng Li, Haoxiang Zhang, Seungju Han, Sheng Liu, Jianwen Xie, Yu Zhang, Yejin Choi, James Zou, Pan Lu</dd>
+<dt>Affiliation</dt><dd>Texas A&amp;M University - College Station</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We introduce AgentFlow, a trainable agentic system, and Flow-GRPO, an on-policy RL algorithm that optimizes the planner &quot;in-the-flow&quot; by broadcasting a final outcome reward to all steps, enabling effective long-horizon planning and tool use.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Mf5AleTUVK" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Mf5AleTUVK" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">optimization</span>
+<span class="chip">planning</span>
+<span class="chip">agent</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../icml-2026-photoagent-exploratory-visual-aesthetic-planning-with-large/">PhotoAgent: Exploratory Visual Aesthetic Planning with Large Vision Models</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-learning-human-robot-collaboration-via-heterogeneous-agent/">Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-omac-a-holistic-optimization-framework-for-llm-based-multi/">OMAC: A Holistic Optimization Framework for LLM-Based Multi-Agent Collaboration</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-towards-reliable-code-as-policies-a-neuro-symbolic-framework/">Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-fire-frobenius-isometry-reinitialization-for-balancing-the/">FIRE: Frobenius-Isometry Reinitialization for Balancing the Stability–Plasticity Tradeoff</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-safedpo-a-simple-approach-to-direct-preference-optimization/">SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

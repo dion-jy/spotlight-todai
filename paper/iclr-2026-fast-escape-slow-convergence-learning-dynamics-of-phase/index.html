@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Guillaume Braun, Bruno Loureiro et al. — Scaling laws describe how learning performance improves with data, compute, or training time, and…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, convergence, scaling law, retrieval">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-escape-slow-convergence-learning-dynamics-of-phase/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Guillaume Braun, Bruno Loureiro et al. — Scaling laws describe how learning performance improves with data, compute, or training time, and…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-escape-slow-convergence-learning-dynamics-of-phase/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Guillaume Braun, Bruno Loureiro et al. — Scaling laws describe how learning performance improves with data, compute, or training time, and…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-escape-slow-convergence-learning-dynamics-of-phase/#article",
+   "headline": "Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data",
+   "name": "Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-escape-slow-convergence-learning-dynamics-of-phase/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Guillaume Braun",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "RIKEN"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Bruno Loureiro"
+    },
+    {
+     "@type": "Person",
+     "name": "Minh Ha Quang"
+    },
+    {
+     "@type": "Person",
+     "name": "Masaaki Imaizumi"
+    }
+   ],
+   "description": "Scaling laws describe how learning performance improves with data, compute, or training time, and have become a central theme in modern deep learning. We study this phenomenon in a canonical nonlinear model: phase retrieval with anisotropic Gaussian inputs whose covariance spectrum follows a power law.",
+   "keywords": [
+    "convergence",
+    "scaling law",
+    "retrieval"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Ae4eZpkXBX"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-escape-slow-convergence-learning-dynamics-of-phase/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Guillaume Braun, Bruno Loureiro, Minh Ha Quang, Masaaki Imaizumi</dd>
+<dt>Affiliation</dt><dd>RIKEN</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Scaling laws describe how learning performance improves with data, compute, or training time, and have become a central theme in modern deep learning. We study this phenomenon in a canonical nonlinear model: phase retrieval with anisotropic Gaussian inputs whose covariance spectrum follows a power law.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Ae4eZpkXBX" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Ae4eZpkXBX" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">convergence</span>
+<span class="chip">scaling law</span>
+<span class="chip">retrieval</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-q-rag-long-context-multi-step-retrieval-via-value-based/">Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-exchangeability-of-gnn-representations-with-applications-to/">Exchangeability of GNN Representations with Applications to Graph Retrieval</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-pre-training-under-infinite-compute/">Pre-training under infinite compute</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-wave-learning-unified-versatile-audio-visual-embeddings-with/">WAVE: Learning Unified &amp; Versatile Audio-Visual Embeddings with Multimodal LLM</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-scaling-laws-and-spectra-of-shallow-neural-networks-in-the/">Scaling Laws and Spectra of Shallow Neural Networks in the Feature Learning Regime</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

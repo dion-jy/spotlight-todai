@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Eran Malach, Omid Saremi et al. — State Space Models (SSMs) have become the leading alternative to Transformers for sequence modeling…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, state space model, generalization, transformer, memory">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Eran Malach, Omid Saremi et al. — State Space Models (SSMs) have become the leading alternative to Transformers for sequence modeling…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Eran Malach, Omid Saremi et al. — State Space Models (SSMs) have become the leading alternative to Transformers for sequence modeling…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/#article",
+   "headline": "To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models",
+   "name": "To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Eran Malach",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Apple"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Omid Saremi"
+    },
+    {
+     "@type": "Person",
+     "name": "Sinead Williamson"
+    },
+    {
+     "@type": "Person",
+     "name": "Arwen Bradley"
+    },
+    {
+     "@type": "Person",
+     "name": "Aryo Lotfi"
+    },
+    {
+     "@type": "Person",
+     "name": "Emmanuel Abbe"
+    },
+    {
+     "@type": "Person",
+     "name": "Joshua M. Susskind"
+    },
+    {
+     "@type": "Person",
+     "name": "Etai Littwin"
+    }
+   ],
+   "description": "State Space Models (SSMs) have become the leading alternative to Transformers for sequence modeling tasks. Their primary advantage is efficiency in long-context and long-form generation, enabled by fixed-size memory and linear scaling of computational complexity.",
+   "keywords": [
+    "state space model",
+    "generalization",
+    "transformer",
+    "memory"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=sSfep4udCb"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Eran Malach, Omid Saremi, Sinead Williamson, Arwen Bradley, Aryo Lotfi, Emmanuel Abbe, Joshua M. Susskind, Etai Littwin</dd>
+<dt>Affiliation</dt><dd>Apple</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>State Space Models (SSMs) have become the leading alternative to Transformers for sequence modeling tasks. Their primary advantage is efficiency in long-context and long-form generation, enabled by fixed-size memory and linear scaling of computational complexity.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=sSfep4udCb" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=sSfep4udCb" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">state space model</span>
+<span class="chip">generalization</span>
+<span class="chip">transformer</span>
+<span class="chip">memory</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-quantitative-bounds-for-length-generalization-in/">Quantitative Bounds for Length Generalization in Transformers</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-uniteformer-unifying-node-and-edge-modalities-in/">UniteFormer: Unifying Node and Edge Modalities in Transformers for Vehicle Routing Problems</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-extrapolation-by-association-length-generalization-transfer/">Extrapolation by Association: Length Generalization Transfer In Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-latent-speech-text-transformer/">Latent Speech-Text Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-softmax-transformers-are-turing-complete/">Softmax Transformers are Turing-Complete</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-transformers-are-inherently-succinct/">Transformers are Inherently Succinct</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

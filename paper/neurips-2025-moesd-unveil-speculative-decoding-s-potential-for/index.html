@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Zongle Huang, Lei Zhu et al. — Large Language Models (LLMs) have achieved remarkable success across many applications, with Mixture…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, large language model, mixture of experts, language model, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-moesd-unveil-speculative-decoding-s-potential-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MoESD: Unveil Speculative Decoding's Potential for Accelerating… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Zongle Huang, Lei Zhu et al. — Large Language Models (LLMs) have achieved remarkable success across many applications, with Mixture…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-moesd-unveil-speculative-decoding-s-potential-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MoESD: Unveil Speculative Decoding's Potential for Accelerating… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Zongle Huang, Lei Zhu et al. — Large Language Models (LLMs) have achieved remarkable success across many applications, with Mixture…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-moesd-unveil-speculative-decoding-s-potential-for/#article",
+   "headline": "MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE",
+   "name": "MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-moesd-unveil-speculative-decoding-s-potential-for/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zongle Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Lei Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "ZongYuan Zhan"
+    },
+    {
+     "@type": "Person",
+     "name": "Ting Hu"
+    },
+    {
+     "@type": "Person",
+     "name": "Weikai Mao"
+    },
+    {
+     "@type": "Person",
+     "name": "Xianzhi Yu"
+    },
+    {
+     "@type": "Person",
+     "name": "Yongpan Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Tianyu Zhang"
+    }
+   ],
+   "description": "Large Language Models (LLMs) have achieved remarkable success across many applications, with Mixture of Experts (MoE) models demonstrating great potential…",
+   "keywords": [
+    "large language model",
+    "mixture of experts",
+    "language model",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=FAeU7516MR"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-moesd-unveil-speculative-decoding-s-potential-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zongle Huang, Lei Zhu, ZongYuan Zhan, Ting Hu, Weikai Mao, Xianzhi Yu, Yongpan Liu, Tianyu Zhang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Large Language Models (LLMs) have achieved remarkable success across many applications, with Mixture of Experts (MoE) models demonstrating great potential…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=FAeU7516MR" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=FAeU7516MR" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">mixture of experts</span>
+<span class="chip">language model</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-a-is-for-absorption-studying-feature-splitting-and/">A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-boosting-knowledge-utilization-in-multimodal-large-language/">Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-elasticmm-efficient-multimodal-llms-serving-with-elastic/">ElasticMM: Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-hyperet-efficient-training-in-hyperbolic-space-for-multi/">HyperET: Efficient Training in Hyperbolic Space for Multi-modal Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-twilight-adaptive-attention-sparsity-with-hierarchical-top-p/">Twilight: Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-activation-control-for-efficiently-eliciting-long-chain-of/">Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

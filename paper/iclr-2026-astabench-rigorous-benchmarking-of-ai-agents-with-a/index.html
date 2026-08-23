@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Jonathan Bragg, Mike D'Arcy et al. — We present principles and tooling for rigorous AI agent benchmarking, instantiated in AstaBench—the…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, benchmark, agent">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-astabench-rigorous-benchmarking-of-ai-agents-with-a/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Jonathan Bragg, Mike D'Arcy et al. — We present principles and tooling for rigorous AI agent benchmarking, instantiated in AstaBench—the…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-astabench-rigorous-benchmarking-of-ai-agents-with-a/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Jonathan Bragg, Mike D'Arcy et al. — We present principles and tooling for rigorous AI agent benchmarking, instantiated in AstaBench—the…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-astabench-rigorous-benchmarking-of-ai-agents-with-a/#article",
+   "headline": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite",
+   "name": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-astabench-rigorous-benchmarking-of-ai-agents-with-a/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jonathan Bragg",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Allen Institute for Artificial Intelligence"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Mike D'Arcy"
+    },
+    {
+     "@type": "Person",
+     "name": "Nishant Balepur"
+    },
+    {
+     "@type": "Person",
+     "name": "Dan Bareket"
+    },
+    {
+     "@type": "Person",
+     "name": "Bhavana Dalvi Mishra"
+    },
+    {
+     "@type": "Person",
+     "name": "Sergey Feldman"
+    },
+    {
+     "@type": "Person",
+     "name": "Dany Haddad"
+    },
+    {
+     "@type": "Person",
+     "name": "Jena D. Hwang"
+    },
+    {
+     "@type": "Person",
+     "name": "Peter Jansen"
+    },
+    {
+     "@type": "Person",
+     "name": "Varsha Kishore"
+    },
+    {
+     "@type": "Person",
+     "name": "Bodhisattwa Prasad Majumder"
+    },
+    {
+     "@type": "Person",
+     "name": "Aakanksha Naik"
+    },
+    {
+     "@type": "Person",
+     "name": "Sigal Rahamimov"
+    },
+    {
+     "@type": "Person",
+     "name": "Kyle Richardson"
+    },
+    {
+     "@type": "Person",
+     "name": "Amanpreet Singh"
+    },
+    {
+     "@type": "Person",
+     "name": "Harshit Surana"
+    },
+    {
+     "@type": "Person",
+     "name": "Aryeh Tiktinsky"
+    },
+    {
+     "@type": "Person",
+     "name": "Rosni Vasu"
+    },
+    {
+     "@type": "Person",
+     "name": "Guy Wiener"
+    },
+    {
+     "@type": "Person",
+     "name": "Chloe Anastasiades"
+    },
+    {
+     "@type": "Person",
+     "name": "Stefanus Candra"
+    },
+    {
+     "@type": "Person",
+     "name": "Jason Dunkelberger"
+    },
+    {
+     "@type": "Person",
+     "name": "Daniel Emery"
+    },
+    {
+     "@type": "Person",
+     "name": "Rob Evans"
+    },
+    {
+     "@type": "Person",
+     "name": "Malachi Hamada"
+    },
+    {
+     "@type": "Person",
+     "name": "Regan Huff"
+    },
+    {
+     "@type": "Person",
+     "name": "Rodney Kinney"
+    },
+    {
+     "@type": "Person",
+     "name": "Matt Latzke"
+    },
+    {
+     "@type": "Person",
+     "name": "Jaron Lochner"
+    },
+    {
+     "@type": "Person",
+     "name": "Ruben Lozano-Aguilera"
+    },
+    {
+     "@type": "Person",
+     "name": "Ngoc-Uyen Nguyen"
+    },
+    {
+     "@type": "Person",
+     "name": "Smita Rao"
+    },
+    {
+     "@type": "Person",
+     "name": "Amber Tanaka"
+    },
+    {
+     "@type": "Person",
+     "name": "Brooke Vlahos"
+    },
+    {
+     "@type": "Person",
+     "name": "Peter Clark"
+    },
+    {
+     "@type": "Person",
+     "name": "Doug Downey"
+    },
+    {
+     "@type": "Person",
+     "name": "Yoav Goldberg"
+    },
+    {
+     "@type": "Person",
+     "name": "Ashish Sabharwal"
+    },
+    {
+     "@type": "Person",
+     "name": "Daniel S Weld"
+    }
+   ],
+   "description": "We present principles and tooling for rigorous AI agent benchmarking, instantiated in AstaBench—the first holistic measure of agentic ability for scientific research—plus experiments showing AI remains far from solving research assistance.",
+   "keywords": [
+    "benchmark",
+    "agent"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=M7TNf5J26u"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-astabench-rigorous-benchmarking-of-ai-agents-with-a/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jonathan Bragg, Mike D'Arcy, Nishant Balepur, Dan Bareket, Bhavana Dalvi Mishra, Sergey Feldman, Dany Haddad, Jena D. Hwang, Peter Jansen, Varsha Kishore, Bodhisattwa Prasad Majumder, Aakanksha Naik, Sigal Rahamimov, Kyle Richardson, Amanpreet Singh, Harshit Surana, Aryeh Tiktinsky, Rosni Vasu, Guy Wiener, Chloe Anastasiades, Stefanus Candra, Jason Dunkelberger, Daniel Emery, Rob Evans, Malachi Hamada, Regan Huff, Rodney Kinney, Matt Latzke, Jaron Lochner, Ruben Lozano-Aguilera, Ngoc-Uyen Nguyen, Smita Rao, Amber Tanaka, Brooke Vlahos, Peter Clark, Doug Downey, Yoav Goldberg, Ashish Sabharwal, Daniel S Weld</dd>
+<dt>Affiliation</dt><dd>Allen Institute for Artificial Intelligence</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We present principles and tooling for rigorous AI agent benchmarking, instantiated in AstaBench—the first holistic measure of agentic ability for scientific research—plus experiments showing AI remains far from solving research assistance.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=M7TNf5J26u" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=M7TNf5J26u" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">benchmark</span>
+<span class="chip">agent</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/">Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/">SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-cybergym-evaluating-ai-agents-real-world-cybersecurity/">CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-venusbench-mobile-a-challenging-and-user-centric-benchmark/">VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-causalgame-benchmarking-causal-thinking-of-llm-agents-in/">CausalGame: Benchmarking Causal Thinking of LLM Agents in Games</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

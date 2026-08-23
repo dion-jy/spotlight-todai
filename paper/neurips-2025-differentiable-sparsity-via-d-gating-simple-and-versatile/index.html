@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Chris Kolb, Laetitia Frost et al. — Structured sparsity regularization offers a principled way to compact neural networks, but its…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, sparsity">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-differentiable-sparsity-via-d-gating-simple-and-versatile/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Differentiable Sparsity via $D$-Gating: Simple and Versatile… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Chris Kolb, Laetitia Frost et al. — Structured sparsity regularization offers a principled way to compact neural networks, but its…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-differentiable-sparsity-via-d-gating-simple-and-versatile/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Differentiable Sparsity via $D$-Gating: Simple and Versatile… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Chris Kolb, Laetitia Frost et al. — Structured sparsity regularization offers a principled way to compact neural networks, but its…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-differentiable-sparsity-via-d-gating-simple-and-versatile/#article",
+   "headline": "Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization",
+   "name": "Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-differentiable-sparsity-via-d-gating-simple-and-versatile/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Chris Kolb"
+    },
+    {
+     "@type": "Person",
+     "name": "Laetitia Frost"
+    },
+    {
+     "@type": "Person",
+     "name": "Bernd Bischl"
+    },
+    {
+     "@type": "Person",
+     "name": "David Rügamer"
+    }
+   ],
+   "description": "Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit…",
+   "keywords": [
+    "sparsity"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=8OGTkEJrmb"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-differentiable-sparsity-via-d-gating-simple-and-versatile/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Chris Kolb, Laetitia Frost, Bernd Bischl, David Rügamer</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=8OGTkEJrmb" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=8OGTkEJrmb" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">sparsity</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-gated-attention-for-large-language-models-non-linearity/">Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-twilight-adaptive-attention-sparsity-with-hierarchical-top-p/">Twilight: Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-path-enhanced-contrastive-learning-for-recommendation/">Path-Enhanced Contrastive Learning for Recommendation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-sparsemvc-probing-cross-view-sparsity-variations-for-multi/">SparseMVC: Probing Cross-view Sparsity Variations for Multi-view Clustering</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fpsattention-training-aware-fp8-and-sparsity-co-design-for/">FPSAttention: Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-mozart-modularized-and-efficient-moe-training-on-3-5d-wafer/">Mozart: Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Wei Ju, Siyu Yi et al. — Graph clustering is a fundamental task in data analysis, aiming at grouping nodes with similar characteristics in…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, graph neural network, graph, rag">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compactness-and-consistency-a-conjoint-framework-for-deep/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Wei Ju, Siyu Yi et al. — Graph clustering is a fundamental task in data analysis, aiming at grouping nodes with similar characteristics in…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compactness-and-consistency-a-conjoint-framework-for-deep/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Wei Ju, Siyu Yi et al. — Graph clustering is a fundamental task in data analysis, aiming at grouping nodes with similar characteristics in…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compactness-and-consistency-a-conjoint-framework-for-deep/#article",
+   "headline": "Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering",
+   "name": "Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compactness-and-consistency-a-conjoint-framework-for-deep/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Wei Ju"
+    },
+    {
+     "@type": "Person",
+     "name": "Siyu Yi"
+    },
+    {
+     "@type": "Person",
+     "name": "Kangjie Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Yifan Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziyue Qiao"
+    },
+    {
+     "@type": "Person",
+     "name": "Li Shen"
+    },
+    {
+     "@type": "Person",
+     "name": "Yongdao Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaochun Cao"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiancheng Lv"
+    }
+   ],
+   "description": "Graph clustering is a fundamental task in data analysis, aiming at grouping nodes with similar characteristics in the graph into clusters. This problem has been widely explored using graph neural networks (GNNs) due to their ability to leverage node attributes and graph topology for effective cluster assignments.",
+   "keywords": [
+    "graph neural network",
+    "graph",
+    "rag"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=9jdQLmPUHW"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-compactness-and-consistency-a-conjoint-framework-for-deep/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Wei Ju, Siyu Yi, Kangjie Zheng, Yifan Wang, Ziyue Qiao, Li Shen, Yongdao Zhou, Xiaochun Cao, Jiancheng Lv</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Graph clustering is a fundamental task in data analysis, aiming at grouping nodes with similar characteristics in the graph into clusters. This problem has been widely explored using graph neural networks (GNNs) due to their ability to leverage node attributes and graph topology for effective cluster assignments.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=9jdQLmPUHW" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=9jdQLmPUHW" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">graph neural network</span>
+<span class="chip">graph</span>
+<span class="chip">rag</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-one-for-two-a-unified-framework-for-imbalanced-graph/">One for Two: A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-which-algorithms-can-graph-neural-networks-learn/">Which Algorithms Can Graph Neural Networks Learn?</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-rag4gfm-bridging-knowledge-gaps-in-graph-foundation-models/">RAG4GFM: Bridging Knowledge Gaps in Graph Foundation Models through Graph Retrieval Augmented Generation</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+<li><a href="../neurips-2025-bridging-theory-and-practice-in-link-representation-with/">Bridging Theory and Practice in Link Representation with Graph Neural Networks</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-diffusion-based-hierarchical-graph-neural-networks-for/">Diffusion-Based Hierarchical Graph Neural Networks for Simulating Nonlinear Solid Mechanics</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-l2dgcn-learnable-enhancement-and-label-selection-dynamic/">L2DGCN: Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

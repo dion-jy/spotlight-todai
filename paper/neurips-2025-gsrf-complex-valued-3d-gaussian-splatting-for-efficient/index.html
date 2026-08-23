@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GSRF: Complex-Valued 3D Gaussian Splatting for Efficient Radio-Frequency Data Synthesis — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Kang Yang, Gaofeng Dong et al. — Synthesizing radio-frequency (RF) data given the transmitter and receiver positions, e">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, gaussian splatting, efficient, 3d">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-gsrf-complex-valued-3d-gaussian-splatting-for-efficient/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GSRF: Complex-Valued 3D Gaussian Splatting for Efficient… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Kang Yang, Gaofeng Dong et al. — Synthesizing radio-frequency (RF) data given the transmitter and receiver positions, e">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-gsrf-complex-valued-3d-gaussian-splatting-for-efficient/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GSRF: Complex-Valued 3D Gaussian Splatting for Efficient… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Kang Yang, Gaofeng Dong et al. — Synthesizing radio-frequency (RF) data given the transmitter and receiver positions, e">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-gsrf-complex-valued-3d-gaussian-splatting-for-efficient/#article",
+   "headline": "GSRF: Complex-Valued 3D Gaussian Splatting for Efficient Radio-Frequency Data Synthesis",
+   "name": "GSRF: Complex-Valued 3D Gaussian Splatting for Efficient Radio-Frequency Data Synthesis",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-gsrf-complex-valued-3d-gaussian-splatting-for-efficient/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Kang Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Gaofeng Dong"
+    },
+    {
+     "@type": "Person",
+     "name": "Sijie Ji"
+    },
+    {
+     "@type": "Person",
+     "name": "Wan Du"
+    },
+    {
+     "@type": "Person",
+     "name": "Mani Srivastava"
+    }
+   ],
+   "description": "Synthesizing radio-frequency (RF) data given the transmitter and receiver positions, e…",
+   "keywords": [
+    "gaussian splatting",
+    "efficient",
+    "3d"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=E3oNDQ8e9r"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "GSRF: Complex-Valued 3D Gaussian Splatting for Efficient Radio-Frequency Data Synthesis",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-gsrf-complex-valued-3d-gaussian-splatting-for-efficient/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>GSRF: Complex-Valued 3D Gaussian Splatting for Efficient Radio-Frequency Data Synthesis</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Kang Yang, Gaofeng Dong, Sijie Ji, Wan Du, Mani Srivastava</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Synthesizing radio-frequency (RF) data given the transmitter and receiver positions, e…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=E3oNDQ8e9r" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=E3oNDQ8e9r" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">gaussian splatting</span>
+<span class="chip">efficient</span>
+<span class="chip">3d</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-lodge-level-of-detail-large-scale-gaussian-splatting-with/">LODGE: Level-of-Detail Large-Scale Gaussian Splatting with Efficient Rendering</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-ef-3dgs-event-aided-free-trajectory-3d-gaussian-splatting/">EF-3DGS: Event-Aided Free-Trajectory 3D Gaussian Splatting</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-gaussian-herding-across-pens-an-optimal-transport/">Gaussian Herding across Pens: An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-tga-true-to-geometry-avatar-dynamic-reconstruction/">TGA: True-to-Geometry Avatar Dynamic Reconstruction</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-robust-neural-rendering-in-the-wild-with-asymmetric-dual-3d/">Robust Neural Rendering in the Wild with Asymmetric Dual 3D Gaussian Splatting</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-eggs-exchangeable-2d-3d-gaussian-splatting-for-geometry/">EGGS: Exchangeable 2D/3D Gaussian Splatting for Geometry-Appearance Balanced Novel View Synthesis</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

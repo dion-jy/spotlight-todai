@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video Generation — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Hao Zhang, Chun-Han Yao et al. — We present Stable Part Diffusion 4D (SP4D), a framework for generating paired RGB and kinematic…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, diffusion, video">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stable-part-diffusion-4d-multi-view-rgb-and-kinematic-parts/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Hao Zhang, Chun-Han Yao et al. — We present Stable Part Diffusion 4D (SP4D), a framework for generating paired RGB and kinematic…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stable-part-diffusion-4d-multi-view-rgb-and-kinematic-parts/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Hao Zhang, Chun-Han Yao et al. — We present Stable Part Diffusion 4D (SP4D), a framework for generating paired RGB and kinematic…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stable-part-diffusion-4d-multi-view-rgb-and-kinematic-parts/#article",
+   "headline": "Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video Generation",
+   "name": "Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video Generation",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stable-part-diffusion-4d-multi-view-rgb-and-kinematic-parts/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Hao Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Chun-Han Yao"
+    },
+    {
+     "@type": "Person",
+     "name": "Simon Donné"
+    },
+    {
+     "@type": "Person",
+     "name": "Narendra Ahuja"
+    },
+    {
+     "@type": "Person",
+     "name": "Varun Jampani"
+    }
+   ],
+   "description": "We present Stable Part Diffusion 4D (SP4D), a framework for generating paired RGB and kinematic part videos from monocular inputs…",
+   "keywords": [
+    "diffusion",
+    "video"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=I9F53Qlwur"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video Generation",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stable-part-diffusion-4d-multi-view-rgb-and-kinematic-parts/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>Stable Part Diffusion 4D: Multi-View RGB and Kinematic Parts Video Generation</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Hao Zhang, Chun-Han Yao, Simon Donné, Narendra Ahuja, Varun Jampani</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We present Stable Part Diffusion 4D (SP4D), a framework for generating paired RGB and kinematic part videos from monocular inputs…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=I9F53Qlwur" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=I9F53Qlwur" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">diffusion</span>
+<span class="chip">video</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-svimo-synchronized-diffusion-for-video-and-motion-generation/">SViMo: Synchronized Diffusion for Video and Motion Generation in Hand-object Interaction Scenarios</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-densedpo-fine-grained-temporal-preference-optimization-for/">DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-frame-context-packing-and-drift-prevention-in-next-frame/">Frame Context Packing and Drift Prevention in Next-Frame-Prediction Video Diffusion Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fpsattention-training-aware-fp8-and-sparsity-co-design-for/">FPSAttention: Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-sparse-videogen2-accelerate-video-generation-with-sparse/">Sparse VideoGen2: Accelerate Video Generation with  Sparse Attention via Semantic-Aware Permutation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-hopadiff-holistic-partial-aware-fourier-conditioned/">HopaDIFF: Holistic-Partial Aware Fourier Conditioned Diffusion for Referring Human Action Segmentation in Multi-Person Scenarios</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

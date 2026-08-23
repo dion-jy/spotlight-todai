@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment — NeurIPS 2025 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="NeurIPS 2025 Spotlight · Yuxing Lu, Wei Wu et al. — Maintaining comprehensive and up-to-date knowledge graphs (KGs) is critical for modern AI systems, but…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2025, Spotlight paper, AI research paper, agent, graph, llm, rag">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-karma-leveraging-multi-agent-llms-for-automated-knowledge/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph… | NeurIPS 2025 Spotlight">
+<meta property="og:description" content="NeurIPS 2025 Spotlight · Yuxing Lu, Wei Wu et al. — Maintaining comprehensive and up-to-date knowledge graphs (KGs) is critical for modern AI systems, but…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-karma-leveraging-multi-agent-llms-for-automated-knowledge/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph… | NeurIPS 2025 Spotlight">
+<meta name="twitter:description" content="NeurIPS 2025 Spotlight · Yuxing Lu, Wei Wu et al. — Maintaining comprehensive and up-to-date knowledge graphs (KGs) is critical for modern AI systems, but…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-karma-leveraging-multi-agent-llms-for-automated-knowledge/#article",
+   "headline": "KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment",
+   "name": "KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-karma-leveraging-multi-agent-llms-for-automated-knowledge/",
+   "inLanguage": "en",
+   "datePublished": "2025",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2025",
+    "startDate": "2025"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yuxing Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Wei Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Xukai Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Rui Peng"
+    },
+    {
+     "@type": "Person",
+     "name": "Jinzhuo Wang"
+    }
+   ],
+   "description": "Maintaining comprehensive and up-to-date knowledge graphs (KGs) is critical for modern AI systems, but manual curation struggles to scale with the rapid growth of scientific literature…",
+   "keywords": [
+    "agent",
+    "graph",
+    "llm",
+    "rag"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=k0wyi4cOGy"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2025 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-karma-leveraging-multi-agent-llms-for-automated-knowledge/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2025-spotlight/">NeurIPS 2025 Spotlight</a></nav>
+<article>
+<h1>KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2025</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yuxing Lu, Wei Wu, Xukai Zhao, Rui Peng, Jinzhuo Wang</dd>
+<dt>Venue</dt><dd>NeurIPS 2025</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>Maintaining comprehensive and up-to-date knowledge graphs (KGs) is critical for modern AI systems, but manual curation struggles to scale with the rapid growth of scientific literature…</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=k0wyi4cOGy" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=k0wyi4cOGy" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">agent</span>
+<span class="chip">graph</span>
+<span class="chip">llm</span>
+<span class="chip">rag</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-esca-contextualizing-embodied-agents-via-scene-graph/">ESCA: Contextualizing Embodied Agents via Scene-Graph Generation</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-language-modeling-by-language-models/">Language Modeling by Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-can-knowledge-graph-based-retrieval-augmented-generation/">Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-graphmaster-automated-graph-synthesis-via-llm-agents-in-data/">GraphMaster: Automated Graph Synthesis via LLM Agents in Data-Limited Environments</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-gnnxemplar-exemplars-to-explanations-natural-language-rules/">GnnXemplar: Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2025-spotlight/">← All NeurIPS 2025 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quantitative Bounds for Length Generalization in Transformers — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Zachary Izzo, Eshaan Nichani et al. — We provide an upper bound on the length of training sequences required for a transformer to…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, generalization, transformer">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-quantitative-bounds-for-length-generalization-in/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Quantitative Bounds for Length Generalization in Transformers | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Zachary Izzo, Eshaan Nichani et al. — We provide an upper bound on the length of training sequences required for a transformer to…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-quantitative-bounds-for-length-generalization-in/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Quantitative Bounds for Length Generalization in Transformers | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Zachary Izzo, Eshaan Nichani et al. — We provide an upper bound on the length of training sequences required for a transformer to…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-quantitative-bounds-for-length-generalization-in/#article",
+   "headline": "Quantitative Bounds for Length Generalization in Transformers",
+   "name": "Quantitative Bounds for Length Generalization in Transformers",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-quantitative-bounds-for-length-generalization-in/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zachary Izzo",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "NEC Labs America"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Eshaan Nichani"
+    },
+    {
+     "@type": "Person",
+     "name": "Jason D. Lee"
+    }
+   ],
+   "description": "We provide an upper bound on the length of training sequences required for a transformer to generalize to sequences of arbitrary lengths.",
+   "keywords": [
+    "generalization",
+    "transformer"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=TLSUIyBIfs"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Quantitative Bounds for Length Generalization in Transformers",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-quantitative-bounds-for-length-generalization-in/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Quantitative Bounds for Length Generalization in Transformers</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zachary Izzo, Eshaan Nichani, Jason D. Lee</dd>
+<dt>Affiliation</dt><dd>NEC Labs America</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>We provide an upper bound on the length of training sequences required for a transformer to generalize to sequences of arbitrary lengths.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=TLSUIyBIfs" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=TLSUIyBIfs" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">generalization</span>
+<span class="chip">transformer</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-to-infinity-and-beyond-tool-use-unlocks-length/">To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-uniteformer-unifying-node-and-edge-modalities-in/">UniteFormer: Unifying Node and Edge Modalities in Transformers for Vehicle Routing Problems</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-extrapolation-by-association-length-generalization-transfer/">Extrapolation by Association: Length Generalization Transfer In Transformers</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../iclr-2026-latent-speech-text-transformer/">Latent Speech-Text Transformer</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-softmax-transformers-are-turing-complete/">Softmax Transformers are Turing-Complete</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-transformers-are-inherently-succinct/">Transformers are Inherently Succinct</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>

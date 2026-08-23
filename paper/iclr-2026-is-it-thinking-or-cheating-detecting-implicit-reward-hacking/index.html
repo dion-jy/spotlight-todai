@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort — ICLR 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="ICLR 2026 Oral · Xinpeng Wang, Nitish Joshi et al. — TRACE detects implicit reward hacking by measuring how quickly truncated reasoning suffices to pass…">
+<meta name="keywords" content="ICLR, ICLR 2026, Oral paper, AI research paper, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-is-it-thinking-or-cheating-detecting-implicit-reward-hacking/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring… | ICLR 2026 Oral">
+<meta property="og:description" content="ICLR 2026 Oral · Xinpeng Wang, Nitish Joshi et al. — TRACE detects implicit reward hacking by measuring how quickly truncated reasoning suffices to pass…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-is-it-thinking-or-cheating-detecting-implicit-reward-hacking/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring… | ICLR 2026 Oral">
+<meta name="twitter:description" content="ICLR 2026 Oral · Xinpeng Wang, Nitish Joshi et al. — TRACE detects implicit reward hacking by measuring how quickly truncated reasoning suffices to pass…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-is-it-thinking-or-cheating-detecting-implicit-reward-hacking/#article",
+   "headline": "Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+   "name": "Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-is-it-thinking-or-cheating-detecting-implicit-reward-hacking/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "ICLR 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Xinpeng Wang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Ludwig-Maximilians-Universität München"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Nitish Joshi"
+    },
+    {
+     "@type": "Person",
+     "name": "Barbara Plank"
+    },
+    {
+     "@type": "Person",
+     "name": "Rico Angell"
+    },
+    {
+     "@type": "Person",
+     "name": "He He"
+    }
+   ],
+   "description": "TRACE detects implicit reward hacking by measuring how quickly truncated reasoning suffices to pass verification, outperforming CoT monitoring and enabling hidden loopholes discovery.",
+   "keywords": [
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=Gk7gLAtVDO"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ICLR 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-is-it-thinking-or-cheating-detecting-implicit-reward-hacking/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/iclr-2026-oral/">ICLR 2026 Oral</a></nav>
+<article>
+<h1>Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort</h1>
+<p class="badges"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Xinpeng Wang, Nitish Joshi, Barbara Plank, Rico Angell, He He</dd>
+<dt>Affiliation</dt><dd>Ludwig-Maximilians-Universität München</dd>
+<dt>Venue</dt><dd>ICLR 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><blockquote><p>TRACE detects implicit reward hacking by measuring how quickly truncated reasoning suffices to pass verification, outperforming CoT monitoring and enabling hidden loopholes discovery.</p></blockquote><p class="attrib">Opening excerpt from the authors’ abstract. <a href="https://openreview.net/forum?id=Gk7gLAtVDO" target="_blank" rel="noopener nofollow">source</a></p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=Gk7gLAtVDO" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related ICLR papers</h2><ul>
+<li><a href="../iclr-2026-medagentgym-a-scalable-agentic-training-environment-for-code/">MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-loongrl-reinforcement-learning-for-advanced-reasoning-over/">LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-ualm-unified-audio-language-model-for-understanding/">UALM: Unified Audio Language Model for Understanding, Generation and Reasoning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-rain-merging-a-gradient-free-method-to-enhance-instruction/">RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/">Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/iclr-2026-oral/">← All ICLR 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+</div>
+</body>
+</html>
