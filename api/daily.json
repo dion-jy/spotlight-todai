@@ -1,58 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-24",
+ "date": "2026-08-25",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 235,
-  "position": 235,
+  "day_index": 236,
+  "position": 236,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-215",
-  "conference": "ICLR",
-  "year": 2026,
+  "uid": "neurips-2025-oral-47",
+  "conference": "NeurIPS",
+  "year": 2025,
   "track": "Oral",
-  "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
+  "title": "Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain",
   "authors": [
-   "Junlin Han",
-   "Shengbang Tong",
-   "David Fan",
-   "Yufan Ren",
-   "Koustuv Sinha",
-   "Philip Torr",
-   "Filippos Kokkinos"
+   "Trinity Chung",
+   "Yuchen Shen",
+   "Nathan Kong",
+   "Aran Nayebi"
   ],
-  "affiliation": "University of Oxford",
-  "summary": "Explore and understand the visual priors within LLMs and thus build better MLLMs.",
+  "affiliation": "",
+  "summary": "Task-optimized convolutional recurrent neural networks trained on realistic tactile inputs align with rodent somatosensory data, suggesting brain tactile processing uses temporally-precise representations shaped by categorization-driven optimization.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=pfw176o1YJ",
+   "openreview": "https://openreview.net/forum?id=m7MD0sa8Re",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-47",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain",
-   "authors": [
-    "Trinity Chung",
-    "Yuchen Shen",
-    "Nathan Kong",
-    "Aran Nayebi"
-   ],
-   "affiliation": "",
-   "summary": "Task-optimized convolutional recurrent neural networks trained on realistic tactile inputs align with rodent somatosensory data, suggesting brain tactile processing uses temporally-precise representations shaped by categorization-driven optimization.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=m7MD0sa8Re",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-374",
    "conference": "NeurIPS",
@@ -108,6 +85,26 @@
    "summary": "The effectiveness of domain translation in addressing image-based problems of Unsupervised Domain Adaptation (UDA) depends on the quality of the translated images and the preservation of crucial discr",
    "links": {
     "openreview": "https://openreview.net/forum?id=z2SGaPIhLT",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-81",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Algorithms and SQ Lower Bounds for Robustly Learning Real-valued Multi-Index Models",
+   "authors": [
+    "Ilias Diakonikolas",
+    "Giannis Iakovidis",
+    "Daniel Kane",
+    "Lisheng Ren"
+   ],
+   "affiliation": "",
+   "summary": "We study the complexity of learning real-valued Multi-Index Models (MIMs) under the Gaussian distribution",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=cD4whTwm6G",
     "arxiv": "",
     "detail": ""
    }
