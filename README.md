@@ -27,13 +27,31 @@ Base: **`https://dion-jy.github.io/spotlight-todai/api`**
 | [`topics.json`](https://dion-jy.github.io/spotlight-todai/api/topics.json) | curated keyword → paper-uid index |
 | [`venues.json`](https://dion-jy.github.io/spotlight-todai/api/venues.json) | conference / year / track counts |
 
-**MCP server** — 3 tools (`search_papers` / `daily_feed` / `recommend`) in [`mcp/`](mcp/).
+### Set it up — pick whichever fits
 
-**Agent discovery** — point anything at [`llms.txt`](llms.txt) and it finds the rest.
-Full docs in [`api/README.md`](api/README.md).
+**1. Claude Code / Cursor** — the MCP server, 3 tools, ~1 minute:
 
 ```bash
-curl -s https://dion-jy.github.io/spotlight-todai/api/daily.json | jq .paper.title
+git clone https://github.com/dion-jy/spotlight-todai
+pip install -r spotlight-todai/mcp/requirements.txt
+claude mcp add spotlight-todai -- python "$PWD/spotlight-todai/mcp/server.py"
+```
+
+Then just ask *"what's today's spotlight paper?"*. Claude Desktop uses a JSON
+config instead — see [`mcp/README.md`](mcp/README.md), which also covers the
+offline mode (`SPOTLIGHT_API_BASE=../api`).
+
+**2. Shell or any language** — nothing to install, it is a plain HTTP GET:
+
+```bash
+curl -s https://dion-jy.github.io/spotlight-todai/api/daily.json | jq -r .paper.title
+```
+
+**3. Any other agent** — zero setup. Paste this URL into ChatGPT, Perplexity or
+your own agent and it discovers every endpoint by itself:
+
+```
+https://dion-jy.github.io/spotlight-todai/llms.txt
 ```
 
 All API files are generated deterministically from `data.json` by [`build_api.py`](build_api.py).
