@@ -92,7 +92,42 @@
   }
   .link-badge:hover { background: var(--hover); text-decoration: none; }
   .link-badge svg { width: 15px; height: 15px; flex: 0 0 auto; }
-  .link-badge.donate { color: var(--accent); }
+  /* Buy Me A Coffee — same yellow/black as the badge on the GitHub profile,
+     drawn inline so the site keeps its "no external dependencies" promise
+     (a shields.io <img> would be a third-party request on every page load). */
+  .link-badge.donate {
+    background: #FFDD00; border-color: #e6c700; color: #111;
+  }
+  .link-badge.donate:hover { background: #ffe633; }
+
+  /* Agent/API callout. This used to be one 12px line in the footer, which is
+     why nobody found it. */
+  .agent-card {
+    margin: 22px 0 4px; padding: 16px 18px;
+    background: var(--panel); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 12px; box-shadow: var(--shadow);
+  }
+  .agent-card h2 {
+    margin: 0 0 6px; font-size: 15px; letter-spacing: -0.2px;
+    display: flex; align-items: center; gap: 7px;
+  }
+  .agent-card h2 svg { width: 16px; height: 16px; color: var(--accent); }
+  .agent-card p { margin: 0 0 12px; color: var(--muted); font-size: 13.5px; }
+  .agent-card p code {
+    background: var(--hover); border: 1px solid var(--border);
+    border-radius: 5px; padding: 1px 5px; font-size: 12.5px; color: var(--text);
+  }
+  .agent-links { display: flex; flex-wrap: wrap; gap: 7px; }
+  .agent-links a {
+    display: inline-flex; align-items: baseline; gap: 6px;
+    border: 1px solid var(--border); background: var(--bg);
+    border-radius: 999px; padding: 5px 12px; font-size: 12.5px; font-weight: 600;
+    color: var(--text);
+  }
+  .agent-links a:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+  .agent-links a span { font-weight: 400; color: var(--muted); font-size: 11.5px; }
+  .agent-links a:hover span { color: var(--accent); }
 
   .controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 22px 0 16px; }
   .search {
@@ -168,13 +203,33 @@
         <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
         GitHub
       </a>
-      <a class="link-badge donate" href="https://www.paypal.com/paypalme/JunyeobBaek" target="_blank" rel="noopener" title="Support this project">
-        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 6h9v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6zm9 0h1.5a2 2 0 0 1 0 4H11V6zM2.5 13h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zM4.2 2.1c.2.3.1.6-.1.9-.2.3-.2.6 0 .9.1.1 0 .3-.1.4-.2.1-.4 0-.5-.1-.4-.5-.4-1.2 0-1.7.1-.2.4-.5.7-.4zm2 0c.2.3.1.6-.1.9-.2.3-.2.6 0 .9.1.1 0 .3-.1.4-.2.1-.4 0-.5-.1-.4-.5-.4-1.2 0-1.7.1-.2.4-.5.7-.4zm2 0c.2.3.1.6-.1.9-.2.3-.2.6 0 .9.1.1 0 .3-.1.4-.2.1-.4 0-.5-.1-.4-.5-.4-1.2 0-1.7.1-.2.4-.5.7-.4z"/></svg>
-        Support
+      <a class="link-badge donate" href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener" title="Buy me a coffee">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M1.5 5.5h9.2v4A3.5 3.5 0 0 1 7.2 13H5A3.5 3.5 0 0 1 1.5 9.5v-4zm9.9 0h1.3a2 2 0 1 1 0 4h-1.3V8.3h1.3a.7.7 0 0 0 0-1.4h-1.3V5.5zM1.5 14h9.2v1.2H1.5V14zM4 .8c.36.5.28 1.05-.06 1.5-.24.32-.24.6 0 .92.12.17.02.42-.19.5-.2.08-.42-.02-.55-.2-.5-.66-.5-1.5 0-2.16.16-.22.55-.72.8-.56zm2.6 0c.36.5.28 1.05-.06 1.5-.24.32-.24.6 0 .92.12.17.02.42-.19.5-.2.08-.42-.02-.55-.2-.5-.66-.5-1.5 0-2.16.16-.22.55-.72.8-.56zm2.6 0c.36.5.28 1.05-.06 1.5-.24.32-.24.6 0 .92.12.17.02.42-.19.5-.2.08-.42-.02-.55-.2-.5-.66-.5-1.5 0-2.16.16-.22.55-.72.8-.56z"/></svg>
+        Buy Me A Coffee
       </a>
       <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
     </div>
   </header>
+
+  <section class="agent-card" id="for-agents">
+    <h2>
+      <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0a1 1 0 0 1 1 1v1h2.5A2.5 2.5 0 0 1 14 4.5v6a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 10.5v-6A2.5 2.5 0 0 1 4.5 2H7V1a1 1 0 0 1 1-1zM4.5 3.5A1 1 0 0 0 3.5 4.5v6a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1h-7zM6 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm4 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM5.5 9.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM0 6h1.2v3H0V6zm14.8 0H16v3h-1.2V6z"/></svg>
+      Built for AI agents
+    </h2>
+    <p>
+      A read-only JSON API served straight off GitHub Pages — no key, no auth, no rate limit —
+      plus a 3-tool MCP server. Point your agent at <code>llms.txt</code> and it discovers the rest.
+    </p>
+    <div class="agent-links">
+      <a href="api/papers.json">papers.json <span>all 1167</span></a>
+      <a href="api/daily.json">daily.json <span>paper of the day</span></a>
+      <a href="api/topics.json">topics.json <span>keyword index</span></a>
+      <a href="api/venues.json">venues.json <span>counts</span></a>
+      <a href="https://github.com/dion-jy/spotlight-todai/tree/main/mcp" target="_blank" rel="noopener">MCP server <span>search · daily · recommend</span></a>
+      <a href="llms.txt">llms.txt <span>agent discovery</span></a>
+      <a href="api/README.md">API docs</a>
+    </div>
+  </section>
 
   <section id="view-all">
     <div class="controls">
@@ -1387,7 +1442,8 @@
     <a href="venue/icml-2026-oral/">ICML 2026 Oral</a> ·
     <a href="venue/neurips-2025-oral/">NeurIPS 2025 Oral</a> ·
     <a href="venue/icml-2026-spotlight/">ICML 2026 Spotlight</a>
-    <br>For agents: static JSON API + MCP at <a href="api/README.md">/api</a> (papers · daily feed · topics)
+    <br>For agents: <a href="#for-agents">JSON API + MCP</a> ·
+    ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a>
     <br><span id="visit-count" hidden>👁 <span id="visit-num">…</span> visits</span>
   </footer>
 </div>

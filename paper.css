@@ -79,6 +79,10 @@ ol.venue-list li { padding: 7px 0; border-bottom: 1px solid var(--border); font-
 ol.venue-list li:last-child { border-bottom: 0; }
 ol.venue-list li::marker { color: var(--muted); font-size: 12px; }
 .who { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+.site-footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border);
+               color: var(--muted); font-size: 12px; text-align: center; }
+.site-footer a { color: var(--muted); }
+.site-footer a:hover { color: var(--accent); }
 @media (max-width: 560px) {
   h1 { font-size: 23px; }
   dl.meta { grid-template-columns: 1fr; gap: 2px 0; }

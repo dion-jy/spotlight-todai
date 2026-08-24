@@ -229,6 +229,24 @@ def source_links(p):
     return out
 
 
+def site_footer(depth):
+    """Shared footer for every generated page.
+
+    These pages are the ones search traffic actually lands on, so the JSON
+    API / MCP pitch and the support link belong here too — not only on the
+    home page. `depth` is how many levels up the site root is.
+    """
+    up = "../" * depth
+    return (
+        '<footer class="site-footer">'
+        '<a href="%s">SpotlightTodAI</a> · '
+        '<a href="%s#for-agents">JSON API + MCP for agents</a> · '
+        '<a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · '
+        '☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a>'
+        "</footer>" % (up, up)
+    )
+
+
 def venue_slug(p):
     """'neurips-2025-spotlight' — the hub URL for a paper's venue."""
     return "%s-%s-%s" % (p["conference"].lower(), p["year"], p["track"].lower())
@@ -412,6 +430,7 @@ def render_page(p, slugs, papers, topics_by_uid, index):
              '<a href="../../">Browse the whole archive</a></p>'
              % (esc(venue_slug(p)), esc(venue)))
     h.append("</article>")
+    h.append(site_footer(2))
     h.append("</div>")
     h.append("</body>")
     h.append("</html>")
@@ -537,6 +556,7 @@ def render_venue_page(vslug, group, all_groups, slugs):
                     ('<span class="who">%s</span>' % " · ".join(extra)) if extra else ""))
     h.append("</ol>")
     h.append('<p class="back"><a href="../../">← Browse the whole archive</a></p>')
+    h.append(site_footer(2))
     h.append("</div>")
     h.append("</body>")
     h.append("</html>")
@@ -624,6 +644,10 @@ ol.venue-list li { padding: 7px 0; border-bottom: 1px solid var(--border); font-
 ol.venue-list li:last-child { border-bottom: 0; }
 ol.venue-list li::marker { color: var(--muted); font-size: 12px; }
 .who { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+.site-footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border);
+               color: var(--muted); font-size: 12px; text-align: center; }
+.site-footer a { color: var(--muted); }
+.site-footer a:hover { color: var(--accent); }
 @media (max-width: 560px) {
   h1 { font-size: 23px; }
   dl.meta { grid-template-columns: 1fr; gap: 2px 0; }
