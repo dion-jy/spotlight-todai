@@ -1,55 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-25",
+ "date": "2026-08-26",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 236,
-  "position": 236,
+  "day_index": 237,
+  "position": 237,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-47",
+  "uid": "neurips-2025-spotlight-374",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Oral",
-  "title": "Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain",
+  "track": "Spotlight",
+  "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
   "authors": [
-   "Trinity Chung",
-   "Yuchen Shen",
-   "Nathan Kong",
-   "Aran Nayebi"
+   "Artem Lukoianov",
+   "Chenyang Yuan",
+   "Justin Solomon",
+   "Vincent Sitzmann"
   ],
   "affiliation": "",
-  "summary": "Task-optimized convolutional recurrent neural networks trained on realistic tactile inputs align with rodent somatosensory data, suggesting brain tactile processing uses temporally-precise representations shaped by categorization-driven optimization.",
+  "summary": "Recent work has shown that the generalization ability of image diffusion models arises from the locality properties of the trained neural network",
   "links": {
-   "openreview": "https://openreview.net/forum?id=m7MD0sa8Re",
+   "openreview": "https://openreview.net/forum?id=skunuOdavO",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-374",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
-   "authors": [
-    "Artem Lukoianov",
-    "Chenyang Yuan",
-    "Justin Solomon",
-    "Vincent Sitzmann"
-   ],
-   "affiliation": "",
-   "summary": "Recent work has shown that the generalization ability of image diffusion models arises from the locality properties of the trained neural network",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=skunuOdavO",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-191",
    "conference": "ICLR",
@@ -105,6 +85,26 @@
    "summary": "We study the complexity of learning real-valued Multi-Index Models (MIMs) under the Gaussian distribution",
    "links": {
     "openreview": "https://openreview.net/forum?id=cD4whTwm6G",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-55",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression",
+   "authors": [
+    "Tom Burgert",
+    "Oliver Stoll",
+    "Paolo Rota",
+    "Begüm Demir"
+   ],
+   "affiliation": "Technische Universität Berlin",
+   "summary": "We revisit the texture bias hypothesis in CNNs by proposing a domain-agnostic suppression protocol, finding that contrary to prior claims, CNNs primarily rely on local shape instead of texture features.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=i5WnXNjwbR",
     "arxiv": "",
     "detail": ""
    }
