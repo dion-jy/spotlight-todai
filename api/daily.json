@@ -1,55 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-26",
+ "date": "2026-08-27",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 237,
-  "position": 237,
+  "day_index": 238,
+  "position": 238,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-374",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
+  "uid": "iclr-2026-oral-191",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm",
   "authors": [
-   "Artem Lukoianov",
-   "Chenyang Yuan",
-   "Justin Solomon",
-   "Vincent Sitzmann"
+   "Noah Amsel",
+   "David Persson",
+   "Christopher Musco",
+   "Robert M. Gower"
   ],
-  "affiliation": "",
-  "summary": "Recent work has shown that the generalization ability of image diffusion models arises from the locality properties of the trained neural network",
+  "affiliation": "NYU, New York University",
+  "summary": "We introduce a GPU-friendly algorithm for computing the polar decomposition of a matrix to low accuracy that is optimal in its class. This improves Muon.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=skunuOdavO",
+   "openreview": "https://openreview.net/forum?id=yRtgZ1K8hO",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-191",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm",
-   "authors": [
-    "Noah Amsel",
-    "David Persson",
-    "Christopher Musco",
-    "Robert M. Gower"
-   ],
-   "affiliation": "NYU, New York University",
-   "summary": "We introduce a GPU-friendly algorithm for computing the polar decomposition of a matrix to low accuracy that is optimal in its class. This improves Muon.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=yRtgZ1K8hO",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-198",
    "conference": "NeurIPS",
@@ -105,6 +85,25 @@
    "summary": "We revisit the texture bias hypothesis in CNNs by proposing a domain-agnostic suppression protocol, finding that contrary to prior claims, CNNs primarily rely on local shape instead of texture features.",
    "links": {
     "openreview": "https://openreview.net/forum?id=i5WnXNjwbR",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-336",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Instance-Optimality for Private KL Distribution Estimation",
+   "authors": [
+    "Jiayuan Ye",
+    "Vitaly Feldman",
+    "Kunal Talwar"
+   ],
+   "affiliation": "",
+   "summary": "We study the fundamental problem of estimating an unknown discrete distribution $p$ over $d$ symbols, given $n$ i",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=K0FbK2GOGj",
     "arxiv": "",
     "detail": ""
    }
