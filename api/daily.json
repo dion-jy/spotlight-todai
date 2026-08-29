@@ -1,55 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-29",
+ "date": "2026-08-30",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 240,
-  "position": 240,
+  "day_index": 241,
+  "position": 241,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-81",
+  "uid": "neurips-2025-oral-55",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Spotlight",
-  "title": "Algorithms and SQ Lower Bounds for Robustly Learning Real-valued Multi-Index Models",
+  "track": "Oral",
+  "title": "ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression",
   "authors": [
-   "Ilias Diakonikolas",
-   "Giannis Iakovidis",
-   "Daniel Kane",
-   "Lisheng Ren"
+   "Tom Burgert",
+   "Oliver Stoll",
+   "Paolo Rota",
+   "Begüm Demir"
   ],
-  "affiliation": "",
-  "summary": "We study the complexity of learning real-valued Multi-Index Models (MIMs) under the Gaussian distribution",
+  "affiliation": "Technische Universität Berlin",
+  "summary": "We revisit the texture bias hypothesis in CNNs by proposing a domain-agnostic suppression protocol, finding that contrary to prior claims, CNNs primarily rely on local shape instead of texture features.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=cD4whTwm6G",
+   "openreview": "https://openreview.net/forum?id=i5WnXNjwbR",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-55",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression",
-   "authors": [
-    "Tom Burgert",
-    "Oliver Stoll",
-    "Paolo Rota",
-    "Begüm Demir"
-   ],
-   "affiliation": "Technische Universität Berlin",
-   "summary": "We revisit the texture bias hypothesis in CNNs by proposing a domain-agnostic suppression protocol, finding that contrary to prior claims, CNNs primarily rely on local shape instead of texture features.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=i5WnXNjwbR",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-336",
    "conference": "NeurIPS",
@@ -106,6 +86,26 @@
    "summary": "Skill Incremental Learning (SIL) is the process by which an embodied agent expands and refines its skill set over time by leveraging experience gained through interaction with its environment or by th",
    "links": {
     "openreview": "https://openreview.net/forum?id=xmYT1JqVpj",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-102",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "On Universality Classes of Equivariant Networks",
+   "authors": [
+    "Marco Pacini",
+    "Gabriele Santin",
+    "Bruno Lepri",
+    "Shubhendu Trivedi"
+   ],
+   "affiliation": "",
+   "summary": "Equivariant neural networks provide a principled framework for incorporating symmetry into learning architectures and have been extensively analyzed through the lens of their *separation power*, that",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=V4YAS7NLXi",
     "arxiv": "",
     "detail": ""
    }
