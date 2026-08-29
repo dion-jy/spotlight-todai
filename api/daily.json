@@ -1,54 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-28",
+ "date": "2026-08-29",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 239,
-  "position": 239,
+  "day_index": 240,
+  "position": 240,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-198",
+  "uid": "neurips-2025-spotlight-81",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "SGCD: Stain-Guided CycleDiffusion for Unsupervised Domain Adaptation of Histopathology Image Classification",
+  "title": "Algorithms and SQ Lower Bounds for Robustly Learning Real-valued Multi-Index Models",
   "authors": [
-   "Hsi-Ling Chen",
-   "Chun-Shien Lu",
-   "Pau-Choo Chung"
+   "Ilias Diakonikolas",
+   "Giannis Iakovidis",
+   "Daniel Kane",
+   "Lisheng Ren"
   ],
   "affiliation": "",
-  "summary": "The effectiveness of domain translation in addressing image-based problems of Unsupervised Domain Adaptation (UDA) depends on the quality of the translated images and the preservation of crucial discr",
+  "summary": "We study the complexity of learning real-valued Multi-Index Models (MIMs) under the Gaussian distribution",
   "links": {
-   "openreview": "https://openreview.net/forum?id=z2SGaPIhLT",
+   "openreview": "https://openreview.net/forum?id=cD4whTwm6G",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-81",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Algorithms and SQ Lower Bounds for Robustly Learning Real-valued Multi-Index Models",
-   "authors": [
-    "Ilias Diakonikolas",
-    "Giannis Iakovidis",
-    "Daniel Kane",
-    "Lisheng Ren"
-   ],
-   "affiliation": "",
-   "summary": "We study the complexity of learning real-valued Multi-Index Models (MIMs) under the Gaussian distribution",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=cD4whTwm6G",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-55",
    "conference": "NeurIPS",
@@ -104,6 +85,27 @@
    "summary": "Causal discovery with latent variables is a fundamental task. Yet most existing methods rely on strong structural assumptions, such as enforcing specific indicator patterns for latents or restricting how they can interact with others.",
    "links": {
     "openreview": "https://openreview.net/forum?id=b8TlYh6PN6",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-327",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Policy Compatible Skill Incremental Learning via Lazy Learning Interface",
+   "authors": [
+    "Daehee Lee",
+    "Dongsu Lee",
+    "TaeYoon Kwack",
+    "Wonje Choi",
+    "Honguk Woo"
+   ],
+   "affiliation": "",
+   "summary": "Skill Incremental Learning (SIL) is the process by which an embodied agent expands and refines its skill set over time by leveraging experience gained through interaction with its environment or by th",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=xmYT1JqVpj",
     "arxiv": "",
     "detail": ""
    }
