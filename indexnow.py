@@ -26,6 +26,8 @@ import os
 import re
 import subprocess
 import sys
+import time
+import urllib.error
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -40,8 +42,11 @@ ENDPOINT = "https://api.indexnow.org/indexnow"
 KEY = "279cb1edf8c5da77cbc73301b5690192"
 KEY_LOCATION = SITE_URL + KEY + ".txt"
 
-# IndexNow accepts at most 10,000 URLs per request.
-BATCH = 10000
+# The spec allows 10,000 URLs per request, but a host with no submission
+# history gets a 403 for a batch that large — 1168 in one POST was refused
+# while 10 went through. Submit in modest chunks instead.
+BATCH = 100
+PAUSE = 1.0     # seconds between chunks, to stay clear of rate limiting
 
 
 def write_key_file():
@@ -76,35 +81,80 @@ def changed_urls(since):
     return sorted(set(urls))
 
 
+def post_chunk(chunk):
+    """POST one chunk. Returns (ok, status, detail) instead of raising.
+
+    IndexNow answers with a bare status code and an empty body, so a failure
+    has to be reported by number: 403 means the key did not validate, 422 that
+    the URLs do not belong to the host, 429 that we are going too fast.
+    """
+    payload = {
+        "host": SITE_HOST,
+        "key": KEY,
+        "keyLocation": KEY_LOCATION,
+        "urlList": chunk,
+    }
+    req = urllib.request.Request(
+        ENDPOINT,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json; charset=utf-8"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return True, resp.status, ""
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", "replace").strip()[:200]
+        except Exception:
+            pass
+        return False, e.code, body or HTTP_MEANING.get(e.code, "")
+    except Exception as e:
+        return False, 0, str(e)
+
+
+HTTP_MEANING = {
+    400: "bad request — malformed payload",
+    403: "key not valid (not found / mismatch), or the batch was refused as too large",
+    422: "URLs do not belong to this host, or the key does not match",
+    429: "too many requests — slow down",
+}
+
+
 def submit(urls, really):
     if not urls:
         print("Nothing to submit.")
         return 0
-    for i in range(0, len(urls), BATCH):
-        chunk = urls[i:i + BATCH]
-        payload = {
-            "host": SITE_HOST,
-            "key": KEY,
-            "keyLocation": KEY_LOCATION,
-            "urlList": chunk,
-        }
-        if not really:
-            print("DRY RUN — would POST %d URL(s) to %s" % (len(chunk), ENDPOINT))
-            print("  keyLocation: %s" % KEY_LOCATION)
-            for u in chunk[:5]:
-                print("    %s" % u)
-            if len(chunk) > 5:
-                print("    ... and %d more" % (len(chunk) - 5))
-            continue
-        req = urllib.request.Request(
-            ENDPOINT,
-            data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json; charset=utf-8"},
-            method="POST",
-        )
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            print("POSTed %d URL(s) -> HTTP %d" % (len(chunk), resp.status))
-    return len(urls)
+    chunks = [urls[i:i + BATCH] for i in range(0, len(urls), BATCH)]
+    if not really:
+        print("DRY RUN — would POST %d URL(s) to %s in %d chunk(s) of <=%d"
+              % (len(urls), ENDPOINT, len(chunks), BATCH))
+        print("  keyLocation: %s" % KEY_LOCATION)
+        for u in urls[:5]:
+            print("    %s" % u)
+        if len(urls) > 5:
+            print("    ... and %d more" % (len(urls) - 5))
+        return len(urls)
+
+    sent = 0
+    failed = []
+    for n, chunk in enumerate(chunks, 1):
+        ok, status, detail = post_chunk(chunk)
+        if ok:
+            sent += len(chunk)
+            print("  chunk %d/%d: %d URL(s) -> HTTP %d" % (n, len(chunks), len(chunk), status))
+        else:
+            failed.append((n, status, detail))
+            print("  chunk %d/%d: FAILED HTTP %s %s" % (n, len(chunks), status, detail))
+        if n < len(chunks):
+            time.sleep(PAUSE)
+
+    print("Submitted %d/%d URL(s)." % (sent, len(urls)))
+    if failed:
+        print("%d chunk(s) failed." % len(failed))
+        return sent
+    return sent
 
 
 def main():
