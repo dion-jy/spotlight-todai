@@ -229,6 +229,24 @@ def source_links(p):
     return out
 
 
+def icon_links(depth):
+    """Favicon declarations for a generated page.
+
+    Without these the browser falls back to /favicon.ico at the HOST root, and
+    dion-jy.github.io is a single origin shared with the owner's personal
+    homepage — so every page here inherited that site's portrait icon. Google
+    shows favicons in mobile search results, so this is a search-appearance
+    bug, not just a cosmetic one.
+    """
+    up = "../" * depth
+    return (
+        '<link rel="icon" href="%sfavicon.ico" sizes="48x48">\n'
+        '<link rel="icon" href="%sfavicon.svg" type="image/svg+xml">\n'
+        '<link rel="apple-touch-icon" href="%sapple-touch-icon.png">'
+        % (up, up, up)
+    )
+
+
 def site_footer(depth):
     """Shared footer for every generated page.
 
@@ -360,6 +378,7 @@ def render_page(p, slugs, papers, topics_by_uid, index):
     h.append('<meta name="twitter:image" content="%s">' % OG_IMAGE)
     # Deliberately NO citation_* meta: Google Scholar expects those on the site
     # that hosts the full text, and we only link out to it. See the P17 log.
+    h.append(icon_links(2))
     h.append('<link rel="stylesheet" href="../../paper.css">')
     h.append('<script type="application/ld+json">')
     h.append(jsonld(p, url, topics, srcs))
@@ -514,6 +533,7 @@ def render_venue_page(vslug, group, all_groups, slugs):
     h.append('<meta name="twitter:title" content="%s">' % esc("%s Papers — all %d" % (venue, n)))
     h.append('<meta name="twitter:description" content="%s">' % esc(desc))
     h.append('<meta name="twitter:image" content="%s">' % OG_IMAGE)
+    h.append(icon_links(2))
     h.append('<link rel="stylesheet" href="../../paper.css">')
     h.append('<script type="application/ld+json">')
     h.append(json.dumps(listing, ensure_ascii=False, indent=1).replace("<", "\\u003c"))

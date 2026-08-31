@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SpotlightTodAI">
+  <rect width="64" height="64" rx="14" fill="#4f46e5"/>
+  <!-- spotlight beam: a cone opening downward from a small source -->
+  <path d="M32 11 L48 45 A18 18 0 0 1 16 45 Z" fill="#ffffff" opacity="0.28"/>
+  <!-- the lit subject: a four-point glint, still legible at 16px -->
+  <path d="M32 22 L35.4 32.2 L45 36 L35.4 39.8 L32 50 L28.6 39.8 L19 36 L28.6 32.2 Z" fill="#ffffff"/>
+</svg>
