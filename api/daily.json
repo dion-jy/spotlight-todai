@@ -1,54 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-08-30",
+ "date": "2026-08-31",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 241,
-  "position": 241,
+  "day_index": 242,
+  "position": 242,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-55",
+  "uid": "neurips-2025-spotlight-336",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Oral",
-  "title": "ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression",
+  "track": "Spotlight",
+  "title": "Instance-Optimality for Private KL Distribution Estimation",
   "authors": [
-   "Tom Burgert",
-   "Oliver Stoll",
-   "Paolo Rota",
-   "Begüm Demir"
+   "Jiayuan Ye",
+   "Vitaly Feldman",
+   "Kunal Talwar"
   ],
-  "affiliation": "Technische Universität Berlin",
-  "summary": "We revisit the texture bias hypothesis in CNNs by proposing a domain-agnostic suppression protocol, finding that contrary to prior claims, CNNs primarily rely on local shape instead of texture features.",
+  "affiliation": "",
+  "summary": "We study the fundamental problem of estimating an unknown discrete distribution $p$ over $d$ symbols, given $n$ i",
   "links": {
-   "openreview": "https://openreview.net/forum?id=i5WnXNjwbR",
+   "openreview": "https://openreview.net/forum?id=K0FbK2GOGj",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-336",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Instance-Optimality for Private KL Distribution Estimation",
-   "authors": [
-    "Jiayuan Ye",
-    "Vitaly Feldman",
-    "Kunal Talwar"
-   ],
-   "affiliation": "",
-   "summary": "We study the fundamental problem of estimating an unknown discrete distribution $p$ over $d$ symbols, given $n$ i",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=K0FbK2GOGj",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-167",
    "conference": "ICLR",
@@ -106,6 +86,25 @@
    "summary": "Equivariant neural networks provide a principled framework for incorporating symmetry into learning architectures and have been extensively analyzed through the lens of their *separation power*, that",
    "links": {
     "openreview": "https://openreview.net/forum?id=V4YAS7NLXi",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-254",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "CoT Information: Improved Sample Complexity under Chain-of-Thought Supervision",
+   "authors": [
+    "Awni Altabaa",
+    "Omar Montasser",
+    "John Lafferty"
+   ],
+   "affiliation": "",
+   "summary": "Learning complex functions that involve multi-step reasoning poses a significant challenge for standard supervised learning from input-output examples",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=OkVQJZWGfn",
     "arxiv": "",
     "detail": ""
    }
