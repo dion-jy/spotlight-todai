@@ -32,6 +32,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 COLLECTIONS = os.path.join(HERE, "data")
 AUTHORS_JSON = os.path.join(HERE, "authors.json")
 INDEX_HTML = os.path.join(HERE, "index.html")
+DAILY_JSON = os.path.join(HERE, "api", "daily.json")
 ROBOTS_TXT = os.path.join(HERE, "robots.txt")
 
 SITE_URL = "https://dion-jy.github.io/spotlight-todai/"
@@ -255,6 +256,85 @@ def row_html(p):
     )
 
 
+DAILY_AUTHORS_SHOWN = 4
+
+
+def daily_html(slugs):
+    """The "paper of the day" hero, rendered from api/daily.json.
+
+    Baked in at build time rather than fetched by the client. The daily cron
+    regenerates daily.json and then re-runs this build in the SAME job, and both
+    files land in one commit — so the date printed here cannot disagree with the
+    feed the MCP server and the JSON API serve. A client-side fetch would only
+    guard against a mismatch that the pipeline makes impossible, at the cost of
+    hiding the day's paper from crawlers.
+
+    Returns "" when api/daily.json is absent (a bare `python build.py` before
+    build_api.py has ever run) so the build degrades instead of failing.
+    """
+    try:
+        with open(DAILY_JSON, encoding="utf-8") as f:
+            daily = json.load(f)
+    except (OSError, ValueError):
+        return ""
+
+    p = daily.get("paper") or {}
+    if not p.get("title"):
+        return ""
+
+    date = daily.get("date", "")
+    slug = slugs.get(p.get("uid", ""))
+    href = "paper/" + esc(slug) + "/" if slug else ""
+
+    title = esc(p["title"])
+    title_html = ('<a href="' + href + '">' + title + "</a>") if href else title
+
+    meta = badge(p["conference"], p["conference"]) + badge(p["track"], p["track"])
+    meta += "<span>" + esc(p.get("year", "")) + "</span>"
+    if p.get("affiliation"):
+        meta += '<span aria-hidden="true">·</span><span>' + esc(p["affiliation"]) + "</span>"
+
+    authors = p.get("authors") or []
+    shown = ", ".join(esc(a) for a in authors[:DAILY_AUTHORS_SHOWN])
+    if len(authors) > DAILY_AUTHORS_SHOWN:
+        shown += ' <span class="authors-meta">+%d more</span>' % (
+            len(authors) - DAILY_AUTHORS_SHOWN)
+
+    parts = [
+        '\n<section class="daily" id="today">',
+        '  <div class="daily-head">',
+        '    <span class="daily-kicker">Paper of the day</span>',
+        '    <time datetime="' + esc(date) + '">' + esc(date) + " · KST</time>",
+        "  </div>",
+        '  <h2 class="daily-title">' + title_html + "</h2>",
+        '  <div class="daily-meta">' + meta + "</div>",
+    ]
+    if shown:
+        parts.append('  <p class="daily-authors">' + shown + "</p>")
+    if p.get("summary"):
+        parts.append('  <p class="daily-summary">' + esc(p["summary"]) + "</p>")
+
+    parts.append('  <div class="daily-actions">')
+    if href:
+        parts.append('    <a class="daily-cta" href="' + href + '">Read the summary →</a>')
+    src = primary_link(p)
+    if src:
+        parts.append(
+            '    <a class="daily-src" href="' + esc(src) + '" target="_blank"'
+            ' rel="noopener nofollow">OpenReview ↗</a>'
+        )
+    parts.append("  </div>")
+    parts.append(
+        '  <p class="daily-foot">A new paper every day at 07:00 KST, picked by a'
+        " reproducible rotation over all %d papers ·"
+        ' <a href="#for-agents">read it from your own agent</a> ·'
+        ' <a href="api/daily.json">daily.json</a></p>'
+        % (daily.get("rotation", {}).get("cycle_length_days") or len(slugs))
+    )
+    parts.append("</section>\n")
+    return "\n".join(parts)
+
+
 def replace_marked(text, start_marker, end_marker, payload):
     """Replace whatever sits between start_marker and end_marker (inclusive of
     the markers, which are re-emitted) so the operation is idempotent."""
@@ -271,13 +351,14 @@ def replace_marked(text, start_marker, end_marker, payload):
     return new_text
 
 
-def write_index_html(papers):
-    """Inject the static <tbody> rows into index.html between the
-    STATIC_ROWS markers. Re-running is idempotent."""
+def write_index_html(papers, slugs):
+    """Inject the static <tbody> rows and the paper-of-the-day hero into
+    index.html between their markers. Re-running is idempotent."""
     with open(INDEX_HTML, encoding="utf-8") as f:
         tmpl = f.read()
     rows = "\n" + "\n".join(row_html(p) for p in papers) + "\n"
     out = replace_marked(tmpl, "<!-- STATIC_ROWS_START -->", "<!-- STATIC_ROWS_END -->", rows)
+    out = replace_marked(out, "<!-- DAILY_START -->", "<!-- DAILY_END -->", daily_html(slugs))
     with open(INDEX_HTML, "w", encoding="utf-8") as f:
         f.write(out)
     return out.count("<tr>")
@@ -352,7 +433,7 @@ def main():
     # Bake all rows into index.html as static HTML (SEO: crawlers see every
     # title/author/link with JS disabled). The client JS re-renders the same
     # markup for interactive search/filter/pagination.
-    static_tr = write_index_html(papers)
+    static_tr = write_index_html(papers, slugs)
 
     # SEO sidecar files. sitemap.xml is NOT written here: its <lastmod> is
     # per-page and derived from the generated files, which do not exist until

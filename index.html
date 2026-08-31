@@ -103,6 +103,59 @@
   }
   .link-badge.donate:hover { background: #ffe633; }
 
+  /* Paper of the day. Baked in at build time by build.py (see DAILY markers
+     below) — api/daily.json and index.html are regenerated in the same CI job
+     and land in the same commit, so the date on the card can never drift away
+     from the feed the agents read. */
+  .daily {
+    margin: 22px 0 4px; padding: 20px 22px;
+    background: var(--panel); border: 1px solid var(--border);
+    border-top: 3px solid var(--accent);
+    border-radius: 12px; box-shadow: var(--shadow);
+  }
+  .daily-head {
+    display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .daily-kicker {
+    font-size: 11.5px; font-weight: 700; letter-spacing: 1.1px;
+    text-transform: uppercase; color: var(--accent);
+  }
+  .daily-head time { font-size: 12px; color: var(--muted); }
+  .daily-title {
+    margin: 0 0 10px; font-size: 22px; line-height: 1.32;
+    letter-spacing: -0.4px; font-weight: 700;
+  }
+  .daily-title a { color: var(--text); }
+  .daily-title a:hover { color: var(--accent); }
+  .daily-meta {
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+    margin-bottom: 8px; font-size: 12.5px; color: var(--muted);
+  }
+  .daily-authors { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+  .daily-summary {
+    margin: 0 0 14px; font-size: 14.5px; line-height: 1.6;
+    color: var(--text); max-width: 78ch;
+  }
+  .daily-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .daily-cta {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
+    background: var(--accent); color: #fff;
+  }
+  .daily-cta:hover { filter: brightness(1.08); text-decoration: none; }
+  .daily-src {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 7px 12px; border-radius: 8px; font-size: 13px;
+    border: 1px solid var(--border); background: var(--bg); color: var(--muted);
+  }
+  .daily-src:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+  .daily-foot { margin: 12px 0 0; font-size: 12px; color: var(--muted); }
+  @media (max-width: 640px) {
+    .daily { padding: 16px; }
+    .daily-title { font-size: 18px; }
+  }
+
   /* Agent/API callout. This used to be one 12px line in the footer, which is
      why nobody found it. */
   .agent-card {
@@ -251,6 +304,24 @@
       <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
     </div>
   </header>
+
+  <!-- DAILY_START -->
+<section class="daily" id="today">
+  <div class="daily-head">
+    <span class="daily-kicker">Paper of the day</span>
+    <time datetime="2026-09-01">2026-09-01 · KST</time>
+  </div>
+  <h2 class="daily-title"><a href="paper/iclr-2026-distributional-equivalence-in-linear-non-gaussian-latent/">Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning</a></h2>
+  <div class="daily-meta"><span class="badge b-ICLR">ICLR</span><span class="badge b-Oral">Oral</span><span>2026</span><span aria-hidden="true">·</span><span>Carnegie Mellon University</span></div>
+  <p class="daily-authors">Haoyue Dai, Immanuel Albrecht, Peter Spirtes, Kun Zhang</p>
+  <p class="daily-summary">Causal discovery with latent variables is a fundamental task. Yet most existing methods rely on strong structural assumptions, such as enforcing specific indicator patterns for latents or restricting how they can interact with others.</p>
+  <div class="daily-actions">
+    <a class="daily-cta" href="paper/iclr-2026-distributional-equivalence-in-linear-non-gaussian-latent/">Read the summary →</a>
+    <a class="daily-src" href="https://openreview.net/forum?id=b8TlYh6PN6" target="_blank" rel="noopener nofollow">OpenReview ↗</a>
+  </div>
+  <p class="daily-foot">A new paper every day at 07:00 KST, picked by a reproducible rotation over all 1167 papers · <a href="#for-agents">read it from your own agent</a> · <a href="api/daily.json">daily.json</a></p>
+</section>
+<!-- DAILY_END -->
 
   <section class="agent-card" id="for-agents">
     <h2>

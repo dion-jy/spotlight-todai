@@ -1,54 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-08-31",
+ "date": "2026-09-01",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 242,
-  "position": 242,
+  "day_index": 243,
+  "position": 243,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-336",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Instance-Optimality for Private KL Distribution Estimation",
+  "uid": "iclr-2026-oral-167",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning",
   "authors": [
-   "Jiayuan Ye",
-   "Vitaly Feldman",
-   "Kunal Talwar"
+   "Haoyue Dai",
+   "Immanuel Albrecht",
+   "Peter Spirtes",
+   "Kun Zhang"
   ],
-  "affiliation": "",
-  "summary": "We study the fundamental problem of estimating an unknown discrete distribution $p$ over $d$ symbols, given $n$ i",
+  "affiliation": "Carnegie Mellon University",
+  "summary": "Causal discovery with latent variables is a fundamental task. Yet most existing methods rely on strong structural assumptions, such as enforcing specific indicator patterns for latents or restricting how they can interact with others.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=K0FbK2GOGj",
+   "openreview": "https://openreview.net/forum?id=b8TlYh6PN6",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-167",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning",
-   "authors": [
-    "Haoyue Dai",
-    "Immanuel Albrecht",
-    "Peter Spirtes",
-    "Kun Zhang"
-   ],
-   "affiliation": "Carnegie Mellon University",
-   "summary": "Causal discovery with latent variables is a fundamental task. Yet most existing methods rely on strong structural assumptions, such as enforcing specific indicator patterns for latents or restricting how they can interact with others.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=b8TlYh6PN6",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-327",
    "conference": "NeurIPS",
@@ -105,6 +86,24 @@
    "summary": "Learning complex functions that involve multi-step reasoning poses a significant challenge for standard supervised learning from input-output examples",
    "links": {
     "openreview": "https://openreview.net/forum?id=OkVQJZWGfn",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-335",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Exploration via Feature Perturbation in Contextual Bandits",
+   "authors": [
+    "Seouh-won Yi",
+    "Min-hwan Oh"
+   ],
+   "affiliation": "",
+   "summary": "We propose *feature perturbation*, a simple yet effective exploration strategy for contextual bandits that injects randomness directly into feature inputs, instead of randomizing unknown parameters or",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=gAddPMjmUc",
     "arxiv": "",
     "detail": ""
    }
