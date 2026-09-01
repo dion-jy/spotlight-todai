@@ -183,43 +183,47 @@
   .agent-card[open] .ac-chev { transform: rotate(180deg); }
   .ac-body { padding: 16px 18px 18px; }
 
-  .setup-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 0 0 14px;
-  }
+  /* Stacked, not three columns. Side by side, each <pre> was wider than its
+     track — a grid item defaults to min-width:auto, so the content pushed the
+     track out and the third card overflowed the panel. Full width also means
+     the commands read as commands instead of as three squeezed columns. */
+  .setup-grid { display: flex; flex-direction: column; }
   .setup {
-    display: flex; flex-direction: column;
-    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
-    padding: 13px 14px;
+    min-width: 0;
+    padding: 16px 0;
+    border-top: 1px solid var(--border);
   }
+  .setup:first-child { border-top: 0; padding-top: 2px; }
+  .setup:last-child { padding-bottom: 4px; }
   .setup-h {
-    display: flex; align-items: center; gap: 7px; flex-wrap: wrap;
-    font-size: 13px; font-weight: 700; margin-bottom: 10px;
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    font-size: 13.5px; font-weight: 700; margin-bottom: 10px;
   }
   .setup-h .step {
     display: inline-flex; align-items: center; justify-content: center;
-    width: 18px; height: 18px; border-radius: 50%;
+    width: 19px; height: 19px; border-radius: 50%;
     background: var(--accent); color: #fff; font-size: 11px; font-weight: 700;
     flex: 0 0 auto;
   }
-  .setup-h em { font-style: normal; font-weight: 500; color: var(--muted); font-size: 11.5px; }
-  .setup .snip { position: relative; margin: 0 0 9px; }
+  .setup-h em { font-style: normal; font-weight: 500; color: var(--muted); font-size: 12px; }
+  .setup .snip { position: relative; min-width: 0; margin: 0 0 9px; }
   /* One command per line, scrolled sideways rather than wrapped. Backslash
      continuations split URLs mid-string and were unreadable. */
   .setup pre {
-    margin: 0; padding: 10px 34px 10px 11px; overflow-x: auto;
-    background: var(--hover); border: 1px solid var(--border); border-radius: 7px;
-    font-size: 12px; line-height: 1.75; white-space: pre;
+    margin: 0; padding: 11px 46px 11px 13px; overflow-x: auto;
+    background: var(--hover); border: 1px solid var(--border); border-radius: 8px;
+    font-size: 12.5px; line-height: 1.8; white-space: pre;
   }
   .setup code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
   .copy-btn {
-    position: absolute; top: 5px; right: 5px;
+    position: absolute; top: 6px; right: 6px;
     border: 1px solid var(--border); background: var(--panel); color: var(--muted);
-    border-radius: 5px; padding: 2px 6px; font-size: 10.5px; cursor: pointer; line-height: 1.4;
+    border-radius: 5px; padding: 2px 7px; font-size: 10.5px; cursor: pointer; line-height: 1.4;
   }
   .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
-  .setup-note { margin: auto 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
-  .endpoints { margin: 0; font-size: 12.5px; color: var(--muted); }
-  @media (max-width: 900px) { .setup-grid { grid-template-columns: 1fr; } }
+  .setup-note { margin: 0; color: var(--muted); font-size: 12.5px; line-height: 1.6; }
+  .endpoints { margin: 16px 0 0; padding-top: 14px; border-top: 1px solid var(--border);
+               font-size: 12.5px; color: var(--muted); }
 
   .agent-links { display: flex; flex-wrap: wrap; gap: 7px; }
   .agent-links a {
