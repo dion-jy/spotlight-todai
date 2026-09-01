@@ -1,56 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-09-01",
+ "date": "2026-09-02",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 243,
-  "position": 243,
+  "day_index": 244,
+  "position": 244,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-167",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning",
+  "uid": "neurips-2025-spotlight-327",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Policy Compatible Skill Incremental Learning via Lazy Learning Interface",
   "authors": [
-   "Haoyue Dai",
-   "Immanuel Albrecht",
-   "Peter Spirtes",
-   "Kun Zhang"
+   "Daehee Lee",
+   "Dongsu Lee",
+   "TaeYoon Kwack",
+   "Wonje Choi",
+   "Honguk Woo"
   ],
-  "affiliation": "Carnegie Mellon University",
-  "summary": "Causal discovery with latent variables is a fundamental task. Yet most existing methods rely on strong structural assumptions, such as enforcing specific indicator patterns for latents or restricting how they can interact with others.",
+  "affiliation": "",
+  "summary": "Skill Incremental Learning (SIL) is the process by which an embodied agent expands and refines its skill set over time by leveraging experience gained through interaction with its environment or by th",
   "links": {
-   "openreview": "https://openreview.net/forum?id=b8TlYh6PN6",
+   "openreview": "https://openreview.net/forum?id=xmYT1JqVpj",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-327",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Policy Compatible Skill Incremental Learning via Lazy Learning Interface",
-   "authors": [
-    "Daehee Lee",
-    "Dongsu Lee",
-    "TaeYoon Kwack",
-    "Wonje Choi",
-    "Honguk Woo"
-   ],
-   "affiliation": "",
-   "summary": "Skill Incremental Learning (SIL) is the process by which an embodied agent expands and refines its skill set over time by leveraging experience gained through interaction with its environment or by th",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=xmYT1JqVpj",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-102",
    "conference": "NeurIPS",
@@ -104,6 +84,27 @@
    "summary": "We propose *feature perturbation*, a simple yet effective exploration strategy for contextual bandits that injects randomness directly into feature inputs, instead of randomizing unknown parameters or",
    "links": {
     "openreview": "https://openreview.net/forum?id=gAddPMjmUc",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-88",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
+   "authors": [
+    "Danyal Rehman",
+    "Tara Akhound-Sadegh",
+    "Artem Gazizov",
+    "Yoshua Bengio",
+    "Alexander Tong"
+   ],
+   "affiliation": "Mila - Quebec Artificial Intelligence Institute",
+   "summary": "Few-step Flow Matching with Accurate Likelihoods for Scalable Boltzmann Generators",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=FbssShlI4N",
     "arxiv": "",
     "detail": ""
    }
