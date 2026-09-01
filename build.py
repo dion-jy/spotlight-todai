@@ -256,7 +256,17 @@ def row_html(p):
     )
 
 
-DAILY_AUTHORS_SHOWN = 4
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def pretty_date(iso):
+    """2026-09-01 -> "1 Sep 2026". Falls back to the raw string."""
+    try:
+        y, m, d = (int(x) for x in iso.split("-"))
+        return "%d %s %d" % (d, MONTHS[m - 1], y)
+    except (ValueError, IndexError):
+        return iso
 
 
 def daily_html(slugs):
@@ -268,6 +278,10 @@ def daily_html(slugs):
     feed the MCP server and the JSON API serve. A client-side fetch would only
     guard against a mismatch that the pipeline makes impossible, at the cost of
     hiding the day's paper from crawlers.
+
+    Four blocks: label row, title, summary, byline + actions. Everything
+    secondary (badges, date, authors, affiliation) is folded into one of those
+    rows rather than given a line of its own.
 
     Returns "" when api/daily.json is absent (a bare `python build.py` before
     build_api.py has ever run) so the build degrades instead of failing.
@@ -289,48 +303,42 @@ def daily_html(slugs):
     title = esc(p["title"])
     title_html = ('<a href="' + href + '">' + title + "</a>") if href else title
 
-    meta = badge(p["conference"], p["conference"]) + badge(p["track"], p["track"])
-    meta += "<span>" + esc(p.get("year", "")) + "</span>"
-    if p.get("affiliation"):
-        meta += '<span aria-hidden="true">·</span><span>' + esc(p["affiliation"]) + "</span>"
+    tags = badge(p["conference"], p["conference"]) + badge(p["track"], p["track"])
+    tags += ('<time datetime="' + esc(date) + '">' + esc(pretty_date(date)) + "</time>")
 
+    # One byline instead of separate author and affiliation lines.
     authors = p.get("authors") or []
-    shown = ", ".join(esc(a) for a in authors[:DAILY_AUTHORS_SHOWN])
-    if len(authors) > DAILY_AUTHORS_SHOWN:
-        shown += ' <span class="authors-meta">+%d more</span>' % (
-            len(authors) - DAILY_AUTHORS_SHOWN)
+    by = ""
+    if authors:
+        by = "<b>" + esc(authors[0]) + "</b>"
+        if len(authors) > 1:
+            by += " +%d" % (len(authors) - 1)
+    if p.get("affiliation"):
+        by += (" &middot; " if by else "") + esc(p["affiliation"])
 
     parts = [
         '\n<section class="daily" id="today">',
-        '  <div class="daily-head">',
+        '  <div class="daily-top">',
         '    <span class="daily-kicker">Paper of the day</span>',
-        '    <time datetime="' + esc(date) + '">' + esc(date) + " · KST</time>",
+        '    <span class="daily-tags">' + tags + "</span>",
         "  </div>",
         '  <h2 class="daily-title">' + title_html + "</h2>",
-        '  <div class="daily-meta">' + meta + "</div>",
     ]
-    if shown:
-        parts.append('  <p class="daily-authors">' + shown + "</p>")
     if p.get("summary"):
         parts.append('  <p class="daily-summary">' + esc(p["summary"]) + "</p>")
 
-    parts.append('  <div class="daily-actions">')
+    parts.append('  <div class="daily-foot">')
     if href:
-        parts.append('    <a class="daily-cta" href="' + href + '">Read the summary →</a>')
+        parts.append('    <a class="daily-cta" href="' + href + '">Read the summary &rarr;</a>')
     src = primary_link(p)
     if src:
         parts.append(
             '    <a class="daily-src" href="' + esc(src) + '" target="_blank"'
-            ' rel="noopener nofollow">OpenReview ↗</a>'
+            ' rel="noopener nofollow">OpenReview &#8599;</a>'
         )
+    if by:
+        parts.append('    <span class="daily-by">' + by + "</span>")
     parts.append("  </div>")
-    parts.append(
-        '  <p class="daily-foot">A new paper every day at 07:00 KST, picked by a'
-        " reproducible rotation over all %d papers ·"
-        ' <a href="#for-agents">read it from your own agent</a> ·'
-        ' <a href="api/daily.json">daily.json</a></p>'
-        % (daily.get("rotation", {}).get("cycle_length_days") or len(slugs))
-    )
     parts.append("</section>\n")
     return "\n".join(parts)
 
