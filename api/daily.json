@@ -1,56 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-09-02",
+ "date": "2026-09-03",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 244,
-  "position": 244,
+  "day_index": 245,
+  "position": 245,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-327",
+  "uid": "neurips-2025-spotlight-102",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Policy Compatible Skill Incremental Learning via Lazy Learning Interface",
+  "title": "On Universality Classes of Equivariant Networks",
   "authors": [
-   "Daehee Lee",
-   "Dongsu Lee",
-   "TaeYoon Kwack",
-   "Wonje Choi",
-   "Honguk Woo"
+   "Marco Pacini",
+   "Gabriele Santin",
+   "Bruno Lepri",
+   "Shubhendu Trivedi"
   ],
   "affiliation": "",
-  "summary": "Skill Incremental Learning (SIL) is the process by which an embodied agent expands and refines its skill set over time by leveraging experience gained through interaction with its environment or by th",
+  "summary": "Equivariant neural networks provide a principled framework for incorporating symmetry into learning architectures and have been extensively analyzed through the lens of their *separation power*, that",
   "links": {
-   "openreview": "https://openreview.net/forum?id=xmYT1JqVpj",
+   "openreview": "https://openreview.net/forum?id=V4YAS7NLXi",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-102",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "On Universality Classes of Equivariant Networks",
-   "authors": [
-    "Marco Pacini",
-    "Gabriele Santin",
-    "Bruno Lepri",
-    "Shubhendu Trivedi"
-   ],
-   "affiliation": "",
-   "summary": "Equivariant neural networks provide a principled framework for incorporating symmetry into learning architectures and have been extensively analyzed through the lens of their *separation power*, that",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=V4YAS7NLXi",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-254",
    "conference": "NeurIPS",
@@ -105,6 +84,25 @@
    "summary": "Few-step Flow Matching with Accurate Likelihoods for Scalable Boltzmann Generators",
    "links": {
     "openreview": "https://openreview.net/forum?id=FbssShlI4N",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-18",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Cross-Domain Lossy Compression via Rate- and Classification-Constrained Optimal Transport",
+   "authors": [
+    "Nam Nguyen",
+    "Thinh Nguyen",
+    "Bella Bose"
+   ],
+   "affiliation": "Oregon State University",
+   "summary": "We study cross-domain lossy compression via constrained optimal transport with rate and classification constraints, derive closed-form tradeoffs, extend to perception divergences, and validate with deep restoration and inpainting experiments.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=mUIGdUTtk2",
     "arxiv": "",
     "detail": ""
    }
