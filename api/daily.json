@@ -1,54 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-09-03",
+ "date": "2026-09-04",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 245,
-  "position": 245,
+  "day_index": 246,
+  "position": 246,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-102",
+  "uid": "neurips-2025-spotlight-254",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "On Universality Classes of Equivariant Networks",
+  "title": "CoT Information: Improved Sample Complexity under Chain-of-Thought Supervision",
   "authors": [
-   "Marco Pacini",
-   "Gabriele Santin",
-   "Bruno Lepri",
-   "Shubhendu Trivedi"
+   "Awni Altabaa",
+   "Omar Montasser",
+   "John Lafferty"
   ],
   "affiliation": "",
-  "summary": "Equivariant neural networks provide a principled framework for incorporating symmetry into learning architectures and have been extensively analyzed through the lens of their *separation power*, that",
+  "summary": "Learning complex functions that involve multi-step reasoning poses a significant challenge for standard supervised learning from input-output examples",
   "links": {
-   "openreview": "https://openreview.net/forum?id=V4YAS7NLXi",
+   "openreview": "https://openreview.net/forum?id=OkVQJZWGfn",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-254",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "CoT Information: Improved Sample Complexity under Chain-of-Thought Supervision",
-   "authors": [
-    "Awni Altabaa",
-    "Omar Montasser",
-    "John Lafferty"
-   ],
-   "affiliation": "",
-   "summary": "Learning complex functions that involve multi-step reasoning poses a significant challenge for standard supervised learning from input-output examples",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=OkVQJZWGfn",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-335",
    "conference": "NeurIPS",
@@ -103,6 +83,25 @@
    "summary": "We study cross-domain lossy compression via constrained optimal transport with rate and classification constraints, derive closed-form tradeoffs, extend to perception divergences, and validate with deep restoration and inpainting experiments.",
    "links": {
     "openreview": "https://openreview.net/forum?id=mUIGdUTtk2",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-402",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Online Strategic Classification With Noise and Partial Feedback",
+   "authors": [
+    "Tianrun Zhao",
+    "Xiaojie Mao",
+    "Yong Liang"
+   ],
+   "affiliation": "",
+   "summary": "In this paper, we study an online strategic classification problem, where a principal aims to learn an accurate binary linear classifier from sequentially arriving agents",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=Oo9KXaM6Mu",
     "arxiv": "",
     "detail": ""
    }
