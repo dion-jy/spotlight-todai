@@ -1,52 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-09-04",
+ "date": "2026-09-05",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 246,
-  "position": 246,
+  "day_index": 247,
+  "position": 247,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-254",
+  "uid": "neurips-2025-spotlight-335",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "CoT Information: Improved Sample Complexity under Chain-of-Thought Supervision",
+  "title": "Exploration via Feature Perturbation in Contextual Bandits",
   "authors": [
-   "Awni Altabaa",
-   "Omar Montasser",
-   "John Lafferty"
+   "Seouh-won Yi",
+   "Min-hwan Oh"
   ],
   "affiliation": "",
-  "summary": "Learning complex functions that involve multi-step reasoning poses a significant challenge for standard supervised learning from input-output examples",
+  "summary": "We propose *feature perturbation*, a simple yet effective exploration strategy for contextual bandits that injects randomness directly into feature inputs, instead of randomizing unknown parameters or",
   "links": {
-   "openreview": "https://openreview.net/forum?id=OkVQJZWGfn",
+   "openreview": "https://openreview.net/forum?id=gAddPMjmUc",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-335",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Exploration via Feature Perturbation in Contextual Bandits",
-   "authors": [
-    "Seouh-won Yi",
-    "Min-hwan Oh"
-   ],
-   "affiliation": "",
-   "summary": "We propose *feature perturbation*, a simple yet effective exploration strategy for contextual bandits that injects randomness directly into feature inputs, instead of randomizing unknown parameters or",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=gAddPMjmUc",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-88",
    "conference": "ICLR",
@@ -102,6 +83,24 @@
    "summary": "In this paper, we study an online strategic classification problem, where a principal aims to learn an accurate binary linear classifier from sequentially arriving agents",
    "links": {
     "openreview": "https://openreview.net/forum?id=Oo9KXaM6Mu",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-599",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Geometry Meets Incentives: Sample-Efficient Incentivized Exploration with Linear Contexts",
+   "authors": [
+    "Benjamin Schiffer",
+    "Mark Sellke"
+   ],
+   "affiliation": "",
+   "summary": "In the incentivized exploration model, a principal aims to explore and learn over time by interacting with a sequence of self-interested agents",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=nwlX15Wnr9",
     "arxiv": "",
     "detail": ""
    }
