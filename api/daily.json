@@ -1,54 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-09-05",
+ "date": "2026-09-06",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 247,
-  "position": 247,
+  "day_index": 248,
+  "position": 248,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-335",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Exploration via Feature Perturbation in Contextual Bandits",
+  "uid": "iclr-2026-oral-88",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
   "authors": [
-   "Seouh-won Yi",
-   "Min-hwan Oh"
+   "Danyal Rehman",
+   "Tara Akhound-Sadegh",
+   "Artem Gazizov",
+   "Yoshua Bengio",
+   "Alexander Tong"
   ],
-  "affiliation": "",
-  "summary": "We propose *feature perturbation*, a simple yet effective exploration strategy for contextual bandits that injects randomness directly into feature inputs, instead of randomizing unknown parameters or",
+  "affiliation": "Mila - Quebec Artificial Intelligence Institute",
+  "summary": "Few-step Flow Matching with Accurate Likelihoods for Scalable Boltzmann Generators",
   "links": {
-   "openreview": "https://openreview.net/forum?id=gAddPMjmUc",
+   "openreview": "https://openreview.net/forum?id=FbssShlI4N",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-88",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "FALCON: Few-step Accurate Likelihoods for Continuous Flows",
-   "authors": [
-    "Danyal Rehman",
-    "Tara Akhound-Sadegh",
-    "Artem Gazizov",
-    "Yoshua Bengio",
-    "Alexander Tong"
-   ],
-   "affiliation": "Mila - Quebec Artificial Intelligence Institute",
-   "summary": "Few-step Flow Matching with Accurate Likelihoods for Scalable Boltzmann Generators",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=FbssShlI4N",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-18",
    "conference": "ICLR",
@@ -101,6 +83,25 @@
    "summary": "In the incentivized exploration model, a principal aims to explore and learn over time by interacting with a sequence of self-interested agents",
    "links": {
     "openreview": "https://openreview.net/forum?id=nwlX15Wnr9",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-441",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "CoLT: The conditional localization test for assessing the accuracy of neural posterior estimates",
+   "authors": [
+    "Tianyu Chen",
+    "Vansh Bansal",
+    "James G. Scott"
+   ],
+   "affiliation": "",
+   "summary": "We consider the problem of validating whether a neural posterior estimate $q(\\theta \\mid x)$ is an accurate approximation to the true, unknown true posterior $p(\\theta \\mid x)$",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=761hggw1Wx",
     "arxiv": "",
     "detail": ""
    }
