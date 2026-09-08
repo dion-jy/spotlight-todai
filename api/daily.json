@@ -1,52 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-09-08",
+ "date": "2026-09-09",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 250,
-  "position": 250,
+  "day_index": 251,
+  "position": 251,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-402",
+  "uid": "neurips-2025-spotlight-599",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Online Strategic Classification With Noise and Partial Feedback",
+  "title": "Geometry Meets Incentives: Sample-Efficient Incentivized Exploration with Linear Contexts",
   "authors": [
-   "Tianrun Zhao",
-   "Xiaojie Mao",
-   "Yong Liang"
+   "Benjamin Schiffer",
+   "Mark Sellke"
   ],
   "affiliation": "",
-  "summary": "In this paper, we study an online strategic classification problem, where a principal aims to learn an accurate binary linear classifier from sequentially arriving agents",
+  "summary": "In the incentivized exploration model, a principal aims to explore and learn over time by interacting with a sequence of self-interested agents",
   "links": {
-   "openreview": "https://openreview.net/forum?id=Oo9KXaM6Mu",
+   "openreview": "https://openreview.net/forum?id=nwlX15Wnr9",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-599",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Geometry Meets Incentives: Sample-Efficient Incentivized Exploration with Linear Contexts",
-   "authors": [
-    "Benjamin Schiffer",
-    "Mark Sellke"
-   ],
-   "affiliation": "",
-   "summary": "In the incentivized exploration model, a principal aims to explore and learn over time by interacting with a sequence of self-interested agents",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=nwlX15Wnr9",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-441",
    "conference": "NeurIPS",
@@ -107,6 +88,24 @@
     "openreview": "https://openreview.net/forum?id=24UJqxw1kv",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-26",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Revenue Efficiency of Correlated Equilibria in First Price Auctions",
+   "authors": [
+    "Anders Bo Ipsen",
+    "Stratis Skoulakis"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71054"
    }
   }
  ]
