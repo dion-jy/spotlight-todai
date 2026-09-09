@@ -1,52 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-09-09",
+ "date": "2026-09-10",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 251,
-  "position": 251,
+  "day_index": 252,
+  "position": 252,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-599",
+  "uid": "neurips-2025-spotlight-441",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Geometry Meets Incentives: Sample-Efficient Incentivized Exploration with Linear Contexts",
+  "title": "CoLT: The conditional localization test for assessing the accuracy of neural posterior estimates",
   "authors": [
-   "Benjamin Schiffer",
-   "Mark Sellke"
+   "Tianyu Chen",
+   "Vansh Bansal",
+   "James G. Scott"
   ],
   "affiliation": "",
-  "summary": "In the incentivized exploration model, a principal aims to explore and learn over time by interacting with a sequence of self-interested agents",
+  "summary": "We consider the problem of validating whether a neural posterior estimate $q(\\theta \\mid x)$ is an accurate approximation to the true, unknown true posterior $p(\\theta \\mid x)$",
   "links": {
-   "openreview": "https://openreview.net/forum?id=nwlX15Wnr9",
+   "openreview": "https://openreview.net/forum?id=761hggw1Wx",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-441",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "CoLT: The conditional localization test for assessing the accuracy of neural posterior estimates",
-   "authors": [
-    "Tianyu Chen",
-    "Vansh Bansal",
-    "James G. Scott"
-   ],
-   "affiliation": "",
-   "summary": "We consider the problem of validating whether a neural posterior estimate $q(\\theta \\mid x)$ is an accurate approximation to the true, unknown true posterior $p(\\theta \\mid x)$",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=761hggw1Wx",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-610",
    "conference": "NeurIPS",
@@ -106,6 +88,26 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71054"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-543",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "AdaSPEC: Selective Knowledge Distillation for Efficient Speculative Decoders",
+   "authors": [
+    "Yuezhou Hu",
+    "Jiaxin Guo",
+    "Xinyu Feng",
+    "Tuo Zhao"
+   ],
+   "affiliation": "",
+   "summary": "Speculative Decoding (SD) accelerates large language model inference by employing a small draft model to generate predictions, which are then verified by a larger target model",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=zNLlglSOwD",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
