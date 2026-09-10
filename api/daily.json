@@ -1,57 +1,38 @@
 {
  "schema_version": 1,
- "date": "2026-09-10",
+ "date": "2026-09-11",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 252,
-  "position": 252,
+  "day_index": 253,
+  "position": 253,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-441",
+  "uid": "neurips-2025-spotlight-610",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "CoLT: The conditional localization test for assessing the accuracy of neural posterior estimates",
+  "title": "Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning",
   "authors": [
-   "Tianyu Chen",
-   "Vansh Bansal",
-   "James G. Scott"
+   "Jiaru Zou",
+   "Yikun Ban",
+   "Zihao Li",
+   "Yunzhe Qi",
+   "Ruizhong Qiu",
+   "Ling Yang",
+   "Jingrui He"
   ],
   "affiliation": "",
-  "summary": "We consider the problem of validating whether a neural posterior estimate $q(\\theta \\mid x)$ is an accurate approximation to the true, unknown true posterior $p(\\theta \\mid x)$",
+  "summary": "Large language models are typically adapted to downstream tasks through supervised fine-tuning on domain-specific data",
   "links": {
-   "openreview": "https://openreview.net/forum?id=761hggw1Wx",
+   "openreview": "https://openreview.net/forum?id=MRvxlTlkNQ",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-610",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning",
-   "authors": [
-    "Jiaru Zou",
-    "Yikun Ban",
-    "Zihao Li",
-    "Yunzhe Qi",
-    "Ruizhong Qiu",
-    "Ling Yang",
-    "Jingrui He"
-   ],
-   "affiliation": "",
-   "summary": "Large language models are typically adapted to downstream tasks through supervised fine-tuning on domain-specific data",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=MRvxlTlkNQ",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-114",
    "conference": "NeurIPS",
@@ -106,6 +87,26 @@
    "summary": "Speculative Decoding (SD) accelerates large language model inference by employing a small draft model to generate predictions, which are then verified by a larger target model",
    "links": {
     "openreview": "https://openreview.net/forum?id=zNLlglSOwD",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-689",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization",
+   "authors": [
+    "Chris Kolb",
+    "Laetitia Frost",
+    "Bernd Bischl",
+    "David Rügamer"
+   ],
+   "affiliation": "",
+   "summary": "Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=8OGTkEJrmb",
     "arxiv": "",
     "detail": ""
    }
