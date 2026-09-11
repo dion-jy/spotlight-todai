@@ -1,58 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-09-11",
+ "date": "2026-09-12",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 253,
-  "position": 253,
+  "day_index": 254,
+  "position": 254,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-610",
+  "uid": "neurips-2025-spotlight-114",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning",
+  "title": "Forecasting in Offline Reinforcement Learning for Non-stationary Environments",
   "authors": [
-   "Jiaru Zou",
-   "Yikun Ban",
-   "Zihao Li",
-   "Yunzhe Qi",
-   "Ruizhong Qiu",
-   "Ling Yang",
-   "Jingrui He"
+   "Suzan Ece Ada",
+   "Georg Martius",
+   "Emre Ugur",
+   "Erhan Oztop"
   ],
   "affiliation": "",
-  "summary": "Large language models are typically adapted to downstream tasks through supervised fine-tuning on domain-specific data",
+  "summary": "Offline Reinforcement Learning (RL) provides a promising avenue for training policies from pre-collected datasets when gathering additional interaction data is infeasible",
   "links": {
-   "openreview": "https://openreview.net/forum?id=MRvxlTlkNQ",
+   "openreview": "https://openreview.net/forum?id=24UJqxw1kv",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-114",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Forecasting in Offline Reinforcement Learning for Non-stationary Environments",
-   "authors": [
-    "Suzan Ece Ada",
-    "Georg Martius",
-    "Emre Ugur",
-    "Erhan Oztop"
-   ],
-   "affiliation": "",
-   "summary": "Offline Reinforcement Learning (RL) provides a promising avenue for training policies from pre-collected datasets when gathering additional interaction data is infeasible",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=24UJqxw1kv",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-26",
    "conference": "ICML",
@@ -107,6 +84,23 @@
    "summary": "Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit",
    "links": {
     "openreview": "https://openreview.net/forum?id=8OGTkEJrmb",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-47",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Blameless Users in a Clean Room: Defining Copyright Protection for Generative Models",
+   "authors": [
+    "Aloni Cohen"
+   ],
+   "affiliation": "",
+   "summary": "Are there any conditions under which a generative model’s outputs are guaranteed not to infringe the copyrights of its training data? This is the question of \"provable copyright protection\" first pose",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=V8SndhCN0z",
     "arxiv": "",
     "detail": ""
    }
