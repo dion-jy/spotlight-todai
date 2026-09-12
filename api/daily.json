@@ -1,53 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-09-12",
+ "date": "2026-09-13",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 254,
-  "position": 254,
+  "day_index": 255,
+  "position": 255,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-114",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Forecasting in Offline Reinforcement Learning for Non-stationary Environments",
+  "uid": "icml-2026-oral-26",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Revenue Efficiency of Correlated Equilibria in First Price Auctions",
   "authors": [
-   "Suzan Ece Ada",
-   "Georg Martius",
-   "Emre Ugur",
-   "Erhan Oztop"
+   "Anders Bo Ipsen",
+   "Stratis Skoulakis"
   ],
   "affiliation": "",
-  "summary": "Offline Reinforcement Learning (RL) provides a promising avenue for training policies from pre-collected datasets when gathering additional interaction data is infeasible",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=24UJqxw1kv",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71054"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-26",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Revenue Efficiency of Correlated Equilibria in First Price Auctions",
-   "authors": [
-    "Anders Bo Ipsen",
-    "Stratis Skoulakis"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71054"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-543",
    "conference": "NeurIPS",
@@ -101,6 +81,26 @@
    "summary": "Are there any conditions under which a generative model’s outputs are guaranteed not to infringe the copyrights of its training data? This is the question of \"provable copyright protection\" first pose",
    "links": {
     "openreview": "https://openreview.net/forum?id=V8SndhCN0z",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-7",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "Optimal Mistake Bounds for Transductive Online Learning",
+   "authors": [
+    "Zachary Chase",
+    "Steve Hanneke",
+    "Shay Moran",
+    "Jonathan Shafer"
+   ],
+   "affiliation": "University of California, San Diego",
+   "summary": "We resolve a 30-year-old open problem concerning the power of unlabeled data in online learning by tightly quantifying the gap between transductive and standard online learning. We prove that for every concept class $\\mathcal{H}$ with Littlestone dimension $d$, the transductive mistake bound is at least $\\Omega(\\sqrt{d})$.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=EoebmBe9fG",
     "arxiv": "",
     "detail": ""
    }
