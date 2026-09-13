@@ -1,53 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-09-13",
+ "date": "2026-09-14",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 255,
-  "position": 255,
+  "day_index": 256,
+  "position": 256,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-26",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Revenue Efficiency of Correlated Equilibria in First Price Auctions",
+  "uid": "neurips-2025-spotlight-543",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "AdaSPEC: Selective Knowledge Distillation for Efficient Speculative Decoders",
   "authors": [
-   "Anders Bo Ipsen",
-   "Stratis Skoulakis"
+   "Yuezhou Hu",
+   "Jiaxin Guo",
+   "Xinyu Feng",
+   "Tuo Zhao"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "Speculative Decoding (SD) accelerates large language model inference by employing a small draft model to generate predictions, which are then verified by a larger target model",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=zNLlglSOwD",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71054"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-543",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "AdaSPEC: Selective Knowledge Distillation for Efficient Speculative Decoders",
-   "authors": [
-    "Yuezhou Hu",
-    "Jiaxin Guo",
-    "Xinyu Feng",
-    "Tuo Zhao"
-   ],
-   "affiliation": "",
-   "summary": "Speculative Decoding (SD) accelerates large language model inference by employing a small draft model to generate predictions, which are then verified by a larger target model",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=zNLlglSOwD",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-689",
    "conference": "NeurIPS",
@@ -101,6 +83,26 @@
    "summary": "We resolve a 30-year-old open problem concerning the power of unlabeled data in online learning by tightly quantifying the gap between transductive and standard online learning. We prove that for every concept class $\\mathcal{H}$ with Littlestone dimension $d$, the transductive mistake bound is at least $\\Omega(\\sqrt{d})$.",
    "links": {
     "openreview": "https://openreview.net/forum?id=EoebmBe9fG",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-424",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Option-aware Temporally Abstracted Value for Offline Goal-Conditioned Reinforcement Learning",
+   "authors": [
+    "Hongjoon Ahn",
+    "Heewoong Choi",
+    "Jisu Han",
+    "Taesup Moon"
+   ],
+   "affiliation": "",
+   "summary": "Offline goal-conditioned reinforcement learning (GCRL) offers a practical learning paradigm in which goal-reaching policies are trained from abundant state–action trajectory datasets without additiona",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=gfXBNBKx02",
     "arxiv": "",
     "detail": ""
    }
