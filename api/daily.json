@@ -1,55 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-09-14",
+ "date": "2026-09-15",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 256,
-  "position": 256,
+  "day_index": 257,
+  "position": 257,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-543",
+  "uid": "neurips-2025-spotlight-689",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "AdaSPEC: Selective Knowledge Distillation for Efficient Speculative Decoders",
+  "title": "Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization",
   "authors": [
-   "Yuezhou Hu",
-   "Jiaxin Guo",
-   "Xinyu Feng",
-   "Tuo Zhao"
+   "Chris Kolb",
+   "Laetitia Frost",
+   "Bernd Bischl",
+   "David Rügamer"
   ],
   "affiliation": "",
-  "summary": "Speculative Decoding (SD) accelerates large language model inference by employing a small draft model to generate predictions, which are then verified by a larger target model",
+  "summary": "Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit",
   "links": {
-   "openreview": "https://openreview.net/forum?id=zNLlglSOwD",
+   "openreview": "https://openreview.net/forum?id=8OGTkEJrmb",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-689",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization",
-   "authors": [
-    "Chris Kolb",
-    "Laetitia Frost",
-    "Bernd Bischl",
-    "David Rügamer"
-   ],
-   "affiliation": "",
-   "summary": "Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=8OGTkEJrmb",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-47",
    "conference": "NeurIPS",
@@ -105,6 +85,29 @@
     "openreview": "https://openreview.net/forum?id=gfXBNBKx02",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-5",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination",
+   "authors": [
+    "Chufan Shi",
+    "Cheng Yang",
+    "Yaokang Wu",
+    "Linghao Jin",
+    "Bo Shui",
+    "Taylor Berg-Kirkpatrick",
+    "Xuezhe Ma"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71047"
    }
   }
  ]
