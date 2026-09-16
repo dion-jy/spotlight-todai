@@ -1,52 +1,32 @@
 {
  "schema_version": 1,
- "date": "2026-09-15",
+ "date": "2026-09-16",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 257,
-  "position": 257,
+  "day_index": 258,
+  "position": 258,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-689",
+  "uid": "neurips-2025-spotlight-47",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Differentiable Sparsity via $D$-Gating: Simple and Versatile Structured Penalization",
+  "title": "Blameless Users in a Clean Room: Defining Copyright Protection for Generative Models",
   "authors": [
-   "Chris Kolb",
-   "Laetitia Frost",
-   "Bernd Bischl",
-   "David Rügamer"
+   "Aloni Cohen"
   ],
   "affiliation": "",
-  "summary": "Structured sparsity regularization offers a principled way to compact neural networks, but its non-differentiability breaks compatibility with conventional stochastic gradient descent and requires eit",
+  "summary": "Are there any conditions under which a generative model’s outputs are guaranteed not to infringe the copyrights of its training data? This is the question of \"provable copyright protection\" first pose",
   "links": {
-   "openreview": "https://openreview.net/forum?id=8OGTkEJrmb",
+   "openreview": "https://openreview.net/forum?id=V8SndhCN0z",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-47",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Blameless Users in a Clean Room: Defining Copyright Protection for Generative Models",
-   "authors": [
-    "Aloni Cohen"
-   ],
-   "affiliation": "",
-   "summary": "Are there any conditions under which a generative model’s outputs are guaranteed not to infringe the copyrights of its training data? This is the question of \"provable copyright protection\" first pose",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=V8SndhCN0z",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-7",
    "conference": "NeurIPS",
@@ -108,6 +88,24 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71047"
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-19",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Latent Fourier Transform",
+   "authors": [
+    "Mason Long Wang",
+    "Cheng-Zhi Anna Huang"
+   ],
+   "affiliation": "Massachusetts Institute of Technology",
+   "summary": "We introduce novel frequency-domain controls for generative music models by applying the Fourier transform to the latent space of a diffusion autoencoder.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=ogMxCjdCCq",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
