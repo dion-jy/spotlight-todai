@@ -1,55 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-09-17",
+ "date": "2026-09-18",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 259,
-  "position": 259,
+  "day_index": 260,
+  "position": 260,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-7",
+  "uid": "neurips-2025-spotlight-424",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Oral",
-  "title": "Optimal Mistake Bounds for Transductive Online Learning",
+  "track": "Spotlight",
+  "title": "Option-aware Temporally Abstracted Value for Offline Goal-Conditioned Reinforcement Learning",
   "authors": [
-   "Zachary Chase",
-   "Steve Hanneke",
-   "Shay Moran",
-   "Jonathan Shafer"
+   "Hongjoon Ahn",
+   "Heewoong Choi",
+   "Jisu Han",
+   "Taesup Moon"
   ],
-  "affiliation": "University of California, San Diego",
-  "summary": "We resolve a 30-year-old open problem concerning the power of unlabeled data in online learning by tightly quantifying the gap between transductive and standard online learning. We prove that for every concept class $\\mathcal{H}$ with Littlestone dimension $d$, the transductive mistake bound is at least $\\Omega(\\sqrt{d})$.",
+  "affiliation": "",
+  "summary": "Offline goal-conditioned reinforcement learning (GCRL) offers a practical learning paradigm in which goal-reaching policies are trained from abundant state–action trajectory datasets without additiona",
   "links": {
-   "openreview": "https://openreview.net/forum?id=EoebmBe9fG",
+   "openreview": "https://openreview.net/forum?id=gfXBNBKx02",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-424",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Option-aware Temporally Abstracted Value for Offline Goal-Conditioned Reinforcement Learning",
-   "authors": [
-    "Hongjoon Ahn",
-    "Heewoong Choi",
-    "Jisu Han",
-    "Taesup Moon"
-   ],
-   "affiliation": "",
-   "summary": "Offline goal-conditioned reinforcement learning (GCRL) offers a practical learning paradigm in which goal-reaching policies are trained from abundant state–action trajectory datasets without additiona",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=gfXBNBKx02",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-5",
    "conference": "ICML",
@@ -107,6 +87,27 @@
    "summary": "Given i",
    "links": {
     "openreview": "https://openreview.net/forum?id=idjZKbf78s",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-247",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Enhancing Training Data Attribution with Representational Optimization",
+   "authors": [
+    "Weiwei Sun",
+    "Haokun Liu",
+    "Nikhil Kandpal",
+    "Colin Raffel",
+    "Yiming Yang"
+   ],
+   "affiliation": "",
+   "summary": "Training data attribution (TDA) methods aim to measure how training data impacts a model's predictions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=ESB924uT5Y",
     "arxiv": "",
     "detail": ""
    }
