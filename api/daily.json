@@ -1,52 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-09-16",
+ "date": "2026-09-17",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 258,
-  "position": 258,
+  "day_index": 259,
+  "position": 259,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-47",
+  "uid": "neurips-2025-oral-7",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Spotlight",
-  "title": "Blameless Users in a Clean Room: Defining Copyright Protection for Generative Models",
+  "track": "Oral",
+  "title": "Optimal Mistake Bounds for Transductive Online Learning",
   "authors": [
-   "Aloni Cohen"
+   "Zachary Chase",
+   "Steve Hanneke",
+   "Shay Moran",
+   "Jonathan Shafer"
   ],
-  "affiliation": "",
-  "summary": "Are there any conditions under which a generative model’s outputs are guaranteed not to infringe the copyrights of its training data? This is the question of \"provable copyright protection\" first pose",
+  "affiliation": "University of California, San Diego",
+  "summary": "We resolve a 30-year-old open problem concerning the power of unlabeled data in online learning by tightly quantifying the gap between transductive and standard online learning. We prove that for every concept class $\\mathcal{H}$ with Littlestone dimension $d$, the transductive mistake bound is at least $\\Omega(\\sqrt{d})$.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=V8SndhCN0z",
+   "openreview": "https://openreview.net/forum?id=EoebmBe9fG",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-7",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "Optimal Mistake Bounds for Transductive Online Learning",
-   "authors": [
-    "Zachary Chase",
-    "Steve Hanneke",
-    "Shay Moran",
-    "Jonathan Shafer"
-   ],
-   "affiliation": "University of California, San Diego",
-   "summary": "We resolve a 30-year-old open problem concerning the power of unlabeled data in online learning by tightly quantifying the gap between transductive and standard online learning. We prove that for every concept class $\\mathcal{H}$ with Littlestone dimension $d$, the transductive mistake bound is at least $\\Omega(\\sqrt{d})$.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=EoebmBe9fG",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-424",
    "conference": "NeurIPS",
@@ -104,6 +87,26 @@
    "summary": "We introduce novel frequency-domain controls for generative music models by applying the Fourier transform to the latent space of a diffusion autoencoder.",
    "links": {
     "openreview": "https://openreview.net/forum?id=ogMxCjdCCq",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-179",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Product Distribution Learning with Imperfect Advice",
+   "authors": [
+    "Arnab Bhattacharyya",
+    "Davin Choo",
+    "Philips George John",
+    "Themis Gouleakis"
+   ],
+   "affiliation": "",
+   "summary": "Given i",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=idjZKbf78s",
     "arxiv": "",
     "detail": ""
    }
