@@ -1,58 +1,38 @@
 {
  "schema_version": 1,
- "date": "2026-09-18",
+ "date": "2026-09-19",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 260,
-  "position": 260,
+  "day_index": 261,
+  "position": 261,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-424",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Option-aware Temporally Abstracted Value for Offline Goal-Conditioned Reinforcement Learning",
+  "uid": "icml-2026-oral-5",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination",
   "authors": [
-   "Hongjoon Ahn",
-   "Heewoong Choi",
-   "Jisu Han",
-   "Taesup Moon"
+   "Chufan Shi",
+   "Cheng Yang",
+   "Yaokang Wu",
+   "Linghao Jin",
+   "Bo Shui",
+   "Taylor Berg-Kirkpatrick",
+   "Xuezhe Ma"
   ],
   "affiliation": "",
-  "summary": "Offline goal-conditioned reinforcement learning (GCRL) offers a practical learning paradigm in which goal-reaching policies are trained from abundant state–action trajectory datasets without additiona",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=gfXBNBKx02",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71047"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-5",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination",
-   "authors": [
-    "Chufan Shi",
-    "Cheng Yang",
-    "Yaokang Wu",
-    "Linghao Jin",
-    "Bo Shui",
-    "Taylor Berg-Kirkpatrick",
-    "Xuezhe Ma"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71047"
-   }
-  },
   {
    "uid": "iclr-2026-oral-19",
    "conference": "ICLR",
@@ -108,6 +88,27 @@
    "summary": "Training data attribution (TDA) methods aim to measure how training data impacts a model's predictions",
    "links": {
     "openreview": "https://openreview.net/forum?id=ESB924uT5Y",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-25",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions",
+   "authors": [
+    "Zhaoxian Wu",
+    "Quan Xiao",
+    "Tayfun Gokmen",
+    "Omobayode Fagbohungbe",
+    "Tianyi Chen"
+   ],
+   "affiliation": "Cornell University",
+   "summary": "Leveraging a residual learning framework to support the model training on non-ideal analog in-memory computing hardware",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=WhEPg4mUs6",
     "arxiv": "",
     "detail": ""
    }
