@@ -1,56 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-09-19",
+ "date": "2026-09-20",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 261,
-  "position": 261,
+  "day_index": 262,
+  "position": 262,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-5",
-  "conference": "ICML",
+  "uid": "iclr-2026-oral-19",
+  "conference": "ICLR",
   "year": 2026,
   "track": "Oral",
-  "title": "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination",
+  "title": "Latent Fourier Transform",
   "authors": [
-   "Chufan Shi",
-   "Cheng Yang",
-   "Yaokang Wu",
-   "Linghao Jin",
-   "Bo Shui",
-   "Taylor Berg-Kirkpatrick",
-   "Xuezhe Ma"
+   "Mason Long Wang",
+   "Cheng-Zhi Anna Huang"
   ],
-  "affiliation": "",
-  "summary": "",
+  "affiliation": "Massachusetts Institute of Technology",
+  "summary": "We introduce novel frequency-domain controls for generative music models by applying the Fourier transform to the latent space of a diffusion autoencoder.",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=ogMxCjdCCq",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71047"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-19",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Latent Fourier Transform",
-   "authors": [
-    "Mason Long Wang",
-    "Cheng-Zhi Anna Huang"
-   ],
-   "affiliation": "Massachusetts Institute of Technology",
-   "summary": "We introduce novel frequency-domain controls for generative music models by applying the Fourier transform to the latent space of a diffusion autoencoder.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=ogMxCjdCCq",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-179",
    "conference": "NeurIPS",
@@ -109,6 +86,28 @@
    "summary": "Leveraging a residual learning framework to support the model training on non-ideal analog in-memory computing hardware",
    "links": {
     "openreview": "https://openreview.net/forum?id=WhEPg4mUs6",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-56",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "On the Hardness of Conditional Independence Testing In Practice",
+   "authors": [
+    "Zheng He",
+    "Roman Pogodin",
+    "Yazhe Li",
+    "Namrata Deka",
+    "Arthur Gretton",
+    "Danica J. Sutherland"
+   ],
+   "affiliation": "",
+   "summary": "Tests of conditional independence (CI) underpin a number of important problems in machine learning and statistics, from causal discovery to evaluation of predictor fairness and out-of-distribution rob",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=Tn1M71PDfF",
     "arxiv": "",
     "detail": ""
    }
