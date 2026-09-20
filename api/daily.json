@@ -1,53 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-09-20",
+ "date": "2026-09-21",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 262,
-  "position": 262,
+  "day_index": 263,
+  "position": 263,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-19",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Latent Fourier Transform",
+  "uid": "neurips-2025-spotlight-179",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Product Distribution Learning with Imperfect Advice",
   "authors": [
-   "Mason Long Wang",
-   "Cheng-Zhi Anna Huang"
+   "Arnab Bhattacharyya",
+   "Davin Choo",
+   "Philips George John",
+   "Themis Gouleakis"
   ],
-  "affiliation": "Massachusetts Institute of Technology",
-  "summary": "We introduce novel frequency-domain controls for generative music models by applying the Fourier transform to the latent space of a diffusion autoencoder.",
+  "affiliation": "",
+  "summary": "Given i",
   "links": {
-   "openreview": "https://openreview.net/forum?id=ogMxCjdCCq",
+   "openreview": "https://openreview.net/forum?id=idjZKbf78s",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-179",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Product Distribution Learning with Imperfect Advice",
-   "authors": [
-    "Arnab Bhattacharyya",
-    "Davin Choo",
-    "Philips George John",
-    "Themis Gouleakis"
-   ],
-   "affiliation": "",
-   "summary": "Given i",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=idjZKbf78s",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-247",
    "conference": "NeurIPS",
@@ -109,6 +91,30 @@
    "links": {
     "openreview": "https://openreview.net/forum?id=Tn1M71PDfF",
     "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-62",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+   "authors": [
+    "Yang Yue",
+    "Zhiqi Chen",
+    "Rui Lu",
+    "Andrew Zhao",
+    "Zhaokai Wang",
+    "Yang Yue",
+    "Shiji Song",
+    "Gao Huang"
+   ],
+   "affiliation": "",
+   "summary": "We systematically examine the current state of RLVR and surprisingly find that it does not elicit fundamentally new reasoning patterns—revealing a gap between the potential of RL and the actual impact of current RLVR methods.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=4OsgYD7em5",
+    "arxiv": "https://arxiv.org/abs/2504.13837",
     "detail": ""
    }
   }
