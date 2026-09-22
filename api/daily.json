@@ -1,56 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-09-21",
+ "date": "2026-09-22",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 263,
-  "position": 263,
+  "day_index": 264,
+  "position": 264,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-179",
+  "uid": "neurips-2025-spotlight-247",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Product Distribution Learning with Imperfect Advice",
+  "title": "Enhancing Training Data Attribution with Representational Optimization",
   "authors": [
-   "Arnab Bhattacharyya",
-   "Davin Choo",
-   "Philips George John",
-   "Themis Gouleakis"
+   "Weiwei Sun",
+   "Haokun Liu",
+   "Nikhil Kandpal",
+   "Colin Raffel",
+   "Yiming Yang"
   ],
   "affiliation": "",
-  "summary": "Given i",
+  "summary": "Training data attribution (TDA) methods aim to measure how training data impacts a model's predictions",
   "links": {
-   "openreview": "https://openreview.net/forum?id=idjZKbf78s",
+   "openreview": "https://openreview.net/forum?id=ESB924uT5Y",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-247",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Enhancing Training Data Attribution with Representational Optimization",
-   "authors": [
-    "Weiwei Sun",
-    "Haokun Liu",
-    "Nikhil Kandpal",
-    "Colin Raffel",
-    "Yiming Yang"
-   ],
-   "affiliation": "",
-   "summary": "Training data attribution (TDA) methods aim to measure how training data impacts a model's predictions",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=ESB924uT5Y",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-25",
    "conference": "NeurIPS",
@@ -116,6 +96,23 @@
     "openreview": "https://openreview.net/forum?id=4OsgYD7em5",
     "arxiv": "https://arxiv.org/abs/2504.13837",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-42",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Foundations of Equivariant Deep Learning: Unifying Graph and Sheaf Neural Networks",
+   "authors": [
+    "Yoshihiro Maruyama"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71080"
    }
   }
  ]
