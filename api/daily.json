@@ -1,57 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-09-22",
+ "date": "2026-09-23",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 264,
-  "position": 264,
+  "day_index": 265,
+  "position": 265,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-247",
+  "uid": "neurips-2025-oral-25",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Spotlight",
-  "title": "Enhancing Training Data Attribution with Representational Optimization",
+  "track": "Oral",
+  "title": "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions",
   "authors": [
-   "Weiwei Sun",
-   "Haokun Liu",
-   "Nikhil Kandpal",
-   "Colin Raffel",
-   "Yiming Yang"
+   "Zhaoxian Wu",
+   "Quan Xiao",
+   "Tayfun Gokmen",
+   "Omobayode Fagbohungbe",
+   "Tianyi Chen"
   ],
-  "affiliation": "",
-  "summary": "Training data attribution (TDA) methods aim to measure how training data impacts a model's predictions",
+  "affiliation": "Cornell University",
+  "summary": "Leveraging a residual learning framework to support the model training on non-ideal analog in-memory computing hardware",
   "links": {
-   "openreview": "https://openreview.net/forum?id=ESB924uT5Y",
+   "openreview": "https://openreview.net/forum?id=WhEPg4mUs6",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-25",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions",
-   "authors": [
-    "Zhaoxian Wu",
-    "Quan Xiao",
-    "Tayfun Gokmen",
-    "Omobayode Fagbohungbe",
-    "Tianyi Chen"
-   ],
-   "affiliation": "Cornell University",
-   "summary": "Leveraging a residual learning framework to support the model training on non-ideal analog in-memory computing hardware",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=WhEPg4mUs6",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-56",
    "conference": "NeurIPS",
@@ -113,6 +92,25 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71080"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-487",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models",
+   "authors": [
+    "Shristi Das Biswas",
+    "Arani Roy",
+    "Kaushik Roy"
+   ],
+   "affiliation": "",
+   "summary": "As Text-to-Image models continue to evolve, so does the risk of generating unsafe, copyrighted, or privacy-violating content",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=zprMrpiLgT",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
