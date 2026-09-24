@@ -1,58 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-09-23",
+ "date": "2026-09-24",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 265,
-  "position": 265,
+  "day_index": 266,
+  "position": 266,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-25",
+  "uid": "neurips-2025-spotlight-56",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Oral",
-  "title": "Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions",
+  "track": "Spotlight",
+  "title": "On the Hardness of Conditional Independence Testing In Practice",
   "authors": [
-   "Zhaoxian Wu",
-   "Quan Xiao",
-   "Tayfun Gokmen",
-   "Omobayode Fagbohungbe",
-   "Tianyi Chen"
+   "Zheng He",
+   "Roman Pogodin",
+   "Yazhe Li",
+   "Namrata Deka",
+   "Arthur Gretton",
+   "Danica J. Sutherland"
   ],
-  "affiliation": "Cornell University",
-  "summary": "Leveraging a residual learning framework to support the model training on non-ideal analog in-memory computing hardware",
+  "affiliation": "",
+  "summary": "Tests of conditional independence (CI) underpin a number of important problems in machine learning and statistics, from causal discovery to evaluation of predictor fairness and out-of-distribution rob",
   "links": {
-   "openreview": "https://openreview.net/forum?id=WhEPg4mUs6",
+   "openreview": "https://openreview.net/forum?id=Tn1M71PDfF",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-56",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "On the Hardness of Conditional Independence Testing In Practice",
-   "authors": [
-    "Zheng He",
-    "Roman Pogodin",
-    "Yazhe Li",
-    "Namrata Deka",
-    "Arthur Gretton",
-    "Danica J. Sutherland"
-   ],
-   "affiliation": "",
-   "summary": "Tests of conditional independence (CI) underpin a number of important problems in machine learning and statistics, from causal discovery to evaluation of predictor fairness and out-of-distribution rob",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=Tn1M71PDfF",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-62",
    "conference": "NeurIPS",
@@ -111,6 +90,25 @@
     "openreview": "https://openreview.net/forum?id=zprMrpiLgT",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-110",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Skip a Layer or Loop It? Learning Program-of-Layers in LLMs",
+   "authors": [
+    "Ziyue Li",
+    "Yang Li",
+    "Tianyi Zhou"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71114"
    }
   }
  ]
