@@ -1,61 +1,39 @@
 {
  "schema_version": 1,
- "date": "2026-09-24",
+ "date": "2026-09-25",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 266,
-  "position": 266,
+  "day_index": 267,
+  "position": 267,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-56",
+  "uid": "neurips-2025-oral-62",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Spotlight",
-  "title": "On the Hardness of Conditional Independence Testing In Practice",
+  "track": "Oral",
+  "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
   "authors": [
-   "Zheng He",
-   "Roman Pogodin",
-   "Yazhe Li",
-   "Namrata Deka",
-   "Arthur Gretton",
-   "Danica J. Sutherland"
+   "Yang Yue",
+   "Zhiqi Chen",
+   "Rui Lu",
+   "Andrew Zhao",
+   "Zhaokai Wang",
+   "Yang Yue",
+   "Shiji Song",
+   "Gao Huang"
   ],
   "affiliation": "",
-  "summary": "Tests of conditional independence (CI) underpin a number of important problems in machine learning and statistics, from causal discovery to evaluation of predictor fairness and out-of-distribution rob",
+  "summary": "We systematically examine the current state of RLVR and surprisingly find that it does not elicit fundamentally new reasoning patterns—revealing a gap between the potential of RL and the actual impact of current RLVR methods.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=Tn1M71PDfF",
-   "arxiv": "",
+   "openreview": "https://openreview.net/forum?id=4OsgYD7em5",
+   "arxiv": "https://arxiv.org/abs/2504.13837",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-62",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
-   "authors": [
-    "Yang Yue",
-    "Zhiqi Chen",
-    "Rui Lu",
-    "Andrew Zhao",
-    "Zhaokai Wang",
-    "Yang Yue",
-    "Shiji Song",
-    "Gao Huang"
-   ],
-   "affiliation": "",
-   "summary": "We systematically examine the current state of RLVR and surprisingly find that it does not elicit fundamentally new reasoning patterns—revealing a gap between the potential of RL and the actual impact of current RLVR methods.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=4OsgYD7em5",
-    "arxiv": "https://arxiv.org/abs/2504.13837",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-42",
    "conference": "ICML",
@@ -109,6 +87,28 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71114"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-101",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Ambient Proteins - Training Diffusion Models on Noisy Structures",
+   "authors": [
+    "Giannis Daras",
+    "Jeffrey Ouyang-Zhang",
+    "Krithika Ravishankar",
+    "Constantinos Costis Daskalakis",
+    "Adam Klivans",
+    "Daniel Jesus Diaz"
+   ],
+   "affiliation": "",
+   "summary": "We present Ambient Protein Diffusion, a framework for training protein diffusion models that generates structures with unprecedented diversity and quality",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=Xll01vw606",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
