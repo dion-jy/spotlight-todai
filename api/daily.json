@@ -1,56 +1,32 @@
 {
  "schema_version": 1,
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 267,
-  "position": 267,
+  "day_index": 268,
+  "position": 268,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-62",
-  "conference": "NeurIPS",
-  "year": 2025,
+  "uid": "icml-2026-oral-42",
+  "conference": "ICML",
+  "year": 2026,
   "track": "Oral",
-  "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+  "title": "Foundations of Equivariant Deep Learning: Unifying Graph and Sheaf Neural Networks",
   "authors": [
-   "Yang Yue",
-   "Zhiqi Chen",
-   "Rui Lu",
-   "Andrew Zhao",
-   "Zhaokai Wang",
-   "Yang Yue",
-   "Shiji Song",
-   "Gao Huang"
+   "Yoshihiro Maruyama"
   ],
   "affiliation": "",
-  "summary": "We systematically examine the current state of RLVR and surprisingly find that it does not elicit fundamentally new reasoning patterns—revealing a gap between the potential of RL and the actual impact of current RLVR methods.",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=4OsgYD7em5",
-   "arxiv": "https://arxiv.org/abs/2504.13837",
-   "detail": ""
+   "openreview": "",
+   "arxiv": "",
+   "detail": "https://icml.cc/virtual/2026/oral/71080"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-42",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Foundations of Equivariant Deep Learning: Unifying Graph and Sheaf Neural Networks",
-   "authors": [
-    "Yoshihiro Maruyama"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71080"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-487",
    "conference": "NeurIPS",
@@ -107,6 +83,24 @@
    "summary": "We present Ambient Protein Diffusion, a framework for training protein diffusion models that generates structures with unprecedented diversity and quality",
    "links": {
     "openreview": "https://openreview.net/forum?id=Xll01vw606",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-134",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "An Analytical Theory of Spectral Bias in the Learning Dynamics of Diffusion Models",
+   "authors": [
+    "Binxu Wang",
+    "Cengiz Pehlevan"
+   ],
+   "affiliation": "",
+   "summary": "We develop an analytical framework for understanding how the learned distribution evolves during diffusion model training",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=SDhOClkyqC",
     "arxiv": "",
     "detail": ""
    }
