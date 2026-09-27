@@ -1,51 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-09-26",
+ "date": "2026-09-27",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 268,
-  "position": 268,
+  "day_index": 269,
+  "position": 269,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-42",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Foundations of Equivariant Deep Learning: Unifying Graph and Sheaf Neural Networks",
+  "uid": "neurips-2025-spotlight-487",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models",
   "authors": [
-   "Yoshihiro Maruyama"
+   "Shristi Das Biswas",
+   "Arani Roy",
+   "Kaushik Roy"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "As Text-to-Image models continue to evolve, so does the risk of generating unsafe, copyrighted, or privacy-violating content",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=zprMrpiLgT",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71080"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-487",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models",
-   "authors": [
-    "Shristi Das Biswas",
-    "Arani Roy",
-    "Kaushik Roy"
-   ],
-   "affiliation": "",
-   "summary": "As Text-to-Image models continue to evolve, so does the risk of generating unsafe, copyrighted, or privacy-violating content",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=zprMrpiLgT",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-110",
    "conference": "ICML",
@@ -101,6 +84,25 @@
    "summary": "We develop an analytical framework for understanding how the learned distribution evolves during diffusion model training",
    "links": {
     "openreview": "https://openreview.net/forum?id=SDhOClkyqC",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-111",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
+   "authors": [
+    "Yidan Xu",
+    "Yixin Wang",
+    "XuanLong Nguyen"
+   ],
+   "affiliation": "",
+   "summary": "A framework that composes any probabilistic graphical model with flow matching, jointly learning structured latent representations and high-fidelity generative models through a single objective.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=KYdfvF2SZN",
     "arxiv": "",
     "detail": ""
    }
