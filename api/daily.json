@@ -1,53 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-09-27",
+ "date": "2026-09-28",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 269,
-  "position": 269,
+  "day_index": 270,
+  "position": 270,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-487",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models",
+  "uid": "icml-2026-oral-110",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Skip a Layer or Loop It? Learning Program-of-Layers in LLMs",
   "authors": [
-   "Shristi Das Biswas",
-   "Arani Roy",
-   "Kaushik Roy"
+   "Ziyue Li",
+   "Yang Li",
+   "Tianyi Zhou"
   ],
   "affiliation": "",
-  "summary": "As Text-to-Image models continue to evolve, so does the risk of generating unsafe, copyrighted, or privacy-violating content",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=zprMrpiLgT",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71114"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-110",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Skip a Layer or Loop It? Learning Program-of-Layers in LLMs",
-   "authors": [
-    "Ziyue Li",
-    "Yang Li",
-    "Tianyi Zhou"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71114"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-101",
    "conference": "NeurIPS",
@@ -103,6 +84,26 @@
    "summary": "A framework that composes any probabilistic graphical model with flow matching, jointly learning structured latent representations and high-fidelity generative models through a single objective.",
    "links": {
     "openreview": "https://openreview.net/forum?id=KYdfvF2SZN",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-56",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "On Linear Mode Connectivity of Mixture-of-Experts Architectures",
+   "authors": [
+    "Viet-Hoang Tran",
+    "Van-Hoan Trinh",
+    "Khanh Vinh Bui",
+    "Tan Minh Nguyen"
+   ],
+   "affiliation": "National University of Singapore",
+   "summary": "We investigate Linear Mode Connectivity (LMC) in Mixture-of-Experts (MoE) architectures by analyzing their underlying permutation symmetries and proposing expert-matching algorithms that align independently trained MoEs to reveal LMC.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=RF3miSqdXa",
     "arxiv": "",
     "detail": ""
    }
