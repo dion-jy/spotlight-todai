@@ -1,56 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-09-28",
+ "date": "2026-09-29",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 270,
-  "position": 270,
+  "day_index": 271,
+  "position": 271,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-110",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Skip a Layer or Loop It? Learning Program-of-Layers in LLMs",
+  "uid": "neurips-2025-spotlight-101",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Ambient Proteins - Training Diffusion Models on Noisy Structures",
   "authors": [
-   "Ziyue Li",
-   "Yang Li",
-   "Tianyi Zhou"
+   "Giannis Daras",
+   "Jeffrey Ouyang-Zhang",
+   "Krithika Ravishankar",
+   "Constantinos Costis Daskalakis",
+   "Adam Klivans",
+   "Daniel Jesus Diaz"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "We present Ambient Protein Diffusion, a framework for training protein diffusion models that generates structures with unprecedented diversity and quality",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=Xll01vw606",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71114"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-101",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Ambient Proteins - Training Diffusion Models on Noisy Structures",
-   "authors": [
-    "Giannis Daras",
-    "Jeffrey Ouyang-Zhang",
-    "Krithika Ravishankar",
-    "Constantinos Costis Daskalakis",
-    "Adam Klivans",
-    "Daniel Jesus Diaz"
-   ],
-   "affiliation": "",
-   "summary": "We present Ambient Protein Diffusion, a framework for training protein diffusion models that generates structures with unprecedented diversity and quality",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=Xll01vw606",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-134",
    "conference": "NeurIPS",
@@ -104,6 +85,26 @@
    "summary": "We investigate Linear Mode Connectivity (LMC) in Mixture-of-Experts (MoE) architectures by analyzing their underlying permutation symmetries and proposing expert-matching algorithms that align independently trained MoEs to reveal LMC.",
    "links": {
     "openreview": "https://openreview.net/forum?id=RF3miSqdXa",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-287",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation",
+   "authors": [
+    "Claudia Cuttano",
+    "Gabriele Trivigno",
+    "Giuseppe Averta",
+    "Carlo Masone"
+   ],
+   "affiliation": "",
+   "summary": "Few-shot segmentation aims to segment unseen categories from just a handful of annotated examples",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=o8r3gOFTQo",
     "arxiv": "",
     "detail": ""
    }
