@@ -1,55 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-09-29",
+ "date": "2026-09-30",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 271,
-  "position": 271,
+  "day_index": 272,
+  "position": 272,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-101",
+  "uid": "neurips-2025-spotlight-134",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Ambient Proteins - Training Diffusion Models on Noisy Structures",
+  "title": "An Analytical Theory of Spectral Bias in the Learning Dynamics of Diffusion Models",
   "authors": [
-   "Giannis Daras",
-   "Jeffrey Ouyang-Zhang",
-   "Krithika Ravishankar",
-   "Constantinos Costis Daskalakis",
-   "Adam Klivans",
-   "Daniel Jesus Diaz"
+   "Binxu Wang",
+   "Cengiz Pehlevan"
   ],
   "affiliation": "",
-  "summary": "We present Ambient Protein Diffusion, a framework for training protein diffusion models that generates structures with unprecedented diversity and quality",
+  "summary": "We develop an analytical framework for understanding how the learned distribution evolves during diffusion model training",
   "links": {
-   "openreview": "https://openreview.net/forum?id=Xll01vw606",
+   "openreview": "https://openreview.net/forum?id=SDhOClkyqC",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-134",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "An Analytical Theory of Spectral Bias in the Learning Dynamics of Diffusion Models",
-   "authors": [
-    "Binxu Wang",
-    "Cengiz Pehlevan"
-   ],
-   "affiliation": "",
-   "summary": "We develop an analytical framework for understanding how the learned distribution evolves during diffusion model training",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=SDhOClkyqC",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-111",
    "conference": "ICLR",
@@ -105,6 +83,25 @@
    "summary": "Few-shot segmentation aims to segment unseen categories from just a handful of annotated examples",
    "links": {
     "openreview": "https://openreview.net/forum?id=o8r3gOFTQo",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-488",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Projection-based Lyapunov method for fully heterogeneous weakly-coupled MDPs",
+   "authors": [
+    "XiangCheng Zhang",
+    "Yige Hong",
+    "Weina Wang"
+   ],
+   "affiliation": "",
+   "summary": "Heterogeneity poses a fundamental challenge for many real-world large-scale decision-making problems but remains largely understudied",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=alw3e1Qa7I",
     "arxiv": "",
     "detail": ""
    }
