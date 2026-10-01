@@ -1,52 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 272,
-  "position": 272,
+  "day_index": 273,
+  "position": 273,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-134",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "An Analytical Theory of Spectral Bias in the Learning Dynamics of Diffusion Models",
+  "uid": "iclr-2026-oral-111",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
   "authors": [
-   "Binxu Wang",
-   "Cengiz Pehlevan"
+   "Yidan Xu",
+   "Yixin Wang",
+   "XuanLong Nguyen"
   ],
   "affiliation": "",
-  "summary": "We develop an analytical framework for understanding how the learned distribution evolves during diffusion model training",
+  "summary": "A framework that composes any probabilistic graphical model with flow matching, jointly learning structured latent representations and high-fidelity generative models through a single objective.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=SDhOClkyqC",
+   "openreview": "https://openreview.net/forum?id=KYdfvF2SZN",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-111",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
-   "authors": [
-    "Yidan Xu",
-    "Yixin Wang",
-    "XuanLong Nguyen"
-   ],
-   "affiliation": "",
-   "summary": "A framework that composes any probabilistic graphical model with flow matching, jointly learning structured latent representations and high-fidelity generative models through a single objective.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=KYdfvF2SZN",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-56",
    "conference": "NeurIPS",
@@ -102,6 +84,61 @@
    "summary": "Heterogeneity poses a fundamental challenge for many real-world large-scale decision-making problems but remains largely understudied",
    "links": {
     "openreview": "https://openreview.net/forum?id=alw3e1Qa7I",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-13",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite",
+   "authors": [
+    "Jonathan Bragg",
+    "Mike D'Arcy",
+    "Nishant Balepur",
+    "Dan Bareket",
+    "Bhavana Dalvi Mishra",
+    "Sergey Feldman",
+    "Dany Haddad",
+    "Jena D. Hwang",
+    "Peter Jansen",
+    "Varsha Kishore",
+    "Bodhisattwa Prasad Majumder",
+    "Aakanksha Naik",
+    "Sigal Rahamimov",
+    "Kyle Richardson",
+    "Amanpreet Singh",
+    "Harshit Surana",
+    "Aryeh Tiktinsky",
+    "Rosni Vasu",
+    "Guy Wiener",
+    "Chloe Anastasiades",
+    "Stefanus Candra",
+    "Jason Dunkelberger",
+    "Daniel Emery",
+    "Rob Evans",
+    "Malachi Hamada",
+    "Regan Huff",
+    "Rodney Kinney",
+    "Matt Latzke",
+    "Jaron Lochner",
+    "Ruben Lozano-Aguilera",
+    "Ngoc-Uyen Nguyen",
+    "Smita Rao",
+    "Amber Tanaka",
+    "Brooke Vlahos",
+    "Peter Clark",
+    "Doug Downey",
+    "Yoav Goldberg",
+    "Ashish Sabharwal",
+    "Daniel S Weld"
+   ],
+   "affiliation": "Allen Institute for Artificial Intelligence",
+   "summary": "We present principles and tooling for rigorous AI agent benchmarking, instantiated in AstaBench—the first holistic measure of agentic ability for scientific research—plus experiments showing AI remains far from solving research assistance.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=M7TNf5J26u",
     "arxiv": "",
     "detail": ""
    }
