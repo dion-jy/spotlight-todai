@@ -1,54 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 273,
-  "position": 273,
+  "day_index": 274,
+  "position": 274,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-111",
-  "conference": "ICLR",
-  "year": 2026,
+  "uid": "neurips-2025-oral-56",
+  "conference": "NeurIPS",
+  "year": 2025,
   "track": "Oral",
-  "title": "Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching",
+  "title": "On Linear Mode Connectivity of Mixture-of-Experts Architectures",
   "authors": [
-   "Yidan Xu",
-   "Yixin Wang",
-   "XuanLong Nguyen"
+   "Viet-Hoang Tran",
+   "Van-Hoan Trinh",
+   "Khanh Vinh Bui",
+   "Tan Minh Nguyen"
   ],
-  "affiliation": "",
-  "summary": "A framework that composes any probabilistic graphical model with flow matching, jointly learning structured latent representations and high-fidelity generative models through a single objective.",
+  "affiliation": "National University of Singapore",
+  "summary": "We investigate Linear Mode Connectivity (LMC) in Mixture-of-Experts (MoE) architectures by analyzing their underlying permutation symmetries and proposing expert-matching algorithms that align independently trained MoEs to reveal LMC.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=KYdfvF2SZN",
+   "openreview": "https://openreview.net/forum?id=RF3miSqdXa",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-56",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "On Linear Mode Connectivity of Mixture-of-Experts Architectures",
-   "authors": [
-    "Viet-Hoang Tran",
-    "Van-Hoan Trinh",
-    "Khanh Vinh Bui",
-    "Tan Minh Nguyen"
-   ],
-   "affiliation": "National University of Singapore",
-   "summary": "We investigate Linear Mode Connectivity (LMC) in Mixture-of-Experts (MoE) architectures by analyzing their underlying permutation symmetries and proposing expert-matching algorithms that align independently trained MoEs to reveal LMC.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=RF3miSqdXa",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-287",
    "conference": "NeurIPS",
@@ -141,6 +122,25 @@
     "openreview": "https://openreview.net/forum?id=M7TNf5J26u",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-106",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Path-dependent Discrete Amortized Inference",
+   "authors": [
+    "Tiago Silva",
+    "Esmeralda S. Whitammer",
+    "Salem Lahlou"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71138"
    }
   }
  ]
