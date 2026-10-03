@@ -1,55 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 274,
-  "position": 274,
+  "day_index": 275,
+  "position": 275,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-56",
+  "uid": "neurips-2025-spotlight-287",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Oral",
-  "title": "On Linear Mode Connectivity of Mixture-of-Experts Architectures",
+  "track": "Spotlight",
+  "title": "SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation",
   "authors": [
-   "Viet-Hoang Tran",
-   "Van-Hoan Trinh",
-   "Khanh Vinh Bui",
-   "Tan Minh Nguyen"
+   "Claudia Cuttano",
+   "Gabriele Trivigno",
+   "Giuseppe Averta",
+   "Carlo Masone"
   ],
-  "affiliation": "National University of Singapore",
-  "summary": "We investigate Linear Mode Connectivity (LMC) in Mixture-of-Experts (MoE) architectures by analyzing their underlying permutation symmetries and proposing expert-matching algorithms that align independently trained MoEs to reveal LMC.",
+  "affiliation": "",
+  "summary": "Few-shot segmentation aims to segment unseen categories from just a handful of annotated examples",
   "links": {
-   "openreview": "https://openreview.net/forum?id=RF3miSqdXa",
+   "openreview": "https://openreview.net/forum?id=o8r3gOFTQo",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-287",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation",
-   "authors": [
-    "Claudia Cuttano",
-    "Gabriele Trivigno",
-    "Giuseppe Averta",
-    "Carlo Masone"
-   ],
-   "affiliation": "",
-   "summary": "Few-shot segmentation aims to segment unseen categories from just a handful of annotated examples",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=o8r3gOFTQo",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-488",
    "conference": "NeurIPS",
@@ -141,6 +121,33 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71138"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-672",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
+   "authors": [
+    "Huanjin Yao",
+    "Jiaxing Huang",
+    "Wenhao Wu",
+    "Jingyi Zhang",
+    "Yibo Wang",
+    "Shunyu Liu",
+    "Yingjie Wang",
+    "YuXin Song",
+    "Haocheng Feng",
+    "Li Shen",
+    "Dacheng Tao"
+   ],
+   "affiliation": "",
+   "summary": "In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=lwOV2ACEK9",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
