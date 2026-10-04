@@ -1,54 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-10-03",
+ "date": "2026-10-04",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 275,
-  "position": 275,
+  "day_index": 276,
+  "position": 276,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-287",
+  "uid": "neurips-2025-spotlight-488",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation",
+  "title": "Projection-based Lyapunov method for fully heterogeneous weakly-coupled MDPs",
   "authors": [
-   "Claudia Cuttano",
-   "Gabriele Trivigno",
-   "Giuseppe Averta",
-   "Carlo Masone"
+   "XiangCheng Zhang",
+   "Yige Hong",
+   "Weina Wang"
   ],
   "affiliation": "",
-  "summary": "Few-shot segmentation aims to segment unseen categories from just a handful of annotated examples",
+  "summary": "Heterogeneity poses a fundamental challenge for many real-world large-scale decision-making problems but remains largely understudied",
   "links": {
-   "openreview": "https://openreview.net/forum?id=o8r3gOFTQo",
+   "openreview": "https://openreview.net/forum?id=alw3e1Qa7I",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-488",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Projection-based Lyapunov method for fully heterogeneous weakly-coupled MDPs",
-   "authors": [
-    "XiangCheng Zhang",
-    "Yige Hong",
-    "Weina Wang"
-   ],
-   "affiliation": "",
-   "summary": "Heterogeneity poses a fundamental challenge for many real-world large-scale decision-making problems but remains largely understudied",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=alw3e1Qa7I",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-13",
    "conference": "ICLR",
@@ -146,6 +126,28 @@
    "summary": "In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer",
    "links": {
     "openreview": "https://openreview.net/forum?id=lwOV2ACEK9",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-8",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "State Entropy Regularization for Robust Reinforcement Learning",
+   "authors": [
+    "Yonatan Ashlag",
+    "Uri Koren",
+    "Mirco Mutti",
+    "Esther Derman",
+    "Pierre-Luc Bacon",
+    "Shie Mannor"
+   ],
+   "affiliation": "Technion - Israel Institute of Technology, Technion",
+   "summary": "State entropy regularization has empirically shown better exploration and sample complexity in reinforcement learning (RL). However, its theoretical guarantees have not been studied.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=rtG7n93Ru8",
     "arxiv": "",
     "detail": ""
    }
