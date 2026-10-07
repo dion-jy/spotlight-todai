@@ -1,61 +1,42 @@
 {
  "schema_version": 1,
- "date": "2026-10-06",
+ "date": "2026-10-07",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 278,
-  "position": 278,
+  "day_index": 279,
+  "position": 279,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-106",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Path-dependent Discrete Amortized Inference",
+  "uid": "neurips-2025-spotlight-672",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
   "authors": [
-   "Tiago Silva",
-   "Esmeralda S. Whitammer",
-   "Salem Lahlou"
+   "Huanjin Yao",
+   "Jiaxing Huang",
+   "Wenhao Wu",
+   "Jingyi Zhang",
+   "Yibo Wang",
+   "Shunyu Liu",
+   "Yingjie Wang",
+   "YuXin Song",
+   "Haocheng Feng",
+   "Li Shen",
+   "Dacheng Tao"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=lwOV2ACEK9",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71138"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-672",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
-   "authors": [
-    "Huanjin Yao",
-    "Jiaxing Huang",
-    "Wenhao Wu",
-    "Jingyi Zhang",
-    "Yibo Wang",
-    "Shunyu Liu",
-    "Yingjie Wang",
-    "YuXin Song",
-    "Haocheng Feng",
-    "Li Shen",
-    "Dacheng Tao"
-   ],
-   "affiliation": "",
-   "summary": "In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=lwOV2ACEK9",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-8",
    "conference": "NeurIPS",
@@ -119,6 +100,28 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71182"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-585",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs",
+   "authors": [
+    "Insu Lee",
+    "Wooje Park",
+    "Jaeyun Jang",
+    "Minyoung Noh",
+    "Kyuhong Shim",
+    "Byonghyo Shim"
+   ],
+   "affiliation": "",
+   "summary": "Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as virtual and augmented reality, where a first-person (egocentric) view captured by head-mounted camera",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=m5wrqqcWbN",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
