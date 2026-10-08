@@ -1,64 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 279,
-  "position": 279,
+  "day_index": 280,
+  "position": 280,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-672",
+  "uid": "neurips-2025-oral-8",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Spotlight",
-  "title": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
+  "track": "Oral",
+  "title": "State Entropy Regularization for Robust Reinforcement Learning",
   "authors": [
-   "Huanjin Yao",
-   "Jiaxing Huang",
-   "Wenhao Wu",
-   "Jingyi Zhang",
-   "Yibo Wang",
-   "Shunyu Liu",
-   "Yingjie Wang",
-   "YuXin Song",
-   "Haocheng Feng",
-   "Li Shen",
-   "Dacheng Tao"
+   "Yonatan Ashlag",
+   "Uri Koren",
+   "Mirco Mutti",
+   "Esther Derman",
+   "Pierre-Luc Bacon",
+   "Shie Mannor"
   ],
-  "affiliation": "",
-  "summary": "In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer",
+  "affiliation": "Technion - Israel Institute of Technology, Technion",
+  "summary": "State entropy regularization has empirically shown better exploration and sample complexity in reinforcement learning (RL). However, its theoretical guarantees have not been studied.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=lwOV2ACEK9",
+   "openreview": "https://openreview.net/forum?id=rtG7n93Ru8",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-8",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "State Entropy Regularization for Robust Reinforcement Learning",
-   "authors": [
-    "Yonatan Ashlag",
-    "Uri Koren",
-    "Mirco Mutti",
-    "Esther Derman",
-    "Pierre-Luc Bacon",
-    "Shie Mannor"
-   ],
-   "affiliation": "Technion - Israel Institute of Technology, Technion",
-   "summary": "State entropy regularization has empirically shown better exploration and sample complexity in reinforcement learning (RL). However, its theoretical guarantees have not been studied.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=rtG7n93Ru8",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-249",
    "conference": "NeurIPS",
@@ -120,6 +93,31 @@
    "summary": "Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as virtual and augmented reality, where a first-person (egocentric) view captured by head-mounted camera",
    "links": {
     "openreview": "https://openreview.net/forum?id=m5wrqqcWbN",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-330",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "DeepDiver: Adaptive Web-Search Intensity Scaling via Reinforcement Learning",
+   "authors": [
+    "Wenxuan Shi",
+    "Haochen Tan",
+    "Chuqiao Kuang",
+    "Xiaoguang Li",
+    "Hanting Chen",
+    "Xiaozhe Ren",
+    "Yasheng Wang",
+    "Lu Hou",
+    "Lifeng Shang"
+   ],
+   "affiliation": "",
+   "summary": "Information seeking demands iterative evidence gathering and reflective reasoning, yet large language models (LLMs) still struggle with it in open-web question answering",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=CqLWckpTbG",
     "arxiv": "",
     "detail": ""
    }
