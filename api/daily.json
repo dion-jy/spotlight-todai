@@ -1,59 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 280,
-  "position": 280,
+  "day_index": 281,
+  "position": 281,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-8",
+  "uid": "neurips-2025-spotlight-249",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Oral",
-  "title": "State Entropy Regularization for Robust Reinforcement Learning",
+  "track": "Spotlight",
+  "title": "Rig3R: Rig-Aware Conditioning and Discovery for 3D Reconstruction",
   "authors": [
-   "Yonatan Ashlag",
-   "Uri Koren",
-   "Mirco Mutti",
-   "Esther Derman",
-   "Pierre-Luc Bacon",
-   "Shie Mannor"
+   "Samuel Li",
+   "Pujith Kachana",
+   "Prajwal Chidananda",
+   "Saurabh Nair",
+   "Yasutaka Furukawa",
+   "Matthew Brown"
   ],
-  "affiliation": "Technion - Israel Institute of Technology, Technion",
-  "summary": "State entropy regularization has empirically shown better exploration and sample complexity in reinforcement learning (RL). However, its theoretical guarantees have not been studied.",
+  "affiliation": "",
+  "summary": "Estimating agent pose and 3D scene structure from multi-camera rigs is a central task in embodied AI applications such as autonomous driving",
   "links": {
-   "openreview": "https://openreview.net/forum?id=rtG7n93Ru8",
+   "openreview": "https://openreview.net/forum?id=vEFPm6gw2s",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-249",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Rig3R: Rig-Aware Conditioning and Discovery for 3D Reconstruction",
-   "authors": [
-    "Samuel Li",
-    "Pujith Kachana",
-    "Prajwal Chidananda",
-    "Saurabh Nair",
-    "Yasutaka Furukawa",
-    "Matthew Brown"
-   ],
-   "affiliation": "",
-   "summary": "Estimating agent pose and 3D scene structure from multi-camera rigs is a central task in embodied AI applications such as autonomous driving",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=vEFPm6gw2s",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-168",
    "conference": "ICML",
@@ -118,6 +96,27 @@
    "summary": "Information seeking demands iterative evidence gathering and reflective reasoning, yet large language models (LLMs) still struggle with it in open-web question answering",
    "links": {
     "openreview": "https://openreview.net/forum?id=CqLWckpTbG",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-563",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations",
+   "authors": [
+    "Olawale Elijah Salaudeen",
+    "Haoran Zhang",
+    "Kumail Alhamoud",
+    "Sara Beery",
+    "Marzyeh Ghassemi"
+   ],
+   "affiliation": "",
+   "summary": "Benchmarks for out-of-distribution (OOD) generalization often reveal a strong positive correlation between in-distribution (ID) and OOD accuracy across models, a phenomenon known as “accuracy-on-the-l",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=w97lDmoD0U",
     "arxiv": "",
     "detail": ""
    }
