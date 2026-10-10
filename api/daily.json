@@ -1,58 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 281,
-  "position": 281,
+  "day_index": 282,
+  "position": 282,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-249",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Rig3R: Rig-Aware Conditioning and Discovery for 3D Reconstruction",
+  "uid": "icml-2026-oral-168",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "SoftJAX & SoftTorch: Empowering Automatic Differentiation Libraries with Informative Gradients",
   "authors": [
-   "Samuel Li",
-   "Pujith Kachana",
-   "Prajwal Chidananda",
-   "Saurabh Nair",
-   "Yasutaka Furukawa",
-   "Matthew Brown"
+   "Anselm Paulus",
+   "Andreas René Geist",
+   "Vit Musil",
+   "Sebastian Hoffmann",
+   "Georg Martius"
   ],
   "affiliation": "",
-  "summary": "Estimating agent pose and 3D scene structure from multi-camera rigs is a central task in embodied AI applications such as autonomous driving",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=vEFPm6gw2s",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71182"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-168",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "SoftJAX & SoftTorch: Empowering Automatic Differentiation Libraries with Informative Gradients",
-   "authors": [
-    "Anselm Paulus",
-    "Andreas René Geist",
-    "Vit Musil",
-    "Sebastian Hoffmann",
-    "Georg Martius"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71182"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-585",
    "conference": "NeurIPS",
@@ -117,6 +95,27 @@
    "summary": "Benchmarks for out-of-distribution (OOD) generalization often reveal a strong positive correlation between in-distribution (ID) and OOD accuracy across models, a phenomenon known as “accuracy-on-the-l",
    "links": {
     "openreview": "https://openreview.net/forum?id=w97lDmoD0U",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-3",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "GnnXemplar: Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability",
+   "authors": [
+    "Burouj Armgaan",
+    "Eshan Jain",
+    "Harsh Pandey",
+    "Mahesh Chandran",
+    "Sayan Ranu"
+   ],
+   "affiliation": "Indian Institute of Technology Delhi",
+   "summary": "We generate global text-based explanations using representative nodes (exemplars) in the embedding space. The exemplars are selected via coverage maximization, and their signatures are explained using natural language rules from a self-refining LLM.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=eafIjoZAHm",
     "arxiv": "",
     "detail": ""
    }
