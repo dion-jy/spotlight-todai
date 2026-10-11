@@ -1,58 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-10-10",
+ "date": "2026-10-11",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 282,
-  "position": 282,
+  "day_index": 283,
+  "position": 283,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-168",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "SoftJAX & SoftTorch: Empowering Automatic Differentiation Libraries with Informative Gradients",
+  "uid": "neurips-2025-spotlight-585",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs",
   "authors": [
-   "Anselm Paulus",
-   "Andreas René Geist",
-   "Vit Musil",
-   "Sebastian Hoffmann",
-   "Georg Martius"
+   "Insu Lee",
+   "Wooje Park",
+   "Jaeyun Jang",
+   "Minyoung Noh",
+   "Kyuhong Shim",
+   "Byonghyo Shim"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as virtual and augmented reality, where a first-person (egocentric) view captured by head-mounted camera",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=m5wrqqcWbN",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71182"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-585",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs",
-   "authors": [
-    "Insu Lee",
-    "Wooje Park",
-    "Jaeyun Jang",
-    "Minyoung Noh",
-    "Kyuhong Shim",
-    "Byonghyo Shim"
-   ],
-   "affiliation": "",
-   "summary": "Large vision-language models (LVLMs) are increasingly deployed in interactive applications such as virtual and augmented reality, where a first-person (egocentric) view captured by head-mounted camera",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=m5wrqqcWbN",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-330",
    "conference": "NeurIPS",
@@ -116,6 +95,34 @@
    "summary": "We generate global text-based explanations using representative nodes (exemplars) in the embedding space. The exemplars are selected via coverage maximization, and their signatures are explained using natural language rules from a self-refining LLM.",
    "links": {
     "openreview": "https://openreview.net/forum?id=eafIjoZAHm",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-224",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+   "authors": [
+    "Tao Ren",
+    "Zishi Zhang",
+    "Jinyang Jiang",
+    "Zehao Li",
+    "Shentao Qin",
+    "Yi Zheng",
+    "Guanghao Li",
+    "Qianyou Sun",
+    "Yan Li",
+    "Jiafeng Liang",
+    "Xinping Li",
+    "Yijie Peng"
+   ],
+   "affiliation": "Peking University",
+   "summary": "The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain structure, has emerged as a powerful framework for visual generation. After pre-training on enormous data, the model needs to be properly aligned to meet requirements for downstream applications.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=AZ6lqcvHLX",
     "arxiv": "",
     "detail": ""
    }
