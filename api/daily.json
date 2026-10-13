@@ -1,61 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 284,
-  "position": 284,
+  "day_index": 285,
+  "position": 285,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-330",
+  "uid": "neurips-2025-spotlight-563",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "DeepDiver: Adaptive Web-Search Intensity Scaling via Reinforcement Learning",
+  "title": "Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations",
   "authors": [
-   "Wenxuan Shi",
-   "Haochen Tan",
-   "Chuqiao Kuang",
-   "Xiaoguang Li",
-   "Hanting Chen",
-   "Xiaozhe Ren",
-   "Yasheng Wang",
-   "Lu Hou",
-   "Lifeng Shang"
+   "Olawale Elijah Salaudeen",
+   "Haoran Zhang",
+   "Kumail Alhamoud",
+   "Sara Beery",
+   "Marzyeh Ghassemi"
   ],
   "affiliation": "",
-  "summary": "Information seeking demands iterative evidence gathering and reflective reasoning, yet large language models (LLMs) still struggle with it in open-web question answering",
+  "summary": "Benchmarks for out-of-distribution (OOD) generalization often reveal a strong positive correlation between in-distribution (ID) and OOD accuracy across models, a phenomenon known as “accuracy-on-the-l",
   "links": {
-   "openreview": "https://openreview.net/forum?id=CqLWckpTbG",
+   "openreview": "https://openreview.net/forum?id=w97lDmoD0U",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-563",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations",
-   "authors": [
-    "Olawale Elijah Salaudeen",
-    "Haoran Zhang",
-    "Kumail Alhamoud",
-    "Sara Beery",
-    "Marzyeh Ghassemi"
-   ],
-   "affiliation": "",
-   "summary": "Benchmarks for out-of-distribution (OOD) generalization often reveal a strong positive correlation between in-distribution (ID) and OOD accuracy across models, a phenomenon known as “accuracy-on-the-l",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=w97lDmoD0U",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-3",
    "conference": "NeurIPS",
@@ -122,6 +97,26 @@
    "summary": "Longitudinal multimodal data, including electronic health records (EHR) and sequential chest X-rays (CXRs), is critical for modeling disease progression, yet remains underutilized due to two key chall",
    "links": {
     "openreview": "https://openreview.net/forum?id=2afhRWVb6p",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-137",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Quantum speedup of non-linear Monte Carlo problems",
+   "authors": [
+    "Jose Blanchet",
+    "Yassine Hamoudi",
+    "Mario Szegedy",
+    "Guanyang Wang"
+   ],
+   "affiliation": "",
+   "summary": "The mean of a random variable can be understood as a *linear* functional on the space of probability distributions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=IkfBLlYuHA",
     "arxiv": "",
     "detail": ""
    }
