@@ -1,57 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 285,
-  "position": 285,
+  "day_index": 286,
+  "position": 286,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-563",
+  "uid": "neurips-2025-oral-3",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Spotlight",
-  "title": "Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations",
+  "track": "Oral",
+  "title": "GnnXemplar: Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability",
   "authors": [
-   "Olawale Elijah Salaudeen",
-   "Haoran Zhang",
-   "Kumail Alhamoud",
-   "Sara Beery",
-   "Marzyeh Ghassemi"
+   "Burouj Armgaan",
+   "Eshan Jain",
+   "Harsh Pandey",
+   "Mahesh Chandran",
+   "Sayan Ranu"
   ],
-  "affiliation": "",
-  "summary": "Benchmarks for out-of-distribution (OOD) generalization often reveal a strong positive correlation between in-distribution (ID) and OOD accuracy across models, a phenomenon known as “accuracy-on-the-l",
+  "affiliation": "Indian Institute of Technology Delhi",
+  "summary": "We generate global text-based explanations using representative nodes (exemplars) in the embedding space. The exemplars are selected via coverage maximization, and their signatures are explained using natural language rules from a self-refining LLM.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=w97lDmoD0U",
+   "openreview": "https://openreview.net/forum?id=eafIjoZAHm",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-oral-3",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Oral",
-   "title": "GnnXemplar: Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability",
-   "authors": [
-    "Burouj Armgaan",
-    "Eshan Jain",
-    "Harsh Pandey",
-    "Mahesh Chandran",
-    "Sayan Ranu"
-   ],
-   "affiliation": "Indian Institute of Technology Delhi",
-   "summary": "We generate global text-based explanations using representative nodes (exemplars) in the embedding space. The exemplars are selected via coverage maximization, and their signatures are explained using natural language rules from a self-refining LLM.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=eafIjoZAHm",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-224",
    "conference": "ICLR",
@@ -117,6 +96,24 @@
    "summary": "The mean of a random variable can be understood as a *linear* functional on the space of probability distributions",
    "links": {
     "openreview": "https://openreview.net/forum?id=IkfBLlYuHA",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-415",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "AlphaZero Neural Scaling and Zipf's Law: a Tale of Board Games and Power Laws",
+   "authors": [
+    "Oren Neumann",
+    "Claudius Gros"
+   ],
+   "affiliation": "",
+   "summary": "Neural scaling laws are observed in a range of domains, to date with no universal understanding of why they occur",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=IMmkDMqFMU",
     "arxiv": "",
     "detail": ""
    }
