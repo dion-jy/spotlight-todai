@@ -1,64 +1,43 @@
 {
  "schema_version": 1,
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 286,
-  "position": 286,
+  "day_index": 287,
+  "position": 287,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-3",
-  "conference": "NeurIPS",
-  "year": 2025,
+  "uid": "iclr-2026-oral-224",
+  "conference": "ICLR",
+  "year": 2026,
   "track": "Oral",
-  "title": "GnnXemplar: Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability",
+  "title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
   "authors": [
-   "Burouj Armgaan",
-   "Eshan Jain",
-   "Harsh Pandey",
-   "Mahesh Chandran",
-   "Sayan Ranu"
+   "Tao Ren",
+   "Zishi Zhang",
+   "Jinyang Jiang",
+   "Zehao Li",
+   "Shentao Qin",
+   "Yi Zheng",
+   "Guanghao Li",
+   "Qianyou Sun",
+   "Yan Li",
+   "Jiafeng Liang",
+   "Xinping Li",
+   "Yijie Peng"
   ],
-  "affiliation": "Indian Institute of Technology Delhi",
-  "summary": "We generate global text-based explanations using representative nodes (exemplars) in the embedding space. The exemplars are selected via coverage maximization, and their signatures are explained using natural language rules from a self-refining LLM.",
+  "affiliation": "Peking University",
+  "summary": "The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain structure, has emerged as a powerful framework for visual generation. After pre-training on enormous data, the model needs to be properly aligned to meet requirements for downstream applications.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=eafIjoZAHm",
+   "openreview": "https://openreview.net/forum?id=AZ6lqcvHLX",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-224",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
-   "authors": [
-    "Tao Ren",
-    "Zishi Zhang",
-    "Jinyang Jiang",
-    "Zehao Li",
-    "Shentao Qin",
-    "Yi Zheng",
-    "Guanghao Li",
-    "Qianyou Sun",
-    "Yan Li",
-    "Jiafeng Liang",
-    "Xinping Li",
-    "Yijie Peng"
-   ],
-   "affiliation": "Peking University",
-   "summary": "The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain structure, has emerged as a powerful framework for visual generation. After pre-training on enormous data, the model needs to be properly aligned to meet requirements for downstream applications.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=AZ6lqcvHLX",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-55",
    "conference": "NeurIPS",
@@ -114,6 +93,23 @@
    "summary": "Neural scaling laws are observed in a range of domains, to date with no universal understanding of why they occur",
    "links": {
     "openreview": "https://openreview.net/forum?id=IMmkDMqFMU",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-570",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Decomposing Interventional Causality into Synergistic, Redundant, and Unique Components",
+   "authors": [
+    "Abel Jansma"
+   ],
+   "affiliation": "",
+   "summary": "We introduce a novel framework for decomposing interventional causal effects into synergistic, redundant, and unique components, building on the intuition of Partial Information Decomposition (PID) an",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=yPnEvPq3kV",
     "arxiv": "",
     "detail": ""
    }
