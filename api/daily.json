@@ -1,64 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 287,
-  "position": 287,
+  "day_index": 288,
+  "position": 288,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-224",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+  "uid": "neurips-2025-spotlight-55",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment",
   "authors": [
-   "Tao Ren",
-   "Zishi Zhang",
-   "Jinyang Jiang",
-   "Zehao Li",
-   "Shentao Qin",
-   "Yi Zheng",
-   "Guanghao Li",
-   "Qianyou Sun",
-   "Yan Li",
-   "Jiafeng Liang",
-   "Xinping Li",
-   "Yijie Peng"
+   "Chen Liu",
+   "Wenfang Yao",
+   "Kejing Yin",
+   "William K. Cheung",
+   "Jing Qin"
   ],
-  "affiliation": "Peking University",
-  "summary": "The probabilistic diffusion model (DM), generating content by inferencing through a recursive chain structure, has emerged as a powerful framework for visual generation. After pre-training on enormous data, the model needs to be properly aligned to meet requirements for downstream applications.",
+  "affiliation": "",
+  "summary": "Longitudinal multimodal data, including electronic health records (EHR) and sequential chest X-rays (CXRs), is critical for modeling disease progression, yet remains underutilized due to two key chall",
   "links": {
-   "openreview": "https://openreview.net/forum?id=AZ6lqcvHLX",
+   "openreview": "https://openreview.net/forum?id=2afhRWVb6p",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-55",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment",
-   "authors": [
-    "Chen Liu",
-    "Wenfang Yao",
-    "Kejing Yin",
-    "William K. Cheung",
-    "Jing Qin"
-   ],
-   "affiliation": "",
-   "summary": "Longitudinal multimodal data, including electronic health records (EHR) and sequential chest X-rays (CXRs), is critical for modeling disease progression, yet remains underutilized due to two key chall",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=2afhRWVb6p",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-137",
    "conference": "NeurIPS",
@@ -112,6 +84,30 @@
     "openreview": "https://openreview.net/forum?id=yPnEvPq3kV",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-29",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Position: Anthropomorphic Misalignment Research Needs Stronger Evidence",
+   "authors": [
+    "Vansh Gupta",
+    "Peter Nutter",
+    "Samuel Stante",
+    "Andreas Krause",
+    "Florian Tramer",
+    "Lukas Fluri",
+    "Xin Chen",
+    "Anna Hedström"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71063"
    }
   }
  ]
