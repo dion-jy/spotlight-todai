@@ -1,53 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-10-17",
+ "date": "2026-10-18",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 289,
-  "position": 289,
+  "day_index": 290,
+  "position": 290,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-137",
+  "uid": "neurips-2025-spotlight-415",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Quantum speedup of non-linear Monte Carlo problems",
+  "title": "AlphaZero Neural Scaling and Zipf's Law: a Tale of Board Games and Power Laws",
   "authors": [
-   "Jose Blanchet",
-   "Yassine Hamoudi",
-   "Mario Szegedy",
-   "Guanyang Wang"
+   "Oren Neumann",
+   "Claudius Gros"
   ],
   "affiliation": "",
-  "summary": "The mean of a random variable can be understood as a *linear* functional on the space of probability distributions",
+  "summary": "Neural scaling laws are observed in a range of domains, to date with no universal understanding of why they occur",
   "links": {
-   "openreview": "https://openreview.net/forum?id=IkfBLlYuHA",
+   "openreview": "https://openreview.net/forum?id=IMmkDMqFMU",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-415",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "AlphaZero Neural Scaling and Zipf's Law: a Tale of Board Games and Power Laws",
-   "authors": [
-    "Oren Neumann",
-    "Claudius Gros"
-   ],
-   "affiliation": "",
-   "summary": "Neural scaling laws are observed in a range of domains, to date with no universal understanding of why they occur",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=IMmkDMqFMU",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-570",
    "conference": "NeurIPS",
@@ -103,6 +83,28 @@
    "summary": "General intelligence requires systems that acquire new skills efficiently and generalize beyond their training distributions",
    "links": {
     "openreview": "https://openreview.net/forum?id=CsXKGIqZtr",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-26",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Bridging Theory and Practice in Link Representation with Graph Neural Networks",
+   "authors": [
+    "Veronica Lachi",
+    "Francesco Ferrini",
+    "Antonio Longa",
+    "Bruno Lepri",
+    "Andrea Passerini",
+    "Manfred Jaeger"
+   ],
+   "affiliation": "",
+   "summary": "Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=WYnvP3DePZ",
     "arxiv": "",
     "detail": ""
    }
