@@ -1,56 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 288,
-  "position": 288,
+  "day_index": 289,
+  "position": 289,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-55",
+  "uid": "neurips-2025-spotlight-137",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment",
+  "title": "Quantum speedup of non-linear Monte Carlo problems",
   "authors": [
-   "Chen Liu",
-   "Wenfang Yao",
-   "Kejing Yin",
-   "William K. Cheung",
-   "Jing Qin"
+   "Jose Blanchet",
+   "Yassine Hamoudi",
+   "Mario Szegedy",
+   "Guanyang Wang"
   ],
   "affiliation": "",
-  "summary": "Longitudinal multimodal data, including electronic health records (EHR) and sequential chest X-rays (CXRs), is critical for modeling disease progression, yet remains underutilized due to two key chall",
+  "summary": "The mean of a random variable can be understood as a *linear* functional on the space of probability distributions",
   "links": {
-   "openreview": "https://openreview.net/forum?id=2afhRWVb6p",
+   "openreview": "https://openreview.net/forum?id=IkfBLlYuHA",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-137",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Quantum speedup of non-linear Monte Carlo problems",
-   "authors": [
-    "Jose Blanchet",
-    "Yassine Hamoudi",
-    "Mario Szegedy",
-    "Guanyang Wang"
-   ],
-   "affiliation": "",
-   "summary": "The mean of a random variable can be understood as a *linear* functional on the space of probability distributions",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=IkfBLlYuHA",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-415",
    "conference": "NeurIPS",
@@ -108,6 +87,24 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71063"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-252",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Searching Latent Program Spaces",
+   "authors": [
+    "Matthew Macfarlane",
+    "Clément Bonnet"
+   ],
+   "affiliation": "",
+   "summary": "General intelligence requires systems that acquire new skills efficiently and generalize beyond their training distributions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=CsXKGIqZtr",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
