@@ -1,50 +1,32 @@
 {
  "schema_version": 1,
- "date": "2026-10-18",
+ "date": "2026-10-19",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 290,
-  "position": 290,
+  "day_index": 291,
+  "position": 291,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-415",
+  "uid": "neurips-2025-spotlight-570",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "AlphaZero Neural Scaling and Zipf's Law: a Tale of Board Games and Power Laws",
+  "title": "Decomposing Interventional Causality into Synergistic, Redundant, and Unique Components",
   "authors": [
-   "Oren Neumann",
-   "Claudius Gros"
+   "Abel Jansma"
   ],
   "affiliation": "",
-  "summary": "Neural scaling laws are observed in a range of domains, to date with no universal understanding of why they occur",
+  "summary": "We introduce a novel framework for decomposing interventional causal effects into synergistic, redundant, and unique components, building on the intuition of Partial Information Decomposition (PID) an",
   "links": {
-   "openreview": "https://openreview.net/forum?id=IMmkDMqFMU",
+   "openreview": "https://openreview.net/forum?id=yPnEvPq3kV",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-570",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Decomposing Interventional Causality into Synergistic, Redundant, and Unique Components",
-   "authors": [
-    "Abel Jansma"
-   ],
-   "affiliation": "",
-   "summary": "We introduce a novel framework for decomposing interventional causal effects into synergistic, redundant, and unique components, building on the intuition of Partial Information Decomposition (PID) an",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=yPnEvPq3kV",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-29",
    "conference": "ICML",
@@ -105,6 +87,29 @@
    "summary": "Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction",
    "links": {
     "openreview": "https://openreview.net/forum?id=WYnvP3DePZ",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-203",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning",
+   "authors": [
+    "Borong Zhang",
+    "Yuhao Zhang",
+    "Jiaming Ji",
+    "Yingshan Lei",
+    "Josef Dai",
+    "Yuanpei Chen",
+    "Yaodong Yang"
+   ],
+   "affiliation": "",
+   "summary": "Vision-language-action models (VLAs) show potential as generalist robot policies",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=dt940loCBT",
     "arxiv": "",
     "detail": ""
    }
