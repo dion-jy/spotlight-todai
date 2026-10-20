@@ -1,56 +1,39 @@
 {
  "schema_version": 1,
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 291,
-  "position": 291,
+  "day_index": 292,
+  "position": 292,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-570",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Decomposing Interventional Causality into Synergistic, Redundant, and Unique Components",
+  "uid": "icml-2026-oral-29",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Position: Anthropomorphic Misalignment Research Needs Stronger Evidence",
   "authors": [
-   "Abel Jansma"
+   "Vansh Gupta",
+   "Peter Nutter",
+   "Samuel Stante",
+   "Andreas Krause",
+   "Florian Tramer",
+   "Lukas Fluri",
+   "Xin Chen",
+   "Anna Hedström"
   ],
   "affiliation": "",
-  "summary": "We introduce a novel framework for decomposing interventional causal effects into synergistic, redundant, and unique components, building on the intuition of Partial Information Decomposition (PID) an",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=yPnEvPq3kV",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71063"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-29",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Position: Anthropomorphic Misalignment Research Needs Stronger Evidence",
-   "authors": [
-    "Vansh Gupta",
-    "Peter Nutter",
-    "Samuel Stante",
-    "Andreas Krause",
-    "Florian Tramer",
-    "Lukas Fluri",
-    "Xin Chen",
-    "Anna Hedström"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71063"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-252",
    "conference": "NeurIPS",
@@ -110,6 +93,27 @@
    "summary": "Vision-language-action models (VLAs) show potential as generalist robot policies",
    "links": {
     "openreview": "https://openreview.net/forum?id=dt940loCBT",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-320",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning",
+   "authors": [
+    "Gunshi Gupta",
+    "Karmesh Yadav",
+    "Zsolt Kira",
+    "Yarin Gal",
+    "Rahaf Aljundi"
+   ],
+   "affiliation": "",
+   "summary": "To enable embodied agents to operate effectively over extended timeframes, it is crucial to develop models that form and access memories to stay contextualized in their environment",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=9eIntNc69t",
     "arxiv": "",
     "detail": ""
    }
