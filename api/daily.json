@@ -1,57 +1,33 @@
 {
  "schema_version": 1,
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 292,
-  "position": 292,
+  "day_index": 293,
+  "position": 293,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-29",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Position: Anthropomorphic Misalignment Research Needs Stronger Evidence",
+  "uid": "neurips-2025-spotlight-252",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Searching Latent Program Spaces",
   "authors": [
-   "Vansh Gupta",
-   "Peter Nutter",
-   "Samuel Stante",
-   "Andreas Krause",
-   "Florian Tramer",
-   "Lukas Fluri",
-   "Xin Chen",
-   "Anna Hedström"
+   "Matthew Macfarlane",
+   "Clément Bonnet"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "General intelligence requires systems that acquire new skills efficiently and generalize beyond their training distributions",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=CsXKGIqZtr",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71063"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-252",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Searching Latent Program Spaces",
-   "authors": [
-    "Matthew Macfarlane",
-    "Clément Bonnet"
-   ],
-   "affiliation": "",
-   "summary": "General intelligence requires systems that acquire new skills efficiently and generalize beyond their training distributions",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=CsXKGIqZtr",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-26",
    "conference": "NeurIPS",
@@ -114,6 +90,31 @@
    "summary": "To enable embodied agents to operate effectively over extended timeframes, it is crucial to develop models that form and access memories to stay contextualized in their environment",
    "links": {
     "openreview": "https://openreview.net/forum?id=9eIntNc69t",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-150",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents",
+   "authors": [
+    "Deyu Zou",
+    "Yongqiang Chen",
+    "Jianxiang Wang",
+    "Garry YANG",
+    "Mufei Li",
+    "Qing Da",
+    "James Cheng",
+    "Pan Li",
+    "Yu Gong"
+   ],
+   "affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong",
+   "summary": "Active reasoning requires large language model (LLM) agents to interact with external sources and strategically gather information to solve problems in multiple turns. Central to this process is belief tracking: maintaining an accurate representation of the underlying state and uncertainty in understanding and solving the problem.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=r8hzDA3pUY",
     "arxiv": "",
     "detail": ""
    }
