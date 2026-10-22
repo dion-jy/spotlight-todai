@@ -1,55 +1,37 @@
 {
  "schema_version": 1,
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 293,
-  "position": 293,
+  "day_index": 294,
+  "position": 294,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-252",
+  "uid": "neurips-2025-spotlight-26",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Searching Latent Program Spaces",
+  "title": "Bridging Theory and Practice in Link Representation with Graph Neural Networks",
   "authors": [
-   "Matthew Macfarlane",
-   "Clément Bonnet"
+   "Veronica Lachi",
+   "Francesco Ferrini",
+   "Antonio Longa",
+   "Bruno Lepri",
+   "Andrea Passerini",
+   "Manfred Jaeger"
   ],
   "affiliation": "",
-  "summary": "General intelligence requires systems that acquire new skills efficiently and generalize beyond their training distributions",
+  "summary": "Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction",
   "links": {
-   "openreview": "https://openreview.net/forum?id=CsXKGIqZtr",
+   "openreview": "https://openreview.net/forum?id=WYnvP3DePZ",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-26",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Bridging Theory and Practice in Link Representation with Graph Neural Networks",
-   "authors": [
-    "Veronica Lachi",
-    "Francesco Ferrini",
-    "Antonio Longa",
-    "Bruno Lepri",
-    "Andrea Passerini",
-    "Manfred Jaeger"
-   ],
-   "affiliation": "",
-   "summary": "Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=WYnvP3DePZ",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-203",
    "conference": "NeurIPS",
@@ -115,6 +97,25 @@
    "summary": "Active reasoning requires large language model (LLM) agents to interact with external sources and strategically gather information to solve problems in multiple turns. Central to this process is belief tracking: maintaining an accurate representation of the underlying state and uncertainty in understanding and solving the problem.",
    "links": {
     "openreview": "https://openreview.net/forum?id=r8hzDA3pUY",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-30",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "p-less Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
+   "authors": [
+    "Runyan Tan",
+    "Shuang Wu",
+    "Phillip Howard"
+   ],
+   "affiliation": "AI Labs, Thoughtworks",
+   "summary": "P-less Sampling: A parameterless sampling strategy grounded in information theory, where the truncation threshold adapts to the entire token probability distribution, is bounded and valid, and dynamically adjusts with temperature.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=ItFuNJQGH4",
     "arxiv": "",
     "detail": ""
    }
