@@ -1,60 +1,38 @@
 {
  "schema_version": 1,
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 294,
-  "position": 294,
+  "day_index": 295,
+  "position": 295,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-26",
+  "uid": "neurips-2025-spotlight-203",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Bridging Theory and Practice in Link Representation with Graph Neural Networks",
+  "title": "SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning",
   "authors": [
-   "Veronica Lachi",
-   "Francesco Ferrini",
-   "Antonio Longa",
-   "Bruno Lepri",
-   "Andrea Passerini",
-   "Manfred Jaeger"
+   "Borong Zhang",
+   "Yuhao Zhang",
+   "Jiaming Ji",
+   "Yingshan Lei",
+   "Josef Dai",
+   "Yuanpei Chen",
+   "Yaodong Yang"
   ],
   "affiliation": "",
-  "summary": "Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction",
+  "summary": "Vision-language-action models (VLAs) show potential as generalist robot policies",
   "links": {
-   "openreview": "https://openreview.net/forum?id=WYnvP3DePZ",
+   "openreview": "https://openreview.net/forum?id=dt940loCBT",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-203",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning",
-   "authors": [
-    "Borong Zhang",
-    "Yuhao Zhang",
-    "Jiaming Ji",
-    "Yingshan Lei",
-    "Josef Dai",
-    "Yuanpei Chen",
-    "Yaodong Yang"
-   ],
-   "affiliation": "",
-   "summary": "Vision-language-action models (VLAs) show potential as generalist robot policies",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=dt940loCBT",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-320",
    "conference": "NeurIPS",
@@ -116,6 +94,27 @@
    "summary": "P-less Sampling: A parameterless sampling strategy grounded in information theory, where the truncation threshold adapts to the entire token probability distribution, is bounded and valid, and dynamically adjusts with temperature.",
    "links": {
     "openreview": "https://openreview.net/forum?id=ItFuNJQGH4",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-319",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "L2DGCN: Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias",
+   "authors": [
+    "jingxiao zhang",
+    "Shifei Ding",
+    "Jian Zhang",
+    "Lili Guo",
+    "Xuan Li"
+   ],
+   "affiliation": "",
+   "summary": "Graph Neural Networks (GNNs) are powerful models for node classification, but their performance is heavily reliant on manually labeled data, which is often costly and results in insufficient labeling",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=PoIhCjqzn0",
     "arxiv": "",
     "detail": ""
    }
