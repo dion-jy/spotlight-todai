@@ -1,59 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 295,
-  "position": 295,
+  "day_index": 296,
+  "position": 296,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-203",
+  "uid": "neurips-2025-spotlight-320",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning",
+  "title": "Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning",
   "authors": [
-   "Borong Zhang",
-   "Yuhao Zhang",
-   "Jiaming Ji",
-   "Yingshan Lei",
-   "Josef Dai",
-   "Yuanpei Chen",
-   "Yaodong Yang"
+   "Gunshi Gupta",
+   "Karmesh Yadav",
+   "Zsolt Kira",
+   "Yarin Gal",
+   "Rahaf Aljundi"
   ],
   "affiliation": "",
-  "summary": "Vision-language-action models (VLAs) show potential as generalist robot policies",
+  "summary": "To enable embodied agents to operate effectively over extended timeframes, it is crucial to develop models that form and access memories to stay contextualized in their environment",
   "links": {
-   "openreview": "https://openreview.net/forum?id=dt940loCBT",
+   "openreview": "https://openreview.net/forum?id=9eIntNc69t",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-320",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning",
-   "authors": [
-    "Gunshi Gupta",
-    "Karmesh Yadav",
-    "Zsolt Kira",
-    "Yarin Gal",
-    "Rahaf Aljundi"
-   ],
-   "affiliation": "",
-   "summary": "To enable embodied agents to operate effectively over extended timeframes, it is crucial to develop models that form and access memories to stay contextualized in their environment",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=9eIntNc69t",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-150",
    "conference": "ICLR",
@@ -115,6 +92,27 @@
    "summary": "Graph Neural Networks (GNNs) are powerful models for node classification, but their performance is heavily reliant on manually labeled data, which is often costly and results in insufficient labeling",
    "links": {
     "openreview": "https://openreview.net/forum?id=PoIhCjqzn0",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-9",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "An Analysis of Causal Effect Estimation using Outcome Invariant Data Augmentation",
+   "authors": [
+    "UZAIR AKBAR",
+    "Niki Kilbertus",
+    "Hao Shen",
+    "Krikamol Muandet",
+    "Bo Dai"
+   ],
+   "affiliation": "",
+   "summary": "The technique of data augmentation (DA) is often used in machine learning for regularization purposes to better generalize under i",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=C1LVIInfZO",
     "arxiv": "",
     "detail": ""
    }
