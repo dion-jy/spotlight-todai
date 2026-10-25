@@ -1,61 +1,40 @@
 {
  "schema_version": 1,
- "date": "2026-10-24",
+ "date": "2026-10-25",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 296,
-  "position": 296,
+  "day_index": 297,
+  "position": 297,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-320",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning",
+  "uid": "iclr-2026-oral-150",
+  "conference": "ICLR",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents",
   "authors": [
-   "Gunshi Gupta",
-   "Karmesh Yadav",
-   "Zsolt Kira",
-   "Yarin Gal",
-   "Rahaf Aljundi"
+   "Deyu Zou",
+   "Yongqiang Chen",
+   "Jianxiang Wang",
+   "Garry YANG",
+   "Mufei Li",
+   "Qing Da",
+   "James Cheng",
+   "Pan Li",
+   "Yu Gong"
   ],
-  "affiliation": "",
-  "summary": "To enable embodied agents to operate effectively over extended timeframes, it is crucial to develop models that form and access memories to stay contextualized in their environment",
+  "affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong",
+  "summary": "Active reasoning requires large language model (LLM) agents to interact with external sources and strategically gather information to solve problems in multiple turns. Central to this process is belief tracking: maintaining an accurate representation of the underlying state and uncertainty in understanding and solving the problem.",
   "links": {
-   "openreview": "https://openreview.net/forum?id=9eIntNc69t",
+   "openreview": "https://openreview.net/forum?id=r8hzDA3pUY",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-150",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents",
-   "authors": [
-    "Deyu Zou",
-    "Yongqiang Chen",
-    "Jianxiang Wang",
-    "Garry YANG",
-    "Mufei Li",
-    "Qing Da",
-    "James Cheng",
-    "Pan Li",
-    "Yu Gong"
-   ],
-   "affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong",
-   "summary": "Active reasoning requires large language model (LLM) agents to interact with external sources and strategically gather information to solve problems in multiple turns. Central to this process is belief tracking: maintaining an accurate representation of the underlying state and uncertainty in understanding and solving the problem.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=r8hzDA3pUY",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-30",
    "conference": "ICLR",
@@ -115,6 +94,25 @@
     "openreview": "https://openreview.net/forum?id=C1LVIInfZO",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-7",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "DiScoFormer: Plug-In Density and Score Estimation with Transformers",
+   "authors": [
+    "Vasily Ilin",
+    "Peter Sushko",
+    "Ranjay Krishna"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71039"
    }
   }
  ]
