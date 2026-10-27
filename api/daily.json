@@ -1,55 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 298,
-  "position": 298,
+  "day_index": 299,
+  "position": 299,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-30",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "p-less Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding",
+  "uid": "neurips-2025-spotlight-319",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "L2DGCN: Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias",
   "authors": [
-   "Runyan Tan",
-   "Shuang Wu",
-   "Phillip Howard"
+   "jingxiao zhang",
+   "Shifei Ding",
+   "Jian Zhang",
+   "Lili Guo",
+   "Xuan Li"
   ],
-  "affiliation": "AI Labs, Thoughtworks",
-  "summary": "P-less Sampling: A parameterless sampling strategy grounded in information theory, where the truncation threshold adapts to the entire token probability distribution, is bounded and valid, and dynamically adjusts with temperature.",
+  "affiliation": "",
+  "summary": "Graph Neural Networks (GNNs) are powerful models for node classification, but their performance is heavily reliant on manually labeled data, which is often costly and results in insufficient labeling",
   "links": {
-   "openreview": "https://openreview.net/forum?id=ItFuNJQGH4",
+   "openreview": "https://openreview.net/forum?id=PoIhCjqzn0",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-319",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "L2DGCN: Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias",
-   "authors": [
-    "jingxiao zhang",
-    "Shifei Ding",
-    "Jian Zhang",
-    "Lili Guo",
-    "Xuan Li"
-   ],
-   "affiliation": "",
-   "summary": "Graph Neural Networks (GNNs) are powerful models for node classification, but their performance is heavily reliant on manually labeled data, which is often costly and results in insufficient labeling",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=PoIhCjqzn0",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-9",
    "conference": "NeurIPS",
@@ -107,6 +88,26 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71056"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-470",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "FP4 All the Way: Fully Quantized Training of Large Language Models",
+   "authors": [
+    "Brian Chmiel",
+    "Maxim Fishman",
+    "Ron Banner",
+    "Daniel Soudry"
+   ],
+   "affiliation": "",
+   "summary": "We demonstrate, for the first time, fully quantized training (FQT) of large language models (LLMs) using predominantly 4-bit floating-point (FP4) precision for weights, activations, and gradients on d",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=kuzye4EPLR",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
