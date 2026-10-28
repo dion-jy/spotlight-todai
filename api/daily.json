@@ -1,57 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 299,
-  "position": 299,
+  "day_index": 300,
+  "position": 300,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-319",
+  "uid": "neurips-2025-spotlight-9",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "L2DGCN: Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias",
+  "title": "An Analysis of Causal Effect Estimation using Outcome Invariant Data Augmentation",
   "authors": [
-   "jingxiao zhang",
-   "Shifei Ding",
-   "Jian Zhang",
-   "Lili Guo",
-   "Xuan Li"
+   "UZAIR AKBAR",
+   "Niki Kilbertus",
+   "Hao Shen",
+   "Krikamol Muandet",
+   "Bo Dai"
   ],
   "affiliation": "",
-  "summary": "Graph Neural Networks (GNNs) are powerful models for node classification, but their performance is heavily reliant on manually labeled data, which is often costly and results in insufficient labeling",
+  "summary": "The technique of data augmentation (DA) is often used in machine learning for regularization purposes to better generalize under i",
   "links": {
-   "openreview": "https://openreview.net/forum?id=PoIhCjqzn0",
+   "openreview": "https://openreview.net/forum?id=C1LVIInfZO",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-9",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "An Analysis of Causal Effect Estimation using Outcome Invariant Data Augmentation",
-   "authors": [
-    "UZAIR AKBAR",
-    "Niki Kilbertus",
-    "Hao Shen",
-    "Krikamol Muandet",
-    "Bo Dai"
-   ],
-   "affiliation": "",
-   "summary": "The technique of data augmentation (DA) is often used in machine learning for regularization purposes to better generalize under i",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=C1LVIInfZO",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-7",
    "conference": "ICML",
@@ -108,6 +87,27 @@
     "openreview": "https://openreview.net/forum?id=kuzye4EPLR",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-27",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Riemannian Metric Matching for Scalable Geometric Modeling of Distributions",
+   "authors": [
+    "Jacob Bamberger",
+    "Adam Gosztolai",
+    "Pierre Vandergheynst",
+    "Michael Bronstein",
+    "Iolo Jones"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71042"
    }
   }
  ]
