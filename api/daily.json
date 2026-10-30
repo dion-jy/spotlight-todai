@@ -1,53 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 301,
-  "position": 301,
+  "day_index": 302,
+  "position": 302,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-7",
+  "uid": "icml-2026-oral-40",
   "conference": "ICML",
   "year": 2026,
   "track": "Oral",
-  "title": "DiScoFormer: Plug-In Density and Score Estimation with Transformers",
+  "title": "Detecting the Semantic Fixed Point: A Geometric Framework for Efficient Inference",
   "authors": [
-   "Vasily Ilin",
-   "Peter Sushko",
-   "Ranjay Krishna"
+   "Jiawei Gu",
+   "Ziyue Qiao",
+   "Xiao Luo"
   ],
   "affiliation": "",
   "summary": "",
   "links": {
    "openreview": "",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71039"
+   "detail": "https://icml.cc/virtual/2026/oral/71056"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-40",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Detecting the Semantic Fixed Point: A Geometric Framework for Efficient Inference",
-   "authors": [
-    "Jiawei Gu",
-    "Ziyue Qiao",
-    "Xiao Luo"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71056"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-470",
    "conference": "NeurIPS",
@@ -115,6 +96,26 @@
    "summary": "Recent advances in foundation models highlight a clear trend toward unification and scaling, showing emergent capabilities across diverse domains. While image generation and editing have rapidly transitioned from task-specific to unified frameworks, video generation and editing remain fragmented due to architectural limitations and data scarcity.",
    "links": {
     "openreview": "https://openreview.net/forum?id=blJXE07r7I",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-625",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Optimization Inspired Few-Shot Adaptation for Large Language Models",
+   "authors": [
+    "Boyan Gao",
+    "Xin Wang",
+    "Yibo Yang",
+    "David A. Clifton"
+   ],
+   "affiliation": "",
+   "summary": "Large Language Models (LLMs) have demonstrated remarkable performance in real-world applications",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=rZ2nSt1X58",
     "arxiv": "",
     "detail": ""
    }
