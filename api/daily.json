@@ -1,54 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 302,
-  "position": 302,
+  "day_index": 303,
+  "position": 303,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-40",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Detecting the Semantic Fixed Point: A Geometric Framework for Efficient Inference",
+  "uid": "neurips-2025-spotlight-470",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "FP4 All the Way: Fully Quantized Training of Large Language Models",
   "authors": [
-   "Jiawei Gu",
-   "Ziyue Qiao",
-   "Xiao Luo"
+   "Brian Chmiel",
+   "Maxim Fishman",
+   "Ron Banner",
+   "Daniel Soudry"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "We demonstrate, for the first time, fully quantized training (FQT) of large language models (LLMs) using predominantly 4-bit floating-point (FP4) precision for weights, activations, and gradients on d",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=kuzye4EPLR",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71056"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-470",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "FP4 All the Way: Fully Quantized Training of Large Language Models",
-   "authors": [
-    "Brian Chmiel",
-    "Maxim Fishman",
-    "Ron Banner",
-    "Daniel Soudry"
-   ],
-   "affiliation": "",
-   "summary": "We demonstrate, for the first time, fully quantized training (FQT) of large language models (LLMs) using predominantly 4-bit floating-point (FP4) precision for weights, activations, and gradients on d",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=kuzye4EPLR",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-27",
    "conference": "ICML",
@@ -118,6 +99,31 @@
     "openreview": "https://openreview.net/forum?id=rZ2nSt1X58",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-47",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies",
+   "authors": [
+    "Yinpei Dai",
+    "Hongze Fu",
+    "Jayjun Lee",
+    "Yuejiang Liu",
+    "Haoran Zhang",
+    "Jianing Yang",
+    "Chelsea Finn",
+    "Nima Fazeli",
+    "Joyce Chai"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71077"
    }
   }
  ]
