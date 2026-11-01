@@ -1,56 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 303,
-  "position": 303,
+  "day_index": 304,
+  "position": 304,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-470",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "FP4 All the Way: Fully Quantized Training of Large Language Models",
+  "uid": "icml-2026-oral-27",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Riemannian Metric Matching for Scalable Geometric Modeling of Distributions",
   "authors": [
-   "Brian Chmiel",
-   "Maxim Fishman",
-   "Ron Banner",
-   "Daniel Soudry"
+   "Jacob Bamberger",
+   "Adam Gosztolai",
+   "Pierre Vandergheynst",
+   "Michael Bronstein",
+   "Iolo Jones"
   ],
   "affiliation": "",
-  "summary": "We demonstrate, for the first time, fully quantized training (FQT) of large language models (LLMs) using predominantly 4-bit floating-point (FP4) precision for weights, activations, and gradients on d",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=kuzye4EPLR",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71042"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-27",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Riemannian Metric Matching for Scalable Geometric Modeling of Distributions",
-   "authors": [
-    "Jacob Bamberger",
-    "Adam Gosztolai",
-    "Pierre Vandergheynst",
-    "Michael Bronstein",
-    "Iolo Jones"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71042"
-   }
-  },
   {
    "uid": "iclr-2026-oral-154",
    "conference": "ICLR",
@@ -124,6 +104,27 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71077"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-669",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition",
+   "authors": [
+    "Daolang Huang",
+    "Xinyi Wen",
+    "Ayush Bharti",
+    "Samuel Kaski",
+    "Luigi Acerbi"
+   ],
+   "affiliation": "",
+   "summary": "Many critical applications, from autonomous scientific discovery to personalized medicine, demand systems that can both strategically acquire the most informative data and instantaneously perform infe",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=btm5Z5Vu8G",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
