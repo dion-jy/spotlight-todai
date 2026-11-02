@@ -1,66 +1,45 @@
 {
  "schema_version": 1,
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 304,
-  "position": 304,
+  "day_index": 305,
+  "position": 305,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-27",
-  "conference": "ICML",
+  "uid": "iclr-2026-oral-154",
+  "conference": "ICLR",
   "year": 2026,
   "track": "Oral",
-  "title": "Riemannian Metric Matching for Scalable Geometric Modeling of Distributions",
+  "title": "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning",
   "authors": [
-   "Jacob Bamberger",
-   "Adam Gosztolai",
-   "Pierre Vandergheynst",
-   "Michael Bronstein",
-   "Iolo Jones"
+   "Xuan Ju",
+   "Tianyu Wang",
+   "Yuqian Zhou",
+   "He Zhang",
+   "Qing Liu",
+   "Nanxuan Zhao",
+   "Zhifei Zhang",
+   "Yijun Li",
+   "Yuanhao Cai",
+   "Shaoteng Liu",
+   "Daniil Pakhomov",
+   "Zhe Lin",
+   "Soo Ye Kim",
+   "Qiang Xu"
   ],
-  "affiliation": "",
-  "summary": "",
+  "affiliation": "Chinese University of Hong Kong",
+  "summary": "Recent advances in foundation models highlight a clear trend toward unification and scaling, showing emergent capabilities across diverse domains. While image generation and editing have rapidly transitioned from task-specific to unified frameworks, video generation and editing remain fragmented due to architectural limitations and data scarcity.",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=blJXE07r7I",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71042"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "iclr-2026-oral-154",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning",
-   "authors": [
-    "Xuan Ju",
-    "Tianyu Wang",
-    "Yuqian Zhou",
-    "He Zhang",
-    "Qing Liu",
-    "Nanxuan Zhao",
-    "Zhifei Zhang",
-    "Yijun Li",
-    "Yuanhao Cai",
-    "Shaoteng Liu",
-    "Daniil Pakhomov",
-    "Zhe Lin",
-    "Soo Ye Kim",
-    "Qiang Xu"
-   ],
-   "affiliation": "Chinese University of Hong Kong",
-   "summary": "Recent advances in foundation models highlight a clear trend toward unification and scaling, showing emergent capabilities across diverse domains. While image generation and editing have rapidly transitioned from task-specific to unified frameworks, video generation and editing remain fragmented due to architectural limitations and data scarcity.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=blJXE07r7I",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-625",
    "conference": "NeurIPS",
@@ -125,6 +104,32 @@
     "openreview": "https://openreview.net/forum?id=btm5Z5Vu8G",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-100",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Solving Time-Dependent Differential Equations with Physical Dynamical Systems",
+   "authors": [
+    "Chuan Liu",
+    "Yijie Chen",
+    "Ruibing Song",
+    "Wenhao Huang",
+    "Chunshu Wu",
+    "Deqian Kong",
+    "Ying Nian Wu",
+    "Kaiyuan Yang",
+    "Ang Li",
+    "Tony Geng"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71129"
    }
   }
  ]
