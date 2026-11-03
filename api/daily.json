@@ -1,65 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 305,
-  "position": 305,
+  "day_index": 306,
+  "position": 306,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-154",
-  "conference": "ICLR",
-  "year": 2026,
-  "track": "Oral",
-  "title": "EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning",
+  "uid": "neurips-2025-spotlight-625",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Optimization Inspired Few-Shot Adaptation for Large Language Models",
   "authors": [
-   "Xuan Ju",
-   "Tianyu Wang",
-   "Yuqian Zhou",
-   "He Zhang",
-   "Qing Liu",
-   "Nanxuan Zhao",
-   "Zhifei Zhang",
-   "Yijun Li",
-   "Yuanhao Cai",
-   "Shaoteng Liu",
-   "Daniil Pakhomov",
-   "Zhe Lin",
-   "Soo Ye Kim",
-   "Qiang Xu"
+   "Boyan Gao",
+   "Xin Wang",
+   "Yibo Yang",
+   "David A. Clifton"
   ],
-  "affiliation": "Chinese University of Hong Kong",
-  "summary": "Recent advances in foundation models highlight a clear trend toward unification and scaling, showing emergent capabilities across diverse domains. While image generation and editing have rapidly transitioned from task-specific to unified frameworks, video generation and editing remain fragmented due to architectural limitations and data scarcity.",
+  "affiliation": "",
+  "summary": "Large Language Models (LLMs) have demonstrated remarkable performance in real-world applications",
   "links": {
-   "openreview": "https://openreview.net/forum?id=blJXE07r7I",
+   "openreview": "https://openreview.net/forum?id=rZ2nSt1X58",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-625",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Optimization Inspired Few-Shot Adaptation for Large Language Models",
-   "authors": [
-    "Boyan Gao",
-    "Xin Wang",
-    "Yibo Yang",
-    "David A. Clifton"
-   ],
-   "affiliation": "",
-   "summary": "Large Language Models (LLMs) have demonstrated remarkable performance in real-world applications",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=rZ2nSt1X58",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-47",
    "conference": "ICML",
@@ -130,6 +100,25 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71129"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-310",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Tackling Biased Evaluators in Dueling Bandits",
+   "authors": [
+    "Ming Tang",
+    "Yuxuan Zhou",
+    "Chao Huang"
+   ],
+   "affiliation": "",
+   "summary": "In dueling bandits, an agent explores and exploits choices (i",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=ThgoX1dMeM",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
