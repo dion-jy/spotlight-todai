@@ -1,60 +1,40 @@
 {
  "schema_version": 1,
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 306,
-  "position": 306,
+  "day_index": 307,
+  "position": 307,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-625",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "Optimization Inspired Few-Shot Adaptation for Large Language Models",
+  "uid": "icml-2026-oral-47",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies",
   "authors": [
-   "Boyan Gao",
-   "Xin Wang",
-   "Yibo Yang",
-   "David A. Clifton"
+   "Yinpei Dai",
+   "Hongze Fu",
+   "Jayjun Lee",
+   "Yuejiang Liu",
+   "Haoran Zhang",
+   "Jianing Yang",
+   "Chelsea Finn",
+   "Nima Fazeli",
+   "Joyce Chai"
   ],
   "affiliation": "",
-  "summary": "Large Language Models (LLMs) have demonstrated remarkable performance in real-world applications",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=rZ2nSt1X58",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71077"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-47",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies",
-   "authors": [
-    "Yinpei Dai",
-    "Hongze Fu",
-    "Jayjun Lee",
-    "Yuejiang Liu",
-    "Haoran Zhang",
-    "Jianing Yang",
-    "Chelsea Finn",
-    "Nima Fazeli",
-    "Joyce Chai"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71077"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-669",
    "conference": "NeurIPS",
@@ -117,6 +97,30 @@
    "summary": "In dueling bandits, an agent explores and exploits choices (i",
    "links": {
     "openreview": "https://openreview.net/forum?id=ThgoX1dMeM",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-340",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models",
+   "authors": [
+    "Ziyi Wu",
+    "Anil Kag",
+    "Ivan Skorokhodov",
+    "Willi Menapace",
+    "Ashkan Mirzaei",
+    "Igor Gilitschenski",
+    "Sergey Tulyakov",
+    "Aliaksandr Siarohin"
+   ],
+   "affiliation": "",
+   "summary": "Direct Preference Optimization (DPO) has recently been applied as a post‑training technique for text-to-video diffusion models",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=YFa7eULIeN",
     "arxiv": "",
     "detail": ""
    }
