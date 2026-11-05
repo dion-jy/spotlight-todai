@@ -1,61 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 307,
-  "position": 307,
+  "day_index": 308,
+  "position": 308,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-47",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies",
+  "uid": "neurips-2025-spotlight-669",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition",
   "authors": [
-   "Yinpei Dai",
-   "Hongze Fu",
-   "Jayjun Lee",
-   "Yuejiang Liu",
-   "Haoran Zhang",
-   "Jianing Yang",
-   "Chelsea Finn",
-   "Nima Fazeli",
-   "Joyce Chai"
+   "Daolang Huang",
+   "Xinyi Wen",
+   "Ayush Bharti",
+   "Samuel Kaski",
+   "Luigi Acerbi"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "Many critical applications, from autonomous scientific discovery to personalized medicine, demand systems that can both strategically acquire the most informative data and instantaneously perform infe",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=btm5Z5Vu8G",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71077"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-669",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition",
-   "authors": [
-    "Daolang Huang",
-    "Xinyi Wen",
-    "Ayush Bharti",
-    "Samuel Kaski",
-    "Luigi Acerbi"
-   ],
-   "affiliation": "",
-   "summary": "Many critical applications, from autonomous scientific discovery to personalized medicine, demand systems that can both strategically acquire the most informative data and instantaneously perform infe",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=btm5Z5Vu8G",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-100",
    "conference": "ICML",
@@ -123,6 +98,29 @@
     "openreview": "https://openreview.net/forum?id=YFa7eULIeN",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-89",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "DPO Unchained: Your Training Algorithm is Secretly Disentangled in Human Choice Theory (and Its Loss' Convexity is Dispensable)",
+   "authors": [
+    "Wenxuan Zhou",
+    "Shujian Zhang",
+    "brice magdalou",
+    "John Lambert",
+    "Ehsan Amid",
+    "Richard Nock",
+    "Andrew Hard"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71131"
    }
   }
  ]
