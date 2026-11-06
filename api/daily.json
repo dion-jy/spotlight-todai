@@ -1,62 +1,41 @@
 {
  "schema_version": 1,
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 308,
-  "position": 308,
+  "day_index": 309,
+  "position": 309,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-669",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "ALINE: Joint Amortization for Bayesian Inference and Active Data Acquisition",
+  "uid": "icml-2026-oral-100",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "Solving Time-Dependent Differential Equations with Physical Dynamical Systems",
   "authors": [
-   "Daolang Huang",
-   "Xinyi Wen",
-   "Ayush Bharti",
-   "Samuel Kaski",
-   "Luigi Acerbi"
+   "Chuan Liu",
+   "Yijie Chen",
+   "Ruibing Song",
+   "Wenhao Huang",
+   "Chunshu Wu",
+   "Deqian Kong",
+   "Ying Nian Wu",
+   "Kaiyuan Yang",
+   "Ang Li",
+   "Tony Geng"
   ],
   "affiliation": "",
-  "summary": "Many critical applications, from autonomous scientific discovery to personalized medicine, demand systems that can both strategically acquire the most informative data and instantaneously perform infe",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=btm5Z5Vu8G",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71129"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-100",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Solving Time-Dependent Differential Equations with Physical Dynamical Systems",
-   "authors": [
-    "Chuan Liu",
-    "Yijie Chen",
-    "Ruibing Song",
-    "Wenhao Huang",
-    "Chunshu Wu",
-    "Deqian Kong",
-    "Ying Nian Wu",
-    "Kaiyuan Yang",
-    "Ang Li",
-    "Tony Geng"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71129"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-310",
    "conference": "NeurIPS",
@@ -121,6 +100,26 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71131"
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-211",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "A Principled Path to Fitted Distributional Evaluation",
+   "authors": [
+    "Sungee Hong",
+    "Jiayi Wang",
+    "Zhengling Qi",
+    "Raymond K. W. Wong"
+   ],
+   "affiliation": "",
+   "summary": "In reinforcement learning, distributional off-policy evaluation (OPE) focuses on estimating the return distribution of a target policy using offline data collected under a different policy",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=Gte3F0ONhr",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
