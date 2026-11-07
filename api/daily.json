@@ -1,60 +1,34 @@
 {
  "schema_version": 1,
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 309,
-  "position": 309,
+  "day_index": 310,
+  "position": 310,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-100",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "Solving Time-Dependent Differential Equations with Physical Dynamical Systems",
+  "uid": "neurips-2025-spotlight-310",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "Tackling Biased Evaluators in Dueling Bandits",
   "authors": [
-   "Chuan Liu",
-   "Yijie Chen",
-   "Ruibing Song",
-   "Wenhao Huang",
-   "Chunshu Wu",
-   "Deqian Kong",
-   "Ying Nian Wu",
-   "Kaiyuan Yang",
-   "Ang Li",
-   "Tony Geng"
+   "Ming Tang",
+   "Yuxuan Zhou",
+   "Chao Huang"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "In dueling bandits, an agent explores and exploits choices (i",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=ThgoX1dMeM",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71129"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-310",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Tackling Biased Evaluators in Dueling Bandits",
-   "authors": [
-    "Ming Tang",
-    "Yuxuan Zhou",
-    "Chao Huang"
-   ],
-   "affiliation": "",
-   "summary": "In dueling bandits, an agent explores and exploits choices (i",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=ThgoX1dMeM",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-340",
    "conference": "NeurIPS",
@@ -120,6 +94,27 @@
     "openreview": "https://openreview.net/forum?id=Gte3F0ONhr",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-56",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "MuonSSM: Orthogonalizing State Space Models for Sequence Modeling",
+   "authors": [
+    "Thai Khanh Nguyen",
+    "Ngoc Bich Uyen Vo",
+    "Thieu Vo",
+    "Tan Nguyen",
+    "Cuong Pham"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71058"
    }
   }
  ]
