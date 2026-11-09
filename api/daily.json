@@ -1,62 +1,38 @@
 {
  "schema_version": 1,
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 311,
-  "position": 311,
+  "day_index": 312,
+  "position": 312,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-340",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "DenseDPO: Fine-Grained Temporal Preference Optimization for Video Diffusion Models",
+  "uid": "icml-2026-oral-89",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "DPO Unchained: Your Training Algorithm is Secretly Disentangled in Human Choice Theory (and Its Loss' Convexity is Dispensable)",
   "authors": [
-   "Ziyi Wu",
-   "Anil Kag",
-   "Ivan Skorokhodov",
-   "Willi Menapace",
-   "Ashkan Mirzaei",
-   "Igor Gilitschenski",
-   "Sergey Tulyakov",
-   "Aliaksandr Siarohin"
+   "Wenxuan Zhou",
+   "Shujian Zhang",
+   "brice magdalou",
+   "John Lambert",
+   "Ehsan Amid",
+   "Richard Nock",
+   "Andrew Hard"
   ],
   "affiliation": "",
-  "summary": "Direct Preference Optimization (DPO) has recently been applied as a post‑training technique for text-to-video diffusion models",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=YFa7eULIeN",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71131"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-89",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "DPO Unchained: Your Training Algorithm is Secretly Disentangled in Human Choice Theory (and Its Loss' Convexity is Dispensable)",
-   "authors": [
-    "Wenxuan Zhou",
-    "Shujian Zhang",
-    "brice magdalou",
-    "John Lambert",
-    "Ehsan Amid",
-    "Richard Nock",
-    "Andrew Hard"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71131"
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-211",
    "conference": "NeurIPS",
@@ -115,6 +91,26 @@
    "summary": "LeanHammer integrates neural premise selection with symbolic reasoning to automate theorem proving in Lean.",
    "links": {
     "openreview": "https://openreview.net/forum?id=m04JJNeRK6",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-379",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Measuring and Controlling Solution Degeneracy across Task-Trained Recurrent Neural Networks",
+   "authors": [
+    "Ann Huang",
+    "Satpreet Harcharan Singh",
+    "Flavio Martinelli",
+    "Kanaka Rajan"
+   ],
+   "affiliation": "",
+   "summary": "Task-trained recurrent neural networks (RNNs) are widely used in neuroscience and machine learning to model dynamical computations",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=R0LqbSgZjP",
     "arxiv": "",
     "detail": ""
    }
