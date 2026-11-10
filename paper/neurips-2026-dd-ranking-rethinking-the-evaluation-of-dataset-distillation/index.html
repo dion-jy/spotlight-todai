@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DD-Ranking: Rethinking the Evaluation of Dataset Distillation — NeurIPS 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="DD-Ranking: Rethinking the Evaluation of Dataset Distillation — Oral paper at NeurIPS 2026 by Zekai Li, Xinhao Zhong, Samir Khaki et al. (UC San Diego).">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Oral paper, AI research paper, distillation, evaluation, dataset">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dd-ranking-rethinking-the-evaluation-of-dataset-distillation/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DD-Ranking: Rethinking the Evaluation of Dataset Distillation | NeurIPS 2026 Oral">
+<meta property="og:description" content="DD-Ranking: Rethinking the Evaluation of Dataset Distillation — Oral paper at NeurIPS 2026 by Zekai Li, Xinhao Zhong, Samir Khaki et al. (UC San Diego).">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dd-ranking-rethinking-the-evaluation-of-dataset-distillation/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DD-Ranking: Rethinking the Evaluation of Dataset Distillation | NeurIPS 2026 Oral">
+<meta name="twitter:description" content="DD-Ranking: Rethinking the Evaluation of Dataset Distillation — Oral paper at NeurIPS 2026 by Zekai Li, Xinhao Zhong, Samir Khaki et al. (UC San Diego).">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dd-ranking-rethinking-the-evaluation-of-dataset-distillation/#article",
+   "headline": "DD-Ranking: Rethinking the Evaluation of Dataset Distillation",
+   "name": "DD-Ranking: Rethinking the Evaluation of Dataset Distillation",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dd-ranking-rethinking-the-evaluation-of-dataset-distillation/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zekai Li",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "UC San Diego"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Xinhao Zhong"
+    },
+    {
+     "@type": "Person",
+     "name": "Samir Khaki"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiyuan Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuhao Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Mingjia Shi"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziqiao Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xuanlei Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Wangbo Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Ziheng Qin"
+    },
+    {
+     "@type": "Person",
+     "name": "Mengxuan Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Pengfei Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Haonan Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "David Junhao Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jia-Wei Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Shaobo Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Dai Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Linfeng Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Guang Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Kun Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zheng Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiheng Ma"
+    },
+    {
+     "@type": "Person",
+     "name": "Joey Tianyi Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiancheng Lv"
+    },
+    {
+     "@type": "Person",
+     "name": "Yaochu Jin"
+    },
+    {
+     "@type": "Person",
+     "name": "Peihao Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Kaipeng Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yiran Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiwei Deng"
+    },
+    {
+     "@type": "Person",
+     "name": "Xindi Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "George Cazenavette"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuzhang Shang"
+    },
+    {
+     "@type": "Person",
+     "name": "Justin CUI"
+    },
+    {
+     "@type": "Person",
+     "name": "Jindong Gu"
+    },
+    {
+     "@type": "Person",
+     "name": "Qian Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Hao Ye"
+    },
+    {
+     "@type": "Person",
+     "name": "Shuo Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Xiaobo Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yan Yan"
+    },
+    {
+     "@type": "Person",
+     "name": "Angela Yao"
+    },
+    {
+     "@type": "Person",
+     "name": "Mike Zheng Shou"
+    },
+    {
+     "@type": "Person",
+     "name": "Tianlong Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Hakan Bilen"
+    },
+    {
+     "@type": "Person",
+     "name": "Baharan Mirzasoleiman"
+    },
+    {
+     "@type": "Person",
+     "name": "Manolis Kellis"
+    },
+    {
+     "@type": "Person",
+     "name": "Konstantinos N Plataniotis"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhangyang &quot;Atlas&quot; Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Bo Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Yang You"
+    },
+    {
+     "@type": "Person",
+     "name": "Kai Wang"
+    }
+   ],
+   "keywords": [
+    "distillation",
+    "evaluation",
+    "dataset"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=UreH0QGZXp"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "DD-Ranking: Rethinking the Evaluation of Dataset Distillation",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dd-ranking-rethinking-the-evaluation-of-dataset-distillation/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-oral/">NeurIPS 2026 Oral</a></nav>
+<article>
+<h1>DD-Ranking: Rethinking the Evaluation of Dataset Distillation</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zekai Li, Xinhao Zhong, Samir Khaki, Zhiyuan Liang, Yuhao Zhou, Mingjia Shi, Ziqiao Wang, Xuanlei Zhao, Wangbo Zhao, Ziheng Qin, Mengxuan Wu, Pengfei Zhou, Haonan Wang, David Junhao Zhang, Jia-Wei Liu, Shaobo Wang, Dai Liu, Linfeng Zhang, Guang Li, Kun Wang, Zheng Zhu, Zhiheng Ma, Joey Tianyi Zhou, Jiancheng Lv, Yaochu Jin, Peihao Wang, Kaipeng Zhang, Yiran Huang, Zhiwei Deng, Xindi Wu, George Cazenavette, Yuzhang Shang, Justin CUI, Jindong Gu, Qian Zheng, Hao Ye, Shuo Wang, Xiaobo Wang, Yan Yan, Angela Yao, Mike Zheng Shou, Tianlong Chen, Hakan Bilen, Baharan Mirzasoleiman, Manolis Kellis, Konstantinos N Plataniotis, Zhangyang &amp;quot;Atlas&amp;quot; Wang, Bo Zhao, Yang You, Kai Wang</dd>
+<dt>Affiliation</dt><dd>UC San Diego</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=UreH0QGZXp" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">distillation</span>
+<span class="chip">evaluation</span>
+<span class="chip">dataset</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-unlocking-dataset-distillation-with-diffusion-models/">Unlocking Dataset Distillation with Diffusion Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-genai-evaluation-results-are-largely-artifacts-of-evaluation/">GenAI Evaluation Results are Largely Artifacts of Evaluation Design Choices: Evidence from Audit Studies of Resume Screening</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-alter-an-allen-s-algebra-based-evaluation-framework-for/">ALTER: An Allen's Algebra-Based Evaluation Framework for Temporal Reasoning of LLMs</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-habit-human-aware-behavior-and-interaction-training-dataset/">HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-resilience-matters-for-embodied-agents-system-new-metrics/">Resilience Matters for Embodied Agents System: New Metrics, Systematic Evaluation, and Optimization</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-leaderboard-hacking-preference-based-model-evaluations-are/">Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-oral/">← All NeurIPS 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

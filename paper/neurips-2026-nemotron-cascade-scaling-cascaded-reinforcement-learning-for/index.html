@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models — NeurIPS 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models — Oral paper at NeurIPS 2026 by Boxin Wang, Chankyu Lee…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Oral paper, AI research paper, reinforcement learning, reasoning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nemotron-cascade-scaling-cascaded-reinforcement-learning-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for… | NeurIPS 2026 Oral">
+<meta property="og:description" content="Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models — Oral paper at NeurIPS 2026 by Boxin Wang, Chankyu Lee…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nemotron-cascade-scaling-cascaded-reinforcement-learning-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for… | NeurIPS 2026 Oral">
+<meta name="twitter:description" content="Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models — Oral paper at NeurIPS 2026 by Boxin Wang, Chankyu Lee…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nemotron-cascade-scaling-cascaded-reinforcement-learning-for/#article",
+   "headline": "Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models",
+   "name": "Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nemotron-cascade-scaling-cascaded-reinforcement-learning-for/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Boxin Wang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "NVIDIA"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Chankyu Lee"
+    },
+    {
+     "@type": "Person",
+     "name": "Nayeon Lee"
+    },
+    {
+     "@type": "Person",
+     "name": "Sheng-Chieh Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenliang Dai"
+    },
+    {
+     "@type": "Person",
+     "name": "Yang Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Yangyi Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhuolin Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Zihan Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Mohammad Shoeybi"
+    },
+    {
+     "@type": "Person",
+     "name": "Bryan Catanzaro"
+    },
+    {
+     "@type": "Person",
+     "name": "Wei Ping"
+    }
+   ],
+   "keywords": [
+    "reinforcement learning",
+    "reasoning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=96v36aMNTx"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nemotron-cascade-scaling-cascaded-reinforcement-learning-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-oral/">NeurIPS 2026 Oral</a></nav>
+<article>
+<h1>Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Boxin Wang, Chankyu Lee, Nayeon Lee, Sheng-Chieh Lin, Wenliang Dai, Yang Chen, Yangyi Chen, Zhuolin Yang, Zihan Liu, Mohammad Shoeybi, Bryan Catanzaro, Wei Ping</dd>
+<dt>Affiliation</dt><dd>NVIDIA</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=96v36aMNTx" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+<span class="chip">reasoning</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-loongrl-reinforcement-learning-for-advanced-reasoning-over/">LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-reducing-belief-deviation-in-reinforcement-learning-for/">Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-emotionthinker-prosody-aware-reinforcement-learning-for/">EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech Emotion Reasoning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-reasoning-as-representation-rethinking-visual-reinforcement/">Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-understanding-reasoning-collapse-in-llm-agent-reinforcement/">Understanding Reasoning Collapse in LLM Agent Reinforcement Learning</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-does-reinforcement-learning-really-incentivize-reasoning/">Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</a> <span class="rel-venue">NeurIPS 2025 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-oral/">← All NeurIPS 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

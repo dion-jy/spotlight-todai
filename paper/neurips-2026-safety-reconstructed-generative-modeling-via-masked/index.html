@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails — Spotlight paper at NeurIPS 2026 by Gert Lek, Abele Mălan…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, generative model, diffusion, safety">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-safety-reconstructed-generative-modeling-via-masked/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Safety Reconstructed: Generative Modeling via Masked Diffusion… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails — Spotlight paper at NeurIPS 2026 by Gert Lek, Abele Mălan…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-safety-reconstructed-generative-modeling-via-masked/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Safety Reconstructed: Generative Modeling via Masked Diffusion… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails — Spotlight paper at NeurIPS 2026 by Gert Lek, Abele Mălan…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-safety-reconstructed-generative-modeling-via-masked/#article",
+   "headline": "Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails",
+   "name": "Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-safety-reconstructed-generative-modeling-via-masked/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Gert Lek",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "University of Neuchatel"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Abele Mălan"
+    },
+    {
+     "@type": "Person",
+     "name": "Chaoyi Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Pin-Yu Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Robert Birke"
+    },
+    {
+     "@type": "Person",
+     "name": "Lydia Chen"
+    }
+   ],
+   "keywords": [
+    "generative model",
+    "diffusion",
+    "safety"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=oIxNRF9huQ"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-safety-reconstructed-generative-modeling-via-masked/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Gert Lek, Abele Mălan, Chaoyi Zhu, Pin-Yu Chen, Robert Birke, Lydia Chen</dd>
+<dt>Affiliation</dt><dd>University of Neuchatel</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=oIxNRF9huQ" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">generative model</span>
+<span class="chip">diffusion</span>
+<span class="chip">safety</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-safety-guided-flow-sgf-a-unified-framework-for-negative/">SAFETY-GUIDED FLOW (SGF): A UNIFIED FRAMEWORK FOR NEGATIVE GUIDANCE IN SAFE GENERATION</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-gooddiffusion-proactive-copyright-protection-for-diffusion/">GoodDiffusion: Proactive Copyright Protection for Diffusion Generative Models via Learnable Sample-specific Signatures</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../neurips-2025-flow-density-control-generative-optimization-beyond-entropy/">Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-diffusion-generative-modeling-on-lie-group-representations/">Diffusion Generative Modeling on Lie Group Representations</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-boosting-generative-image-modeling-via-joint-image-feature/">Boosting Generative Image Modeling via Joint Image-Feature Synthesis</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-fpsattention-training-aware-fp8-and-sparsity-co-design-for/">FPSAttention: Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

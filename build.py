@@ -46,6 +46,8 @@ FILES = [
     ("icml-2026-spotlight.md",   "ICML",    2026, "Spotlight"),
     ("neurips-2025-oral.md",     "NeurIPS", 2025, "Oral"),
     ("neurips-2025-spotlight.md","NeurIPS", 2025, "Spotlight"),
+    ("neurips-2026-oral.md",     "NeurIPS", 2026, "Oral"),
+    ("neurips-2026-spotlight.md","NeurIPS", 2026, "Spotlight"),
 ]
 
 DATA_ROW_RE = re.compile(r"^\|\s*\d+\s*\|")          # table data rows start with "| <number> |"
@@ -468,7 +470,7 @@ def main():
         print("NOTE: %d linked page(s) not built yet — run build_pages.py"
               % len(missing))
 
-    expected = 224 + 168 + 9 + 77 + 689
+    expected = 224 + 168 + 9 + 77 + 689 + 132 + 335
     if total != expected:
         print("WARNING: total %d != expected %d" % (total, expected))
     else:

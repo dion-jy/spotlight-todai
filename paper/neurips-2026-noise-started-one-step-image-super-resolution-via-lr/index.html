@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement — Spotlight paper at NeurIPS 2026 by Wei Zhu, Kai Zhang…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, gan">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-noise-started-one-step-image-super-resolution-via-lr/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Noise-Started One-Step Image Super-Resolution via LR-Conditioned… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement — Spotlight paper at NeurIPS 2026 by Wei Zhu, Kai Zhang…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-noise-started-one-step-image-super-resolution-via-lr/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Noise-Started One-Step Image Super-Resolution via LR-Conditioned… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement — Spotlight paper at NeurIPS 2026 by Wei Zhu, Kai Zhang…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-noise-started-one-step-image-super-resolution-via-lr/#article",
+   "headline": "Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement",
+   "name": "Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-noise-started-one-step-image-super-resolution-via-lr/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Wei Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Kai Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yu Zheng"
+    },
+    {
+     "@type": "Person",
+     "name": "Lei Luo"
+    },
+    {
+     "@type": "Person",
+     "name": "Yong Guo"
+    },
+    {
+     "@type": "Person",
+     "name": "Jian Yang"
+    }
+   ],
+   "keywords": [
+    "gan"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=gMYBb0YVMl"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-noise-started-one-step-image-super-resolution-via-lr/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>Noise-Started One-Step Image Super-Resolution via LR-Conditioned SplitMeanFlow and GAN Refinement</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Wei Zhu, Kai Zhang, Yu Zheng, Lei Luo, Yong Guo, Jian Yang</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=gMYBb0YVMl" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">gan</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-universal-inverse-distillation-for-matching-models-with-real/">Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs)</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-invisible-safety-threat-malicious-finetuning-for-llm-via/">Invisible Safety Threat: Malicious Finetuning for LLM via Steganography</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-unisite-the-first-cross-structure-dataset-and-learning/">UniSite: The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-weisfeiler-leman-is-incomplete-on-simple-spectrum-graphs-so/">Weisfeiler-Leman Is Incomplete on Simple Spectrum Graphs, so Canonicalize Them</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-behavior-cloning-is-not-all-you-need-the-optimality-of-on/">Behavior Cloning is Not All You Need: The Optimality of On-Policy Distillation for Noisy Expert Feedback</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-trainable-topology-supervision-under-structurally-unreliable/">Trainable Topology Supervision under Structurally Unreliable Pseudo Supervision</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

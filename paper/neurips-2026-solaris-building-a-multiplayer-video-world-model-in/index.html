@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solaris: Building a Multiplayer Video World Model in Minecraft — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="Solaris: Building a Multiplayer Video World Model in Minecraft — Spotlight paper at NeurIPS 2026 by Oscar Michel, Georgy Savva, Daohan Lu et al. (New York…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, world model, video">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-solaris-building-a-multiplayer-video-world-model-in/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Solaris: Building a Multiplayer Video World Model in Minecraft | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="Solaris: Building a Multiplayer Video World Model in Minecraft — Spotlight paper at NeurIPS 2026 by Oscar Michel, Georgy Savva, Daohan Lu et al. (New York…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-solaris-building-a-multiplayer-video-world-model-in/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Solaris: Building a Multiplayer Video World Model in Minecraft | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="Solaris: Building a Multiplayer Video World Model in Minecraft — Spotlight paper at NeurIPS 2026 by Oscar Michel, Georgy Savva, Daohan Lu et al. (New York…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-solaris-building-a-multiplayer-video-world-model-in/#article",
+   "headline": "Solaris: Building a Multiplayer Video World Model in Minecraft",
+   "name": "Solaris: Building a Multiplayer Video World Model in Minecraft",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-solaris-building-a-multiplayer-video-world-model-in/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Oscar Michel",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "New York University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Georgy Savva"
+    },
+    {
+     "@type": "Person",
+     "name": "Daohan Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Suppakit Waiwitlikhit"
+    },
+    {
+     "@type": "Person",
+     "name": "Timothy Meehan"
+    },
+    {
+     "@type": "Person",
+     "name": "Dhairya P Mishra"
+    },
+    {
+     "@type": "Person",
+     "name": "Egor Gikalo"
+    },
+    {
+     "@type": "Person",
+     "name": "Srivats Poddar"
+    },
+    {
+     "@type": "Person",
+     "name": "Jack Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Saining Xie"
+    }
+   ],
+   "keywords": [
+    "world model",
+    "video"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=xP408u4Mho"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Solaris: Building a Multiplayer Video World Model in Minecraft",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-solaris-building-a-multiplayer-video-world-model-in/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>Solaris: Building a Multiplayer Video World Model in Minecraft</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Oscar Michel, Georgy Savva, Daohan Lu, Suppakit Waiwitlikhit, Timothy Meehan, Dhairya P Mishra, Egor Gikalo, Srivats Poddar, Jack Lu, Saining Xie</dd>
+<dt>Affiliation</dt><dd>New York University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=xP408u4Mho" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">world model</span>
+<span class="chip">video</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-latent-particle-world-models-self-supervised-object-centric/">Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-world-in-world-world-models-in-a-closed-loop-world/">World-In-World: World Models in a Closed-Loop World</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-roboscape-physics-informed-embodied-world-model/">RoboScape: Physics-informed Embodied World Model</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-behavioral-geometric-supervision-aligns-video-foundation/">Behavioral Geometric Supervision Aligns Video Foundation Models with Human Social Perception</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-video-forensic-self-descriptions-leveraging-temporally/">Video Forensic Self-Descriptions: Leveraging Temporally Distributed Forensic Microstructures for Zero-Shot Detection of AI-Generated Videos</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/">BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

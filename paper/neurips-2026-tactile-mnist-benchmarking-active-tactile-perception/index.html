@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tactile MNIST: Benchmarking Active Tactile Perception — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="Tactile MNIST: Benchmarking Active Tactile Perception — Spotlight paper at NeurIPS 2026 by Tim Schneider, Guillaume Duret, Cristiana de Farias et al. (TU…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, benchmark">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tactile-mnist-benchmarking-active-tactile-perception/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tactile MNIST: Benchmarking Active Tactile Perception | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="Tactile MNIST: Benchmarking Active Tactile Perception — Spotlight paper at NeurIPS 2026 by Tim Schneider, Guillaume Duret, Cristiana de Farias et al. (TU…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tactile-mnist-benchmarking-active-tactile-perception/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tactile MNIST: Benchmarking Active Tactile Perception | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="Tactile MNIST: Benchmarking Active Tactile Perception — Spotlight paper at NeurIPS 2026 by Tim Schneider, Guillaume Duret, Cristiana de Farias et al. (TU…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tactile-mnist-benchmarking-active-tactile-perception/#article",
+   "headline": "Tactile MNIST: Benchmarking Active Tactile Perception",
+   "name": "Tactile MNIST: Benchmarking Active Tactile Perception",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tactile-mnist-benchmarking-active-tactile-perception/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Tim Schneider",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "TU Darmstadt"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Guillaume Duret"
+    },
+    {
+     "@type": "Person",
+     "name": "Cristiana de Farias"
+    },
+    {
+     "@type": "Person",
+     "name": "Roberto Calandra"
+    },
+    {
+     "@type": "Person",
+     "name": "Liming Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Jan Peters"
+    }
+   ],
+   "keywords": [
+    "benchmark"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=3yMkqerEOt"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Tactile MNIST: Benchmarking Active Tactile Perception",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tactile-mnist-benchmarking-active-tactile-perception/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>Tactile MNIST: Benchmarking Active Tactile Perception</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Tim Schneider, Guillaume Duret, Cristiana de Farias, Roberto Calandra, Liming Chen, Jan Peters</dd>
+<dt>Affiliation</dt><dd>TU Darmstadt</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=3yMkqerEOt" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">benchmark</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-benchmark-health-index-a-systematic-framework-for/">Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-movebench-a-benchmark-for-global-scale-wildlife-movement/">MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-can-llm-agents-respond-to-disasters-benchmarking/">Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-litmus-benchmarking-behavioral-jailbreaks-of-llm-agents-in/">LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-multabench-benchmarking-multimodal-tabular-learning-with/">MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-virogym-realistic-large-scale-benchmarks-for-evaluating/">ViroGym: Realistic Large-Scale Benchmarks for Evaluating Viral Proteins</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

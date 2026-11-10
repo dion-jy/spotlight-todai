@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs — Spotlight paper at NeurIPS 2026 by Yuchuan Tian, Yuchen Liang, Shuo Zhang…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, diffusion, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-from-next-token-to-next-block-a-principled-adaptation-path/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="From Next-Token to Next-Block: A Principled Adaptation Path for… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs — Spotlight paper at NeurIPS 2026 by Yuchuan Tian, Yuchen Liang, Shuo Zhang…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-from-next-token-to-next-block-a-principled-adaptation-path/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="From Next-Token to Next-Block: A Principled Adaptation Path for… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs — Spotlight paper at NeurIPS 2026 by Yuchuan Tian, Yuchen Liang, Shuo Zhang…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-from-next-token-to-next-block-a-principled-adaptation-path/#article",
+   "headline": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+   "name": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-from-next-token-to-next-block-a-principled-adaptation-path/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yuchuan Tian",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Peking University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Yuchen Liang"
+    },
+    {
+     "@type": "Person",
+     "name": "Shuo Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yingte Shu"
+    },
+    {
+     "@type": "Person",
+     "name": "Guangwen Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "Wei He"
+    },
+    {
+     "@type": "Person",
+     "name": "Sibo Fang"
+    },
+    {
+     "@type": "Person",
+     "name": "Tianyu Guo"
+    },
+    {
+     "@type": "Person",
+     "name": "Kai Han"
+    },
+    {
+     "@type": "Person",
+     "name": "Chao Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Hanting Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Xinghao Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Yunhe Wang"
+    }
+   ],
+   "keywords": [
+    "diffusion",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=VLjkAcK9fS"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-from-next-token-to-next-block-a-principled-adaptation-path/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yuchuan Tian, Yuchen Liang, Shuo Zhang, Yingte Shu, Guangwen Yang, Wei He, Sibo Fang, Tianyu Guo, Kai Han, Chao Xu, Hanting Chen, Xinghao Chen, Yunhe Wang</dd>
+<dt>Affiliation</dt><dd>Peking University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=VLjkAcK9fS" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">diffusion</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-instilling-an-active-mind-in-avatars-via-cognitive/">Instilling an Active Mind in Avatars via Cognitive Simulation</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-accelerating-diffusion-llms-via-adaptive-parallel-decoding/">Accelerating Diffusion LLMs via Adaptive Parallel Decoding</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-d1-scaling-reasoning-in-diffusion-large-language-models-via/">d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-benchmark-health-index-a-systematic-framework-for/">Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-alter-an-allen-s-algebra-based-evaluation-framework-for/">ALTER: An Allen's Algebra-Based Evaluation Framework for Temporal Reasoning of LLMs</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-hearsaybench-can-llms-navigate-from-abstract-human-rights-to/">HearSayBench: Can LLMs Navigate from Abstract Human Rights to Lived Lives?</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

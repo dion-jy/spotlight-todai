@@ -8,31 +8,43 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/venue/icml-2026-oral/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/venue/icml-2026-spotlight/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-spotlight/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/</loc>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -122,7 +134,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-cauker-classification-time-series-foundation-models-can-be/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -266,7 +278,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-editverse-unifying-image-and-video-editing-and-generation/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -350,7 +362,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-fast-training-of-accurate-physics-informed-neural-networks/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -380,7 +392,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-from-markov-to-laplace-how-mamba-in-context-learns-markov/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -392,7 +404,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -440,7 +452,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-half-order-fine-tuning-for-diffusion-model-a-recursive/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -512,7 +524,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-in-the-flow-agentic-system-optimization-for-effective/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -566,13 +578,13 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-latent-fourier-transform/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-latent-particle-world-models-self-supervised-object-centric/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -716,7 +728,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-motionstream-real-time-video-generation-with-interactive/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -866,7 +878,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-p-less-sampling-a-robust-hyperparameter-free-approach-for/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -896,7 +908,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-phyworldbench-a-comprehensive-evaluation-of-physical-realism/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -986,7 +998,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-redteamcua-realistic-adversarial-testing-of-computer-use/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1028,7 +1040,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-safety-guided-flow-sgf-a-unified-framework-for-negative/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1046,7 +1058,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-scaling-atomistic-protein-binder-design-with-generative/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1082,7 +1094,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-simuhome-a-temporal-and-environment-aware-benchmark-for/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1106,13 +1118,13 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-stable-video-infinity-infinite-length-video-generation-with/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-steering-the-herd-a-framework-for-llm-based-control-of/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1130,7 +1142,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-tabstruct-measuring-structural-fidelity-of-tabular-data/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1196,7 +1208,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-the-spacetime-of-diffusion-models-an-information-geometry/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1370,7 +1382,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/iclr-2026-world-in-world-world-models-in-a-closed-loop-world/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1460,7 +1472,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-causalgame-benchmarking-causal-thinking-of-llm-agents-in/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1502,7 +1514,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-controlled-llm-training-on-spectral-sphere/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1550,7 +1562,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-disentangling-latent-risk-pathways-via-bayesian-hypergraph/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1670,7 +1682,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-flip2-expanding-protein-fitness-landscape-benchmarks-for/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1718,7 +1730,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-gooddiffusion-proactive-copyright-protection-for-diffusion/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1796,7 +1808,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-learning-human-robot-collaboration-via-heterogeneous-agent/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2012,7 +2024,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-photoagent-exploratory-visual-aesthetic-planning-with-large/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2120,7 +2132,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-protein-fold-classification-at-scale-benchmarking-and/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2210,7 +2222,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-second-order-smooth-planning-with-optimal-transport-bellman/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2264,7 +2276,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-tau-2-bench-evaluating-conversational-agents-in-a-dual/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2330,7 +2342,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/icml-2026-towards-hierarchy-uniformity-equilibrium-recovering-semantic/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2570,7 +2582,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-accelerating-diffusion-llms-via-adaptive-parallel-decoding/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2624,7 +2636,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-adaptive-neighborhood-constrained-q-learning-for-offline/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2702,7 +2714,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-ai-research-agents-for-machine-learning-search-exploration/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2828,7 +2840,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-arecho-autoregressive-evaluation-via-chain-based-hypothesis/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2870,7 +2882,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-autotom-scaling-model-based-mental-inference-via-automated/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2888,7 +2900,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-bayesqp-bayesian-optimization-through-sequential-quadratic/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3032,13 +3044,13 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-causal-differentiating-concepts-interpreting-lm-behavior-via/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-causality-meets-locality-provably-generalizable-and-scalable/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3140,7 +3152,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-composite-flow-matching-for-reinforcement-learning-with/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3218,7 +3230,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-convergence-rates-of-constrained-expected-improvement/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3350,7 +3362,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-decomposing-interventional-causality-into-synergistic/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3404,7 +3416,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-dense-associative-memory-with-epanechnikov-energy/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3452,7 +3464,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-dexter-diffusion-guided-explanations-with-textual-reasoning/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3494,7 +3506,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-differential-privacy-on-fully-dynamic-streams/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3506,7 +3518,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-diffusion-generative-modeling-on-lie-group-representations/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3608,7 +3620,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-does-stochastic-gradient-really-succeed-for-bandits/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3662,7 +3674,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-ef-3dgs-event-aided-free-trajectory-3d-gaussian-splatting/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3686,7 +3698,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-eggs-exchangeable-2d-3d-gaussian-splatting-for-geometry/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3728,7 +3740,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-enhancing-contrastive-learning-with-variable-similarity/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4076,7 +4088,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-gaze-beyond-the-frame-forecasting-egocentric-3d-visual-span/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4118,7 +4130,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-generating-informative-samples-for-risk-averse-fine-tuning/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4178,7 +4190,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-gradient-variation-online-adaptivity-for-accelerated/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4196,7 +4208,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-graph-smoothed-bayesian-black-box-shift-estimator-and-its/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4286,7 +4298,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-horizon-reduction-makes-rl-scalable/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4304,7 +4316,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-how-well-can-differential-privacy-be-audited-in-one-run/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4376,13 +4388,13 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-improved-regret-bounds-for-gaussian-process-upper-confidence/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-improved-representation-steering-for-language-models/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4478,7 +4490,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-interactive-cross-modal-learning-for-text-3d-scene-retrieval/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4538,7 +4550,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-knowledge-insulating-vision-language-action-models-train/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4562,7 +4574,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-labridge-text-image-latent-alignment-framework-via-mean/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4688,7 +4700,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-llm-meeting-decision-trees-on-tabular-data/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4742,7 +4754,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-maestro-adaptive-sparse-attention-and-robust-learning-for/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4826,7 +4838,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-metamind-modeling-human-social-thoughts-with-metacognitive/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5312,7 +5324,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-perception-encoder-the-best-visual-embeddings-are-not-at-the/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5336,7 +5348,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-physics-driven-spatiotemporal-modeling-for-ai-generated/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5372,7 +5384,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-poe-world-compositional-world-modeling-with-products-of/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5396,7 +5408,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-precise-asymptotics-and-refined-regret-of-variance-aware-ucb/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5444,7 +5456,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-private-hyperparameter-tuning-with-ex-post-guarantee/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5528,7 +5540,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-purifying-approximate-differential-privacy-with-randomized/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5618,7 +5630,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-regret-bounds-for-adversarial-contextual-bandits-with/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5660,7 +5672,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-repomaster-autonomous-exploration-and-understanding-of/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5696,7 +5708,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-rethinking-joint-maximum-mean-discrepancy-for-visual-domain/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5762,13 +5774,13 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-roboscape-physics-informed-embodied-world-model/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-robust-graph-condensation-via-classification-complexity/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5810,7 +5822,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-safevla-towards-safety-alignment-of-vision-language-action/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5852,7 +5864,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-savvy-spatial-awareness-via-audio-visual-llms-through-seeing/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6008,7 +6020,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-shf-symmetrical-hierarchical-forest-with-pretrained-vision/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6200,7 +6212,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-stochastic-optimization-in-semi-discrete-optimal-transport/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6656,7 +6668,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-uma-a-family-of-universal-models-for-atoms/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6764,13 +6776,13 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-unlocking-dataset-distillation-with-diffusion-models/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-unlocking-hidden-biomolecular-conformational-landscapes-in/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6788,7 +6800,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-utility-engineering-analyzing-and-controlling-emergent-value/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6806,7 +6818,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-variational-transdimensional-inference/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6962,7 +6974,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-wide-horizon-thinking-and-simulation-based-evaluation-for/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6980,7 +6992,7 @@
   </url>
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-wisa-world-simulator-assistant-for-physics-aware-text-to/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -7005,6 +7017,2808 @@
   <url>
     <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2025-zeros-zero-sum-linear-attention-for-efficient-transformers/</loc>
     <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-3r-adapter-retrieval-rewiring-and-refinement-for-efficient/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-bitter-lesson-for-data-filtering/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-graph-foundation-model-for-unified-clustering/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-mechanistic-investigation-of-theory-of-mind-in-a-large/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-meshfree-exterior-calculus-for-generalizable-and-data/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-multi-scale-information-geometry-reveals-the-structure-of/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-near-optimal-sq-lower-bound-for-smoothed-agnostic-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-solvable-model-of-chain-of-thought-in-in-context-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-a-theoretical-analysis-of-test-driven-code-generation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-adacodec-a-predictive-visual-code-for-video-mllms/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-adaptive-stepsizes-for-eligibility-traces-in-deep/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-adaptopass-ambiguity-aware-adaptive-spherical-transformer/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-adasru-adaptive-source-free-recommendation-unlearning-via/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-addressing-exogenous-variability-in-cooperative-multi-agent/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-agent-security-is-a-systems-problem/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-agent-tom-learning-to-monitor-autonomous-llm-agents-via/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-agentabstain-do-llm-agents-know-when-not-to-act/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-ais-with-secret-loyalties-are-a-serious-but-addressable/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-all-addition-spiking-diffusion-models-with-attention/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-all-roads-lead-to-rome-flow-driven-multi-anchor-exploration/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-alter-an-allen-s-algebra-based-evaluation-framework-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-amuse-anytime-muon-with-stable-gradient-evaluation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-anchoring-adversarial-trajectories-to-data-manifolds-a/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-aps-bias-controlled-adaptive-prototype-simulation-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-are-llm-safety-judges-policy-invariant-a-three-principle/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-arena-t2i-hard-benchmarking-and-improving-faithfulness-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-attention-based-pca/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-backtracking-with-linear-in-depth-search-space-growth-width/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-basis-mediated-bilinear-attention-a-new-method-for-greatly/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beaker-an-expert-curated-benchmark-for-embodied-brains-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-before-words-beyond-speech-evaluating-nonverbal-social/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-behavior-cloning-is-not-all-you-need-the-optimality-of-on/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-behavioral-geometric-supervision-aligns-video-foundation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-benchmark-health-index-a-systematic-framework-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-better-language-models-require-better-domain-specific/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-coordinates-encoding-graph-structure-via-contextual/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-downstream-scores-controlled-diagnostics-for-point/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-family-labels-a-taxonomic-ornstein-uhlenbeck-prior/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-linear-activation-steering-invertible-latent/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-linear-decoders-dynamic-expert-coupled-optimal/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-selection-token-parameterization-for-extreme-visual/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-semantic-similarity-rethinking-retrieval-for-agentic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-sparse-captions-aligning-slide-level-text-and-patch/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-binding-mode-matters-hotspot-aware-drug-discovery-via/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-binding-multiple-modalities-via-multimodal-wasserstein/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-boosting-graph-contrastive-learning-via-manifold-guided/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-brainworld-a-structural-prior-conditioned-generative-model/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-breakeven-complexity-a-new-perspective-on-neural-partial/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-breaking-information-islands-in-sparse-tuning-via-small/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-breaking-the-uniformity-trap-scaling-video-diffusion-model/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-bridging-compute-and-data-optimal-pretraining/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-budgeting-discretion-theory-and-evidence-on-street-level/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-c3p-contrastive-promoter-protein-pretraining-yields/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-calibration-without-ground-truth/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-can-4d-foundation-models-remember/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-can-in-context-learning-support-intrinsic-curiosity/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-can-llm-agents-respond-to-disasters-benchmarking/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-can-we-model-the-artifacts-explicitly-disentangle-artifacts/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-casper-a-projection-based-neurosymbolic-layer-for-scalable/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-catch-only-one-non-transferable-examples-for-model-specific/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-causal-discovery-over-clusters-of-variables-in-non-markovian/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-causalbind-causal-modeling-and-learning-for-protein-molecule/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-certifiably-optimal-robust-angular-synchronization/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-chord-cross-model-hallucination-detection-via-relational/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-cig-exploration-via-conditional-information-gain/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-city-rag-stepping-into-a-city-via-spatially-grounded-video/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-claims-of-emergence-in-ai-should-be-grounded-in-information/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-clarification-as-supervision-reinforcement-learning-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-clear-complementary-tripartite-play-with-bayesian/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-cliopatra-extracting-private-information-from-llm-insights/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-closed-loop-dynamic-driving-data-mixture-for-real-synthetic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-clustersplat-semantic-cluster-selection-for-3d-visual/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-colored-noise-diffusion-sampling/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-colour-me-shocked-exact-molecular-hessians-from-mlips-in-o-n/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-combating-data-laundering-in-llm-training/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-comma-contribution-aware-medical-multi-agents-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-community-centered-ai-is-feasible-and-beneficial-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-compact-so-3-equivariant-atomistic-foundation-models-via/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-compactattention-accelerating-chunked-prefill-with-block/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-complexity-aware-continuous-level-of-details-for-gaussian/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-complexity-aware-lora-aggregation-for-modality-heterogeneous/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-computer-use-at-the-edge-of-the-statistical-precipice/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-consistent-3d-surface-flow-model-with-global-state/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-consistent-geometric-deep-learning-via-hilbert-bundles-and/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-continuous-latent-diffusion-language-model/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-coordination-connectivity-shared-initialization-shapes-the/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-coreq-learning-free-mismatch-correction-and-successive/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-corrected-integrated-laplace-approximation-for-bayesian/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-craft-causal-responsibility-and-failure-tracing-in-medical/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-cross-order-consensus-graph-matching/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-crystalrepa-transferring-physical-priors-from-universal/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-cure-counterfactual-unsafe-token-re-masking-for-diffusion/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-d-pace-dynamic-position-aware-cross-entropy-for-parallel/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dd-cam-minimal-sufficient-explanations-for-vision-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dd-ranking-rethinking-the-evaluation-of-dataset-distillation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-ddge-disentangled-dirichlet-geodesic-evaluation-for-robust/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-decomposing-and-reshaping-scaling-laws-through-token/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-decomposing-earth-embeddings-with-sparse-autoencoders/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-deep-barycentric-regression-for-optimal-transport-map/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-deep-generative-models-for-phylogenetic-inference-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-deformable-2d-gaussian-splatting/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-deja-view-looping-transformers-for-multi-view-3d/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-deltaprompts-escaping-the-zero-delta-trap-in-multimodal/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-diagno-diagonal-spherical-neural-operators-for-heterogeneous/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-diagonalizing-the-softmax-hadamard-initialization-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-diff-ca-separating-common-and-salient-factors-with-diffusion/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-distributionally-robust-domain-randomization-with-learned/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-do-image-editing-models-understand-lighting/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-do-thinking-tokens-help-with-safety/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-do-we-need-asynchronous-sgd-on-the-near-optimality-of/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-domination-avoiding-learning-agents-cannot-collude/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-don-t-lose-focus-activation-steering-via-key-orthogonal/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-doomed-to-re-annotate-forever-the-imagenet-story/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dream-cubed-controllable-generative-modeling-in-minecraft-by/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-dynamic-tokenization-via-reinforcement-patching-end-to-end/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-echo-terminal-agents-learn-world-models-for-free/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-efficient-adjoint-matching-for-fine-tuning-diffusion-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-embedded-arena-building-hardware-in-the-loop-coding-agents/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-emergence-of-physical-intelligence-via-controllable/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-emergent-biological-capabilities-in-a-foundation-model-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-entire-invariant-learning-for-robust-concept-erasure-in-text/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-entropy-minimization-without-model-collapse-mitigating/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-environment-robust-representation-learning-with-empirical/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-escaping-the-cognitive-well-efficient-competition-math-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-evaluating-neural-data-tokenizers-a-framework-for-assessing/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-evaluation-awareness-in-language-models-has-limited-effect/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-evaluation-cards-an-interpretive-layer-for-ai-evaluation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-exact-flow-linear-attention-exact-solution-from-continuous/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-exact-gaussian-moment-matching-for-residual-networks-a/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-excomm-exploration-stage-communication-for-error-resilient/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-expected-harm-rethinking-safety-evaluation-of-mis-aligned/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-experigen-agentic-hypothesis-discovery-from-observational/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-extrapair-air-quality-inference-at-unmonitored-locations-via/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-f-differential-privacy-filters-validity-and-approximate/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fast-and-slow-gradient-descent-dynamics-of-logistic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fast-rates-for-offline-contextual-bandits-with-forward-kl/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fast-reconstruction-of-exact-maxwell-dynamics-from-sparse/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fast-wam-do-world-action-models-need-test-time-future/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-featcal-feature-calibration-for-post-merging-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fedsoul-federated-continual-unlearning-via-spectral/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-felid-a-flexible-and-efficient-design-for-transformer-fine/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fettuccine-fast-and-efficient-brain-to-text-decoding-on/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-few-step-cofolding-with-all-atom-flow-maps/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-filtered-conformal-ellipsoids-for-graph-native-time-series/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-first-token-attraction-in-mamba-dynamics/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fisher-r1-training-llm-agents-for-reliable-hypothesis/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fits-interpretable-spiking-neurons-via-frequency-selectivity/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-flip-fast-and-accurate-global-lipschitz-estimation-for-large/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-flow-dppo-divergence-proximal-policy-optimization-for-flow/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-flow-matching-reinforcement-learning-via-sde-inference/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fluxtrapolation-a-benchmark-on-extrapolating-ecosystem/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fmmi-flow-matching-mutual-information-estimation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fmxcoders-factorized-masked-crosscoders-for-cross-layer/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-follow-the-regularized-leader-does-not-converge-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-foundations-of-categorical-equivariant-deep-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-fractional-state-space-transition-for-long-sequence-modeling/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-free-decompression-with-algebraic-spectral-curves/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-free-heavy-tailed-lunch-for-muon-a-theoretical-justification/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-from-average-sensitivity-to-small-loss-regret-bounds-under/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-from-next-token-to-next-block-a-principled-adaptation-path/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-frontiersmith-synthesizing-open-ended-coding-problems-at/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-g-zero-self-play-for-open-ended-generation-from-zero-data/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-genai-evaluation-results-are-largely-artifacts-of-evaluation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-generating-physically-consistent-molecules-with-energy-based/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-generative-modeling-via-drifting/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-genrm-flow-generators-are-process-aware-reward-models-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geog2u-bench-when-does-generation-help-understanding-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geometry-aware-similarity-metrics-for-neural-representations/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geosym127k-scalable-symbolically-verifiable-synthesis-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geowind2plan-mission-time-3d-urban-wind-prediction-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-gold-geometric-optimized-latent-diffusion-for-structure/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-gramstattexnet-efficient-interpretable-and-neuro-inspired/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-graph-cascades-contagion-based-mesoscopic-rewiring-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-grid-games-the-power-of-multiple-grids-for-quantizing-large/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-habit-human-aware-behavior-and-interaction-training-dataset/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-hearsaybench-can-llms-navigate-from-abstract-human-rights-to/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-hemer-heterogeneous-memory-reconciliation-for-embodied/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-how-can-signsgd-outperform-sgd-a-functional-scaling-law/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-how-far-is-too-far-object-recognition-declines-monotonically/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-how-much-is-one-recurrence-worth-iso-depth-scaling-laws-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-hybrid-reinforcement-learning-for-one-step-degraded-infrared/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-hyperbolic-concept-bottleneck-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-idea-unwrapping-visual-black-box-models-by-interaction/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-imitation-dominates-reinforcement-direct-in-context-rl-is/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-impossibility-of-distribution-free-predictive-inference-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-improved-leverage-score-sampling-for-constrained-active/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-improved-regret-analysis-for-parallel-gaussian-process/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-improving-the-diffusability-of-motion-tokenizer/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-incentivizing-medical-vision-capabilities-from-large-scale/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-inductive-deductive-synthesis-enabling-ai-to-generate/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-industrycode-a-benchmark-for-industry-code-generation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-inference-time-alignment-via-sparse-junction-steering/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-inspect-a-curated-natural-history-collection-dataset-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-is-dimensionality-a-barrier-for-retrieval-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-knowing-when-to-ask-segment-level-credit-assignment-for-llm/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-knowvis-a-dual-view-benchmark-for-diagnosing-world-knowledge/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-l2p-unlocking-latent-potential-for-pixel-generation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-language-conditioned-world-modeling-for-visual-navigation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-large-language-model-selection-with-limited-annotations/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-large-language-models-can-not-and-should-not-be-banned-from/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-large-language-models-suffer-from-a-curse-of-ambiguity/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-latentum-unleashing-the-potential-of-interleaved-cross-modal/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-leaderboard-hacking-preference-based-model-evaluations-are/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learned-lagrangian-models-of-pdes-via-euler-lagrange/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learning-discrete-riemannian-metrics-for-physical-fields/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learning-gaussian-conditional-distributions-using-neural/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learning-interpretable-schur-forms-of-recurrent-weight/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learning-reveals-invisible-structure-in-low-rank-rnns/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learning-sparse-semantic-cortical-atoms-for-multisubject/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learning-to-audit-ml-models-with-theory-of-mind/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-learning-to-price-with-persuasion/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-litmus-benchmarking-behavioral-jailbreaks-of-llm-agents-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-littlelearner-language-models-under-pedagogically-controlled/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-llm-enhanced-random-forests-in-orthogonal-hyperbolic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-local-guidance-global-impact-gaussian-reshaped-trust-region/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-localized-dynamics-aware-domain-adaption-for-off-dynamics/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-loracles-self-supervised-weight-space-interpretability-at/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-macro-training-free-multi-plane-attention-for-closeup-render/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mamq-net-a-robust-framework-leveraging-multi-level-tamper/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-maxsketch-robust-distinct-counting-in-streams-via-random/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-measuring-robustness-and-efficiency-in-a-connectome/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mecha-nudges-for-machines/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mechanism-aware-ensemble-conditioning-for-data-limited/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mechanistic-interpretability-needs-philosophy/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mechparser-a-vision-language-framework-for-parsing-chemical/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-megastyle-constructing-diverse-and-scalable-style-dataset/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-memevo-a-memory-evolved-video-agent-for-long-video/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mesh-bdf-barycentric-dominance-field-for-3d-native-mesh/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mice-multi-animal-interaction-context-encoder-a-hierarchical/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mildly-overparameterized-relu-networks-on-orthogonal-data/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mindalign-bridging-eeg-vision-and-language-for-zero-shot/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mineru2-5-pro-pushing-the-limit-of-document-parsing-via-a/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mitigating-confidence-miscalibration-in-open-world-semi/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mitigating-over-squashing-without-rewiring-a-sheaf-effective/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mls-bench-a-holistic-and-rigorous-assessment-of-ai-systems/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-modeling-the-vividness-of-imagined-natural-scenes-reveals-a/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-molmomotion-forecasting-point-trajectories-in-3d-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-monochunk3d-monocular-online-3d-instance-segmentation-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mose3-learning-world-space-se-3-at-every-pixel/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-moto-mixture-of-tokenizers-towards-fair-multilingual/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-movebench-a-benchmark-for-global-scale-wildlife-movement/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mrnabench-a-curated-benchmark-for-mature-mrna-property-and/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mt-cc-multi-group-temperature-scaling-for-asymmetric/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-multabench-benchmarking-multimodal-tabular-learning-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mux-continuous-reasoning-via-multiplexed-tokens/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-natural-jammers-when-non-robust-features-become-antagonistic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nearly-optimal-fixed-confidence-best-arm-identification-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nearly-optimal-robust-covariance-and-scatter-matrix/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-negative-only-policy-optimization-for-one-sided-verifiable/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nemotron-cascade-scaling-cascaded-reinforcement-learning-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nesykc-neurosymbolic-knowledge-compilation-for-lifelong/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-neural-chameleons-language-models-can-learn-to-hide-their/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-neural-dual-bounds-valid-by-construction-jglp-warm-starts/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-neural-population-tuning-statistics-as-priors-for-multitask/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-neural-visual-decoding-via-cognitive-guided-adaptive/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nld4co-neural-langevin-dynamics-for-combinatorial/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-nntrace-detecting-and-localizing-silent-bugs-in-distributed/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-noise-regularized-training-for-learned-image-compression/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-noise-started-one-step-image-super-resolution-via-lr/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-non-colliding-biometric-identities-for-digital-entities/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-norm-enforcement-for-ai-agents-robustly-shaping-behavior-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-normative-networks-for-source-separation-via-local/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-oasis-observation-action-space-alignment-via-se-3-trajectory/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-object-detection-benchmarks-are-incomplete-the-role-of-label/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-oceancbm-a-concept-bottleneck-model-for-mechanistic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-offloading-score-measuring-ai-reliance-through/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-omnigf-a-dual-branch-vision-language-framework-for-unified/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-on-the-complexity-of-discounted-robust-mdps-with-l-p/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-on-the-depth-of-monotone-relu-neural-networks-and-icnns/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-on-the-nonlinearity-of-learning-rate-scaling-for-llm/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-on-the-relaxation-of-conditional-independence-assumption-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-on-the-tightness-and-computational-tractability-of-higher/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-onecanvas-3d-scene-understanding-via-panoramic-reprojection/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-online-allocation-with-differential-privacy/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-online-fair-division-meets-reordering-buffers/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-openwhistle-a-large-scale-longitudinal-dataset-and-benchmark/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-optimal-rates-for-adaptive-private-k-pca/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-optimal-rates-for-pure-varepsilon-differentially-private/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-optimal-recalibration-of-an-online-predictor/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-optimal-subgroup-discovery-at-every-support-threshold/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-orthrus-memory-efficient-parallel-token-generation-via-dual/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-p-3-vlm-a-point-based-alternative-for-grounded-3d-vision/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-paloma-phase-conditioned-residual-modulation-for-time-series/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-parabolic-position-encoding-vision-centric-principled/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-parallel-in-time-training-of-recurrent-neural-networks-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-paretoslider-diffusion-models-post-training-for-continuous/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-permute-then-adapt-weak-to-strong-contrastive-image-text/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-pggt-loc-primitive-grounded-geometry-transformer-for-feed/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-phase-kernel-lifts-capacity-of-dense-associative-memory/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-phaselora-control-regime-conditioned-low-rank-adaptation-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-pixelponder-dynamic-patch-adaptation-for-enhanced-multi/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-planning-as-dynamics-relaxation-hippocampal-recurrent/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-point-to-manifold-geometry-flexibly-overcoming-the-curse-of/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-point4d-long-range-4d-motion-reconstruction/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-poisoning-attacks-on-llms-require-a-near-constant-number-of/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-polar-transformers-so-2-k-equivariant-angular-attention-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-political-neutrality-as-balanced-approval-a-large-scale/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-polynomial-time-algorithm-for-thiele-voting-rules-with-voter/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-polynomial-time-robust-multiclass-linear-classification/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-position-fair-representations-cannot-hold-what-they-promise/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-position-reconciling-open-access-with-owner-control-in-ai/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-post-adc-inference-valid-inference-after-active-data/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-predicting-human-gain-curves-under-local-proxy-optimization/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-prediction-under-imperfect-compression-a-theory-of/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-proactive-instance-navigation-with-comparative-judgment-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-probly-uncertainty-aware-machine-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-proclip-progressive-vision-language-alignment-via-llm-based/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-proper-agnostic-learning-of-functions-of-halfspaces/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-prospective-coding-improves-learning-in-deep-continuous-time/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-provably-safe-yet-performant-reinforcement-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-pruning-and-distilling-mixture-of-experts-into-dense/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-pulse-a-synchronized-five-modality-dataset-for-sensorimotor/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-quantile-benchmarking-heterogeneous-web-corpora-in-open-llm/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-quantized-reasoning-models-think-they-need-to-think-longer/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-query-lower-bounds-for-diffusion-sampling/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-rama-resistance-aware-multi-hop-aggregation-graph/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-raop-step-level-resource-orchestration-for-llm-agents-across/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-read-it-back-pretrained-mllms-are-zero-shot-reward-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-realism-vs-accuracy-event-sequence-forecasting-from-a/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reasoning-with-undecoded-tokens-in-diffusion-language-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reconciling-causality-and-non-equilibrium-thermodynamics/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reconstructing-the-vocal-tract-with-differentiable-acoustic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-recursively-trained-diffusion-models-limiting-collapse/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reference-guided-training-adaptive-gradient-scaling-via-per/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-regret-oracle-complexity-tradeoffs-in-agnostic-online/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reinforced-fast-weights-via-next-sequence-prediction/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reinforcement-learning-agents-are-swimmers/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-releasing-anchors-from-cross-view-correspondence/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-representation-frechet-loss-for-visual-generation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-representation-rigidity-in-face-embeddings-orthogonal/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-requential-coding-measuring-model-compressibility-by-coding/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-resilience-matters-for-embodied-agents-system-new-metrics/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-rethinking-llm-fine-tuning-via-weight-space/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-rethinking-visual-reasoning-in-text-to-image-reward-modeling/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-revisiting-embodied-chain-of-thought-for-generalizable-robot/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-robust-satisficing-ensemble-scalable-model-aggregation-under/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-rose-risk-aware-orthogonal-subspace-navigation-for-lifelong/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-rotate-regret-driven-open-ended-training-for-ad-hoc-teamwork/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-rubato-signature-attention-for-irregular-multivariate-time/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-rubato-transcribing-piano-music-with-timestamps/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-safety-reconstructed-generative-modeling-via-masked/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-salart-vqa-diagnosing-whether-vlms-understand-salient/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-sam-3d-animal-promptable-animal-3d-reconstruction-from/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-sampling-is-not-curiosity-why-llm-agents-should-investigate/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scale-sensitive-shattering-learnability-and-evaluability-at/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scaling-genomic-language-modeling-with-unified-corpus-and/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scaling-laws-for-multimodal-data-mixtures/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scenebind-binding-what-and-where-across-vision-audio-and/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scenescaffold-active-scene-state-construction-for-unified-3d/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-seed-your-motion-householder-orthogonal-noise-for-motion/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-selectivity-makes-state-space-models-universal-sequence/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-self-distilled-rlvr/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-self-programmed-execution-for-language-model-agents/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-self-rewarded-multimodal-coherent-reasoning-across-diverse/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-shaping-useful-noise-energy-distributions-predict-visual/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-sharpness-of-minima-in-deep-matrix-factorization/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-sigma-semantic-difference-instruction-grounding-mask/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-skillopt-executive-strategy-for-self-evolving-agent-skills/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-slaying-a-diverse-and-community-validated-dataset-of-queer/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-smart-scalable-multi-agent-role-conditioned-teaming-via-llm/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-soc-icnn-from-polyhedral-to-conic-geometry-for-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-solaris-building-a-multiplayer-video-world-model-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-sort-partition-randomize-optimal-binary-hypothesis-testing/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-soteria-formally-verified-planning-with-runtime-enforcement/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-sparse-updates-generalize-better-than-optimization-stability/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-spectral-energy-allocation-enables-source-free-domain/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-spectral-reversal-counteracting-singular-value-bias-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-spherical-flows-for-sampling-categorical-data/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-star-math-multi-agent-mathematical-reasoning-under/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-stomatabench-measuring-taxonomic-generalization-in-stomatal/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-stop-using-plausibility-as-the-criterion-for-explainable-ai/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-strategic-pac-learnability-via-geometric-definability/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-stream-stochastic-riemannian-flow-matching-with-anisotropic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-strong-helps-weak-directional-cross-modal-alignment-transfer/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-strong-stochastic-flow-maps/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-strongly-replicable-distribution-testers-imply-high/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-structure-vs-chaos-asymmetric-entropic-optimization-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-surprises-in-proper-positive-only-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-syncworld-visual-calibration-enables-world-models-as-zero/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tactile-mnist-benchmarking-active-tactile-perception/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tagbo-llm-driven-task-aware-graph-bayesian-optimization-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tailcon-mitigating-tail-signal-erosion-through-memory/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-talk-one-shot-batch-design-for-protein-variant-effect/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-targeted-review-for-ai-assisted-biodiversity-surveys-active/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tastebench-multimodal-benchmark-for-sensory-prediction-from/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tessellations-of-semi-discrete-flow-matching/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-testable-and-actionable-calibration-for-full-swap-regret/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-testable-learning-of-general-halfspaces-under-massart-noise/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-text-as-partial-constraint-core-residual-alignment-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-aleatoric-epistemic-dichotomy-of-uncertainty-is/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-algorithm-is-not-the-behavior-learned-priors-override/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-attacker-in-the-mirror-breaking-self-consistency-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-curse-of-multiple-mediators-hidden-interaction-effects/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-dead-salmons-of-ai-interpretability-the-need-for-a/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-design-space-of-tri-modal-masked-diffusion-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-end-justifies-the-mean-linear-ranking-rules-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-facts-leaderboard-a-comprehensive-benchmark-for-large/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-implicit-bias-of-hyperbolic-representation-learning-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-invisible-hand-of-physics-when-video-diffusion-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-long-run-distribution-of-regularized-learning-in-non/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-master-key-hypothesis-unlocking-cross-model-capability/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-multiscale-single-index-model-a-toy-model-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-neural-race-model/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-power-of-a-random-sample-in-online-algorithms/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-score-kalman-filter/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-sign-code-the-hidden-binary-nature-of-deep-networks/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-stability-of-online-algorithms-in-performative/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-surprising-effectiveness-of-video-diffusion-models-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-symmetries-of-three-layer-relu-networks/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-value-of-being-wrong-self-mined-visual-in-context/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-value-of-covariance-matching-in-gaussian-ddpms-and-the/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-theoretical-limits-of-language-model-alignment/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-they-can-see-it-but-not-say-it-iterative-self-knowledge-re/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-think-about-how-ais-think-about-themselves/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-thinking-with-images-as-continuous-policy-numerical-visual/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-thinking-with-visual-primitives/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tirex-2-generalizing-tirex-to-multivariate-data-and/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-token-to-token-alignment-of-text-embeddings-for-semantic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-toward-minimal-dimensional-convex-calibrated-surrogate/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-toward-semantically-consistent-tuning-free-customization-for/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-towards-a-universal-causal-reasoner/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-towards-convergence-of-ppo-an-approximate-descent-approach/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-trainable-topology-supervision-under-structurally-unreliable/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-training-generalizable-collaborative-agents-via-strategic/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-transmissivegs-residual-guided-disentangled-gaussian/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-treegraft-adaptive-multi-drafter-grafting-for-tree-based/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-trellis4d-complex-4d-mesh-generation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tsqagent-rating-time-series-data-quality-via-dedicated/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-ttb-test-time-mlp-baking-for-efficient-rendering-of-decoder/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tune-up-open-weight-clip-optimization-framework-for-self/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-two-phase-rapid-simulation-based-inference-with/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-two-speeds-of-learning-a-representation-readout/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-udt-reconciling-u-nets-and-diffusion-transformers-with-data/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-ueco-a-unified-encoder-with-structure-aware-attention/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-uggrh-unsupervised-generative-completion-and-graph-attention/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-ultradiff-transferring-high-fidelity-priors-to-compressed/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-uncertainty-aware-probabilistic-constrained-clustering-from/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-uncovering-and-shaping-the-latent-representation-of-3d-scene/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-understanding-sample-efficiency-in-predictive-coding/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-unified-forensic-preference-learning-for-generalizable/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-uniform-in-time-weak-propagation-of-chaos-in-shallow-neural/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-unifying-goal-conditioned-rl-and-unsupervised-skill-learning/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-unirefp-robust-unified-fingerprinting-for-vision-models/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-unlearning-that-lasts-utility-preserving-robust-and-almost/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-unlocking-volition-proactive-intention-decoding-via/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-video-forensic-self-descriptions-leveraging-temporally/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-virogym-realistic-large-scale-benchmarks-for-evaluating/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-visinteract-towards-dynamic-interactive-text-to/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-vision-token-pruning-via-query-vision-interaction/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-vlsplat-vision-language-guided-object-centric-3d-gaussian/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-volatility-whitened-probabilistic-residual-modeling-for-long/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-we-should-distinguish-unlearning-from-untraining/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-weakly-supervised-concept-learning-for-interpreting-and/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-weisfeiler-leman-is-incomplete-on-simple-spectrum-graphs-so/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-what-do-eeg-foundation-models-capture-from-human-brain/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-what-kills-v-prediction-a-patch-wise-pca-perspective-on/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-what-makes-a-good-path-factoring-manifold-support-and-path/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-what-the-geometry-of-good-models-tells-us/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-when-does-non-uniform-replay-matter-in-reinforcement/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-when-policy-entropy-constraint-fails-preserving-diversity-in/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-whole-body-compliant-control-via-learned-force-regulation/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-winfree-oscillatory-neural-network/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-world-motion-models-flexible-sequence-modeling-of-se-3/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-world-tracing-pixel-aligned-geometry-beyond-the-visible/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-wtf-simulation-free-reinforcement-learning-with-wasserstein/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-x2hdr-hdr-image-generation-in-a-perceptually-uniform-space/</loc>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

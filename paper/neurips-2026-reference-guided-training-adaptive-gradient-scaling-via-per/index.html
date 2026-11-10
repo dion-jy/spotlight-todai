@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons — NeurIPS 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons — Oral paper at NeurIPS 2026 by Israel Rodrigues Soares, Pedro…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Oral paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reference-guided-training-adaptive-gradient-scaling-via-per/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss… | NeurIPS 2026 Oral">
+<meta property="og:description" content="Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons — Oral paper at NeurIPS 2026 by Israel Rodrigues Soares, Pedro…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reference-guided-training-adaptive-gradient-scaling-via-per/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss… | NeurIPS 2026 Oral">
+<meta name="twitter:description" content="Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons — Oral paper at NeurIPS 2026 by Israel Rodrigues Soares, Pedro…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reference-guided-training-adaptive-gradient-scaling-via-per/#article",
+   "headline": "Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons",
+   "name": "Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reference-guided-training-adaptive-gradient-scaling-via-per/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Israel Rodrigues Soares",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Kumamoto University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Pedro Benedetti"
+    },
+    {
+     "@type": "Person",
+     "name": "Thanda Shwe"
+    },
+    {
+     "@type": "Person",
+     "name": "Israel Mendonca"
+    },
+    {
+     "@type": "Person",
+     "name": "Masayoshi Aritsugi"
+    }
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=y7zQMhy4Gr"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-reference-guided-training-adaptive-gradient-scaling-via-per/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-oral/">NeurIPS 2026 Oral</a></nav>
+<article>
+<h1>Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Israel Rodrigues Soares, Pedro Benedetti, Thanda Shwe, Israel Mendonca, Masayoshi Aritsugi</dd>
+<dt>Affiliation</dt><dd>Kumamoto University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=y7zQMhy4Gr" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-felid-a-flexible-and-efficient-design-for-transformer-fine/">Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-hemer-heterogeneous-memory-reconciliation-for-embodied/">HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-testable-and-actionable-calibration-for-full-swap-regret/">Testable and Actionable Calibration for Full Swap Regret</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-breakeven-complexity-a-new-perspective-on-neural-partial/">Breakeven complexity: A new perspective on neural partial differential equation solvers</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-neural-chameleons-language-models-can-learn-to-hide-their/">Neural Chameleons: Language Models Can Learn to Hide Their Thoughts from Unseen Activation Monitors</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-consistent-3d-surface-flow-model-with-global-state/">Consistent 3D Surface Flow Model with Global State</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-oral/">← All NeurIPS 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

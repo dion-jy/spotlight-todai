@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction — Spotlight paper at NeurIPS 2026 by Zhuofeng Li, Haoxiang…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, retrieval, agent">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-semantic-similarity-rethinking-retrieval-for-agentic/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction — Spotlight paper at NeurIPS 2026 by Zhuofeng Li, Haoxiang…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-semantic-similarity-rethinking-retrieval-for-agentic/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction — Spotlight paper at NeurIPS 2026 by Zhuofeng Li, Haoxiang…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-semantic-similarity-rethinking-retrieval-for-agentic/#article",
+   "headline": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+   "name": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-semantic-similarity-rethinking-retrieval-for-agentic/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Zhuofeng Li",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Google DeepMind"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Haoxiang Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Cong Wei"
+    },
+    {
+     "@type": "Person",
+     "name": "Pan Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Ping Nie"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuyang Bai"
+    },
+    {
+     "@type": "Person",
+     "name": "Shangbin Feng"
+    },
+    {
+     "@type": "Person",
+     "name": "Hangxiao Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Ming Zhong"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuyu Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jianwen Xie"
+    },
+    {
+     "@type": "Person",
+     "name": "Yejin Choi"
+    },
+    {
+     "@type": "Person",
+     "name": "James Zou"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiawei Han"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenhu Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Jimmy Lin"
+    },
+    {
+     "@type": "Person",
+     "name": "Dongfu Jiang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yu Zhang"
+    }
+   ],
+   "keywords": [
+    "retrieval",
+    "agent"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=42dIxEhArH"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beyond-semantic-similarity-rethinking-retrieval-for-agentic/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Zhuofeng Li, Haoxiang Zhang, Cong Wei, Pan Lu, Ping Nie, Yuyang Bai, Shangbin Feng, Hangxiao Zhu, Ming Zhong, Yuyu Zhang, Jianwen Xie, Yejin Choi, James Zou, Jiawei Han, Wenhu Chen, Jimmy Lin, Dongfu Jiang, Yu Zhang</dd>
+<dt>Affiliation</dt><dd>Google DeepMind</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=42dIxEhArH" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">retrieval</span>
+<span class="chip">agent</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-distilling-llm-agent-into-small-models-with-retrieval-and/">Distilling LLM Agent into Small Models with Retrieval and Code Tools</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-agentabstain-do-llm-agents-know-when-not-to-act/">AgentAbstain: Do LLM Agents Know When Not to Act?</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-can-llm-agents-respond-to-disasters-benchmarking/">Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-agent-security-is-a-systems-problem/">Agent Security is a Systems Problem</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-hemer-heterogeneous-memory-reconciliation-for-embodied/">HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

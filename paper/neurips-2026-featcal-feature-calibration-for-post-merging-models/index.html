@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FeatCal: Feature Calibration for Post-Merging Models — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="FeatCal: Feature Calibration for Post-Merging Models — Spotlight paper at NeurIPS 2026 by Yanggan Gu, Shuo CAI, Zihao Wang et al. (Hong Kong Polytechnic…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-featcal-feature-calibration-for-post-merging-models/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FeatCal: Feature Calibration for Post-Merging Models | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="FeatCal: Feature Calibration for Post-Merging Models — Spotlight paper at NeurIPS 2026 by Yanggan Gu, Shuo CAI, Zihao Wang et al. (Hong Kong Polytechnic…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-featcal-feature-calibration-for-post-merging-models/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FeatCal: Feature Calibration for Post-Merging Models | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="FeatCal: Feature Calibration for Post-Merging Models — Spotlight paper at NeurIPS 2026 by Yanggan Gu, Shuo CAI, Zihao Wang et al. (Hong Kong Polytechnic…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-featcal-feature-calibration-for-post-merging-models/#article",
+   "headline": "FeatCal: Feature Calibration for Post-Merging Models",
+   "name": "FeatCal: Feature Calibration for Post-Merging Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-featcal-feature-calibration-for-post-merging-models/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yanggan Gu",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Hong Kong Polytechnic University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Shuo CAI"
+    },
+    {
+     "@type": "Person",
+     "name": "Zihao Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Wenjun Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuanyi Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Pengkai Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Sirui Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "Su Lu"
+    },
+    {
+     "@type": "Person",
+     "name": "Jianmin Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Hongxia Yang"
+    }
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=TbWDPX0nam"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "FeatCal: Feature Calibration for Post-Merging Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-featcal-feature-calibration-for-post-merging-models/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>FeatCal: Feature Calibration for Post-Merging Models</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yanggan Gu, Shuo CAI, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang</dd>
+<dt>Affiliation</dt><dd>Hong Kong Polytechnic University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=TbWDPX0nam" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-diagonalizing-the-softmax-hadamard-initialization-for/">Diagonalizing the Softmax: Hadamard Initialization for Tractable Cross-Entropy Dynamics</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-recursively-trained-diffusion-models-limiting-collapse/">Recursively Trained Diffusion Models: Limiting Collapse Distribution and Spectral Characterization</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-the-neural-race-model/">The Neural Race Model</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-decomposing-and-reshaping-scaling-laws-through-token/">Decomposing and Reshaping Scaling Laws through Token Learning Times</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-the-master-key-hypothesis-unlocking-cross-model-capability/">The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-self-distilled-rlvr/">Self-Distilled RLVR</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

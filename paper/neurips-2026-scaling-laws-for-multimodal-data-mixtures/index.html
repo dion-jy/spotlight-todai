@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scaling Laws for Multimodal Data Mixtures — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="Scaling Laws for Multimodal Data Mixtures — Spotlight paper at NeurIPS 2026 by Aditi Khandelwal, Ayush Kumar Tarun, Yixuan Xu et al. (MILA / McGill…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, scaling law, multimodal">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scaling-laws-for-multimodal-data-mixtures/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scaling Laws for Multimodal Data Mixtures | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="Scaling Laws for Multimodal Data Mixtures — Spotlight paper at NeurIPS 2026 by Aditi Khandelwal, Ayush Kumar Tarun, Yixuan Xu et al. (MILA / McGill…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scaling-laws-for-multimodal-data-mixtures/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Scaling Laws for Multimodal Data Mixtures | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="Scaling Laws for Multimodal Data Mixtures — Spotlight paper at NeurIPS 2026 by Aditi Khandelwal, Ayush Kumar Tarun, Yixuan Xu et al. (MILA / McGill…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scaling-laws-for-multimodal-data-mixtures/#article",
+   "headline": "Scaling Laws for Multimodal Data Mixtures",
+   "name": "Scaling Laws for Multimodal Data Mixtures",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scaling-laws-for-multimodal-data-mixtures/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Aditi Khandelwal",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "MILA / McGill University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Ayush Kumar Tarun"
+    },
+    {
+     "@type": "Person",
+     "name": "Yixuan Xu"
+    },
+    {
+     "@type": "Person",
+     "name": "Imanol Schlag"
+    },
+    {
+     "@type": "Person",
+     "name": "Golnoosh Farnadi"
+    },
+    {
+     "@type": "Person",
+     "name": "Siva Reddy"
+    },
+    {
+     "@type": "Person",
+     "name": "Luke Zettlemoyer"
+    },
+    {
+     "@type": "Person",
+     "name": "Antoine Bosselut"
+    }
+   ],
+   "keywords": [
+    "scaling law",
+    "multimodal"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=xX1gcyTLbF"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Scaling Laws for Multimodal Data Mixtures",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-scaling-laws-for-multimodal-data-mixtures/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>Scaling Laws for Multimodal Data Mixtures</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Aditi Khandelwal, Ayush Kumar Tarun, Yixuan Xu, Imanol Schlag, Golnoosh Farnadi, Siva Reddy, Luke Zettlemoyer, Antoine Bosselut</dd>
+<dt>Affiliation</dt><dd>MILA / McGill University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=xX1gcyTLbF" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">scaling law</span>
+<span class="chip">multimodal</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-geosym127k-scalable-symbolically-verifiable-synthesis-for/">GeoSym127K: Scalable Symbolically-verifiable Synthesis for Multimodal Geometric Reasoning</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-binding-multiple-modalities-via-multimodal-wasserstein/">Binding Multiple Modalities via Multimodal Wasserstein Barycenter</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-incentivizing-medical-vision-capabilities-from-large-scale/">Incentivizing Medical Vision Capabilities from Large-Scale Multimodal Pre-training</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-multabench-benchmarking-multimodal-tabular-learning-with/">MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-tastebench-multimodal-benchmark-for-sensory-prediction-from/">TasteBench: multimodal benchmark for sensory prediction, from molecules to sustainable foods</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-self-rewarded-multimodal-coherent-reasoning-across-diverse/">Self-Rewarded Multimodal Coherent Reasoning Across Diverse Visual Domains</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

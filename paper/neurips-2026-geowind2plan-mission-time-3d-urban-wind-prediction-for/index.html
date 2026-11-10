@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning — Spotlight paper at NeurIPS 2026 by Shaoxiang Qin, Xiongye Xiao…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, efficient, planning, 3d">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geowind2plan-mission-time-3d-urban-wind-prediction-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning — Spotlight paper at NeurIPS 2026 by Shaoxiang Qin, Xiongye Xiao…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geowind2plan-mission-time-3d-urban-wind-prediction-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning — Spotlight paper at NeurIPS 2026 by Shaoxiang Qin, Xiongye Xiao…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geowind2plan-mission-time-3d-urban-wind-prediction-for/#article",
+   "headline": "GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning",
+   "name": "GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geowind2plan-mission-time-3d-urban-wind-prediction-for/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Shaoxiang Qin",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "McGill University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Xiongye Xiao"
+    },
+    {
+     "@type": "Person",
+     "name": "Yucheng Zhao"
+    },
+    {
+     "@type": "Person",
+     "name": "Fuyuan Lyu"
+    },
+    {
+     "@type": "Person",
+     "name": "Di Zhou"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiachen Yao"
+    },
+    {
+     "@type": "Person",
+     "name": "Steve Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Animashree Anandkumar"
+    },
+    {
+     "@type": "Person",
+     "name": "Liangzhu Leon Wang"
+    }
+   ],
+   "keywords": [
+    "efficient",
+    "planning",
+    "3d"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=qmFNLvxGRp"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-geowind2plan-mission-time-3d-urban-wind-prediction-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Shaoxiang Qin, Xiongye Xiao, Yucheng Zhao, Fuyuan Lyu, Di Zhou, Jiachen Yao, Steve Liu, Animashree Anandkumar, Liangzhu Leon Wang</dd>
+<dt>Affiliation</dt><dd>McGill University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=qmFNLvxGRp" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">efficient</span>
+<span class="chip">planning</span>
+<span class="chip">3d</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-3r-adapter-retrieval-rewiring-and-refinement-for-efficient/">3R-Adapter: Retrieval, Rewiring, and Refinement for Efficient Adaptation of 3D Reconstruction Model</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2025-lodge-level-of-detail-large-scale-gaussian-splatting-with/">LODGE: Level-of-Detail Large-Scale Gaussian Splatting with Efficient Rendering</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-gsrf-complex-valued-3d-gaussian-splatting-for-efficient/">GSRF: Complex-Valued 3D Gaussian Splatting for Efficient Radio-Frequency Data Synthesis</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-felid-a-flexible-and-efficient-design-for-transformer-fine/">Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-consistent-3d-surface-flow-model-with-global-state/">Consistent 3D Surface Flow Model with Global State</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/">BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

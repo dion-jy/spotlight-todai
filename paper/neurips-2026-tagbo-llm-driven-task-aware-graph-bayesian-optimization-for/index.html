@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery — Spotlight paper at NeurIPS 2026 by Xinzhe Yuan, Zimu Zeng, Zhuo Chen et…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, optimization, bayesian, graph, llm">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tagbo-llm-driven-task-aware-graph-bayesian-optimization-for/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery — Spotlight paper at NeurIPS 2026 by Xinzhe Yuan, Zimu Zeng, Zhuo Chen et…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tagbo-llm-driven-task-aware-graph-bayesian-optimization-for/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery — Spotlight paper at NeurIPS 2026 by Xinzhe Yuan, Zimu Zeng, Zhuo Chen et…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tagbo-llm-driven-task-aware-graph-bayesian-optimization-for/#article",
+   "headline": "TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery",
+   "name": "TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tagbo-llm-driven-task-aware-graph-bayesian-optimization-for/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Xinzhe Yuan",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Shanghai AI Lab"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Zimu Zeng"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhuo Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Jianshu Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jinzong Dong"
+    },
+    {
+     "@type": "Person",
+     "name": "Jingyi Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Nanyang Ye"
+    },
+    {
+     "@type": "Person",
+     "name": "Huan Xiong"
+    },
+    {
+     "@type": "Person",
+     "name": "Qinying Gu"
+    }
+   ],
+   "keywords": [
+    "optimization",
+    "bayesian",
+    "graph",
+    "llm"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=vzC2M3GkhW"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tagbo-llm-driven-task-aware-graph-bayesian-optimization-for/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>TagBO: LLM-Driven Task-Aware Graph Bayesian Optimization for Scientific Discovery</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Xinzhe Yuan, Zimu Zeng, Zhuo Chen, Jianshu Zhang, Jinzong Dong, Jingyi Chen, Nanyang Ye, Huan Xiong, Qinying Gu</dd>
+<dt>Affiliation</dt><dd>Shanghai AI Lab</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=vzC2M3GkhW" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">optimization</span>
+<span class="chip">bayesian</span>
+<span class="chip">graph</span>
+<span class="chip">llm</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-hubble-a-model-suite-to-advance-the-study-of-llm/">Hubble: a Model Suite to Advance the Study of LLM Memorization</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-token-importance-guided-direct-preference-optimization/">Token-Importance Guided Direct Preference Optimization</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-invisible-safety-threat-malicious-finetuning-for-llm-via/">Invisible Safety Threat: Malicious Finetuning for LLM via Steganography</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-actions-speak-louder-than-prompts-a-large-scale-study-of/">Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-disentangling-latent-risk-pathways-via-bayesian-hypergraph/">Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+<li><a href="../icml-2026-omac-a-holistic-optimization-framework-for-llm-based-multi/">OMAC: A Holistic Optimization Framework for LLM-Based Multi-Agent Collaboration</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

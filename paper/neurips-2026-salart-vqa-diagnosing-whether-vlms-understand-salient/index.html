@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images — NeurIPS 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images — Oral paper at NeurIPS 2026 by Xiaoxiao Sun, Ruotian Zhang, Junzhe…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Oral paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-salart-vqa-diagnosing-whether-vlms-understand-salient/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in… | NeurIPS 2026 Oral">
+<meta property="og:description" content="SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images — Oral paper at NeurIPS 2026 by Xiaoxiao Sun, Ruotian Zhang, Junzhe…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-salart-vqa-diagnosing-whether-vlms-understand-salient/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in… | NeurIPS 2026 Oral">
+<meta name="twitter:description" content="SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images — Oral paper at NeurIPS 2026 by Xiaoxiao Sun, Ruotian Zhang, Junzhe…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-salart-vqa-diagnosing-whether-vlms-understand-salient/#article",
+   "headline": "SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images",
+   "name": "SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-salart-vqa-diagnosing-whether-vlms-understand-salient/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Xiaoxiao Sun",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Australian National University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Ruotian Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Junzhe Huang"
+    },
+    {
+     "@type": "Person",
+     "name": "James Burgess"
+    },
+    {
+     "@type": "Person",
+     "name": "Serena Yeung-Levy"
+    }
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=iVvXeIwD1f"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-salart-vqa-diagnosing-whether-vlms-understand-salient/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-oral/">NeurIPS 2026 Oral</a></nav>
+<article>
+<h1>SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Xiaoxiao Sun, Ruotian Zhang, Junzhe Huang, James Burgess, Serena Yeung-Levy</dd>
+<dt>Affiliation</dt><dd>Australian National University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=iVvXeIwD1f" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-evaluating-neural-data-tokenizers-a-framework-for-assessing/">Evaluating Neural Data Tokenizers: A Framework for Assessing Learned Representations of Spiking Activity</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-alter-an-allen-s-algebra-based-evaluation-framework-for/">ALTER: An Allen's Algebra-Based Evaluation Framework for Temporal Reasoning of LLMs</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-genai-evaluation-results-are-largely-artifacts-of-evaluation/">GenAI Evaluation Results are Largely Artifacts of Evaluation Design Choices: Evidence from Audit Studies of Resume Screening</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-hearsaybench-can-llms-navigate-from-abstract-human-rights-to/">HearSayBench: Can LLMs Navigate from Abstract Human Rights to Lived Lives?</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-benchmark-health-index-a-systematic-framework-for/">Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-dd-ranking-rethinking-the-evaluation-of-dataset-distillation/">DD-Ranking: Rethinking the Evaluation of Dataset Distillation</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-oral/">← All NeurIPS 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

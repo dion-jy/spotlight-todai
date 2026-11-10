@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MoSE3: Learning World-Space SE(3) at Every Pixel — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="MoSE3: Learning World-Space SE(3) at Every Pixel — Spotlight paper at NeurIPS 2026 by Jiahuan(Joanna) Cheng, Zhiyi Li, Tian Xia et al. (Johns Hopkins…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mose3-learning-world-space-se-3-at-every-pixel/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MoSE3: Learning World-Space SE(3) at Every Pixel | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="MoSE3: Learning World-Space SE(3) at Every Pixel — Spotlight paper at NeurIPS 2026 by Jiahuan(Joanna) Cheng, Zhiyi Li, Tian Xia et al. (Johns Hopkins…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mose3-learning-world-space-se-3-at-every-pixel/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MoSE3: Learning World-Space SE(3) at Every Pixel | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="MoSE3: Learning World-Space SE(3) at Every Pixel — Spotlight paper at NeurIPS 2026 by Jiahuan(Joanna) Cheng, Zhiyi Li, Tian Xia et al. (Johns Hopkins…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mose3-learning-world-space-se-3-at-every-pixel/#article",
+   "headline": "MoSE3: Learning World-Space SE(3) at Every Pixel",
+   "name": "MoSE3: Learning World-Space SE(3) at Every Pixel",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mose3-learning-world-space-se-3-at-every-pixel/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Jiahuan(Joanna) Cheng",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Johns Hopkins University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Zhiyi Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Tian Xia"
+    },
+    {
+     "@type": "Person",
+     "name": "Ruojin Cai"
+    },
+    {
+     "@type": "Person",
+     "name": "Yilun Du"
+    },
+    {
+     "@type": "Person",
+     "name": "Qianqian Wang"
+    }
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=2S8lPSNr5U"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "MoSE3: Learning World-Space SE(3) at Every Pixel",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-mose3-learning-world-space-se-3-at-every-pixel/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>MoSE3: Learning World-Space SE(3) at Every Pixel</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Jiahuan(Joanna) Cheng, Zhiyi Li, Tian Xia, Ruojin Cai, Yilun Du, Qianqian Wang</dd>
+<dt>Affiliation</dt><dd>Johns Hopkins University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=2S8lPSNr5U" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-when-policy-entropy-constraint-fails-preserving-diversity-in/">When Policy Entropy Constraint Fails: Preserving Diversity in Flow-based RLHF via Perceptual Entropy</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-coreq-learning-free-mismatch-correction-and-successive/">CoreQ: Learning-Free Mismatch Correction and Successive Rounding for Quantization</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-gramstattexnet-efficient-interpretable-and-neuro-inspired/">GramStatTexNet: Efficient, Interpretable, and Neuro-Inspired Texture Analysis-by-Synthesis</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-what-the-geometry-of-good-models-tells-us/">What the Geometry of Good Models Tells Us</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-inference-time-alignment-via-sparse-junction-steering/">Inference-time Alignment via Sparse Junction Steering</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-strategic-pac-learnability-via-geometric-definability/">Strategic PAC Learnability via Geometric Definability</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

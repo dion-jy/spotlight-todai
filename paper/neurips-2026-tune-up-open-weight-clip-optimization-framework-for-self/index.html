@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP — Spotlight paper at NeurIPS 2026 by Anant Mehta, Xiyuan Wei…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, self-supervised, optimization, fine-tuning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tune-up-open-weight-clip-optimization-framework-for-self/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP — Spotlight paper at NeurIPS 2026 by Anant Mehta, Xiyuan Wei…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tune-up-open-weight-clip-optimization-framework-for-self/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP — Spotlight paper at NeurIPS 2026 by Anant Mehta, Xiyuan Wei…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tune-up-open-weight-clip-optimization-framework-for-self/#article",
+   "headline": "Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP",
+   "name": "Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tune-up-open-weight-clip-optimization-framework-for-self/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Anant Mehta",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Texas A&M University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Xiyuan Wei"
+    },
+    {
+     "@type": "Person",
+     "name": "Xingyu Chen"
+    },
+    {
+     "@type": "Person",
+     "name": "Tianbao Yang"
+    }
+   ],
+   "keywords": [
+    "self-supervised",
+    "optimization",
+    "fine-tuning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=F6LR7aEwxS"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-tune-up-open-weight-clip-optimization-framework-for-self/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>Tune-Up Open-Weight CLIP: Optimization Framework for Self-Supervised Fine-tuning of CLIP</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Anant Mehta, Xiyuan Wei, Xingyu Chen, Tianbao Yang</dd>
+<dt>Affiliation</dt><dd>Texas A&amp;M University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=F6LR7aEwxS" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">self-supervised</span>
+<span class="chip">optimization</span>
+<span class="chip">fine-tuning</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-flow-density-control-generative-optimization-beyond-entropy/">Flow Density Control: Generative Optimization Beyond Entropy-Regularized Fine-Tuning</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2025-ridgelora-matrix-ridge-enhanced-low-rank-adaptation-of-large/">RidgeLoRA: Matrix Ridge Enhanced Low-Rank Adaptation of Large Language Models</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-felid-a-flexible-and-efficient-design-for-transformer-fine/">Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-resilience-matters-for-embodied-agents-system-new-metrics/">Resilience Matters for Embodied Agents System: New Metrics, Systematic Evaluation, and Optimization</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-follow-the-regularized-leader-does-not-converge-in/">Follow the Regularized Leader Does Not Converge in Constrained Optimization</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-ueco-a-unified-encoder-with-structure-aware-attention/">UECO: A Unified Encoder with Structure-Aware Attention Mixture via Iterative Edge Evolving for Neural Combinatorial Optimization</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 # SpotlightTodAI
 
 > A curated archive of Oral & Spotlight papers (the top ~1-5% of accepted
-> papers) from NeurIPS / ICLR / ICML. 1167 papers. Serverless static JSON API —
+> papers) from NeurIPS / ICLR / ICML. 1634 papers. Serverless static JSON API —
 > just GET a URL, no auth, no rate limits.
 
 Base URL for the API: https://dion-jy.github.io/spotlight-todai/api

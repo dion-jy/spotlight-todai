@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality — Spotlight paper at NeurIPS 2026 by Aileen Cheng, Alon Jacovi, Amir…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, large language model, language model, benchmark">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-facts-leaderboard-a-comprehensive-benchmark-for-large/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The FACTS Leaderboard: A Comprehensive Benchmark for Large Language… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality — Spotlight paper at NeurIPS 2026 by Aileen Cheng, Alon Jacovi, Amir…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-facts-leaderboard-a-comprehensive-benchmark-for-large/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The FACTS Leaderboard: A Comprehensive Benchmark for Large Language… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality — Spotlight paper at NeurIPS 2026 by Aileen Cheng, Alon Jacovi, Amir…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-facts-leaderboard-a-comprehensive-benchmark-for-large/#article",
+   "headline": "The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality",
+   "name": "The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-facts-leaderboard-a-comprehensive-benchmark-for-large/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Aileen Cheng",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Google"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Alon Jacovi"
+    },
+    {
+     "@type": "Person",
+     "name": "Amir Globerson"
+    },
+    {
+     "@type": "Person",
+     "name": "Ben Golan"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhaobin Kuang"
+    },
+    {
+     "@type": "Person",
+     "name": "Chris Alberti"
+    },
+    {
+     "@type": "Person",
+     "name": "Connie Tao"
+    },
+    {
+     "@type": "Person",
+     "name": "Eyal Ben-David"
+    },
+    {
+     "@type": "Person",
+     "name": "Gaurav Singh Tomar"
+    },
+    {
+     "@type": "Person",
+     "name": "Lukas Haas"
+    },
+    {
+     "@type": "Person",
+     "name": "Yonatan Bitton"
+    },
+    {
+     "@type": "Person",
+     "name": "Adam Bloniarz"
+    },
+    {
+     "@type": "Person",
+     "name": "Aijun Bai"
+    },
+    {
+     "@type": "Person",
+     "name": "Andrew Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Anfal Siddiqui"
+    },
+    {
+     "@type": "Person",
+     "name": "Aravindan Raghuveer"
+    },
+    {
+     "@type": "Person",
+     "name": "Arturo Bajuelos Castillo"
+    },
+    {
+     "@type": "Person",
+     "name": "Aviel Atias"
+    },
+    {
+     "@type": "Person",
+     "name": "Chang Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Corey Fry"
+    },
+    {
+     "@type": "Person",
+     "name": "Daniel Balle"
+    },
+    {
+     "@type": "Person",
+     "name": "Deepanway Ghosal"
+    },
+    {
+     "@type": "Person",
+     "name": "Doron Kukliansky"
+    },
+    {
+     "@type": "Person",
+     "name": "Dror Marcus"
+    },
+    {
+     "@type": "Person",
+     "name": "Elena Gribovskaya"
+    },
+    {
+     "@type": "Person",
+     "name": "Eran Ofek"
+    },
+    {
+     "@type": "Person",
+     "name": "Honglei Zhuang"
+    },
+    {
+     "@type": "Person",
+     "name": "Itay Laish"
+    },
+    {
+     "@type": "Person",
+     "name": "Jan Ackermann"
+    },
+    {
+     "@type": "Person",
+     "name": "Lily Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Megan Risdal"
+    },
+    {
+     "@type": "Person",
+     "name": "Megan Barnes"
+    },
+    {
+     "@type": "Person",
+     "name": "Michael Fink"
+    },
+    {
+     "@type": "Person",
+     "name": "Mohamed Amin"
+    },
+    {
+     "@type": "Person",
+     "name": "Moran R Ambar"
+    },
+    {
+     "@type": "Person",
+     "name": "Natan Potikha"
+    },
+    {
+     "@type": "Person",
+     "name": "Nikita Gupta"
+    },
+    {
+     "@type": "Person",
+     "name": "Nitzan Katz"
+    },
+    {
+     "@type": "Person",
+     "name": "Noam Velan"
+    },
+    {
+     "@type": "Person",
+     "name": "Ofir Roval"
+    },
+    {
+     "@type": "Person",
+     "name": "Ori Ram"
+    },
+    {
+     "@type": "Person",
+     "name": "Polina Zablotskaia"
+    },
+    {
+     "@type": "Person",
+     "name": "Prathamesh Bang"
+    },
+    {
+     "@type": "Person",
+     "name": "Priyanka Agrawal"
+    },
+    {
+     "@type": "Person",
+     "name": "Rakesh Ghiya"
+    },
+    {
+     "@type": "Person",
+     "name": "Sanjay Ganapathy"
+    },
+    {
+     "@type": "Person",
+     "name": "Simon Baumgartner"
+    },
+    {
+     "@type": "Person",
+     "name": "Sofia Erell"
+    },
+    {
+     "@type": "Person",
+     "name": "Sushant Prakash"
+    },
+    {
+     "@type": "Person",
+     "name": "Thibault Sellam"
+    },
+    {
+     "@type": "Person",
+     "name": "Vikram R Sudarshan"
+    },
+    {
+     "@type": "Person",
+     "name": "Xuanhui Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Yaroslav Akulov"
+    },
+    {
+     "@type": "Person",
+     "name": "Yulong Yang"
+    },
+    {
+     "@type": "Person",
+     "name": "ZHEN YANG"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhixin Lai"
+    },
+    {
+     "@type": "Person",
+     "name": "Zhongru Wu"
+    },
+    {
+     "@type": "Person",
+     "name": "Avinatan Hassidim"
+    },
+    {
+     "@type": "Person",
+     "name": "Fernando Pereira"
+    },
+    {
+     "@type": "Person",
+     "name": "Slav Petrov"
+    },
+    {
+     "@type": "Person",
+     "name": "Srinivasan Venkatachary"
+    },
+    {
+     "@type": "Person",
+     "name": "Tulsee Doshi"
+    },
+    {
+     "@type": "Person",
+     "name": "Yossi Matias"
+    },
+    {
+     "@type": "Person",
+     "name": "Sasha Goldshtein"
+    },
+    {
+     "@type": "Person",
+     "name": "Dipanjan Das"
+    }
+   ],
+   "keywords": [
+    "large language model",
+    "language model",
+    "benchmark"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=PYYLCc0DHq"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-the-facts-leaderboard-a-comprehensive-benchmark-for-large/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Aileen Cheng, Alon Jacovi, Amir Globerson, Ben Golan, Zhaobin Kuang, Chris Alberti, Connie Tao, Eyal Ben-David, Gaurav Singh Tomar, Lukas Haas, Yonatan Bitton, Adam Bloniarz, Aijun Bai, Andrew Wang, Anfal Siddiqui, Aravindan Raghuveer, Arturo Bajuelos Castillo, Aviel Atias, Chang Liu, Corey Fry, Daniel Balle, Deepanway Ghosal, Doron Kukliansky, Dror Marcus, Elena Gribovskaya, Eran Ofek, Honglei Zhuang, Itay Laish, Jan Ackermann, Lily Wang, Megan Risdal, Megan Barnes, Michael Fink, Mohamed Amin, Moran R Ambar, Natan Potikha, Nikita Gupta, Nitzan Katz, Noam Velan, Ofir Roval, Ori Ram, Polina Zablotskaia, Prathamesh Bang, Priyanka Agrawal, Rakesh Ghiya, Sanjay Ganapathy, Simon Baumgartner, Sofia Erell, Sushant Prakash, Thibault Sellam, Vikram R Sudarshan, Xuanhui Wang, Yaroslav Akulov, Yulong Yang, ZHEN YANG, Zhixin Lai, Zhongru Wu, Avinatan Hassidim, Fernando Pereira, Slav Petrov, Srinivasan Venkatachary, Tulsee Doshi, Yossi Matias, Sasha Goldshtein, Dipanjan Das</dd>
+<dt>Affiliation</dt><dd>Google</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=PYYLCc0DHq" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">large language model</span>
+<span class="chip">language model</span>
+<span class="chip">benchmark</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-counselbench-a-large-scale-expert-evaluation-and-adversarial/">CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-mc-search-evaluating-and-enhancing-multimodal-agentic-search/">MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-bird-interact-re-imagining-text-to-sql-evaluation-via-lens/">BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-swingarena-adversarial-programming-arena-for-long-context/">SWINGARENA: Adversarial Programming Arena for Long-context GitHub Issue Solving</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-benchmarking-empirical-privacy-protection-for-adaptations-of/">Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2025-deep-value-benchmark-measuring-whether-models-generalize/">Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

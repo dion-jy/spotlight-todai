@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding — Spotlight paper at NeurIPS 2026 by Qi Si, Xuyang Liu, Penglei Wang et…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, diffusion, geometric">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-gold-geometric-optimized-latent-diffusion-for-structure/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding — Spotlight paper at NeurIPS 2026 by Qi Si, Xuyang Liu, Penglei Wang et…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-gold-geometric-optimized-latent-diffusion-for-structure/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding — Spotlight paper at NeurIPS 2026 by Qi Si, Xuyang Liu, Penglei Wang et…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-gold-geometric-optimized-latent-diffusion-for-structure/#article",
+   "headline": "GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding",
+   "name": "GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-gold-geometric-optimized-latent-diffusion-for-structure/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Qi Si",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Shanghai Academy of Artificial Intelligence for Science"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Xuyang Liu"
+    },
+    {
+     "@type": "Person",
+     "name": "Penglei Wang"
+    },
+    {
+     "@type": "Person",
+     "name": "Shuo Su"
+    },
+    {
+     "@type": "Person",
+     "name": "LIMEI HAN"
+    },
+    {
+     "@type": "Person",
+     "name": "Mengzhu Li"
+    },
+    {
+     "@type": "Person",
+     "name": "Xin Guo"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuan Qi"
+    },
+    {
+     "@type": "Person",
+     "name": "Yuan Cheng"
+    }
+   ],
+   "keywords": [
+    "diffusion",
+    "geometric"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=LMJ8tizxt5"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-gold-geometric-optimized-latent-diffusion-for-structure/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>GOLD: Geometric Optimized Latent Diffusion for Structure-Aware RNA Inverse Folding</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Qi Si, Xuyang Liu, Penglei Wang, Shuo Su, LIMEI HAN, Mengzhu Li, Xin Guo, Yuan Qi, Yuan Cheng</dd>
+<dt>Affiliation</dt><dd>Shanghai Academy of Artificial Intelligence for Science</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=LMJ8tizxt5" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">diffusion</span>
+<span class="chip">geometric</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../iclr-2026-the-spacetime-of-diffusion-models-an-information-geometry/">The Spacetime of Diffusion Models: An Information Geometry Perspective</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../neurips-2026-geosym127k-scalable-symbolically-verifiable-synthesis-for/">GeoSym127K: Scalable Symbolically-verifiable Synthesis for Multimodal Geometric Reasoning</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-colored-noise-diffusion-sampling/">Colored Noise Diffusion Sampling</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-behavioral-geometric-supervision-aligns-video-foundation/">Behavioral Geometric Supervision Aligns Video Foundation Models with Human Social Perception</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-query-lower-bounds-for-diffusion-sampling/">Query Lower Bounds for Diffusion Sampling</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-cure-counterfactual-unsafe-token-re-masking-for-diffusion/">CURE: Counterfactual Unsafe-token Re-masking for Diffusion Large Language Model Test-time Alignment</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

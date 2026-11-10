@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models — Spotlight paper at NeurIPS 2026 by Anna-Maria Halacheva, Jan-Nico Zaech…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, vision-language, language model, 3d">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-p-3-vlm-a-point-based-alternative-for-grounded-3d-vision/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language… | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models — Spotlight paper at NeurIPS 2026 by Anna-Maria Halacheva, Jan-Nico Zaech…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-p-3-vlm-a-point-based-alternative-for-grounded-3d-vision/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language… | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models — Spotlight paper at NeurIPS 2026 by Anna-Maria Halacheva, Jan-Nico Zaech…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-p-3-vlm-a-point-based-alternative-for-grounded-3d-vision/#article",
+   "headline": "P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models",
+   "name": "P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-p-3-vlm-a-point-based-alternative-for-grounded-3d-vision/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Anna-Maria Halacheva",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "INSAIT, Sofia University \"St. Kliment Ohridski\""
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Jan-Nico Zaech"
+    },
+    {
+     "@type": "Person",
+     "name": "Sombit Dey"
+    },
+    {
+     "@type": "Person",
+     "name": "Luc V Gool"
+    },
+    {
+     "@type": "Person",
+     "name": "Danda Pani Paudel"
+    }
+   ],
+   "keywords": [
+    "vision-language",
+    "language model",
+    "3d"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=XlVqVpPeMI"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-p-3-vlm-a-point-based-alternative-for-grounded-3d-vision/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Anna-Maria Halacheva, Jan-Nico Zaech, Sombit Dey, Luc V Gool, Danda Pani Paudel</dd>
+<dt>Affiliation</dt><dd>INSAIT, Sofia University &quot;St. Kliment Ohridski&quot;</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=XlVqVpPeMI" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">vision-language</span>
+<span class="chip">language model</span>
+<span class="chip">3d</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-uncovering-and-shaping-the-latent-representation-of-3d-scene/">Uncovering and Shaping the Latent Representation of 3D Scene Topology in Vision-Language Models</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-vlsplat-vision-language-guided-object-centric-3d-gaussian/">VLSplat: Vision-Language Guided Object-Centric 3D Gaussian Splatting via Scene Graph</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-generative-universal-verifier-as-multimodal-meta-reasoner/">Generative Universal Verifier as Multimodal Meta-Reasoner</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-momagraph-state-aware-unified-scene-graphs-with-vision/">MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Models for Embodied Task Planning</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-scalecua-scaling-open-source-computer-use-agents-with-cross/">ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

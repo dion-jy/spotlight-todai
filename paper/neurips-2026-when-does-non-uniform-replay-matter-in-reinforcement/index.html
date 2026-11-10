@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When Does Non-Uniform Replay Matter in Reinforcement Learning? — NeurIPS 2026 Spotlight | SpotlightTodAI</title>
+<meta name="description" content="When Does Non-Uniform Replay Matter in Reinforcement Learning? — Spotlight paper at NeurIPS 2026 by Michal Korniak, Mikołaj Czarnecki, Yarden As et al…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Spotlight paper, AI research paper, reinforcement learning">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-when-does-non-uniform-replay-matter-in-reinforcement/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="When Does Non-Uniform Replay Matter in Reinforcement Learning? | NeurIPS 2026 Spotlight">
+<meta property="og:description" content="When Does Non-Uniform Replay Matter in Reinforcement Learning? — Spotlight paper at NeurIPS 2026 by Michal Korniak, Mikołaj Czarnecki, Yarden As et al…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-when-does-non-uniform-replay-matter-in-reinforcement/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="When Does Non-Uniform Replay Matter in Reinforcement Learning? | NeurIPS 2026 Spotlight">
+<meta name="twitter:description" content="When Does Non-Uniform Replay Matter in Reinforcement Learning? — Spotlight paper at NeurIPS 2026 by Michal Korniak, Mikołaj Czarnecki, Yarden As et al…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-when-does-non-uniform-replay-matter-in-reinforcement/#article",
+   "headline": "When Does Non-Uniform Replay Matter in Reinforcement Learning?",
+   "name": "When Does Non-Uniform Replay Matter in Reinforcement Learning?",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-when-does-non-uniform-replay-matter-in-reinforcement/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Spotlight presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Michal Korniak",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "ETHZ - ETH Zurich"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Mikołaj Czarnecki"
+    },
+    {
+     "@type": "Person",
+     "name": "Yarden As"
+    },
+    {
+     "@type": "Person",
+     "name": "Piotr Miłoś"
+    },
+    {
+     "@type": "Person",
+     "name": "Pieter Abbeel"
+    },
+    {
+     "@type": "Person",
+     "name": "Michal Nauman"
+    }
+   ],
+   "keywords": [
+    "reinforcement learning"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=MQaqQTPeHp"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Spotlight",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "When Does Non-Uniform Replay Matter in Reinforcement Learning?",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-when-does-non-uniform-replay-matter-in-reinforcement/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-spotlight/">NeurIPS 2026 Spotlight</a></nav>
+<article>
+<h1>When Does Non-Uniform Replay Matter in Reinforcement Learning?</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Spotlight">Spotlight</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Michal Korniak, Mikołaj Czarnecki, Yarden As, Piotr Miłoś, Pieter Abbeel, Michal Nauman</dd>
+<dt>Affiliation</dt><dd>ETHZ - ETH Zurich</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Spotlight</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=MQaqQTPeHp" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">reinforcement learning</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-clarification-as-supervision-reinforcement-learning-for/">Clarification as Supervision: Reinforcement Learning for Vision-Language Interfaces</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-nemotron-cascade-scaling-cascaded-reinforcement-learning-for/">Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-reinforcement-learning-agents-are-swimmers/">Reinforcement Learning Agents Are Swimmers</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-hybrid-reinforcement-learning-for-one-step-degraded-infrared/">Hybrid Reinforcement Learning for One-step Degraded Infrared and Visible Image Fusion</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-addressing-exogenous-variability-in-cooperative-multi-agent/">Addressing Exogenous Variability in Cooperative Multi-Agent Reinforcement Learning</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-wtf-simulation-free-reinforcement-learning-with-wasserstein/">WTF?! Simulation-Free Reinforcement Learning with Wasserstein-Tilted Flow Maps</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-spotlight/">← All NeurIPS 2026 Spotlight papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

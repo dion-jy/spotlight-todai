@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting — NeurIPS 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting — Oral paper at NeurIPS 2026 by Justin Kay, Shir Bar, Ellen O Aikens et al. (MIT).">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Oral paper, AI research paper, benchmark">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-movebench-a-benchmark-for-global-scale-wildlife-movement/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting | NeurIPS 2026 Oral">
+<meta property="og:description" content="MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting — Oral paper at NeurIPS 2026 by Justin Kay, Shir Bar, Ellen O Aikens et al. (MIT).">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-movebench-a-benchmark-for-global-scale-wildlife-movement/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting | NeurIPS 2026 Oral">
+<meta name="twitter:description" content="MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting — Oral paper at NeurIPS 2026 by Justin Kay, Shir Bar, Ellen O Aikens et al. (MIT).">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-movebench-a-benchmark-for-global-scale-wildlife-movement/#article",
+   "headline": "MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting",
+   "name": "MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-movebench-a-benchmark-for-global-scale-wildlife-movement/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Justin Kay",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "MIT"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Shir Bar"
+    },
+    {
+     "@type": "Person",
+     "name": "Ellen O Aikens"
+    },
+    {
+     "@type": "Person",
+     "name": "Martin Becker"
+    },
+    {
+     "@type": "Person",
+     "name": "Francesca Cagnacci"
+    },
+    {
+     "@type": "Person",
+     "name": "Juliet Cohen"
+    },
+    {
+     "@type": "Person",
+     "name": "Scott W Forrest"
+    },
+    {
+     "@type": "Person",
+     "name": "Jessica Kendall-Bar"
+    },
+    {
+     "@type": "Person",
+     "name": "Madeleine Lucas"
+    },
+    {
+     "@type": "Person",
+     "name": "Macon Overcast"
+    },
+    {
+     "@type": "Person",
+     "name": "Meredith S Palmer"
+    },
+    {
+     "@type": "Person",
+     "name": "Will Rogers"
+    },
+    {
+     "@type": "Person",
+     "name": "Nicholas J Russo"
+    },
+    {
+     "@type": "Person",
+     "name": "Christian Rutz"
+    },
+    {
+     "@type": "Person",
+     "name": "Larissa T Beumer"
+    },
+    {
+     "@type": "Person",
+     "name": "Michael B Brown"
+    },
+    {
+     "@type": "Person",
+     "name": "Ying-Chi Chan"
+    },
+    {
+     "@type": "Person",
+     "name": "Sarah C Davidson"
+    },
+    {
+     "@type": "Person",
+     "name": "Diego E Soto"
+    },
+    {
+     "@type": "Person",
+     "name": "Anne G Hertel"
+    },
+    {
+     "@type": "Person",
+     "name": "Roland Kays"
+    },
+    {
+     "@type": "Person",
+     "name": "Benjamin Koger"
+    },
+    {
+     "@type": "Person",
+     "name": "Guram Mikaberidze"
+    },
+    {
+     "@type": "Person",
+     "name": "Thomas Mueller"
+    },
+    {
+     "@type": "Person",
+     "name": "Ruth Oliver"
+    },
+    {
+     "@type": "Person",
+     "name": "Thorsten Papenbrock"
+    },
+    {
+     "@type": "Person",
+     "name": "Robert Patchett"
+    },
+    {
+     "@type": "Person",
+     "name": "Jared A Stabach"
+    },
+    {
+     "@type": "Person",
+     "name": "Dane Taylor"
+    },
+    {
+     "@type": "Person",
+     "name": "Scott W Yanco"
+    },
+    {
+     "@type": "Person",
+     "name": "Sara Beery"
+    }
+   ],
+   "keywords": [
+    "benchmark"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=6ss3Wyzv27"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-movebench-a-benchmark-for-global-scale-wildlife-movement/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-oral/">NeurIPS 2026 Oral</a></nav>
+<article>
+<h1>MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Justin Kay, Shir Bar, Ellen O Aikens, Martin Becker, Francesca Cagnacci, Juliet Cohen, Scott W Forrest, Jessica Kendall-Bar, Madeleine Lucas, Macon Overcast, Meredith S Palmer, Will Rogers, Nicholas J Russo, Christian Rutz, Larissa T Beumer, Michael B Brown, Ying-Chi Chan, Sarah C Davidson, Diego E Soto, Anne G Hertel, Roland Kays, Benjamin Koger, Guram Mikaberidze, Thomas Mueller, Ruth Oliver, Thorsten Papenbrock, Robert Patchett, Jared A Stabach, Dane Taylor, Scott W Yanco, Sara Beery</dd>
+<dt>Affiliation</dt><dd>MIT</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=6ss3Wyzv27" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">benchmark</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2026-benchmark-health-index-a-systematic-framework-for/">Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-can-llm-agents-respond-to-disasters-benchmarking/">Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-litmus-benchmarking-behavioral-jailbreaks-of-llm-agents-in/">LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments</a> <span class="rel-venue">NeurIPS 2026 Oral</span></li>
+<li><a href="../neurips-2026-multabench-benchmarking-multimodal-tabular-learning-with/">MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-virogym-realistic-large-scale-benchmarks-for-evaluating/">ViroGym: Realistic Large-Scale Benchmarks for Evaluating Viral Proteins</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-industrycode-a-benchmark-for-industry-code-generation/">IndustryCode: A Benchmark for Industry Code Generation</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-oral/">← All NeurIPS 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

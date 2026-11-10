@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting — NeurIPS 2026 Oral | SpotlightTodAI</title>
+<meta name="description" content="BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting — Oral paper at NeurIPS 2026 by Yanchen Wang, Lenny…">
+<meta name="keywords" content="NeurIPS, NeurIPS 2026, Oral paper, AI research paper, gaussian splatting, video, 3d">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BEAST3D: animal behavioral analysis and neural encoding from multi-view… | NeurIPS 2026 Oral">
+<meta property="og:description" content="BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting — Oral paper at NeurIPS 2026 by Yanchen Wang, Lenny…">
+<meta property="og:url" content="https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/">
+<meta property="og:site_name" content="SpotlightTodAI">
+<meta property="og:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BEAST3D: animal behavioral analysis and neural encoding from multi-view… | NeurIPS 2026 Oral">
+<meta name="twitter:description" content="BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting — Oral paper at NeurIPS 2026 by Yanchen Wang, Lenny…">
+<meta name="twitter:image" content="https://dion-jy.github.io/spotlight-todai/og-image.png">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../paper.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ScholarlyArticle",
+   "@id": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/#article",
+   "headline": "BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting",
+   "name": "BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting",
+   "url": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/",
+   "inLanguage": "en",
+   "datePublished": "2026",
+   "isAccessibleForFree": true,
+   "publisher": {
+    "@type": "Organization",
+    "name": "SpotlightTodAI",
+    "url": "https://dion-jy.github.io/spotlight-todai/"
+   },
+   "isPartOf": {
+    "@type": "PublicationEvent",
+    "name": "NeurIPS 2026",
+    "startDate": "2026"
+   },
+   "creativeWorkStatus": "Published",
+   "additionalType": "Oral presentation",
+   "author": [
+    {
+     "@type": "Person",
+     "name": "Yanchen Wang",
+     "affiliation": {
+      "@type": "Organization",
+      "name": "Stanford University"
+     }
+    },
+    {
+     "@type": "Person",
+     "name": "Lenny Aharon"
+    },
+    {
+     "@type": "Person",
+     "name": "Wangshu Zhu"
+    },
+    {
+     "@type": "Person",
+     "name": "Kyle Daruwalla"
+    },
+    {
+     "@type": "Person",
+     "name": "Linghua Zhang"
+    },
+    {
+     "@type": "Person",
+     "name": "Jiaru Zou"
+    },
+    {
+     "@type": "Person",
+     "name": "Selmaan N Chettih"
+    },
+    {
+     "@type": "Person",
+     "name": "X Helen Hou"
+    },
+    {
+     "@type": "Person",
+     "name": "Liam Paninski"
+    },
+    {
+     "@type": "Person",
+     "name": "Matthew Whiteway"
+    }
+   ],
+   "keywords": [
+    "gaussian splatting",
+    "video",
+    "3d"
+   ],
+   "sameAs": [
+    "https://openreview.net/forum?id=nWHsSjFVA0"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "SpotlightTodAI",
+     "item": "https://dion-jy.github.io/spotlight-todai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "NeurIPS 2026 Oral",
+     "item": "https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting",
+     "item": "https://dion-jy.github.io/spotlight-todai/paper/neurips-2026-beast3d-animal-behavioral-analysis-and-neural-encoding-from/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">SpotlightTodAI</a> <span>›</span> <a href="../../venue/neurips-2026-oral/">NeurIPS 2026 Oral</a></nav>
+<article>
+<h1>BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting</h1>
+<p class="badges"><span class="badge b-NeurIPS">NeurIPS</span><span class="badge b-Oral">Oral</span><span class="year">2026</span></p>
+<dl class="meta">
+<dt>Authors</dt><dd>Yanchen Wang, Lenny Aharon, Wangshu Zhu, Kyle Daruwalla, Linghua Zhang, Jiaru Zou, Selmaan N Chettih, X Helen Hou, Liam Paninski, Matthew Whiteway</dd>
+<dt>Affiliation</dt><dd>Stanford University</dd>
+<dt>Venue</dt><dd>NeurIPS 2026</dd>
+<dt>Track</dt><dd>Oral</dd>
+</dl>
+<section class="tldr"><h2>TL;DR</h2><p class="attrib">No summary has been collected for this paper yet. Read the abstract at the authoritative source below.</p></section>
+<section class="sources"><h2>Read the paper</h2><ul>
+<li><a href="https://openreview.net/forum?id=nWHsSjFVA0" target="_blank" rel="noopener nofollow">OpenReview</a></li>
+</ul></section>
+<section class="topics"><h2>Topics</h2><p class="chips">
+<span class="chip">gaussian splatting</span>
+<span class="chip">video</span>
+<span class="chip">3d</span>
+</p></section>
+<section class="related"><h2>Related NeurIPS papers</h2><ul>
+<li><a href="../neurips-2025-ef-3dgs-event-aided-free-trajectory-3d-gaussian-splatting/">EF-3DGS: Event-Aided Free-Trajectory 3D Gaussian Splatting</a> <span class="rel-venue">NeurIPS 2025 Spotlight</span></li>
+<li><a href="../neurips-2026-vlsplat-vision-language-guided-object-centric-3d-gaussian/">VLSplat: Vision-Language Guided Object-Centric 3D Gaussian Splatting via Scene Graph</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../neurips-2026-clustersplat-semantic-cluster-selection-for-3d-visual/">ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting</a> <span class="rel-venue">NeurIPS 2026 Spotlight</span></li>
+<li><a href="../iclr-2026-vid-llm-a-compact-video-based-3d-multimodal-llm-with/">Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../iclr-2026-text-to-3d-by-stitching-a-multi-view-reconstruction-network/">Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator</a> <span class="rel-venue">ICLR 2026 Oral</span></li>
+<li><a href="../icml-2026-holi-spatial-evolving-video-streams-into-holistic-3d-spatial/">Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence</a> <span class="rel-venue">ICML 2026 Oral</span></li>
+</ul></section>
+<p class="back"><a href="../../venue/neurips-2026-oral/">← All NeurIPS 2026 Oral papers</a> · <a href="../../">Browse the whole archive</a></p>
+</article>
+<footer class="site-footer"><a href="../../">SpotlightTodAI</a> · <a href="../../#for-agents">JSON API + MCP for agents</a> · <a href="https://github.com/dion-jy/spotlight-todai" target="_blank" rel="noopener">GitHub</a> · ☕ <a href="https://paypal.me/JunyeobBaek" target="_blank" rel="noopener">Buy me a coffee</a></footer>
+</div>
+</body>
+</html>

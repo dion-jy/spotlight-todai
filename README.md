@@ -69,8 +69,10 @@ Thousands of papers are accepted each year, but only the top 1-5% are designated
 | ICLR | 2026 | Oral | 224 | ✅ (TLDR + affiliation) |
 | ICML | 2026 | Oral | 168 | ✅ (title + author; affiliation/summary pending OpenReview proceedings) |
 | ICML | 2026 | Spotlight | 9 | 🟡 partial (track not yet fully public; from institutional press releases) |
+| NeurIPS | 2026 | Oral | 132 | 🟡 title + author/affiliation + OpenReview (official neurips.cc data; summary pending) |
+| NeurIPS | 2026 | Spotlight | 335 | 🟡 title + author/affiliation + OpenReview (official neurips.cc data; summary pending) |
 
-**1167 papers** total.
+**1634 papers** total.
 
 ## Website
 
@@ -82,7 +84,9 @@ A static, dependency-free site renders all papers in one searchable, filterable 
   [ICLR 2026 Oral](https://dion-jy.github.io/spotlight-todai/venue/iclr-2026-oral/) ·
   [ICML 2026 Oral](https://dion-jy.github.io/spotlight-todai/venue/icml-2026-oral/) ·
   [NeurIPS 2025 Oral](https://dion-jy.github.io/spotlight-todai/venue/neurips-2025-oral/) ·
-  [ICML 2026 Spotlight](https://dion-jy.github.io/spotlight-todai/venue/icml-2026-spotlight/)
+  [ICML 2026 Spotlight](https://dion-jy.github.io/spotlight-todai/venue/icml-2026-spotlight/) ·
+  [NeurIPS 2026 Oral](https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-oral/) ·
+  [NeurIPS 2026 Spotlight](https://dion-jy.github.io/spotlight-todai/venue/neurips-2026-spotlight/)
 - Built from the `data/` markdown by [`build.py`](build.py) into [`data.json`](data.json).
 
 ## Data

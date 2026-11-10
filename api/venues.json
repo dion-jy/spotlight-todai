@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "total": 1167,
+ "total": 1634,
  "conferences": [
   "ICLR",
   "ICML",
@@ -44,6 +44,18 @@
    "year": 2025,
    "track": "Spotlight",
    "count": 689
+  },
+  {
+   "conference": "NeurIPS",
+   "year": 2026,
+   "track": "Oral",
+   "count": 132
+  },
+  {
+   "conference": "NeurIPS",
+   "year": 2026,
+   "track": "Spotlight",
+   "count": 335
   }
  ]
 }
