@@ -1,58 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 312,
-  "position": 312,
+  "day_index": 313,
+  "position": 313,
   "cycle_length_days": 1167,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-89",
-  "conference": "ICML",
-  "year": 2026,
-  "track": "Oral",
-  "title": "DPO Unchained: Your Training Algorithm is Secretly Disentangled in Human Choice Theory (and Its Loss' Convexity is Dispensable)",
+  "uid": "neurips-2025-spotlight-211",
+  "conference": "NeurIPS",
+  "year": 2025,
+  "track": "Spotlight",
+  "title": "A Principled Path to Fitted Distributional Evaluation",
   "authors": [
-   "Wenxuan Zhou",
-   "Shujian Zhang",
-   "brice magdalou",
-   "John Lambert",
-   "Ehsan Amid",
-   "Richard Nock",
-   "Andrew Hard"
+   "Sungee Hong",
+   "Jiayi Wang",
+   "Zhengling Qi",
+   "Raymond K. W. Wong"
   ],
   "affiliation": "",
-  "summary": "",
+  "summary": "In reinforcement learning, distributional off-policy evaluation (OPE) focuses on estimating the return distribution of a target policy using offline data collected under a different policy",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=Gte3F0ONhr",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71131"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-211",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "A Principled Path to Fitted Distributional Evaluation",
-   "authors": [
-    "Sungee Hong",
-    "Jiayi Wang",
-    "Zhengling Qi",
-    "Raymond K. W. Wong"
-   ],
-   "affiliation": "",
-   "summary": "In reinforcement learning, distributional off-policy evaluation (OPE) focuses on estimating the return distribution of a target policy using offline data collected under a different policy",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=Gte3F0ONhr",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-56",
    "conference": "ICML",
@@ -111,6 +88,28 @@
    "summary": "Task-trained recurrent neural networks (RNNs) are widely used in neuroscience and machine learning to model dynamical computations",
    "links": {
     "openreview": "https://openreview.net/forum?id=R0LqbSgZjP",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "iclr-2026-oral-143",
+   "conference": "ICLR",
+   "year": 2026,
+   "track": "Oral",
+   "title": "LLM DNA: Tracing Model Evolution via Functional Representations",
+   "authors": [
+    "Zhaomin Wu",
+    "Haodong Zhao",
+    "Ziyang Wang",
+    "Jizhou Guo",
+    "Qian Wang",
+    "Bingsheng He"
+   ],
+   "affiliation": "National University of Singapore",
+   "summary": "We introduce LLM DNA, a low-dimensional representation of LLMs, uncovers undocumented relations and constructs phylogenetic tree for LLM.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=UIxHaAqFqQ",
     "arxiv": "",
     "detail": ""
    }
