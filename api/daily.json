@@ -1,117 +1,121 @@
 {
  "schema_version": 1,
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 313,
-  "position": 313,
-  "cycle_length_days": 1167,
+  "day_index": 314,
+  "position": 314,
+  "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-211",
+  "uid": "neurips-2026-spotlight-287",
   "conference": "NeurIPS",
-  "year": 2025,
+  "year": 2026,
   "track": "Spotlight",
-  "title": "A Principled Path to Fitted Distributional Evaluation",
+  "title": "City-RAG: Stepping Into a City via Spatially-Grounded Video Generation",
   "authors": [
-   "Sungee Hong",
-   "Jiayi Wang",
-   "Zhengling Qi",
-   "Raymond K. W. Wong"
+   "Gene Chou",
+   "Charles Herrmann",
+   "Kyle Genova",
+   "Boyang Deng",
+   "Songyou Peng",
+   "Bharath Hariharan",
+   "Jason Y. Zhang",
+   "Noah Snavely",
+   "Philipp Henzler"
   ],
-  "affiliation": "",
-  "summary": "In reinforcement learning, distributional off-policy evaluation (OPE) focuses on estimating the return distribution of a target policy using offline data collected under a different policy",
+  "affiliation": "Cornell University",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=Gte3F0ONhr",
+   "openreview": "https://openreview.net/forum?id=C7T2iGG1Zy",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
   {
-   "uid": "icml-2026-oral-56",
+   "uid": "icml-2026-oral-160",
    "conference": "ICML",
    "year": 2026,
    "track": "Oral",
-   "title": "MuonSSM: Orthogonalizing State Space Models for Sequence Modeling",
+   "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
    "authors": [
-    "Thai Khanh Nguyen",
-    "Ngoc Bich Uyen Vo",
-    "Thieu Vo",
-    "Tan Nguyen",
-    "Cuong Pham"
+    "Hanlin Zhang",
+    "Jikai Jin",
+    "Vasilis Syrgkanis",
+    "Sham Kakade"
    ],
    "affiliation": "",
    "summary": "",
    "links": {
     "openreview": "",
     "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71058"
+    "detail": "https://icml.cc/virtual/2026/oral/71169"
    }
   },
   {
-   "uid": "iclr-2026-oral-186",
+   "uid": "iclr-2026-oral-165",
    "conference": "ICLR",
    "year": 2026,
    "track": "Oral",
-   "title": "Premise Selection for a Lean Hammer",
+   "title": "Token-Importance Guided Direct Preference Optimization",
    "authors": [
-    "Thomas Zhu",
-    "Joshua Clune",
-    "Jeremy Avigad",
-    "Albert Q. Jiang",
-    "Sean Welleck"
+    "Ning Yang",
+    "Hai Lin",
+    "Yibo Liu",
+    "Baoliang Tian",
+    "Guoqing Liu",
+    "Haijun Zhang"
    ],
-   "affiliation": "ByteDance Inc.",
-   "summary": "LeanHammer integrates neural premise selection with symbolic reasoning to automate theorem proving in Lean.",
+   "affiliation": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences",
+   "summary": "We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human preferences by using a hybrid weighting mechanism to identify key tokens and a triplet loss to guide the optimization process.",
    "links": {
-    "openreview": "https://openreview.net/forum?id=m04JJNeRK6",
+    "openreview": "https://openreview.net/forum?id=cMEnMVvMw9",
     "arxiv": "",
     "detail": ""
    }
   },
   {
-   "uid": "neurips-2025-spotlight-379",
+   "uid": "neurips-2026-spotlight-208",
    "conference": "NeurIPS",
-   "year": 2025,
+   "year": 2026,
    "track": "Spotlight",
-   "title": "Measuring and Controlling Solution Degeneracy across Task-Trained Recurrent Neural Networks",
+   "title": "Decomposing and Reshaping Scaling Laws through Token Learning Times",
    "authors": [
-    "Ann Huang",
-    "Satpreet Harcharan Singh",
-    "Flavio Martinelli",
-    "Kanaka Rajan"
+    "Pingjie Wang",
+    "zechenhu",
+    "Peiru Yang",
+    "Jingtao Han",
+    "Debing Zhang"
+   ],
+   "affiliation": "Shanghai Jiao Tong University",
+   "summary": "",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=THZDVZArRH",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-81",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
+   "authors": [
+    "Minh-Tung Luu",
+    "Hwanhee Kim",
+    "Younghwan Lee",
+    "Chang Yoo"
    ],
    "affiliation": "",
-   "summary": "Task-trained recurrent neural networks (RNNs) are widely used in neuroscience and machine learning to model dynamical computations",
+   "summary": "",
    "links": {
-    "openreview": "https://openreview.net/forum?id=R0LqbSgZjP",
+    "openreview": "",
     "arxiv": "",
-    "detail": ""
-   }
-  },
-  {
-   "uid": "iclr-2026-oral-143",
-   "conference": "ICLR",
-   "year": 2026,
-   "track": "Oral",
-   "title": "LLM DNA: Tracing Model Evolution via Functional Representations",
-   "authors": [
-    "Zhaomin Wu",
-    "Haodong Zhao",
-    "Ziyang Wang",
-    "Jizhou Guo",
-    "Qian Wang",
-    "Bingsheng He"
-   ],
-   "affiliation": "National University of Singapore",
-   "summary": "We introduce LLM DNA, a low-dimensional representation of LLMs, uncovers undocumented relations and constructs phylogenetic tree for LLM.",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=UIxHaAqFqQ",
-    "arxiv": "",
-    "detail": ""
+    "detail": "https://icml.cc/virtual/2026/oral/71090"
    }
   }
  ]
