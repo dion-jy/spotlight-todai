@@ -1,60 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 314,
-  "position": 314,
+  "day_index": 315,
+  "position": 315,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2026-spotlight-287",
-  "conference": "NeurIPS",
+  "uid": "icml-2026-oral-160",
+  "conference": "ICML",
   "year": 2026,
-  "track": "Spotlight",
-  "title": "City-RAG: Stepping Into a City via Spatially-Grounded Video Generation",
+  "track": "Oral",
+  "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
   "authors": [
-   "Gene Chou",
-   "Charles Herrmann",
-   "Kyle Genova",
-   "Boyang Deng",
-   "Songyou Peng",
-   "Bharath Hariharan",
-   "Jason Y. Zhang",
-   "Noah Snavely",
-   "Philipp Henzler"
+   "Hanlin Zhang",
+   "Jikai Jin",
+   "Vasilis Syrgkanis",
+   "Sham Kakade"
   ],
-  "affiliation": "Cornell University",
+  "affiliation": "",
   "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=C7T2iGG1Zy",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71169"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-160",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
-   "authors": [
-    "Hanlin Zhang",
-    "Jikai Jin",
-    "Vasilis Syrgkanis",
-    "Sham Kakade"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71169"
-   }
-  },
   {
    "uid": "iclr-2026-oral-165",
    "conference": "ICLR",
@@ -116,6 +91,37 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71090"
+   }
+  },
+  {
+   "uid": "neurips-2026-spotlight-32",
+   "conference": "NeurIPS",
+   "year": 2026,
+   "track": "Spotlight",
+   "title": "GeoG2U-Bench: When Does Generation Help Understanding in Ultra-High-Resolution Remote Sensing?",
+   "authors": [
+    "Fengxiang Wang",
+    "Yueying Li",
+    "Mingshuo Chen",
+    "Boya Miao",
+    "Qiuyang Yu",
+    "Yajie Yang",
+    "Mingzhen Xu",
+    "Luqing Luo",
+    "Haonan Guo",
+    "Hongda Sun",
+    "Yulin Wang",
+    "Jun Song",
+    "Jing Zhang",
+    "Long Lan",
+    "Wenjing Yang"
+   ],
+   "affiliation": "National University of Defense Technology",
+   "summary": "",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=2k7W2ijRCW",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
