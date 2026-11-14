@@ -1,58 +1,36 @@
 {
  "schema_version": 1,
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 316,
-  "position": 316,
+  "day_index": 317,
+  "position": 317,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-165",
-  "conference": "ICLR",
+  "uid": "neurips-2026-spotlight-208",
+  "conference": "NeurIPS",
   "year": 2026,
-  "track": "Oral",
-  "title": "Token-Importance Guided Direct Preference Optimization",
+  "track": "Spotlight",
+  "title": "Decomposing and Reshaping Scaling Laws through Token Learning Times",
   "authors": [
-   "Ning Yang",
-   "Hai Lin",
-   "Yibo Liu",
-   "Baoliang Tian",
-   "Guoqing Liu",
-   "Haijun Zhang"
+   "Pingjie Wang",
+   "zechenhu",
+   "Peiru Yang",
+   "Jingtao Han",
+   "Debing Zhang"
   ],
-  "affiliation": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences",
-  "summary": "We proposes Token-Importance Guided Direct Preference Optimization (TI-DPO) to better align LLMs with human preferences by using a hybrid weighting mechanism to identify key tokens and a triplet loss to guide the optimization process.",
+  "affiliation": "Shanghai Jiao Tong University",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=cMEnMVvMw9",
+   "openreview": "https://openreview.net/forum?id=THZDVZArRH",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2026-spotlight-208",
-   "conference": "NeurIPS",
-   "year": 2026,
-   "track": "Spotlight",
-   "title": "Decomposing and Reshaping Scaling Laws through Token Learning Times",
-   "authors": [
-    "Pingjie Wang",
-    "zechenhu",
-    "Peiru Yang",
-    "Jingtao Han",
-    "Debing Zhang"
-   ],
-   "affiliation": "Shanghai Jiao Tong University",
-   "summary": "",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=THZDVZArRH",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-81",
    "conference": "ICML",
@@ -119,6 +97,24 @@
    "summary": "This paper studies the problem of class-incremental learning (CIL), a core setting within continual learning where a model learns a sequence of tasks, each containing a distinct set of classes",
    "links": {
     "openreview": "https://openreview.net/forum?id=qQbvLU34F1",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-484",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "How many measurements are enough? Bayesian recovery in inverse problems with general distributions",
+   "authors": [
+    "Ben Adcock",
+    "Nick Huang"
+   ],
+   "affiliation": "",
+   "summary": "We study the sample complexity of Bayesian recovery for solving inverse problems with general prior, forward operator and noise distributions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=IIiRwgkZcm",
     "arxiv": "",
     "detail": ""
    }
