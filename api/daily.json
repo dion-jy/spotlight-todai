@@ -1,56 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 317,
-  "position": 317,
+  "day_index": 318,
+  "position": 318,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2026-spotlight-208",
-  "conference": "NeurIPS",
+  "uid": "icml-2026-oral-81",
+  "conference": "ICML",
   "year": 2026,
-  "track": "Spotlight",
-  "title": "Decomposing and Reshaping Scaling Laws through Token Learning Times",
+  "track": "Oral",
+  "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
   "authors": [
-   "Pingjie Wang",
-   "zechenhu",
-   "Peiru Yang",
-   "Jingtao Han",
-   "Debing Zhang"
+   "Minh-Tung Luu",
+   "Hwanhee Kim",
+   "Younghwan Lee",
+   "Chang Yoo"
   ],
-  "affiliation": "Shanghai Jiao Tong University",
+  "affiliation": "",
   "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=THZDVZArRH",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71090"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-81",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
-   "authors": [
-    "Minh-Tung Luu",
-    "Hwanhee Kim",
-    "Younghwan Lee",
-    "Chang Yoo"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71090"
-   }
-  },
   {
    "uid": "neurips-2026-spotlight-32",
    "conference": "NeurIPS",
@@ -117,6 +96,30 @@
     "openreview": "https://openreview.net/forum?id=IIiRwgkZcm",
     "arxiv": "",
     "detail": ""
+   }
+  },
+  {
+   "uid": "icml-2026-oral-125",
+   "conference": "ICML",
+   "year": 2026,
+   "track": "Oral",
+   "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
+   "authors": [
+    "Junyi Yan",
+    "KE LIANG",
+    "Hao Yu",
+    "Meng Liu",
+    "Hao Tan",
+    "Tianrui Liu",
+    "Jun-Jie Huang",
+    "Xinwang Liu"
+   ],
+   "affiliation": "",
+   "summary": "",
+   "links": {
+    "openreview": "",
+    "arxiv": "",
+    "detail": "https://icml.cc/virtual/2026/oral/71160"
    }
   }
  ]
