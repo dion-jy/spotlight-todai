@@ -1,66 +1,46 @@
 {
  "schema_version": 1,
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 318,
-  "position": 318,
+  "day_index": 319,
+  "position": 319,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-81",
-  "conference": "ICML",
+  "uid": "neurips-2026-spotlight-32",
+  "conference": "NeurIPS",
   "year": 2026,
-  "track": "Oral",
-  "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
+  "track": "Spotlight",
+  "title": "GeoG2U-Bench: When Does Generation Help Understanding in Ultra-High-Resolution Remote Sensing?",
   "authors": [
-   "Minh-Tung Luu",
-   "Hwanhee Kim",
-   "Younghwan Lee",
-   "Chang Yoo"
+   "Fengxiang Wang",
+   "Yueying Li",
+   "Mingshuo Chen",
+   "Boya Miao",
+   "Qiuyang Yu",
+   "Yajie Yang",
+   "Mingzhen Xu",
+   "Luqing Luo",
+   "Haonan Guo",
+   "Hongda Sun",
+   "Yulin Wang",
+   "Jun Song",
+   "Jing Zhang",
+   "Long Lan",
+   "Wenjing Yang"
   ],
-  "affiliation": "",
+  "affiliation": "National University of Defense Technology",
   "summary": "",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=2k7W2ijRCW",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71090"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2026-spotlight-32",
-   "conference": "NeurIPS",
-   "year": 2026,
-   "track": "Spotlight",
-   "title": "GeoG2U-Bench: When Does Generation Help Understanding in Ultra-High-Resolution Remote Sensing?",
-   "authors": [
-    "Fengxiang Wang",
-    "Yueying Li",
-    "Mingshuo Chen",
-    "Boya Miao",
-    "Qiuyang Yu",
-    "Yajie Yang",
-    "Mingzhen Xu",
-    "Luqing Luo",
-    "Haonan Guo",
-    "Hongda Sun",
-    "Yulin Wang",
-    "Jun Song",
-    "Jing Zhang",
-    "Long Lan",
-    "Wenjing Yang"
-   ],
-   "affiliation": "National University of Defense Technology",
-   "summary": "",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=2k7W2ijRCW",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-108",
    "conference": "NeurIPS",
@@ -120,6 +100,36 @@
     "openreview": "",
     "arxiv": "",
     "detail": "https://icml.cc/virtual/2026/oral/71160"
+   }
+  },
+  {
+   "uid": "neurips-2026-oral-24",
+   "conference": "NeurIPS",
+   "year": 2026,
+   "track": "Oral",
+   "title": "Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data",
+   "authors": [
+    "Linru Zhang",
+    "Jun Jie Sim",
+    "Xiangning Wang",
+    "Jiahao Zhong",
+    "Kaiyu Zhou",
+    "Huanyi Ye",
+    "Yongsen Zheng",
+    "Lushan Song",
+    "Xiaojian Liang",
+    "Yingting Liu",
+    "Yujing Sun",
+    "Huaxiong Wang",
+    "Pu Duan",
+    "Kwok-Yan Lam"
+   ],
+   "affiliation": "Nanyang Technological University",
+   "summary": "",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=yglphSefi0",
+    "arxiv": "",
+    "detail": ""
    }
   }
  ]
