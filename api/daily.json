@@ -1,57 +1,39 @@
 {
  "schema_version": 1,
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 321,
-  "position": 321,
+  "day_index": 322,
+  "position": 322,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-484",
-  "conference": "NeurIPS",
-  "year": 2025,
-  "track": "Spotlight",
-  "title": "How many measurements are enough? Bayesian recovery in inverse problems with general distributions",
+  "uid": "icml-2026-oral-125",
+  "conference": "ICML",
+  "year": 2026,
+  "track": "Oral",
+  "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
   "authors": [
-   "Ben Adcock",
-   "Nick Huang"
+   "Junyi Yan",
+   "KE LIANG",
+   "Hao Yu",
+   "Meng Liu",
+   "Hao Tan",
+   "Tianrui Liu",
+   "Jun-Jie Huang",
+   "Xinwang Liu"
   ],
   "affiliation": "",
-  "summary": "We study the sample complexity of Bayesian recovery for solving inverse problems with general prior, forward operator and noise distributions",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=IIiRwgkZcm",
+   "openreview": "",
    "arxiv": "",
-   "detail": ""
+   "detail": "https://icml.cc/virtual/2026/oral/71160"
   }
  },
  "candidates": [
-  {
-   "uid": "icml-2026-oral-125",
-   "conference": "ICML",
-   "year": 2026,
-   "track": "Oral",
-   "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
-   "authors": [
-    "Junyi Yan",
-    "KE LIANG",
-    "Hao Yu",
-    "Meng Liu",
-    "Hao Tan",
-    "Tianrui Liu",
-    "Jun-Jie Huang",
-    "Xinwang Liu"
-   ],
-   "affiliation": "",
-   "summary": "",
-   "links": {
-    "openreview": "",
-    "arxiv": "",
-    "detail": "https://icml.cc/virtual/2026/oral/71160"
-   }
-  },
   {
    "uid": "neurips-2026-oral-24",
    "conference": "NeurIPS",
@@ -124,6 +106,32 @@
    "summary": "AI-generated videos have achieved near-perfect visual realism (e",
    "links": {
     "openreview": "https://openreview.net/forum?id=HiBoJLCyEo",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-107",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Prismatic Synthesis: Gradient-based Data Diversification Boosts Generalization in LLM Reasoning",
+   "authors": [
+    "Jaehun Jung",
+    "Seungju Han",
+    "Ximing Lu",
+    "Skyler Hallinan",
+    "David Acuna",
+    "Shrimai Prabhumoye",
+    "Mostofa Patwary",
+    "Mohammad Shoeybi",
+    "Bryan Catanzaro",
+    "Yejin Choi"
+   ],
+   "affiliation": "",
+   "summary": "Data diversity is crucial for training a strong language model",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=R0dC7Xzwbk",
     "arxiv": "",
     "detail": ""
    }
