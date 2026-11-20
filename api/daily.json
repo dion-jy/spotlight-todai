@@ -1,69 +1,45 @@
 {
  "schema_version": 1,
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 322,
-  "position": 322,
+  "day_index": 323,
+  "position": 323,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "icml-2026-oral-125",
-  "conference": "ICML",
+  "uid": "neurips-2026-oral-24",
+  "conference": "NeurIPS",
   "year": 2026,
   "track": "Oral",
-  "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
+  "title": "Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data",
   "authors": [
-   "Junyi Yan",
-   "KE LIANG",
-   "Hao Yu",
-   "Meng Liu",
-   "Hao Tan",
-   "Tianrui Liu",
-   "Jun-Jie Huang",
-   "Xinwang Liu"
+   "Linru Zhang",
+   "Jun Jie Sim",
+   "Xiangning Wang",
+   "Jiahao Zhong",
+   "Kaiyu Zhou",
+   "Huanyi Ye",
+   "Yongsen Zheng",
+   "Lushan Song",
+   "Xiaojian Liang",
+   "Yingting Liu",
+   "Yujing Sun",
+   "Huaxiong Wang",
+   "Pu Duan",
+   "Kwok-Yan Lam"
   ],
-  "affiliation": "",
+  "affiliation": "Nanyang Technological University",
   "summary": "",
   "links": {
-   "openreview": "",
+   "openreview": "https://openreview.net/forum?id=yglphSefi0",
    "arxiv": "",
-   "detail": "https://icml.cc/virtual/2026/oral/71160"
+   "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2026-oral-24",
-   "conference": "NeurIPS",
-   "year": 2026,
-   "track": "Oral",
-   "title": "Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data",
-   "authors": [
-    "Linru Zhang",
-    "Jun Jie Sim",
-    "Xiangning Wang",
-    "Jiahao Zhong",
-    "Kaiyu Zhou",
-    "Huanyi Ye",
-    "Yongsen Zheng",
-    "Lushan Song",
-    "Xiaojian Liang",
-    "Yingting Liu",
-    "Yujing Sun",
-    "Huaxiong Wang",
-    "Pu Duan",
-    "Kwok-Yan Lam"
-   ],
-   "affiliation": "Nanyang Technological University",
-   "summary": "",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=yglphSefi0",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "icml-2026-oral-88",
    "conference": "ICML",
@@ -132,6 +108,30 @@
    "summary": "Data diversity is crucial for training a strong language model",
    "links": {
     "openreview": "https://openreview.net/forum?id=R0dC7Xzwbk",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-163",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "ARIA: Training Language Agents with Intention-driven Reward Aggregation",
+   "authors": [
+    "Ruihan Yang",
+    "Yikai Zhang",
+    "Aili Chen",
+    "Xintao Wang",
+    "Jiangjie Chen",
+    "Siyu Yuan",
+    "Deqing Yang",
+    "Yanghua Xiao"
+   ],
+   "affiliation": "",
+   "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
     "arxiv": "",
     "detail": ""
    }
