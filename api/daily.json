@@ -1,66 +1,41 @@
 {
  "schema_version": 1,
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 325,
-  "position": 325,
+  "day_index": 326,
+  "position": 326,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-553",
+  "uid": "neurips-2025-spotlight-107",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Physics-Driven Spatiotemporal Modeling for AI-Generated Video Detection",
+  "title": "Prismatic Synthesis: Gradient-based Data Diversification Boosts Generalization in LLM Reasoning",
   "authors": [
-   "Shuhai Zhang",
-   "ZiHao Lian",
-   "Jiahao Yang",
-   "Daiyuan Li",
-   "Guoxuan Pang",
-   "Feng Liu",
-   "Bo Han",
-   "Shutao Li",
-   "Mingkui Tan"
+   "Jaehun Jung",
+   "Seungju Han",
+   "Ximing Lu",
+   "Skyler Hallinan",
+   "David Acuna",
+   "Shrimai Prabhumoye",
+   "Mostofa Patwary",
+   "Mohammad Shoeybi",
+   "Bryan Catanzaro",
+   "Yejin Choi"
   ],
   "affiliation": "",
-  "summary": "AI-generated videos have achieved near-perfect visual realism (e",
+  "summary": "Data diversity is crucial for training a strong language model",
   "links": {
-   "openreview": "https://openreview.net/forum?id=HiBoJLCyEo",
+   "openreview": "https://openreview.net/forum?id=R0dC7Xzwbk",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-107",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Prismatic Synthesis: Gradient-based Data Diversification Boosts Generalization in LLM Reasoning",
-   "authors": [
-    "Jaehun Jung",
-    "Seungju Han",
-    "Ximing Lu",
-    "Skyler Hallinan",
-    "David Acuna",
-    "Shrimai Prabhumoye",
-    "Mostofa Patwary",
-    "Mohammad Shoeybi",
-    "Bryan Catanzaro",
-    "Yejin Choi"
-   ],
-   "affiliation": "",
-   "summary": "Data diversity is crucial for training a strong language model",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=R0dC7Xzwbk",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-spotlight-163",
    "conference": "NeurIPS",
@@ -133,6 +108,26 @@
    "summary": "",
    "links": {
     "openreview": "https://openreview.net/forum?id=0Hg7gv5gwK",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-oral-47",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Oral",
+   "title": "Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain",
+   "authors": [
+    "Trinity Chung",
+    "Yuchen Shen",
+    "Nathan Kong",
+    "Aran Nayebi"
+   ],
+   "affiliation": "",
+   "summary": "Task-optimized convolutional recurrent neural networks trained on realistic tactile inputs align with rodent somatosensory data, suggesting brain tactile processing uses temporally-precise representations shaped by categorization-driven optimization.",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=m7MD0sa8Re",
     "arxiv": "",
     "detail": ""
    }
