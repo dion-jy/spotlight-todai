@@ -1,65 +1,39 @@
 {
  "schema_version": 1,
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 326,
-  "position": 326,
+  "day_index": 327,
+  "position": 327,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-spotlight-107",
+  "uid": "neurips-2025-spotlight-163",
   "conference": "NeurIPS",
   "year": 2025,
   "track": "Spotlight",
-  "title": "Prismatic Synthesis: Gradient-based Data Diversification Boosts Generalization in LLM Reasoning",
+  "title": "ARIA: Training Language Agents with Intention-driven Reward Aggregation",
   "authors": [
-   "Jaehun Jung",
-   "Seungju Han",
-   "Ximing Lu",
-   "Skyler Hallinan",
-   "David Acuna",
-   "Shrimai Prabhumoye",
-   "Mostofa Patwary",
-   "Mohammad Shoeybi",
-   "Bryan Catanzaro",
-   "Yejin Choi"
+   "Ruihan Yang",
+   "Yikai Zhang",
+   "Aili Chen",
+   "Xintao Wang",
+   "Jiangjie Chen",
+   "Siyu Yuan",
+   "Deqing Yang",
+   "Yanghua Xiao"
   ],
   "affiliation": "",
-  "summary": "Data diversity is crucial for training a strong language model",
+  "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
   "links": {
-   "openreview": "https://openreview.net/forum?id=R0dC7Xzwbk",
+   "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-163",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "ARIA: Training Language Agents with Intention-driven Reward Aggregation",
-   "authors": [
-    "Ruihan Yang",
-    "Yikai Zhang",
-    "Aili Chen",
-    "Xintao Wang",
-    "Jiangjie Chen",
-    "Siyu Yuan",
-    "Deqing Yang",
-    "Yanghua Xiao"
-   ],
-   "affiliation": "",
-   "summary": "Large language models (LLMs) have enabled agents to perform complex reasoning and decision-making through free-form language interactions",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=eumRwpgdMU",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-215",
    "conference": "ICLR",
@@ -128,6 +102,26 @@
    "summary": "Task-optimized convolutional recurrent neural networks trained on realistic tactile inputs align with rodent somatosensory data, suggesting brain tactile processing uses temporally-precise representations shaped by categorization-driven optimization.",
    "links": {
     "openreview": "https://openreview.net/forum?id=m7MD0sa8Re",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-374",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
+   "authors": [
+    "Artem Lukoianov",
+    "Chenyang Yuan",
+    "Justin Solomon",
+    "Vincent Sitzmann"
+   ],
+   "affiliation": "",
+   "summary": "Recent work has shown that the generalization ability of image diffusion models arises from the locality properties of the trained neural network",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=skunuOdavO",
     "arxiv": "",
     "detail": ""
    }
