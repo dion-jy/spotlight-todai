@@ -1,67 +1,44 @@
 {
  "schema_version": 1,
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 328,
-  "position": 328,
+  "day_index": 329,
+  "position": 329,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "iclr-2026-oral-215",
-  "conference": "ICLR",
+  "uid": "neurips-2026-spotlight-334",
+  "conference": "NeurIPS",
   "year": 2026,
-  "track": "Oral",
-  "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
+  "track": "Spotlight",
+  "title": "Revisiting Embodied Chain-of-Thought for Generalizable Robot Manipulation",
   "authors": [
-   "Junlin Han",
-   "Shengbang Tong",
-   "David Fan",
-   "Yufan Ren",
-   "Koustuv Sinha",
-   "Philip Torr",
-   "Filippos Kokkinos"
+   "Nan Sun",
+   "Yuan Zhang",
+   "Yongkun Yang",
+   "Wentao Zhao",
+   "Peiyan Li",
+   "Jun Guo",
+   "Wenxuan Song",
+   "Pengxiang Ding",
+   "Runze Suo",
+   "Yifei Su",
+   "Xin Xiao",
+   "Xinghang Li",
+   "Huaping Liu"
   ],
-  "affiliation": "University of Oxford",
-  "summary": "Explore and understand the visual priors within LLMs and thus build better MLLMs.",
+  "affiliation": "Tsinghua University",
+  "summary": "",
   "links": {
-   "openreview": "https://openreview.net/forum?id=pfw176o1YJ",
+   "openreview": "https://openreview.net/forum?id=0Hg7gv5gwK",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2026-spotlight-334",
-   "conference": "NeurIPS",
-   "year": 2026,
-   "track": "Spotlight",
-   "title": "Revisiting Embodied Chain-of-Thought for Generalizable Robot Manipulation",
-   "authors": [
-    "Nan Sun",
-    "Yuan Zhang",
-    "Yongkun Yang",
-    "Wentao Zhao",
-    "Peiyan Li",
-    "Jun Guo",
-    "Wenxuan Song",
-    "Pengxiang Ding",
-    "Runze Suo",
-    "Yifei Su",
-    "Xin Xiao",
-    "Xinghang Li",
-    "Huaping Liu"
-   ],
-   "affiliation": "Tsinghua University",
-   "summary": "",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=0Hg7gv5gwK",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "neurips-2025-oral-47",
    "conference": "NeurIPS",
@@ -118,6 +95,25 @@
    "summary": "We introduce a GPU-friendly algorithm for computing the polar decomposition of a matrix to low accuracy that is optimal in its class. This improves Muon.",
    "links": {
     "openreview": "https://openreview.net/forum?id=yRtgZ1K8hO",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2025-spotlight-198",
+   "conference": "NeurIPS",
+   "year": 2025,
+   "track": "Spotlight",
+   "title": "SGCD: Stain-Guided CycleDiffusion for Unsupervised Domain Adaptation of Histopathology Image Classification",
+   "authors": [
+    "Hsi-Ling Chen",
+    "Chun-Shien Lu",
+    "Pau-Choo Chung"
+   ],
+   "affiliation": "",
+   "summary": "The effectiveness of domain translation in addressing image-based problems of Unsupervised Domain Adaptation (UDA) depends on the quality of the translated images and the preservation of crucial discr",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=z2SGaPIhLT",
     "arxiv": "",
     "detail": ""
    }
