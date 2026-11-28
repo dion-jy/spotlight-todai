@@ -1,55 +1,35 @@
 {
  "schema_version": 1,
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "timezone": "Asia/Seoul",
  "rotation": {
-  "day_index": 330,
-  "position": 330,
+  "day_index": 331,
+  "position": 331,
   "cycle_length_days": 1634,
   "epoch": "2026-01-01",
   "method": "stable-hash permutation walked by days-since-epoch; reproducible & non-repeating"
  },
  "paper": {
-  "uid": "neurips-2025-oral-47",
+  "uid": "neurips-2025-spotlight-374",
   "conference": "NeurIPS",
   "year": 2025,
-  "track": "Oral",
-  "title": "Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain",
+  "track": "Spotlight",
+  "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
   "authors": [
-   "Trinity Chung",
-   "Yuchen Shen",
-   "Nathan Kong",
-   "Aran Nayebi"
+   "Artem Lukoianov",
+   "Chenyang Yuan",
+   "Justin Solomon",
+   "Vincent Sitzmann"
   ],
   "affiliation": "",
-  "summary": "Task-optimized convolutional recurrent neural networks trained on realistic tactile inputs align with rodent somatosensory data, suggesting brain tactile processing uses temporally-precise representations shaped by categorization-driven optimization.",
+  "summary": "Recent work has shown that the generalization ability of image diffusion models arises from the locality properties of the trained neural network",
   "links": {
-   "openreview": "https://openreview.net/forum?id=m7MD0sa8Re",
+   "openreview": "https://openreview.net/forum?id=skunuOdavO",
    "arxiv": "",
    "detail": ""
   }
  },
  "candidates": [
-  {
-   "uid": "neurips-2025-spotlight-374",
-   "conference": "NeurIPS",
-   "year": 2025,
-   "track": "Spotlight",
-   "title": "Locality in Image Diffusion Models Emerges from Data Statistics",
-   "authors": [
-    "Artem Lukoianov",
-    "Chenyang Yuan",
-    "Justin Solomon",
-    "Vincent Sitzmann"
-   ],
-   "affiliation": "",
-   "summary": "Recent work has shown that the generalization ability of image diffusion models arises from the locality properties of the trained neural network",
-   "links": {
-    "openreview": "https://openreview.net/forum?id=skunuOdavO",
-    "arxiv": "",
-    "detail": ""
-   }
-  },
   {
    "uid": "iclr-2026-oral-191",
    "conference": "ICLR",
@@ -105,6 +85,27 @@
    "summary": "We study the complexity of learning real-valued Multi-Index Models (MIMs) under the Gaussian distribution",
    "links": {
     "openreview": "https://openreview.net/forum?id=cD4whTwm6G",
+    "arxiv": "",
+    "detail": ""
+   }
+  },
+  {
+   "uid": "neurips-2026-spotlight-259",
+   "conference": "NeurIPS",
+   "year": 2026,
+   "track": "Spotlight",
+   "title": "Beyond Linear Decoders: Dynamic Expert-Coupled Optimal Decoding for Time Series Forecasting",
+   "authors": [
+    "Binwu Wang",
+    "Zhipeng Liu",
+    "Zhengyang Zhou",
+    "Pengkun Wang",
+    "Yang Wang"
+   ],
+   "affiliation": "University of Science and Technology of China",
+   "summary": "",
+   "links": {
+    "openreview": "https://openreview.net/forum?id=IVoznSuKtE",
     "arxiv": "",
     "detail": ""
    }
